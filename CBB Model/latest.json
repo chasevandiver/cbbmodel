@@ -1,0 +1,15 @@
+{
+  "generated_at": null,
+  "date": null,
+  "total_games": 0,
+  "model_version": "2.2.0",
+  "picks": [],
+  "summary": {
+    "total_games": 0,
+    "high_confidence": 0,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "avg_confidence": 0,
+    "value_plays": 0
+  }
+}
