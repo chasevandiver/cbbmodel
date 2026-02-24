@@ -895,6 +895,9 @@ export default function App() {
 
   const displayDate = (() => {
     const d = data.date;
+    if (!d) return new Date().toLocaleDateString("en-US", {
+      weekday: "long", month: "long", day: "numeric", year: "numeric",
+    });
     const year = d.slice(0, 4);
     const month = d.slice(4, 6);
     const day = d.slice(6, 8);
