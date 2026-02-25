@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T18:04:28.264009",
+  "generated_at": "2026-02-24T18:32:20.983678",
   "date": "20260224",
   "total_games": 32,
   "model_version": "2.3.0",
@@ -92,14 +92,14 @@
         "sos": -0.02
       },
       "market": {
-        "spread": -13.5,
-        "over_under": 155.5,
+        "spread": -8.5,
+        "over_under": 150.5,
         "spread_holder": "Toledo Rockets"
       },
-      "value_rating": 1.2,
+      "value_rating": 3.8,
       "model_vs_market": {
-        "spread_edge": -1.2,
-        "total_edge": -8.5
+        "spread_edge": 3.8,
+        "total_edge": -3.5
       }
     },
     {
@@ -141,14 +141,14 @@
         "sos": -0.0
       },
       "market": {
-        "spread": -16.5,
-        "over_under": 157.5,
+        "spread": -8.5,
+        "over_under": 165.5,
         "spread_holder": "Akron Zips"
       },
-      "value_rating": 4.3,
+      "value_rating": 3.7,
       "model_vs_market": {
-        "spread_edge": -4.3,
-        "total_edge": 2.5
+        "spread_edge": 3.7,
+        "total_edge": -5.5
       }
     },
     {
@@ -239,14 +239,14 @@
         "sos": -0.01
       },
       "market": {
-        "spread": -12.5,
-        "over_under": 152.5,
+        "spread": -9.5,
+        "over_under": 156.5,
         "spread_holder": "Bowling Green Falcons"
       },
-      "value_rating": 2.0,
+      "value_rating": 1.0,
       "model_vs_market": {
-        "spread_edge": -2.0,
-        "total_edge": -4.0
+        "spread_edge": 1.0,
+        "total_edge": -8.0
       }
     },
     {
@@ -288,14 +288,14 @@
         "sos": -0.02
       },
       "market": {
-        "spread": 16.5,
-        "over_under": 141.5,
+        "spread": 24.5,
+        "over_under": 147.5,
         "spread_holder": "Duke Blue Devils"
       },
-      "value_rating": 5.8,
+      "value_rating": 13.8,
       "model_vs_market": {
-        "spread_edge": -5.8,
-        "total_edge": 3.2
+        "spread_edge": -13.8,
+        "total_edge": -2.8
       }
     },
     {
@@ -387,62 +387,13 @@
       },
       "market": {
         "spread": -11.5,
-        "over_under": 135.5,
+        "over_under": 121.5,
         "spread_holder": "Troy Trojans"
       },
       "value_rating": 2.8,
       "model_vs_market": {
         "spread_edge": -2.8,
-        "total_edge": 2.7
-      }
-    },
-    {
-      "game_id": "401814581",
-      "date": "2026-02-25T00:00Z",
-      "home_team": "Kent State Golden Flashes",
-      "away_team": "Central Michigan Chippewas",
-      "home_abbr": "KENT",
-      "away_abbr": "CMU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "20-7",
-      "away_record": "9-18",
-      "venue": "M.A.C. Center",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "ESPN+",
-      "predicted_spread": 8.2,
-      "predicted_total": 151.5,
-      "home_projected_score": 79.8,
-      "away_projected_score": 71.6,
-      "home_win_prob": 67.8,
-      "away_win_prob": 32.2,
-      "confidence": 63.4,
-      "pick": "Kent State Golden Flashes",
-      "pick_abbr": "KENT",
-      "factors": {
-        "efficiency_margin": 6.06,
-        "four_factors": 0.0,
-        "home_court": 3.5,
-        "recent_form": -1.41,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
-        "three_point": 0.0,
-        "free_throw": 0.0,
-        "experience": 0.0,
-        "sos": 0.04
-      },
-      "market": {
-        "spread": -11.5,
-        "over_under": 156.5,
-        "spread_holder": "Kent State Golden Flashes"
-      },
-      "value_rating": 3.3,
-      "model_vs_market": {
-        "spread_edge": -3.3,
-        "total_edge": -5.0
+        "total_edge": 16.7
       }
     },
     {
@@ -484,14 +435,14 @@
         "sos": 0.02
       },
       "market": {
-        "spread": -5.5,
-        "over_under": 147.5,
+        "spread": -2.5,
+        "over_under": 154.5,
         "spread_holder": "Texas Tech Red Raiders"
       },
-      "value_rating": 4.5,
+      "value_rating": 7.5,
       "model_vs_market": {
-        "spread_edge": 4.5,
-        "total_edge": -5.1
+        "spread_edge": 7.5,
+        "total_edge": -12.1
       }
     },
     {
@@ -582,14 +533,14 @@
         "sos": 0.01
       },
       "market": {
-        "spread": -9.5,
-        "over_under": 141.5,
+        "spread": -14.5,
+        "over_under": 151.5,
         "spread_holder": "Indiana Hoosiers"
       },
-      "value_rating": 0.7,
+      "value_rating": 5.7,
       "model_vs_market": {
-        "spread_edge": -0.7,
-        "total_edge": 8.2
+        "spread_edge": -5.7,
+        "total_edge": -1.8
       }
     },
     {
@@ -631,14 +582,14 @@
         "sos": -0.04
       },
       "market": {
-        "spread": 16.5,
-        "over_under": 140.5,
+        "spread": 24.5,
+        "over_under": 143.5,
         "spread_holder": "Miami (OH) RedHawks"
       },
-      "value_rating": 11.3,
+      "value_rating": 19.3,
       "model_vs_market": {
-        "spread_edge": -11.3,
-        "total_edge": 8.9
+        "spread_edge": -19.3,
+        "total_edge": 5.9
       }
     },
     {
@@ -680,13 +631,13 @@
         "sos": -0.01
       },
       "market": {
-        "spread": -12.5,
+        "spread": -13.5,
         "over_under": 162.5,
         "spread_holder": "BYU Cougars"
       },
-      "value_rating": 3.9,
+      "value_rating": 4.9,
       "model_vs_market": {
-        "spread_edge": -3.9,
+        "spread_edge": -4.9,
         "total_edge": 1.4
       }
     },
@@ -974,14 +925,63 @@
         "sos": 0.02
       },
       "market": {
-        "spread": 11.5,
-        "over_under": 143.5,
+        "spread": 7.5,
+        "over_under": 140.5,
         "spread_holder": "Washington Huskies"
       },
-      "value_rating": 8.3,
+      "value_rating": 4.3,
       "model_vs_market": {
-        "spread_edge": -8.3,
-        "total_edge": 2.0
+        "spread_edge": -4.3,
+        "total_edge": 5.0
+      }
+    },
+    {
+      "game_id": "401814581",
+      "date": "2026-02-25T00:00Z",
+      "home_team": "Kent State Golden Flashes",
+      "away_team": "Central Michigan Chippewas",
+      "home_abbr": "KENT",
+      "away_abbr": "CMU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "20-7",
+      "away_record": "9-18",
+      "venue": "M.A.C. Center",
+      "neutral_site": false,
+      "conference_game": true,
+      "broadcast": "ESPN+",
+      "predicted_spread": 8.2,
+      "predicted_total": 151.5,
+      "home_projected_score": 79.8,
+      "away_projected_score": 71.6,
+      "home_win_prob": 67.8,
+      "away_win_prob": 32.2,
+      "confidence": 50.4,
+      "pick": "Kent State Golden Flashes",
+      "pick_abbr": "KENT",
+      "factors": {
+        "efficiency_margin": 6.06,
+        "four_factors": 0.0,
+        "home_court": 3.5,
+        "recent_form": -1.41,
+        "turnover_margin": 0.0,
+        "rebounding": 0.0,
+        "three_point": 0.0,
+        "free_throw": 0.0,
+        "experience": 0.0,
+        "sos": 0.04
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 156.5,
+        "spread_holder": "Central Michigan Chippewas"
+      },
+      "value_rating": 9.7,
+      "model_vs_market": {
+        "spread_edge": 9.7,
+        "total_edge": -5.0
       }
     },
     {
@@ -1023,14 +1023,14 @@
         "sos": 0.0
       },
       "market": {
-        "spread": 3.5,
-        "over_under": 143.5,
+        "spread": 11.5,
+        "over_under": 135.5,
         "spread_holder": "Massachusetts Minutemen"
       },
-      "value_rating": 0.7,
+      "value_rating": 8.7,
       "model_vs_market": {
-        "spread_edge": -0.7,
-        "total_edge": -1.2
+        "spread_edge": -8.7,
+        "total_edge": 6.8
       }
     },
     {
@@ -1121,14 +1121,14 @@
         "sos": 0.03
       },
       "market": {
-        "spread": -6.5,
-        "over_under": 160.5,
+        "spread": -13.5,
+        "over_under": 170.5,
         "spread_holder": "Marshall Thundering Herd"
       },
-      "value_rating": 1.7,
+      "value_rating": 8.7,
       "model_vs_market": {
-        "spread_edge": -1.7,
-        "total_edge": -5.4
+        "spread_edge": -8.7,
+        "total_edge": -15.4
       }
     },
     {
@@ -1170,14 +1170,14 @@
         "sos": -0.01
       },
       "market": {
-        "spread": 7.5,
-        "over_under": 152.5,
+        "spread": 10.5,
+        "over_under": 137.5,
         "spread_holder": "Kentucky Wildcats"
       },
-      "value_rating": 5.3,
+      "value_rating": 8.3,
       "model_vs_market": {
-        "spread_edge": -5.3,
-        "total_edge": -4.2
+        "spread_edge": -8.3,
+        "total_edge": 10.8
       }
     },
     {
@@ -1268,14 +1268,14 @@
         "sos": 0.01
       },
       "market": {
-        "spread": -1.5,
-        "over_under": 155.5,
+        "spread": -3.5,
+        "over_under": 152.5,
         "spread_holder": "Georgetown Hoyas"
       },
-      "value_rating": 2.6,
+      "value_rating": 0.6,
       "model_vs_market": {
-        "spread_edge": 2.6,
-        "total_edge": -7.8
+        "spread_edge": 0.6,
+        "total_edge": -4.8
       }
     },
     {
@@ -1317,14 +1317,14 @@
         "sos": 0.01
       },
       "market": {
-        "spread": -1.5,
-        "over_under": 144.5,
+        "spread": -2.5,
+        "over_under": 151.5,
         "spread_holder": "Oklahoma St Cowboys"
       },
-      "value_rating": 2.0,
+      "value_rating": 1.0,
       "model_vs_market": {
-        "spread_edge": 2.0,
-        "total_edge": -3.4
+        "spread_edge": 1.0,
+        "total_edge": -10.4
       }
     },
     {
@@ -1578,7 +1578,7 @@
     "high_confidence": 6,
     "medium_confidence": 22,
     "low_confidence": 4,
-    "avg_confidence": 56.2,
-    "value_plays": 14
+    "avg_confidence": 55.8,
+    "value_plays": 18
   }
 }
