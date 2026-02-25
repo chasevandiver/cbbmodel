@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T17:31:33.585449",
+  "generated_at": "2026-02-25T17:40:51.286110",
   "date": "20260225",
   "total_games": 45,
   "model_version": "2.1.0",
@@ -32,15 +32,15 @@
       "pick_abbr": "NKU",
       "factors": {
         "efficiency_margin": -21.42,
-        "four_factors": 0.0,
+        "four_factors": -30.31,
         "home_court": 3.5,
         "recent_form": 2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -22.01,
+        "rebounding": -1.12,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 3.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.12
       },
       "market": {
         "spread": 8.5,
@@ -81,15 +81,15 @@
       "pick_abbr": "ETSU",
       "factors": {
         "efficiency_margin": 22.31,
-        "four_factors": 0.0,
+        "four_factors": 43.13,
         "home_court": 3.5,
         "recent_form": -2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 28.35,
+        "rebounding": 1.82,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -3.05,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.16
       },
       "market": {
         "spread": -7.5,
@@ -130,15 +130,15 @@
       "pick_abbr": "BEL",
       "factors": {
         "efficiency_margin": 16.52,
-        "four_factors": 0.0,
+        "four_factors": -10.04,
         "home_court": 3.5,
         "recent_form": -2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -3.53,
+        "rebounding": -1.08,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.51,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.28
       },
       "market": {
         "spread": -18.5,
@@ -179,15 +179,15 @@
       "pick_abbr": "GONZ",
       "factors": {
         "efficiency_margin": 19.24,
-        "four_factors": 0.0,
+        "four_factors": 11.58,
         "home_court": 3.5,
         "recent_form": -2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 0.58,
+        "rebounding": 1.89,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.41,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.2
       },
       "market": {
         "spread": -26.5,
@@ -228,25 +228,25 @@
       "pick_abbr": "FUR",
       "factors": {
         "efficiency_margin": 12.79,
-        "four_factors": 0.0,
+        "four_factors": 1.88,
         "home_court": 3.5,
         "recent_form": -2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -0.81,
+        "rebounding": 0.35,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.09,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.06
       },
       "market": {
-        "spread": -10.5,
-        "over_under": 143.5,
+        "spread": -13.5,
+        "over_under": 141.5,
         "spread_holder": "Furman Paladins"
       },
-      "value_rating": 3.8,
+      "value_rating": 0.8,
       "model_vs_market": {
-        "spread_edge": 3.8,
-        "total_edge": -6.9
+        "spread_edge": 0.8,
+        "total_edge": -4.9
       }
     },
     {
@@ -277,25 +277,25 @@
       "pick_abbr": "NEB",
       "factors": {
         "efficiency_margin": 14.75,
-        "four_factors": 0.0,
+        "four_factors": -5.32,
         "home_court": 3.5,
         "recent_form": -2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -1.08,
+        "rebounding": -0.98,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.65,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.08
       },
       "market": {
         "spread": -16.5,
-        "over_under": 140.5,
+        "over_under": 142.5,
         "spread_holder": "Nebraska Cornhuskers"
       },
       "value_rating": 0.2,
       "model_vs_market": {
         "spread_edge": -0.2,
-        "total_edge": -0.1
+        "total_edge": -2.1
       }
     },
     {
@@ -326,15 +326,15 @@
       "pick_abbr": "ALA",
       "factors": {
         "efficiency_margin": 11.78,
-        "four_factors": 0.0,
+        "four_factors": 13.75,
         "home_court": 3.5,
         "recent_form": -2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 1.52,
+        "rebounding": 2.05,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.53,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.23
       },
       "market": {
         "spread": -12.5,
@@ -345,6 +345,55 @@
       "model_vs_market": {
         "spread_edge": 0.8,
         "total_edge": -16.8
+      }
+    },
+    {
+      "game_id": "401817684",
+      "date": "2026-02-25T23:30Z",
+      "home_team": "IU Indianapolis Jaguars",
+      "away_team": "Oakland Golden Grizzlies",
+      "home_abbr": "IUIN",
+      "away_abbr": "OAK",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/85.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2473.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "7-22",
+      "away_record": "15-14",
+      "venue": "The Jungle",
+      "neutral_site": false,
+      "conference_game": true,
+      "broadcast": "ESPN+",
+      "predicted_spread": 15.9,
+      "predicted_total": 156.9,
+      "home_projected_score": 86.4,
+      "away_projected_score": 70.5,
+      "home_win_prob": 94.8,
+      "away_win_prob": 5.2,
+      "confidence": 85,
+      "pick": "IU Indianapolis Jaguars",
+      "pick_abbr": "IUIN",
+      "factors": {
+        "efficiency_margin": 14.41,
+        "four_factors": 9.95,
+        "home_court": 3.5,
+        "recent_form": -2.0,
+        "turnover_margin": 18.73,
+        "rebounding": -2.32,
+        "three_point": 0.0,
+        "free_throw": -1.61,
+        "experience": 0.0,
+        "sos": -0.16
+      },
+      "market": {
+        "spread": 0,
+        "over_under": 0,
+        "spread_holder": ""
+      },
+      "value_rating": 15.9,
+      "model_vs_market": {
+        "spread_edge": 15.9,
+        "total_edge": null
       }
     },
     {
@@ -375,74 +424,25 @@
       "pick_abbr": "ORST",
       "factors": {
         "efficiency_margin": 7.9,
-        "four_factors": 0.0,
+        "four_factors": 25.29,
         "home_court": 3.5,
         "recent_form": -0.44,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 12.99,
+        "rebounding": 1.7,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -1.88,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.03
       },
       "market": {
-        "spread": -7.5,
+        "spread": -6.5,
         "over_under": 142.5,
         "spread_holder": "Oregon St Beavers"
       },
-      "value_rating": 3.5,
+      "value_rating": 4.5,
       "model_vs_market": {
-        "spread_edge": 3.5,
+        "spread_edge": 4.5,
         "total_edge": 2.6
-      }
-    },
-    {
-      "game_id": "401817684",
-      "date": "2026-02-25T23:30Z",
-      "home_team": "IU Indianapolis Jaguars",
-      "away_team": "Oakland Golden Grizzlies",
-      "home_abbr": "IUIN",
-      "away_abbr": "OAK",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/85.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2473.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "7-22",
-      "away_record": "15-14",
-      "venue": "The Jungle",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "ESPN+",
-      "predicted_spread": 15.9,
-      "predicted_total": 156.9,
-      "home_projected_score": 86.4,
-      "away_projected_score": 70.5,
-      "home_win_prob": 94.8,
-      "away_win_prob": 5.2,
-      "confidence": 80,
-      "pick": "IU Indianapolis Jaguars",
-      "pick_abbr": "IUIN",
-      "factors": {
-        "efficiency_margin": 14.41,
-        "four_factors": 0.0,
-        "home_court": 3.5,
-        "recent_form": -2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
-        "three_point": 0.0,
-        "free_throw": 0.0,
-        "experience": 0.0,
-        "sos": 0.0
-      },
-      "market": {
-        "spread": 5.5,
-        "over_under": 168.5,
-        "spread_holder": ""
-      },
-      "value_rating": 21.4,
-      "model_vs_market": {
-        "spread_edge": 21.4,
-        "total_edge": -11.6
       }
     },
     {
@@ -473,15 +473,15 @@
       "pick_abbr": "WGA",
       "factors": {
         "efficiency_margin": 15.69,
-        "four_factors": 0.0,
+        "four_factors": 27.07,
         "home_court": 3.5,
         "recent_form": -1.88,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 26.03,
+        "rebounding": -0.71,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -1.92,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.01
       },
       "market": {
         "spread": 5.5,
@@ -522,15 +522,15 @@
       "pick_abbr": "USF",
       "factors": {
         "efficiency_margin": -12.19,
-        "four_factors": 0.0,
+        "four_factors": -13.57,
         "home_court": 3.5,
         "recent_form": 2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -4.15,
+        "rebounding": -1.34,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.44,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.13
       },
       "market": {
         "spread": 11.5,
@@ -571,15 +571,15 @@
       "pick_abbr": "SIU",
       "factors": {
         "efficiency_margin": 9.59,
-        "four_factors": 0.0,
+        "four_factors": 9.19,
         "home_court": 3.5,
         "recent_form": -2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 0.78,
+        "rebounding": 1.43,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.21,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.01
       },
       "market": {
         "spread": -7.5,
@@ -620,15 +620,15 @@
       "pick_abbr": "COLG",
       "factors": {
         "efficiency_margin": 6.45,
-        "four_factors": 0.0,
+        "four_factors": 0.59,
         "home_court": 3.5,
         "recent_form": -1.27,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -0.78,
+        "rebounding": 0.54,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.43,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.15
       },
       "market": {
         "spread": -8.5,
@@ -669,25 +669,25 @@
       "pick_abbr": "SEA",
       "factors": {
         "efficiency_margin": -9.86,
-        "four_factors": 0.0,
+        "four_factors": 2.47,
         "home_court": 3.5,
         "recent_form": 2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 1.98,
+        "rebounding": 0.03,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.13,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.03
       },
       "market": {
         "spread": 6.5,
-        "over_under": 146.5,
+        "over_under": 145.5,
         "spread_holder": "Seattle Redhawks"
       },
       "value_rating": 2.1,
       "model_vs_market": {
         "spread_edge": -2.1,
-        "total_edge": -14.2
+        "total_edge": -13.2
       }
     },
     {
@@ -718,15 +718,15 @@
       "pick_abbr": "ILST",
       "factors": {
         "efficiency_margin": -16.85,
-        "four_factors": 0.0,
+        "four_factors": -23.3,
         "home_court": 3.5,
         "recent_form": 2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -14.88,
+        "rebounding": -1.28,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 2.38,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.05
       },
       "market": {
         "spread": -4.5,
@@ -767,15 +767,15 @@
       "pick_abbr": "WSU",
       "factors": {
         "efficiency_margin": -9.66,
-        "four_factors": 0.0,
+        "four_factors": -21.88,
         "home_court": 3.5,
         "recent_form": 0.79,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -11.8,
+        "rebounding": -1.34,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 1.72,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.09
       },
       "market": {
         "spread": 1.5,
@@ -816,15 +816,15 @@
       "pick_abbr": "VAN",
       "factors": {
         "efficiency_margin": 6.25,
-        "four_factors": 0.0,
+        "four_factors": 9.96,
         "home_court": 3.5,
         "recent_form": -1.11,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 1.08,
+        "rebounding": 1.36,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.2,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.13
       },
       "market": {
         "spread": -7.5,
@@ -865,15 +865,15 @@
       "pick_abbr": "VILL",
       "factors": {
         "efficiency_margin": 5.6,
-        "four_factors": 0.0,
+        "four_factors": 3.95,
         "home_court": 3.5,
         "recent_form": -1.21,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 0.1,
+        "rebounding": 0.62,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.01,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.18
       },
       "market": {
         "spread": -10.5,
@@ -914,15 +914,15 @@
       "pick_abbr": "VAL",
       "factors": {
         "efficiency_margin": 4.18,
-        "four_factors": 0.0,
+        "four_factors": 1.18,
         "home_court": 3.5,
         "recent_form": -1.01,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 0.55,
+        "rebounding": 0.2,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.21,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.09
       },
       "market": {
         "spread": -2.5,
@@ -963,15 +963,15 @@
       "pick_abbr": "AMER",
       "factors": {
         "efficiency_margin": 4.36,
-        "four_factors": 0.0,
+        "four_factors": 1.16,
         "home_court": 3.5,
         "recent_form": -1.05,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -0.22,
+        "rebounding": 0.28,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.11,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.05
       },
       "market": {
         "spread": -6.5,
@@ -1012,15 +1012,15 @@
       "pick_abbr": "BU",
       "factors": {
         "efficiency_margin": 4.87,
-        "four_factors": 0.0,
+        "four_factors": -4.2,
         "home_court": 3.5,
         "recent_form": -1.62,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -1.52,
+        "rebounding": -0.45,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.24,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.14
       },
       "market": {
         "spread": -8.5,
@@ -1061,15 +1061,15 @@
       "pick_abbr": "JMU",
       "factors": {
         "efficiency_margin": 3.42,
-        "four_factors": 0.0,
+        "four_factors": 9.62,
         "home_court": 3.5,
         "recent_form": -0.43,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 2.48,
+        "rebounding": 1.07,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.34,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.02
       },
       "market": {
         "spread": -5.5,
@@ -1110,15 +1110,15 @@
       "pick_abbr": "STAN",
       "factors": {
         "efficiency_margin": 3.7,
-        "four_factors": 0.0,
+        "four_factors": -0.13,
         "home_court": 3.5,
         "recent_form": -1.02,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -0.79,
+        "rebounding": -0.06,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.3,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.18
       },
       "market": {
         "spread": -7.5,
@@ -1159,15 +1159,15 @@
       "pick_abbr": "WIS",
       "factors": {
         "efficiency_margin": -9.92,
-        "four_factors": 0.0,
+        "four_factors": 5.06,
         "home_court": 3.5,
         "recent_form": 2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 0.56,
+        "rebounding": 0.68,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.03,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.18
       },
       "market": {
         "spread": 5.5,
@@ -1208,15 +1208,15 @@
       "pick_abbr": "ARK",
       "factors": {
         "efficiency_margin": 3.81,
-        "four_factors": 0.0,
+        "four_factors": 12.14,
         "home_court": 3.5,
         "recent_form": -0.01,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 2.38,
+        "rebounding": 1.7,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.63,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.05
       },
       "market": {
         "spread": -7.5,
@@ -1257,15 +1257,15 @@
       "pick_abbr": "RMU",
       "factors": {
         "efficiency_margin": 2.96,
-        "four_factors": 0.0,
+        "four_factors": -5.86,
         "home_court": 3.5,
         "recent_form": -0.95,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -0.56,
+        "rebounding": -1.06,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.31,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.07
       },
       "market": {
         "spread": -7.5,
@@ -1306,24 +1306,24 @@
       "pick_abbr": "CREI",
       "factors": {
         "efficiency_margin": 1.82,
-        "four_factors": 0.0,
+        "four_factors": 14.05,
         "home_court": 3.5,
         "recent_form": 0.47,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 2.26,
+        "rebounding": 2.05,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.66,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.07
       },
       "market": {
-        "spread": -3.5,
+        "spread": -4.5,
         "over_under": 142.5,
         "spread_holder": "Creighton Bluejays"
       },
-      "value_rating": 2.3,
+      "value_rating": 1.3,
       "model_vs_market": {
-        "spread_edge": 2.3,
+        "spread_edge": 1.3,
         "total_edge": -1.6
       }
     },
@@ -1355,15 +1355,15 @@
       "pick_abbr": "PROV",
       "factors": {
         "efficiency_margin": 2.68,
-        "four_factors": 0.0,
+        "four_factors": -3.38,
         "home_court": 3.5,
         "recent_form": -0.72,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -0.34,
+        "rebounding": -0.42,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.01,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.18
       },
       "market": {
         "spread": -5.5,
@@ -1404,15 +1404,15 @@
       "pick_abbr": "FLA",
       "factors": {
         "efficiency_margin": -9.82,
-        "four_factors": 0.0,
+        "four_factors": -17.21,
         "home_court": 3.5,
         "recent_form": 1.79,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -2.6,
+        "rebounding": -2.04,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.09,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.13
       },
       "market": {
         "spread": 7.5,
@@ -1453,15 +1453,15 @@
       "pick_abbr": "CONN",
       "factors": {
         "efficiency_margin": 2.71,
-        "four_factors": 0.0,
+        "four_factors": -4.16,
         "home_court": 3.5,
         "recent_form": -0.57,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -0.17,
+        "rebounding": -0.28,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.34,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.16
       },
       "market": {
         "spread": -5.5,
@@ -1502,25 +1502,25 @@
       "pick_abbr": "WAKE",
       "factors": {
         "efficiency_margin": -6.59,
-        "four_factors": 0.0,
+        "four_factors": -11.06,
         "home_court": 3.5,
         "recent_form": 0.82,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -2.77,
+        "rebounding": -1.41,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.63,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.21
       },
       "market": {
-        "spread": 7.5,
-        "over_under": 134.5,
+        "spread": 6.5,
+        "over_under": 130.5,
         "spread_holder": "Wake Forest Demon Deacons"
       },
-      "value_rating": 5.2,
+      "value_rating": 4.2,
       "model_vs_market": {
-        "spread_edge": -5.2,
-        "total_edge": 5.1
+        "spread_edge": -4.2,
+        "total_edge": 9.1
       }
     },
     {
@@ -1551,15 +1551,15 @@
       "pick_abbr": "KSU",
       "factors": {
         "efficiency_margin": -11.75,
-        "four_factors": 0.0,
+        "four_factors": -11.39,
         "home_court": 3.5,
         "recent_form": 1.97,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -2.48,
+        "rebounding": -1.68,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.89,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.04
       },
       "market": {
         "spread": -6.5,
@@ -1600,25 +1600,25 @@
       "pick_abbr": "JOES",
       "factors": {
         "efficiency_margin": 1.02,
-        "four_factors": 0.0,
+        "four_factors": -1.85,
         "home_court": 3.5,
         "recent_form": -0.24,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -1.67,
+        "rebounding": 0.11,
         "three_point": 0.0,
-        "free_throw": 0.0,
-        "experience": 0.0,
-        "sos": 0.0
+        "free_throw": -0.11,
+        "experience": -0.25,
+        "sos": -0.32
       },
       "market": {
         "spread": -1.5,
-        "over_under": 135.5,
+        "over_under": 136.5,
         "spread_holder": "Saint Joseph's Hawks"
       },
       "value_rating": 2.8,
       "model_vs_market": {
         "spread_edge": 2.8,
-        "total_edge": -0.1
+        "total_edge": -1.1
       }
     },
     {
@@ -1649,15 +1649,15 @@
       "pick_abbr": "APSU",
       "factors": {
         "efficiency_margin": 1.18,
-        "four_factors": 0.0,
+        "four_factors": -2.22,
         "home_court": 3.5,
         "recent_form": -0.64,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -0.42,
+        "rebounding": -0.56,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.54,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.22
       },
       "market": {
         "spread": -4.5,
@@ -1698,13 +1698,13 @@
       "pick_abbr": "L-MD",
       "factors": {
         "efficiency_margin": 2.24,
-        "four_factors": 0.0,
+        "four_factors": 51.03,
         "home_court": 3.5,
         "recent_form": 2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 32.35,
+        "rebounding": 2.19,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -3.44,
         "experience": 0.0,
         "sos": 0.0
       },
@@ -1747,15 +1747,15 @@
       "pick_abbr": "YSU",
       "factors": {
         "efficiency_margin": -6.06,
-        "four_factors": 0.0,
+        "four_factors": 15.74,
         "home_court": 3.5,
         "recent_form": 2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 3.42,
+        "rebounding": 2.1,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.67,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.23
       },
       "market": {
         "spread": 1.5,
@@ -1796,15 +1796,15 @@
       "pick_abbr": "ECU",
       "factors": {
         "efficiency_margin": -6.77,
-        "four_factors": 0.0,
+        "four_factors": 4.84,
         "home_court": 3.5,
         "recent_form": 2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 1.61,
+        "rebounding": 0.39,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.09,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.08
       },
       "market": {
         "spread": 4.5,
@@ -1845,15 +1845,15 @@
       "pick_abbr": "SMU",
       "factors": {
         "efficiency_margin": -5.65,
-        "four_factors": 0.0,
+        "four_factors": -14.38,
         "home_court": 3.5,
         "recent_form": 0.7,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -3.33,
+        "rebounding": -1.72,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.66,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.11
       },
       "market": {
         "spread": 3.5,
@@ -1894,15 +1894,15 @@
       "pick_abbr": "DUQ",
       "factors": {
         "efficiency_margin": -1.14,
-        "four_factors": 0.0,
+        "four_factors": -6.06,
         "home_court": 3.5,
         "recent_form": -0.04,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 0.54,
+        "rebounding": -0.97,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.02,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.01
       },
       "market": {
         "spread": -3.5,
@@ -1943,15 +1943,15 @@
       "pick_abbr": "SMC",
       "factors": {
         "efficiency_margin": -0.61,
-        "four_factors": 0.0,
+        "four_factors": -1.18,
         "home_court": 3.5,
         "recent_form": 0.02,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -1.07,
+        "rebounding": 0.01,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.06,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.12
       },
       "market": {
         "spread": -5.5,
@@ -1992,15 +1992,15 @@
       "pick_abbr": "ARMY",
       "factors": {
         "efficiency_margin": -1.35,
-        "four_factors": 0.0,
+        "four_factors": -10.0,
         "home_court": 3.5,
         "recent_form": 0.06,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -1.44,
+        "rebounding": -1.32,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.26,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.03
       },
       "market": {
         "spread": 0,
@@ -2041,15 +2041,15 @@
       "pick_abbr": "WCU",
       "factors": {
         "efficiency_margin": -1.96,
-        "four_factors": 0.0,
+        "four_factors": 4.85,
         "home_court": 3.5,
         "recent_form": 0.71,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 1.27,
+        "rebounding": 0.68,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.27,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.19
       },
       "market": {
         "spread": 1.5,
@@ -2090,15 +2090,15 @@
       "pick_abbr": "CLT",
       "factors": {
         "efficiency_margin": -1.55,
-        "four_factors": 0.0,
+        "four_factors": 2.9,
         "home_court": 3.5,
         "recent_form": 0.23,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -1.0,
+        "rebounding": 0.61,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": -0.01,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.01
       },
       "market": {
         "spread": 1.5,
@@ -2139,15 +2139,15 @@
       "pick_abbr": "EKU",
       "factors": {
         "efficiency_margin": -4.76,
-        "four_factors": 0.0,
+        "four_factors": 0.51,
         "home_court": 3.5,
         "recent_form": 1.36,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": 2.09,
+        "rebounding": -0.67,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.45,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.11
       },
       "market": {
         "spread": 2.5,
@@ -2188,15 +2188,15 @@
       "pick_abbr": "UNA",
       "factors": {
         "efficiency_margin": -3.38,
-        "four_factors": 0.0,
+        "four_factors": 0.42,
         "home_court": 3.5,
         "recent_form": 0.84,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
+        "turnover_margin": -0.19,
+        "rebounding": 0.02,
         "three_point": 0.0,
-        "free_throw": 0.0,
+        "free_throw": 0.11,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.05
       },
       "market": {
         "spread": 2.5,
@@ -2215,7 +2215,7 @@
     "high_confidence": 13,
     "medium_confidence": 27,
     "low_confidence": 5,
-    "avg_confidence": 61.4,
-    "value_plays": 20
+    "avg_confidence": 61.5,
+    "value_plays": 19
   }
 }

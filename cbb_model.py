@@ -276,14 +276,14 @@ class TeamStatsProvider:
                         "sos": sos,
                         "conf": conf,
                         # Four Factors — not directly in this endpoint, use defaults
-                        "efg_pct": 50.0,
-                        "efg_pct_d": 50.0,
-                        "to_pct": 18.0,
-                        "to_pct_d": 18.0,
-                        "orb_pct": 30.0,
+                        "efg_pct":   round((float(team[15]) if len(team) > 15 else 0.50) * 100, 2),
+                        "efg_pct_d": round((float(team[16]) if len(team) > 16 else 0.50) * 100, 2),
+                        "to_pct":    round((1 - (float(team[17]) if len(team) > 17 else 0.80)) * 100, 2),
+                        "to_pct_d":  round((1 - (float(team[18]) if len(team) > 18 else 0.80)) * 100, 2),
+                        "orb_pct":   round((float(team[19]) if len(team) > 19 else 0.30) * 100, 2),
                         "drb_pct": 70.0,
-                        "ft_rate": 30.0,
-                        "ft_rate_d": 30.0,
+                        "ft_rate":   round((float(team[21]) if len(team) > 21 else 0.30) * 100, 2),
+                        "ft_rate_d": round((float(team[22]) if len(team) > 22 else 0.30) * 100, 2),
                         "ft_pct": 70.0,
                         "three_pct": 33.0,
                         "three_pct_d": 33.0,
@@ -292,7 +292,7 @@ class TeamStatsProvider:
                         "blk_pct": 8.0,
                         "stl_pct": 9.0,
                         "assist_pct": 50.0,
-                        "experience": 1.5,
+                        "experience": float(team[43]) if len(team) > 43 and isinstance(team[43], (int, float)) and 0 < float(team[43]) < 6 else 1.5,
                         "recent_adj_oe": recent_adj_oe,
                         "recent_adj_de": recent_adj_de,
                     }
@@ -664,14 +664,18 @@ class CBBPredictionModel:
         recent_form_pts = max(-2.0, min(2.0, (home_trend - away_trend) * (projected_tempo / 100.0) * 0.25))
 
         # Zero out secondary factors (all captured inside adj_oe/adj_de)
-        four_factors_margin = 0.0
+        four_factors_margin = self._calc_four_factors(home_stats, away_stats)
+        turnover_margin     = self._calc_turnover_advantage(home_stats, away_stats)
+        rebounding_margin   = self._calc_rebounding_advantage(home_stats, away_stats)
+        three_point_margin  = self._calc_three_point_advantage(home_stats, away_stats)
+        ft_margin           = self._calc_ft_advantage(home_stats, away_stats)
         recent_form_diff    = recent_form_pts
-        to_margin           = 0.0
-        reb_margin          = 0.0
-        three_pt_margin     = 0.0
-        ft_margin           = 0.0
-        exp_margin          = 0.0
-        sos_margin          = 0.0
+        to_margin       = self._calc_turnover_advantage(home_stats, away_stats)
+        reb_margin      = self._calc_rebounding_advantage(home_stats, away_stats)
+        three_pt_margin = self._calc_three_point_advantage(home_stats, away_stats)
+        ft_margin       = self._calc_ft_advantage(home_stats, away_stats)
+        exp_margin      = (home_stats.get("barthag", 0.5) - away_stats.get("barthag", 0.5)) * 2.0
+        sos_margin          = (home_stats.get("sos", 0.0) - away_stats.get("sos", 0.0)) * 2.0
 
         # ============================================================
         # FINAL PREDICTION = efficiency margin (in pts) + HCA + recent trend
@@ -1033,6 +1037,14 @@ def generate_output(predictions, date_str, output_format="json"):
         with open(latest_path, "w") as f:
             json.dump(output, f, indent=2)
         print(f"[OK] Latest picks updated at {latest_path}")
+
+        # Auto-copy to public/ so the React app can serve it
+        public_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "public")
+        if os.path.isdir(public_dir):
+            public_path = os.path.join(public_dir, "latest.json")
+            with open(public_path, "w") as f:
+                json.dump(output, f, indent=2)
+            print(f"[OK] Public copy updated at {public_path}")
 
     return output
 
