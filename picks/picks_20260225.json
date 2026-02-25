@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T01:18:45.714272",
+  "generated_at": "2026-02-25T12:44:25.585670",
   "date": "20260225",
   "total_games": 45,
   "model_version": "2.3.0",
@@ -31,7 +31,7 @@
       "pick": "Northern Kentucky Norse",
       "pick_abbr": "NKU",
       "factors": {
-        "efficiency_margin": -21.41,
+        "efficiency_margin": -21.4,
         "four_factors": -2.6,
         "home_court": 3.5,
         "recent_form": 3.5,
@@ -44,13 +44,13 @@
       },
       "market": {
         "spread": 7.5,
-        "over_under": 163.5,
+        "over_under": 165.5,
         "spread_holder": ""
       },
       "value_rating": 9.5,
       "model_vs_market": {
         "spread_edge": 9.5,
-        "total_edge": -1.6
+        "total_edge": -3.6
       }
     },
     {
@@ -93,13 +93,13 @@
       },
       "market": {
         "spread": -7.5,
-        "over_under": 151.5,
+        "over_under": 150.5,
         "spread_holder": ""
       },
       "value_rating": 17.1,
       "model_vs_market": {
         "spread_edge": 17.1,
-        "total_edge": -1.1
+        "total_edge": -0.1
       }
     },
     {
@@ -141,14 +141,14 @@
         "sos": 0.14
       },
       "market": {
-        "spread": -19.5,
-        "over_under": 149.5,
+        "spread": -20.5,
+        "over_under": 151.5,
         "spread_holder": "Belmont Bruins"
       },
-      "value_rating": 3.7,
+      "value_rating": 4.7,
       "model_vs_market": {
-        "spread_edge": -3.7,
-        "total_edge": 2.0
+        "spread_edge": -4.7,
+        "total_edge": -0.0
       }
     },
     {
@@ -190,13 +190,13 @@
         "sos": 0.1
       },
       "market": {
-        "spread": -27.5,
+        "spread": -26.5,
         "over_under": 150.5,
         "spread_holder": "Gonzaga Bulldogs"
       },
-      "value_rating": 4.6,
+      "value_rating": 3.6,
       "model_vs_market": {
-        "spread_edge": -4.6,
+        "spread_edge": -3.6,
         "total_edge": -3.0
       }
     },
@@ -288,14 +288,14 @@
         "sos": 0.04
       },
       "market": {
-        "spread": -17.5,
-        "over_under": 142.5,
+        "spread": -16.5,
+        "over_under": 139.5,
         "spread_holder": "Nebraska Cornhuskers"
       },
-      "value_rating": 2.8,
+      "value_rating": 1.8,
       "model_vs_market": {
-        "spread_edge": -2.8,
-        "total_edge": 0.3
+        "spread_edge": -1.8,
+        "total_edge": 3.3
       }
     },
     {
@@ -337,14 +337,14 @@
         "sos": 0.07
       },
       "market": {
-        "spread": -14.5,
-        "over_under": 175.5,
+        "spread": -13.5,
+        "over_under": 177.5,
         "spread_holder": "Alabama Crimson Tide"
       },
-      "value_rating": 1.4,
+      "value_rating": 2.4,
       "model_vs_market": {
-        "spread_edge": 1.4,
-        "total_edge": -11.0
+        "spread_edge": 2.4,
+        "total_edge": -13.0
       }
     },
     {
@@ -386,14 +386,14 @@
         "sos": -0.08
       },
       "market": {
-        "spread": 5.5,
-        "over_under": 170.5,
+        "spread": 6.5,
+        "over_under": 167.5,
         "spread_holder": ""
       },
-      "value_rating": 20.3,
+      "value_rating": 21.3,
       "model_vs_market": {
-        "spread_edge": 20.3,
-        "total_edge": -10.9
+        "spread_edge": 21.3,
+        "total_edge": -7.9
       }
     },
     {
@@ -436,13 +436,13 @@
       },
       "market": {
         "spread": 5.5,
-        "over_under": 152.5,
+        "over_under": 154.5,
         "spread_holder": "Lipscomb Bisons"
       },
       "value_rating": 23.8,
       "model_vs_market": {
         "spread_edge": 23.8,
-        "total_edge": 7.1
+        "total_edge": 5.1
       }
     },
     {
@@ -472,7 +472,7 @@
       "pick": "Santa Clara Broncos",
       "pick_abbr": "SCU",
       "factors": {
-        "efficiency_margin": -21.64,
+        "efficiency_margin": -21.62,
         "four_factors": -2.75,
         "home_court": 3.0,
         "recent_form": 3.5,
@@ -484,14 +484,14 @@
         "sos": 0.03
       },
       "market": {
-        "spread": -4.5,
-        "over_under": 152.5,
+        "spread": -5.5,
+        "over_under": 153.5,
         "spread_holder": "Saint Mary's Gaels"
       },
-      "value_rating": 22.4,
+      "value_rating": 23.4,
       "model_vs_market": {
-        "spread_edge": 22.4,
-        "total_edge": -3.1
+        "spread_edge": 23.4,
+        "total_edge": -4.1
       }
     },
     {
@@ -534,13 +534,13 @@
       },
       "market": {
         "spread": -8.5,
-        "over_under": 165.5,
+        "over_under": 163.5,
         "spread_holder": "Vanderbilt Commodores"
       },
       "value_rating": 2.2,
       "model_vs_market": {
         "spread_edge": 2.2,
-        "total_edge": -2.3
+        "total_edge": -0.3
       }
     },
     {
@@ -563,14 +563,14 @@
       "predicted_spread": 9.2,
       "predicted_total": 145.7,
       "home_projected_score": 77.4,
-      "away_projected_score": 68.2,
-      "home_win_prob": 69.8,
-      "away_win_prob": 30.2,
-      "confidence": 60.2,
+      "away_projected_score": 68.3,
+      "home_win_prob": 69.7,
+      "away_win_prob": 30.3,
+      "confidence": 60.1,
       "pick": "Colgate Raiders",
       "pick_abbr": "COLG",
       "factors": {
-        "efficiency_margin": 6.47,
+        "efficiency_margin": 6.45,
         "four_factors": 0.99,
         "home_court": 3.5,
         "recent_form": -1.79,
@@ -582,14 +582,14 @@
         "sos": 0.08
       },
       "market": {
-        "spread": -8.5,
-        "over_under": 144.5,
+        "spread": -9.5,
+        "over_under": 145.5,
         "spread_holder": "Colgate Raiders"
       },
-      "value_rating": 0.7,
+      "value_rating": 0.3,
       "model_vs_market": {
-        "spread_edge": 0.7,
-        "total_edge": 1.2
+        "spread_edge": -0.3,
+        "total_edge": 0.2
       }
     },
     {
@@ -619,7 +619,7 @@
       "pick": "Illinois State Redbirds",
       "pick_abbr": "ILST",
       "factors": {
-        "efficiency_margin": -16.82,
+        "efficiency_margin": -16.83,
         "four_factors": -2.58,
         "home_court": 3.8,
         "recent_form": 3.27,
@@ -631,14 +631,14 @@
         "sos": -0.03
       },
       "market": {
-        "spread": -5.5,
-        "over_under": 131.5,
+        "spread": -6.5,
+        "over_under": 130.5,
         "spread_holder": ""
       },
-      "value_rating": 17.8,
+      "value_rating": 18.8,
       "model_vs_market": {
-        "spread_edge": 17.8,
-        "total_edge": 7.8
+        "spread_edge": 18.8,
+        "total_edge": 8.8
       }
     },
     {
@@ -680,13 +680,13 @@
         "sos": 0.02
       },
       "market": {
-        "spread": -8.5,
+        "spread": -7.5,
         "over_under": 170.5,
         "spread_holder": "Arkansas Razorbacks"
       },
-      "value_rating": 1.6,
+      "value_rating": 2.6,
       "model_vs_market": {
-        "spread_edge": 1.6,
+        "spread_edge": 2.6,
         "total_edge": -4.5
       }
     },
@@ -730,13 +730,13 @@
       },
       "market": {
         "spread": -9.5,
-        "over_under": 147.5,
+        "over_under": 146.5,
         "spread_holder": "Villanova Wildcats"
       },
       "value_rating": 0.6,
       "model_vs_market": {
         "spread_edge": -0.6,
-        "total_edge": 3.1
+        "total_edge": 4.1
       }
     },
     {
@@ -778,13 +778,13 @@
         "sos": 0.05
       },
       "market": {
-        "spread": -4.5,
+        "spread": -3.5,
         "over_under": 147.5,
         "spread_holder": "Valparaiso Beacons"
       },
-      "value_rating": 3.0,
+      "value_rating": 4.0,
       "model_vs_market": {
-        "spread_edge": 3.0,
+        "spread_edge": 4.0,
         "total_edge": -1.7
       }
     },
@@ -828,13 +828,13 @@
       },
       "market": {
         "spread": -5.5,
-        "over_under": 154.5,
+        "over_under": 152.5,
         "spread_holder": "James Madison Dukes"
       },
       "value_rating": 2.4,
       "model_vs_market": {
         "spread_edge": 2.4,
-        "total_edge": -0.6
+        "total_edge": 1.4
       }
     },
     {
@@ -876,14 +876,14 @@
         "sos": 0.04
       },
       "market": {
-        "spread": -5.5,
-        "over_under": 141.5,
+        "spread": -3.5,
+        "over_under": 142.5,
         "spread_holder": "Creighton Bluejays"
       },
-      "value_rating": 3.2,
+      "value_rating": 5.2,
       "model_vs_market": {
-        "spread_edge": 3.2,
-        "total_edge": 1.8
+        "spread_edge": 5.2,
+        "total_edge": 0.8
       }
     },
     {
@@ -905,15 +905,15 @@
       "broadcast": "ESPN+",
       "predicted_spread": 6.6,
       "predicted_total": 143.1,
-      "home_projected_score": 74.8,
+      "home_projected_score": 74.9,
       "away_projected_score": 68.3,
       "home_win_prob": 64.5,
       "away_win_prob": 35.5,
-      "confidence": 50.4,
+      "confidence": 50.5,
       "pick": "American University Eagles",
       "pick_abbr": "AMER",
       "factors": {
-        "efficiency_margin": 4.34,
+        "efficiency_margin": 4.36,
         "four_factors": 0.19,
         "home_court": 3.5,
         "recent_form": -1.47,
@@ -956,16 +956,16 @@
       "predicted_total": 142.3,
       "home_projected_score": 74.5,
       "away_projected_score": 67.8,
-      "home_win_prob": 64.9,
-      "away_win_prob": 35.1,
-      "confidence": 50.2,
+      "home_win_prob": 64.8,
+      "away_win_prob": 35.2,
+      "confidence": 50.1,
       "pick": "Stanford Cardinal",
       "pick_abbr": "STAN",
       "factors": {
-        "efficiency_margin": 3.71,
+        "efficiency_margin": 3.7,
         "four_factors": 0.43,
         "home_court": 4.0,
-        "recent_form": -1.42,
+        "recent_form": -1.43,
         "turnover_margin": -0.1,
         "rebounding": 0.02,
         "three_point": 0.0,
@@ -974,14 +974,14 @@
         "sos": 0.09
       },
       "market": {
-        "spread": -7.5,
-        "over_under": 137.5,
+        "spread": -9.5,
+        "over_under": 136.5,
         "spread_holder": "Stanford Cardinal"
       },
-      "value_rating": 0.8,
+      "value_rating": 2.8,
       "model_vs_market": {
-        "spread_edge": -0.8,
-        "total_edge": 4.8
+        "spread_edge": -2.8,
+        "total_edge": 5.8
       }
     },
     {
@@ -1023,13 +1023,13 @@
         "sos": -0.02
       },
       "market": {
-        "spread": 5.5,
+        "spread": 7.5,
         "over_under": 146.5,
         "spread_holder": "Seattle Redhawks"
       },
-      "value_rating": 2.4,
+      "value_rating": 4.4,
       "model_vs_market": {
-        "spread_edge": -2.4,
+        "spread_edge": -4.4,
         "total_edge": -11.9
       }
     },
@@ -1072,14 +1072,14 @@
         "sos": 0.13
       },
       "market": {
-        "spread": -6.5,
-        "over_under": 144.5,
+        "spread": -7.5,
+        "over_under": 143.5,
         "spread_holder": "Oregon St Beavers"
       },
-      "value_rating": 0.4,
+      "value_rating": 0.6,
       "model_vs_market": {
-        "spread_edge": 0.4,
-        "total_edge": 3.1
+        "spread_edge": -0.6,
+        "total_edge": 4.1
       }
     },
     {
@@ -1121,14 +1121,14 @@
         "sos": 0.0
       },
       "market": {
-        "spread": 7.5,
-        "over_under": 145.5,
+        "spread": 8.5,
+        "over_under": 146.5,
         "spread_holder": ""
       },
-      "value_rating": 18.6,
+      "value_rating": 19.6,
       "model_vs_market": {
-        "spread_edge": 18.6,
-        "total_edge": -5.7
+        "spread_edge": 19.6,
+        "total_edge": -6.7
       }
     },
     {
@@ -1171,13 +1171,13 @@
       },
       "market": {
         "spread": 6.5,
-        "over_under": 158.5,
+        "over_under": 159.5,
         "spread_holder": "Florida Gators"
       },
       "value_rating": 0.4,
       "model_vs_market": {
         "spread_edge": -0.4,
-        "total_edge": 0.3
+        "total_edge": -0.7
       }
     },
     {
@@ -1219,14 +1219,14 @@
         "sos": -0.11
       },
       "market": {
-        "spread": 4.5,
-        "over_under": 145.5,
+        "spread": 3.5,
+        "over_under": 144.5,
         "spread_holder": "Wake Forest Demon Deacons"
       },
-      "value_rating": 0.6,
+      "value_rating": 0.4,
       "model_vs_market": {
-        "spread_edge": -0.6,
-        "total_edge": -3.5
+        "spread_edge": 0.4,
+        "total_edge": -2.5
       }
     },
     {
@@ -1246,7 +1246,7 @@
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "ESPN+",
-      "predicted_spread": -7.0,
+      "predicted_spread": -7.1,
       "predicted_total": 142.6,
       "home_projected_score": 67.8,
       "away_projected_score": 74.8,
@@ -1272,9 +1272,9 @@
         "over_under": 147.5,
         "spread_holder": ""
       },
-      "value_rating": 15.5,
+      "value_rating": 15.6,
       "model_vs_market": {
-        "spread_edge": 15.5,
+        "spread_edge": 15.6,
         "total_edge": -4.9
       }
     },
@@ -1318,13 +1318,13 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 162.5,
+        "over_under": 163.5,
         "spread_holder": "Colorado Buffaloes"
       },
       "value_rating": 1.1,
       "model_vs_market": {
         "spread_edge": -1.1,
-        "total_edge": -4.7
+        "total_edge": -5.7
       }
     },
     {
@@ -1416,13 +1416,13 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 169.5,
+        "over_under": 171.5,
         "spread_holder": "Providence Friars"
       },
       "value_rating": 1.5,
       "model_vs_market": {
         "spread_edge": -1.5,
-        "total_edge": -3.0
+        "total_edge": -5.0
       }
     },
     {
@@ -1465,13 +1465,13 @@
       },
       "market": {
         "spread": 2.5,
-        "over_under": 149.5,
+        "over_under": 152.5,
         "spread_holder": ""
       },
       "value_rating": 1.2,
       "model_vs_market": {
         "spread_edge": -1.2,
-        "total_edge": 0.2
+        "total_edge": -2.8
       }
     },
     {
@@ -1501,7 +1501,7 @@
       "pick": "Wisconsin Badgers",
       "pick_abbr": "WIS",
       "factors": {
-        "efficiency_margin": -9.91,
+        "efficiency_margin": -9.92,
         "four_factors": 0.13,
         "home_court": 4.0,
         "recent_form": 3.5,
@@ -1514,13 +1514,13 @@
       },
       "market": {
         "spread": 5.5,
-        "over_under": 151.5,
+        "over_under": 152.5,
         "spread_holder": "Wisconsin Badgers"
       },
       "value_rating": 3.2,
       "model_vs_market": {
         "spread_edge": -3.2,
-        "total_edge": 1.0
+        "total_edge": -0.0
       }
     },
     {
@@ -1546,14 +1546,14 @@
       "away_projected_score": 71.0,
       "home_win_prob": 60.8,
       "away_win_prob": 39.2,
-      "confidence": 40.4,
+      "confidence": 40.3,
       "pick": "UConn Huskies",
       "pick_abbr": "CONN",
       "factors": {
         "efficiency_margin": 2.71,
-        "four_factors": -0.87,
+        "four_factors": -0.88,
         "home_court": 3.8,
-        "recent_form": -0.79,
+        "recent_form": -0.8,
         "turnover_margin": -0.02,
         "rebounding": -0.05,
         "three_point": 0.0,
@@ -1562,63 +1562,63 @@
         "sos": 0.08
       },
       "market": {
-        "spread": -4.5,
-        "over_under": 146.5,
+        "spread": -5.5,
+        "over_under": 145.5,
         "spread_holder": "UConn Huskies"
       },
-      "value_rating": 0.3,
+      "value_rating": 0.7,
       "model_vs_market": {
-        "spread_edge": 0.3,
-        "total_edge": 0.4
+        "spread_edge": -0.7,
+        "total_edge": 1.4
       }
     },
     {
-      "game_id": "401861277",
-      "date": "2026-02-25T23:00Z",
-      "home_team": "South Carolina State Bulldogs",
-      "away_team": "Morgan State Bears",
-      "home_abbr": "SCST",
-      "away_abbr": "MORG",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
+      "game_id": "401828446",
+      "date": "2026-02-26T00:00Z",
+      "home_team": "Saint Joseph's Hawks",
+      "away_team": "George Mason Patriots",
+      "home_abbr": "JOES",
+      "away_abbr": "GMU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "7-19",
-      "away_record": "11-14",
-      "venue": "Smith-Hammond-Middleton Memorial Center",
+      "home_record": "17-10",
+      "away_record": "21-6",
+      "venue": "Michael J. Hagan '85 Arena",
       "neutral_site": false,
       "conference_game": true,
-      "broadcast": "",
-      "predicted_spread": 4.9,
-      "predicted_total": 150.7,
-      "home_projected_score": 77.8,
-      "away_projected_score": 72.9,
-      "home_win_prob": 60.9,
-      "away_win_prob": 39.1,
-      "confidence": 39.7,
-      "pick": "South Carolina State Bulldogs",
-      "pick_abbr": "SCST",
+      "broadcast": "ESPN+",
+      "predicted_spread": 4.0,
+      "predicted_total": 137.7,
+      "home_projected_score": 70.9,
+      "away_projected_score": 66.9,
+      "home_win_prob": 59.0,
+      "away_win_prob": 41.0,
+      "confidence": 38.8,
+      "pick": "Saint Joseph's Hawks",
+      "pick_abbr": "JOES",
       "factors": {
-        "efficiency_margin": 0.38,
-        "four_factors": 0.89,
-        "home_court": 2.8,
-        "recent_form": 0.81,
-        "turnover_margin": 0.32,
-        "rebounding": 0.18,
+        "efficiency_margin": 1.02,
+        "four_factors": -0.18,
+        "home_court": 3.5,
+        "recent_form": -0.34,
+        "turnover_margin": -0.22,
+        "rebounding": 0.13,
         "three_point": 0.0,
-        "free_throw": -0.6,
+        "free_throw": -0.1,
         "experience": 0.0,
-        "sos": -0.1
+        "sos": -0.16
       },
       "market": {
         "spread": -1.5,
-        "over_under": 155.5,
-        "spread_holder": "South Carolina St Bulldogs"
+        "over_under": 135.5,
+        "spread_holder": "Saint Joseph's Hawks"
       },
-      "value_rating": 3.4,
+      "value_rating": 2.5,
       "model_vs_market": {
-        "spread_edge": 3.4,
-        "total_edge": -4.8
+        "spread_edge": 2.5,
+        "total_edge": 2.2
       }
     },
     {
@@ -1660,13 +1660,13 @@
         "sos": 0.11
       },
       "market": {
-        "spread": -3.5,
+        "spread": -4.5,
         "over_under": 151.5,
         "spread_holder": "Austin Peay Governors"
       },
-      "value_rating": 0.3,
+      "value_rating": 0.7,
       "model_vs_market": {
-        "spread_edge": 0.3,
+        "spread_edge": -0.7,
         "total_edge": -5.8
       }
     },
@@ -1701,7 +1701,7 @@
         "four_factors": -2.39,
         "home_court": 4.0,
         "recent_form": 0.98,
-        "turnover_margin": -0.44,
+        "turnover_margin": -0.45,
         "rebounding": -0.27,
         "three_point": 0.0,
         "free_throw": -0.09,
@@ -1709,63 +1709,14 @@
         "sos": 0.06
       },
       "market": {
-        "spread": 3.5,
-        "over_under": 161.5,
+        "spread": 4.5,
+        "over_under": 162.5,
         "spread_holder": "SMU Mustangs"
       },
-      "value_rating": 0.4,
+      "value_rating": 1.4,
       "model_vs_market": {
-        "spread_edge": -0.4,
-        "total_edge": -3.7
-      }
-    },
-    {
-      "game_id": "401828244",
-      "date": "2026-02-26T00:00Z",
-      "home_team": "Charlotte 49ers",
-      "away_team": "North Texas Mean Green",
-      "home_abbr": "CLT",
-      "away_abbr": "UNT",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "14-13",
-      "away_record": "16-12",
-      "venue": "Halton Arena",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "ESPN+",
-      "predicted_spread": 3.2,
-      "predicted_total": 136.6,
-      "home_projected_score": 69.9,
-      "away_projected_score": 66.7,
-      "home_win_prob": 57.2,
-      "away_win_prob": 42.8,
-      "confidence": 37.1,
-      "pick": "Charlotte 49ers",
-      "pick_abbr": "CLT",
-      "factors": {
-        "efficiency_margin": -1.55,
-        "four_factors": 0.91,
-        "home_court": 3.5,
-        "recent_form": 0.32,
-        "turnover_margin": -0.13,
-        "rebounding": 0.14,
-        "three_point": 0.0,
-        "free_throw": 0.55,
-        "experience": 0.0,
-        "sos": -0.01
-      },
-      "market": {
-        "spread": -0.5,
-        "over_under": 136.5,
-        "spread_holder": "Charlotte 49ers"
-      },
-      "value_rating": 2.7,
-      "model_vs_market": {
-        "spread_edge": 2.7,
-        "total_edge": 0.1
+        "spread_edge": -1.4,
+        "total_edge": -4.7
       }
     },
     {
@@ -1791,12 +1742,12 @@
       "away_projected_score": 73.0,
       "home_win_prob": 57.0,
       "away_win_prob": 43.0,
-      "confidence": 34.8,
+      "confidence": 34.9,
       "pick": "Iowa Hawkeyes",
       "pick_abbr": "IOWA",
       "factors": {
-        "efficiency_margin": 0.88,
-        "four_factors": -0.95,
+        "efficiency_margin": 0.9,
+        "four_factors": -0.94,
         "home_court": 4.0,
         "recent_form": -0.87,
         "turnover_margin": -0.15,
@@ -1807,13 +1758,13 @@
         "sos": 0.03
       },
       "market": {
-        "spread": -5.5,
+        "spread": -7.5,
         "over_under": 141.5,
         "spread_holder": "Iowa Hawkeyes"
       },
-      "value_rating": 2.4,
+      "value_rating": 4.4,
       "model_vs_market": {
-        "spread_edge": -2.4,
+        "spread_edge": -4.4,
         "total_edge": 7.5
       }
     },
@@ -1857,13 +1808,13 @@
       },
       "market": {
         "spread": -2.5,
-        "over_under": 143.5,
+        "over_under": 142.5,
         "spread_holder": "Duquesne Dukes"
       },
       "value_rating": 0.7,
       "model_vs_market": {
         "spread_edge": -0.7,
-        "total_edge": 1.3
+        "total_edge": 2.3
       }
     },
     {
@@ -1906,13 +1857,13 @@
       },
       "market": {
         "spread": 1.5,
-        "over_under": 165.5,
+        "over_under": 163.5,
         "spread_holder": "Queens University Royals"
       },
       "value_rating": 1.2,
       "model_vs_market": {
         "spread_edge": -1.2,
-        "total_edge": -0.6
+        "total_edge": 1.4
       }
     },
     {
@@ -1955,62 +1906,13 @@
       },
       "market": {
         "spread": 4.5,
-        "over_under": 151.5,
+        "over_under": 152.5,
         "spread_holder": "East Carolina Pirates"
       },
       "value_rating": 4.5,
       "model_vs_market": {
         "spread_edge": -4.5,
-        "total_edge": -5.6
-      }
-    },
-    {
-      "game_id": "401826824",
-      "date": "2026-02-25T16:00Z",
-      "home_team": "Army Black Knights",
-      "away_team": "Bucknell Bison",
-      "home_abbr": "ARMY",
-      "away_abbr": "BUCK",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "11-18",
-      "away_record": "8-21",
-      "venue": "Christl Arena",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "ESPN+",
-      "predicted_spread": 1.3,
-      "predicted_total": 144.1,
-      "home_projected_score": 72.7,
-      "away_projected_score": 71.4,
-      "home_win_prob": 53.0,
-      "away_win_prob": 47.0,
-      "confidence": 29.1,
-      "pick": "Army Black Knights",
-      "pick_abbr": "ARMY",
-      "factors": {
-        "efficiency_margin": -0.54,
-        "four_factors": -1.44,
-        "home_court": 3.5,
-        "recent_form": -0.18,
-        "turnover_margin": -0.18,
-        "rebounding": -0.26,
-        "three_point": 0.0,
-        "free_throw": 0.08,
-        "experience": 0.0,
-        "sos": 0.04
-      },
-      "market": {
-        "spread": -2.5,
-        "over_under": 141.5,
-        "spread_holder": "Army Knights"
-      },
-      "value_rating": 1.2,
-      "model_vs_market": {
-        "spread_edge": -1.2,
-        "total_edge": 2.6
+        "total_edge": -6.6
       }
     },
     {
@@ -2102,62 +2004,111 @@
       },
       "market": {
         "spread": 1.5,
-        "over_under": 150.5,
+        "over_under": 147.5,
         "spread_holder": ""
       },
       "value_rating": 3.8,
       "model_vs_market": {
         "spread_edge": 3.8,
-        "total_edge": -2.2
+        "total_edge": 0.8
       }
     },
     {
-      "game_id": "401828446",
-      "date": "2026-02-26T00:00Z",
-      "home_team": "Saint Joseph's Hawks",
-      "away_team": "George Mason Patriots",
-      "home_abbr": "JOES",
-      "away_abbr": "GMU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
+      "game_id": "401861277",
+      "date": "2026-02-25T23:00Z",
+      "home_team": "South Carolina State Bulldogs",
+      "away_team": "Morgan State Bears",
+      "home_abbr": "SCST",
+      "away_abbr": "MORG",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "17-10",
-      "away_record": "21-6",
-      "venue": "Michael J. Hagan '85 Arena",
+      "home_record": "7-19",
+      "away_record": "11-14",
+      "venue": "Smith-Hammond-Middleton Memorial Center",
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "ESPN+",
-      "predicted_spread": 4.0,
-      "predicted_total": 137.7,
-      "home_projected_score": 70.9,
-      "away_projected_score": 66.9,
-      "home_win_prob": 59.0,
-      "away_win_prob": 41.0,
-      "confidence": 25.7,
-      "pick": "Saint Joseph's Hawks",
-      "pick_abbr": "JOES",
+      "predicted_spread": 4.9,
+      "predicted_total": 150.7,
+      "home_projected_score": 77.8,
+      "away_projected_score": 72.9,
+      "home_win_prob": 60.9,
+      "away_win_prob": 39.1,
+      "confidence": 26.7,
+      "pick": "South Carolina State Bulldogs",
+      "pick_abbr": "SCST",
       "factors": {
-        "efficiency_margin": 1.02,
-        "four_factors": -0.18,
-        "home_court": 3.5,
-        "recent_form": -0.34,
-        "turnover_margin": -0.22,
-        "rebounding": 0.13,
+        "efficiency_margin": 0.38,
+        "four_factors": 0.89,
+        "home_court": 2.8,
+        "recent_form": 0.81,
+        "turnover_margin": 0.32,
+        "rebounding": 0.18,
         "three_point": 0.0,
-        "free_throw": -0.1,
+        "free_throw": -0.6,
         "experience": 0.0,
-        "sos": -0.16
+        "sos": -0.1
       },
       "market": {
         "spread": 1.5,
-        "over_under": 139.5,
-        "spread_holder": "George Mason Patriots"
+        "over_under": 154.5,
+        "spread_holder": "Morgan St Bears"
       },
-      "value_rating": 5.5,
+      "value_rating": 6.4,
       "model_vs_market": {
-        "spread_edge": 5.5,
-        "total_edge": -1.8
+        "spread_edge": 6.4,
+        "total_edge": -3.8
+      }
+    },
+    {
+      "game_id": "401828244",
+      "date": "2026-02-26T00:00Z",
+      "home_team": "Charlotte 49ers",
+      "away_team": "North Texas Mean Green",
+      "home_abbr": "CLT",
+      "away_abbr": "UNT",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "14-13",
+      "away_record": "16-12",
+      "venue": "Halton Arena",
+      "neutral_site": false,
+      "conference_game": true,
+      "broadcast": "ESPN+",
+      "predicted_spread": 3.2,
+      "predicted_total": 136.6,
+      "home_projected_score": 69.9,
+      "away_projected_score": 66.7,
+      "home_win_prob": 57.2,
+      "away_win_prob": 42.8,
+      "confidence": 24.1,
+      "pick": "Charlotte 49ers",
+      "pick_abbr": "CLT",
+      "factors": {
+        "efficiency_margin": -1.55,
+        "four_factors": 0.91,
+        "home_court": 3.5,
+        "recent_form": 0.32,
+        "turnover_margin": -0.13,
+        "rebounding": 0.14,
+        "three_point": 0.0,
+        "free_throw": 0.55,
+        "experience": 0.0,
+        "sos": -0.01
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 135.5,
+        "spread_holder": "North Texas Mean Green"
+      },
+      "value_rating": 4.7,
+      "model_vs_market": {
+        "spread_edge": 4.7,
+        "total_edge": 1.1
       }
     },
     {
@@ -2187,7 +2138,7 @@
       "pick": "Western Carolina Catamounts",
       "pick_abbr": "WCU",
       "factors": {
-        "efficiency_margin": -1.96,
+        "efficiency_margin": -1.97,
         "four_factors": 0.3,
         "home_court": 3.3,
         "recent_form": 0.99,
@@ -2200,13 +2151,62 @@
       },
       "market": {
         "spread": 1.5,
-        "over_under": 160.5,
+        "over_under": 157.5,
         "spread_holder": "Mercer Bears"
       },
       "value_rating": 4.1,
       "model_vs_market": {
         "spread_edge": 4.1,
-        "total_edge": -1.2
+        "total_edge": 1.8
+      }
+    },
+    {
+      "game_id": "401826824",
+      "date": "2026-02-25T16:00Z",
+      "home_team": "Army Black Knights",
+      "away_team": "Bucknell Bison",
+      "home_abbr": "ARMY",
+      "away_abbr": "BUCK",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "11-19",
+      "away_record": "9-21",
+      "venue": "Christl Arena",
+      "neutral_site": false,
+      "conference_game": true,
+      "broadcast": "ESPN+",
+      "predicted_spread": 0.5,
+      "predicted_total": 144.0,
+      "home_projected_score": 72.3,
+      "away_projected_score": 71.8,
+      "home_win_prob": 51.0,
+      "away_win_prob": 49.0,
+      "confidence": 22.0,
+      "pick": "Army Black Knights",
+      "pick_abbr": "ARMY",
+      "factors": {
+        "efficiency_margin": -1.35,
+        "four_factors": -1.78,
+        "home_court": 3.5,
+        "recent_form": 0.09,
+        "turnover_margin": -0.19,
+        "rebounding": -0.26,
+        "three_point": 0.0,
+        "free_throw": -0.24,
+        "experience": 0.0,
+        "sos": 0.01
+      },
+      "market": {
+        "spread": null,
+        "over_under": null,
+        "spread_holder": null
+      },
+      "value_rating": null,
+      "model_vs_market": {
+        "spread_edge": null,
+        "total_edge": null
       }
     }
   ],
@@ -2215,7 +2215,7 @@
     "high_confidence": 7,
     "medium_confidence": 25,
     "low_confidence": 13,
-    "avg_confidence": 50.2,
-    "value_plays": 19
+    "avg_confidence": 49.7,
+    "value_plays": 21
   }
 }
