@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import Results from "./Results.jsx";
 
 // Sample data structure matching the Python model output
 const SAMPLE_DATA = {
@@ -479,8 +478,7 @@ function FactorBar({ label, value }) {
 }
 
 function GameCard({ pick, expanded, onToggle, index }) {
-  const isHomePick = pick.pick === pick.home_team;
-  const isAwayPick = pick.pick === pick.away_team;
+  const isHomePick = pick.predicted_spread < 0;
   const spreadAbs = Math.abs(pick.predicted_spread).toFixed(1);
   const confLevel =
     pick.confidence >= 75
@@ -498,6 +496,40 @@ function GameCard({ pick, expanded, onToggle, index }) {
       : pick.confidence >= 40
       ? "#f97316"
       : "#ef4444";
+
+  // ATS pick logic: compare model spread vs market spread
+  // predicted_spread is from HOME team's perspective (negative = home favored)
+  // market spread is from favorite's perspective
+  const marketSpread = pick.market?.spread;
+  const marketHolder = pick.market?.spread_holder; // team name of the favorite
+
+  let atsPick = null; // which team to bet ATS
+  let atsLabel = null;
+  let atsSpread = null;
+
+  if (marketSpread != null && marketHolder != null) {
+    // Convert market spread to home-perspective
+    // If market favorite is home team, market spread is negative for home
+    const homeIsMarketFav = marketHolder === pick.home_team || marketHolder === pick.home_abbr;
+    const marketHomeSpread = homeIsMarketFav ? -Math.abs(marketSpread) : Math.abs(marketSpread);
+
+    const edge = pick.predicted_spread - marketHomeSpread;
+    // edge > 0: model likes home MORE than market → bet home -spread
+    // edge < 0: model likes away MORE than market → bet away +spread
+    if (edge > 0.5) {
+      atsPick = pick.home_abbr;
+      atsSpread = marketHomeSpread; // negative
+      atsLabel = `${pick.home_abbr} ${marketHomeSpread > 0 ? "+" : ""}${marketHomeSpread.toFixed(1)}`;
+    } else if (edge < -0.5) {
+      atsPick = pick.away_abbr;
+      atsSpread = Math.abs(marketHomeSpread);
+      atsLabel = `${pick.away_abbr} +${Math.abs(marketHomeSpread).toFixed(1)}`;
+    }
+  }
+
+  // Underline the team the model projects to win outright
+  const isAwayPick = pick.pick === pick.away_team;
+  const isHomePickSU = pick.pick === pick.home_team;
 
   return (
     <div
@@ -559,28 +591,32 @@ function GameCard({ pick, expanded, onToggle, index }) {
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <span style={{ fontSize: 10, color: "#6b7280" }}>@</span>
             {pick.home_rank <= 25 && (
-              <span style={{ fontSize: 10, fontWeight: 800, color: "#818cf8", fontFamily: "'JetBrains Mono', monospace" }}>
+              <span
+                style={{
+                  fontSize: 10,
+                  fontWeight: 800,
+                  color: "#818cf8",
+                  fontFamily: "'JetBrains Mono', monospace",
+                }}
+              >
                 #{pick.home_rank}
               </span>
             )}
-            <span style={{
-              fontSize: 14, fontWeight: isHomePick ? 800 : 500,
-              color: isHomePick ? "#f8fafc" : "#94a3b8",
-              textDecoration: isHomePick ? `underline 2px ${confColor}` : "none",
-              textUnderlineOffset: 4,
-            }}>
+            <span
+              style={{
+                fontSize: 14,
+                fontWeight: isHomePickSU ? 800 : 500,
+                color: isHomePickSU ? "#f8fafc" : "#94a3b8",
+                textDecoration: isHomePickSU ? `underline 2px ${confColor}` : "none",
+                textUnderlineOffset: 4,
+              }}
+            >
               {pick.home_team}
             </span>
             <span style={{ fontSize: 11, color: "#4b5563", fontFamily: "'JetBrains Mono', monospace" }}>
               {pick.home_record}
             </span>
           </div>
-          {pick.date && (
-            <div style={{ fontSize: 10, color: "#4b5563", marginTop: 5, fontFamily: "'JetBrains Mono', monospace" }}>
-              {(() => { try { return new Date(pick.date).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: "America/Chicago", timeZoneName: "short" }); } catch { return ""; } })()}
-              {pick.broadcast ? ` · ${pick.broadcast}` : ""}
-            </div>
-          )}
         </div>
 
         {/* Pick & Spread */}
@@ -597,16 +633,27 @@ function GameCard({ pick, expanded, onToggle, index }) {
           >
             {confLevel}
           </div>
+          {/* Model projected winner & margin */}
           <div
             style={{
-              fontSize: 18,
+              fontSize: 16,
               fontWeight: 900,
               color: "#f8fafc",
               fontFamily: "'JetBrains Mono', monospace",
             }}
           >
-            {pick.pick_abbr} -{spreadAbs}
+            {pick.pick_abbr} {isHomePick ? "-" : "+"}{spreadAbs}
           </div>
+          {/* ATS bet vs market */}
+          {atsLabel ? (
+            <div style={{ fontSize: 11, color: "#818cf8", marginTop: 2, fontWeight: 700, fontFamily: "'JetBrains Mono', monospace" }}>
+              BET: {atsLabel}
+            </div>
+          ) : (
+            <div style={{ fontSize: 10, color: "#4b5563", marginTop: 2, fontFamily: "'JetBrains Mono', monospace" }}>
+              no line
+            </div>
+          )}
           <div style={{ fontSize: 11, color: "#6b7280", marginTop: 2 }}>
             O/U {pick.predicted_total}
           </div>
@@ -821,17 +868,15 @@ function GameCard({ pick, expanded, onToggle, index }) {
 
 export default function App() {
   const [data, setData] = useState(null);
-  const [activeTab, setActiveTab] = useState("picks");
   const [expandedId, setExpandedId] = useState(null);
   const [filter, setFilter] = useState("all");
   const [searchTerm, setSearchTerm] = useState("");
-  const [sortBy, setSortBy] = useState("tipoff");
+  const [sortBy, setSortBy] = useState("confidence");
 
   useEffect(() => {
-    fetch("/latest.json")
-      .then((r) => { if (!r.ok) throw new Error(); return r.json(); })
-      .then(setData)
-      .catch(() => setData(SAMPLE_DATA));
+    // In production, fetch from your API:
+    // fetch('/api/picks/latest.json').then(r => r.json()).then(setData)
+    setData(SAMPLE_DATA);
   }, []);
 
   if (!data)
@@ -878,8 +923,6 @@ export default function App() {
     );
   }
 
-  if (sortBy === "tipoff")
-    filtered.sort((a, b) => new Date(a.date) - new Date(b.date));
   if (sortBy === "confidence")
     filtered.sort((a, b) => b.confidence - a.confidence);
   if (sortBy === "spread")
@@ -1037,26 +1080,6 @@ export default function App() {
         </div>
       </header>
 
-      {/* Tab Nav */}
-      <div style={{ maxWidth: 900, margin: "0 auto", padding: "0 24px 0", display: "flex", gap: 4, borderBottom: "1px solid #1e293b" }}>
-        {["picks", "results"].map((tab) => (
-          <button key={tab} onClick={() => setActiveTab(tab)} style={{
-            background: "none", border: "none", cursor: "pointer",
-            padding: "10px 20px", fontSize: 11, fontWeight: 700,
-            letterSpacing: 2, textTransform: "uppercase",
-            fontFamily: "'JetBrains Mono', monospace",
-            color: activeTab === tab ? "#818cf8" : "#4b5563",
-            borderBottom: activeTab === tab ? "2px solid #818cf8" : "2px solid transparent",
-            marginBottom: -1, transition: "all 0.2s ease",
-          }}>
-            {tab === "picks" ? "Today's Picks" : "Results"}
-          </button>
-        ))}
-      </div>
-
-      {activeTab === "results" && <Results />}
-      {activeTab === "picks" && <>
-
       {/* Controls */}
       <div
         style={{
@@ -1144,7 +1167,6 @@ export default function App() {
               fontFamily: "'JetBrains Mono', monospace",
             }}
           >
-            <option value="tipoff">Tipoff Time</option>
             <option value="confidence">Confidence</option>
             <option value="spread">Spread</option>
             <option value="value">Value</option>
@@ -1207,7 +1229,6 @@ export default function App() {
           {new Date(data.generated_at).toLocaleString()} • v{data.model_version}
         </p>
       </footer>
-      </>}
     </div>
   );
 }
