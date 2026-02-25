@@ -479,7 +479,8 @@ function FactorBar({ label, value }) {
 }
 
 function GameCard({ pick, expanded, onToggle, index }) {
-  const isHomePick = pick.predicted_spread < 0;
+  const isHomePick = pick.pick === pick.home_team;
+  const isAwayPick = pick.pick === pick.away_team;
   const spreadAbs = Math.abs(pick.predicted_spread).toFixed(1);
   const confLevel =
     pick.confidence >= 75
@@ -543,9 +544,9 @@ function GameCard({ pick, expanded, onToggle, index }) {
             <span
               style={{
                 fontSize: 14,
-                fontWeight: !isHomePick ? 800 : 500,
-                color: !isHomePick ? "#f8fafc" : "#94a3b8",
-                textDecoration: !isHomePick ? `underline 2px ${confColor}` : "none",
+                fontWeight: isAwayPick ? 800 : 500,
+                color: isAwayPick ? "#f8fafc" : "#94a3b8",
+                textDecoration: isAwayPick ? `underline 2px ${confColor}` : "none",
                 textUnderlineOffset: 4,
               }}
             >
@@ -558,26 +559,16 @@ function GameCard({ pick, expanded, onToggle, index }) {
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <span style={{ fontSize: 10, color: "#6b7280" }}>@</span>
             {pick.home_rank <= 25 && (
-              <span
-                style={{
-                  fontSize: 10,
-                  fontWeight: 800,
-                  color: "#818cf8",
-                  fontFamily: "'JetBrains Mono', monospace",
-                }}
-              >
+              <span style={{ fontSize: 10, fontWeight: 800, color: "#818cf8", fontFamily: "'JetBrains Mono', monospace" }}>
                 #{pick.home_rank}
               </span>
             )}
-            <span
-              style={{
-                fontSize: 14,
-                fontWeight: isHomePick ? 800 : 500,
-                color: isHomePick ? "#f8fafc" : "#94a3b8",
-                textDecoration: isHomePick ? `underline 2px ${confColor}` : "none",
-                textUnderlineOffset: 4,
-              }}
-            >
+            <span style={{
+              fontSize: 14, fontWeight: isHomePick ? 800 : 500,
+              color: isHomePick ? "#f8fafc" : "#94a3b8",
+              textDecoration: isHomePick ? `underline 2px ${confColor}` : "none",
+              textUnderlineOffset: 4,
+            }}>
               {pick.home_team}
             </span>
             <span style={{ fontSize: 11, color: "#4b5563", fontFamily: "'JetBrains Mono', monospace" }}>
@@ -586,12 +577,7 @@ function GameCard({ pick, expanded, onToggle, index }) {
           </div>
           {pick.date && (
             <div style={{ fontSize: 10, color: "#4b5563", marginTop: 5, fontFamily: "'JetBrains Mono', monospace" }}>
-              {(() => {
-                try {
-                  const d = new Date(pick.date);
-                  return d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: "America/Chicago", timeZoneName: "short" });
-                } catch { return ""; }
-              })()}
+              {(() => { try { return new Date(pick.date).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: "America/Chicago", timeZoneName: "short" }); } catch { return ""; } })()}
               {pick.broadcast ? ` · ${pick.broadcast}` : ""}
             </div>
           )}
@@ -1054,30 +1040,21 @@ export default function App() {
       {/* Tab Nav */}
       <div style={{ maxWidth: 900, margin: "0 auto", padding: "0 24px 0", display: "flex", gap: 4, borderBottom: "1px solid #1e293b" }}>
         {["picks", "results"].map((tab) => (
-          <button
-            key={tab}
-            onClick={() => setActiveTab(tab)}
-            style={{
-              background: "none", border: "none", cursor: "pointer",
-              padding: "10px 20px",
-              fontSize: 11, fontWeight: 700, letterSpacing: 2,
-              textTransform: "uppercase",
-              fontFamily: "'JetBrains Mono', monospace",
-              color: activeTab === tab ? "#818cf8" : "#4b5563",
-              borderBottom: activeTab === tab ? "2px solid #818cf8" : "2px solid transparent",
-              marginBottom: -1,
-              transition: "all 0.2s ease",
-            }}
-          >
+          <button key={tab} onClick={() => setActiveTab(tab)} style={{
+            background: "none", border: "none", cursor: "pointer",
+            padding: "10px 20px", fontSize: 11, fontWeight: 700,
+            letterSpacing: 2, textTransform: "uppercase",
+            fontFamily: "'JetBrains Mono', monospace",
+            color: activeTab === tab ? "#818cf8" : "#4b5563",
+            borderBottom: activeTab === tab ? "2px solid #818cf8" : "2px solid transparent",
+            marginBottom: -1, transition: "all 0.2s ease",
+          }}>
             {tab === "picks" ? "Today's Picks" : "Results"}
           </button>
         ))}
       </div>
 
-      {/* Results Tab */}
       {activeTab === "results" && <Results />}
-
-      {/* Picks Tab */}
       {activeTab === "picks" && <>
 
       {/* Controls */}

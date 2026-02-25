@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-25T01:08:56.921079",
+  "generated_at": "2026-02-25T01:15:52.877450",
   "date": "20260225",
-  "total_games": 46,
+  "total_games": 45,
   "model_version": "2.3.0",
   "picks": [
     {
@@ -2208,63 +2208,14 @@
         "spread_edge": 4.1,
         "total_edge": -1.2
       }
-    },
-    {
-      "game_id": "401807758",
-      "date": "2026-02-26T01:45Z",
-      "home_team": "North Alabama Lions",
-      "away_team": "Bellarmine Knights",
-      "home_abbr": "UNA",
-      "away_abbr": "BELL",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/91.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "8-19",
-      "away_record": "11-17",
-      "venue": "Flowers Hall",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "ESPN+",
-      "predicted_spread": 0.7,
-      "predicted_total": 156.2,
-      "home_projected_score": 78.4,
-      "away_projected_score": 77.7,
-      "home_win_prob": 51.6,
-      "away_win_prob": 48.4,
-      "confidence": 17.9,
-      "pick": "North Alabama Lions",
-      "pick_abbr": "UNA",
-      "factors": {
-        "efficiency_margin": -3.38,
-        "four_factors": -0.59,
-        "home_court": 3.5,
-        "recent_form": 1.18,
-        "turnover_margin": -0.02,
-        "rebounding": 0.02,
-        "three_point": 0.0,
-        "free_throw": -0.6,
-        "experience": 0.0,
-        "sos": 0.02
-      },
-      "market": {
-        "spread": 2.5,
-        "over_under": 148.5,
-        "spread_holder": "Bellarmine Knights"
-      },
-      "value_rating": 3.2,
-      "model_vs_market": {
-        "spread_edge": 3.2,
-        "total_edge": 7.7
-      }
     }
   ],
   "summary": {
-    "total_games": 46,
+    "total_games": 45,
     "high_confidence": 7,
     "medium_confidence": 25,
-    "low_confidence": 14,
-    "avg_confidence": 49.5,
-    "value_plays": 20
+    "low_confidence": 13,
+    "avg_confidence": 50.2,
+    "value_plays": 19
   }
 }
