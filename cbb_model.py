@@ -633,8 +633,8 @@ class CBBPredictionModel:
         # Formula: (Team_AdjOE * Opp_AdjDE) / national_avg
         # This gives efficiency in points-per-100-possessions units.
         national_avg_oe = 100.0
-        home_projected_oe = (home_stats["adj_oe"] * away_stats["adj_de"]) / national_avg_oe
-        away_projected_oe = (away_stats["adj_oe"] * home_stats["adj_de"]) / national_avg_oe
+        home_projected_oe = home_stats["adj_oe"] + away_stats["adj_de"] - 100.0
+        away_projected_oe = away_stats["adj_oe"] + home_stats["adj_de"] - 100.0
 
         # Efficiency differential (points per 100 possessions)
         efficiency_margin = home_projected_oe - away_projected_oe
