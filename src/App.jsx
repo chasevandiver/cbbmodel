@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import Results from "./Results.jsx";
 
 // Sample data structure matching the Python model output
 const SAMPLE_DATA = {
@@ -822,11 +823,17 @@ function GameCard({ pick, expanded, onToggle, index }) {
 }
 
 export default function App() {
+  const [page, setPage] = useState("picks");
   const [data, setData] = useState(null);
   const [expandedId, setExpandedId] = useState(null);
   const [filter, setFilter] = useState("all");
   const [searchTerm, setSearchTerm] = useState("");
   const [sortBy, setSortBy] = useState("confidence");
+
+  // Route to Results page
+  if (page === "results") {
+    return <Results onNavigate={setPage} />;
+  }
 
   useEffect(() => {
     fetch(`/picks/latest.json?v=${Date.now()}`)
@@ -946,29 +953,51 @@ export default function App() {
           margin: "0 auto",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 4 }}>
-          <div
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 4 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+            <div
+              style={{
+                width: 8,
+                height: 8,
+                borderRadius: "50%",
+                background: "#22c55e",
+                animation: "pulse 2s ease-in-out infinite",
+                boxShadow: "0 0 8px #22c55e80",
+              }}
+            />
+            <span
+              style={{
+                fontSize: 10,
+                fontWeight: 700,
+                color: "#22c55e",
+                letterSpacing: 3,
+                textTransform: "uppercase",
+                fontFamily: "'JetBrains Mono', monospace",
+              }}
+            >
+              MODEL v{data.model_version} • LIVE
+            </span>
+          </div>
+          <button
+            onClick={() => setPage("results")}
             style={{
-              width: 8,
-              height: 8,
-              borderRadius: "50%",
-              background: "#22c55e",
-              animation: "pulse 2s ease-in-out infinite",
-              boxShadow: "0 0 8px #22c55e80",
-            }}
-          />
-          <span
-            style={{
-              fontSize: 10,
+              background: "transparent",
+              border: "1px solid #1e293b",
+              borderRadius: 20,
+              padding: "6px 16px",
+              color: "#6b7280",
+              fontSize: 11,
               fontWeight: 700,
-              color: "#22c55e",
-              letterSpacing: 3,
-              textTransform: "uppercase",
+              cursor: "pointer",
+              letterSpacing: 0.5,
               fontFamily: "'JetBrains Mono', monospace",
+              transition: "all 0.2s ease",
             }}
+            onMouseEnter={e => { e.target.style.borderColor = "#818cf8"; e.target.style.color = "#a5b4fc"; }}
+            onMouseLeave={e => { e.target.style.borderColor = "#1e293b"; e.target.style.color = "#6b7280"; }}
           >
-            MODEL v{data.model_version} • LIVE
-          </span>
+            RESULTS →
+          </button>
         </div>
         <h1
           style={{

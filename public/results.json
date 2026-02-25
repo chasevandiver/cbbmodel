@@ -1,0 +1,16 @@
+{
+  "generated_at": null,
+  "games": [],
+  "summary": {
+    "total_graded": 0,
+    "ats": { "w": 0, "l": 0, "p": 0, "pct": 0 },
+    "su": { "correct": 0, "total": 0, "pct": 0 },
+    "ou": { "over": 0, "under": 0, "push": 0, "model_correct": 0, "model_gradeable": 0, "model_pct": 0 },
+    "by_confidence": {
+      "high": { "w": 0, "l": 0, "p": 0, "pct": 0 },
+      "medium": { "w": 0, "l": 0, "p": 0, "pct": 0 },
+      "low": { "w": 0, "l": 0, "p": 0, "pct": 0 }
+    },
+    "value_plays": { "w": 0, "l": 0, "p": 0, "pct": 0 }
+  }
+}

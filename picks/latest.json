@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-02-24T17:26:15.160706",
+  "generated_at": "2026-02-24T18:04:28.264009",
   "date": "20260224",
   "total_games": 32,
-  "model_version": "2.2.0",
+  "model_version": "2.3.0",
   "picks": [
     {
       "game_id": "401808690",
@@ -40,17 +40,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.0
       },
       "market": {
         "spread": -9.5,
-        "over_under": 159.5,
+        "over_under": 158.5,
         "spread_holder": ""
       },
       "value_rating": 14.9,
       "model_vs_market": {
         "spread_edge": 14.9,
-        "total_edge": -17.4
+        "total_edge": -16.4
       }
     },
     {
@@ -89,17 +89,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.02
       },
       "market": {
-        "spread": -12.5,
-        "over_under": 150.5,
+        "spread": -13.5,
+        "over_under": 155.5,
         "spread_holder": "Toledo Rockets"
       },
-      "value_rating": 0.2,
+      "value_rating": 1.2,
       "model_vs_market": {
-        "spread_edge": -0.2,
-        "total_edge": -3.5
+        "spread_edge": -1.2,
+        "total_edge": -8.5
       }
     },
     {
@@ -138,17 +138,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.0
       },
       "market": {
-        "spread": -15.5,
-        "over_under": 160.5,
+        "spread": -16.5,
+        "over_under": 157.5,
         "spread_holder": "Akron Zips"
       },
-      "value_rating": 3.3,
+      "value_rating": 4.3,
       "model_vs_market": {
-        "spread_edge": -3.3,
-        "total_edge": -0.5
+        "spread_edge": -4.3,
+        "total_edge": 2.5
       }
     },
     {
@@ -170,7 +170,7 @@
       "broadcast": "BTN",
       "predicted_spread": 17.9,
       "predicted_total": 146.6,
-      "home_projected_score": 82.2,
+      "home_projected_score": 82.3,
       "away_projected_score": 64.3,
       "home_win_prob": 83.6,
       "away_win_prob": 16.4,
@@ -187,7 +187,7 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.02
       },
       "market": {
         "spread": -21.5,
@@ -236,17 +236,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.01
       },
       "market": {
-        "spread": -11.5,
-        "over_under": 149.5,
+        "spread": -12.5,
+        "over_under": 152.5,
         "spread_holder": "Bowling Green Falcons"
       },
-      "value_rating": 1.0,
+      "value_rating": 2.0,
       "model_vs_market": {
-        "spread_edge": -1.0,
-        "total_edge": -1.0
+        "spread_edge": -2.0,
+        "total_edge": -4.0
       }
     },
     {
@@ -272,7 +272,7 @@
       "away_projected_score": 77.7,
       "home_win_prob": 27.3,
       "away_win_prob": 72.7,
-      "confidence": 72.8,
+      "confidence": 72.9,
       "pick": "Duke Blue Devils",
       "pick_abbr": "DUKE",
       "factors": {
@@ -285,17 +285,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.02
       },
       "market": {
-        "spread": 17.5,
-        "over_under": 142.5,
+        "spread": 16.5,
+        "over_under": 141.5,
         "spread_holder": "Duke Blue Devils"
       },
-      "value_rating": 6.8,
+      "value_rating": 5.8,
       "model_vs_market": {
-        "spread_edge": -6.8,
-        "total_edge": 2.2
+        "spread_edge": -5.8,
+        "total_edge": 3.2
       }
     },
     {
@@ -315,13 +315,13 @@
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "FS1",
-      "predicted_spread": -8.7,
+      "predicted_spread": -8.8,
       "predicted_total": 150.0,
-      "home_projected_score": 70.7,
+      "home_projected_score": 70.6,
       "away_projected_score": 79.4,
       "home_win_prob": 31.1,
       "away_win_prob": 68.9,
-      "confidence": 66.9,
+      "confidence": 67.0,
       "pick": "Iowa State Cyclones",
       "pick_abbr": "ISU",
       "factors": {
@@ -334,16 +334,16 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.02
       },
       "market": {
         "spread": 14.5,
         "over_under": 144.5,
         "spread_holder": "Iowa State Cyclones"
       },
-      "value_rating": 5.8,
+      "value_rating": 5.7,
       "model_vs_market": {
-        "spread_edge": -5.8,
+        "spread_edge": -5.7,
         "total_edge": 5.5
       }
     },
@@ -368,8 +368,8 @@
       "predicted_total": 138.2,
       "home_projected_score": 73.5,
       "away_projected_score": 64.8,
-      "home_win_prob": 68.9,
-      "away_win_prob": 31.1,
+      "home_win_prob": 69.0,
+      "away_win_prob": 31.0,
       "confidence": 66.5,
       "pick": "Troy Trojans",
       "pick_abbr": "TROY",
@@ -383,17 +383,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.02
       },
       "market": {
         "spread": -11.5,
-        "over_under": 134.5,
+        "over_under": 135.5,
         "spread_holder": "Troy Trojans"
       },
       "value_rating": 2.8,
       "model_vs_market": {
         "spread_edge": -2.8,
-        "total_edge": 3.7
+        "total_edge": 2.7
       }
     },
     {
@@ -416,10 +416,10 @@
       "predicted_spread": 8.2,
       "predicted_total": 151.5,
       "home_projected_score": 79.8,
-      "away_projected_score": 71.7,
-      "home_win_prob": 67.7,
-      "away_win_prob": 32.3,
-      "confidence": 63.3,
+      "away_projected_score": 71.6,
+      "home_win_prob": 67.8,
+      "away_win_prob": 32.2,
+      "confidence": 63.4,
       "pick": "Kent State Golden Flashes",
       "pick_abbr": "KENT",
       "factors": {
@@ -432,7 +432,7 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.04
       },
       "market": {
         "spread": -11.5,
@@ -466,8 +466,8 @@
       "predicted_total": 142.4,
       "home_projected_score": 76.2,
       "away_projected_score": 66.2,
-      "home_win_prob": 71.3,
-      "away_win_prob": 28.7,
+      "home_win_prob": 71.4,
+      "away_win_prob": 28.6,
       "confidence": 62.9,
       "pick": "Texas Tech Red Raiders",
       "pick_abbr": "TTU",
@@ -481,17 +481,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.02
       },
       "market": {
-        "spread": -6.5,
-        "over_under": 142.5,
+        "spread": -5.5,
+        "over_under": 147.5,
         "spread_holder": "Texas Tech Red Raiders"
       },
-      "value_rating": 3.5,
+      "value_rating": 4.5,
       "model_vs_market": {
-        "spread_edge": 3.5,
-        "total_edge": -0.1
+        "spread_edge": 4.5,
+        "total_edge": -5.1
       }
     },
     {
@@ -511,7 +511,7 @@
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "ESPN2",
-      "predicted_spread": -8.1,
+      "predicted_spread": -8.2,
       "predicted_total": 154.8,
       "home_projected_score": 73.3,
       "away_projected_score": 81.5,
@@ -530,16 +530,16 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.02
       },
       "market": {
-        "spread": 8.5,
+        "spread": 7.5,
         "over_under": 154.5,
         "spread_holder": "Arizona Wildcats"
       },
-      "value_rating": 0.4,
+      "value_rating": 0.7,
       "model_vs_market": {
-        "spread_edge": -0.4,
+        "spread_edge": 0.7,
         "total_edge": 0.3
       }
     },
@@ -566,7 +566,7 @@
       "away_projected_score": 70.5,
       "home_win_prob": 69.0,
       "away_win_prob": 31.0,
-      "confidence": 61.1,
+      "confidence": 61.2,
       "pick": "Indiana Hoosiers",
       "pick_abbr": "IU",
       "factors": {
@@ -579,17 +579,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.01
       },
       "market": {
         "spread": -9.5,
-        "over_under": 145.5,
+        "over_under": 141.5,
         "spread_holder": "Indiana Hoosiers"
       },
       "value_rating": 0.7,
       "model_vs_market": {
         "spread_edge": -0.7,
-        "total_edge": 4.2
+        "total_edge": 8.2
       }
     },
     {
@@ -613,9 +613,9 @@
       "predicted_total": 149.4,
       "home_projected_score": 72.1,
       "away_projected_score": 77.3,
-      "home_win_prob": 38.4,
-      "away_win_prob": 61.6,
-      "confidence": 60.8,
+      "home_win_prob": 38.3,
+      "away_win_prob": 61.7,
+      "confidence": 60.9,
       "pick": "Miami (OH) RedHawks",
       "pick_abbr": "M-OH",
       "factors": {
@@ -628,17 +628,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.04
       },
       "market": {
-        "spread": 8.5,
-        "over_under": 151.5,
+        "spread": 16.5,
+        "over_under": 140.5,
         "spread_holder": "Miami (OH) RedHawks"
       },
-      "value_rating": 3.3,
+      "value_rating": 11.3,
       "model_vs_market": {
-        "spread_edge": -3.3,
-        "total_edge": -2.1
+        "spread_edge": -11.3,
+        "total_edge": 8.9
       }
     },
     {
@@ -661,9 +661,9 @@
       "predicted_spread": 8.6,
       "predicted_total": 163.9,
       "home_projected_score": 86.3,
-      "away_projected_score": 77.6,
-      "home_win_prob": 68.7,
-      "away_win_prob": 31.3,
+      "away_projected_score": 77.7,
+      "home_win_prob": 68.6,
+      "away_win_prob": 31.4,
       "confidence": 59.6,
       "pick": "BYU Cougars",
       "pick_abbr": "BYU",
@@ -677,7 +677,7 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.01
       },
       "market": {
         "spread": -12.5,
@@ -707,13 +707,13 @@
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "MWN",
-      "predicted_spread": 7.4,
+      "predicted_spread": 7.5,
       "predicted_total": 148.7,
       "home_projected_score": 78.1,
       "away_projected_score": 70.6,
       "home_win_prob": 66.3,
       "away_win_prob": 33.7,
-      "confidence": 56.7,
+      "confidence": 56.8,
       "pick": "Colorado State Rams",
       "pick_abbr": "CSU",
       "factors": {
@@ -726,16 +726,16 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.02
       },
       "market": {
         "spread": -8.5,
         "over_under": 148.5,
         "spread_holder": "Colorado St Rams"
       },
-      "value_rating": 1.1,
+      "value_rating": 1.0,
       "model_vs_market": {
-        "spread_edge": -1.1,
+        "spread_edge": -1.0,
         "total_edge": 0.2
       }
     },
@@ -756,9 +756,9 @@
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "ESPN+",
-      "predicted_spread": 7.1,
+      "predicted_spread": 7.2,
       "predicted_total": 144.4,
-      "home_projected_score": 75.7,
+      "home_projected_score": 75.8,
       "away_projected_score": 68.6,
       "home_win_prob": 65.7,
       "away_win_prob": 34.3,
@@ -775,16 +775,16 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.03
       },
       "market": {
         "spread": -7.5,
         "over_under": 142.5,
         "spread_holder": "Morehead St Eagles"
       },
-      "value_rating": 0.4,
+      "value_rating": 0.3,
       "model_vs_market": {
-        "spread_edge": -0.4,
+        "spread_edge": -0.3,
         "total_edge": 1.9
       }
     },
@@ -838,55 +838,6 @@
       }
     },
     {
-      "game_id": "401828444",
-      "date": "2026-02-24T23:30Z",
-      "home_team": "La Salle Explorers",
-      "away_team": "George Washington Revolutionaries",
-      "home_abbr": "LAS",
-      "away_abbr": "GW",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "8-19",
-      "away_record": "15-12",
-      "venue": "John Glaser Arena",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "ESPN+",
-      "predicted_spread": -3.4,
-      "predicted_total": 145.7,
-      "home_projected_score": 71.1,
-      "away_projected_score": 74.5,
-      "home_win_prob": 42.3,
-      "away_win_prob": 57.7,
-      "confidence": 53.0,
-      "pick": "George Washington Revolutionaries",
-      "pick_abbr": "GW",
-      "factors": {
-        "efficiency_margin": -8.92,
-        "four_factors": 0.0,
-        "home_court": 3.5,
-        "recent_form": 2.0,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
-        "three_point": 0.0,
-        "free_throw": 0.0,
-        "experience": 0.0,
-        "sos": 0.0
-      },
-      "market": {
-        "spread": 8.5,
-        "over_under": 146.5,
-        "spread_holder": ""
-      },
-      "value_rating": 5.1,
-      "model_vs_market": {
-        "spread_edge": -5.1,
-        "total_edge": -0.8
-      }
-    },
-    {
       "game_id": "401825539",
       "date": "2026-02-25T04:00Z",
       "home_team": "UCLA Bruins",
@@ -922,7 +873,7 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.01
       },
       "market": {
         "spread": -7.5,
@@ -956,8 +907,8 @@
       "predicted_total": 141.6,
       "home_projected_score": 69.0,
       "away_projected_score": 72.6,
-      "home_win_prob": 41.9,
-      "away_win_prob": 58.1,
+      "home_win_prob": 42.0,
+      "away_win_prob": 58.0,
       "confidence": 51.4,
       "pick": "San Jos\u00e9 State Spartans",
       "pick_abbr": "SJSU",
@@ -971,7 +922,7 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.01
       },
       "market": {
         "spread": 6.5,
@@ -1020,17 +971,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.02
       },
       "market": {
-        "spread": 3.5,
-        "over_under": 140.5,
+        "spread": 11.5,
+        "over_under": 143.5,
         "spread_holder": "Washington Huskies"
       },
-      "value_rating": 0.3,
+      "value_rating": 8.3,
       "model_vs_market": {
-        "spread_edge": -0.3,
-        "total_edge": 5.0
+        "spread_edge": -8.3,
+        "total_edge": 2.0
       }
     },
     {
@@ -1054,9 +1005,9 @@
       "predicted_total": 142.3,
       "home_projected_score": 69.8,
       "away_projected_score": 72.6,
-      "home_win_prob": 43.7,
-      "away_win_prob": 56.3,
-      "confidence": 50.0,
+      "home_win_prob": 43.8,
+      "away_win_prob": 56.2,
+      "confidence": 49.9,
       "pick": "Massachusetts Minutemen",
       "pick_abbr": "MASS",
       "factors": {
@@ -1072,14 +1023,63 @@
         "sos": 0.0
       },
       "market": {
-        "spread": 4.5,
+        "spread": 3.5,
         "over_under": 143.5,
         "spread_holder": "Massachusetts Minutemen"
       },
-      "value_rating": 1.7,
+      "value_rating": 0.7,
       "model_vs_market": {
-        "spread_edge": -1.7,
+        "spread_edge": -0.7,
         "total_edge": -1.2
+      }
+    },
+    {
+      "game_id": "401828444",
+      "date": "2026-02-24T23:30Z",
+      "home_team": "La Salle Explorers",
+      "away_team": "George Washington Revolutionaries",
+      "home_abbr": "LAS",
+      "away_abbr": "GW",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "8-19",
+      "away_record": "15-12",
+      "venue": "John Glaser Arena",
+      "neutral_site": false,
+      "conference_game": true,
+      "broadcast": "ESPN+",
+      "predicted_spread": -3.4,
+      "predicted_total": 145.7,
+      "home_projected_score": 71.1,
+      "away_projected_score": 74.5,
+      "home_win_prob": 42.3,
+      "away_win_prob": 57.7,
+      "confidence": 47.9,
+      "pick": "George Washington Revolutionaries",
+      "pick_abbr": "GW",
+      "factors": {
+        "efficiency_margin": -8.92,
+        "four_factors": 0.0,
+        "home_court": 3.5,
+        "recent_form": 2.0,
+        "turnover_margin": 0.0,
+        "rebounding": 0.0,
+        "three_point": 0.0,
+        "free_throw": 0.0,
+        "experience": 0.0,
+        "sos": 0.01
+      },
+      "market": {
+        "spread": null,
+        "over_under": null,
+        "spread_holder": null
+      },
+      "value_rating": null,
+      "model_vs_market": {
+        "spread_edge": null,
+        "total_edge": null
       }
     },
     {
@@ -1101,11 +1101,11 @@
       "broadcast": "ESPN+",
       "predicted_spread": 4.8,
       "predicted_total": 155.1,
-      "home_projected_score": 79.9,
+      "home_projected_score": 80.0,
       "away_projected_score": 75.1,
-      "home_win_prob": 60.7,
-      "away_win_prob": 39.3,
-      "confidence": 47.6,
+      "home_win_prob": 60.8,
+      "away_win_prob": 39.2,
+      "confidence": 47.7,
       "pick": "Marshall Thundering Herd",
       "pick_abbr": "MRSH",
       "factors": {
@@ -1118,17 +1118,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.03
       },
       "market": {
-        "spread": -7.5,
-        "over_under": 159.5,
+        "spread": -6.5,
+        "over_under": 160.5,
         "spread_holder": "Marshall Thundering Herd"
       },
-      "value_rating": 2.7,
+      "value_rating": 1.7,
       "model_vs_market": {
-        "spread_edge": -2.7,
-        "total_edge": -4.4
+        "spread_edge": -1.7,
+        "total_edge": -5.4
       }
     },
     {
@@ -1167,17 +1167,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.01
       },
       "market": {
         "spread": 7.5,
-        "over_under": 150.5,
+        "over_under": 152.5,
         "spread_holder": "Kentucky Wildcats"
       },
       "value_rating": 5.3,
       "model_vs_market": {
         "spread_edge": -5.3,
-        "total_edge": -2.2
+        "total_edge": -4.2
       }
     },
     {
@@ -1201,8 +1201,8 @@
       "predicted_total": 141.1,
       "home_projected_score": 73.3,
       "away_projected_score": 67.8,
-      "home_win_prob": 62.3,
-      "away_win_prob": 37.7,
+      "home_win_prob": 62.4,
+      "away_win_prob": 37.6,
       "confidence": 44.0,
       "pick": "New Haven Chargers",
       "pick_abbr": "NHVN",
@@ -1216,7 +1216,7 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.02
       },
       "market": {
         "spread": null,
@@ -1265,17 +1265,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.01
       },
       "market": {
-        "spread": -2.5,
-        "over_under": 150.5,
+        "spread": -1.5,
+        "over_under": 155.5,
         "spread_holder": "Georgetown Hoyas"
       },
-      "value_rating": 1.6,
+      "value_rating": 2.6,
       "model_vs_market": {
-        "spread_edge": 1.6,
-        "total_edge": -2.8
+        "spread_edge": 2.6,
+        "total_edge": -7.8
       }
     },
     {
@@ -1314,17 +1314,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.01
       },
       "market": {
         "spread": -1.5,
-        "over_under": 143.5,
+        "over_under": 144.5,
         "spread_holder": "Oklahoma St Cowboys"
       },
       "value_rating": 2.0,
       "model_vs_market": {
         "spread_edge": 2.0,
-        "total_edge": -2.4
+        "total_edge": -3.4
       }
     },
     {
@@ -1363,16 +1363,16 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.01
       },
       "market": {
-        "spread": -7.5,
+        "spread": -6.5,
         "over_under": 149.5,
         "spread_holder": "TCU Horned Frogs"
       },
-      "value_rating": 4.2,
+      "value_rating": 3.2,
       "model_vs_market": {
-        "spread_edge": -4.2,
+        "spread_edge": -3.2,
         "total_edge": -1.2
       }
     },
@@ -1412,17 +1412,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": 0.01
       },
       "market": {
-        "spread": 2.5,
-        "over_under": 144.5,
+        "spread": 3.5,
+        "over_under": 143.5,
         "spread_holder": "Tennessee Volunteers"
       },
-      "value_rating": 0.9,
+      "value_rating": 1.9,
       "model_vs_market": {
-        "spread_edge": -0.9,
-        "total_edge": 2.9
+        "spread_edge": -1.9,
+        "total_edge": 3.9
       }
     },
     {
@@ -1491,7 +1491,7 @@
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "ESPNU",
-      "predicted_spread": -0.2,
+      "predicted_spread": -0.3,
       "predicted_total": 161.6,
       "home_projected_score": 80.7,
       "away_projected_score": 80.9,
@@ -1510,17 +1510,17 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.01
       },
       "market": {
-        "spread": 2.5,
-        "over_under": 156.5,
+        "spread": 3.5,
+        "over_under": 157.5,
         "spread_holder": "Auburn Tigers"
       },
-      "value_rating": 2.3,
+      "value_rating": 3.2,
       "model_vs_market": {
-        "spread_edge": -2.3,
-        "total_edge": 5.1
+        "spread_edge": -3.2,
+        "total_edge": 4.1
       }
     },
     {
@@ -1544,9 +1544,9 @@
       "predicted_total": 156.0,
       "home_projected_score": 78.7,
       "away_projected_score": 77.2,
-      "home_win_prob": 53.4,
-      "away_win_prob": 46.6,
-      "confidence": 25.1,
+      "home_win_prob": 53.3,
+      "away_win_prob": 46.7,
+      "confidence": 25.0,
       "pick": "Florida State Seminoles",
       "pick_abbr": "FSU",
       "factors": {
@@ -1559,7 +1559,7 @@
         "three_point": 0.0,
         "free_throw": 0.0,
         "experience": 0.0,
-        "sos": 0.0
+        "sos": -0.01
       },
       "market": {
         "spread": 2.5,
@@ -1578,7 +1578,7 @@
     "high_confidence": 6,
     "medium_confidence": 22,
     "low_confidence": 4,
-    "avg_confidence": 56.4,
-    "value_plays": 13
+    "avg_confidence": 56.2,
+    "value_plays": 14
   }
 }
