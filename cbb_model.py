@@ -680,7 +680,16 @@ class CBBPredictionModel:
         # ============================================================
         # FINAL PREDICTION = efficiency margin (in pts) + HCA + recent trend
         # ============================================================
-        predicted_margin = raw_margin + hca + recent_form_pts
+        # Scale factor contributions (they're additive adjustments in points)
+        # four_factors/TO/reb are huge because Barttorvik values are 0-1 decimals
+        # treated as percentages in calc functions — scale down accordingly
+        ff_contribution  = max(min(four_factors_margin * 0.015, 3.0), -3.0)
+        to_contribution  = max(min(to_margin * 0.015, 2.0), -2.0)
+        reb_contribution = max(min(reb_margin * 0.5, 2.0), -2.0)
+        ft_contribution  = max(min(ft_margin * 0.015, 1.5), -1.5)
+        exp_contribution = max(min(exp_margin, 1.0), -1.0)
+
+        predicted_margin = raw_margin + hca + recent_form_pts + ff_contribution + to_contribution + reb_contribution + ft_contribution + exp_contribution
 
         # ---- PROJECT TOTAL SCORE ----
         # Apply 0.905 calibration factor — barttorvik AdjOE/AdjDE are inflated
@@ -755,14 +764,14 @@ class CBBPredictionModel:
             "pick_abbr": home["abbreviation"] if predicted_margin > 0 else away["abbreviation"],
             "factors": {
                 "efficiency_margin": round(raw_margin, 2),
-                "four_factors": round(four_factors_margin, 2),
+                "four_factors": round(ff_contribution, 2),
                 "home_court": round(hca, 2),
                 "recent_form": round(recent_form_diff, 2),
-                "turnover_margin": round(to_margin, 2),
-                "rebounding": round(reb_margin, 2),
+                "turnover_margin": round(to_contribution, 2),
+                "rebounding": round(reb_contribution, 2),
                 "three_point": round(three_pt_margin, 2),
-                "free_throw": round(ft_margin, 2),
-                "experience": round(exp_margin, 2),
+                "free_throw": round(ft_contribution, 2),
+                "experience": round(exp_contribution, 2),
                 "sos": round(sos_margin, 2),
             },
             "market": {
