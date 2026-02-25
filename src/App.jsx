@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import Results from "./Results.jsx";
 
 // Sample data structure matching the Python model output
 const SAMPLE_DATA = {
@@ -583,6 +584,17 @@ function GameCard({ pick, expanded, onToggle, index }) {
               {pick.home_record}
             </span>
           </div>
+          {pick.date && (
+            <div style={{ fontSize: 10, color: "#4b5563", marginTop: 5, fontFamily: "'JetBrains Mono', monospace" }}>
+              {(() => {
+                try {
+                  const d = new Date(pick.date);
+                  return d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: "America/Chicago", timeZoneName: "short" });
+                } catch { return ""; }
+              })()}
+              {pick.broadcast ? ` · ${pick.broadcast}` : ""}
+            </div>
+          )}
         </div>
 
         {/* Pick & Spread */}
@@ -823,31 +835,16 @@ function GameCard({ pick, expanded, onToggle, index }) {
 
 export default function App() {
   const [data, setData] = useState(null);
+  const [activeTab, setActiveTab] = useState("picks");
   const [expandedId, setExpandedId] = useState(null);
   const [filter, setFilter] = useState("all");
   const [searchTerm, setSearchTerm] = useState("");
-  const [sortBy, setSortBy] = useState("confidence");
+  const [sortBy, setSortBy] = useState("tipoff");
 
   useEffect(() => {
     fetch("/latest.json")
-      .then((r) => {
-        if (!r.ok) throw new Error("not found");
-        return r.json();
-      })
-      .then((json) => {
-        // Filter out any games with broken spreads (schema issue safety net)
-        const cleaned = {
-          ...json,
-          picks: json.picks.filter(
-            (p) =>
-              Math.abs(p.predicted_spread) <= 50 &&
-              p.predicted_total > 50 &&
-              p.predicted_total < 300
-          ),
-        };
-        cleaned.total_games = cleaned.picks.length;
-        setData(cleaned.picks.length > 0 ? cleaned : SAMPLE_DATA);
-      })
+      .then((r) => { if (!r.ok) throw new Error(); return r.json(); })
+      .then(setData)
       .catch(() => setData(SAMPLE_DATA));
   }, []);
 
@@ -895,6 +892,8 @@ export default function App() {
     );
   }
 
+  if (sortBy === "tipoff")
+    filtered.sort((a, b) => new Date(a.date) - new Date(b.date));
   if (sortBy === "confidence")
     filtered.sort((a, b) => b.confidence - a.confidence);
   if (sortBy === "spread")
@@ -1052,6 +1051,35 @@ export default function App() {
         </div>
       </header>
 
+      {/* Tab Nav */}
+      <div style={{ maxWidth: 900, margin: "0 auto", padding: "0 24px 0", display: "flex", gap: 4, borderBottom: "1px solid #1e293b" }}>
+        {["picks", "results"].map((tab) => (
+          <button
+            key={tab}
+            onClick={() => setActiveTab(tab)}
+            style={{
+              background: "none", border: "none", cursor: "pointer",
+              padding: "10px 20px",
+              fontSize: 11, fontWeight: 700, letterSpacing: 2,
+              textTransform: "uppercase",
+              fontFamily: "'JetBrains Mono', monospace",
+              color: activeTab === tab ? "#818cf8" : "#4b5563",
+              borderBottom: activeTab === tab ? "2px solid #818cf8" : "2px solid transparent",
+              marginBottom: -1,
+              transition: "all 0.2s ease",
+            }}
+          >
+            {tab === "picks" ? "Today's Picks" : "Results"}
+          </button>
+        ))}
+      </div>
+
+      {/* Results Tab */}
+      {activeTab === "results" && <Results />}
+
+      {/* Picks Tab */}
+      {activeTab === "picks" && <>
+
       {/* Controls */}
       <div
         style={{
@@ -1139,6 +1167,7 @@ export default function App() {
               fontFamily: "'JetBrains Mono', monospace",
             }}
           >
+            <option value="tipoff">Tipoff Time</option>
             <option value="confidence">Confidence</option>
             <option value="spread">Spread</option>
             <option value="value">Value</option>
@@ -1201,6 +1230,7 @@ export default function App() {
           {new Date(data.generated_at).toLocaleString()} • v{data.model_version}
         </p>
       </footer>
+      </>}
     </div>
   );
 }
