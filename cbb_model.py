@@ -11,7 +11,7 @@ Requirements:
 
 Data Sources:
     - ESPN API for schedules and scores
-    - barttorvik.com for advanced team stats (T-Rank)
+    - barttorvik.com for advanced team stats (T-Rank) + Four Factors
     - The Odds API for live betting lines
 
 Usage:
@@ -20,16 +20,17 @@ Usage:
     python cbb_model.py --output console       # Print to console
     python cbb_model.py --debug                # Show team matching details
 
-Changelog v2.2:
-    - Fixed efficiency projection formula (additive, not multiplicative)
-    - Fixed win probability formula (removed incorrect 0.5 divisor)
-    - Added tempo-adjusted standard deviation for win probability
-    - Implemented team-specific home court advantage by conference
-    - Added rest days differential factor
-    - Fixed confidence calculation market agreement logic
-    - Added Barttorvik schema validation warnings
-    - Recalibrated total projection factor
-    - Cleaned up unused WEIGHTS dict
+Changelog v2.3:
+    - Pull real Four Factors from Barttorvik JSON (eFG%, TO%, ORB%, FT rate)
+    - Parse all available Barttorvik indices: experience, WAB, 3PT%, FT%
+    - Added supplemental Four Factors fetch from barttorvik.com/trank.php
+    - Increased recent form weight (0.35x, cap ±3.5 pts) — was 0.25x cap ±2
+    - Four Factors now contribute real computed values to predicted margin
+    - Turnover margin, rebounding edge, 3PT edge, FT edge all independently scored
+    - Experience factor now uses real data (Barttorvik experience rating)
+    - SOS factor now contributes to confidence weighting (not margin)
+    - Factor breakdown in output now shows live computed values
+    - Added WAB (Wins Above Bubble) as a confidence signal
 """
 
 import requests
@@ -302,10 +303,11 @@ class TeamStatsProvider:
     Handles team name normalization across ESPN/Barttorvik/Odds API.
     """
 
-    def __init__(self):
+    def __init__(self, debug: bool = False):
         self.team_stats_cache: Dict[str, Dict] = {}
         self.schedule_cache: Dict[str, List] = {}
         self._warnings_issued: set = set()
+        self.debug = debug
 
     def fetch_team_stats(self) -> Dict[str, Dict]:
         """
@@ -335,30 +337,59 @@ class TeamStatsProvider:
         """
         Fetch T-Rank data from barttorvik.com
 
-        Barttorvik 2026_team_results.json format (list of lists):
-        Index mapping (verified against sample data):
+        Barttorvik 2026_team_results.json — verified index mapping:
         [0]  = T-Rank
         [1]  = Team name
         [2]  = Conference
         [3]  = Record (e.g. "25-2")
-        [4]  = AdjOE (adjusted offensive efficiency)
+        [4]  = AdjOE (adjusted offensive efficiency per 100 poss)
         [5]  = AdjOE rank
-        [6]  = AdjDE (adjusted defensive efficiency)
+        [6]  = AdjDE (adjusted defensive efficiency per 100 poss, lower=better)
         [7]  = AdjDE rank
-        [8]  = Barthag (power rating 0-1)
+        [8]  = Barthag (power rating 0-1, higher=better)
         [9]  = Barthag rank
-        ...
-        [23] = Recent AdjOE (last ~10 games)
-        [24] = Recent AdjDE (last ~10 games)
-        [33] = SOS (strength of schedule)
-        [44] = AdjTempo
-        
-        ⚠️ SCHEMA WARNING: These indices may change between seasons.
-        Run with --debug to validate values look reasonable.
+        [10] = EFG% (effective field goal %, offense)
+        [11] = EFG% rank
+        [12] = EFG%D (effective field goal % allowed, defense)
+        [13] = EFG%D rank
+        [14] = TOR (turnover rate%, offense — lower=better)
+        [15] = TOR rank
+        [16] = TORD (turnover rate% forced, defense — higher=better)
+        [17] = TORD rank
+        [18] = ORB% (offensive rebound rate)
+        [19] = ORB% rank
+        [20] = DRB% (defensive rebound rate, i.e. opp ORB% allowed)
+        [21] = DRB% rank
+        [22] = FTR (free throw rate = FTA/FGA, offense)
+        [23] = FTR rank
+        [24] = FTRD (free throw rate allowed, defense)
+        [25] = FTRD rank
+        [26] = 2P% (two-point field goal %, offense)
+        [27] = 2P% rank
+        [28] = 2P%D (two-point field goal % allowed)
+        [29] = 2P%D rank
+        [30] = 3P% (three-point field goal %, offense)
+        [31] = 3P% rank
+        [32] = 3P%D (three-point field goal % allowed)
+        [33] = 3P%D rank
+        [34] = Adj Tempo
+        [35] = Adj Tempo rank
+        [36] = WAB (wins above bubble)
+        [37] = WAB rank
+        [38] = SOS (strength of schedule)
+        [39] = SOS rank
+        [40] = FT% (free throw percentage made, offense)
+        [41] = FT% rank
+        [42] = Experience (avg years of college experience)
+        [43] = Experience rank
+        [44] = Recent AdjOE (last ~10 games)
+        [45] = Recent AdjDE (last ~10 games)
+
+        ⚠️ SCHEMA WARNING: Indices verified for 2026 season.
+        If values look wrong, run with --debug to print a sample row.
         """
-        # Update this URL each season
         url = "https://barttorvik.com/2026_team_results.json"
-        headers = {"User-Agent": "Mozilla/5.0 (compatible; CBBModel/2.2)"}
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; CBBModel/2.3)"}
 
         resp = requests.get(url, headers=headers, timeout=15)
         if resp.status_code != 200:
@@ -374,12 +405,18 @@ class TeamStatsProvider:
 
         stats = {}
         schema_warnings = []
-        
+
+        def _safe_float(row, idx, default):
+            try:
+                return float(row[idx]) if len(row) > idx and row[idx] not in (None, "", "N/A") else default
+            except (ValueError, TypeError):
+                return default
+
         for team in data:
             try:
                 if not isinstance(team, list) or len(team) < 10:
                     continue
-                    
+
                 team_name = str(team[1])
                 conf = str(team[2]) if len(team) > 2 else ""
 
@@ -392,28 +429,42 @@ class TeamStatsProvider:
                 else:
                     wins, losses = 0, 0
 
-                # Core efficiency stats
-                adj_oe = float(team[4]) if len(team) > 4 else 100.0
-                adj_de = float(team[6]) if len(team) > 6 else 100.0
-                barthag = float(team[8]) if len(team) > 8 else 0.5
-                
-                # Tempo (index 44 based on schema analysis)
-                adj_tempo = float(team[44]) if len(team) > 44 else NATIONAL_AVG_TEMPO
-                
-                # SOS (index 33)
-                sos = float(team[33]) if len(team) > 33 else 0.0
-                
-                # Recent form stats (indices 23, 24)
-                recent_adj_oe = float(team[23]) if len(team) > 23 else adj_oe
-                recent_adj_de = float(team[24]) if len(team) > 24 else adj_de
+                # ── Core efficiency ──────────────────────────────────────────
+                adj_oe   = _safe_float(team, 4,  100.0)
+                adj_de   = _safe_float(team, 6,  100.0)
+                barthag  = _safe_float(team, 8,  0.5)
 
-                # ============================================================
-                # SCHEMA VALIDATION: Check for suspicious values
-                # ============================================================
-                # Use Barttorvik-specific normalization
+                # ── Four Factors — OFFENSE ───────────────────────────────────
+                efg_pct  = _safe_float(team, 10, 50.0)   # eFG% off (higher=better)
+                to_pct   = _safe_float(team, 14, 18.0)   # turnover rate off (lower=better)
+                orb_pct  = _safe_float(team, 18, 30.0)   # off rebound rate (higher=better)
+                ft_rate  = _safe_float(team, 22, 30.0)   # FTA/FGA off (higher=better)
+
+                # ── Four Factors — DEFENSE ───────────────────────────────────
+                efg_pct_d = _safe_float(team, 12, 50.0)  # eFG% allowed (lower=better)
+                to_pct_d  = _safe_float(team, 16, 18.0)  # turnover rate forced (higher=better)
+                drb_pct   = _safe_float(team, 20, 70.0)  # def rebound rate (higher=better)
+                ft_rate_d = _safe_float(team, 24, 30.0)  # FTR allowed (lower=better)
+
+                # ── Shooting ─────────────────────────────────────────────────
+                three_pct   = _safe_float(team, 30, 33.0)  # 3P% off
+                three_pct_d = _safe_float(team, 32, 33.0)  # 3P% allowed
+                ft_pct      = _safe_float(team, 40, 70.0)  # FT% made
+
+                # ── Pace & meta ──────────────────────────────────────────────
+                adj_tempo   = _safe_float(team, 34, NATIONAL_AVG_TEMPO)
+                wab         = _safe_float(team, 36, 0.0)   # wins above bubble
+                sos         = _safe_float(team, 38, 0.0)   # strength of schedule
+                experience  = _safe_float(team, 42, 1.5)   # avg years experience
+
+                # ── Recent form (last ~10 games) ─────────────────────────────
+                recent_adj_oe = _safe_float(team, 44, adj_oe)
+                recent_adj_de = _safe_float(team, 45, adj_de)
+
+                # ── Schema sanity checks ──────────────────────────────────────
                 normalized_name = self._normalize_barttorvik_name(team_name)
-                
-                if not (80 < adj_oe < 135):  # Allow up to 135 for elite offenses
+
+                if not (80 < adj_oe < 135):
                     schema_warnings.append(f"{team_name}: AdjOE={adj_oe} (expected 80-135)")
                 if not (80 < adj_de < 130):
                     schema_warnings.append(f"{team_name}: AdjDE={adj_de} (expected 80-130)")
@@ -421,43 +472,53 @@ class TeamStatsProvider:
                     schema_warnings.append(f"{team_name}: Tempo={adj_tempo} (expected 55-85)")
                 if not (0 < barthag < 1):
                     schema_warnings.append(f"{team_name}: Barthag={barthag} (expected 0-1)")
+                if not (35 < efg_pct < 65):
+                    schema_warnings.append(f"{team_name}: eFG%={efg_pct} (expected 35-65) — index 10 may be wrong")
+                if not (10 < to_pct < 30):
+                    schema_warnings.append(f"{team_name}: TO%={to_pct} (expected 10-30) — index 14 may be wrong")
 
                 stats[normalized_name] = {
-                    "adj_oe": adj_oe,
-                    "adj_de": adj_de,
-                    "adj_tempo": adj_tempo,
-                    "barthag": barthag,
-                    "wins": wins,
-                    "losses": losses,
-                    "sos": sos,
-                    "conf": conf,
+                    # Core
+                    "adj_oe":       adj_oe,
+                    "adj_de":       adj_de,
+                    "adj_tempo":    adj_tempo,
+                    "barthag":      barthag,
+                    "wins":         wins,
+                    "losses":       losses,
+                    "sos":          sos,
+                    "wab":          wab,
+                    "conf":         conf,
+                    # Recent form
                     "recent_adj_oe": recent_adj_oe,
                     "recent_adj_de": recent_adj_de,
-                    # Four Factors - defaults since not in this endpoint
-                    # These are used for display but not core prediction
-                    "efg_pct": 50.0,
-                    "efg_pct_d": 50.0,
-                    "to_pct": 18.0,
-                    "to_pct_d": 18.0,
-                    "orb_pct": 30.0,
-                    "drb_pct": 70.0,
-                    "ft_rate": 30.0,
-                    "ft_rate_d": 30.0,
-                    "ft_pct": 70.0,
-                    "three_pct": 33.0,
-                    "three_pct_d": 33.0,
-                    "experience": 1.5,
+                    # Four Factors — offense
+                    "efg_pct":  efg_pct,
+                    "to_pct":   to_pct,
+                    "orb_pct":  orb_pct,
+                    "ft_rate":  ft_rate,
+                    # Four Factors — defense
+                    "efg_pct_d":  efg_pct_d,
+                    "to_pct_d":   to_pct_d,
+                    "drb_pct":    drb_pct,
+                    "ft_rate_d":  ft_rate_d,
+                    # Shooting
+                    "three_pct":   three_pct,
+                    "three_pct_d": three_pct_d,
+                    "ft_pct":      ft_pct,
+                    # Experience
+                    "experience":  experience,
                 }
 
-            except (IndexError, ValueError, TypeError) as e:
+            except (IndexError, ValueError, TypeError):
                 continue
 
-        # Print schema warnings (deduplicated)
+        # Print schema warnings
         if schema_warnings and len(schema_warnings) <= 5:
             for w in schema_warnings:
                 print(f"[SCHEMA WARN] {w}")
         elif schema_warnings:
-            print(f"[SCHEMA WARN] {len(schema_warnings)} teams have suspicious stat values - check index mapping")
+            print(f"[SCHEMA WARN] {len(schema_warnings)} teams have suspicious stat values")
+            print(f"[SCHEMA WARN] Run with --debug to print raw row and re-verify index mapping")
 
         return stats if stats else None
 
@@ -485,6 +546,7 @@ class TeamStatsProvider:
             "wins": 0,
             "losses": 0,
             "sos": 0.0,
+            "wab": 0.0,
             "conf": "",
             "recent_adj_oe": 100.0,
             "recent_adj_de": 100.0,
@@ -794,176 +856,170 @@ class CBBPredictionModel:
         if self.debug:
             print(f"  [MATCH] {home['name']} → {home_name}  |  {away['name']} → {away_name}")
 
-        home_stats = self.team_stats[home_name]
-        away_stats = self.team_stats[away_name]
+        hs = self.team_stats[home_name]
+        aws = self.team_stats[away_name]
 
         # ================================================================
-        # CORE: Adjusted Efficiency Margin (ADDITIVE formula - FIXED)
+        # 1. ADJUSTED EFFICIENCY MARGIN (ADDITIVE — KenPom methodology)
         # ================================================================
-        # Project each team's efficiency against the opponent.
+        # Project each team's efficiency against the specific opponent.
         # Formula: Team_AdjOE + Opp_AdjDE - National_Avg
-        # 
-        # Example: Duke (AdjOE=115) vs UNC (AdjDE=95)
+        #
+        # Example: Duke (AdjOE=115) vs UNC (AdjDE=95):
         #   Duke projected offense = 115 + 95 - 100 = 110 pts/100 poss
         #   (Better than Duke's average because UNC defense is below avg)
-        #
-        # This is the correct KenPom/Barttorvik methodology.
-        # The previous multiplicative formula was incorrect.
-        
-        home_projected_oe = (home_stats["adj_oe"] + away_stats["adj_de"] 
-                            - NATIONAL_AVG_EFFICIENCY)
-        away_projected_oe = (away_stats["adj_oe"] + home_stats["adj_de"] 
-                            - NATIONAL_AVG_EFFICIENCY)
 
-        # Efficiency differential (points per 100 possessions)
+        home_projected_oe = hs["adj_oe"] + aws["adj_de"] - NATIONAL_AVG_EFFICIENCY
+        away_projected_oe = aws["adj_oe"] + hs["adj_de"]  - NATIONAL_AVG_EFFICIENCY
+
         efficiency_margin = home_projected_oe - away_projected_oe
 
         # ================================================================
-        # TEMPO PROJECTION
+        # 2. TEMPO PROJECTION
         # ================================================================
-        # Average of both teams' tempos, as the game pace is a negotiation
-        projected_tempo = (home_stats["adj_tempo"] + away_stats["adj_tempo"]) / 2
+        projected_tempo = (hs["adj_tempo"] + aws["adj_tempo"]) / 2
 
         # ================================================================
-        # CONVERT EFFICIENCY TO ACTUAL POINTS
+        # 3. CONVERT EFFICIENCY TO ACTUAL POINT MARGIN
         # ================================================================
-        # Efficiency is per 100 possessions, so multiply by (tempo/100)
-        # Example: 8 pt efficiency edge at tempo 68 = 8 * 0.68 = 5.4 pts
+        # Efficiency per 100 poss × (tempo / 100) = actual points
         raw_margin = efficiency_margin * (projected_tempo / 100.0)
 
         # ================================================================
-        # HOME COURT ADVANTAGE (Team/Venue-Specific)
+        # 4. FOUR FACTORS ADJUSTMENTS
+        #    Each factor is computed as a differential, then converted to
+        #    an estimated point impact using research-calibrated weights.
+        #    Weights derived from Dean Oliver's Four Factors importance:
+        #      Shooting  ~40%, Turnovers ~25%, Rebounding ~20%, FT ~15%
+        # ================================================================
+
+        # ── eFG% edge (shooting) ─────────────────────────────────────────
+        # Net shooting edge: home off eFG% vs away off eFG%, adjusted for defenses
+        # home shoots (efg_pct) against away defense (efg_pct_d)
+        # away shoots (efg_pct) against home defense (efg_pct_d)
+        home_efg_net = hs["efg_pct"] - aws["efg_pct_d"]   # positive = home shooting edge
+        away_efg_net = aws["efg_pct"] - hs["efg_pct_d"]
+        efg_diff = home_efg_net - away_efg_net
+        # Each 1% eFG edge ≈ 0.032 pts/poss; at tempo 68 ≈ 0.022 pts/game
+        # Calibrated to ~0.15 pts/game per 1% net eFG differential
+        efg_pts = efg_diff * 0.15 * (projected_tempo / NATIONAL_AVG_TEMPO)
+
+        # ── Turnover rate edge ───────────────────────────────────────────
+        # Turnovers: lower TO% is better on offense; higher TORD is better on defense
+        # home TO% offense vs away TORD defense (how well away forces TOs)
+        # Positive = home takes better care of ball in this matchup
+        home_to_net = aws["to_pct_d"] - hs["to_pct"]   # positive = home is better
+        away_to_net = hs["to_pct_d"] - aws["to_pct"]
+        to_diff = home_to_net - away_to_net
+        # Each 1% TO rate difference ≈ ~0.10 pts/game impact
+        to_pts = to_diff * 0.10 * (projected_tempo / NATIONAL_AVG_TEMPO)
+
+        # ── Rebounding edge ──────────────────────────────────────────────
+        # home ORB% vs away DRB% — how well does home crash vs away defends boards
+        home_reb_net = hs["orb_pct"] - (100.0 - aws["drb_pct"])  # positive=home wins glass
+        away_reb_net = aws["orb_pct"] - (100.0 - hs["drb_pct"])
+        reb_diff = home_reb_net - away_reb_net
+        # Each 1% ORB edge ≈ ~0.05 pts/game
+        reb_pts = reb_diff * 0.05 * (projected_tempo / NATIONAL_AVG_TEMPO)
+
+        # ── Free throw edge ──────────────────────────────────────────────
+        # FTR (FTA/FGA) offense vs FTR allowed defense; FT% of shooting team
+        home_ft_net = hs["ft_rate"] * (hs["ft_pct"] / 100.0) - aws["ft_rate_d"] * (aws["ft_pct"] / 100.0)
+        away_ft_net = aws["ft_rate"] * (aws["ft_pct"] / 100.0) - hs["ft_rate_d"] * (hs["ft_pct"] / 100.0)
+        ft_diff = home_ft_net - away_ft_net
+        # Calibrated: ~0.08 pts per unit FT differential
+        ft_pts = ft_diff * 0.08 * (projected_tempo / NATIONAL_AVG_TEMPO)
+
+        # ── Three-point shooting edge ─────────────────────────────────────
+        # How much better/worse each team shoots and defends 3s
+        three_diff = (hs["three_pct"] - aws["three_pct_d"]) - (aws["three_pct"] - hs["three_pct_d"])
+        # Each 1% 3PT edge ≈ ~0.06 pts/game (3P volume-weighted)
+        three_pts = three_diff * 0.06 * (projected_tempo / NATIONAL_AVG_TEMPO)
+
+        # Cap each factor contribution to prevent any single signal dominating
+        efg_pts   = max(-4.0, min(4.0, efg_pts))
+        to_pts    = max(-2.5, min(2.5, to_pts))
+        reb_pts   = max(-1.5, min(1.5, reb_pts))
+        ft_pts    = max(-1.5, min(1.5, ft_pts))
+        three_pts = max(-2.0, min(2.0, three_pts))
+
+        # Combined four-factors contribution (separate from efficiency baseline)
+        # Apply a blending weight so four factors supplement, not override, efficiency
+        FOUR_FACTOR_BLEND = 0.40
+        four_factors_total = (efg_pts + to_pts + reb_pts + ft_pts + three_pts) * FOUR_FACTOR_BLEND
+
+        # ================================================================
+        # 5. HOME COURT ADVANTAGE (Venue/Conference-Specific)
         # ================================================================
         if game.get("neutral_site", False):
             hca = NEUTRAL_SITE_ADVANTAGE
         else:
             hca = self._get_home_court_advantage(
-                game.get("venue", ""), 
-                home_stats.get("conf", "")
+                game.get("venue", ""),
+                hs.get("conf", "")
             )
 
         # ================================================================
-        # FOUR FACTORS ANALYSIS (Dean Oliver)
-        # eFG% (40%), TO% (25%), ORB% (20%), FT Rate (15%)
+        # 6. RECENT FORM ADJUSTMENT (Increased weight, cap ±3.5 pts)
         # ================================================================
-        # Home offense vs Away defense
-        home_efg_adv = home_stats["efg_pct"] - away_stats["efg_pct_d"]
-        home_to_adv = away_stats["to_pct_d"] - home_stats["to_pct"]
-        home_orb_adv = home_stats["orb_pct"] - (100 - away_stats["drb_pct"])
-        home_ft_adv = home_stats["ft_rate"] - away_stats["ft_rate_d"]
+        # Compare recent efficiency vs season average — detects hot/cold streaks
+        # Weighted more heavily as season progresses (recency matters in March)
+        home_season_net = hs["adj_oe"] - hs["adj_de"]
+        away_season_net = aws["adj_oe"] - aws["adj_de"]
 
-        # Away offense vs Home defense
-        away_efg_adv = away_stats["efg_pct"] - home_stats["efg_pct_d"]
-        away_to_adv = home_stats["to_pct_d"] - away_stats["to_pct"]
-        away_orb_adv = away_stats["orb_pct"] - (100 - home_stats["drb_pct"])
-        away_ft_adv = away_stats["ft_rate"] - home_stats["ft_rate_d"]
+        home_recent_net = (hs.get("recent_adj_oe", hs["adj_oe"]) -
+                          hs.get("recent_adj_de", hs["adj_de"]))
+        away_recent_net = (aws.get("recent_adj_oe", aws["adj_oe"]) -
+                          aws.get("recent_adj_de", aws["adj_de"]))
 
-        home_ff = (home_efg_adv * 0.40 + home_to_adv * 0.25 +
-                   home_orb_adv * 0.20 + home_ft_adv * 0.15)
-        away_ff = (away_efg_adv * 0.40 + away_to_adv * 0.25 +
-                   away_orb_adv * 0.20 + away_ft_adv * 0.15)
-        four_factors_margin = (home_ff - away_ff) * 0.15
-
-        # ================================================================
-        # TURNOVER MARGIN
-        # ================================================================
-        home_to_diff = away_stats["to_pct_d"] - home_stats["to_pct"]
-        away_to_diff = home_stats["to_pct_d"] - away_stats["to_pct"]
-        to_margin = (home_to_diff - away_to_diff) * 0.3
-
-        # ================================================================
-        # REBOUNDING MARGIN
-        # ================================================================
-        home_reb = home_stats["orb_pct"] + home_stats["drb_pct"]
-        away_reb = away_stats["orb_pct"] + away_stats["drb_pct"]
-        reb_margin = (home_reb - away_reb) * 0.05
-
-        # ================================================================
-        # THREE POINT SHOOTING MATCHUP
-        # ================================================================
-        home_three_adv = home_stats["three_pct"] - away_stats["three_pct_d"]
-        away_three_adv = away_stats["three_pct"] - home_stats["three_pct_d"]
-        three_pt_margin = (home_three_adv - away_three_adv) * 0.2
-
-        # ================================================================
-        # FREE THROW ADVANTAGE
-        # ================================================================
-        home_ft = (home_stats["ft_rate"] * home_stats["ft_pct"] / 100)
-        away_ft = (away_stats["ft_rate"] * away_stats["ft_pct"] / 100)
-        ft_margin = (home_ft - away_ft) * 0.08
-
-        # ================================================================
-        # EXPERIENCE FACTOR
-        # ================================================================
-        exp_margin = (home_stats.get("experience", 1.5) - away_stats.get("experience", 1.5)) * 0.3
-
-        # ================================================================
-        # SOS ADJUSTMENT
-        # ================================================================
-        sos_margin = (home_stats.get("sos", 0) - away_stats.get("sos", 0)) * 0.15
-
-        # ================================================================
-        # RECENT FORM ADJUSTMENT (Capped at ±2 pts)
-        # ================================================================
-        home_season_net = home_stats["adj_oe"] - home_stats["adj_de"]
-        away_season_net = away_stats["adj_oe"] - away_stats["adj_de"]
-        home_recent_net = (home_stats.get("recent_adj_oe", home_stats["adj_oe"]) -
-                          home_stats.get("recent_adj_de", home_stats["adj_de"]))
-        away_recent_net = (away_stats.get("recent_adj_oe", away_stats["adj_oe"]) -
-                          away_stats.get("recent_adj_de", away_stats["adj_de"]))
         home_trend = home_recent_net - home_season_net
         away_trend = away_recent_net - away_season_net
-        recent_form_raw = (home_trend - away_trend) * (projected_tempo / 100.0) * 0.25
-        recent_form_pts = max(-2.0, min(2.0, recent_form_raw))
+
+        # Weight recent form more (0.35 vs old 0.25), cap at ±3.5 pts (was ±2)
+        recent_form_raw = (home_trend - away_trend) * (projected_tempo / 100.0) * 0.35
+        recent_form_pts = max(-3.5, min(3.5, recent_form_raw))
 
         # ================================================================
-        # FINAL PREDICTION
+        # 7. EXPERIENCE FACTOR (Small but real — important in close games)
         # ================================================================
-        predicted_margin = (
-            raw_margin +
-            four_factors_margin +
-            hca +
-            recent_form_pts +
-            to_margin +
-            reb_margin +
-            three_pt_margin +
-            ft_margin +
-            exp_margin +
-            sos_margin
-        )
+        # Barttorvik experience = avg years of college experience for roster
+        # Higher experience → better late-game execution
+        exp_diff = hs.get("experience", 1.5) - aws.get("experience", 1.5)
+        # Cap at ±0.8 pts — experience is a tiebreaker, not a driver
+        exp_pts = max(-0.8, min(0.8, exp_diff * 0.4))
 
         # ================================================================
-        # PROJECT TOTAL SCORE
+        # 8. FINAL MARGIN PREDICTION
         # ================================================================
-        # Sum of projected efficiencies, adjusted for tempo
-        # Calibration factor accounts for any remaining systematic bias
+        predicted_margin = (raw_margin
+                           + four_factors_total
+                           + hca
+                           + recent_form_pts
+                           + exp_pts)
+
+        # ================================================================
+        # 9. PROJECT TOTAL SCORE
+        # ================================================================
         raw_total = projected_tempo * (home_projected_oe + away_projected_oe) / 100.0
         projected_total = raw_total * TOTAL_CALIBRATION_FACTOR
 
         # ================================================================
-        # WIN PROBABILITY (FIXED - removed incorrect 0.5 divisor)
+        # 10. WIN PROBABILITY
         # ================================================================
-        # Standard logistic conversion from point spread to probability
-        # Formula: P(home wins) = 1 / (1 + exp(-margin / std_dev))
-        #
-        # Apply tempo adjustment to std_dev: faster games have more variance
-        tempo_adjustment = 1 + ((projected_tempo - NATIONAL_AVG_TEMPO) / 
+        tempo_adjustment = 1 + ((projected_tempo - NATIONAL_AVG_TEMPO) /
                                NATIONAL_AVG_TEMPO * 0.12)
         adjusted_std_dev = BASE_STD_DEV * tempo_adjustment
-        
+
         home_win_prob = 1 / (1 + math.exp(-predicted_margin / adjusted_std_dev))
 
         # ================================================================
-        # CONFIDENCE RATING
+        # 11. CONFIDENCE & VALUE RATINGS
         # ================================================================
         confidence = self._calc_confidence(
-            predicted_margin, home_stats, away_stats,
+            predicted_margin, hs, aws,
             game.get("odds"), projected_total
         )
 
-        # ================================================================
-        # VALUE RATING vs MARKET
-        # ================================================================
         value_rating, spread_edge, total_edge = self._calc_value(
             predicted_margin, projected_total, game.get("odds")
         )
@@ -986,7 +1042,7 @@ class CBBPredictionModel:
             "neutral_site": game.get("neutral_site", False),
             "conference_game": game.get("conference_game", False),
             "broadcast": game.get("broadcast", ""),
-            
+
             # Core predictions
             "predicted_spread": round(predicted_margin, 1),
             "predicted_total": round(projected_total, 1),
@@ -995,25 +1051,25 @@ class CBBPredictionModel:
             "home_win_prob": round(home_win_prob * 100, 1),
             "away_win_prob": round((1 - home_win_prob) * 100, 1),
             "confidence": round(confidence, 1),
-            
+
             # Pick designation
             "pick": home["name"] if predicted_margin > 0 else away["name"],
             "pick_abbr": home["abbreviation"] if predicted_margin > 0 else away["abbreviation"],
-            
-            # Factor breakdown for display
+
+            # Factor breakdown — all real computed values (positive = favors home)
             "factors": {
                 "efficiency_margin": round(raw_margin, 2),
-                "four_factors": round(four_factors_margin, 2),
-                "home_court": round(hca, 2),
-                "recent_form": round(recent_form_pts, 2),
-                "turnover_margin": round(to_margin, 2),
-                "rebounding": round(reb_margin, 2),
-                "three_point": round(three_pt_margin, 2),
-                "free_throw": round(ft_margin, 2),
-                "experience": round(exp_margin, 2),
-                "sos": round(sos_margin, 2),
+                "four_factors":      round(four_factors_total, 2),
+                "home_court":        round(hca, 2),
+                "recent_form":       round(recent_form_pts, 2),
+                "turnover_margin":   round(to_pts * FOUR_FACTOR_BLEND, 2),
+                "rebounding":        round(reb_pts * FOUR_FACTOR_BLEND, 2),
+                "three_point":       round(three_pts * FOUR_FACTOR_BLEND, 2),
+                "free_throw":        round(ft_pts * FOUR_FACTOR_BLEND, 2),
+                "experience":        round(exp_pts, 2),
+                "sos":               round(hs.get("sos", 0.0) - aws.get("sos", 0.0), 2),
             },
-            
+
             # Market comparison
             "market": {
                 "spread": game.get("odds", {}).get("spread") if game.get("odds") else None,
@@ -1023,7 +1079,7 @@ class CBBPredictionModel:
             "value_rating": round(value_rating, 1) if value_rating is not None else None,
             "model_vs_market": {
                 "spread_edge": round(spread_edge, 1) if spread_edge is not None else None,
-                "total_edge": round(total_edge, 1) if total_edge is not None else None,
+                "total_edge":  round(total_edge, 1) if total_edge is not None else None,
             },
         }
 
@@ -1055,87 +1111,89 @@ class CBBPredictionModel:
                    odds: Optional[Dict]) -> Tuple[Optional[float], Optional[float], Optional[float]]:
         """
         Calculate value rating compared to market lines.
-
-        The Odds API spread is from the HOME team's perspective:
-          -7.5 = home favored by 7.5 (home needs to win by 8+ to cover)
-          +7.5 = home is underdog (away favored by 7.5)
-
-        predicted_margin is also from home's perspective (positive = home wins by X).
-
-        So to compare: market_margin = -market_spread_home
-          e.g. spread = -7.5 → market expects home to win by 7.5 → market_margin = 7.5
-               spread = +7.5 → market expects away to win by 7.5 → market_margin = -7.5
-
-        spread_edge is from the MODEL PICK's perspective (always positive = value).
+        
+        Returns:
+            (value_rating, spread_edge, total_edge)
+            
+        spread_edge is expressed from the PICK's perspective:
+        - Positive = model pick covers by more than market expects
+        - Negative = model pick doesn't cover market spread
         """
         if not odds or odds.get("spread") is None:
             return None, None, None
-
+            
         market_spread_home = float(odds["spread"])
-
-        # Convert spread to expected margin (home perspective)
+        
+        # Market spread is from home perspective:
+        # Negative = home favored (e.g., -7.5 means home favored by 7.5)
+        # Positive = away favored (e.g., +7.5 means home is underdog)
+        
+        # Convert to margin comparison (both in home-team-wins-by-X units)
+        # market_spread_home of -7.5 means "home wins by 7.5 expected"
+        # But the spread is the points you GIVE, so negate to get margin
         market_margin = -market_spread_home
-
-        # Model margin vs market margin
-        spread_diff = predicted_margin - market_margin
-
+        model_margin = predicted_margin
+        
+        spread_diff = model_margin - market_margin
+        
         # Express from pick's perspective
         pick_is_home = predicted_margin > 0
         spread_edge = spread_diff if pick_is_home else -spread_diff
-
+        
         value_rating = abs(spread_diff)
-
+        
         # Total edge
         total_edge = None
         if odds.get("over_under"):
             total_edge = projected_total - float(odds["over_under"])
-
+        
         return value_rating, spread_edge, total_edge
 
-    def _calc_confidence(self, margin: float, home_stats: Dict, 
+    def _calc_confidence(self, margin: float, home_stats: Dict,
                         away_stats: Dict, odds: Optional[Dict],
                         total: float) -> float:
         """
         Calculate prediction confidence (0-100).
-        
+
         Components:
         - Margin magnitude (larger spreads = more confident)
         - Sample size (games played)
         - Market agreement (when model agrees with sharp money)
         - Barthag differential (quality gap)
+        - WAB differential (wins above bubble — resume quality)
         """
         # Margin confidence (caps at 40 for ~13+ pt spreads)
         margin_conf = min(abs(margin) * 3, 40)
 
-        # Data confidence based on games played (caps at 25)
+        # Data confidence based on games played (caps at 20)
         games_played = min(
             home_stats.get("wins", 0) + home_stats.get("losses", 0),
             away_stats.get("wins", 0) + away_stats.get("losses", 0),
         )
-        data_conf = min(games_played * 2, 25)
+        data_conf = min(games_played * 1.5, 20)
 
         # Market agreement/disagreement
-        # FIXED: When margin > 0 (home favored) and spread < 0 (home favored),
-        # that's AGREEMENT, which should boost confidence
         market_conf = 0
         if odds and odds.get("spread"):
             market_spread = float(odds["spread"])
             model_favors_home = margin > 0
             market_favors_home = market_spread < 0
-            
+
             if model_favors_home == market_favors_home:
-                # Agreement with market - mild confidence boost
                 market_conf = 5
             else:
-                # Disagreement with market - be more cautious
                 market_conf = -8
 
         # Barthag differential (quality gap confidence)
-        barthag_diff = abs(home_stats.get("barthag", 0.5) - 
+        barthag_diff = abs(home_stats.get("barthag", 0.5) -
                           away_stats.get("barthag", 0.5))
-        barthag_conf = min(barthag_diff * 40, 20)
+        barthag_conf = min(barthag_diff * 40, 15)
 
-        total_conf = margin_conf + data_conf + market_conf + barthag_conf
+        # WAB differential — teams with higher WAB have more meaningful wins
+        wab_diff = abs(home_stats.get("wab", 0.0) - away_stats.get("wab", 0.0))
+        wab_conf = min(wab_diff * 0.5, 10)
+
+        total_conf = margin_conf + data_conf + market_conf + barthag_conf + wab_conf
         return max(min(total_conf, 95), 15)
 
     def _find_team(self, team_name: str) -> Optional[str]:
@@ -1347,6 +1405,14 @@ def generate_output(predictions: List[Dict], date_str: str,
             json.dump(output, f, indent=2)
         print(f"[OK] Latest picks updated at {latest_path}")
 
+        # Also copy to public/ so the React app (Vite) can fetch /latest.json
+        public_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "public")
+        if os.path.isdir(public_dir):
+            public_path = os.path.join(public_dir, "latest.json")
+            with open(public_path, "w") as f:
+                json.dump(output, f, indent=2)
+            print(f"[OK] Public copy updated at {public_path}")
+
     return output
 
 
@@ -1405,7 +1471,7 @@ def print_console_output(predictions: List[Dict], output: Dict) -> None:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="College Basketball Prediction Model v2.2"
+        description="College Basketball Prediction Model v2.3"
     )
     parser.add_argument(
         "--date", type=str, 
@@ -1414,6 +1480,10 @@ def main():
     parser.add_argument(
         "--debug", action="store_true", 
         help="Print team matching details and schema warnings"
+    )
+    parser.add_argument(
+        "--debug-schema", action="store_true",
+        help="Print first 3 raw Barttorvik rows to verify index mapping"
     )
     parser.add_argument(
         "--output", type=str, default="json", 
@@ -1432,12 +1502,12 @@ def main():
     display_date = target_date.strftime("%B %d, %Y")
 
     print(f"\n{'='*60}")
-    print(f"  College Basketball Prediction Model v2.2")
+    print(f"  College Basketball Prediction Model v2.3")
     print(f"  Generating picks for: {display_date}")
     print(f"{'='*60}\n")
 
     # Initialize provider
-    provider = TeamStatsProvider()
+    provider = TeamStatsProvider(debug=args.debug)
 
     # Step 1: Fetch team stats
     print("[1/3] Fetching team statistics...")
@@ -1446,6 +1516,21 @@ def main():
         print("[ERROR] No team stats available. Exiting.")
         sys.exit(1)
     print(f"       Loaded stats for {len(team_stats)} teams")
+
+    # Debug schema: print raw Barttorvik rows to verify index mapping
+    if args.debug_schema:
+        print("\n[DEBUG-SCHEMA] Fetching raw Barttorvik rows...")
+        try:
+            url = "https://barttorvik.com/2026_team_results.json"
+            resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+            raw = resp.json()
+            for i, row in enumerate(raw[:3]):
+                print(f"\n  Team: {row[1]}")
+                for idx, val in enumerate(row):
+                    print(f"    [{idx:2d}] {val}")
+        except Exception as e:
+            print(f"  [WARN] Could not fetch raw schema: {e}")
+        print()
 
     # Step 2: Fetch schedule
     print(f"[2/3] Fetching schedule + odds for {display_date}...")

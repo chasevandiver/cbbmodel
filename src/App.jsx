@@ -829,9 +829,26 @@ export default function App() {
   const [sortBy, setSortBy] = useState("confidence");
 
   useEffect(() => {
-    // In production, fetch from your API:
-    // fetch('/api/picks/latest.json').then(r => r.json()).then(setData)
-    setData(SAMPLE_DATA);
+    fetch("/latest.json")
+      .then((r) => {
+        if (!r.ok) throw new Error("not found");
+        return r.json();
+      })
+      .then((json) => {
+        // Filter out any games with broken spreads (schema issue safety net)
+        const cleaned = {
+          ...json,
+          picks: json.picks.filter(
+            (p) =>
+              Math.abs(p.predicted_spread) <= 50 &&
+              p.predicted_total > 50 &&
+              p.predicted_total < 300
+          ),
+        };
+        cleaned.total_games = cleaned.picks.length;
+        setData(cleaned.picks.length > 0 ? cleaned : SAMPLE_DATA);
+      })
+      .catch(() => setData(SAMPLE_DATA));
   }, []);
 
   if (!data)
