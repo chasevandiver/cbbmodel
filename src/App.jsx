@@ -1,12 +1,11 @@
 import { useState, useEffect, useRef } from "react";
-import Results from "./Results.jsx";
 
 // Sample data structure matching the Python model output
 const SAMPLE_DATA = {
   generated_at: "2026-02-24T14:30:00",
   date: "20260224",
   total_games: 42,
-  model_version: "2.2.0",
+  model_version: "2.3.0",
   summary: {
     total_games: 42,
     high_confidence: 8,
@@ -40,16 +39,16 @@ const SAMPLE_DATA = {
       pick: "Duke Blue Devils",
       pick_abbr: "DUKE",
       factors: {
-        efficiency_margin: 8.4,
-        four_factors: 3.2,
-        home_court: 3.5,
-        recent_form: 1.8,
-        turnover_margin: 0.6,
-        rebounding: -0.3,
-        three_point: 1.1,
-        free_throw: 0.4,
-        experience: 0.2,
-        sos: 0.5,
+        efficiency_margin: 3.8,
+        four_factors:  1.6,
+        home_court:    5.0,
+        recent_form:   1.2,
+        turnover_margin: 0.4,
+        rebounding:   -0.2,
+        three_point:   0.7,
+        free_throw:    0.3,
+        experience:    0.2,
+        sos:           0.4,
       },
       market: { spread: -5.5, over_under: 149.5, spread_holder: "Duke" },
       value_rating: 0.7,
@@ -79,16 +78,16 @@ const SAMPLE_DATA = {
       pick: "Houston Cougars",
       pick_abbr: "HOU",
       factors: {
-        efficiency_margin: 11.2,
-        four_factors: 5.1,
-        home_court: 3.5,
-        recent_form: 2.4,
-        turnover_margin: 1.2,
-        rebounding: 1.8,
-        three_point: -0.6,
-        free_throw: 0.3,
-        experience: 0.4,
-        sos: 1.1,
+        efficiency_margin: 7.1,
+        four_factors:  2.2,
+        home_court:    3.5,
+        recent_form:   1.8,
+        turnover_margin: 0.8,
+        rebounding:    0.9,
+        three_point:  -0.3,
+        free_throw:    0.2,
+        experience:    0.3,
+        sos:           0.7,
       },
       market: { spread: -7, over_under: 131.5, spread_holder: "Houston" },
       value_rating: 1.7,
@@ -333,15 +332,15 @@ const SAMPLE_DATA = {
 
 const FACTOR_LABELS = {
   efficiency_margin: "Efficiency",
-  four_factors: "Four Factors",
-  home_court: "Home Court",
-  recent_form: "Recent Form",
-  turnover_margin: "Turnovers",
-  rebounding: "Rebounding",
-  three_point: "3PT Shooting",
-  free_throw: "Free Throws",
-  experience: "Experience",
-  sos: "Strength of Schedule",
+  four_factors:      "Four Factors",
+  home_court:        "Home Court",
+  recent_form:       "Recent Form",
+  turnover_margin:   "Turnovers",
+  rebounding:        "Rebounding",
+  three_point:       "3PT Shooting",
+  free_throw:        "Free Throws",
+  experience:        "Experience",
+  sos:               "SOS Diff",
 };
 
 function ConfidenceMeter({ value }) {
@@ -478,44 +477,9 @@ function FactorBar({ label, value }) {
   );
 }
 
-function formatCT(dateStr) {
-  if (!dateStr) return "";
-  try {
-    const d = new Date(dateStr);
-    return d.toLocaleTimeString("en-US", {
-      hour: "numeric",
-      minute: "2-digit",
-      timeZone: "America/Chicago",
-      hour12: true,
-    }).replace(":00", "").toLowerCase() + " CT";
-  } catch {
-    return "";
-  }
-}
-
 function GameCard({ pick, expanded, onToggle, index }) {
   const isHomePick = pick.predicted_spread < 0;
   const spreadAbs = Math.abs(pick.predicted_spread).toFixed(1);
-
-  // Spread display from the PICK's perspective
-  // If model picks home (predicted_spread < 0), home is favored: show "DUKE -6.2"
-  // If model picks away (predicted_spread > 0), away is favored: show "UNC -6.2"
-  // (the away team is covering as favorite, so it's still shown as -X)
-  const pickSpreadDisplay = `${pick.pick_abbr} -${spreadAbs}`;
-
-  // Market spread display — from the market favorite's perspective
-  const mktSpread = pick.market?.spread;
-  const mktHolder = pick.market?.spread_holder;
-  const mktOU = pick.market?.over_under;
-  let marketDisplay = null;
-  if (mktSpread != null && mktHolder) {
-    const mktAbs = Math.abs(mktSpread).toFixed(1);
-    marketDisplay = `${mktHolder} -${mktAbs}`;
-  }
-
-  // Game time in CT
-  const gameTime = formatCT(pick.date);
-
   const confLevel =
     pick.confidence >= 75
       ? "STRONG"
@@ -590,7 +554,7 @@ function GameCard({ pick, expanded, onToggle, index }) {
               {pick.away_record}
             </span>
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <span style={{ fontSize: 10, color: "#6b7280" }}>@</span>
             {pick.home_rank <= 25 && (
               <span
@@ -619,31 +583,6 @@ function GameCard({ pick, expanded, onToggle, index }) {
               {pick.home_record}
             </span>
           </div>
-          {/* Time + Market spread at a glance */}
-          <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
-            {gameTime && (
-              <span style={{
-                fontSize: 10,
-                color: "#4b5563",
-                fontFamily: "'JetBrains Mono', monospace",
-              }}>
-                🕐 {gameTime}
-              </span>
-            )}
-            {marketDisplay && (
-              <span style={{
-                fontSize: 10,
-                color: "#6b7280",
-                fontFamily: "'JetBrains Mono', monospace",
-                background: "#0d0d1a",
-                padding: "2px 8px",
-                borderRadius: 4,
-                border: "1px solid #1e293b",
-              }}>
-                MKT: {marketDisplay}{mktOU ? ` · O/U ${mktOU}` : ""}
-              </span>
-            )}
-          </div>
         </div>
 
         {/* Pick & Spread */}
@@ -668,7 +607,7 @@ function GameCard({ pick, expanded, onToggle, index }) {
               fontFamily: "'JetBrains Mono', monospace",
             }}
           >
-            {pickSpreadDisplay}
+            {pick.pick_abbr} -{spreadAbs}
           </div>
           <div style={{ fontSize: 11, color: "#6b7280", marginTop: 2 }}>
             O/U {pick.predicted_total}
@@ -883,26 +822,16 @@ function GameCard({ pick, expanded, onToggle, index }) {
 }
 
 export default function App() {
-  const [page, setPage] = useState("picks");
   const [data, setData] = useState(null);
   const [expandedId, setExpandedId] = useState(null);
   const [filter, setFilter] = useState("all");
   const [searchTerm, setSearchTerm] = useState("");
   const [sortBy, setSortBy] = useState("confidence");
 
-  // Route to Results page
-  if (page === "results") {
-    return <Results onNavigate={setPage} />;
-  }
-
   useEffect(() => {
-    fetch(`/picks/latest.json?v=${Date.now()}`)
-      .then((r) => {
-        if (!r.ok) throw new Error("No picks file yet");
-        return r.json();
-      })
-      .then(setData)
-      .catch(() => setData(SAMPLE_DATA)); // fallback to sample data if file missing
+    // In production, fetch from your API:
+    // fetch('/api/picks/latest.json').then(r => r.json()).then(setData)
+    setData(SAMPLE_DATA);
   }, []);
 
   if (!data)
@@ -959,14 +888,9 @@ export default function App() {
     filtered.sort((a, b) => (b.value_rating || 0) - (a.value_rating || 0));
   if (sortBy === "total")
     filtered.sort((a, b) => b.predicted_total - a.predicted_total);
-  if (sortBy === "time")
-    filtered.sort((a, b) => new Date(a.date || 0) - new Date(b.date || 0));
 
   const displayDate = (() => {
     const d = data.date;
-    if (!d) return new Date().toLocaleDateString("en-US", {
-      weekday: "long", month: "long", day: "numeric", year: "numeric",
-    });
     const year = d.slice(0, 4);
     const month = d.slice(4, 6);
     const day = d.slice(6, 8);
@@ -1015,51 +939,29 @@ export default function App() {
           margin: "0 auto",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 4 }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-            <div
-              style={{
-                width: 8,
-                height: 8,
-                borderRadius: "50%",
-                background: "#22c55e",
-                animation: "pulse 2s ease-in-out infinite",
-                boxShadow: "0 0 8px #22c55e80",
-              }}
-            />
-            <span
-              style={{
-                fontSize: 10,
-                fontWeight: 700,
-                color: "#22c55e",
-                letterSpacing: 3,
-                textTransform: "uppercase",
-                fontFamily: "'JetBrains Mono', monospace",
-              }}
-            >
-              MODEL v{data.model_version} • LIVE
-            </span>
-          </div>
-          <button
-            onClick={() => setPage("results")}
+        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 4 }}>
+          <div
             style={{
-              background: "transparent",
-              border: "1px solid #1e293b",
-              borderRadius: 20,
-              padding: "6px 16px",
-              color: "#6b7280",
-              fontSize: 11,
-              fontWeight: 700,
-              cursor: "pointer",
-              letterSpacing: 0.5,
-              fontFamily: "'JetBrains Mono', monospace",
-              transition: "all 0.2s ease",
+              width: 8,
+              height: 8,
+              borderRadius: "50%",
+              background: "#22c55e",
+              animation: "pulse 2s ease-in-out infinite",
+              boxShadow: "0 0 8px #22c55e80",
             }}
-            onMouseEnter={e => { e.target.style.borderColor = "#818cf8"; e.target.style.color = "#a5b4fc"; }}
-            onMouseLeave={e => { e.target.style.borderColor = "#1e293b"; e.target.style.color = "#6b7280"; }}
+          />
+          <span
+            style={{
+              fontSize: 10,
+              fontWeight: 700,
+              color: "#22c55e",
+              letterSpacing: 3,
+              textTransform: "uppercase",
+              fontFamily: "'JetBrains Mono', monospace",
+            }}
           >
-            RESULTS →
-          </button>
+            MODEL v{data.model_version} • LIVE
+          </span>
         </div>
         <h1
           style={{
@@ -1221,7 +1123,6 @@ export default function App() {
             }}
           >
             <option value="confidence">Confidence</option>
-            <option value="time">Tip-off Time</option>
             <option value="spread">Spread</option>
             <option value="value">Value</option>
             <option value="total">Total</option>
