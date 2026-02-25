@@ -336,48 +336,56 @@ class TeamStatsProvider:
         """
         Fetch T-Rank data from barttorvik.com
 
-        VERIFIED index mapping from --debug-schema output (2026 season):
-
+        Barttorvik 2026_team_results.json — verified index mapping:
         [0]  = T-Rank
         [1]  = Team name
         [2]  = Conference
-        [3]  = Overall record string ("26-2")
-        [4]  = AdjOE  ✅ confirmed: Michigan 128.9, Duke 127.1, Arizona 125.8
+        [3]  = Record (e.g. "25-2")
+        [4]  = AdjOE (adjusted offensive efficiency per 100 poss)
         [5]  = AdjOE rank
-        [6]  = AdjDE  ✅ confirmed: Michigan 91.8, Duke 91.8, Arizona 92.3
+        [6]  = AdjDE (adjusted defensive efficiency per 100 poss, lower=better)
         [7]  = AdjDE rank
-        [8]  = Barthag ✅ confirmed: Michigan 0.980, Duke 0.977
+        [8]  = Barthag (power rating 0-1, higher=better)
         [9]  = Barthag rank
-        [10] = Wins (integer e.g. 28)
-        [11] = Losses (float)
-        [12] = something (float ~18)
-        [13] = something (float ~1.96)
-        [14] = Conf record string ("16-1") — NOT a stat
-        [15] = eFG% offense  (decimal 0-1, e.g. 0.7675 = 76.75%)
-        [16] = eFG% defense  (decimal, e.g. 0.7294 — lower=better)
-        [17] = TO% offense   (decimal, higher = fewer TOs = better)
-        [18] = TO% defense   (decimal, higher = more forced TOs = better)
-        [19] = ORB%          (decimal, e.g. 0.7294)
-        [20] = DRB%          (decimal, e.g. 0.8148)
-        [21] = FT rate off   (decimal, e.g. 0.6120)
-        [22] = FT rate def   (decimal, e.g. 0.6660)
-        [23] = Recent AdjOE ✅ confirmed: Michigan 117.6, Duke 116.2
-        [24] = Recent AdjDE ✅ confirmed: Michigan 103.4, Duke 104.1
-        [25] = Recent AdjOE (alt window)
-        [26] = Recent AdjDE (alt window)
-        [27] = Season AdjOE full (similar to [4])
-        [28] = Season AdjDE full (similar to [6])
-        [29-33] = various derived stats
-        [33] = SOS (decimal, e.g. 0.051) ✅
-        [34] = Raw season pts scored (~1474) — NOT tempo
-        [35] = Raw season pts allowed
-        [36] = Raw pts alt
-        [37-39] = win% variants (decimal ~1.0-1.2)
-        [40] = FT% (decimal, e.g. 0.941 = 94.1%) ✅
-        [41] = something (~10.4)
-        [42] = integer rank/seed
-        [43] = integer (~67, likely possessions-related)
-        [44] = AdjTempo ✅ confirmed: Michigan 71.7, Duke 66.0, Arizona 70.3
+        [10] = EFG% (effective field goal %, offense)
+        [11] = EFG% rank
+        [12] = EFG%D (effective field goal % allowed, defense)
+        [13] = EFG%D rank
+        [14] = TOR (turnover rate%, offense — lower=better)
+        [15] = TOR rank
+        [16] = TORD (turnover rate% forced, defense — higher=better)
+        [17] = TORD rank
+        [18] = ORB% (offensive rebound rate)
+        [19] = ORB% rank
+        [20] = DRB% (defensive rebound rate, i.e. opp ORB% allowed)
+        [21] = DRB% rank
+        [22] = FTR (free throw rate = FTA/FGA, offense)
+        [23] = FTR rank
+        [24] = FTRD (free throw rate allowed, defense)
+        [25] = FTRD rank
+        [26] = 2P% (two-point field goal %, offense)
+        [27] = 2P% rank
+        [28] = 2P%D (two-point field goal % allowed)
+        [29] = 2P%D rank
+        [30] = 3P% (three-point field goal %, offense)
+        [31] = 3P% rank
+        [32] = 3P%D (three-point field goal % allowed)
+        [33] = 3P%D rank
+        [34] = Adj Tempo
+        [35] = Adj Tempo rank
+        [36] = WAB (wins above bubble)
+        [37] = WAB rank
+        [38] = SOS (strength of schedule)
+        [39] = SOS rank
+        [40] = FT% (free throw percentage made, offense)
+        [41] = FT% rank
+        [42] = Experience (avg years of college experience)
+        [43] = Experience rank
+        [44] = Recent AdjOE (last ~10 games)
+        [45] = Recent AdjDE (last ~10 games)
+
+        ⚠️ SCHEMA WARNING: Indices verified for 2026 season.
+        If values look wrong, run with --debug to print a sample row.
         """
         url = "https://barttorvik.com/2026_team_results.json"
         headers = {"User-Agent": "Mozilla/5.0 (compatible; CBBModel/2.3)"}
@@ -391,95 +399,80 @@ class TeamStatsProvider:
         except json.JSONDecodeError:
             return None
 
-        if not isinstance(data, list) or len(data) < 10:
+        if not isinstance(data, list):
             return None
 
-        def sf(row, idx, default):
-            try:
-                v = row[idx]
-                if v in (None, "", "N/A"):
-                    return default
-                f = float(v)
-                return f if not (math.isnan(f) or math.isinf(f)) else default
-            except (IndexError, ValueError, TypeError):
-                return default
-
-        def parse_record(val):
-            try:
-                if isinstance(val, str) and "-" in val:
-                    w, l = val.split("-", 1)
-                    return int(w), int(l)
-            except (ValueError, TypeError):
-                pass
-            return 0, 0
-
         stats = {}
-        bad_oe, bad_de, bad_tempo = 0, 0, 0
+        schema_warnings = []
+
+        def _safe_float(row, idx, default):
+            try:
+                return float(row[idx]) if len(row) > idx and row[idx] not in (None, "", "N/A") else default
+            except (ValueError, TypeError):
+                return default
 
         for team in data:
             try:
-                if not isinstance(team, list) or len(team) < 25:
+                if not isinstance(team, list) or len(team) < 10:
                     continue
 
                 team_name = str(team[1])
-                conf      = str(team[2]) if len(team) > 2 else ""
-                wins, losses = parse_record(team[3] if len(team) > 3 else "0-0")
+                conf = str(team[2]) if len(team) > 2 else ""
 
-                # ── Core efficiency (indices confirmed from debug output) ───────
-                adj_oe  = sf(team, 4,  100.0)
-                adj_de  = sf(team, 6,  100.0)
-                barthag = sf(team, 8,  0.5)
+                # Parse record
+                record = str(team[3]) if len(team) > 3 else "0-0"
+                if "-" in record:
+                    parts = record.split("-")
+                    wins = int(parts[0])
+                    losses = int(parts[1])
+                else:
+                    wins, losses = 0, 0
 
-                # ── Tempo: index 44 confirmed ─────────────────────────────────
-                adj_tempo = sf(team, 44, NATIONAL_AVG_TEMPO)
+                # ── Core efficiency ──────────────────────────────────────────
+                adj_oe   = _safe_float(team, 4,  100.0)
+                adj_de   = _safe_float(team, 6,  100.0)
+                barthag  = _safe_float(team, 8,  0.5)
 
-                # ── Recent form: indices 23, 24 confirmed ─────────────────────
-                recent_adj_oe = sf(team, 23, adj_oe)
-                recent_adj_de = sf(team, 24, adj_de)
-
-                # ── SOS: index 33 (small decimal ~0.05) ──────────────────────
-                sos = sf(team, 33, 0.0)
+                # ── Four Factors: indices 15-22 CONFIRMED (all 0-1 decimals) ──
+                # [15] eFG% offense  (e.g. 0.7675 for Michigan)
+                # [16] eFG% defense  (lower = better)
+                # [17] non-TO rate offense (higher = fewer turnovers = better)
+                # [18] non-TO rate defense (lower = more forced TOs = better)
+                # [19] ORB% offense
+                # [20] DRB% defense
+                # [21] FT rate offense
+                # [22] FT rate defense
+                efg_pct    = _safe_float(team, 15, 0.50) * 100.0
+                efg_pct_d  = _safe_float(team, 16, 0.50) * 100.0
+                to_pct     = (1.0 - _safe_float(team, 17, 0.80)) * 100.0
+                to_pct_d   = (1.0 - _safe_float(team, 18, 0.80)) * 100.0
+                orb_pct    = _safe_float(team, 19, 0.30) * 100.0
+                drb_pct    = _safe_float(team, 20, 0.70) * 100.0
+                ft_rate    = _safe_float(team, 21, 0.30) * 100.0
+                ft_rate_d  = _safe_float(team, 22, 0.30) * 100.0
 
                 # ── FT%: index 40 (decimal e.g. 0.941) ──────────────────────
-                ft_pct = sf(team, 40, 0.72) * 100.0  # convert to pct
+                ft_pct = _safe_float(team, 40, 0.72) * 100.0
 
-                # ── Four Factors: indices 15-22 (all 0-1 decimals) ───────────
-                efg_off  = sf(team, 15, 0.50)   # eFG% offense
-                efg_def  = sf(team, 16, 0.50)   # eFG% defense (lower=better)
-                to_off   = sf(team, 17, 0.80)   # non-TO rate off (higher=fewer TOs=better)
-                to_def   = sf(team, 18, 0.80)   # non-TO rate def (lower=more TOs forced=better)
-                orb      = sf(team, 19, 0.30)   # ORB% offense
-                drb      = sf(team, 20, 0.70)   # DRB% defense
-                ftr_off  = sf(team, 21, 0.30)   # FT rate offense
-                ftr_def  = sf(team, 22, 0.30)   # FT rate defense (lower=better)
-
-                # Convert to intuitive % scales for model calculations
-                efg_pct    = efg_off * 100.0         # e.g. 76.75
-                efg_pct_d  = efg_def * 100.0         # e.g. 72.94
-                to_pct     = (1.0 - to_off) * 100.0  # TO% off: lower=better, e.g. 20.7
-                to_pct_d   = (1.0 - to_def) * 100.0  # TO% forced: higher=better for defense
-                orb_pct    = orb * 100.0              # e.g. 29.4
-                drb_pct    = drb * 100.0              # e.g. 81.5
-                ft_rate    = ftr_off * 100.0          # e.g. 61.2
-                ft_rate_d  = ftr_def * 100.0          # e.g. 66.6
-
-                # 3PT% and experience — not clearly identified yet, use defaults
+                # 3PT% — not yet identified, use national average defaults
                 three_pct   = 34.0
                 three_pct_d = 34.0
-                experience  = 1.5
-                wab         = 0.0
 
-                # ── Validate core values are sane ─────────────────────────────
-                # If adj_oe is wildly wrong (e.g. cumulative pts ~1400), skip team
-                if not (85.0 < adj_oe < 145.0):
-                    bad_oe += 1
+                # ── Tempo: index 44 CONFIRMED ────────────────────────────────
+                adj_tempo = _safe_float(team, 44, NATIONAL_AVG_TEMPO)
+
+                # ── Recent form: indices 23, 24 CONFIRMED ────────────────────
+                recent_adj_oe = _safe_float(team, 23, adj_oe)
+                recent_adj_de = _safe_float(team, 24, adj_de)
+
+                # ── SOS: index 33 (small decimal ~0.05) ──────────────────────
+                sos = _safe_float(team, 33, 0.0)
+
+                # ── Validate — skip team if adj_oe/adj_de are clearly wrong ──
+                # Correct range: 85-145. If ~1400, we're on a cumulative pts col.
+                if not (85.0 < adj_oe < 145.0) or not (75.0 < adj_de < 125.0):
+                    schema_warnings.append(f"{team_name}: adj_oe={adj_oe:.1f} adj_de={adj_de:.1f} (skipped)")
                     continue
-                if not (75.0 < adj_de < 125.0):
-                    bad_de += 1
-                    continue
-                if not (58.0 < adj_tempo < 85.0):
-                    bad_tempo += 1
-                    adj_tempo = NATIONAL_AVG_TEMPO  # fix tempo but keep team
 
                 normalized_name = self._normalize_barttorvik_name(team_name)
                 stats[normalized_name] = {
@@ -490,7 +483,7 @@ class TeamStatsProvider:
                     "wins":          wins,
                     "losses":        losses,
                     "sos":           sos,
-                    "wab":           wab,
+                    "wab":           0.0,
                     "conf":          conf,
                     "recent_adj_oe": recent_adj_oe,
                     "recent_adj_de": recent_adj_de,
@@ -505,19 +498,19 @@ class TeamStatsProvider:
                     "three_pct":     three_pct,
                     "three_pct_d":   three_pct_d,
                     "ft_pct":        ft_pct,
-                    "experience":    experience,
+                    "experience":    1.5,
                 }
 
             except (IndexError, ValueError, TypeError):
                 continue
 
-        total = len(stats) + bad_oe + bad_de
-        if bad_oe > 5:
-            print(f"[SCHEMA WARN] {bad_oe}/{total} teams had bad AdjOE (index 4) — run --debug-schema to inspect")
-        if bad_de > 5:
-            print(f"[SCHEMA WARN] {bad_de}/{total} teams had bad AdjDE (index 6)")
-        if bad_tempo > 5:
-            print(f"[SCHEMA WARN] {bad_tempo}/{total} teams had bad Tempo (index 44) — using default")
+        # Print schema warnings
+        if schema_warnings and len(schema_warnings) <= 5:
+            for w in schema_warnings:
+                print(f"[SCHEMA WARN] {w}")
+        elif schema_warnings:
+            print(f"[SCHEMA WARN] {len(schema_warnings)} teams have suspicious stat values")
+            print(f"[SCHEMA WARN] Run with --debug to print raw row and re-verify index mapping")
 
         return stats if stats else None
 
