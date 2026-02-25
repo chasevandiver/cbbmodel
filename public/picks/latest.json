@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-24T18:32:20.983678",
+  "generated_at": "2026-02-24T18:35:04.053027",
   "date": "20260224",
   "total_games": 32,
   "model_version": "2.3.0",
@@ -92,13 +92,13 @@
         "sos": -0.02
       },
       "market": {
-        "spread": -8.5,
+        "spread": -9.5,
         "over_under": 150.5,
         "spread_holder": "Toledo Rockets"
       },
-      "value_rating": 3.8,
+      "value_rating": 2.8,
       "model_vs_market": {
-        "spread_edge": 3.8,
+        "spread_edge": 2.8,
         "total_edge": -3.5
       }
     },
@@ -141,14 +141,14 @@
         "sos": -0.0
       },
       "market": {
-        "spread": -8.5,
-        "over_under": 165.5,
+        "spread": -9.5,
+        "over_under": 160.5,
         "spread_holder": "Akron Zips"
       },
-      "value_rating": 3.7,
+      "value_rating": 2.7,
       "model_vs_market": {
-        "spread_edge": 3.7,
-        "total_edge": -5.5
+        "spread_edge": 2.7,
+        "total_edge": -0.5
       }
     },
     {
@@ -239,14 +239,14 @@
         "sos": -0.01
       },
       "market": {
-        "spread": -9.5,
-        "over_under": 156.5,
+        "spread": -6.5,
+        "over_under": 158.5,
         "spread_holder": "Bowling Green Falcons"
       },
-      "value_rating": 1.0,
+      "value_rating": 4.0,
       "model_vs_market": {
-        "spread_edge": 1.0,
-        "total_edge": -8.0
+        "spread_edge": 4.0,
+        "total_edge": -10.0
       }
     },
     {
@@ -288,14 +288,14 @@
         "sos": -0.02
       },
       "market": {
-        "spread": 24.5,
-        "over_under": 147.5,
+        "spread": 28.5,
+        "over_under": 150.5,
         "spread_holder": "Duke Blue Devils"
       },
-      "value_rating": 13.8,
+      "value_rating": 17.8,
       "model_vs_market": {
-        "spread_edge": -13.8,
-        "total_edge": -2.8
+        "spread_edge": -17.8,
+        "total_edge": -5.8
       }
     },
     {
@@ -386,14 +386,14 @@
         "sos": 0.02
       },
       "market": {
-        "spread": -11.5,
-        "over_under": 121.5,
+        "spread": -12.5,
+        "over_under": 118.5,
         "spread_holder": "Troy Trojans"
       },
-      "value_rating": 2.8,
+      "value_rating": 3.8,
       "model_vs_market": {
-        "spread_edge": -2.8,
-        "total_edge": 16.7
+        "spread_edge": -3.8,
+        "total_edge": 19.7
       }
     },
     {
@@ -435,14 +435,14 @@
         "sos": 0.02
       },
       "market": {
-        "spread": -2.5,
-        "over_under": 154.5,
+        "spread": -3.5,
+        "over_under": 155.5,
         "spread_holder": "Texas Tech Red Raiders"
       },
-      "value_rating": 7.5,
+      "value_rating": 6.5,
       "model_vs_market": {
-        "spread_edge": 7.5,
-        "total_edge": -12.1
+        "spread_edge": 6.5,
+        "total_edge": -13.1
       }
     },
     {
@@ -534,13 +534,13 @@
       },
       "market": {
         "spread": -14.5,
-        "over_under": 151.5,
+        "over_under": 153.5,
         "spread_holder": "Indiana Hoosiers"
       },
       "value_rating": 5.7,
       "model_vs_market": {
         "spread_edge": -5.7,
-        "total_edge": -1.8
+        "total_edge": -3.8
       }
     },
     {
@@ -582,14 +582,14 @@
         "sos": -0.04
       },
       "market": {
-        "spread": 24.5,
-        "over_under": 143.5,
+        "spread": 26.5,
+        "over_under": 141.5,
         "spread_holder": "Miami (OH) RedHawks"
       },
-      "value_rating": 19.3,
+      "value_rating": 21.3,
       "model_vs_market": {
-        "spread_edge": -19.3,
-        "total_edge": 5.9
+        "spread_edge": -21.3,
+        "total_edge": 7.9
       }
     },
     {
@@ -730,13 +730,13 @@
       },
       "market": {
         "spread": -7.5,
-        "over_under": 142.5,
+        "over_under": 141.5,
         "spread_holder": "Morehead St Eagles"
       },
       "value_rating": 0.3,
       "model_vs_market": {
         "spread_edge": -0.3,
-        "total_edge": 1.9
+        "total_edge": 2.9
       }
     },
     {
@@ -974,13 +974,13 @@
         "sos": 0.04
       },
       "market": {
-        "spread": 1.5,
+        "spread": 2.5,
         "over_under": 156.5,
         "spread_holder": "Central Michigan Chippewas"
       },
-      "value_rating": 9.7,
+      "value_rating": 10.7,
       "model_vs_market": {
-        "spread_edge": 9.7,
+        "spread_edge": 10.7,
         "total_edge": -5.0
       }
     },
@@ -1023,13 +1023,13 @@
         "sos": 0.0
       },
       "market": {
-        "spread": 11.5,
+        "spread": 12.5,
         "over_under": 135.5,
         "spread_holder": "Massachusetts Minutemen"
       },
-      "value_rating": 8.7,
+      "value_rating": 9.7,
       "model_vs_market": {
-        "spread_edge": -8.7,
+        "spread_edge": -9.7,
         "total_edge": 6.8
       }
     },
@@ -1121,13 +1121,13 @@
         "sos": 0.03
       },
       "market": {
-        "spread": -13.5,
+        "spread": -12.5,
         "over_under": 170.5,
         "spread_holder": "Marshall Thundering Herd"
       },
-      "value_rating": 8.7,
+      "value_rating": 7.7,
       "model_vs_market": {
-        "spread_edge": -8.7,
+        "spread_edge": -7.7,
         "total_edge": -15.4
       }
     },
@@ -1170,14 +1170,14 @@
         "sos": -0.01
       },
       "market": {
-        "spread": 10.5,
-        "over_under": 137.5,
+        "spread": 9.5,
+        "over_under": 134.5,
         "spread_holder": "Kentucky Wildcats"
       },
-      "value_rating": 8.3,
+      "value_rating": 7.3,
       "model_vs_market": {
-        "spread_edge": -8.3,
-        "total_edge": 10.8
+        "spread_edge": -7.3,
+        "total_edge": 13.8
       }
     },
     {
@@ -1230,55 +1230,6 @@
       }
     },
     {
-      "game_id": "401822957",
-      "date": "2026-02-25T00:00Z",
-      "home_team": "Georgetown Hoyas",
-      "away_team": "Marquette Golden Eagles",
-      "home_abbr": "GTWN",
-      "away_abbr": "MARQ",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "13-14",
-      "away_record": "9-18",
-      "venue": "Capital One Arena",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "Peacock",
-      "predicted_spread": 4.1,
-      "predicted_total": 147.7,
-      "home_projected_score": 75.9,
-      "away_projected_score": 71.8,
-      "home_win_prob": 59.2,
-      "away_win_prob": 40.8,
-      "confidence": 43.6,
-      "pick": "Georgetown Hoyas",
-      "pick_abbr": "GTWN",
-      "factors": {
-        "efficiency_margin": 1.13,
-        "four_factors": 0.0,
-        "home_court": 3.8,
-        "recent_form": -0.85,
-        "turnover_margin": 0.0,
-        "rebounding": 0.0,
-        "three_point": 0.0,
-        "free_throw": 0.0,
-        "experience": 0.0,
-        "sos": 0.01
-      },
-      "market": {
-        "spread": -3.5,
-        "over_under": 152.5,
-        "spread_holder": "Georgetown Hoyas"
-      },
-      "value_rating": 0.6,
-      "model_vs_market": {
-        "spread_edge": 0.6,
-        "total_edge": -4.8
-      }
-    },
-    {
       "game_id": "401827702",
       "date": "2026-02-25T00:00Z",
       "home_team": "Oklahoma State Cowboys",
@@ -1318,13 +1269,13 @@
       },
       "market": {
         "spread": -2.5,
-        "over_under": 151.5,
+        "over_under": 155.5,
         "spread_holder": "Oklahoma St Cowboys"
       },
       "value_rating": 1.0,
       "model_vs_market": {
         "spread_edge": 1.0,
-        "total_edge": -10.4
+        "total_edge": -14.4
       }
     },
     {
@@ -1524,6 +1475,55 @@
       }
     },
     {
+      "game_id": "401822957",
+      "date": "2026-02-25T00:00Z",
+      "home_team": "Georgetown Hoyas",
+      "away_team": "Marquette Golden Eagles",
+      "home_abbr": "GTWN",
+      "away_abbr": "MARQ",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "13-14",
+      "away_record": "9-18",
+      "venue": "Capital One Arena",
+      "neutral_site": false,
+      "conference_game": true,
+      "broadcast": "Peacock",
+      "predicted_spread": 4.1,
+      "predicted_total": 147.7,
+      "home_projected_score": 75.9,
+      "away_projected_score": 71.8,
+      "home_win_prob": 59.2,
+      "away_win_prob": 40.8,
+      "confidence": 30.6,
+      "pick": "Georgetown Hoyas",
+      "pick_abbr": "GTWN",
+      "factors": {
+        "efficiency_margin": 1.13,
+        "four_factors": 0.0,
+        "home_court": 3.8,
+        "recent_form": -0.85,
+        "turnover_margin": 0.0,
+        "rebounding": 0.0,
+        "three_point": 0.0,
+        "free_throw": 0.0,
+        "experience": 0.0,
+        "sos": 0.01
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 151.5,
+        "spread_holder": "Marquette Golden Eagles"
+      },
+      "value_rating": 5.6,
+      "model_vs_market": {
+        "spread_edge": 5.6,
+        "total_edge": -3.8
+      }
+    },
+    {
       "game_id": "401820766",
       "date": "2026-02-25T02:00Z",
       "home_team": "Florida State Seminoles",
@@ -1576,9 +1576,9 @@
   "summary": {
     "total_games": 32,
     "high_confidence": 6,
-    "medium_confidence": 22,
-    "low_confidence": 4,
-    "avg_confidence": 55.8,
-    "value_plays": 18
+    "medium_confidence": 21,
+    "low_confidence": 5,
+    "avg_confidence": 55.4,
+    "value_plays": 19
   }
 }
