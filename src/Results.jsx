@@ -354,7 +354,14 @@ export default function Results({ onNavigate }) {
   useEffect(() => {
     fetch(`/results/results.json?v=${Date.now()}`)
       .then(r => { if (!r.ok) throw new Error(); return r.json(); })
-      .then(setData)
+      .then(d => {
+        // Use sample data if no real results yet
+        if (!d || !d.summary || d.summary.total_graded === 0) {
+          setData(SAMPLE_RESULTS);
+        } else {
+          setData(d);
+        }
+      })
       .catch(() => setData(SAMPLE_RESULTS));
   }, []);
 

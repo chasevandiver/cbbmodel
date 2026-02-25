@@ -478,9 +478,44 @@ function FactorBar({ label, value }) {
   );
 }
 
+function formatCT(dateStr) {
+  if (!dateStr) return "";
+  try {
+    const d = new Date(dateStr);
+    return d.toLocaleTimeString("en-US", {
+      hour: "numeric",
+      minute: "2-digit",
+      timeZone: "America/Chicago",
+      hour12: true,
+    }).replace(":00", "").toLowerCase() + " CT";
+  } catch {
+    return "";
+  }
+}
+
 function GameCard({ pick, expanded, onToggle, index }) {
   const isHomePick = pick.predicted_spread < 0;
   const spreadAbs = Math.abs(pick.predicted_spread).toFixed(1);
+
+  // Spread display from the PICK's perspective
+  // If model picks home (predicted_spread < 0), home is favored: show "DUKE -6.2"
+  // If model picks away (predicted_spread > 0), away is favored: show "UNC -6.2"
+  // (the away team is covering as favorite, so it's still shown as -X)
+  const pickSpreadDisplay = `${pick.pick_abbr} -${spreadAbs}`;
+
+  // Market spread display — from the market favorite's perspective
+  const mktSpread = pick.market?.spread;
+  const mktHolder = pick.market?.spread_holder;
+  const mktOU = pick.market?.over_under;
+  let marketDisplay = null;
+  if (mktSpread != null && mktHolder) {
+    const mktAbs = Math.abs(mktSpread).toFixed(1);
+    marketDisplay = `${mktHolder} -${mktAbs}`;
+  }
+
+  // Game time in CT
+  const gameTime = formatCT(pick.date);
+
   const confLevel =
     pick.confidence >= 75
       ? "STRONG"
@@ -555,7 +590,7 @@ function GameCard({ pick, expanded, onToggle, index }) {
               {pick.away_record}
             </span>
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
             <span style={{ fontSize: 10, color: "#6b7280" }}>@</span>
             {pick.home_rank <= 25 && (
               <span
@@ -584,6 +619,31 @@ function GameCard({ pick, expanded, onToggle, index }) {
               {pick.home_record}
             </span>
           </div>
+          {/* Time + Market spread at a glance */}
+          <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+            {gameTime && (
+              <span style={{
+                fontSize: 10,
+                color: "#4b5563",
+                fontFamily: "'JetBrains Mono', monospace",
+              }}>
+                🕐 {gameTime}
+              </span>
+            )}
+            {marketDisplay && (
+              <span style={{
+                fontSize: 10,
+                color: "#6b7280",
+                fontFamily: "'JetBrains Mono', monospace",
+                background: "#0d0d1a",
+                padding: "2px 8px",
+                borderRadius: 4,
+                border: "1px solid #1e293b",
+              }}>
+                MKT: {marketDisplay}{mktOU ? ` · O/U ${mktOU}` : ""}
+              </span>
+            )}
+          </div>
         </div>
 
         {/* Pick & Spread */}
@@ -608,7 +668,7 @@ function GameCard({ pick, expanded, onToggle, index }) {
               fontFamily: "'JetBrains Mono', monospace",
             }}
           >
-            {pick.pick_abbr} -{spreadAbs}
+            {pickSpreadDisplay}
           </div>
           <div style={{ fontSize: 11, color: "#6b7280", marginTop: 2 }}>
             O/U {pick.predicted_total}
@@ -899,6 +959,8 @@ export default function App() {
     filtered.sort((a, b) => (b.value_rating || 0) - (a.value_rating || 0));
   if (sortBy === "total")
     filtered.sort((a, b) => b.predicted_total - a.predicted_total);
+  if (sortBy === "time")
+    filtered.sort((a, b) => new Date(a.date || 0) - new Date(b.date || 0));
 
   const displayDate = (() => {
     const d = data.date;
@@ -1159,6 +1221,7 @@ export default function App() {
             }}
           >
             <option value="confidence">Confidence</option>
+            <option value="time">Tip-off Time</option>
             <option value="spread">Spread</option>
             <option value="value">Value</option>
             <option value="total">Total</option>
