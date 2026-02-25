@@ -303,11 +303,10 @@ class TeamStatsProvider:
     Handles team name normalization across ESPN/Barttorvik/Odds API.
     """
 
-    def __init__(self, debug: bool = False):
+    def __init__(self):
         self.team_stats_cache: Dict[str, Dict] = {}
         self.schedule_cache: Dict[str, List] = {}
         self._warnings_issued: set = set()
-        self.debug = debug
 
     def fetch_team_stats(self) -> Dict[str, Dict]:
         """
@@ -337,56 +336,52 @@ class TeamStatsProvider:
         """
         Fetch T-Rank data from barttorvik.com
 
-        Barttorvik 2026_team_results.json — verified index mapping:
+        Verified index mapping from --debug-schema output (2026 season):
         [0]  = T-Rank
         [1]  = Team name
         [2]  = Conference
-        [3]  = Record (e.g. "25-2")
-        [4]  = AdjOE (adjusted offensive efficiency per 100 poss)
+        [3]  = Record (overall, e.g. "26-2")
+        [4]  = AdjOE  (e.g. 128.9 for Michigan)
         [5]  = AdjOE rank
-        [6]  = AdjDE (adjusted defensive efficiency per 100 poss, lower=better)
+        [6]  = AdjDE  (e.g. 91.8 — lower is better)
         [7]  = AdjDE rank
-        [8]  = Barthag (power rating 0-1, higher=better)
+        [8]  = Barthag (0-1, e.g. 0.980)
         [9]  = Barthag rank
-        [10] = EFG% (effective field goal %, offense)
-        [11] = EFG% rank
-        [12] = EFG%D (effective field goal % allowed, defense)
-        [13] = EFG%D rank
-        [14] = TOR (turnover rate%, offense — lower=better)
-        [15] = TOR rank
-        [16] = TORD (turnover rate% forced, defense — higher=better)
-        [17] = TORD rank
-        [18] = ORB% (offensive rebound rate)
-        [19] = ORB% rank
-        [20] = DRB% (defensive rebound rate, i.e. opp ORB% allowed)
-        [21] = DRB% rank
-        [22] = FTR (free throw rate = FTA/FGA, offense)
-        [23] = FTR rank
-        [24] = FTRD (free throw rate allowed, defense)
-        [25] = FTRD rank
-        [26] = 2P% (two-point field goal %, offense)
-        [27] = 2P% rank
-        [28] = 2P%D (two-point field goal % allowed)
-        [29] = 2P%D rank
-        [30] = 3P% (three-point field goal %, offense)
-        [31] = 3P% rank
-        [32] = 3P%D (three-point field goal % allowed)
-        [33] = 3P%D rank
-        [34] = Adj Tempo
-        [35] = Adj Tempo rank
-        [36] = WAB (wins above bubble)
-        [37] = WAB rank
-        [38] = SOS (strength of schedule)
-        [39] = SOS rank
-        [40] = FT% (free throw percentage made, offense)
-        [41] = FT% rank
-        [42] = Experience (avg years of college experience)
-        [43] = Experience rank
-        [44] = Recent AdjOE (last ~10 games)
-        [45] = Recent AdjDE (last ~10 games)
-
-        ⚠️ SCHEMA WARNING: Indices verified for 2026 season.
-        If values look wrong, run with --debug to print a sample row.
+        [10] = Wins (integer)
+        [11] = Losses (decimal/float form)
+        [12] = Win% something
+        [13] = ?
+        [14] = Conf record string (e.g. "16-1")
+        [15] = eFG% offense  (decimal, e.g. 0.7675 = 76.75% — multiply ×100 for pct)
+        [16] = eFG% defense  (decimal, e.g. 0.7294)
+        [17] = TO% offense   (decimal, e.g. 0.7922 — this is actually ball-handling pct)
+        [18] = TO% defense   (decimal)
+        [19] = ORB%          (decimal, e.g. 0.7294)
+        [20] = DRB%          (decimal, e.g. 0.8148)
+        [21] = FT rate off   (decimal, e.g. 0.6120)
+        [22] = FT rate def   (decimal, e.g. 0.6660)
+        [23] = Recent AdjOE  (e.g. 117.6)
+        [24] = Recent AdjDE  (e.g. 103.4)
+        [25] = Recent AdjOE alt window
+        [26] = Recent AdjDE alt window
+        [27] = Season AdjOE (similar to [4])
+        [28] = Season AdjDE (similar to [6])
+        [29] = ?
+        [30] = ?
+        [31] = 3P% or similar (0.987)
+        [32] = games played (integer, e.g. 16)
+        [33] = SOS (decimal, e.g. 0.051)
+        [34] = raw pts scored (e.g. 1474 — season total, NOT tempo)
+        [35] = raw pts allowed
+        [36] = raw pts scored alt
+        [37] = ? (1.23)
+        [38] = ? (1.00)
+        [39] = ? (0.94)
+        [40] = FT% (decimal, e.g. 0.941)
+        [41] = ? (10.4)
+        [42] = ranking/seed (integer, e.g. 1, 2, 3)
+        [43] = games (e.g. 67 — likely total minutes or possessions)
+        [44] = AdjTempo (e.g. 71.7 — confirmed correct)
         """
         url = "https://barttorvik.com/2026_team_results.json"
         headers = {"User-Agent": "Mozilla/5.0 (compatible; CBBModel/2.3)"}
@@ -400,17 +395,31 @@ class TeamStatsProvider:
         except json.JSONDecodeError:
             return None
 
-        if not isinstance(data, list):
+        if not isinstance(data, list) or len(data) < 10:
             return None
+
+        def sf(row, idx, default):
+            """Safe float extraction with fallback."""
+            try:
+                v = row[idx]
+                if v in (None, "", "N/A"):
+                    return default
+                return float(v)
+            except (IndexError, ValueError, TypeError):
+                return default
+
+        def parse_record(s):
+            """Parse 'W-L' string to (wins, losses)."""
+            try:
+                if isinstance(s, str) and "-" in s:
+                    w, l = s.split("-", 1)
+                    return int(w), int(l)
+            except (ValueError, TypeError):
+                pass
+            return 0, 0
 
         stats = {}
         schema_warnings = []
-
-        def _safe_float(row, idx, default):
-            try:
-                return float(row[idx]) if len(row) > idx and row[idx] not in (None, "", "N/A") else default
-            except (ValueError, TypeError):
-                return default
 
         for team in data:
             try:
@@ -418,107 +427,115 @@ class TeamStatsProvider:
                     continue
 
                 team_name = str(team[1])
-                conf = str(team[2]) if len(team) > 2 else ""
+                conf      = str(team[2]) if len(team) > 2 else ""
 
-                # Parse record
-                record = str(team[3]) if len(team) > 3 else "0-0"
-                if "-" in record:
-                    parts = record.split("-")
-                    wins = int(parts[0])
-                    losses = int(parts[1])
-                else:
-                    wins, losses = 0, 0
+                # Overall record from index 3
+                wins, losses = parse_record(team[3] if len(team) > 3 else "0-0")
 
-                # ── Core efficiency ──────────────────────────────────────────
-                adj_oe   = _safe_float(team, 4,  100.0)
-                adj_de   = _safe_float(team, 6,  100.0)
-                barthag  = _safe_float(team, 8,  0.5)
+                # ── Core efficiency (confirmed correct) ──────────────────────
+                adj_oe  = sf(team, 4,  100.0)
+                adj_de  = sf(team, 6,  100.0)
+                barthag = sf(team, 8,  0.5)
 
-                # ── Four Factors — OFFENSE ───────────────────────────────────
-                efg_pct  = _safe_float(team, 10, 50.0)   # eFG% off (higher=better)
-                to_pct   = _safe_float(team, 14, 18.0)   # turnover rate off (lower=better)
-                orb_pct  = _safe_float(team, 18, 30.0)   # off rebound rate (higher=better)
-                ft_rate  = _safe_float(team, 22, 30.0)   # FTA/FGA off (higher=better)
+                # ── Tempo (confirmed index 44) ───────────────────────────────
+                adj_tempo = sf(team, 44, NATIONAL_AVG_TEMPO)
 
-                # ── Four Factors — DEFENSE ───────────────────────────────────
-                efg_pct_d = _safe_float(team, 12, 50.0)  # eFG% allowed (lower=better)
-                to_pct_d  = _safe_float(team, 16, 18.0)  # turnover rate forced (higher=better)
-                drb_pct   = _safe_float(team, 20, 70.0)  # def rebound rate (higher=better)
-                ft_rate_d = _safe_float(team, 24, 30.0)  # FTR allowed (lower=better)
+                # ── Recent form (confirmed indices 23, 24) ───────────────────
+                recent_adj_oe = sf(team, 23, adj_oe)
+                recent_adj_de = sf(team, 24, adj_de)
 
-                # ── Shooting ─────────────────────────────────────────────────
-                three_pct   = _safe_float(team, 30, 33.0)  # 3P% off
-                three_pct_d = _safe_float(team, 32, 33.0)  # 3P% allowed
-                ft_pct      = _safe_float(team, 40, 70.0)  # FT% made
+                # ── SOS (index 33, decimal scale ~0.05) ──────────────────────
+                sos = sf(team, 33, 0.0)
 
-                # ── Pace & meta ──────────────────────────────────────────────
-                adj_tempo   = _safe_float(team, 34, NATIONAL_AVG_TEMPO)
-                wab         = _safe_float(team, 36, 0.0)   # wins above bubble
-                sos         = _safe_float(team, 38, 0.0)   # strength of schedule
-                experience  = _safe_float(team, 42, 1.5)   # avg years experience
+                # ── FT% (index 40, decimal e.g. 0.941) ──────────────────────
+                ft_pct_raw = sf(team, 40, 0.70)
+                ft_pct = ft_pct_raw * 100.0  # convert to pct (94.1)
 
-                # ── Recent form (last ~10 games) ─────────────────────────────
-                recent_adj_oe = _safe_float(team, 44, adj_oe)
-                recent_adj_de = _safe_float(team, 45, adj_de)
+                # ── Four Factors (indices 15-22, all decimals 0-1) ───────────
+                # [15] eFG% offense  (higher = better shooting)
+                # [16] eFG% defense  (lower = better defense, i.e. opp shoots less)
+                # [17] ball-handling/TO related offense (higher = better)
+                # [18] ball-handling/TO related defense (higher = better)
+                # [19] ORB% offense  (higher = better crashing)
+                # [20] DRB% defense  (higher = better defending boards)
+                # [21] FT rate offense (higher = get to line more)
+                # [22] FT rate defense (lower = don't foul as much)
+                efg_raw    = sf(team, 15, 0.50)
+                efg_d_raw  = sf(team, 16, 0.50)
+                to_raw     = sf(team, 17, 0.80)   # inverse of TO rate — higher=better
+                to_d_raw   = sf(team, 18, 0.80)
+                orb_raw    = sf(team, 19, 0.30)
+                drb_raw    = sf(team, 20, 0.70)
+                ftr_raw    = sf(team, 21, 0.30)
+                ftrd_raw   = sf(team, 22, 0.30)
 
-                # ── Schema sanity checks ──────────────────────────────────────
+                # Convert to percentage scale for the model
+                efg_pct    = efg_raw  * 100.0   # e.g. 76.75
+                efg_pct_d  = efg_d_raw * 100.0  # e.g. 72.94
+                # TO: stored as non-TO rate (i.e. 1 - TO%), so TO% = 1 - value
+                to_pct     = (1.0 - to_raw)  * 100.0   # e.g. 20.7% turnovers
+                to_pct_d   = (1.0 - to_d_raw) * 100.0  # forced TO%
+                orb_pct    = orb_raw  * 100.0   # e.g. 29.4
+                drb_pct    = drb_raw  * 100.0   # e.g. 81.5
+                ft_rate    = ftr_raw  * 100.0   # e.g. 61.2 (FTA/FGA × 100)
+                ft_rate_d  = ftrd_raw * 100.0
+
+                # 3P% — index 31 appears to be a 0-1 rate (e.g. 0.987 seems wrong)
+                # Use defaults until confirmed; avoid corrupting the model
+                three_pct   = 34.0
+                three_pct_d = 34.0
+
+                # Experience — index 42 appears to be integer rank, not years
+                # Use default 1.5 until a float ~0.5-4.0 column is identified
+                experience = 1.5
+
+                # WAB — not clearly identified yet, default 0
+                wab = 0.0
+
                 normalized_name = self._normalize_barttorvik_name(team_name)
 
-                if not (80 < adj_oe < 135):
-                    schema_warnings.append(f"{team_name}: AdjOE={adj_oe} (expected 80-135)")
-                if not (80 < adj_de < 130):
-                    schema_warnings.append(f"{team_name}: AdjDE={adj_de} (expected 80-130)")
-                if not (55 < adj_tempo < 85):
-                    schema_warnings.append(f"{team_name}: Tempo={adj_tempo} (expected 55-85)")
-                if not (0 < barthag < 1):
-                    schema_warnings.append(f"{team_name}: Barthag={barthag} (expected 0-1)")
-                if not (35 < efg_pct < 65):
-                    schema_warnings.append(f"{team_name}: eFG%={efg_pct} (expected 35-65) — index 10 may be wrong")
-                if not (10 < to_pct < 30):
-                    schema_warnings.append(f"{team_name}: TO%={to_pct} (expected 10-30) — index 14 may be wrong")
+                # Sanity check core values
+                if not (85 < adj_oe < 145):
+                    schema_warnings.append(f"{team_name}: AdjOE={adj_oe:.1f}")
+                if not (80 < adj_de < 125):
+                    schema_warnings.append(f"{team_name}: AdjDE={adj_de:.1f}")
 
                 stats[normalized_name] = {
-                    # Core
-                    "adj_oe":       adj_oe,
-                    "adj_de":       adj_de,
-                    "adj_tempo":    adj_tempo,
-                    "barthag":      barthag,
-                    "wins":         wins,
-                    "losses":       losses,
-                    "sos":          sos,
-                    "wab":          wab,
-                    "conf":         conf,
-                    # Recent form
+                    "adj_oe":        adj_oe,
+                    "adj_de":        adj_de,
+                    "adj_tempo":     adj_tempo,
+                    "barthag":       barthag,
+                    "wins":          wins,
+                    "losses":        losses,
+                    "sos":           sos,
+                    "wab":           wab,
+                    "conf":          conf,
                     "recent_adj_oe": recent_adj_oe,
                     "recent_adj_de": recent_adj_de,
-                    # Four Factors — offense
-                    "efg_pct":  efg_pct,
-                    "to_pct":   to_pct,
-                    "orb_pct":  orb_pct,
-                    "ft_rate":  ft_rate,
-                    # Four Factors — defense
-                    "efg_pct_d":  efg_pct_d,
-                    "to_pct_d":   to_pct_d,
-                    "drb_pct":    drb_pct,
-                    "ft_rate_d":  ft_rate_d,
-                    # Shooting
-                    "three_pct":   three_pct,
-                    "three_pct_d": three_pct_d,
-                    "ft_pct":      ft_pct,
-                    # Experience
-                    "experience":  experience,
+                    "efg_pct":       efg_pct,
+                    "efg_pct_d":     efg_pct_d,
+                    "to_pct":        to_pct,
+                    "to_pct_d":      to_pct_d,
+                    "orb_pct":       orb_pct,
+                    "drb_pct":       drb_pct,
+                    "ft_rate":       ft_rate,
+                    "ft_rate_d":     ft_rate_d,
+                    "three_pct":     three_pct,
+                    "three_pct_d":   three_pct_d,
+                    "ft_pct":        ft_pct,
+                    "experience":    experience,
                 }
 
             except (IndexError, ValueError, TypeError):
                 continue
 
-        # Print schema warnings
-        if schema_warnings and len(schema_warnings) <= 5:
-            for w in schema_warnings:
-                print(f"[SCHEMA WARN] {w}")
-        elif schema_warnings:
-            print(f"[SCHEMA WARN] {len(schema_warnings)} teams have suspicious stat values")
-            print(f"[SCHEMA WARN] Run with --debug to print raw row and re-verify index mapping")
+        if schema_warnings:
+            n = len(schema_warnings)
+            if n <= 4:
+                for w in schema_warnings:
+                    print(f"[SCHEMA WARN] {w}")
+            else:
+                print(f"[SCHEMA WARN] {n} teams out of range — run --debug-schema to inspect")
 
         return stats if stats else None
 
@@ -1405,14 +1422,6 @@ def generate_output(predictions: List[Dict], date_str: str,
             json.dump(output, f, indent=2)
         print(f"[OK] Latest picks updated at {latest_path}")
 
-        # Also copy to public/ so the React app (Vite) can fetch /latest.json
-        public_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "public")
-        if os.path.isdir(public_dir):
-            public_path = os.path.join(public_dir, "latest.json")
-            with open(public_path, "w") as f:
-                json.dump(output, f, indent=2)
-            print(f"[OK] Public copy updated at {public_path}")
-
     return output
 
 
@@ -1507,7 +1516,7 @@ def main():
     print(f"{'='*60}\n")
 
     # Initialize provider
-    provider = TeamStatsProvider(debug=args.debug)
+    provider = TeamStatsProvider()
 
     # Step 1: Fetch team stats
     print("[1/3] Fetching team statistics...")
