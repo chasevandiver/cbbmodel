@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-College Basketball Prediction Model v2.2
+College Basketball Prediction Model v2.3
 =========================================
 A comprehensive statistical model for predicting NCAA basketball game outcomes.
 Uses KenPom-style advanced metrics, tempo-adjusted efficiency, and multiple
@@ -843,29 +843,94 @@ class CBBPredictionModel:
             )
 
         # ================================================================
+        # FOUR FACTORS ANALYSIS (Dean Oliver)
+        # eFG% (40%), TO% (25%), ORB% (20%), FT Rate (15%)
+        # ================================================================
+        # Home offense vs Away defense
+        home_efg_adv = home_stats["efg_pct"] - away_stats["efg_pct_d"]
+        home_to_adv = away_stats["to_pct_d"] - home_stats["to_pct"]
+        home_orb_adv = home_stats["orb_pct"] - (100 - away_stats["drb_pct"])
+        home_ft_adv = home_stats["ft_rate"] - away_stats["ft_rate_d"]
+
+        # Away offense vs Home defense
+        away_efg_adv = away_stats["efg_pct"] - home_stats["efg_pct_d"]
+        away_to_adv = home_stats["to_pct_d"] - away_stats["to_pct"]
+        away_orb_adv = away_stats["orb_pct"] - (100 - home_stats["drb_pct"])
+        away_ft_adv = away_stats["ft_rate"] - home_stats["ft_rate_d"]
+
+        home_ff = (home_efg_adv * 0.40 + home_to_adv * 0.25 +
+                   home_orb_adv * 0.20 + home_ft_adv * 0.15)
+        away_ff = (away_efg_adv * 0.40 + away_to_adv * 0.25 +
+                   away_orb_adv * 0.20 + away_ft_adv * 0.15)
+        four_factors_margin = (home_ff - away_ff) * 0.15
+
+        # ================================================================
+        # TURNOVER MARGIN
+        # ================================================================
+        home_to_diff = away_stats["to_pct_d"] - home_stats["to_pct"]
+        away_to_diff = home_stats["to_pct_d"] - away_stats["to_pct"]
+        to_margin = (home_to_diff - away_to_diff) * 0.3
+
+        # ================================================================
+        # REBOUNDING MARGIN
+        # ================================================================
+        home_reb = home_stats["orb_pct"] + home_stats["drb_pct"]
+        away_reb = away_stats["orb_pct"] + away_stats["drb_pct"]
+        reb_margin = (home_reb - away_reb) * 0.05
+
+        # ================================================================
+        # THREE POINT SHOOTING MATCHUP
+        # ================================================================
+        home_three_adv = home_stats["three_pct"] - away_stats["three_pct_d"]
+        away_three_adv = away_stats["three_pct"] - home_stats["three_pct_d"]
+        three_pt_margin = (home_three_adv - away_three_adv) * 0.2
+
+        # ================================================================
+        # FREE THROW ADVANTAGE
+        # ================================================================
+        home_ft = (home_stats["ft_rate"] * home_stats["ft_pct"] / 100)
+        away_ft = (away_stats["ft_rate"] * away_stats["ft_pct"] / 100)
+        ft_margin = (home_ft - away_ft) * 0.08
+
+        # ================================================================
+        # EXPERIENCE FACTOR
+        # ================================================================
+        exp_margin = (home_stats.get("experience", 1.5) - away_stats.get("experience", 1.5)) * 0.3
+
+        # ================================================================
+        # SOS ADJUSTMENT
+        # ================================================================
+        sos_margin = (home_stats.get("sos", 0) - away_stats.get("sos", 0)) * 0.15
+
+        # ================================================================
         # RECENT FORM ADJUSTMENT (Capped at ±2 pts)
         # ================================================================
-        # Compare recent efficiency vs season efficiency to detect hot/cold streaks
-        # Cap tightly because this can be noisy and efficiency already captures most
         home_season_net = home_stats["adj_oe"] - home_stats["adj_de"]
         away_season_net = away_stats["adj_oe"] - away_stats["adj_de"]
-        
-        home_recent_net = (home_stats.get("recent_adj_oe", home_stats["adj_oe"]) - 
+        home_recent_net = (home_stats.get("recent_adj_oe", home_stats["adj_oe"]) -
                           home_stats.get("recent_adj_de", home_stats["adj_de"]))
-        away_recent_net = (away_stats.get("recent_adj_oe", away_stats["adj_oe"]) - 
+        away_recent_net = (away_stats.get("recent_adj_oe", away_stats["adj_oe"]) -
                           away_stats.get("recent_adj_de", away_stats["adj_de"]))
-        
         home_trend = home_recent_net - home_season_net
         away_trend = away_recent_net - away_season_net
-        
-        # Convert to points with tempo adjustment, cap at ±2
         recent_form_raw = (home_trend - away_trend) * (projected_tempo / 100.0) * 0.25
         recent_form_pts = max(-2.0, min(2.0, recent_form_raw))
 
         # ================================================================
         # FINAL PREDICTION
         # ================================================================
-        predicted_margin = raw_margin + hca + recent_form_pts
+        predicted_margin = (
+            raw_margin +
+            four_factors_margin +
+            hca +
+            recent_form_pts +
+            to_margin +
+            reb_margin +
+            three_pt_margin +
+            ft_margin +
+            exp_margin +
+            sos_margin
+        )
 
         # ================================================================
         # PROJECT TOTAL SCORE
@@ -938,15 +1003,15 @@ class CBBPredictionModel:
             # Factor breakdown for display
             "factors": {
                 "efficiency_margin": round(raw_margin, 2),
-                "four_factors": 0.0,  # Embedded in efficiency
+                "four_factors": round(four_factors_margin, 2),
                 "home_court": round(hca, 2),
                 "recent_form": round(recent_form_pts, 2),
-                "turnover_margin": 0.0,  # Embedded in efficiency
-                "rebounding": 0.0,  # Embedded in efficiency
-                "three_point": 0.0,  # Embedded in efficiency
-                "free_throw": 0.0,  # Embedded in efficiency
-                "experience": 0.0,
-                "sos": 0.0,
+                "turnover_margin": round(to_margin, 2),
+                "rebounding": round(reb_margin, 2),
+                "three_point": round(three_pt_margin, 2),
+                "free_throw": round(ft_margin, 2),
+                "experience": round(exp_margin, 2),
+                "sos": round(sos_margin, 2),
             },
             
             # Market comparison
@@ -990,42 +1055,41 @@ class CBBPredictionModel:
                    odds: Optional[Dict]) -> Tuple[Optional[float], Optional[float], Optional[float]]:
         """
         Calculate value rating compared to market lines.
-        
-        Returns:
-            (value_rating, spread_edge, total_edge)
-            
-        spread_edge is expressed from the PICK's perspective:
-        - Positive = model pick covers by more than market expects
-        - Negative = model pick doesn't cover market spread
+
+        The Odds API spread is from the HOME team's perspective:
+          -7.5 = home favored by 7.5 (home needs to win by 8+ to cover)
+          +7.5 = home is underdog (away favored by 7.5)
+
+        predicted_margin is also from home's perspective (positive = home wins by X).
+
+        So to compare: market_margin = -market_spread_home
+          e.g. spread = -7.5 → market expects home to win by 7.5 → market_margin = 7.5
+               spread = +7.5 → market expects away to win by 7.5 → market_margin = -7.5
+
+        spread_edge is from the MODEL PICK's perspective (always positive = value).
         """
         if not odds or odds.get("spread") is None:
             return None, None, None
-            
+
         market_spread_home = float(odds["spread"])
-        
-        # Market spread is from home perspective:
-        # Negative = home favored (e.g., -7.5 means home favored by 7.5)
-        # Positive = away favored (e.g., +7.5 means home is underdog)
-        
-        # Convert to margin comparison (both in home-team-wins-by-X units)
-        # market_spread_home of -7.5 means "home wins by 7.5 expected"
-        # But the spread is the points you GIVE, so negate to get margin
+
+        # Convert spread to expected margin (home perspective)
         market_margin = -market_spread_home
-        model_margin = predicted_margin
-        
-        spread_diff = model_margin - market_margin
-        
+
+        # Model margin vs market margin
+        spread_diff = predicted_margin - market_margin
+
         # Express from pick's perspective
         pick_is_home = predicted_margin > 0
         spread_edge = spread_diff if pick_is_home else -spread_diff
-        
+
         value_rating = abs(spread_diff)
-        
+
         # Total edge
         total_edge = None
         if odds.get("over_under"):
             total_edge = projected_total - float(odds["over_under"])
-        
+
         return value_rating, spread_edge, total_edge
 
     def _calc_confidence(self, margin: float, home_stats: Dict, 
@@ -1255,7 +1319,7 @@ def generate_output(predictions: List[Dict], date_str: str,
         "generated_at": datetime.now().isoformat(),
         "date": date_str,
         "total_games": len(predictions),
-        "model_version": "2.2.0",
+        "model_version": "2.3.0",
         "picks": predictions,
         "summary": {
             "total_games": len(predictions),
