@@ -197,13 +197,8 @@ function GameCard({ pick, expanded, onToggle, index }) {
         <div style={{ textAlign: "right", minWidth: 120 }}>
           <div style={{ fontSize: 10, fontWeight: 800, color: confColor, letterSpacing: 2, marginBottom: 4, fontFamily: "'JetBrains Mono', monospace" }}>{confLevel}</div>
           <div style={{ fontSize: 16, fontWeight: 900, color: "#f8fafc", fontFamily: "'JetBrains Mono', monospace" }}>
-            {pick.pick_abbr} {isHomePick ? "-" : "+"}{spreadAbs}
+            {atsLabel || `${pick.pick_abbr} ${isHomePick ? "-" : "+"}${spreadAbs}`}
           </div>
-          {atsLabel && (
-            <div style={{ fontSize: 11, color: "#818cf8", fontWeight: 700, fontFamily: "'JetBrains Mono', monospace", marginTop: 1 }}>
-              BET: {atsLabel}
-            </div>
-          )}
           <div style={{ fontSize: 11, color: "#6b7280", marginTop: 2 }}>O/U {pick.predicted_total}</div>
         </div>
 
