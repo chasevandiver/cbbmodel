@@ -108,42 +108,64 @@ def grade_pick(pick: Dict, result: Dict) -> Dict:
     """
     Grade a single pick against the actual result.
 
+    ATS grading uses the same logic as the UI:
+    - market.spread is home-perspective (negative = home favored, positive = away favored)
+    - coverCheck = predicted_spread + market_spread
+      - if coverCheck > 0: UI bet HOME to cover
+      - if coverCheck < 0: UI bet AWAY to cover
+    - If no market spread, grade straight up (did model's picked team win?)
+
     Returns graded pick with:
     - ats_result: "W" / "L" / "P" (push)
+    - bet_side: which side the model told users to bet ("home" or "away")
     - ou_result: "O" / "U" / "P"
-    - actual_home_score, actual_away_score
-    - actual_margin, actual_total
     """
     actual_margin = result["margin"]   # positive = home won
-    actual_total = result["total"]
-    model_margin = pick["predicted_spread"]  # positive = model favors home
-    market_spread = pick.get("market", {}).get("spread")  # home perspective (negative = home fav)
-    market_ou = pick.get("market", {}).get("over_under")
+    actual_total  = result["total"]
+    model_margin  = pick["predicted_spread"]  # home-perspective
+    market_spread = pick.get("market", {}).get("spread")  # home-perspective
+    market_ou     = pick.get("market", {}).get("over_under")
 
     # ---- ATS grading ----
-    # We grade against the market spread if available, otherwise model spread
     if market_spread is not None:
-        # Market spread is from home perspective: -7 = home favored by 7
-        # Home covers if: actual_margin > -market_spread (i.e. home wins by more than spread)
-        # Away covers if: actual_margin < -market_spread
-        cover_line = -float(market_spread)  # convert to margin threshold
-    else:
-        cover_line = 0  # just grade straight up if no market line
+        mkt = float(market_spread)
+        # cover_line: home needs to win by more than this to cover
+        # e.g. market = -16.5 (home fav) → cover_line = +16.5 (home must win by 16.5+)
+        # e.g. market = +3.5 (away fav)  → cover_line = -3.5 (home must win by 3.5+ OR lose by less than 3.5)
+        cover_line = -mkt
 
-    if abs(actual_margin - cover_line) < 0.5:
-        ats_result = "P"  # push (within 0.5)
-    elif actual_margin > cover_line:
-        # Home covered
-        if model_margin > 0:
-            ats_result = "W"  # model picked home, home covered
+        # Determine which side the UI told users to bet (same coverCheck as App.jsx)
+        cover_check = model_margin + mkt
+        if cover_check > 0.5:
+            bet_side = "home"
+        elif cover_check < -0.5:
+            bet_side = "away"
         else:
-            ats_result = "L"  # model picked away, home covered (away didn't cover)
+            bet_side = "none"  # no edge, no bet suggested
+
+        # Did the bet win?
+        if abs(actual_margin - cover_line) < 0.5:
+            ats_result = "P"
+        elif actual_margin > cover_line:
+            # Home covered
+            ats_result = "W" if bet_side == "home" else "L"
+        else:
+            # Away covered
+            ats_result = "W" if bet_side == "away" else "L"
+
+        # If no bet was suggested, mark as push (no action)
+        if bet_side == "none":
+            ats_result = "P"
     else:
-        # Away covered
-        if model_margin < 0:
-            ats_result = "W"  # model picked away, away covered
+        # No market line — grade straight up on model's picked winner
+        cover_line = 0
+        bet_side = "home" if model_margin > 0 else "away"
+        if actual_margin > 0:
+            ats_result = "W" if model_margin > 0 else "L"
+        elif actual_margin < 0:
+            ats_result = "W" if model_margin < 0 else "L"
         else:
-            ats_result = "L"  # model picked home, away covered
+            ats_result = "P"
 
     # ---- O/U grading ----
     ou_line = float(market_ou) if market_ou else pick["predicted_total"]
@@ -154,13 +176,13 @@ def grade_pick(pick: Dict, result: Dict) -> Dict:
     else:
         ou_result = "U"
 
-    # Model's O/U call: did model correctly call over or under?
     model_ou_call = "O" if pick["predicted_total"] > ou_line else "U"
     ou_correct = (model_ou_call == ou_result) if ou_result != "P" else None
 
     return {
         **pick,
         "graded": True,
+        "bet_side": bet_side,
         "actual_home_score": result["home_score"],
         "actual_away_score": result["away_score"],
         "actual_margin": actual_margin,
