@@ -120,35 +120,35 @@ function GameCard({ pick, expanded, onToggle, index }) {
   const confLevel = pick.confidence >= 75 ? "STRONG" : pick.confidence >= 55 ? "LEAN" : pick.confidence >= 40 ? "SLIGHT" : "TOSS-UP";
   const confColor = pick.confidence >= 75 ? "#22c55e" : pick.confidence >= 55 ? "#eab308" : pick.confidence >= 40 ? "#f97316" : "#ef4444";
 
-  // Market spread is always stored from HOME team perspective:
-  //   negative = home favored (e.g. -7 means home wins by 7)
-  //   positive = away favored (e.g. +7 means away wins by 7, home is dog)
-  // predicted_spread is also home-perspective (positive = home wins)
   const mkt = pick.market || {};
   let atsLabel = null;
   let marketDisplayStr = null;
 
   if (mkt.spread != null) {
-    const mktHomeSpread = parseFloat(mkt.spread); // home perspective
-    // Display: show as "{favorite} -{amount}"
+    const mktHomeSpread = parseFloat(mkt.spread); // home perspective: negative=home fav, positive=away fav
+
+    // Market display: show favorite with minus sign
     if (mktHomeSpread < 0) {
-      // Home is favored
       marketDisplayStr = `${pick.home_team} ${mktHomeSpread.toFixed(1)}`;
     } else {
-      // Away is favored
       marketDisplayStr = `${pick.away_team} -${mktHomeSpread.toFixed(1)}`;
     }
 
-    // ATS: compare model (predicted_spread) vs market (mktHomeSpread), both home-perspective
-    const edge = pick.predicted_spread - mktHomeSpread;
-    if (edge > 0.5) {
-      // Model likes home MORE than market → bet home
-      const homeSpread = mktHomeSpread.toFixed(1);
-      atsLabel = `${pick.home_abbr} ${mktHomeSpread >= 0 ? "+" : ""}${homeSpread}`;
-    } else if (edge < -0.5) {
-      // Model likes away MORE than market → bet away
-      const awaySpread = (-mktHomeSpread).toFixed(1);
-      atsLabel = `${pick.away_abbr} ${parseFloat(awaySpread) >= 0 ? "+" : ""}${awaySpread}`;
+    // ATS logic - both predicted_spread and mktHomeSpread are home-perspective
+    // "home covers" means: actual_margin > -mktHomeSpread (home wins by more than spread requires)
+    // Model predicts home margin = predicted_spread
+    // Home covers if predicted_spread > -mktHomeSpread  →  predicted_spread + mktHomeSpread > 0
+    // Away covers if predicted_spread < -mktHomeSpread  →  predicted_spread + mktHomeSpread < 0
+
+    const coverCheck = pick.predicted_spread + mktHomeSpread;
+
+    if (coverCheck > 0.5) {
+      // Home covers — show home at their spread
+      atsLabel = `${pick.home_abbr} ${mktHomeSpread >= 0 ? "+" : ""}${mktHomeSpread.toFixed(1)}`;
+    } else if (coverCheck < -0.5) {
+      // Away covers — show away at their spread (opposite of home spread)
+      const awayLine = -mktHomeSpread;
+      atsLabel = `${pick.away_abbr} ${awayLine >= 0 ? "+" : ""}${awayLine.toFixed(1)}`;
     }
   }
 
