@@ -120,17 +120,35 @@ function GameCard({ pick, expanded, onToggle, index }) {
   const confLevel = pick.confidence >= 75 ? "STRONG" : pick.confidence >= 55 ? "LEAN" : pick.confidence >= 40 ? "SLIGHT" : "TOSS-UP";
   const confColor = pick.confidence >= 75 ? "#22c55e" : pick.confidence >= 55 ? "#eab308" : pick.confidence >= 40 ? "#f97316" : "#ef4444";
 
-  // ATS pick: compare model spread vs market to find the better side
+  // Market spread is always stored from HOME team perspective:
+  //   negative = home favored (e.g. -7 means home wins by 7)
+  //   positive = away favored (e.g. +7 means away wins by 7, home is dog)
+  // predicted_spread is also home-perspective (positive = home wins)
   const mkt = pick.market || {};
   let atsLabel = null;
-  if (mkt.spread != null && mkt.spread_holder) {
-    const homeIsMarketFav = mkt.spread_holder === pick.home_team || mkt.spread_holder === pick.home_abbr;
-    const marketHomeSpread = homeIsMarketFav ? -Math.abs(mkt.spread) : Math.abs(mkt.spread);
-    const edge = pick.predicted_spread - marketHomeSpread;
+  let marketDisplayStr = null;
+
+  if (mkt.spread != null) {
+    const mktHomeSpread = parseFloat(mkt.spread); // home perspective
+    // Display: show as "{favorite} -{amount}"
+    if (mktHomeSpread < 0) {
+      // Home is favored
+      marketDisplayStr = `${pick.home_team} ${mktHomeSpread.toFixed(1)}`;
+    } else {
+      // Away is favored
+      marketDisplayStr = `${pick.away_team} -${mktHomeSpread.toFixed(1)}`;
+    }
+
+    // ATS: compare model (predicted_spread) vs market (mktHomeSpread), both home-perspective
+    const edge = pick.predicted_spread - mktHomeSpread;
     if (edge > 0.5) {
-      atsLabel = `${pick.home_abbr} ${marketHomeSpread >= 0 ? "+" : ""}${marketHomeSpread.toFixed(1)}`;
+      // Model likes home MORE than market → bet home
+      const homeSpread = mktHomeSpread.toFixed(1);
+      atsLabel = `${pick.home_abbr} ${mktHomeSpread >= 0 ? "+" : ""}${homeSpread}`;
     } else if (edge < -0.5) {
-      atsLabel = `${pick.away_abbr} +${Math.abs(marketHomeSpread).toFixed(1)}`;
+      // Model likes away MORE than market → bet away
+      const awaySpread = (-mktHomeSpread).toFixed(1);
+      atsLabel = `${pick.away_abbr} ${parseFloat(awaySpread) >= 0 ? "+" : ""}${awaySpread}`;
     }
   }
 
@@ -220,7 +238,7 @@ function GameCard({ pick, expanded, onToggle, index }) {
                     <div style={{ background: "#0d0d1a", borderRadius: 6, padding: 8 }}>
                       <div style={{ fontSize: 9, color: "#6b7280", marginBottom: 2 }}>MARKET SPREAD</div>
                       <div style={{ fontSize: 14, fontWeight: 700, color: "#94a3b8", fontFamily: "'JetBrains Mono', monospace" }}>
-                        {mkt.spread_holder} {mkt.spread > 0 ? "+" : ""}{mkt.spread}
+                        {marketDisplayStr}
                       </div>
                     </div>
                     <div style={{ background: "#0d0d1a", borderRadius: 6, padding: 8 }}>
@@ -230,7 +248,7 @@ function GameCard({ pick, expanded, onToggle, index }) {
                   </div>
                   {atsLabel && (
                     <div style={{ marginTop: 8, padding: "6px 10px", background: "rgba(129,140,248,0.1)", border: "1px solid rgba(129,140,248,0.3)", borderRadius: 6, fontSize: 11, color: "#a5b4fc", fontWeight: 700, fontFamily: "'JetBrains Mono', monospace" }}>
-                      ★ BET: {atsLabel} ({pick.predicted_spread > 0 ? "+" : ""}{pick.predicted_spread.toFixed(1)} model vs {mkt.spread > 0 ? "+" : ""}{mkt.spread} market)
+                      ★ BET: {atsLabel} (model {pick.predicted_spread > 0 ? "+" : ""}{pick.predicted_spread.toFixed(1)} vs market {parseFloat(mkt.spread) > 0 ? "+" : ""}{parseFloat(mkt.spread).toFixed(1)})
                     </div>
                   )}
                 </div>
