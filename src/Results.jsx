@@ -257,12 +257,32 @@ function GameResultRow({ game, index }) {
   const ouColor = game.ou_result === "O" ? C.orange :
                   game.ou_result === "U" ? C.indigo : C.yellow;
 
+  // Same coverCheck logic as App.jsx and results_tracker.py
+  // predicted_spread and market.spread are both home-perspective
   const modelMargin = game.predicted_spread;
-  const isHomePick = modelMargin < 0;
-  const pickAbbr = isHomePick ? game.home_abbr : game.away_abbr;
+  const mktSpread = game.market?.spread != null ? parseFloat(game.market.spread) : null;
 
-  const mktSpread = game.market?.spread;
-  const mktLine = mktSpread != null ? `${mktSpread > 0 ? "+" : ""}${mktSpread}` : "—";
+  let betAbbr, betLine;
+  if (mktSpread != null) {
+    const coverCheck = modelMargin + mktSpread;
+    if (coverCheck > 0.5) {
+      // Bet home
+      betAbbr = game.home_abbr;
+      betLine = mktSpread >= 0 ? `+${mktSpread}` : `${mktSpread}`;
+    } else if (coverCheck < -0.5) {
+      // Bet away
+      betAbbr = game.away_abbr;
+      const awayLine = -mktSpread;
+      betLine = awayLine >= 0 ? `+${awayLine}` : `${awayLine}`;
+    } else {
+      betAbbr = "—";
+      betLine = "";
+    }
+  } else {
+    // No market line — straight up pick
+    betAbbr = modelMargin > 0 ? game.home_abbr : game.away_abbr;
+    betLine = "ML";
+  }
 
   const gameDate = game.date
     ? new Date(game.date).toLocaleDateString("en-US", { month: "short", day: "numeric" })
@@ -293,7 +313,7 @@ function GameResultRow({ game, index }) {
           <span style={{ color: C.text, fontWeight: 600 }}>{game.home_abbr}</span>
         </div>
         <div style={{ fontSize: 10, color: C.dim, marginTop: 2, fontFamily: "'JetBrains Mono', monospace" }}>
-          Pick: {pickAbbr} {mktLine} • Actual: {game.actual_away_score}-{game.actual_home_score}
+          Pick: {betAbbr} {betLine} • Actual: {game.actual_away_score}-{game.actual_home_score}
         </div>
       </div>
 
