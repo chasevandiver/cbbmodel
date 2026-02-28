@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-28T08:31:41.313536",
+  "generated_at": "2026-02-28T08:31:48.055328",
   "date": "20260228",
   "total_games": 117,
   "model_version": "2.1.0",
@@ -2052,13 +2052,13 @@
         "sos": -0.04
       },
       "market": {
-        "spread": -8.5,
+        "spread": -9.5,
         "over_under": 157.5,
         "spread_holder": ""
       },
-      "value_rating": 1.0,
+      "value_rating": 2.0,
       "model_vs_market": {
-        "spread_edge": -1.0,
+        "spread_edge": -2.0,
         "total_edge": -4.9
       }
     },
