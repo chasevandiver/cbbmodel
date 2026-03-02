@@ -518,9 +518,8 @@ class TeamStatsProvider:
         """
         params = {
             "dates": date_str,
-            "limit": 200,
-            # NOTE: Do NOT add "groups" here — it filters to a specific conference
-            # subset and causes many games (including ranked matchups) to be missed.
+            "limit": 500,
+            "groups": 50,  # Division I (required — without this ESPN returns 0 events)
         }
 
         games = []
@@ -528,7 +527,20 @@ class TeamStatsProvider:
             resp = requests.get(ESPN_SCOREBOARD_URL, params=params, timeout=15)
             data = resp.json()
 
-            for event in data.get("events", []):
+            # ESPN may paginate results — collect all pages
+            all_events = list(data.get("events", []))
+            page_count = data.get("pageCount", 1)
+            page_index = data.get("pageIndex", 1)
+            while page_index < page_count:
+                page_index += 1
+                paged_resp = requests.get(ESPN_SCOREBOARD_URL, params={**params, "page": page_index}, timeout=15)
+                paged_data = paged_resp.json()
+                new_events = paged_data.get("events", [])
+                if not new_events:
+                    break
+                all_events.extend(new_events)
+
+            for event in all_events:
                 competition = event.get("competitions", [{}])[0]
                 competitors = competition.get("competitors", [])
 
