@@ -159,6 +159,34 @@ ESPN_TO_BARTTORVIK = {
     "saint francis (pa) red flash":     "saint francis pa",
     "saint francis red flash":          "saint francis pa",
     "new haven chargers":               "new haven",
+
+    # ── Fixes from debug run 2026-03-02 ──────────────────────────────────────
+    # Teams that were NOMATCH (skipping games entirely)
+    "morgan state bears":               "morgan st.",
+    "nc state wolfpack":                "n.c. state",
+    "coppin state eagles":              "coppin st.",
+    "iowa state cyclones":              "iowa st.",
+    "idaho vandals":                    "idaho",
+    "weber state wildcats":             "weber st.",
+    "idaho state bengals":              "idaho st.",
+
+    # Teams that were WRONG MATCH (producing garbage predictions)
+    "iu indianapolis jaguars":          "iupui",
+    "delaware state hornets":           "delaware st.",
+    "northern arizona lumberjacks":     "n. arizona",
+    "se louisiana lions":               "se louisiana",
+    "texas a&m-corpus christi islanders": "tx. a&m corpus christi",
+    "northwestern state demons":        "northwestern st.",
+    "montana state bobcats":            "montana st.",
+    "northern colorado bears":          "n. colorado",
+    "stephen f. austin lumberjacks":    "sfa",
+    "incarnate word cardinals":         "incarnate word",
+    "ut rio grande valley vaqueros":    "ut rio grande valley",
+    "nicholls colonels":                "nicholls st.",
+    "mcneese cowboys":                  "mcneese st.",
+    "new orleans privateers":           "new orleans",
+    "houston christian huskies":        "houston christian",
+    "east texas a&m lions":             "east texas a&m",
 }
 
 
@@ -519,7 +547,7 @@ class TeamStatsProvider:
         params = {
             "dates": date_str,
             "limit": 500,
-            "groups": 50,  # Division I (required — without this ESPN returns 0 events)
+            "groups": 50,  # Division I
         }
 
         games = []
@@ -527,20 +555,7 @@ class TeamStatsProvider:
             resp = requests.get(ESPN_SCOREBOARD_URL, params=params, timeout=15)
             data = resp.json()
 
-            # ESPN may paginate results — collect all pages
-            all_events = list(data.get("events", []))
-            page_count = data.get("pageCount", 1)
-            page_index = data.get("pageIndex", 1)
-            while page_index < page_count:
-                page_index += 1
-                paged_resp = requests.get(ESPN_SCOREBOARD_URL, params={**params, "page": page_index}, timeout=15)
-                paged_data = paged_resp.json()
-                new_events = paged_data.get("events", [])
-                if not new_events:
-                    break
-                all_events.extend(new_events)
-
-            for event in all_events:
+            for event in data.get("events", []):
                 competition = event.get("competitions", [{}])[0]
                 competitors = competition.get("competitors", [])
 
