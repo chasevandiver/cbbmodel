@@ -161,9 +161,15 @@ ESPN_TO_BARTTORVIK = {
     "new haven chargers":               "new haven",
 
     # ── NC State — ESPN uses multiple name formats ────────────────────────────
+    # Must cover pre- AND post-normalization forms because "State"→"St." replacement
+    # runs during normalization, mangling "nc state wolfpack" → "nc st. wolfpack"
     "nc state wolfpack":                "n.c. state",
     "north carolina state wolfpack":    "n.c. state",
     "n.c. state wolfpack":              "n.c. state",
+    "nc st. wolfpack":                  "n.c. state",
+    "north carolina st. wolfpack":      "n.c. state",
+    "nc state":                         "n.c. state",
+    "nc st.":                           "n.c. state",
 
     # ── Other fixes from debug run 2026-03-02 ─────────────────────────────────
     # NOMAATCHes (games being skipped entirely)
