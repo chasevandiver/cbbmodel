@@ -518,8 +518,9 @@ class TeamStatsProvider:
         """
         params = {
             "dates": date_str,
-            "limit": 500,
-            "groups": 50,  # Division I
+            "limit": 200,
+            # NOTE: Do NOT add "groups" here — it filters to a specific conference
+            # subset and causes many games (including ranked matchups) to be missed.
         }
 
         games = []
