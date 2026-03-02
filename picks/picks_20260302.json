@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T22:41:16.134183",
+  "generated_at": "2026-03-02T22:46:13.810290",
   "date": "20260302",
   "total_games": 17,
   "model_version": "2.1.0",
@@ -93,13 +93,13 @@
       },
       "market": {
         "spread": -19.5,
-        "over_under": 139.5,
+        "over_under": 140.5,
         "spread_holder": "Howard Bison"
       },
       "value_rating": 0.7,
       "model_vs_market": {
         "spread_edge": -0.7,
-        "total_edge": -2.1
+        "total_edge": -3.1
       }
     },
     {
