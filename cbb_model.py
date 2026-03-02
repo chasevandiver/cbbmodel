@@ -554,21 +554,18 @@ class TeamStatsProvider:
         Fetch the day's schedule from ESPN API.
         date_str format: YYYYMMDD
         """
-        params = {
-            "dates": date_str,
-            "limit": 500,
-            "groups": 50,  # Division I
-        }
-
+        seen_ids = set()
         games = []
-        try:
-            resp = requests.get(ESPN_SCOREBOARD_URL, params=params, timeout=15)
-            data = resp.json()
 
+        def parse_events(data):
             for event in data.get("events", []):
+                game_id = event.get("id", "")
+                if game_id in seen_ids:
+                    continue
+                seen_ids.add(game_id)
+
                 competition = event.get("competitions", [{}])[0]
                 competitors = competition.get("competitors", [])
-
                 if len(competitors) != 2:
                     continue
 
@@ -589,8 +586,8 @@ class TeamStatsProvider:
                         away_team = team_data
 
                 if home_team and away_team:
-                    game_info = {
-                        "game_id": event.get("id", ""),
+                    games.append({
+                        "game_id": game_id,
                         "date": event.get("date", ""),
                         "name": event.get("name", ""),
                         "home": home_team,
@@ -601,8 +598,21 @@ class TeamStatsProvider:
                         "broadcast": competition.get("broadcasts", [{}])[0].get("names", [""])[0] if competition.get("broadcasts") else "",
                         "status": event.get("status", {}).get("type", {}).get("name", ""),
                         "odds": self._extract_odds(competition),
-                    }
-                    games.append(game_info)
+                    })
+
+        try:
+            # Primary call: groups=50 (Division I)
+            resp = requests.get(ESPN_SCOREBOARD_URL, params={"dates": date_str, "limit": 500, "groups": 50}, timeout=15)
+            parse_events(resp.json())
+
+            # Supplemental calls for major conferences that sometimes get missed
+            # ACC=2, Big 12=8, Big Ten=7, SEC=9, Big East=4, Pac-12=21
+            for group_id in [2, 8, 7, 9, 4, 21]:
+                try:
+                    r = requests.get(ESPN_SCOREBOARD_URL, params={"dates": date_str, "limit": 100, "groups": group_id}, timeout=10)
+                    parse_events(r.json())
+                except Exception:
+                    pass
 
         except Exception as e:
             print(f"[ERROR] Failed to fetch schedule: {e}")
