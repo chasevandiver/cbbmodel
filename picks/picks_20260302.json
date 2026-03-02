@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T20:21:28.478269",
+  "generated_at": "2026-03-02T22:31:29.068056",
   "date": "20260302",
   "total_games": 11,
   "model_version": "2.1.0",
@@ -44,13 +44,13 @@
       },
       "market": {
         "spread": -7.5,
-        "over_under": 137.5,
+        "over_under": 136.5,
         "spread_holder": ""
       },
       "value_rating": 16.5,
       "model_vs_market": {
         "spread_edge": 16.5,
-        "total_edge": 9.3
+        "total_edge": 10.3
       }
     },
     {
@@ -92,14 +92,14 @@
         "sos": -0.16
       },
       "market": {
-        "spread": 7.5,
-        "over_under": 143.5,
+        "spread": 6.5,
+        "over_under": 142.5,
         "spread_holder": "Stephen F. Austin Lumberjacks"
       },
-      "value_rating": 0.9,
+      "value_rating": 1.9,
       "model_vs_market": {
-        "spread_edge": 0.9,
-        "total_edge": 0.2
+        "spread_edge": 1.9,
+        "total_edge": 1.2
       }
     },
     {
@@ -142,13 +142,13 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 170.5,
+        "over_under": 168.5,
         "spread_holder": ""
       },
       "value_rating": 20.3,
       "model_vs_market": {
         "spread_edge": 20.3,
-        "total_edge": -11.1
+        "total_edge": -9.1
       }
     },
     {
@@ -288,13 +288,13 @@
         "sos": -0.11
       },
       "market": {
-        "spread": 10.5,
+        "spread": 9.5,
         "over_under": 145.5,
         "spread_holder": "McNeese Cowboys"
       },
-      "value_rating": 4.2,
+      "value_rating": 3.2,
       "model_vs_market": {
-        "spread_edge": -4.2,
+        "spread_edge": -3.2,
         "total_edge": -1.6
       }
     },
@@ -337,14 +337,14 @@
         "sos": -0.07
       },
       "market": {
-        "spread": -2.5,
-        "over_under": 136.5,
+        "spread": -1.5,
+        "over_under": 135.5,
         "spread_holder": ""
       },
-      "value_rating": 9.5,
+      "value_rating": 8.5,
       "model_vs_market": {
-        "spread_edge": 9.5,
-        "total_edge": 2.7
+        "spread_edge": 8.5,
+        "total_edge": 3.7
       }
     },
     {
@@ -387,13 +387,13 @@
       },
       "market": {
         "spread": -5.5,
-        "over_under": 153.5,
+        "over_under": 154.5,
         "spread_holder": ""
       },
       "value_rating": 1.5,
       "model_vs_market": {
         "spread_edge": -1.5,
-        "total_edge": -6.6
+        "total_edge": -7.6
       }
     },
     {
