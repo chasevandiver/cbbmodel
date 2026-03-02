@@ -160,17 +160,21 @@ ESPN_TO_BARTTORVIK = {
     "saint francis red flash":          "saint francis pa",
     "new haven chargers":               "new haven",
 
-    # ── Fixes from debug run 2026-03-02 ──────────────────────────────────────
-    # Teams that were NOMATCH (skipping games entirely)
-    "morgan state bears":               "morgan st.",
+    # ── NC State — ESPN uses multiple name formats ────────────────────────────
     "nc state wolfpack":                "n.c. state",
+    "north carolina state wolfpack":    "n.c. state",
+    "n.c. state wolfpack":              "n.c. state",
+
+    # ── Other fixes from debug run 2026-03-02 ─────────────────────────────────
+    # NOMAATCHes (games being skipped entirely)
+    "morgan state bears":               "morgan st.",
     "coppin state eagles":              "coppin st.",
     "iowa state cyclones":              "iowa st.",
     "idaho vandals":                    "idaho",
     "weber state wildcats":             "weber st.",
     "idaho state bengals":              "idaho st.",
 
-    # Teams that were WRONG MATCH (producing garbage predictions)
+    # Wrong matches (producing garbage predictions)
     "iu indianapolis jaguars":          "iupui",
     "delaware state hornets":           "delaware st.",
     "northern arizona lumberjacks":     "n. arizona",
