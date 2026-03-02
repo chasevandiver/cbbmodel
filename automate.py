@@ -55,7 +55,7 @@ if not ok:
 
 # ── Step 2: Generate today's picks ───────────────────────────────────────────
 log("Step 2: Generating today's picks...")
-ok = run([sys.executable, "cbb_model.py"])
+ok = run([sys.executable, "cbb_model.py", "--debug"])
 if not ok:
     log("[ERROR] Model failed — aborting git push")
     sys.exit(1)
