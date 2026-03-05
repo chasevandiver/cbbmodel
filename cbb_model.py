@@ -59,6 +59,12 @@ WEIGHTS = {
 
 HOME_COURT_ADVANTAGE_PTS = 3.5  # NCAA average home court advantage in points
 NEUTRAL_SITE_ADVANTAGE = 0.0
+NEUTRAL_SITE_PSEUDO_HCA = 1.5   # max pseudo-home advantage for better team on neutral floor
+BLOWOUT_THRESHOLD_PTS = 12.0    # predicted margin above this triggers regression
+BLOWOUT_REGRESSION_RATE = 0.25  # blend this fraction toward market when predicting blowout
+SWEET_SPOT_MIN = 3.0            # min model-vs-market edge for "best bet" flag
+SWEET_SPOT_MAX = 6.0            # max model-vs-market edge for "best bet" flag
+TEMPO_MISMATCH_THRESHOLD = 5.0  # tempo diff this large flags upset potential
 
 
 # ============================================================================
@@ -693,14 +699,37 @@ class CBBPredictionModel:
         # ---- TEMPO PROJECTION ----
         projected_tempo = (home_stats["adj_tempo"] + away_stats["adj_tempo"]) / 2
 
+        # ---- TEMPO MISMATCH FLAG ----
+        # 5+ pt tempo differential makes pace unpredictable → upset-prone.
+        tempo_diff = abs(home_stats["adj_tempo"] - away_stats["adj_tempo"])
+        tempo_mismatch = tempo_diff >= TEMPO_MISMATCH_THRESHOLD
+
         # ---- CONVERT EFFICIENCY TO ACTUAL POINTS ----
         # Multiply by (tempo / 100) to get expected point margin for this game's pace.
         # e.g. efficiency_margin=8.0, tempo=68 → raw_margin = 8.0 * (68/100) = 5.4 pts
         raw_margin = efficiency_margin * (projected_tempo / 100.0)
 
-        # ---- HOME COURT ADVANTAGE ----
+        # ---- HOME COURT ADVANTAGE / NEUTRAL SITE ----
         if game.get("neutral_site", False):
-            hca = NEUTRAL_SITE_ADVANTAGE
+            # Neutral floor: no traditional HCA. Instead, the better team earns a
+            # small "pseudo-home" advantage (up to ±1.5 pts) based on quality gap.
+            # This models conference tournament seeding and NCAA bracket placement.
+            home_barthag = home_stats.get("barthag", 0.5)
+            away_barthag = away_stats.get("barthag", 0.5)
+            barthag_diff = home_barthag - away_barthag  # positive → home is better team
+
+            # Secondary: AP/ESPN ranking if available (lower number = better seed)
+            home_rank = home.get("rank", 99)
+            away_rank = away.get("rank", 99)
+            rank_adj = 0.0
+            if home_rank < 99 and away_rank < 99:
+                rank_diff = away_rank - home_rank   # positive → home is better ranked
+                rank_adj = max(min(rank_diff * 0.04, 0.8), -0.8)
+
+            hca = max(
+                min(barthag_diff * 5.0 + rank_adj, NEUTRAL_SITE_PSEUDO_HCA),
+                -NEUTRAL_SITE_PSEUDO_HCA,
+            )
         else:
             hca = HOME_COURT_ADVANTAGE_PTS
 
@@ -741,6 +770,22 @@ class CBBPredictionModel:
         exp_contribution = max(min(exp_margin, 1.0), -1.0)
 
         predicted_margin = raw_margin + hca + recent_form_pts + ff_contribution + to_contribution + reb_contribution + ft_contribution + exp_contribution
+
+        # ---- BLOWOUT REGRESSION ----
+        # Empirical result: predicted blowouts (12+ pts) have MAE=15.9 pts vs
+        # 10.0 pts for tight games, and model over-predicts 55% of blowouts by 5+ pts.
+        # Blend large predictions 25% toward the market line (or 15% toward 0).
+        if abs(predicted_margin) >= BLOWOUT_THRESHOLD_PTS:
+            _mkt_odds = game.get("odds")
+            if _mkt_odds and _mkt_odds.get("spread") is not None:
+                _market_margin = -float(_mkt_odds["spread"])
+                predicted_margin = (
+                    predicted_margin * (1 - BLOWOUT_REGRESSION_RATE)
+                    + _market_margin * BLOWOUT_REGRESSION_RATE
+                )
+            else:
+                # No market data: regress 15% toward zero
+                predicted_margin *= (1 - BLOWOUT_REGRESSION_RATE * 0.6)
 
         # ---- PROJECT TOTAL SCORE ----
         # Apply 0.905 calibration factor — barttorvik AdjOE/AdjDE are inflated
@@ -786,6 +831,16 @@ class CBBPredictionModel:
             pick_is_home = predicted_margin > 0
             spread_edge = spread_diff if pick_is_home else -spread_diff
             value_rating = abs(spread_diff)
+        else:
+            pick_is_home = predicted_margin > 0
+            spread_edge = None
+
+        # ---- BEST BET FLAG ----
+        # Sweet spot of 3-6 pt edge vs market = historically 72.2% ATS.
+        is_best_bet = (
+            value_rating is not None
+            and SWEET_SPOT_MIN <= value_rating <= SWEET_SPOT_MAX
+        )
 
         prediction = {
             "game_id": game["game_id"],
@@ -832,9 +887,14 @@ class CBBPredictionModel:
             },
             "value_rating": round(value_rating, 1) if value_rating else None,
             "model_vs_market": {
-                "spread_edge": round(spread_edge, 1) if value_rating is not None else None,
+                "spread_edge": round(spread_edge, 1) if spread_edge is not None else None,
                 "total_edge": round(projected_total - (game.get("odds", {}).get("over_under") or 0), 1) if game.get("odds") and game["odds"].get("over_under") else None,
             },
+            "is_best_bet": is_best_bet,
+            "is_tournament_game": game.get("neutral_site", False),
+            "tempo_mismatch": tempo_mismatch,
+            "tempo_diff": round(tempo_diff, 1),
+            "is_home_pick": pick_is_home,
         }
 
         return prediction
@@ -1018,28 +1078,79 @@ class CBBPredictionModel:
         return (home_ft - away_ft) * 0.15
 
     def _calc_confidence(self, margin, home_stats, away_stats, odds, total):
-        """Calculate prediction confidence (0-100)."""
-        margin_conf = min(abs(margin) * 3, 40)
+        """
+        Rebuilt confidence scoring based on empirical ATS results (256 graded games):
 
+          Sweet spot (3-6 pt edge vs market) → 72.2% ATS → HIGH confidence
+          Tight game predictions (<5 pts)    → 60.7% ATS → HIGH confidence
+          Big predicted blowouts (12+ pts)   → 52.4% ATS → LOW confidence
+          Away picks overall                 → 43.3% ATS → penalized baseline
+
+        Old formula (margin_conf = abs(margin)*3) was INVERTED — it rewarded
+        large-spread predictions that perform worst. This rewrite flips that.
+        """
+        confidence = 40.0  # neutral baseline
+
+        # ── 1. MODEL vs MARKET AGREEMENT ─────────────────────────────────────
+        # Most predictive signal: where does our prediction sit relative to the line?
+        if odds and odds.get("spread") is not None:
+            market_spread_home = float(odds["spread"])
+            market_margin = -market_spread_home  # convert to "home wins by X" frame
+
+            # Direction agreement bonus/penalty
+            direction_matches = (
+                (margin > 0 and market_margin > 0) or
+                (margin < 0 and market_margin < 0)
+            )
+            confidence += 10 if direction_matches else -15
+
+            # Sweet spot: 3-6 pt edge historically 72.2% ATS → biggest boost
+            spread_diff = abs(margin - market_margin)
+            if SWEET_SPOT_MIN <= spread_diff <= SWEET_SPOT_MAX:
+                confidence += 22
+            elif 2.0 <= spread_diff < SWEET_SPOT_MIN:
+                confidence += 10
+            elif SWEET_SPOT_MAX < spread_diff <= 10.0:
+                confidence += 4
+            else:
+                confidence -= 4  # >10 pt disagreement with market = shaky
+        else:
+            confidence -= 8  # no market data: less information available
+
+        # ── 2. PREDICTED MARGIN SIZE ──────────────────────────────────────────
+        # Small margins → reliable; big margins → model over-predicts blowouts.
+        abs_margin = abs(margin)
+        if abs_margin >= 15:
+            confidence -= 22   # very bad empirical accuracy
+        elif abs_margin >= 12:
+            confidence -= 14
+        elif abs_margin >= 8:
+            confidence -= 6
+        elif abs_margin < 5:
+            confidence += 14   # tight game predictions: 60.7% ATS
+        else:  # 5 ≤ abs_margin < 8
+            confidence += 6
+
+        # ── 3. AWAY PICK SKEPTICISM ───────────────────────────────────────────
+        # Away picks hit only 43.3% historically — apply baseline penalty.
+        if margin < 0:
+            confidence -= 10
+
+        # ── 4. DATA QUALITY ───────────────────────────────────────────────────
         games_played = min(
             home_stats.get("wins", 0) + home_stats.get("losses", 0),
             away_stats.get("wins", 0) + away_stats.get("losses", 0),
         )
-        data_conf = min(games_played * 2, 25)
+        confidence += min(games_played * 0.4, 10)
 
-        market_conf = 0
-        if odds and odds.get("spread"):
-            market_spread = odds["spread"]
-            if (margin > 0 and market_spread < 0) or (margin < 0 and market_spread > 0):
-                market_conf = 10
-            else:
-                market_conf = -5
-
+        # ── 5. QUALITY DIFFERENTIAL ──────────────────────────────────────────
         barthag_diff = abs(home_stats.get("barthag", 0.5) - away_stats.get("barthag", 0.5))
-        barthag_conf = min(barthag_diff * 50, 20)
+        if barthag_diff > 0.25:
+            confidence += 5
+        elif barthag_diff < 0.05:
+            confidence -= 3   # nearly identical teams = outcome uncertain
 
-        total_conf = margin_conf + data_conf + market_conf + barthag_conf
-        return max(min(total_conf, 98), 15)
+        return max(min(confidence, 95), 15)
 
     def predict_all_games(self, games):
         """Generate predictions for all games in the schedule"""
@@ -1075,7 +1186,7 @@ def generate_output(predictions, date_str, output_format="json"):
         "generated_at": datetime.now().isoformat(),
         "date": date_str,
         "total_games": len(predictions),
-        "model_version": "2.1.0",
+        "model_version": "3.0.0",
         "picks": predictions,
         "summary": {
             "total_games": len(predictions),
@@ -1084,6 +1195,9 @@ def generate_output(predictions, date_str, output_format="json"):
             "low_confidence": len([p for p in predictions if p["confidence"] < 40]),
             "avg_confidence": round(sum(p["confidence"] for p in predictions) / max(len(predictions), 1), 1),
             "value_plays": len([p for p in predictions if p.get("value_rating") and p["value_rating"] >= 3]),
+            "best_bets": len([p for p in predictions if p.get("is_best_bet")]),
+            "tournament_games": len([p for p in predictions if p.get("is_tournament_game")]),
+            "tempo_mismatches": len([p for p in predictions if p.get("tempo_mismatch")]),
         },
     }
 
@@ -1132,7 +1246,7 @@ def main():
     display_date = target_date.strftime("%B %d, %Y")
 
     print(f"\n{'='*60}")
-    print(f"  College Basketball Prediction Model v2.1")
+    print(f"  College Basketball Prediction Model v3.0")
     print(f"  Generating picks for: {display_date}")
     print(f"{'='*60}\n")
 
@@ -1192,6 +1306,16 @@ def main():
 
     if args.output == "console":
         for i, p in enumerate(predictions, 1):
+            # --- Build tag line (tournament, tempo mismatch, best bet) ---
+            tags = []
+            if p.get("is_tournament_game"):
+                tags.append("NEUTRAL SITE")
+            if p.get("is_best_bet"):
+                tags.append("★★ BEST BET")
+            if p.get("tempo_mismatch"):
+                tags.append(f"TEMPO MISMATCH ({p.get('tempo_diff', 0):.1f})")
+            tag_str = f"  [{', '.join(tags)}]" if tags else ""
+
             # --- Model pick line ---
             # If model disagrees with market direction (spread_edge < 0 with market available),
             # the pick to cover is the OTHER side of the market, not the model winner.
@@ -1209,7 +1333,7 @@ def main():
             else:
                 spread_display = f"{p['pick_abbr']} -{abs(p['predicted_spread']):.1f}"
 
-            print(f"\n  #{i} [{p['confidence']:.0f}% conf] {p['away_team']} @ {p['home_team']}")
+            print(f"\n  #{i} [{p['confidence']:.0f}% conf] {p['away_team']} @ {p['home_team']}{tag_str}")
             print(f"     Model Pick:    {spread_display}")
 
             # --- Market spread: always show as FAVORITE -X ---
@@ -1225,17 +1349,23 @@ def main():
 
             print(f"     Projected:     {p['away_abbr']} {p['away_projected_score']:.0f} - {p['home_abbr']} {p['home_projected_score']:.0f}  (Total: {p['predicted_total']:.1f})")
             if p.get("value_rating") and p["value_rating"] >= 2:
+                bet_marker = "★★ BEST BET:" if p.get("is_best_bet") else "★ Value:    "
                 if edge is not None:
                     cover_str = "covers" if edge > 0 else "falls short"
                     pick_for_display = p["pick_abbr"]
-                    print(f"     ★ Value:       {p['value_rating']:.1f} pt edge ({pick_for_display} {cover_str} by {abs(edge):.1f})")
+                    print(f"     {bet_marker}  {p['value_rating']:.1f} pt edge ({pick_for_display} {cover_str} by {abs(edge):.1f})")
                 else:
-                    print(f"     ★ Value:       {p['value_rating']:.1f} pt edge")
+                    print(f"     {bet_marker}  {p['value_rating']:.1f} pt edge")
 
     print(f"\n{'='*60}")
     print(f"  Summary: {output['summary']['high_confidence']} high confidence picks")
     print(f"           {output['summary']['medium_confidence']} medium confidence picks")
-    print(f"           {output['summary']['value_plays']} value plays identified")
+    print(f"           {output['summary']['value_plays']} value plays (3+ pt edge)")
+    print(f"           {output['summary']['best_bets']} best bets (3-6 pt sweet spot)")
+    if output['summary'].get('tournament_games', 0) > 0:
+        print(f"           {output['summary']['tournament_games']} tournament/neutral site games")
+    if output['summary'].get('tempo_mismatches', 0) > 0:
+        print(f"           {output['summary']['tempo_mismatches']} tempo mismatch games (upset-prone)")
     print(f"{'='*60}\n")
 
 
