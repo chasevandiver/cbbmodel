@@ -209,6 +209,49 @@ function getConference(teamName) {
   return TEAM_CONFERENCE[teamName] || "Other";
 }
 
+function computeStats(games) {
+  const atsW = games.filter(g => g.ats_result === "W").length;
+  const atsL = games.filter(g => g.ats_result === "L").length;
+  const atsP = games.filter(g => g.ats_result === "P").length;
+  const atsPct = (atsW + atsL) > 0 ? Math.round(atsW / (atsW + atsL) * 1000) / 10 : 0;
+
+  const suCorrect = games.filter(g => g.model_correct_winner).length;
+  const suPct = games.length > 0 ? Math.round(suCorrect / games.length * 1000) / 10 : 0;
+
+  const ouGradeable = games.filter(g => g.ou_result && g.ou_result !== "P").length;
+  const ouCorrect = games.filter(g => g.ou_model_correct).length;
+  const ouModelPct = ouGradeable > 0 ? Math.round(ouCorrect / ouGradeable * 1000) / 10 : 0;
+
+  const tierStats = tier => {
+    const w = tier.filter(g => g.ats_result === "W").length;
+    const l = tier.filter(g => g.ats_result === "L").length;
+    const p = tier.filter(g => g.ats_result === "P").length;
+    return { w, l, p, pct: (w + l) > 0 ? Math.round(w / (w + l) * 1000) / 10 : 0 };
+  };
+
+  const vp = games.filter(g => (g.value_rating || 0) >= 3);
+  const vpW = vp.filter(g => g.ats_result === "W").length;
+  const vpL = vp.filter(g => g.ats_result === "L").length;
+  const vpP = vp.filter(g => g.ats_result === "P").length;
+
+  return {
+    ats: { w: atsW, l: atsL, p: atsP, pct: atsPct },
+    su: { correct: suCorrect, total: games.length, pct: suPct },
+    ou: {
+      over: games.filter(g => g.ou_result === "O").length,
+      under: games.filter(g => g.ou_result === "U").length,
+      push: games.filter(g => g.ou_result === "P").length,
+      model_correct: ouCorrect, model_gradeable: ouGradeable, model_pct: ouModelPct,
+    },
+    by_confidence: {
+      high: tierStats(games.filter(g => g.confidence >= 70)),
+      medium: tierStats(games.filter(g => g.confidence >= 40 && g.confidence < 70)),
+      low: tierStats(games.filter(g => g.confidence < 40)),
+    },
+    value_plays: { w: vpW, l: vpL, p: vpP, pct: (vpW + vpL) > 0 ? Math.round(vpW / (vpW + vpL) * 1000) / 10 : 0 },
+  };
+}
+
 const SAMPLE_RESULTS = {
   generated_at: "2026-02-24T08:00:00",
   summary: {
@@ -638,27 +681,30 @@ export default function Results({ onNavigate }) {
   last30Start.setDate(now.getDate() - 30);
   last30Start.setHours(0, 0, 0, 0);
 
-  // Filter
-  let filtered = [...graded];
-  // Date filter
+  // Date + conference filter — used for computing live stats AND game log
+  let dateConfFiltered = [...graded];
   if (dateFilter === "yesterday") {
-    filtered = filtered.filter(g => {
+    dateConfFiltered = dateConfFiltered.filter(g => {
       const d = new Date(g.date);
       return d >= startOfYesterday && d <= endOfYesterday;
     });
   } else if (dateFilter === "7days") {
-    filtered = filtered.filter(g => new Date(g.date) >= last7Start);
+    dateConfFiltered = dateConfFiltered.filter(g => new Date(g.date) >= last7Start);
   } else if (dateFilter === "30days") {
-    filtered = filtered.filter(g => new Date(g.date) >= last30Start);
+    dateConfFiltered = dateConfFiltered.filter(g => new Date(g.date) >= last30Start);
   }
-  // Conference filter
   if (confFilter !== "all") {
-    filtered = filtered.filter(g =>
+    dateConfFiltered = dateConfFiltered.filter(g =>
       getConference(g.home_team) === confFilter ||
       getConference(g.away_team) === confFilter
     );
   }
-  // Result/confidence filter
+
+  // Compute stats from the date/conference-filtered set
+  const { ats, su, ou, by_confidence, value_plays } = computeStats(dateConfFiltered);
+
+  // Additional result/confidence filter — only for the game log rows
+  let filtered = [...dateConfFiltered];
   if (filter === "high") filtered = filtered.filter(g => g.confidence >= 70);
   if (filter === "value") filtered = filtered.filter(g => (g.value_rating || 0) >= 3);
   if (filter === "wins") filtered = filtered.filter(g => g.ats_result === "W");
@@ -669,7 +715,10 @@ export default function Results({ onNavigate }) {
   if (sortBy === "confidence") filtered.sort((a, b) => b.confidence - a.confidence);
   if (sortBy === "value") filtered.sort((a, b) => (b.value_rating || 0) - (a.value_rating || 0));
 
-  const { ats, su, ou, by_confidence, value_plays } = summary;
+  const datePeriodLabel = dateFilter === "yesterday" ? "Yesterday"
+    : dateFilter === "7days" ? "Last 7 Days"
+    : dateFilter === "30days" ? "Last 30 Days"
+    : "Season";
   const atsColor = ats.pct >= 55 ? C.green : ats.pct >= 50 ? C.yellow : C.red;
 
   return (
@@ -718,7 +767,7 @@ export default function Results({ onNavigate }) {
               COURTSIDE EDGE
             </h1>
             <p style={{ fontSize: 13, color: C.muted }}>
-              {graded.length} games graded • Season record
+              {dateConfFiltered.length} games graded • {datePeriodLabel} record
             </p>
           </div>
 
@@ -771,7 +820,7 @@ export default function Results({ onNavigate }) {
               <WinBar w={ats.w} l={ats.l} p={ats.p} />
             </div>
             <div style={{ fontSize: 10, color: C.dim, marginTop: 6 }}>
-              Against the spread
+              Against the spread · {datePeriodLabel}
             </div>
           </div>
 
