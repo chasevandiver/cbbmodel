@@ -1,4 +1,213 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
+
+// ─── Team → Conference lookup (2025-26 season) ────────────────────────────
+const TEAM_CONFERENCE = {
+  // ACC
+  "Boston College Eagles": "ACC", "California Golden Bears": "ACC",
+  "Clemson Tigers": "ACC", "Duke Blue Devils": "ACC",
+  "Florida State Seminoles": "ACC", "Georgia Tech Yellow Jackets": "ACC",
+  "Louisville Cardinals": "ACC", "Miami Hurricanes": "ACC",
+  "North Carolina Tar Heels": "ACC", "Pittsburgh Panthers": "ACC",
+  "SMU Mustangs": "ACC", "Stanford Cardinal": "ACC",
+  "Syracuse Orange": "ACC", "Virginia Cavaliers": "ACC",
+  "Virginia Tech Hokies": "ACC", "Wake Forest Demon Deacons": "ACC",
+  // Big 12
+  "Arizona State Sun Devils": "Big 12", "Arizona Wildcats": "Big 12",
+  "BYU Cougars": "Big 12", "Baylor Bears": "Big 12",
+  "Colorado Buffaloes": "Big 12", "Houston Cougars": "Big 12",
+  "Iowa State Cyclones": "Big 12", "Kansas Jayhawks": "Big 12",
+  "Kansas State Wildcats": "Big 12", "Oklahoma State Cowboys": "Big 12",
+  "TCU Horned Frogs": "Big 12", "Texas Tech Red Raiders": "Big 12",
+  "UCF Knights": "Big 12", "Utah Utes": "Big 12",
+  "West Virginia Mountaineers": "Big 12",
+  // Big Ten
+  "Illinois Fighting Illini": "Big Ten", "Indiana Hoosiers": "Big Ten",
+  "Maryland Terrapins": "Big Ten", "Michigan State Spartans": "Big Ten",
+  "Michigan Wolverines": "Big Ten", "Minnesota Golden Gophers": "Big Ten",
+  "Nebraska Cornhuskers": "Big Ten", "Northwestern Wildcats": "Big Ten",
+  "Oregon Ducks": "Big Ten", "Purdue Boilermakers": "Big Ten",
+  "Rutgers Scarlet Knights": "Big Ten", "UCLA Bruins": "Big Ten",
+  "USC Trojans": "Big Ten", "Washington Huskies": "Big Ten",
+  "Wisconsin Badgers": "Big Ten",
+  // SEC
+  "Alabama Crimson Tide": "SEC", "Arkansas Razorbacks": "SEC",
+  "Auburn Tigers": "SEC", "Florida Gators": "SEC",
+  "Georgia Bulldogs": "SEC", "Kentucky Wildcats": "SEC",
+  "LSU Tigers": "SEC", "Mississippi State Bulldogs": "SEC",
+  "Missouri Tigers": "SEC", "Oklahoma Sooners": "SEC",
+  "South Carolina Gamecocks": "SEC", "Tennessee Volunteers": "SEC",
+  "Texas Longhorns": "SEC", "Texas A&M Aggies": "SEC",
+  "Vanderbilt Commodores": "SEC",
+  // Big East
+  "Butler Bulldogs": "Big East", "Creighton Bluejays": "Big East",
+  "DePaul Blue Demons": "Big East", "Georgetown Hoyas": "Big East",
+  "Marquette Golden Eagles": "Big East", "Providence Friars": "Big East",
+  "Seton Hall Pirates": "Big East", "St. John's Red Storm": "Big East",
+  "UConn Huskies": "Big East", "Villanova Wildcats": "Big East",
+  "Xavier Musketeers": "Big East",
+  // Mountain West
+  "Air Force Falcons": "Mountain West", "Colorado State Rams": "Mountain West",
+  "Nevada Wolf Pack": "Mountain West", "New Mexico Lobos": "Mountain West",
+  "San Diego State Aztecs": "Mountain West", "San José State Spartans": "Mountain West",
+  "Wyoming Cowboys": "Mountain West", "Fresno State Bulldogs": "Mountain West",
+  "Boise State Broncos": "Mountain West", "UNLV Rebels": "Mountain West",
+  "Utah State Aggies": "Mountain West", "New Mexico State Aggies": "Mountain West",
+  // American (AAC)
+  "Charlotte 49ers": "AAC", "East Carolina Pirates": "AAC",
+  "Florida Atlantic Owls": "AAC", "Memphis Tigers": "AAC",
+  "North Texas Mean Green": "AAC", "Rice Owls": "AAC",
+  "South Florida Bulls": "AAC", "Temple Owls": "AAC",
+  "Tulane Green Wave": "AAC", "UTSA Roadrunners": "AAC",
+  "Wichita State Shockers": "AAC",
+  // Atlantic 10
+  "Dayton Flyers": "Atlantic 10", "Davidson Wildcats": "Atlantic 10",
+  "Duquesne Dukes": "Atlantic 10", "Fordham Rams": "Atlantic 10",
+  "George Mason Patriots": "Atlantic 10", "George Washington Revolutionaries": "Atlantic 10",
+  "La Salle Explorers": "Atlantic 10", "Loyola Chicago Ramblers": "Atlantic 10",
+  "Massachusetts Minutemen": "Atlantic 10", "Rhode Island Rams": "Atlantic 10",
+  "Richmond Spiders": "Atlantic 10", "Saint Joseph's Hawks": "Atlantic 10",
+  "Saint Louis Billikens": "Atlantic 10", "St. Bonaventure Bonnies": "Atlantic 10",
+  "VCU Rams": "Atlantic 10",
+  // WCC
+  "Gonzaga Bulldogs": "WCC", "Loyola Marymount Lions": "WCC",
+  "Pacific Tigers": "WCC", "Pepperdine Waves": "WCC",
+  "Portland Pilots": "WCC", "Saint Mary's Gaels": "WCC",
+  "San Diego Toreros": "WCC", "San Francisco Dons": "WCC",
+  "Santa Clara Broncos": "WCC", "Seattle U Redhawks": "WCC",
+  // Missouri Valley
+  "Drake Bulldogs": "Missouri Valley", "Evansville Purple Aces": "Missouri Valley",
+  "Illinois State Redbirds": "Missouri Valley", "Indiana State Sycamores": "Missouri Valley",
+  "Missouri State Bears": "Missouri Valley", "Northern Iowa Panthers": "Missouri Valley",
+  "Southern Illinois Salukis": "Missouri Valley", "Valparaiso Beacons": "Missouri Valley",
+  "Western Illinois Leathernecks": "Missouri Valley",
+  // CAA
+  "Charleston Cougars": "CAA", "Delaware Blue Hens": "CAA",
+  "Drexel Dragons": "CAA", "Hofstra Pride": "CAA",
+  "James Madison Dukes": "CAA", "Monmouth Hawks": "CAA",
+  "Northeastern Huskies": "CAA", "Stony Brook Seawolves": "CAA",
+  "Towson Tigers": "CAA", "UNC Wilmington Seahawks": "CAA",
+  "William & Mary Tribe": "CAA",
+  // MAC
+  "Akron Zips": "MAC", "Bowling Green Falcons": "MAC",
+  "Buffalo Bulls": "MAC", "Central Michigan Chippewas": "MAC",
+  "Eastern Michigan Eagles": "MAC", "Kent State Golden Flashes": "MAC",
+  "Miami (OH) RedHawks": "MAC", "Northern Illinois Huskies": "MAC",
+  "Toledo Rockets": "MAC", "Western Michigan Broncos": "MAC",
+  // ASUN
+  "Austin Peay Governors": "ASUN", "Bellarmine Knights": "ASUN",
+  "Central Arkansas Bears": "ASUN", "Eastern Kentucky Colonels": "ASUN",
+  "Florida Gulf Coast Eagles": "ASUN", "Jacksonville Dolphins": "ASUN",
+  "Liberty Flames": "ASUN", "Lindenwood Lions": "ASUN",
+  "Lipscomb Bisons": "ASUN", "North Alabama Lions": "ASUN",
+  "North Florida Ospreys": "ASUN", "Queens University Royals": "ASUN",
+  "Stetson Hatters": "ASUN", "West Georgia Wolves": "ASUN",
+  // Big South
+  "Campbell Fighting Camels": "Big South", "Charleston Southern Buccaneers": "Big South",
+  "High Point Panthers": "Big South", "Longwood Lancers": "Big South",
+  "Presbyterian Blue Hose": "Big South", "Radford Highlanders": "Big South",
+  "Robert Morris Colonials": "Big South", "South Carolina Upstate Spartans": "Big South",
+  "Winthrop Eagles": "Big South",
+  // Sun Belt
+  "Arkansas State Red Wolves": "Sun Belt", "Coastal Carolina Chanticleers": "Sun Belt",
+  "Georgia Southern Eagles": "Sun Belt", "Georgia State Panthers": "Sun Belt",
+  "Louisiana Ragin' Cajuns": "Sun Belt", "Marshall Thundering Herd": "Sun Belt",
+  "Old Dominion Monarchs": "Sun Belt", "South Alabama Jaguars": "Sun Belt",
+  "UT Arlington Mavericks": "Sun Belt",
+  // CUSA
+  "Florida International Panthers": "CUSA", "Jacksonville State Gamecocks": "CUSA",
+  "Kennesaw State Owls": "CUSA", "Louisiana Tech Bulldogs": "CUSA",
+  "Middle Tennessee Blue Raiders": "CUSA", "Sam Houston Bearkats": "CUSA",
+  "UTEP Miners": "CUSA", "Western Kentucky Hilltoppers": "CUSA",
+  // Horizon
+  "Cleveland State Vikings": "Horizon", "Detroit Mercy Titans": "Horizon",
+  "Green Bay Phoenix": "Horizon", "IU Indianapolis Jaguars": "Horizon",
+  "Milwaukee Panthers": "Horizon", "Northern Kentucky Norse": "Horizon",
+  "Oakland Golden Grizzlies": "Horizon", "Purdue Fort Wayne Mastodons": "Horizon",
+  "Youngstown State Penguins": "Horizon",
+  // Ivy League
+  "Brown Bears": "Ivy League", "Columbia Lions": "Ivy League",
+  "Cornell Big Red": "Ivy League", "Dartmouth Big Green": "Ivy League",
+  "Harvard Crimson": "Ivy League", "Princeton Tigers": "Ivy League",
+  "Yale Bulldogs": "Ivy League",
+  // Patriot
+  "American University Eagles": "Patriot", "Army Black Knights": "Patriot",
+  "Boston University Terriers": "Patriot", "Bucknell Bison": "Patriot",
+  "Colgate Raiders": "Patriot", "Holy Cross Crusaders": "Patriot",
+  "Lafayette Leopards": "Patriot", "Lehigh Mountain Hawks": "Patriot",
+  "Loyola Maryland Greyhounds": "Patriot", "Navy Midshipmen": "Patriot",
+  // Southern
+  "Chattanooga Mocs": "Southern", "East Tennessee State Buccaneers": "Southern",
+  "Furman Paladins": "Southern", "Mercer Bears": "Southern",
+  "Samford Bulldogs": "Southern", "The Citadel Bulldogs": "Southern",
+  "UNC Greensboro Spartans": "Southern", "Western Carolina Catamounts": "Southern",
+  "Wofford Terriers": "Southern",
+  // OVC
+  "Belmont Bruins": "OVC", "Eastern Illinois Panthers": "OVC",
+  "Little Rock Trojans": "OVC", "Morehead State Eagles": "OVC",
+  "SE Louisiana Lions": "OVC", "Southeast Missouri State Redhawks": "OVC",
+  "Tennessee State Tigers": "OVC", "Tennessee Tech Golden Eagles": "OVC",
+  "Southern Indiana Screaming Eagles": "OVC",
+  // Big West
+  "Cal Poly Mustangs": "Big West", "Cal State Bakersfield Roadrunners": "Big West",
+  "Cal State Northridge Matadors": "Big West", "California Baptist Lancers": "Big West",
+  "Long Beach State Beach": "Big West", "UC Irvine Anteaters": "Big West",
+  "UC Riverside Highlanders": "Big West", "UC San Diego Tritons": "Big West",
+  "UC Santa Barbara Gauchos": "Big West", "Utah Valley Wolverines": "Big West",
+  // Summit
+  "Denver Pioneers": "Summit", "Kansas City Roos": "Summit",
+  "North Dakota Fighting Hawks": "Summit", "North Dakota State Bison": "Summit",
+  "Oral Roberts Golden Eagles": "Summit", "South Dakota Coyotes": "Summit",
+  "South Dakota State Jackrabbits": "Summit", "St. Thomas-Minnesota Tommies": "Summit",
+  // WAC
+  "Abilene Christian Wildcats": "WAC", "Chicago State Cougars": "WAC",
+  "Grand Canyon Lopes": "WAC", "Houston Christian Huskies": "WAC",
+  "Lamar Cardinals": "WAC", "Nicholls Colonels": "WAC",
+  "Tarleton State Texans": "WAC", "Texas A&M-Corpus Christi Islanders": "WAC",
+  "UT Rio Grande Valley Vaqueros": "WAC", "Utah Tech Trailblazers": "WAC",
+  "East Texas A&M Lions": "WAC",
+  // Big Sky
+  "Eastern Washington Eagles": "Big Sky", "Idaho State Bengals": "Big Sky",
+  "Idaho Vandals": "Big Sky", "Montana Grizzlies": "Big Sky",
+  "Montana State Bobcats": "Big Sky", "Northern Arizona Lumberjacks": "Big Sky",
+  "Northern Colorado Bears": "Big Sky", "Portland State Vikings": "Big Sky",
+  "Sacramento State Hornets": "Big Sky", "Weber State Wildcats": "Big Sky",
+  // MEAC
+  "Coppin State Eagles": "MEAC", "Delaware State Hornets": "MEAC",
+  "Florida A&M Rattlers": "MEAC", "Hampton Pirates": "MEAC",
+  "Howard Bison": "MEAC", "Maryland Eastern Shore Hawks": "MEAC",
+  "Morgan State Bears": "MEAC", "Norfolk State Spartans": "MEAC",
+  "North Carolina A&T Aggies": "MEAC", "North Carolina Central Eagles": "MEAC",
+  "South Carolina State Bulldogs": "MEAC",
+  // SWAC
+  "Alabama A&M Bulldogs": "SWAC", "Alabama State Hornets": "SWAC",
+  "Arkansas-Pine Bluff Golden Lions": "SWAC", "Grambling Tigers": "SWAC",
+  "Jackson State Tigers": "SWAC", "Mississippi Valley State Delta Devils": "SWAC",
+  "Prairie View A&M Panthers": "SWAC", "Southern Jaguars": "SWAC",
+  "Texas Southern Tigers": "SWAC",
+  // America East
+  "Binghamton Bearcats": "America East", "Bryant Bulldogs": "America East",
+  "UAlbany Great Danes": "America East", "UMBC Retrievers": "America East",
+  "UMass Lowell River Hawks": "America East", "New Hampshire Wildcats": "America East",
+  "Vermont Catamounts": "America East", "New Haven Chargers": "America East",
+  // NEC
+  "Central Connecticut Blue Devils": "NEC", "Fairleigh Dickinson Knights": "NEC",
+  "Le Moyne Dolphins": "NEC", "Merrimack Warriors": "NEC",
+  "Mount St. Mary's Mountaineers": "NEC", "Sacred Heart Pioneers": "NEC",
+  "Saint Francis Red Flash": "NEC", "Stonehill Skyhawks": "NEC",
+  "Wagner Seahawks": "NEC",
+  // MAAC
+  "Canisius Golden Griffins": "MAAC", "Fairfield Stags": "MAAC",
+  "Iona Gaels": "MAAC", "Marist Red Foxes": "MAAC",
+  "Manhattan Jaspers": "MAAC", "Niagara Purple Eagles": "MAAC",
+  "Quinnipiac Bobcats": "MAAC", "Saint Peter's Peacocks": "MAAC",
+  // Southland
+  "Incarnate Word Cardinals": "Southland", "New Orleans Privateers": "Southland",
+  "Northwestern State Demons": "Southland", "Stephen F. Austin Lumberjacks": "Southland",
+};
+
+function getConference(teamName) {
+  return TEAM_CONFERENCE[teamName] || "Other";
+}
 
 const SAMPLE_RESULTS = {
   generated_at: "2026-02-24T08:00:00",
@@ -369,6 +578,8 @@ function GameResultRow({ game, index }) {
 export default function Results({ onNavigate }) {
   const [data, setData] = useState(null);
   const [filter, setFilter] = useState("all");
+  const [dateFilter, setDateFilter] = useState("all");
+  const [confFilter, setConfFilter] = useState("all");
   const [sortBy, setSortBy] = useState("date");
 
   useEffect(() => {
@@ -385,6 +596,21 @@ export default function Results({ onNavigate }) {
       .catch(() => setData(SAMPLE_RESULTS));
   }, []);
 
+  // Build sorted unique conference list from graded games (must be before early return)
+  const availableConfs = useMemo(() => {
+    if (!data) return ["all"];
+    const graded = data.games.filter(g => g.graded);
+    const confs = new Set();
+    graded.forEach(g => {
+      confs.add(getConference(g.home_team));
+      confs.add(getConference(g.away_team));
+    });
+    return ["all", ...Array.from(confs).filter(c => c !== "Other").sort(), "Other"]
+      .filter(c => c === "all" || graded.some(g =>
+        getConference(g.home_team) === c || getConference(g.away_team) === c
+      ));
+  }, [data]);
+
   if (!data) return (
     <div style={{
       minHeight: "100vh", background: C.bg,
@@ -398,8 +624,41 @@ export default function Results({ onNavigate }) {
   const { summary, games } = data;
   const graded = games.filter(g => g.graded);
 
+  // Date boundary helpers
+  const now = new Date();
+  const startOfYesterday = new Date(now);
+  startOfYesterday.setDate(now.getDate() - 1);
+  startOfYesterday.setHours(0, 0, 0, 0);
+  const endOfYesterday = new Date(startOfYesterday);
+  endOfYesterday.setHours(23, 59, 59, 999);
+  const last7Start = new Date(now);
+  last7Start.setDate(now.getDate() - 7);
+  last7Start.setHours(0, 0, 0, 0);
+  const last30Start = new Date(now);
+  last30Start.setDate(now.getDate() - 30);
+  last30Start.setHours(0, 0, 0, 0);
+
   // Filter
   let filtered = [...graded];
+  // Date filter
+  if (dateFilter === "yesterday") {
+    filtered = filtered.filter(g => {
+      const d = new Date(g.date);
+      return d >= startOfYesterday && d <= endOfYesterday;
+    });
+  } else if (dateFilter === "7days") {
+    filtered = filtered.filter(g => new Date(g.date) >= last7Start);
+  } else if (dateFilter === "30days") {
+    filtered = filtered.filter(g => new Date(g.date) >= last30Start);
+  }
+  // Conference filter
+  if (confFilter !== "all") {
+    filtered = filtered.filter(g =>
+      getConference(g.home_team) === confFilter ||
+      getConference(g.away_team) === confFilter
+    );
+  }
+  // Result/confidence filter
   if (filter === "high") filtered = filtered.filter(g => g.confidence >= 70);
   if (filter === "value") filtered = filtered.filter(g => (g.value_rating || 0) >= 3);
   if (filter === "wins") filtered = filtered.filter(g => g.ats_result === "W");
@@ -597,19 +856,59 @@ export default function Results({ onNavigate }) {
             padding: "16px 20px",
             borderBottom: `1px solid ${C.border}`,
             display: "flex",
-            alignItems: "center",
-            gap: 12,
-            flexWrap: "wrap",
+            flexDirection: "column",
+            gap: 10,
           }}>
-            <span style={{
-              fontSize: 9, fontWeight: 800, color: C.muted,
-              letterSpacing: 2.5, textTransform: "uppercase",
-              fontFamily: "'JetBrains Mono', monospace",
-            }}>
-              Game Log
-            </span>
+            {/* Row 1: title + sort */}
+            <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+              <span style={{
+                fontSize: 9, fontWeight: 800, color: C.muted,
+                letterSpacing: 2.5, textTransform: "uppercase",
+                fontFamily: "'JetBrains Mono', monospace",
+              }}>
+                Game Log
+              </span>
+              <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ fontSize: 9, color: C.dim, fontFamily: "'JetBrains Mono', monospace" }}>SORT:</span>
+                <select value={sortBy} onChange={e => setSortBy(e.target.value)} style={{
+                  background: C.surface2, border: `1px solid ${C.border}`,
+                  borderRadius: 6, padding: "4px 8px",
+                  color: C.muted, fontSize: 10, outline: "none",
+                  cursor: "pointer", fontFamily: "'JetBrains Mono', monospace",
+                }}>
+                  <option value="date">Date</option>
+                  <option value="confidence">Confidence</option>
+                  <option value="value">Value</option>
+                </select>
+              </div>
+            </div>
 
-            <div style={{ display: "flex", gap: 6, marginLeft: 8 }}>
+            {/* Row 2: date filters */}
+            <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
+              <span style={{ fontSize: 9, color: C.dim, fontFamily: "'JetBrains Mono', monospace", marginRight: 2 }}>DATE:</span>
+              {[
+                { key: "all", label: "All Time" },
+                { key: "yesterday", label: "Yesterday" },
+                { key: "7days", label: "Last 7 Days" },
+                { key: "30days", label: "Last 30 Days" },
+              ].map(f => (
+                <button key={f.key} onClick={() => setDateFilter(f.key)} style={{
+                  background: dateFilter === f.key ? `${C.indigo}30` : "transparent",
+                  border: `1px solid ${dateFilter === f.key ? C.indigo : C.border}`,
+                  borderRadius: 20, padding: "4px 12px",
+                  color: dateFilter === f.key ? C.indigoDim : C.muted,
+                  fontSize: 10, fontWeight: 700, cursor: "pointer",
+                  fontFamily: "'JetBrains Mono', monospace",
+                  transition: "all 0.2s",
+                }}>
+                  {f.label}
+                </button>
+              ))}
+            </div>
+
+            {/* Row 3: result filters + conference dropdown */}
+            <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
+              <span style={{ fontSize: 9, color: C.dim, fontFamily: "'JetBrains Mono', monospace", marginRight: 2 }}>FILTER:</span>
               {[
                 { key: "all", label: "All" },
                 { key: "high", label: "High Conf" },
@@ -629,20 +928,22 @@ export default function Results({ onNavigate }) {
                   {f.label}
                 </button>
               ))}
-            </div>
-
-            <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 8 }}>
-              <span style={{ fontSize: 9, color: C.dim, fontFamily: "'JetBrains Mono', monospace" }}>SORT:</span>
-              <select value={sortBy} onChange={e => setSortBy(e.target.value)} style={{
-                background: C.surface2, border: `1px solid ${C.border}`,
-                borderRadius: 6, padding: "4px 8px",
-                color: C.muted, fontSize: 10, outline: "none",
-                cursor: "pointer", fontFamily: "'JetBrains Mono', monospace",
-              }}>
-                <option value="date">Date</option>
-                <option value="confidence">Confidence</option>
-                <option value="value">Value</option>
-              </select>
+              <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ fontSize: 9, color: C.dim, fontFamily: "'JetBrains Mono', monospace" }}>CONF:</span>
+                <select value={confFilter} onChange={e => setConfFilter(e.target.value)} style={{
+                  background: confFilter !== "all" ? `${C.indigo}20` : C.surface2,
+                  border: `1px solid ${confFilter !== "all" ? C.indigo : C.border}`,
+                  borderRadius: 6, padding: "4px 8px",
+                  color: confFilter !== "all" ? C.indigoDim : C.muted,
+                  fontSize: 10, outline: "none",
+                  cursor: "pointer", fontFamily: "'JetBrains Mono', monospace",
+                }}>
+                  <option value="all">All Conferences</option>
+                  {availableConfs.filter(c => c !== "all").map(c => (
+                    <option key={c} value={c}>{c}</option>
+                  ))}
+                </select>
+              </div>
             </div>
           </div>
 
