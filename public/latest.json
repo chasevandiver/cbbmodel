@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T14:54:51.653525",
+  "generated_at": "2026-03-05T18:05:44.322756",
   "date": "20260305",
   "total_games": 41,
   "model_version": "3.0.0",
@@ -44,127 +44,19 @@
       },
       "market": {
         "spread": 6.5,
-        "over_under": 159.5,
+        "over_under": 160.5,
         "spread_holder": "South Florida Bulls"
       },
       "value_rating": 5.1,
       "model_vs_market": {
         "spread_edge": -5.1,
-        "total_edge": -13.0
+        "total_edge": -14.0
       },
       "is_best_bet": true,
       "is_tournament_game": false,
       "tempo_mismatch": false,
       "tempo_diff": 1.5,
       "is_home_pick": false
-    },
-    {
-      "game_id": "401805213",
-      "date": "2026-03-06T01:30Z",
-      "home_team": "Southern Utah Thunderbirds",
-      "away_team": "Utah Valley Wolverines",
-      "home_abbr": "SUU",
-      "away_abbr": "UVU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "10-19",
-      "away_record": "22-7",
-      "venue": "America First Events Center",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "ESPN+",
-      "predicted_spread": -6.1,
-      "predicted_total": 145.7,
-      "home_projected_score": 69.8,
-      "away_projected_score": 75.9,
-      "home_win_prob": 24.9,
-      "away_win_prob": 75.1,
-      "confidence": 83.0,
-      "pick": "Utah Valley Wolverines",
-      "pick_abbr": "UVU",
-      "factors": {
-        "efficiency_margin": -11.22,
-        "four_factors": -0.07,
-        "home_court": 3.5,
-        "recent_form": 2.0,
-        "turnover_margin": -0.13,
-        "rebounding": 0.66,
-        "three_point": 0.0,
-        "free_throw": -0.01,
-        "experience": -0.81,
-        "sos": -0.12
-      },
-      "market": {
-        "spread": 9.5,
-        "over_under": 151.5,
-        "spread_holder": "Utah Valley Wolverines"
-      },
-      "value_rating": 3.4,
-      "model_vs_market": {
-        "spread_edge": -3.4,
-        "total_edge": -5.8
-      },
-      "is_best_bet": true,
-      "is_tournament_game": false,
-      "tempo_mismatch": false,
-      "tempo_diff": 1.0,
-      "is_home_pick": false
-    },
-    {
-      "game_id": "401804958",
-      "date": "2026-03-06T00:00Z",
-      "home_team": "Liberty Flames",
-      "away_team": "Louisiana Tech Bulldogs",
-      "home_abbr": "LIB",
-      "away_abbr": "LT",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "24-5",
-      "away_record": "16-13",
-      "venue": "Liberty Arena (VA)",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "ESPN+",
-      "predicted_spread": 10.7,
-      "predicted_total": 136.4,
-      "home_projected_score": 73.5,
-      "away_projected_score": 62.8,
-      "home_win_prob": 87.4,
-      "away_win_prob": 12.6,
-      "confidence": 81.0,
-      "pick": "Liberty Flames",
-      "pick_abbr": "LIB",
-      "factors": {
-        "efficiency_margin": 7.69,
-        "four_factors": 0.09,
-        "home_court": 3.5,
-        "recent_form": -1.72,
-        "turnover_margin": -0.0,
-        "rebounding": 0.5,
-        "three_point": 0.0,
-        "free_throw": -0.0,
-        "experience": 0.62,
-        "sos": 0.15
-      },
-      "market": {
-        "spread": -7.5,
-        "over_under": 137.5,
-        "spread_holder": "Liberty Flames"
-      },
-      "value_rating": 3.2,
-      "model_vs_market": {
-        "spread_edge": 3.2,
-        "total_edge": -1.1
-      },
-      "is_best_bet": true,
-      "is_tournament_game": false,
-      "tempo_mismatch": false,
-      "tempo_diff": 0.0,
-      "is_home_pick": true
     },
     {
       "game_id": "401827082",
@@ -189,7 +81,7 @@
       "away_projected_score": 71.5,
       "home_win_prob": 74.7,
       "away_win_prob": 25.3,
-      "confidence": 73.0,
+      "confidence": 85.0,
       "pick": "Texas Southern Tigers",
       "pick_abbr": "TXSO",
       "factors": {
@@ -205,16 +97,16 @@
         "sos": 0.01
       },
       "market": {
-        "spread": -3.5,
-        "over_under": 155.5,
+        "spread": -1.5,
+        "over_under": 153.5,
         "spread_holder": "Texas Southern Tigers"
       },
-      "value_rating": 2.5,
+      "value_rating": 4.5,
       "model_vs_market": {
-        "spread_edge": 2.5,
-        "total_edge": -6.6
+        "spread_edge": 4.5,
+        "total_edge": -4.6
       },
-      "is_best_bet": false,
+      "is_best_bet": true,
       "is_tournament_game": false,
       "tempo_mismatch": false,
       "tempo_diff": 3.3,
@@ -237,12 +129,12 @@
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "ESPN+",
-      "predicted_spread": 13.2,
+      "predicted_spread": 13.4,
       "predicted_total": 135.5,
-      "home_projected_score": 74.3,
-      "away_projected_score": 61.2,
-      "home_win_prob": 91.7,
-      "away_win_prob": 8.3,
+      "home_projected_score": 74.5,
+      "away_projected_score": 61.0,
+      "home_win_prob": 92.0,
+      "away_win_prob": 8.0,
       "confidence": 73.0,
       "pick": "California Baptist Lancers",
       "pick_abbr": "CBU",
@@ -259,13 +151,13 @@
         "sos": 0.13
       },
       "market": {
-        "spread": -8.5,
+        "spread": -9.5,
         "over_under": 135.5,
         "spread_holder": ""
       },
-      "value_rating": 4.7,
+      "value_rating": 3.9,
       "model_vs_market": {
-        "spread_edge": 4.7,
+        "spread_edge": 3.9,
         "total_edge": 0.0
       },
       "is_best_bet": true,
@@ -273,6 +165,60 @@
       "tempo_mismatch": false,
       "tempo_diff": 0.9,
       "is_home_pick": true
+    },
+    {
+      "game_id": "401805213",
+      "date": "2026-03-06T01:30Z",
+      "home_team": "Southern Utah Thunderbirds",
+      "away_team": "Utah Valley Wolverines",
+      "home_abbr": "SUU",
+      "away_abbr": "UVU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "10-19",
+      "away_record": "22-7",
+      "venue": "America First Events Center",
+      "neutral_site": false,
+      "conference_game": true,
+      "broadcast": "ESPN+",
+      "predicted_spread": -6.1,
+      "predicted_total": 145.7,
+      "home_projected_score": 69.8,
+      "away_projected_score": 75.9,
+      "home_win_prob": 24.9,
+      "away_win_prob": 75.1,
+      "confidence": 71.0,
+      "pick": "Utah Valley Wolverines",
+      "pick_abbr": "UVU",
+      "factors": {
+        "efficiency_margin": -11.22,
+        "four_factors": -0.07,
+        "home_court": 3.5,
+        "recent_form": 2.0,
+        "turnover_margin": -0.13,
+        "rebounding": 0.66,
+        "three_point": 0.0,
+        "free_throw": -0.01,
+        "experience": -0.81,
+        "sos": -0.12
+      },
+      "market": {
+        "spread": 8.5,
+        "over_under": 151.5,
+        "spread_holder": "Utah Valley Wolverines"
+      },
+      "value_rating": 2.4,
+      "model_vs_market": {
+        "spread_edge": -2.4,
+        "total_edge": -5.8
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "tempo_mismatch": false,
+      "tempo_diff": 1.0,
+      "is_home_pick": false
     },
     {
       "game_id": "401809103",
@@ -313,14 +259,14 @@
         "sos": 0.03
       },
       "market": {
-        "spread": 4.5,
-        "over_under": 156.5,
+        "spread": 3.5,
+        "over_under": 155.5,
         "spread_holder": ""
       },
-      "value_rating": 5.0,
+      "value_rating": 4.0,
       "model_vs_market": {
-        "spread_edge": 5.0,
-        "total_edge": -10.4
+        "spread_edge": 4.0,
+        "total_edge": -9.4
       },
       "is_best_bet": true,
       "is_tournament_game": false,
@@ -475,13 +421,13 @@
         "sos": -0.13
       },
       "market": {
-        "spread": -1.5,
+        "spread": -2.5,
         "over_under": 136.5,
         "spread_holder": ""
       },
       "value_rating": 0.5,
       "model_vs_market": {
-        "spread_edge": 0.5,
+        "spread_edge": -0.5,
         "total_edge": -4.8
       },
       "is_best_bet": false,
@@ -638,13 +584,13 @@
       },
       "market": {
         "spread": -11.5,
-        "over_under": 145.5,
+        "over_under": 144.5,
         "spread_holder": ""
       },
       "value_rating": 11.1,
       "model_vs_market": {
         "spread_edge": -11.1,
-        "total_edge": 1.9
+        "total_edge": 2.9
       },
       "is_best_bet": false,
       "is_tournament_game": true,
@@ -692,13 +638,13 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 139.5,
+        "over_under": 142.5,
         "spread_holder": ""
       },
       "value_rating": 1.2,
       "model_vs_market": {
         "spread_edge": 1.2,
-        "total_edge": 5.7
+        "total_edge": 2.7
       },
       "is_best_bet": false,
       "is_tournament_game": false,
@@ -708,7 +654,7 @@
     },
     {
       "game_id": "401828732",
-      "date": "2026-03-06T00:00Z",
+      "date": "2026-03-06T01:00Z",
       "home_team": "Norfolk State Spartans",
       "away_team": "Howard Bison",
       "home_abbr": "NORF",
@@ -722,7 +668,7 @@
       "venue": "Joseph G. Echols Hall",
       "neutral_site": false,
       "conference_game": true,
-      "broadcast": "",
+      "broadcast": "ESPN+",
       "predicted_spread": -4.6,
       "predicted_total": 140.4,
       "home_projected_score": 67.9,
@@ -977,60 +923,6 @@
       "is_home_pick": true
     },
     {
-      "game_id": "401851543",
-      "date": "2026-03-06T00:00Z",
-      "home_team": "Navy Midshipmen",
-      "away_team": "Bucknell Bison",
-      "home_abbr": "NAVY",
-      "away_abbr": "BUCK",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "25-6",
-      "away_record": "10-22",
-      "venue": "Alumni Hall (Navy)",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "ESPN+",
-      "predicted_spread": 13.8,
-      "predicted_total": 133.2,
-      "home_projected_score": 73.5,
-      "away_projected_score": 59.7,
-      "home_win_prob": 92.5,
-      "away_win_prob": 7.5,
-      "confidence": 61.0,
-      "pick": "Navy Midshipmen",
-      "pick_abbr": "NAVY",
-      "factors": {
-        "efficiency_margin": 12.07,
-        "four_factors": -0.31,
-        "home_court": 3.5,
-        "recent_form": -2.0,
-        "turnover_margin": -0.08,
-        "rebounding": -1.14,
-        "three_point": 0.0,
-        "free_throw": 0.01,
-        "experience": 0.82,
-        "sos": 0.06
-      },
-      "market": {
-        "spread": -16.5,
-        "over_under": 133.5,
-        "spread_holder": "Navy Midshipmen"
-      },
-      "value_rating": 2.7,
-      "model_vs_market": {
-        "spread_edge": -2.7,
-        "total_edge": -0.3
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false,
-      "tempo_mismatch": false,
-      "tempo_diff": 1.8,
-      "is_home_pick": true
-    },
-    {
       "game_id": "401851698",
       "date": "2026-03-05T23:00Z",
       "home_team": "Southern Miss Golden Eagles",
@@ -1070,72 +962,18 @@
       },
       "market": {
         "spread": 1.5,
-        "over_under": 142.5,
+        "over_under": 141.5,
         "spread_holder": "James Madison Dukes"
       },
       "value_rating": 0.1,
       "model_vs_market": {
         "spread_edge": -0.1,
-        "total_edge": -1.4
+        "total_edge": -0.4
       },
       "is_best_bet": false,
       "is_tournament_game": true,
       "tempo_mismatch": false,
       "tempo_diff": 2.9,
-      "is_home_pick": false
-    },
-    {
-      "game_id": "401827038",
-      "date": "2026-03-06T01:30Z",
-      "home_team": "Alabama A&M Bulldogs",
-      "away_team": "Southern Jaguars",
-      "home_abbr": "AAMU",
-      "away_abbr": "SOU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2010.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "17-13",
-      "away_record": "14-16",
-      "venue": "Event Center",
-      "neutral_site": false,
-      "conference_game": true,
-      "broadcast": "",
-      "predicted_spread": -1.0,
-      "predicted_total": 145.9,
-      "home_projected_score": 72.4,
-      "away_projected_score": 73.5,
-      "home_win_prob": 45.3,
-      "away_win_prob": 54.7,
-      "confidence": 60.0,
-      "pick": "Southern Jaguars",
-      "pick_abbr": "SOU",
-      "factors": {
-        "efficiency_margin": -2.79,
-        "four_factors": -0.22,
-        "home_court": 3.5,
-        "recent_form": -0.28,
-        "turnover_margin": -0.04,
-        "rebounding": -1.04,
-        "three_point": 0.0,
-        "free_throw": 0.01,
-        "experience": -0.17,
-        "sos": 0.14
-      },
-      "market": {
-        "spread": 1.5,
-        "over_under": 147.5,
-        "spread_holder": "Southern Jaguars"
-      },
-      "value_rating": 0.5,
-      "model_vs_market": {
-        "spread_edge": -0.5,
-        "total_edge": -1.6
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false,
-      "tempo_mismatch": false,
-      "tempo_diff": 4.9,
       "is_home_pick": false
     },
     {
@@ -1355,6 +1193,60 @@
       "is_home_pick": false
     },
     {
+      "game_id": "401804958",
+      "date": "2026-03-06T00:00Z",
+      "home_team": "Liberty Flames",
+      "away_team": "Louisiana Tech Bulldogs",
+      "home_abbr": "LIB",
+      "away_abbr": "LT",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "24-5",
+      "away_record": "16-13",
+      "venue": "Liberty Arena (VA)",
+      "neutral_site": false,
+      "conference_game": true,
+      "broadcast": "ESPN+",
+      "predicted_spread": 10.7,
+      "predicted_total": 136.4,
+      "home_projected_score": 73.5,
+      "away_projected_score": 62.8,
+      "home_win_prob": 87.4,
+      "away_win_prob": 12.6,
+      "confidence": 55.0,
+      "pick": "Liberty Flames",
+      "pick_abbr": "LIB",
+      "factors": {
+        "efficiency_margin": 7.69,
+        "four_factors": 0.09,
+        "home_court": 3.5,
+        "recent_form": -1.72,
+        "turnover_margin": -0.0,
+        "rebounding": 0.5,
+        "three_point": 0.0,
+        "free_throw": -0.0,
+        "experience": 0.62,
+        "sos": 0.15
+      },
+      "market": {
+        "spread": -9.5,
+        "over_under": 137.5,
+        "spread_holder": "Liberty Flames"
+      },
+      "value_rating": 1.2,
+      "model_vs_market": {
+        "spread_edge": 1.2,
+        "total_edge": -1.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "tempo_mismatch": false,
+      "tempo_diff": 0.0,
+      "is_home_pick": true
+    },
+    {
       "game_id": "401851622",
       "date": "2026-03-06T02:30Z",
       "home_team": "St. Thomas-Minnesota Tommies",
@@ -1394,13 +1286,13 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 149.5,
+        "over_under": 148.5,
         "spread_holder": ""
       },
       "value_rating": 8.4,
       "model_vs_market": {
         "spread_edge": 8.4,
-        "total_edge": -7.8
+        "total_edge": -6.8
       },
       "is_best_bet": false,
       "is_tournament_game": true,
@@ -1502,19 +1394,127 @@
       },
       "market": {
         "spread": 8.5,
-        "over_under": 147.5,
+        "over_under": 145.5,
         "spread_holder": "Michigan Wolverines"
       },
       "value_rating": 0.5,
       "model_vs_market": {
         "spread_edge": -0.5,
-        "total_edge": 0.3
+        "total_edge": 2.3
       },
       "is_best_bet": false,
       "is_tournament_game": false,
       "tempo_mismatch": true,
       "tempo_diff": 8.8,
       "is_home_pick": false
+    },
+    {
+      "game_id": "401827038",
+      "date": "2026-03-06T01:30Z",
+      "home_team": "Alabama A&M Bulldogs",
+      "away_team": "Southern Jaguars",
+      "home_abbr": "AAMU",
+      "away_abbr": "SOU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2010.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "17-13",
+      "away_record": "14-16",
+      "venue": "Event Center",
+      "neutral_site": false,
+      "conference_game": true,
+      "broadcast": "",
+      "predicted_spread": -1.0,
+      "predicted_total": 145.9,
+      "home_projected_score": 72.4,
+      "away_projected_score": 73.5,
+      "home_win_prob": 45.3,
+      "away_win_prob": 54.7,
+      "confidence": 49.0,
+      "pick": "Southern Jaguars",
+      "pick_abbr": "SOU",
+      "factors": {
+        "efficiency_margin": -2.79,
+        "four_factors": -0.22,
+        "home_court": 3.5,
+        "recent_form": -0.28,
+        "turnover_margin": -0.04,
+        "rebounding": -1.04,
+        "three_point": 0.0,
+        "free_throw": 0.01,
+        "experience": -0.17,
+        "sos": 0.14
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 145.5,
+        "spread_holder": "Alabama A&M Bulldogs"
+      },
+      "value_rating": 2.5,
+      "model_vs_market": {
+        "spread_edge": 2.5,
+        "total_edge": 0.4
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "tempo_mismatch": false,
+      "tempo_diff": 4.9,
+      "is_home_pick": false
+    },
+    {
+      "game_id": "401851543",
+      "date": "2026-03-06T00:00Z",
+      "home_team": "Navy Midshipmen",
+      "away_team": "Bucknell Bison",
+      "home_abbr": "NAVY",
+      "away_abbr": "BUCK",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "25-6",
+      "away_record": "10-22",
+      "venue": "Alumni Hall (Navy)",
+      "neutral_site": false,
+      "conference_game": true,
+      "broadcast": "ESPN+",
+      "predicted_spread": 13.5,
+      "predicted_total": 133.2,
+      "home_projected_score": 73.4,
+      "away_projected_score": 59.8,
+      "home_win_prob": 92.1,
+      "away_win_prob": 7.9,
+      "confidence": 47.0,
+      "pick": "Navy Midshipmen",
+      "pick_abbr": "NAVY",
+      "factors": {
+        "efficiency_margin": 12.07,
+        "four_factors": -0.31,
+        "home_court": 3.5,
+        "recent_form": -2.0,
+        "turnover_margin": -0.08,
+        "rebounding": -1.14,
+        "three_point": 0.0,
+        "free_throw": 0.01,
+        "experience": 0.82,
+        "sos": 0.06
+      },
+      "market": {
+        "spread": -15.5,
+        "over_under": 133.5,
+        "spread_holder": "Navy Midshipmen"
+      },
+      "value_rating": 2.0,
+      "model_vs_market": {
+        "spread_edge": -2.0,
+        "total_edge": -0.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "tempo_mismatch": false,
+      "tempo_diff": 1.8,
+      "is_home_pick": true
     },
     {
       "game_id": "401825561",
@@ -1533,10 +1533,10 @@
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "FS1",
-      "predicted_spread": 26.3,
+      "predicted_spread": 26.5,
       "predicted_total": 148.6,
-      "home_projected_score": 87.5,
-      "away_projected_score": 61.2,
+      "home_projected_score": 87.6,
+      "away_projected_score": 61.1,
       "home_win_prob": 99.2,
       "away_win_prob": 0.8,
       "confidence": 47.0,
@@ -1555,13 +1555,13 @@
         "sos": 0.06
       },
       "market": {
-        "spread": -18.5,
+        "spread": -19.5,
         "over_under": 141.5,
         "spread_holder": "Michigan St Spartans"
       },
-      "value_rating": 7.8,
+      "value_rating": 7.0,
       "model_vs_market": {
-        "spread_edge": 7.8,
+        "spread_edge": 7.0,
         "total_edge": 7.1
       },
       "is_best_bet": false,
@@ -1587,12 +1587,12 @@
       "neutral_site": true,
       "conference_game": true,
       "broadcast": "ESPN+",
-      "predicted_spread": 14.3,
+      "predicted_spread": 14.5,
       "predicted_total": 129.6,
-      "home_projected_score": 71.9,
-      "away_projected_score": 57.7,
-      "home_win_prob": 93.0,
-      "away_win_prob": 7.0,
+      "home_projected_score": 72.0,
+      "away_projected_score": 57.5,
+      "home_win_prob": 93.3,
+      "away_win_prob": 6.7,
       "confidence": 47.0,
       "pick": "Northern Iowa Panthers",
       "pick_abbr": "UNI",
@@ -1609,13 +1609,13 @@
         "sos": -0.12
       },
       "market": {
-        "spread": -14.5,
+        "spread": -15.5,
         "over_under": 125.5,
         "spread_holder": "Northern Iowa Panthers"
       },
-      "value_rating": 0.2,
+      "value_rating": 1.0,
       "model_vs_market": {
-        "spread_edge": -0.2,
+        "spread_edge": -1.0,
         "total_edge": 4.1
       },
       "is_best_bet": false,
@@ -1664,13 +1664,13 @@
       },
       "market": {
         "spread": -4.5,
-        "over_under": 135.5,
+        "over_under": 136.5,
         "spread_holder": "Southern Illinois Salukis"
       },
       "value_rating": 18.1,
       "model_vs_market": {
         "spread_edge": 18.1,
-        "total_edge": 16.9
+        "total_edge": 15.9
       },
       "is_best_bet": false,
       "is_tournament_game": true,
@@ -1772,13 +1772,13 @@
       },
       "market": {
         "spread": -7.5,
-        "over_under": 168.5,
+        "over_under": 167.5,
         "spread_holder": ""
       },
       "value_rating": 14.1,
       "model_vs_market": {
         "spread_edge": 14.1,
-        "total_edge": -20.9
+        "total_edge": -19.9
       },
       "is_best_bet": false,
       "is_tournament_game": true,
@@ -1803,12 +1803,12 @@
       "neutral_site": true,
       "conference_game": true,
       "broadcast": "ESPN+",
-      "predicted_spread": 15.7,
+      "predicted_spread": 16.0,
       "predicted_total": 146.0,
-      "home_projected_score": 80.9,
-      "away_projected_score": 65.1,
-      "home_win_prob": 94.6,
-      "away_win_prob": 5.4,
+      "home_projected_score": 81.0,
+      "away_projected_score": 65.0,
+      "home_win_prob": 94.8,
+      "away_win_prob": 5.2,
       "confidence": 39.0,
       "pick": "Southeast Missouri State Redhawks",
       "pick_abbr": "SEMO",
@@ -1825,14 +1825,14 @@
         "sos": 0.15
       },
       "market": {
-        "spread": -2.5,
-        "over_under": 148.5,
+        "spread": -3.5,
+        "over_under": 147.5,
         "spread_holder": "SE Missouri St Redhawks"
       },
-      "value_rating": 13.2,
+      "value_rating": 12.5,
       "model_vs_market": {
-        "spread_edge": 13.2,
-        "total_edge": -2.5
+        "spread_edge": 12.5,
+        "total_edge": -1.5
       },
       "is_best_bet": false,
       "is_tournament_game": true,
@@ -1880,13 +1880,13 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 151.5,
+        "over_under": 154.5,
         "spread_holder": ""
       },
       "value_rating": 13.0,
       "model_vs_market": {
         "spread_edge": 13.0,
-        "total_edge": -7.4
+        "total_edge": -10.4
       },
       "is_best_bet": false,
       "is_tournament_game": false,
@@ -2019,12 +2019,12 @@
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "CBSSN",
-      "predicted_spread": -19.2,
+      "predicted_spread": -19.4,
       "predicted_total": 136.7,
-      "home_projected_score": 58.8,
-      "away_projected_score": 77.9,
-      "home_win_prob": 3.0,
-      "away_win_prob": 97.0,
+      "home_projected_score": 58.6,
+      "away_projected_score": 78.1,
+      "home_win_prob": 2.8,
+      "away_win_prob": 97.2,
       "confidence": 29.0,
       "pick": "Sam Houston Bearkats",
       "pick_abbr": "SHSU",
@@ -2041,13 +2041,13 @@
         "sos": -0.16
       },
       "market": {
-        "spread": 6.5,
+        "spread": 7.5,
         "over_under": 147.5,
         "spread_holder": ""
       },
-      "value_rating": 12.7,
+      "value_rating": 11.9,
       "model_vs_market": {
-        "spread_edge": 12.7,
+        "spread_edge": 11.9,
         "total_edge": -10.8
       },
       "is_best_bet": false,
@@ -2073,12 +2073,12 @@
       "neutral_site": false,
       "conference_game": true,
       "broadcast": "ESPNU",
-      "predicted_spread": -9.2,
+      "predicted_spread": -9.0,
       "predicted_total": 144.1,
-      "home_projected_score": 67.4,
-      "away_projected_score": 76.7,
-      "home_win_prob": 15.8,
-      "away_win_prob": 84.2,
+      "home_projected_score": 67.6,
+      "away_projected_score": 76.5,
+      "home_win_prob": 16.4,
+      "away_win_prob": 83.6,
       "confidence": 20.0,
       "pick": "South Carolina State Bulldogs",
       "pick_abbr": "SCST",
@@ -2095,14 +2095,14 @@
         "sos": 0.15
       },
       "market": {
-        "spread": -7.5,
-        "over_under": 143.5,
+        "spread": -8.5,
+        "over_under": 142.5,
         "spread_holder": "North Carolina Central Eagles"
       },
-      "value_rating": 16.7,
+      "value_rating": 17.5,
       "model_vs_market": {
-        "spread_edge": 16.7,
-        "total_edge": 0.6
+        "spread_edge": 17.5,
+        "total_edge": 1.6
       },
       "is_best_bet": false,
       "is_tournament_game": false,
@@ -2127,12 +2127,12 @@
       "neutral_site": true,
       "conference_game": true,
       "broadcast": "ESPN+",
-      "predicted_spread": -10.6,
+      "predicted_spread": -10.4,
       "predicted_total": 142.8,
-      "home_projected_score": 66.1,
-      "away_projected_score": 76.7,
-      "home_win_prob": 12.7,
-      "away_win_prob": 87.3,
+      "home_projected_score": 66.2,
+      "away_projected_score": 76.6,
+      "home_win_prob": 13.2,
+      "away_win_prob": 86.8,
       "confidence": 20.0,
       "pick": "Indiana State Sycamores",
       "pick_abbr": "INST",
@@ -2149,13 +2149,13 @@
         "sos": 0.15
       },
       "market": {
-        "spread": -2.5,
+        "spread": -3.5,
         "over_under": 136.5,
         "spread_holder": ""
       },
-      "value_rating": 13.1,
+      "value_rating": 13.9,
       "model_vs_market": {
-        "spread_edge": 13.1,
+        "spread_edge": 13.9,
         "total_edge": 6.3
       },
       "is_best_bet": false,
@@ -2221,12 +2221,12 @@
   ],
   "summary": {
     "total_games": 41,
-    "high_confidence": 11,
-    "medium_confidence": 19,
+    "high_confidence": 10,
+    "medium_confidence": 20,
     "low_confidence": 11,
-    "avg_confidence": 55.5,
-    "value_plays": 19,
-    "best_bets": 5,
+    "avg_confidence": 54.2,
+    "value_plays": 18,
+    "best_bets": 4,
     "tournament_games": 12,
     "tempo_mismatches": 9
   }
