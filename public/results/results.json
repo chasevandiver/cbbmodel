@@ -32705,28 +32705,94 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 12.5
+    },
+    {
+      "game_id": "401851335",
+      "date": "2026-03-11T03:30Z",
+      "home_team": "Eastern Washington Eagles",
+      "away_team": "Idaho Vandals",
+      "home_abbr": "EWU",
+      "away_abbr": "IDHO",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "14-18",
+      "away_record": "19-14",
+      "venue": "Idaho Central Arena",
+      "neutral_site": true,
+      "conference_game": true,
+      "broadcast": "ESPN2",
+      "predicted_spread": 0.0,
+      "predicted_total": 123.1,
+      "home_projected_score": 61.5,
+      "away_projected_score": 61.5,
+      "home_win_prob": 50.0,
+      "away_win_prob": 50.0,
+      "confidence": 32.0,
+      "pick": "Idaho Vandals",
+      "pick_abbr": "IDHO",
+      "factors": {
+        "efficiency_margin": 0.0,
+        "four_factors": 0.0,
+        "home_court": 0.0,
+        "recent_form": 0.0,
+        "turnover_margin": 0.0,
+        "rebounding": 0.0,
+        "three_point": 0.0,
+        "free_throw": 0.0,
+        "experience": 0.0,
+        "sos": 0.0
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 151.5,
+        "spread_holder": "Idaho Vandals"
+      },
+      "value_rating": 1.5,
+      "model_vs_market": {
+        "spread_edge": -1.5,
+        "total_edge": -28.4
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "tempo_mismatch": false,
+      "tempo_diff": 0.0,
+      "is_home_pick": false,
+      "graded": true,
+      "bet_side": "home",
+      "actual_home_score": 68,
+      "actual_away_score": 81,
+      "actual_margin": -13,
+      "actual_total": 149,
+      "actual_winner": "Idaho Vandals",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "ou_model_correct": true,
+      "cover_line": -1.5
     }
   ],
   "summary": {
-    "total_graded": 521,
+    "total_graded": 522,
     "ats": {
       "w": 235,
-      "l": 215,
+      "l": 216,
       "p": 71,
-      "pct": 52.2
+      "pct": 52.1
     },
     "su": {
-      "correct": 339,
-      "total": 521,
+      "correct": 340,
+      "total": 522,
       "pct": 65.1
     },
     "ou": {
       "over": 266,
-      "under": 255,
+      "under": 256,
       "push": 0,
-      "model_correct": 269,
-      "model_gradeable": 521,
-      "model_pct": 51.6
+      "model_correct": 270,
+      "model_gradeable": 522,
+      "model_pct": 51.7
     },
     "by_confidence": {
       "high": {
@@ -32743,9 +32809,9 @@
       },
       "low": {
         "w": 30,
-        "l": 35,
+        "l": 36,
         "p": 2,
-        "pct": 46.2
+        "pct": 45.5
       }
     },
     "value_plays": {
@@ -32755,5 +32821,5 @@
       "pct": 53.6
     }
   },
-  "generated_at": "2026-03-10T14:58:00.932998"
+  "generated_at": "2026-03-11T14:55:25.510797"
 }
