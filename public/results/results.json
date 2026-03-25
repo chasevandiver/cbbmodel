@@ -44057,28 +44057,94 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5
+    },
+    {
+      "game_id": "401858358",
+      "date": "2026-03-25T01:00Z",
+      "home_team": "New Mexico Lobos",
+      "away_team": "Saint Joseph's Hawks",
+      "home_abbr": "UNM",
+      "away_abbr": "JOES",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "25-10",
+      "away_record": "24-11",
+      "venue": "The Pit",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 9.2,
+      "predicted_total": 143.4,
+      "home_projected_score": 76.3,
+      "away_projected_score": 67.1,
+      "home_win_prob": 84.1,
+      "away_win_prob": 15.9,
+      "confidence": 64.0,
+      "pick": "New Mexico Lobos",
+      "pick_abbr": "UNM",
+      "factors": {
+        "efficiency_margin": 5.32,
+        "four_factors": 0.18,
+        "home_court": 3.5,
+        "recent_form": -0.7,
+        "turnover_margin": 0.07,
+        "rebounding": 0.53,
+        "three_point": 0.0,
+        "free_throw": -0.01,
+        "experience": 0.27,
+        "sos": -0.08
+      },
+      "market": {
+        "spread": -11.5,
+        "over_under": 152.5,
+        "spread_holder": "New Mexico Lobos"
+      },
+      "value_rating": 2.3,
+      "model_vs_market": {
+        "spread_edge": -2.3,
+        "total_edge": -9.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "tempo_mismatch": false,
+      "tempo_diff": 1.8,
+      "is_home_pick": true,
+      "graded": true,
+      "bet_side": "away",
+      "actual_home_score": 84,
+      "actual_away_score": 69,
+      "actual_margin": 15,
+      "actual_total": 153,
+      "actual_winner": "New Mexico Lobos",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "ou_model_correct": false,
+      "cover_line": 11.5
     }
   ],
   "summary": {
-    "total_graded": 693,
+    "total_graded": 694,
     "ats": {
       "w": 306,
-      "l": 291,
+      "l": 292,
       "p": 96,
-      "pct": 51.3
+      "pct": 51.2
     },
     "su": {
-      "correct": 452,
-      "total": 693,
-      "pct": 65.2
+      "correct": 453,
+      "total": 694,
+      "pct": 65.3
     },
     "ou": {
-      "over": 344,
+      "over": 345,
       "under": 349,
       "push": 0,
       "model_correct": 349,
-      "model_gradeable": 693,
-      "model_pct": 50.4
+      "model_gradeable": 694,
+      "model_pct": 50.3
     },
     "by_confidence": {
       "high": {
@@ -44089,9 +44155,9 @@
       },
       "medium": {
         "w": 163,
-        "l": 139,
+        "l": 140,
         "p": 71,
-        "pct": 54.0
+        "pct": 53.8
       },
       "low": {
         "w": 43,
@@ -44107,5 +44173,5 @@
       "pct": 53.3
     }
   },
-  "generated_at": "2026-03-24T15:07:36.953439"
+  "generated_at": "2026-03-25T15:09:10.100421"
 }
