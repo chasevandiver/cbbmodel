@@ -44915,28 +44915,160 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5
+    },
+    {
+      "game_id": "401856577",
+      "date": "2026-03-29T21:05Z",
+      "home_team": "Duke Blue Devils",
+      "away_team": "UConn Huskies",
+      "home_abbr": "DUKE",
+      "away_abbr": "CONN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+      "home_rank": 1,
+      "away_rank": 2,
+      "home_record": "35-2",
+      "away_record": "32-5",
+      "venue": "Capital One Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "CBS",
+      "predicted_spread": 4.1,
+      "predicted_total": 140.6,
+      "home_projected_score": 72.4,
+      "away_projected_score": 68.3,
+      "home_win_prob": 67.8,
+      "away_win_prob": 32.2,
+      "confidence": 67.0,
+      "pick": "Duke Blue Devils",
+      "pick_abbr": "DUKE",
+      "factors": {
+        "efficiency_margin": 4.52,
+        "four_factors": 0.05,
+        "home_court": 0.16,
+        "recent_form": -0.91,
+        "turnover_margin": 0.01,
+        "rebounding": 0.22,
+        "three_point": 0.0,
+        "free_throw": -0.0,
+        "experience": 0.05,
+        "sos": 0.01
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 133.5,
+        "spread_holder": "Duke Blue Devils"
+      },
+      "value_rating": 0.4,
+      "model_vs_market": {
+        "spread_edge": -0.4,
+        "total_edge": 7.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "tempo_mismatch": false,
+      "tempo_diff": 1.1,
+      "is_home_pick": true,
+      "graded": true,
+      "bet_side": "none",
+      "actual_home_score": 72,
+      "actual_away_score": 73,
+      "actual_margin": -1,
+      "actual_total": 145,
+      "actual_winner": "UConn Huskies",
+      "model_correct_winner": false,
+      "ats_result": "P",
+      "ou_result": "O",
+      "ou_model_correct": true,
+      "cover_line": 4.5
+    },
+    {
+      "game_id": "401856576",
+      "date": "2026-03-29T18:15Z",
+      "home_team": "Michigan Wolverines",
+      "away_team": "Tennessee Volunteers",
+      "home_abbr": "MICH",
+      "away_abbr": "TENN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+      "home_rank": 1,
+      "away_rank": 6,
+      "home_record": "34-3",
+      "away_record": "25-11",
+      "venue": "United Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "CBS",
+      "predicted_spread": 6.5,
+      "predicted_total": 147.0,
+      "home_projected_score": 76.8,
+      "away_projected_score": 70.3,
+      "home_win_prob": 76.6,
+      "away_win_prob": 23.4,
+      "confidence": 59.0,
+      "pick": "Michigan Wolverines",
+      "pick_abbr": "MICH",
+      "factors": {
+        "efficiency_margin": 5.93,
+        "four_factors": 0.2,
+        "home_court": 0.34,
+        "recent_form": -1.02,
+        "turnover_margin": 0.01,
+        "rebounding": 1.0,
+        "three_point": 0.0,
+        "free_throw": -0.0,
+        "experience": 0.06,
+        "sos": 0.22
+      },
+      "market": {
+        "spread": -7.5,
+        "over_under": 146.5,
+        "spread_holder": "Michigan Wolverines"
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": -1.0,
+        "total_edge": 0.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "tempo_mismatch": true,
+      "tempo_diff": 5.6,
+      "is_home_pick": true,
+      "graded": true,
+      "bet_side": "away",
+      "actual_home_score": 95,
+      "actual_away_score": 62,
+      "actual_margin": 33,
+      "actual_total": 157,
+      "actual_winner": "Michigan Wolverines",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "ou_model_correct": true,
+      "cover_line": 7.5
     }
   ],
   "summary": {
-    "total_graded": 706,
+    "total_graded": 708,
     "ats": {
       "w": 312,
-      "l": 297,
-      "p": 97,
-      "pct": 51.2
+      "l": 298,
+      "p": 98,
+      "pct": 51.1
     },
     "su": {
-      "correct": 462,
-      "total": 706,
+      "correct": 463,
+      "total": 708,
       "pct": 65.4
     },
     "ou": {
-      "over": 349,
+      "over": 351,
       "under": 357,
       "push": 0,
-      "model_correct": 354,
-      "model_gradeable": 706,
-      "model_pct": 50.1
+      "model_correct": 356,
+      "model_gradeable": 708,
+      "model_pct": 50.3
     },
     "by_confidence": {
       "high": {
@@ -44947,9 +45079,9 @@
       },
       "medium": {
         "w": 168,
-        "l": 141,
-        "p": 72,
-        "pct": 54.4
+        "l": 142,
+        "p": 73,
+        "pct": 54.2
       },
       "low": {
         "w": 44,
@@ -44965,5 +45097,5 @@
       "pct": 53.1
     }
   },
-  "generated_at": "2026-03-29T14:40:41.476117"
+  "generated_at": "2026-03-30T15:12:25.257776"
 }
