@@ -45047,41 +45047,173 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5
+    },
+    {
+      "game_id": "401858379",
+      "date": "2026-04-02T00:00Z",
+      "home_team": "Colorado Buffaloes",
+      "away_team": "Oklahoma Sooners",
+      "home_abbr": "COLO",
+      "away_abbr": "OU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "17-15",
+      "away_record": "19-15",
+      "venue": "MGM Grand Garden Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FS1",
+      "predicted_spread": -4.6,
+      "predicted_total": 157.0,
+      "home_projected_score": 76.2,
+      "away_projected_score": 80.8,
+      "home_win_prob": 30.1,
+      "away_win_prob": 69.9,
+      "confidence": 86.0,
+      "pick": "Oklahoma Sooners",
+      "pick_abbr": "OU",
+      "factors": {
+        "efficiency_margin": -5.8,
+        "four_factors": 0.09,
+        "home_court": -0.61,
+        "recent_form": 1.55,
+        "turnover_margin": -0.01,
+        "rebounding": 0.4,
+        "three_point": 0.0,
+        "free_throw": 0.01,
+        "experience": -0.25,
+        "sos": 0.13
+      },
+      "market": {
+        "spread": 9.5,
+        "over_under": 165.5,
+        "spread_holder": ""
+      },
+      "value_rating": 4.9,
+      "model_vs_market": {
+        "spread_edge": -4.9,
+        "total_edge": -8.5
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true,
+      "tempo_mismatch": false,
+      "tempo_diff": 2.4,
+      "is_home_pick": false,
+      "graded": true,
+      "bet_side": "home",
+      "actual_home_score": 86,
+      "actual_away_score": 90,
+      "actual_margin": -4,
+      "actual_total": 176,
+      "actual_winner": "Oklahoma Sooners",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "ou_model_correct": false,
+      "cover_line": -9.5
+    },
+    {
+      "game_id": "401858380",
+      "date": "2026-04-02T02:30Z",
+      "home_team": "Minnesota Golden Gophers",
+      "away_team": "Baylor Bears",
+      "home_abbr": "MINN",
+      "away_abbr": "BAY",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "15-17",
+      "away_record": "16-16",
+      "venue": "MGM Grand Garden Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FS1",
+      "predicted_spread": -2.5,
+      "predicted_total": 147.6,
+      "home_projected_score": 72.5,
+      "away_projected_score": 75.0,
+      "home_win_prob": 38.7,
+      "away_win_prob": 61.3,
+      "confidence": 57.0,
+      "pick": "Baylor Bears",
+      "pick_abbr": "BAY",
+      "factors": {
+        "efficiency_margin": -1.87,
+        "four_factors": -0.09,
+        "home_court": -0.15,
+        "recent_form": 0.12,
+        "turnover_margin": -0.01,
+        "rebounding": -0.47,
+        "three_point": 0.0,
+        "free_throw": 0.0,
+        "experience": -0.06,
+        "sos": -0.03
+      },
+      "market": {
+        "spread": 3.5,
+        "over_under": 148.5,
+        "spread_holder": ""
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": -1.0,
+        "total_edge": -0.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "tempo_mismatch": true,
+      "tempo_diff": 5.2,
+      "is_home_pick": false,
+      "graded": true,
+      "bet_side": "home",
+      "actual_home_score": 48,
+      "actual_away_score": 67,
+      "actual_margin": -19,
+      "actual_total": 115,
+      "actual_winner": "Baylor Bears",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "ou_model_correct": true,
+      "cover_line": -3.5
     }
   ],
   "summary": {
-    "total_graded": 708,
+    "total_graded": 710,
     "ats": {
-      "w": 312,
-      "l": 298,
+      "w": 313,
+      "l": 299,
       "p": 98,
       "pct": 51.1
     },
     "su": {
-      "correct": 463,
-      "total": 708,
-      "pct": 65.4
+      "correct": 465,
+      "total": 710,
+      "pct": 65.5
     },
     "ou": {
-      "over": 351,
-      "under": 357,
+      "over": 352,
+      "under": 358,
       "push": 0,
-      "model_correct": 356,
-      "model_gradeable": 708,
+      "model_correct": 357,
+      "model_gradeable": 710,
       "model_pct": 50.3
     },
     "by_confidence": {
       "high": {
-        "w": 100,
+        "w": 101,
         "l": 106,
         "p": 21,
-        "pct": 48.5
+        "pct": 48.8
       },
       "medium": {
         "w": 168,
-        "l": 142,
+        "l": 143,
         "p": 73,
-        "pct": 54.2
+        "pct": 54.0
       },
       "low": {
         "w": 44,
@@ -45091,11 +45223,11 @@
       }
     },
     "value_plays": {
-      "w": 147,
+      "w": 148,
       "l": 130,
       "p": 0,
-      "pct": 53.1
+      "pct": 53.2
     }
   },
-  "generated_at": "2026-04-01T15:13:51.076395"
+  "generated_at": "2026-04-02T15:05:28.059637"
 }
