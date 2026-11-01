@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-11-01T18:49:15.600098",
+  "date": "20261101",
+  "total_games": 0,
+  "model_version": "3.0.0",
+  "picks": [],
+  "summary": {
+    "total_games": 0,
+    "high_confidence": 0,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "avg_confidence": 0.0,
+    "value_plays": 0,
+    "best_bets": 0,
+    "tournament_games": 0,
+    "tempo_mismatches": 0
+  }
+}
