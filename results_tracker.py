@@ -201,9 +201,13 @@ def compute_summary(games):
     if not games:
         return {}
     ou_gradeable = [g for g in games if g.get("ou_model_correct") is not None]
+    tiers = {"high": [g for g in games if g.get("confidence", 0) >= 70],
+             "medium": [g for g in games if 40 <= g.get("confidence", 0) < 70],
+             "low": [g for g in games if g.get("confidence", 0) < 40]}
     return {
         "calibration": calibration(games),
         "clv": closing_line_value(games),
+        "clv_by_confidence": {k: closing_line_value(v) for k, v in tiers.items()},
         "total_graded": len(games),
         "ats_graded": sum(g.get("ats_result") in ("W", "L", "P") for g in games),
         "ats": record(games),

@@ -929,6 +929,31 @@ export default function Results({ onNavigate }) {
                 ))}
               </div>
             )}
+            {summary.clv_by_confidence && (
+              <div style={{ marginTop: 14 }}>
+                <div style={{ fontSize: 9, fontWeight: 800, color: C.muted, letterSpacing: 2.5,
+                  textTransform: "uppercase", fontFamily: "'JetBrains Mono', monospace", marginBottom: 8 }}>
+                  Closing line value by confidence tier
+                </div>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 8 }}>
+                  {[["high", "High ≥70"], ["medium", "Med 40-70"], ["low", "Low <40"]].map(([key, label]) => {
+                    const t = summary.clv_by_confidence[key] || { n: 0 };
+                    const color = !t.n ? C.dim : t.avg > 0 ? C.green : t.avg < 0 ? C.red : C.yellow;
+                    return (
+                      <div key={key} style={{ background: C.surface2, borderRadius: 8, padding: "10px 12px" }}>
+                        <div style={{ fontSize: 9, color: C.dim, marginBottom: 4, fontFamily: "'JetBrains Mono', monospace" }}>{label}</div>
+                        <div style={{ fontSize: 18, fontWeight: 900, color, fontFamily: "'JetBrains Mono', monospace" }}>
+                          {t.n ? `${t.avg > 0 ? "+" : ""}${t.avg}` : "—"}
+                        </div>
+                        <div style={{ fontSize: 10, color: C.muted, marginTop: 2 }}>
+                          {t.n ? `${t.beat_close_pct}% beat close · ${t.n} bets` : "no closing lines yet"}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
           </div>
         )}
 
