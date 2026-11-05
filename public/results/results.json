@@ -60,7 +60,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 10.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401827701",
@@ -122,7 +123,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -18.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401829320",
@@ -184,7 +186,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401826824",
@@ -246,7 +249,8 @@
       "ou_result": null,
       "ou_model_correct": null,
       "cover_line": null,
-      "model_ou_call": null
+      "model_ou_call": null,
+      "clv": null
     },
     {
       "game_id": "401809384",
@@ -308,7 +312,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820764",
@@ -370,7 +375,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401817684",
@@ -432,7 +438,8 @@
       "ou_result": null,
       "ou_model_correct": null,
       "cover_line": null,
-      "model_ou_call": null
+      "model_ou_call": null,
+      "clv": null
     },
     {
       "game_id": "401807757",
@@ -494,7 +501,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401807761",
@@ -556,7 +564,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808261",
@@ -618,7 +627,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808264",
@@ -680,7 +690,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809383",
@@ -742,7 +753,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809385",
@@ -804,7 +816,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401817681",
@@ -866,7 +879,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401817683",
@@ -928,7 +942,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820176",
@@ -990,7 +1005,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822961",
@@ -1052,7 +1068,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 10.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401824376",
@@ -1114,7 +1131,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828244",
@@ -1176,7 +1194,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828445",
@@ -1238,7 +1257,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828446",
@@ -1300,7 +1320,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828680",
@@ -1362,7 +1383,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401829410",
@@ -1424,7 +1446,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401830312",
@@ -1486,7 +1509,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808692",
@@ -1548,7 +1572,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401817685",
@@ -1610,7 +1635,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820768",
@@ -1672,7 +1698,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828245",
@@ -1734,7 +1761,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828247",
@@ -1796,7 +1824,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401830313",
@@ -1858,7 +1887,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401830314",
@@ -1920,7 +1950,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401807759",
@@ -1982,7 +2013,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401807758",
@@ -2044,7 +2076,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808259",
@@ -2106,7 +2139,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808263",
@@ -2168,7 +2202,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822960",
@@ -2230,7 +2265,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827706",
@@ -2292,7 +2328,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401829260",
@@ -2354,7 +2391,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 26.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401829263",
@@ -2416,7 +2454,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820765",
@@ -2478,7 +2517,8 @@
       "ou_result": null,
       "ou_model_correct": null,
       "cover_line": null,
-      "model_ou_call": null
+      "model_ou_call": null,
+      "clv": null
     },
     {
       "game_id": "401829261",
@@ -2540,7 +2580,8 @@
       "ou_result": null,
       "ou_model_correct": null,
       "cover_line": null,
-      "model_ou_call": null
+      "model_ou_call": null,
+      "clv": null
     },
     {
       "game_id": "401825542",
@@ -2602,7 +2643,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401829262",
@@ -2664,7 +2706,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401829264",
@@ -2726,7 +2769,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401812087",
@@ -2788,7 +2832,8 @@
       "ou_result": null,
       "ou_model_correct": null,
       "cover_line": null,
-      "model_ou_call": null
+      "model_ou_call": null,
+      "clv": null
     },
     {
       "game_id": "401828447",
@@ -2850,7 +2895,8 @@
       "ou_result": null,
       "ou_model_correct": null,
       "cover_line": null,
-      "model_ou_call": null
+      "model_ou_call": null,
+      "clv": null
     },
     {
       "game_id": "401812166",
@@ -2912,7 +2958,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812169",
@@ -2974,7 +3021,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401804949",
@@ -3036,7 +3084,8 @@
       "ou_result": null,
       "ou_model_correct": null,
       "cover_line": null,
-      "model_ou_call": null
+      "model_ou_call": null,
+      "clv": null
     },
     {
       "game_id": "401804950",
@@ -3098,7 +3147,8 @@
       "ou_result": null,
       "ou_model_correct": null,
       "cover_line": null,
-      "model_ou_call": null
+      "model_ou_call": null,
+      "clv": null
     },
     {
       "game_id": "401807760",
@@ -3160,7 +3210,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401807762",
@@ -3222,7 +3273,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401809386",
@@ -3284,7 +3336,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812082",
@@ -3346,7 +3399,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812083",
@@ -3408,7 +3462,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812084",
@@ -3470,7 +3525,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 13.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812086",
@@ -3532,7 +3588,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812168",
@@ -3594,7 +3651,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401812331",
@@ -3656,7 +3714,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812399",
@@ -3718,7 +3777,8 @@
       "ou_result": null,
       "ou_model_correct": null,
       "cover_line": null,
-      "model_ou_call": null
+      "model_ou_call": null,
+      "clv": null
     },
     {
       "game_id": "401812417",
@@ -3780,7 +3840,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401812658",
@@ -3842,7 +3903,8 @@
       "ou_result": null,
       "ou_model_correct": null,
       "cover_line": null,
-      "model_ou_call": null
+      "model_ou_call": null,
+      "clv": null
     },
     {
       "game_id": "401823958",
@@ -3904,7 +3966,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -16.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823960",
@@ -3966,7 +4029,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823961",
@@ -4028,7 +4092,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828246",
@@ -4090,7 +4155,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 0.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804945",
@@ -4152,7 +4218,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804946",
@@ -4214,7 +4281,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804948",
@@ -4276,7 +4344,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805206",
@@ -4338,7 +4407,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 16.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401806504",
@@ -4400,7 +4470,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401818433",
@@ -4462,7 +4533,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401818435",
@@ -4524,7 +4596,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825543",
@@ -4586,7 +4659,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401806503",
@@ -4648,7 +4722,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401806505",
@@ -4710,7 +4785,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401806506",
@@ -4772,7 +4848,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 13.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827035",
@@ -4834,7 +4911,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401804947",
@@ -4896,7 +4974,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805205",
@@ -4958,7 +5037,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808468",
@@ -5020,7 +5100,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808510",
@@ -5082,7 +5163,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808520",
@@ -5144,7 +5226,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401818432",
@@ -5206,7 +5289,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401826049",
@@ -5268,7 +5352,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 10.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828249",
@@ -5330,7 +5415,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827080",
@@ -5392,7 +5478,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805207",
@@ -5454,7 +5541,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401809101",
@@ -5516,7 +5604,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 14.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809119",
@@ -5578,7 +5667,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809163",
@@ -5640,7 +5730,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401814590",
@@ -5702,7 +5793,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401818335",
@@ -5764,7 +5856,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401813395",
@@ -5826,7 +5919,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401812623",
@@ -5888,7 +5982,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401813318",
@@ -5950,7 +6045,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401813371",
@@ -6012,7 +6108,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401813418",
@@ -6074,7 +6171,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401818546",
@@ -6136,7 +6234,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828448",
@@ -6198,7 +6297,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808694",
@@ -6260,7 +6360,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808695",
@@ -6322,7 +6423,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401814586",
@@ -6384,7 +6486,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825544",
@@ -6446,7 +6549,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808698",
@@ -6508,7 +6612,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 14.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808699",
@@ -6570,7 +6675,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808696",
@@ -6632,7 +6738,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820208",
@@ -6694,7 +6801,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820771",
@@ -6756,7 +6864,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401820772",
@@ -6818,7 +6927,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822963",
@@ -6880,7 +6990,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 13.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401824377",
@@ -6942,7 +7053,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401827711",
@@ -7004,7 +7116,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 20.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828453",
@@ -7066,7 +7179,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828450",
@@ -7128,7 +7242,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804951",
@@ -7190,7 +7305,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808270",
@@ -7252,7 +7368,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812171",
@@ -7314,7 +7431,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812349",
@@ -7376,7 +7494,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812400",
@@ -7438,7 +7557,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812418",
@@ -7500,7 +7620,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401817689",
@@ -7562,7 +7683,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401826825",
@@ -7624,7 +7746,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401822965",
@@ -7686,7 +7809,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401807763",
@@ -7748,7 +7872,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401807764",
@@ -7810,7 +7935,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401807767",
@@ -7872,7 +7998,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401807768",
@@ -7934,7 +8061,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808268",
@@ -7996,7 +8124,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809392",
@@ -8058,7 +8187,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812089",
@@ -8120,7 +8250,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812091",
@@ -8182,7 +8313,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812172",
@@ -8244,7 +8376,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401812410",
@@ -8306,7 +8439,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401814588",
@@ -8368,7 +8502,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401814589",
@@ -8430,7 +8565,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401817690",
@@ -8492,7 +8628,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401818437",
@@ -8554,7 +8691,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401820770",
@@ -8616,7 +8754,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820773",
@@ -8678,7 +8817,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 15.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823785",
@@ -8740,7 +8880,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401823962",
@@ -8802,7 +8943,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825545",
@@ -8864,7 +9006,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401825546",
@@ -8926,7 +9069,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827710",
@@ -8988,7 +9132,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828451",
@@ -9050,7 +9195,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401829400",
@@ -9112,7 +9258,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401857754",
@@ -9174,7 +9321,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804952",
@@ -9236,7 +9384,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804953",
@@ -9298,7 +9447,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808521",
@@ -9360,7 +9510,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401817688",
@@ -9422,7 +9573,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823965",
@@ -9484,7 +9636,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808267",
@@ -9546,7 +9699,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827708",
@@ -9608,7 +9762,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805208",
@@ -9670,7 +9825,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 14.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401806510",
@@ -9732,7 +9888,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401807766",
@@ -9794,7 +9951,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808272",
@@ -9856,7 +10014,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808469",
@@ -9918,7 +10077,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808511",
@@ -9980,7 +10140,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808933",
@@ -10042,7 +10203,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812093",
@@ -10104,7 +10266,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820177",
@@ -10166,7 +10329,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820769",
@@ -10228,7 +10392,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823964",
@@ -10290,7 +10455,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825548",
@@ -10352,7 +10518,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825549",
@@ -10414,7 +10581,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827707",
@@ -10476,7 +10644,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828452",
@@ -10538,7 +10707,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401829267",
@@ -10600,7 +10770,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401830315",
@@ -10662,7 +10833,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401830777",
@@ -10724,7 +10896,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 22.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401806508",
@@ -10786,7 +10959,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401806509",
@@ -10848,7 +11022,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808974",
@@ -10910,7 +11085,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809389",
@@ -10972,7 +11148,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823054",
@@ -11034,7 +11211,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401830245",
@@ -11096,7 +11274,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401806511",
@@ -11158,7 +11337,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401804956",
@@ -11220,7 +11400,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 11.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401818436",
@@ -11282,7 +11463,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 11.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401820497",
@@ -11344,7 +11526,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401827108",
@@ -11406,7 +11589,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827169",
@@ -11468,7 +11652,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828669",
@@ -11530,7 +11715,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401829333",
@@ -11592,7 +11778,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401804954",
@@ -11654,7 +11841,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808722",
@@ -11716,7 +11904,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809391",
@@ -11778,7 +11967,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822964",
@@ -11840,7 +12030,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827714",
@@ -11902,7 +12093,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820777",
@@ -11964,7 +12156,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804955",
@@ -12026,7 +12219,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401807765",
@@ -12088,7 +12282,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808269",
@@ -12150,7 +12345,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808271",
@@ -12212,7 +12408,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808888",
@@ -12274,7 +12471,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809390",
@@ -12336,7 +12534,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401818336",
@@ -12398,7 +12597,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401818564",
@@ -12460,7 +12660,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820776",
@@ -12522,7 +12723,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401826868",
@@ -12584,7 +12786,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401829268",
@@ -12646,7 +12849,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808946",
@@ -12708,7 +12912,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401827150",
@@ -12770,7 +12975,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 14.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827713",
@@ -12832,7 +13038,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812092",
@@ -12894,7 +13101,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 12.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401818439",
@@ -12956,7 +13164,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822962",
@@ -13018,7 +13227,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823270",
@@ -13080,7 +13290,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827709",
@@ -13142,7 +13353,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828449",
@@ -13204,7 +13416,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 14.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401829266",
@@ -13266,7 +13479,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 17.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401829270",
@@ -13328,7 +13542,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805210",
@@ -13390,7 +13605,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808266",
@@ -13452,7 +13668,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820774",
@@ -13514,7 +13731,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805209",
@@ -13576,7 +13794,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401829269",
@@ -13638,7 +13857,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 0.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823339",
@@ -13700,7 +13920,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809102",
@@ -13762,7 +13983,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809120",
@@ -13824,7 +14046,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401829265",
@@ -13886,7 +14109,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825551",
@@ -13948,7 +14172,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828254",
@@ -14010,7 +14235,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 15.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828454",
@@ -14072,7 +14298,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401813372",
@@ -14134,7 +14361,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401813308",
@@ -14196,7 +14424,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401813344",
@@ -14258,7 +14487,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401813396",
@@ -14320,7 +14550,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401813419",
@@ -14382,7 +14613,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828251",
@@ -14444,7 +14676,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828252",
@@ -14506,7 +14739,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828253",
@@ -14568,7 +14802,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401830317",
@@ -14630,7 +14865,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825550",
@@ -14692,7 +14928,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401822966",
@@ -14754,7 +14991,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858741",
@@ -14816,7 +15054,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -9.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401830217",
@@ -14878,7 +15117,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401812088",
@@ -14940,7 +15180,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828255",
@@ -15002,7 +15243,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -15.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828717",
@@ -15064,7 +15306,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822779",
@@ -15126,7 +15369,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 19.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823055",
@@ -15188,7 +15432,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401829289",
@@ -15250,7 +15495,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851421",
@@ -15312,7 +15558,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808889",
@@ -15374,7 +15621,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808947",
@@ -15436,7 +15684,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808975",
@@ -15498,7 +15747,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808512",
@@ -15560,7 +15810,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808522",
@@ -15622,7 +15873,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808723",
@@ -15684,7 +15936,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808917",
@@ -15746,7 +15999,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820481",
@@ -15808,7 +16062,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808470",
@@ -15870,7 +16125,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820821",
@@ -15932,7 +16188,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808500",
@@ -15994,7 +16251,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808540",
@@ -16056,7 +16314,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808278",
@@ -16118,7 +16377,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812175",
@@ -16180,7 +16440,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851633",
@@ -16242,7 +16503,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808277",
@@ -16304,7 +16566,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812096",
@@ -16366,7 +16629,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401814594",
@@ -16428,7 +16692,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808275",
@@ -16490,7 +16755,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808280",
@@ -16552,7 +16818,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812094",
@@ -16614,7 +16881,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812095",
@@ -16676,7 +16944,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812097",
@@ -16738,7 +17007,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812098",
@@ -16800,7 +17070,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812174",
@@ -16862,7 +17133,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401814592",
@@ -16924,7 +17196,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401814597",
@@ -16986,7 +17259,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820779",
@@ -17048,7 +17322,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820785",
@@ -17110,7 +17385,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 14.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822967",
@@ -17172,7 +17448,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 16.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822968",
@@ -17234,7 +17511,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827716",
@@ -17296,7 +17574,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827719",
@@ -17358,7 +17637,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828455",
@@ -17420,7 +17700,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828456",
@@ -17482,7 +17763,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851541",
@@ -17544,7 +17826,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851542",
@@ -17606,7 +17889,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808274",
@@ -17668,7 +17952,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 22.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401814595",
@@ -17730,7 +18015,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827037",
@@ -17792,7 +18078,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401827151",
@@ -17854,7 +18141,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827718",
@@ -17916,7 +18204,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851430",
@@ -17978,7 +18267,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401827105",
@@ -18040,7 +18330,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820575",
@@ -18102,7 +18393,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -20.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820781",
@@ -18164,7 +18456,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820786",
@@ -18226,7 +18519,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825553",
@@ -18288,7 +18582,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 18.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401827715",
@@ -18350,7 +18645,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827717",
@@ -18412,7 +18708,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827720",
@@ -18474,7 +18771,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808276",
@@ -18536,7 +18834,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401829322",
@@ -18598,7 +18897,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401825554",
@@ -18660,7 +18960,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851238",
@@ -18722,7 +19023,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851239",
@@ -18784,7 +19086,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851241",
@@ -18846,7 +19149,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822969",
@@ -18908,7 +19212,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851636",
@@ -18970,7 +19275,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401825555",
@@ -19032,7 +19338,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828459",
@@ -19094,7 +19401,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808273",
@@ -19156,7 +19464,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820780",
@@ -19218,7 +19527,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820784",
@@ -19280,7 +19590,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822971",
@@ -19342,7 +19653,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828457",
@@ -19404,7 +19716,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828458",
@@ -19466,7 +19779,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828460",
@@ -19528,7 +19842,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851424",
@@ -19590,7 +19905,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851426",
@@ -19652,7 +19968,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851428",
@@ -19714,7 +20031,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851514",
@@ -19776,7 +20094,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851515",
@@ -19838,7 +20157,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851516",
@@ -19900,7 +20220,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851523",
@@ -19962,7 +20283,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851243",
@@ -20024,7 +20346,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401822970",
@@ -20086,7 +20409,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825559",
@@ -20148,7 +20472,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 14.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828258",
@@ -20210,7 +20535,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828461",
@@ -20272,7 +20598,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 24.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851619",
@@ -20334,7 +20661,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825556",
@@ -20396,7 +20724,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -11.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851637",
@@ -20458,7 +20787,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820782",
@@ -20520,7 +20850,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820783",
@@ -20582,7 +20913,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827721",
@@ -20644,7 +20976,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 14.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851524",
@@ -20706,7 +21039,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401830832",
@@ -20768,7 +21102,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401825558",
@@ -20830,7 +21165,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851485",
@@ -20897,7 +21233,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401829290",
@@ -20964,7 +21301,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851454",
@@ -21031,7 +21369,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851698",
@@ -21098,7 +21437,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804957",
@@ -21165,7 +21505,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804958",
@@ -21232,7 +21573,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804962",
@@ -21299,7 +21641,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823056",
@@ -21366,7 +21709,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828259",
@@ -21433,7 +21777,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851486",
@@ -21500,7 +21845,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851543",
@@ -21567,7 +21913,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 15.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851544",
@@ -21634,7 +21981,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851545",
@@ -21701,7 +22049,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851546",
@@ -21768,7 +22117,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851620",
@@ -21835,7 +22185,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401804961",
@@ -21902,7 +22253,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805212",
@@ -21969,7 +22321,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822780",
@@ -22036,7 +22389,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825560",
@@ -22103,7 +22457,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401825561",
@@ -22170,7 +22525,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 19.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401827082",
@@ -22237,7 +22593,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827106",
@@ -22304,7 +22661,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828670",
@@ -22371,7 +22729,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 10.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828732",
@@ -22438,7 +22797,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805213",
@@ -22505,7 +22865,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827038",
@@ -22572,7 +22933,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851456",
@@ -22639,7 +23001,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851699",
@@ -22706,7 +23069,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804959",
@@ -22773,7 +23137,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804960",
@@ -22840,7 +23205,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828260",
@@ -22907,7 +23273,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851745",
@@ -22974,7 +23341,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823271",
@@ -23041,7 +23409,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851487",
@@ -23108,7 +23477,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 15.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851528",
@@ -23175,7 +23545,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851622",
@@ -23242,7 +23613,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805211",
@@ -23309,7 +23681,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809103",
@@ -23376,7 +23749,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809121",
@@ -23443,7 +23817,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809138",
@@ -23510,7 +23885,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851746",
@@ -23577,7 +23953,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851245",
@@ -23644,7 +24021,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851488",
@@ -23711,7 +24089,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856422",
@@ -23778,7 +24157,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851246",
@@ -23845,7 +24225,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851348",
@@ -23912,7 +24293,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851247",
@@ -23979,7 +24361,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851579",
@@ -24046,7 +24429,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401814602",
@@ -24113,7 +24497,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 23.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851349",
@@ -24180,7 +24565,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851457",
@@ -24247,7 +24633,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401814598",
@@ -24314,7 +24701,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401812624",
@@ -24381,7 +24769,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401814599",
@@ -24448,7 +24837,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401814603",
@@ -24515,7 +24905,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828462",
@@ -24582,7 +24973,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851490",
@@ -24649,7 +25041,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851248",
@@ -24716,7 +25109,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401827722",
@@ -24783,7 +25177,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851350",
@@ -24850,7 +25245,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851460",
@@ -24917,7 +25313,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851701",
@@ -24984,7 +25381,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401822972",
@@ -25051,7 +25449,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851749",
@@ -25118,7 +25517,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851491",
@@ -25185,7 +25585,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851624",
@@ -25252,7 +25653,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851532",
@@ -25319,7 +25721,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851750",
@@ -25386,7 +25789,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804964",
@@ -25453,7 +25857,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808285",
@@ -25520,7 +25925,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820787",
@@ -25587,7 +25993,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 17.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820793",
@@ -25654,7 +26061,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820794",
@@ -25721,7 +26129,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822974",
@@ -25788,7 +26197,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822975",
@@ -25855,7 +26265,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827728",
@@ -25922,7 +26333,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -13.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828463",
@@ -25989,7 +26401,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851351",
@@ -26056,7 +26469,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851517",
@@ -26123,7 +26537,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851581",
@@ -26190,7 +26605,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 15.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856423",
@@ -26257,7 +26673,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822973",
@@ -26324,7 +26741,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828468",
@@ -26391,7 +26809,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851198",
@@ -26458,7 +26877,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 13.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851200",
@@ -26525,7 +26945,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804963",
@@ -26592,7 +27013,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804967",
@@ -26659,7 +27081,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808286",
@@ -26726,7 +27149,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401818337",
@@ -26793,7 +27217,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 13.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401820789",
@@ -26860,7 +27285,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820790",
@@ -26927,7 +27353,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827726",
@@ -26994,7 +27421,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 15.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827727",
@@ -27061,7 +27489,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 16.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827729",
@@ -27128,7 +27557,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828464",
@@ -27195,7 +27625,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828465",
@@ -27262,7 +27693,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828467",
@@ -27329,7 +27761,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401830012",
@@ -27396,7 +27829,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851199",
@@ -27463,7 +27897,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851352",
@@ -27530,7 +27965,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851583",
@@ -27597,7 +28033,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856424",
@@ -27664,7 +28101,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401804965",
@@ -27731,7 +28169,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804968",
@@ -27798,7 +28237,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808284",
@@ -27865,7 +28305,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401804966",
@@ -27932,7 +28373,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808281",
@@ -27999,7 +28441,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820795",
@@ -28066,7 +28509,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825565",
@@ -28133,7 +28577,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828261",
@@ -28200,7 +28645,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828466",
@@ -28267,7 +28713,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820792",
@@ -28334,7 +28781,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401827723",
@@ -28401,7 +28849,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401829334",
@@ -28468,7 +28917,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851249",
@@ -28535,7 +28985,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808282",
@@ -28602,7 +29053,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851462",
@@ -28669,7 +29121,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851493",
@@ -28736,7 +29189,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851586",
@@ -28803,7 +29257,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856425",
@@ -28870,7 +29325,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820788",
@@ -28937,7 +29393,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 17.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805214",
@@ -29004,7 +29461,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809164",
@@ -29071,7 +29529,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851250",
@@ -29138,7 +29597,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851325",
@@ -29205,7 +29665,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401809122",
@@ -29272,7 +29733,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401822976",
@@ -29339,7 +29801,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401823186",
@@ -29406,7 +29869,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401805216",
@@ -29473,7 +29937,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401808287",
@@ -29540,7 +30005,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401808288",
@@ -29607,7 +30073,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851582",
@@ -29674,7 +30141,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401805215",
@@ -29741,7 +30209,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401809104",
@@ -29808,7 +30277,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401825562",
@@ -29875,7 +30345,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401825566",
@@ -29942,7 +30413,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851534",
@@ -30009,7 +30481,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851703",
@@ -30076,7 +30549,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851753",
@@ -30143,7 +30617,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401820576",
@@ -30210,7 +30685,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 24.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851326",
@@ -30277,7 +30753,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827724",
@@ -30344,7 +30821,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851627",
@@ -30411,7 +30889,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825564",
@@ -30478,7 +30957,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401827725",
@@ -30545,7 +31025,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -14.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851754",
@@ -30612,7 +31093,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851353",
@@ -30679,7 +31161,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851547",
@@ -30746,7 +31229,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856427",
@@ -30813,7 +31297,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828263",
@@ -30880,7 +31365,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 16.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401828264",
@@ -30947,7 +31433,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851251",
@@ -31014,7 +31501,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851548",
@@ -31081,7 +31569,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856428",
@@ -31148,7 +31637,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825567",
@@ -31215,7 +31705,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -15.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401828265",
@@ -31282,7 +31773,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851431",
@@ -31349,7 +31841,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851589",
@@ -31416,7 +31909,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401825568",
@@ -31483,7 +31977,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 9.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401825569",
@@ -31550,7 +32045,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851465",
@@ -31617,7 +32113,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851602",
@@ -31684,7 +32181,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851704",
@@ -31751,7 +32249,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856429",
@@ -31818,7 +32317,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851591",
@@ -31885,7 +32385,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851329",
@@ -31952,7 +32453,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851604",
@@ -32019,7 +32521,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851705",
@@ -32086,7 +32589,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851756",
@@ -32153,7 +32657,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856430",
@@ -32220,7 +32725,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851629",
@@ -32287,7 +32793,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851331",
@@ -32354,7 +32861,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851757",
@@ -32421,7 +32929,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851607",
@@ -32488,7 +32997,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856431",
@@ -32555,7 +33065,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851593",
@@ -32622,7 +33133,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851706",
@@ -32689,7 +33201,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851332",
@@ -32756,7 +33269,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851608",
@@ -32823,7 +33337,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851715",
@@ -32890,7 +33405,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856432",
@@ -32957,7 +33473,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851759",
@@ -33024,7 +33541,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 18.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851433",
@@ -33091,7 +33609,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851333",
@@ -33158,7 +33677,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851760",
@@ -33225,7 +33745,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851258",
@@ -33292,7 +33813,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851365",
@@ -33359,7 +33881,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851289",
@@ -33426,7 +33949,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851557",
@@ -33493,7 +34017,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851260",
@@ -33560,7 +34085,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851174",
@@ -33627,7 +34153,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851367",
@@ -33694,7 +34221,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851291",
@@ -33761,7 +34289,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851558",
@@ -33828,7 +34357,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851308",
@@ -33895,7 +34425,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851614",
@@ -33962,7 +34493,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851496",
@@ -34029,7 +34561,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 20.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851472",
@@ -34096,7 +34629,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851309",
@@ -34163,7 +34697,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851369",
@@ -34230,7 +34765,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851407",
@@ -34297,7 +34833,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851175",
@@ -34364,7 +34901,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851221",
@@ -34431,7 +34969,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851293",
@@ -34498,7 +35037,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851549",
@@ -34565,7 +35105,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851721",
@@ -34632,7 +35173,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851733",
@@ -34699,7 +35241,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851222",
@@ -34766,7 +35309,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851310",
@@ -34833,7 +35377,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851370",
@@ -34900,7 +35445,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851391",
@@ -34967,7 +35513,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851408",
@@ -35034,7 +35581,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851176",
@@ -35101,7 +35649,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851294",
@@ -35168,7 +35717,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851560",
@@ -35235,7 +35785,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851336",
@@ -35302,7 +35853,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851392",
@@ -35369,7 +35921,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858186",
@@ -35436,7 +35989,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851263",
@@ -35503,7 +36057,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851311",
@@ -35570,7 +36125,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851296",
@@ -35637,7 +36193,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851561",
@@ -35704,7 +36261,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858187",
@@ -35771,7 +36329,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851264",
@@ -35838,7 +36397,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851719",
@@ -35905,7 +36465,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851178",
@@ -35972,7 +36533,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851312",
@@ -36039,7 +36601,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851376",
@@ -36106,7 +36669,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851299",
@@ -36173,7 +36737,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 15.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851562",
@@ -36240,7 +36805,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858188",
@@ -36307,7 +36873,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 13.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851266",
@@ -36374,7 +36941,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851500",
@@ -36441,7 +37009,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851473",
@@ -36508,7 +37077,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851377",
@@ -36575,7 +37145,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851410",
@@ -36642,7 +37213,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851179",
@@ -36709,7 +37281,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 16.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851223",
@@ -36776,7 +37349,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851300",
@@ -36843,7 +37417,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 10.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851313",
@@ -36910,7 +37485,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 16.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851268",
@@ -36977,7 +37553,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851474",
@@ -37044,7 +37621,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851720",
@@ -37111,7 +37689,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851378",
@@ -37178,7 +37757,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851393",
@@ -37245,7 +37825,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851411",
@@ -37312,7 +37893,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851501",
@@ -37379,7 +37961,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851734",
@@ -37446,7 +38029,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851180",
@@ -37513,7 +38097,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851224",
@@ -37580,7 +38165,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851302",
@@ -37647,7 +38233,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851314",
@@ -37714,7 +38301,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851564",
@@ -37781,7 +38369,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851394",
@@ -37848,7 +38437,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851502",
@@ -37915,7 +38505,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 14.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851735",
@@ -37982,7 +38573,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851270",
@@ -38049,7 +38641,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851413",
@@ -38116,7 +38709,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851565",
@@ -38183,7 +38777,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851272",
@@ -38250,7 +38845,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851722",
@@ -38317,7 +38913,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851381",
@@ -38384,7 +38981,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851414",
@@ -38451,7 +39049,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851566",
@@ -38518,7 +39117,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851273",
@@ -38585,7 +39185,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 8.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858190",
@@ -38652,7 +39253,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851315",
@@ -38719,7 +39321,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851475",
@@ -38786,7 +39389,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 15.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851382",
@@ -38853,7 +39457,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851181",
@@ -38920,7 +39525,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851304",
@@ -38987,7 +39593,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851274",
@@ -39054,7 +39661,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858191",
@@ -39121,7 +39729,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851316",
@@ -39188,7 +39797,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 14.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851476",
@@ -39255,7 +39865,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851723",
@@ -39322,7 +39933,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851383",
@@ -39389,7 +40001,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851395",
@@ -39456,7 +40069,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851736",
@@ -39523,7 +40137,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851182",
@@ -39590,7 +40205,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 10.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851305",
@@ -39657,7 +40273,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851568",
@@ -39724,7 +40341,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851738",
@@ -39791,7 +40409,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851504",
@@ -39858,7 +40477,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851206",
@@ -39925,7 +40545,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851435",
@@ -39992,7 +40613,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851275",
@@ -40059,7 +40681,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851384",
@@ -40126,7 +40749,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851477",
@@ -40193,7 +40817,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851569",
@@ -40260,7 +40885,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851227",
@@ -40327,7 +40953,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 14.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851276",
@@ -40394,7 +41021,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851386",
@@ -40461,7 +41089,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851306",
@@ -40528,7 +41157,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851317",
@@ -40595,7 +41225,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851726",
@@ -40662,7 +41293,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858192",
@@ -40729,7 +41361,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851183",
@@ -40796,7 +41429,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851415",
@@ -40863,7 +41497,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851739",
@@ -40930,7 +41565,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851277",
@@ -40997,7 +41633,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401851571",
@@ -41064,7 +41701,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851229",
@@ -41131,7 +41769,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401851388",
@@ -41198,7 +41837,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858195",
@@ -41265,7 +41905,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856435",
@@ -41332,7 +41973,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858338",
@@ -41399,7 +42041,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858340",
@@ -41466,7 +42109,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858339",
@@ -41533,7 +42177,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858193",
@@ -41600,7 +42245,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 16.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858194",
@@ -41667,7 +42313,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856437",
@@ -41734,7 +42381,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858344",
@@ -41801,7 +42449,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 12.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858343",
@@ -41868,7 +42517,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858345",
@@ -41935,7 +42585,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858342",
@@ -42002,7 +42653,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858346",
@@ -42069,7 +42721,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856436",
@@ -42136,7 +42789,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858348",
@@ -42203,7 +42857,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856489",
@@ -42270,7 +42925,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 13.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856482",
@@ -42337,7 +42993,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856480",
@@ -42404,7 +43061,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 10.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856488",
@@ -42471,7 +43129,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856483",
@@ -42538,7 +43197,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 15.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856490",
@@ -42605,7 +43265,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856486",
@@ -42672,7 +43333,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 31.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856484",
@@ -42739,7 +43401,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856492",
@@ -42806,7 +43469,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856487",
@@ -42873,7 +43537,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856485",
@@ -42940,7 +43605,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 21.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856493",
@@ -43007,7 +43673,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 23.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856525",
@@ -43074,7 +43741,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856520",
@@ -43141,7 +43809,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856524",
@@ -43208,7 +43877,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 24.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856521",
@@ -43275,7 +43945,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856527",
@@ -43342,7 +44013,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856522",
@@ -43409,7 +44081,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856494",
@@ -43476,7 +44149,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 9.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856496",
@@ -43543,7 +44217,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856519",
@@ -43610,7 +44285,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 25.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856523",
@@ -43677,7 +44353,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 35.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856495",
@@ -43744,7 +44421,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 14.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856497",
@@ -43811,7 +44489,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 20.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856518",
@@ -43878,7 +44557,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856564",
@@ -43945,7 +44625,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856561",
@@ -44012,7 +44693,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858352",
@@ -44079,7 +44761,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856558",
@@ -44146,7 +44829,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856562",
@@ -44213,7 +44897,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858351",
@@ -44280,7 +44965,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 13.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856563",
@@ -44347,7 +45033,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 10.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858353",
@@ -44414,7 +45101,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858356",
@@ -44481,7 +45169,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856559",
@@ -44548,7 +45237,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858354",
@@ -44615,7 +45305,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856560",
@@ -44682,7 +45373,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858358",
@@ -44749,7 +45441,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 11.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858359",
@@ -44816,7 +45509,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858360",
@@ -44883,7 +45577,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856568",
@@ -44950,7 +45645,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856567",
@@ -45017,7 +45713,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856569",
@@ -45084,7 +45781,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 7.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856566",
@@ -45151,7 +45849,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 2.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856570",
@@ -45218,7 +45917,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856572",
@@ -45285,7 +45985,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 8.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856571",
@@ -45352,7 +46053,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856573",
@@ -45419,7 +46121,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856574",
@@ -45486,7 +46189,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856575",
@@ -45553,7 +46257,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 5.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856576",
@@ -45620,7 +46325,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856577",
@@ -45687,7 +46393,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 4.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858379",
@@ -45754,7 +46461,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -9.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858380",
@@ -45821,7 +46529,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": -3.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858381",
@@ -45888,7 +46597,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858362",
@@ -45955,7 +46665,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": 7.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401858382",
@@ -46022,7 +46733,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": 4.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858383",
@@ -46089,7 +46801,8 @@
       "ou_result": "U",
       "ou_model_correct": true,
       "cover_line": 1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858384",
@@ -46156,7 +46869,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401856598",
@@ -46223,7 +46937,8 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856599",
@@ -46290,7 +47005,8 @@
       "ou_result": "O",
       "ou_model_correct": false,
       "cover_line": -1.5,
-      "model_ou_call": "U"
+      "model_ou_call": "U",
+      "clv": null
     },
     {
       "game_id": "401858385",
@@ -46357,7 +47073,8 @@
       "ou_result": "O",
       "ou_model_correct": true,
       "cover_line": -3.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     },
     {
       "game_id": "401856600",
@@ -46424,10 +47141,44 @@
       "ou_result": "U",
       "ou_model_correct": false,
       "cover_line": 6.5,
-      "model_ou_call": "O"
+      "model_ou_call": "O",
+      "clv": null
     }
   ],
   "summary": {
+    "calibration": {
+      "n": 708,
+      "model_mae": 10.88,
+      "market_mae": 8.92,
+      "intercept": 0.45,
+      "model_weight": -0.016,
+      "market_weight": 0.973,
+      "ats_by_edge": {
+        "0-2": {
+          "w": 114,
+          "l": 122,
+          "pct": 48.3
+        },
+        "2-4": {
+          "w": 95,
+          "l": 80,
+          "pct": 54.3
+        },
+        "4-7": {
+          "w": 38,
+          "l": 34,
+          "pct": 52.8
+        },
+        "7+": {
+          "w": 61,
+          "l": 62,
+          "pct": 49.6
+        }
+      }
+    },
+    "clv": {
+      "n": 0
+    },
     "total_graded": 718,
     "ats_graded": 606,
     "ats": {
@@ -46482,5 +47233,5 @@
       "pct": 54.4
     }
   },
-  "generated_at": "2026-11-05T12:44:19.594952-05:00"
+  "generated_at": "2026-11-05T13:15:38.715329-05:00"
 }

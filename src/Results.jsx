@@ -894,6 +894,44 @@ export default function Results({ onNavigate }) {
           </div>
         </div>
 
+        {/* Model vs market: the only test that matters */}
+        {summary.calibration && summary.calibration.n >= 50 && (
+          <div style={{
+            background: C.surface, border: `1px solid ${C.border}`,
+            borderRadius: 12, padding: "18px 20px", marginBottom: 24,
+          }}>
+            <div style={{
+              fontSize: 9, fontWeight: 800, color: C.muted, letterSpacing: 2.5,
+              textTransform: "uppercase", fontFamily: "'JetBrains Mono', monospace", marginBottom: 14,
+            }}>
+              Model vs Market · all time ({summary.calibration.n} games with a line)
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 12 }}>
+              <StatCard label="Model error" value={summary.calibration.model_mae}
+                sub="avg pts off actual margin" color={C.indigo} />
+              <StatCard label="Market error" value={summary.calibration.market_mae}
+                sub="avg pts off actual margin" color={C.muted} />
+              <StatCard label="Model weight" value={summary.calibration.model_weight.toFixed(2)}
+                sub={`market ${summary.calibration.market_weight.toFixed(2)} · 0 = no info beyond the line`}
+                color={summary.calibration.model_weight > 0.1 ? C.green : C.yellow} />
+              <StatCard label="Closing line value"
+                value={summary.clv && summary.clv.n ? `${summary.clv.avg > 0 ? "+" : ""}${summary.clv.avg}` : "n/a"}
+                sub={summary.clv && summary.clv.n
+                  ? `${summary.clv.beat_close_pct}% beat close · ${summary.clv.n} bets`
+                  : "needs closing-line snapshots"}
+                color={summary.clv && summary.clv.avg > 0 ? C.green : C.yellow} />
+            </div>
+            {summary.calibration.ats_by_edge && (
+              <div style={{ marginTop: 14, display: "flex", gap: 18, flexWrap: "wrap",
+                fontSize: 11, color: C.muted, fontFamily: "'JetBrains Mono', monospace" }}>
+                {Object.entries(summary.calibration.ats_by_edge).map(([k, v]) => (
+                  <span key={k}>edge {k} pts: <b style={{ color: C.text }}>{v.w}-{v.l}</b> ({v.pct}%)</span>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
         {/* Game log */}
         <div style={{
           background: C.surface,

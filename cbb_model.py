@@ -28,6 +28,8 @@ Usage:
 """
 
 import argparse
+import csv
+import io
 import json
 import math
 import os
@@ -52,6 +54,7 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 ESPN_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard"
 ESPN_TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams"
 BARTTORVIK_URL = "https://barttorvik.com/{season}_team_results.json"
+BARTTORVIK_GAMES_URL = "https://barttorvik.com/getgamestats.php?year={season}&csv=1"
 ODDS_API_URL = "https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds"
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 ODDS_BOOKMAKERS = "draftkings,fanduel,betmgm,williamhill_us"
@@ -66,9 +69,10 @@ HTTP_HEADERS = {
 HTTP_RETRIES = 3
 STATS_CACHE_MAX_AGE_DAYS = 3                # refuse stale cached ratings beyond this
 
-HOME_COURT_ADVANTAGE_PTS = 3.5              # D-I average; neutral sites get 0
+HOME_COURT_ADVANTAGE_PTS = 3.4              # D-I mean 2023-26 (3.6 -> 3.3, declining); neutral sites get 0
+TEAM_HCA_PATH = os.path.join(BASE_DIR, "team_hca.json")   # per-team values from estimate_hca.py, shrunk toward the mean
 SPREAD_STD_DEV = 11.0                       # std dev of (actual - projected) margin
-MODEL_VERSION = "4.0.0"
+MODEL_VERSION = "4.1.0"
 
 # Edge-vs-market bands used for confidence and the best-bet flag. An edge larger
 # than EDGE_MAX_TRUSTED almost always means stale ratings or a bad data point,
@@ -153,6 +157,14 @@ def http_get(url, **kwargs):
 
 def norm_cdf(x):
     return 0.5 * (1.0 + math.erf(x / math.sqrt(2.0)))
+
+
+def load_team_hca():
+    """{barttorvik team name: home court pts}. Empty dict (league average everywhere) if the file is missing."""
+    if not os.path.exists(TEAM_HCA_PATH):
+        return {}
+    with open(TEAM_HCA_PATH) as f:
+        return json.load(f).get("team_hca", {})
 
 
 # ============================================================================
@@ -334,53 +346,113 @@ def fetch_market_odds():
         if spread is None:
             continue
         try:
-            commence = datetime.fromisoformat(g["commence_time"].replace("Z", "+00:00")).astimezone(EASTERN)
+            commence = datetime.fromisoformat(g["commence_time"].replace("Z", "+00:00"))
         except (KeyError, ValueError):
             continue
         out.append({"home": home, "away": away, "spread": spread, "over_under": total,
-                    "bookmaker": book, "date": commence.strftime("%Y%m%d"),
-                    "home_key": canon(home), "away_key": canon(away)})
+                    "bookmaker": book, "date": commence.astimezone(EASTERN).strftime("%Y%m%d"),
+                    "commence": commence, "home_key": canon(home), "away_key": canon(away)})
     return out
 
 
-def _name_matches(odds_name_key, team, rating):
+def _name_matches(odds_name_key, location, rating_name):
     """Odds API names are 'Location Nickname' with abbreviations ('Chicago St Cougars').
     Accept when the ESPN location or Barttorvik name is a whole-word prefix of it.
     Returns the matched prefix length (0 = no match) so callers can prefer the tightest fit."""
     best = 0
-    candidates = [canon(team["location"])]
-    if rating:
-        candidates.append(canon(rating["team"]))
-    for cand in candidates:
+    for cand in (canon(location), canon(rating_name or "")):
         if cand and (odds_name_key == cand or odds_name_key.startswith(cand + " ")):
             best = max(best, len(cand))
     return best
 
 
-def attach_market_odds(games, odds, date_str, ratings):
-    """Overwrite ESPN lines with Odds API lines for games on the target date. Each odds entry is used once."""
-    todays = [o for o in odds if o["date"] == date_str]
-    matched = 0
+def _line_from(o):
+    return {"spread": o["spread"], "over_under": o["over_under"],
+            "spread_holder": o["home"] if o["spread"] < 0 else o["away"], "bookmaker": o["bookmaker"]}
+
+
+def match_lines(items, odds_today, key):
+    """Pair each item (a game or a pick) with at most one Odds API entry, tightest name fit first.
+    `key(item)` -> (home_location, away_location, home_rating_name, away_rating_name).
+    Yields (item, odds_entry)."""
     used = set()
-    for game in games:
+    for item in items:
+        home_loc, away_loc, home_rt, away_rt = key(item)
         best, best_i = 0, None
-        hr, ar = ratings.find(game["home"]["location"]), ratings.find(game["away"]["location"])
-        for i, o in enumerate(todays):
+        for i, o in enumerate(odds_today):
             if i in used:
                 continue
-            h = _name_matches(o["home_key"], game["home"], hr)
-            a = _name_matches(o["away_key"], game["away"], ar)
+            h = _name_matches(o["home_key"], home_loc, home_rt)
+            a = _name_matches(o["away_key"], away_loc, away_rt)
             if h and a and h + a > best:
                 best, best_i = h + a, i
-        if best_i is None:
-            continue
-        o = todays[best_i]
-        used.add(best_i)
-        game["odds"] = {"spread": o["spread"], "over_under": o["over_under"],
-                        "spread_holder": o["home"] if o["spread"] < 0 else o["away"],
-                        "bookmaker": o["bookmaker"]}
+        if best_i is not None:
+            used.add(best_i)
+            yield item, odds_today[best_i]
+
+
+def attach_market_odds(games, odds, date_str, ratings):
+    """Overwrite ESPN lines with Odds API lines for games on the target date."""
+    todays = [o for o in odds if o["date"] == date_str]
+
+    def key(g):
+        hr, ar = ratings.find(g["home"]["location"]), ratings.find(g["away"]["location"])
+        return g["home"]["location"], g["away"]["location"], hr and hr["team"], ar and ar["team"]
+
+    matched = 0
+    for game, o in match_lines(games, todays, key):
+        game["odds"] = _line_from(o)
         matched += 1
     return matched
+
+
+def snapshot_closing_lines(date_str):
+    """
+    Record the current market line on each of the day's picks whose game has not tipped yet.
+    Run this several times through the day; the last snapshot before tip-off is the closing
+    line, which the results tracker uses to measure closing-line value.
+    """
+    path = os.path.join(OUTPUT_DIR, f"picks_{date_str}.json")
+    if not os.path.exists(path):
+        print(f"[WARN] no picks file for {date_str}; nothing to snapshot")
+        return 0
+    with open(path) as f:
+        output = json.load(f)
+    odds = fetch_market_odds()
+    now = datetime.now(EASTERN)
+    pending = [o for o in odds if o["date"] == date_str and o["commence"] > now]
+    key = lambda p: (p.get("home_location", ""), p.get("away_location", ""),
+                     p.get("home_rating_team"), p.get("away_rating_team"))
+    updated = 0
+    for pick, o in match_lines(output["picks"], pending, key):
+        pick["closing_line"] = {**_line_from(o), "captured_at": now.isoformat()}
+        updated += 1
+    print(f"       closing-line snapshot: {updated} of {len(output['picks'])} picks still pending")
+    if updated:
+        write_output(output, date_str)
+    return updated
+
+
+# ============================================================================
+# REST DAYS (metadata only; not used in the projection)
+# ============================================================================
+
+def fetch_rest_days(season, target_date):
+    """Days since each team's previous game, from Barttorvik's season game log. {} on failure."""
+    try:
+        text = http_get(BARTTORVIK_GAMES_URL.format(season=season)).text
+    except RuntimeError as e:
+        print(f"       [WARN] game log unavailable, rest days skipped: {e}")
+        return {}
+    last = {}
+    for row in csv.reader(io.StringIO(text)):
+        try:
+            d = datetime.strptime(row[0], "%m/%d/%y").date()
+        except (ValueError, IndexError):
+            continue
+        if d < target_date.date():
+            last[canon(row[2])] = max(last.get(canon(row[2]), d), d)
+    return {k: (target_date.date() - d).days for k, d in last.items()}
 
 
 # ============================================================================
@@ -388,8 +460,10 @@ def attach_market_odds(games, odds, date_str, ratings):
 # ============================================================================
 
 class PredictionModel:
-    def __init__(self, ratings, debug=False):
+    def __init__(self, ratings, team_hca=None, rest_days=None, debug=False):
         self.ratings = ratings
+        self.team_hca = team_hca or {}
+        self.rest_days = rest_days or {}
         self.debug = debug
         self.skipped = []
 
@@ -417,7 +491,7 @@ class PredictionModel:
         away_oe = as_["adj_oe"] + hs["adj_de"] - avg
         tempo = (hs["adj_tempo"] + as_["adj_tempo"]) / 2.0
         efficiency_margin = (home_oe - away_oe) * tempo / 100.0
-        hca = 0.0 if game["neutral_site"] else HOME_COURT_ADVANTAGE_PTS
+        hca = 0.0 if game["neutral_site"] else self.team_hca.get(hs["team"], HOME_COURT_ADVANTAGE_PTS)
         margin = efficiency_margin + hca                      # + = home wins by
         total = (home_oe + away_oe) * tempo / 100.0
         home_win_prob = norm_cdf(margin / SPREAD_STD_DEV)
@@ -449,10 +523,14 @@ class PredictionModel:
             "away_rank": away["rank"],
             "home_record": home["record"],
             "away_record": away["record"],
+            "home_location": home["location"],
+            "away_location": away["location"],
             "home_rating_team": hs["team"],
             "away_rating_team": as_["team"],
             "home_adj_em": round(hs["adj_oe"] - hs["adj_de"], 2),
             "away_adj_em": round(as_["adj_oe"] - as_["adj_de"], 2),
+            "home_rest_days": self.rest_days.get(canon(hs["team"])),
+            "away_rest_days": self.rest_days.get(canon(as_["team"])),
             "venue": game["venue"],
             "neutral_site": game["neutral_site"],
             "conference_game": game["conference_game"],
@@ -541,10 +619,18 @@ def build_output(predictions, date_str, ratings):
 
 
 def write_output(output, date_str):
+    """Write picks_<date>.json; also refresh latest.json copies unless they hold a later date."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    paths = [os.path.join(OUTPUT_DIR, f"picks_{date_str}.json"), os.path.join(OUTPUT_DIR, "latest.json")]
-    if os.path.isdir(PUBLIC_DIR):
-        paths.append(os.path.join(PUBLIC_DIR, "latest.json"))
+    paths = [os.path.join(OUTPUT_DIR, f"picks_{date_str}.json")]
+    latest = os.path.join(OUTPUT_DIR, "latest.json")
+    current = None
+    if os.path.exists(latest):
+        with open(latest) as f:
+            current = json.load(f).get("date")
+    if current is None or current <= date_str:
+        paths.append(latest)
+        if os.path.isdir(PUBLIC_DIR):
+            paths.append(os.path.join(PUBLIC_DIR, "latest.json"))
     for path in paths:
         with open(path, "w") as f:
             json.dump(output, f, indent=2)
@@ -610,6 +696,8 @@ def main():
     ap.add_argument("--output", choices=["json", "console"], default="json")
     ap.add_argument("--debug", action="store_true", help="print team matching")
     ap.add_argument("--check-teams", action="store_true", help="audit ESPN vs Barttorvik team names and exit")
+    ap.add_argument("--snapshot-lines", action="store_true",
+                    help="record the current market line on the day's picks (closing line) and exit")
     args = ap.parse_args()
 
     target = datetime.strptime(args.date, "%Y-%m-%d").replace(tzinfo=EASTERN) if args.date else datetime.now(EASTERN)
@@ -618,9 +706,16 @@ def main():
 
     print(f"\n{'=' * 60}\n  CBB Model v{MODEL_VERSION}  |  {target:%B %d, %Y}  |  season {season}\n{'=' * 60}\n")
 
+    if args.snapshot_lines:
+        snapshot_closing_lines(date_str)
+        return
+
     print("[1/3] Loading team ratings...")
     ratings = TeamRatings(season).load()
     print(f"       {len(ratings.by_key)} teams from {ratings.source}  (avg AdjOE {ratings.avg_oe:.1f})")
+    team_hca = load_team_hca()
+    print(f"       team home-court table: {len(team_hca)} teams" if team_hca else
+          f"       no team_hca.json; using {HOME_COURT_ADVANTAGE_PTS} pts everywhere")
 
     if args.check_teams:
         sys.exit(1 if check_teams(ratings) else 0)
@@ -634,9 +729,10 @@ def main():
         print(f"       Odds API lines matched for {matched}/{len(games)} games")
     espn_lines = sum(1 for g in games if g.get("odds"))
     print(f"       {espn_lines}/{len(games)} games have a market line")
+    rest_days = fetch_rest_days(season, target)
 
     print("[3/3] Projecting...")
-    model = PredictionModel(ratings, debug=args.debug)
+    model = PredictionModel(ratings, team_hca=team_hca, rest_days=rest_days, debug=args.debug)
     predictions = model.predict_all(games)
     print(f"       {len(predictions)} projections, {len(model.skipped)} games skipped")
     if args.debug:

@@ -20,6 +20,30 @@ throws, so nothing else is layered on. Market lines (The Odds API, with ESPN's
 line as fallback) are used only to report the model-vs-market edge and to rank
 the slate by confidence; they never move the projection.
 
+Home court is team-specific (`team_hca.json`, built by `estimate_hca.py` from
+four seasons of Barttorvik game logs, shrunk toward the league mean of 3.4).
+The true spread between teams is only about 0.7 points and the validated
+out-of-sample gain is small, so expect values between roughly 2.8 and 4.5.
+
+Each pick also records both teams' days of rest. It is stored for later
+analysis and does not move the projection.
+
+## Measuring whether the model has an edge
+
+Win rate against the spread is nearly useless over a season: 600 games has a
+noise band of about 4 points. Two better tests are computed in
+`results_tracker.py` and shown on the Results page:
+
+- **Calibration.** Regress actual margins on the model's margin and the
+  market's. If the model's weight is near zero, the line already contains
+  everything the model knows and nothing you add has mattered yet.
+- **Closing-line value.** `cbb_model.py --snapshot-lines` runs five times a day
+  (`.github/workflows/lines.yml`) and stamps the current line on every pick
+  that has not tipped. The last snapshot before tip is the closing line. A
+  model with an edge beats the close more often than not.
+
+Add one factor at a time and keep only what moves the model weight.
+
 Team names are matched exactly: ESPN's team `location` is normalized and looked
 up in the Barttorvik table, with an explicit alias table for the handful of
 names that differ. A game with a team that has no rating (non-D-I opponents) is
@@ -40,11 +64,14 @@ python3 cbb_model.py                          # today's picks -> picks/latest.js
 python3 cbb_model.py --date 2026-11-05        # a specific date (Eastern)
 python3 cbb_model.py --output console --debug # readable output with team matching, writes nothing
 python3 cbb_model.py --check-teams            # audit ESPN <-> Barttorvik names (run each new season)
+python3 cbb_model.py --snapshot-lines         # stamp current lines on today's untipped picks
 
 python3 results_tracker.py                    # grade yesterday's picks -> public/results/results.json
 python3 results_tracker.py --date 2026-11-04  # grade a specific date
-python3 results_tracker.py --rebuild          # regrade every picks file from scratch
+python3 results_tracker.py --regrade          # reapply grading rules to the stored history
+python3 results_tracker.py --rebuild          # regrade from pick files (refetches scores)
 
+python3 estimate_hca.py                       # rebuild team_hca.json (run each summer)
 python3 automate.py                           # grade yesterday, generate today, commit + push
 ```
 

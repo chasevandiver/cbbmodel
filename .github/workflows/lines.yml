@@ -1,0 +1,43 @@
+name: Closing line snapshots
+
+# Records the current market line on each of today's picks that has not tipped
+# yet. The last snapshot before tip-off is the closing line the results tracker
+# uses for closing-line value. Five snapshots a day plus the morning picks run
+# is ~180 Odds API requests a month, under the free tier's 500.
+on:
+  schedule:
+    - cron: '30 16 * * *'   # 11:30 AM ET
+    - cron: '30 21 * * *'   #  4:30 PM ET
+    - cron: '30 23 * * *'   #  6:30 PM ET
+    - cron: '30 1 * * *'    #  8:30 PM ET
+    - cron: '30 3 * * *'    # 10:30 PM ET
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cbb-commits
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Snapshot lines
+        run: python cbb_model.py --snapshot-lines
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -- picks/ public/latest.json
+          git diff --cached --quiet || git commit -m "auto: closing-line snapshot $(TZ=America/New_York date +'%b %d %H:%M')"
+          git pull --rebase origin main
+          git push

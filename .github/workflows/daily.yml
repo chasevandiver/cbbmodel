@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: cbb-commits
+  cancel-in-progress: false
+
 jobs:
   run-automation:
     runs-on: ubuntu-latest
@@ -37,4 +41,5 @@ jobs:
           git config user.email "actions@github.com"
           git add -- picks/ public/latest.json public/results/results.json
           git diff --cached --quiet || git commit -m "auto: $(TZ=America/New_York date +'%b %d') picks + results"
+          git pull --rebase origin main
           git push

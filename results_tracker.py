@@ -117,11 +117,18 @@ def grade_pick(pick, result):
             ou_result = "O" if actual_total > total else "U"
             ou_correct = model_ou_call == ou_result
 
+    # Closing-line value: points of line movement in the bet's favor between pick time and close.
+    clv = None
+    closing = (pick.get("closing_line") or {}).get("spread")
+    if closing is not None and spread is not None and bet_side != "none":
+        clv = round((float(spread) - closing) if bet_side == "home" else (closing - float(spread)), 1)
+
     return {
         **pick,
         "graded": True,
         "bet_side": bet_side,
         "cover_line": cover_line,
+        "clv": clv,
         "actual_home_score": result["home_score"],
         "actual_away_score": result["away_score"],
         "actual_margin": actual_margin,
@@ -142,11 +149,61 @@ def record(picks):
     return {"w": w, "l": l, "p": push, "pct": round(w / (w + l) * 100, 1) if w + l else 0}
 
 
+def calibration(games):
+    """
+    How much information the model carries beyond the market, on games with a real line:
+    OLS of actual margin on model margin and market margin. A model weight near zero means
+    the market already contains everything the model knows.
+    """
+    rows = [(g["predicted_spread"], -float(market_line(g)[0]), g["actual_margin"])
+            for g in games if market_line(g)[0] is not None]
+    n = len(rows)
+    if n < 50:
+        return {"n": n}
+    mae = lambda i: round(sum(abs(r[i] - r[2]) for r in rows) / n, 2)
+    X = [[1.0, m, k] for m, k, _ in rows]
+    y = [r[2] for r in rows]
+    A = [[sum(r[i] * r[j] for r in X) for j in range(3)] + [sum(r[i] * yy for r, yy in zip(X, y))] for i in range(3)]
+    for i in range(3):
+        p = max(range(i, 3), key=lambda r: abs(A[r][i]))
+        A[i], A[p] = A[p], A[i]
+        for r in range(3):
+            if r != i and A[i][i]:
+                f = A[r][i] / A[i][i]
+                A[r] = [a - f * b for a, b in zip(A[r], A[i])]
+    a, b, c = (A[i][3] / A[i][i] if A[i][i] else 0.0 for i in range(3))
+    buckets = {}
+    for g in games:
+        s = market_line(g)[0]
+        if s is None or g.get("ats_result") not in ("W", "L"):
+            continue
+        e = abs(g["predicted_spread"] + float(s))
+        k = "0-2" if e < 2 else "2-4" if e < 4 else "4-7" if e < 7 else "7+"
+        buckets.setdefault(k, {"w": 0, "l": 0})
+        buckets[k]["w" if g["ats_result"] == "W" else "l"] += 1
+    for v in buckets.values():
+        v["pct"] = round(v["w"] / (v["w"] + v["l"]) * 100, 1) if v["w"] + v["l"] else 0
+    return {"n": n, "model_mae": mae(0), "market_mae": mae(1), "intercept": round(a, 2),
+            "model_weight": round(b, 3), "market_weight": round(c, 3),
+            "ats_by_edge": {k: buckets[k] for k in ("0-2", "2-4", "4-7", "7+") if k in buckets}}
+
+
+def closing_line_value(games):
+    vals = [g["clv"] for g in games if g.get("clv") is not None]
+    if not vals:
+        return {"n": 0}
+    return {"n": len(vals), "avg": round(sum(vals) / len(vals), 2),
+            "beat_close_pct": round(sum(v > 0 for v in vals) / len(vals) * 100, 1),
+            "beat_or_matched_pct": round(sum(v >= 0 for v in vals) / len(vals) * 100, 1)}
+
+
 def compute_summary(games):
     if not games:
         return {}
     ou_gradeable = [g for g in games if g.get("ou_model_correct") is not None]
     return {
+        "calibration": calibration(games),
+        "clv": closing_line_value(games),
         "total_graded": len(games),
         "ats_graded": sum(g.get("ats_result") in ("W", "L", "P") for g in games),
         "ats": record(games),
