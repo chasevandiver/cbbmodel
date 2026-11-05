@@ -84,6 +84,11 @@ it is less than 3 days old; otherwise it exits non-zero and publishes nothing.
 `picks/`, `public/latest.json` and `public/results/results.json`. Set the
 `ODDS_API_KEY` repository secret. Vercel redeploys on push to `main`.
 
+Vercel deduplicates by commit SHA. If a commit was already built as a branch
+preview, fast-forwarding `main` to it does not create a production
+deployment. Push `main` before the feature branch, or merge with a merge
+commit, so `main` always gets a SHA Vercel has not seen.
+
 ## Project structure
 
 ```
