@@ -2,8 +2,13 @@ name: CBB Daily Automation
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # 9:00 AM CT (CDT = UTC-5, use '0 13 * * *' in summer)
-  workflow_dispatch:        # lets you trigger it manually from GitHub UI
+    # 12:30 UTC = 7:30 AM ET / 6:30 AM CT. GitHub often starts scheduled runs
+    # late, sometimes by hours, so this is set well before the first tips.
+    - cron: '30 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run-automation:
@@ -12,8 +17,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -21,9 +24,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 pandas numpy scipy scikit-learn
+        run: pip install requests
 
-      - name: Run automation
+      - name: Grade yesterday and generate today's picks
         run: python automate.py
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
@@ -32,6 +35,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add public/latest.json public/results/results.json picks/
-          git diff --cached --quiet || git commit -m "auto: $(date +'%b %d') picks + results"
+          git add -- picks/ public/latest.json public/results/results.json
+          git diff --cached --quiet || git commit -m "auto: $(TZ=America/New_York date +'%b %d') picks + results"
           git push

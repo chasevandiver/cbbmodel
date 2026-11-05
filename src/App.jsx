@@ -55,15 +55,7 @@ const SAMPLE_DATA = {
 
 const FACTOR_LABELS = {
   efficiency_margin: "Efficiency",
-  four_factors:      "Four Factors",
   home_court:        "Home Court",
-  recent_form:       "Recent Form",
-  turnover_margin:   "Turnovers",
-  rebounding:        "Rebounding",
-  three_point:       "3PT Shooting",
-  free_throw:        "Free Throws",
-  experience:        "Experience",
-  sos:               "SOS Diff",
 };
 
 function ConfidenceMeter({ value }) {

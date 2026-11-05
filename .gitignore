@@ -28,3 +28,9 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Cached team ratings (refetched daily)
+data/
+
+# Automation logs
+logs/

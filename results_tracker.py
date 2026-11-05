@@ -1,188 +1,127 @@
 #!/usr/bin/env python3
 """
-Results Tracker v1.0
-=====================
-Fetches actual game scores from ESPN and grades yesterday's model picks.
-Run this each morning AFTER games have completed (before generating new picks).
+Results Tracker
+===============
+Grades the model's picks against ESPN final scores, matched by ESPN game id.
 
 Usage:
-    python3 results_tracker.py                    # Grade yesterday's picks
-    python3 results_tracker.py --date 2026-02-24  # Grade a specific date
-    python3 results_tracker.py --rebuild          # Rebuild full results from all dated pick files
+    python3 results_tracker.py                    # grade yesterday (Eastern)
+    python3 results_tracker.py --date 2026-11-04  # grade a specific date
+    python3 results_tracker.py --rebuild          # regrade every picks/picks_*.json from scratch
 
 Output:
-    public/results/results.json  — full graded history for the dashboard
+    public/results/results.json  — graded history + summary for the dashboard
+
+Grading rules:
+    ATS   only when the pick carried a real market line. bet_side follows the
+          dashboard: home if model margin beats the line by > 0.5, away if it
+          trails by > 0.5, otherwise no bet. Games with no line get ats_result
+          null and count only toward straight-up accuracy.
+    O/U   model call is Over if projected total > market total, graded on the
+          market total. No market total -> null.
 """
 
-import requests
+import argparse
+import glob
 import json
 import os
+import re
 import sys
-import argparse
+import time
 from datetime import datetime, timedelta
-from typing import Optional, Dict, List
+from zoneinfo import ZoneInfo
 
+import requests
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PICKS_DIR = os.path.join(BASE_DIR, "picks")
+RESULTS_PATH = os.path.join(BASE_DIR, "public", "results", "results.json")
 ESPN_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard"
-PICKS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "picks")
-RESULTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "public", "results")
+EASTERN = ZoneInfo("America/New_York")
+PUSH_TOLERANCE = 0.5
 
 
-def fetch_scores(date_str: str) -> Dict[str, Dict]:
-    """
-    Fetch completed game scores from ESPN for a given date (YYYYMMDD).
-    Returns dict keyed by normalized "home|away" for matching.
-    """
-    params = {"dates": date_str, "limit": 500, "groups": 50}
-    try:
-        resp = requests.get(ESPN_SCOREBOARD_URL, params=params, timeout=15)
-        data = resp.json()
-    except Exception as e:
-        print(f"[ERROR] Could not fetch scores for {date_str}: {e}")
+def fetch_scores(date_str):
+    """Completed games on an Eastern date, keyed by ESPN game id."""
+    for attempt in range(3):
+        try:
+            resp = requests.get(ESPN_SCOREBOARD_URL, params={"dates": date_str, "limit": 500, "groups": 50}, timeout=20)
+            resp.raise_for_status()
+            data = resp.json()
+            break
+        except (requests.RequestException, ValueError) as e:
+            print(f"[WARN] score fetch {date_str} attempt {attempt + 1}: {e}")
+            time.sleep(2 ** attempt)
+    else:
         return {}
 
     scores = {}
     for event in data.get("events", []):
-        competition = event.get("competitions", [{}])[0]
-        status = competition.get("status", {}).get("type", {}).get("completed", False)
-        if not status:
-            continue  # Skip games not yet completed
-
-        competitors = competition.get("competitors", [])
-        if len(competitors) != 2:
+        comp = (event.get("competitions") or [{}])[0]
+        if not (comp.get("status") or {}).get("type", {}).get("completed"):
             continue
-
-        home_team = away_team = None
-        home_score = away_score = 0
-
-        for c in competitors:
-            name = c.get("team", {}).get("displayName", "")
-            score = int(c.get("score", 0) or 0)
-            if c.get("homeAway") == "home":
-                home_team = name
-                home_score = score
-            else:
-                away_team = name
-                away_score = score
-
-        if home_team and away_team:
-            key = f"{home_team.lower()}|{away_team.lower()}"
-            scores[key] = {
-                "home_team": home_team,
-                "away_team": away_team,
-                "home_score": home_score,
-                "away_score": away_score,
-                "total": home_score + away_score,
-                "margin": home_score - away_score,  # positive = home won
-            }
-
+        sides = {}
+        for c in comp.get("competitors", []):
+            try:
+                sides[c.get("homeAway")] = int(c.get("score") or 0)
+            except ValueError:
+                sides[c.get("homeAway")] = 0
+        if "home" not in sides or "away" not in sides:
+            continue
+        scores[event["id"]] = {
+            "home_score": sides["home"],
+            "away_score": sides["away"],
+            "total": sides["home"] + sides["away"],
+            "margin": sides["home"] - sides["away"],
+        }
     return scores
 
 
-def fuzzy_match_game(pick: Dict, scores: Dict) -> Optional[Dict]:
-    """
-    Match a pick to an actual score result.
-    Tries exact match first, then partial name matching.
-    """
-    home = pick["home_team"].lower()
-    away = pick["away_team"].lower()
-
-    # Direct key match
-    key = f"{home}|{away}"
-    if key in scores:
-        return scores[key]
-
-    # Try fuzzy: find score where both team names are substrings
-    for score_key, score in scores.items():
-        sh = score["home_team"].lower()
-        sa = score["away_team"].lower()
-        # Check if 6+ char substring of pick name appears in score name
-        home_match = any(w in sh or sh in home for w in home.split() if len(w) >= 5)
-        away_match = any(w in sa or sa in away for w in away.split() if len(w) >= 5)
-        if home_match and away_match:
-            return score
-
-    return None
+def market_line(pick):
+    """Market spread/total for a pick, or None. Pre-v4 files stored a phantom 0 spread when ESPN had no line."""
+    mk = pick.get("market") or {}
+    spread, total = mk.get("spread"), mk.get("over_under")
+    if spread == 0 and not mk.get("spread_holder"):
+        spread, total = None, None
+    if total == 0:
+        total = None
+    return spread, total
 
 
-def grade_pick(pick: Dict, result: Dict) -> Dict:
-    """
-    Grade a single pick against the actual result.
+def grade_pick(pick, result):
+    actual_margin, actual_total = result["margin"], result["total"]
+    model_margin = pick["predicted_spread"]
+    spread, total = market_line(pick)
 
-    ATS grading uses the same logic as the UI:
-    - market.spread is home-perspective (negative = home favored, positive = away favored)
-    - coverCheck = predicted_spread + market_spread
-      - if coverCheck > 0: UI bet HOME to cover
-      - if coverCheck < 0: UI bet AWAY to cover
-    - If no market spread, grade straight up (did model's picked team win?)
-
-    Returns graded pick with:
-    - ats_result: "W" / "L" / "P" (push)
-    - bet_side: which side the model told users to bet ("home" or "away")
-    - ou_result: "O" / "U" / "P"
-    """
-    actual_margin = result["margin"]   # positive = home won
-    actual_total  = result["total"]
-    model_margin  = pick["predicted_spread"]  # home-perspective
-    market_spread = pick.get("market", {}).get("spread")  # home-perspective
-    market_ou     = pick.get("market", {}).get("over_under")
-
-    # ---- ATS grading ----
-    if market_spread is not None:
-        mkt = float(market_spread)
-        # cover_line: home needs to win by more than this to cover
-        # e.g. market = -16.5 (home fav) → cover_line = +16.5 (home must win by 16.5+)
-        # e.g. market = +3.5 (away fav)  → cover_line = -3.5 (home must win by 3.5+ OR lose by less than 3.5)
-        cover_line = -mkt
-
-        # Determine which side the UI told users to bet (same coverCheck as App.jsx)
-        cover_check = model_margin + mkt
-        if cover_check > 0.5:
+    ats_result, bet_side, cover_line = None, "none", None
+    if spread is not None:
+        cover_line = -float(spread)                     # home must win by more than this
+        edge = model_margin - cover_line
+        if edge > PUSH_TOLERANCE:
             bet_side = "home"
-        elif cover_check < -0.5:
+        elif edge < -PUSH_TOLERANCE:
             bet_side = "away"
+        if bet_side != "none":
+            if abs(actual_margin - cover_line) < PUSH_TOLERANCE:
+                ats_result = "P"
+            else:
+                home_covered = actual_margin > cover_line
+                ats_result = "W" if home_covered == (bet_side == "home") else "L"
+
+    ou_result, ou_correct, model_ou_call = None, None, None
+    if total is not None:
+        model_ou_call = "O" if pick["predicted_total"] > total else "U"
+        if abs(actual_total - total) < PUSH_TOLERANCE:
+            ou_result = "P"
         else:
-            bet_side = "none"  # no edge, no bet suggested
-
-        # Did the bet win?
-        if abs(actual_margin - cover_line) < 0.5:
-            ats_result = "P"
-        elif actual_margin > cover_line:
-            # Home covered
-            ats_result = "W" if bet_side == "home" else "L"
-        else:
-            # Away covered
-            ats_result = "W" if bet_side == "away" else "L"
-
-        # If no bet was suggested, mark as push (no action)
-        if bet_side == "none":
-            ats_result = "P"
-    else:
-        # No market line — grade straight up on model's picked winner
-        cover_line = 0
-        bet_side = "home" if model_margin > 0 else "away"
-        if actual_margin > 0:
-            ats_result = "W" if model_margin > 0 else "L"
-        elif actual_margin < 0:
-            ats_result = "W" if model_margin < 0 else "L"
-        else:
-            ats_result = "P"
-
-    # ---- O/U grading ----
-    ou_line = float(market_ou) if market_ou else pick["predicted_total"]
-    if abs(actual_total - ou_line) < 0.5:
-        ou_result = "P"
-    elif actual_total > ou_line:
-        ou_result = "O"
-    else:
-        ou_result = "U"
-
-    model_ou_call = "O" if pick["predicted_total"] > ou_line else "U"
-    ou_correct = (model_ou_call == ou_result) if ou_result != "P" else None
+            ou_result = "O" if actual_total > total else "U"
+            ou_correct = model_ou_call == ou_result
 
     return {
         **pick,
         "graded": True,
         "bet_side": bet_side,
+        "cover_line": cover_line,
         "actual_home_score": result["home_score"],
         "actual_away_score": result["away_score"],
         "actual_margin": actual_margin,
@@ -191,176 +130,132 @@ def grade_pick(pick: Dict, result: Dict) -> Dict:
         "model_correct_winner": (actual_margin > 0) == (model_margin > 0),
         "ats_result": ats_result,
         "ou_result": ou_result,
+        "model_ou_call": model_ou_call,
         "ou_model_correct": ou_correct,
-        "cover_line": round(cover_line, 1),
     }
 
 
-def compute_summary(graded_picks: List[Dict]) -> Dict:
-    """Compute aggregate performance stats from all graded picks."""
-    total = len(graded_picks)
-    if total == 0:
+def record(picks):
+    w = sum(p.get("ats_result") == "W" for p in picks)
+    l = sum(p.get("ats_result") == "L" for p in picks)
+    push = sum(p.get("ats_result") == "P" for p in picks)
+    return {"w": w, "l": l, "p": push, "pct": round(w / (w + l) * 100, 1) if w + l else 0}
+
+
+def compute_summary(games):
+    if not games:
         return {}
-
-    ats_w = sum(1 for p in graded_picks if p.get("ats_result") == "W")
-    ats_l = sum(1 for p in graded_picks if p.get("ats_result") == "L")
-    ats_p = sum(1 for p in graded_picks if p.get("ats_result") == "P")
-
-    ou_o = sum(1 for p in graded_picks if p.get("ou_result") == "O")
-    ou_u = sum(1 for p in graded_picks if p.get("ou_result") == "U")
-    ou_p = sum(1 for p in graded_picks if p.get("ou_result") == "P")
-    ou_correct = sum(1 for p in graded_picks if p.get("ou_model_correct") is True)
-    ou_gradeable = sum(1 for p in graded_picks if p.get("ou_model_correct") is not None)
-
-    su_correct = sum(1 for p in graded_picks if p.get("model_correct_winner"))
-
-    # Break down ATS by confidence tier
-    high_conf = [p for p in graded_picks if p.get("confidence", 0) >= 70]
-    med_conf = [p for p in graded_picks if 40 <= p.get("confidence", 0) < 70]
-    low_conf = [p for p in graded_picks if p.get("confidence", 0) < 40]
-
-    def tier_record(picks):
-        w = sum(1 for p in picks if p.get("ats_result") == "W")
-        l = sum(1 for p in picks if p.get("ats_result") == "L")
-        p = sum(1 for p in picks if p.get("ats_result") == "P")
-        pct = round(w / (w + l) * 100, 1) if (w + l) > 0 else 0
-        return {"w": w, "l": l, "p": p, "pct": pct}
-
-    ats_pct = round(ats_w / (ats_w + ats_l) * 100, 1) if (ats_w + ats_l) > 0 else 0
-
-    # Value plays (value_rating >= 3)
-    value_plays = [p for p in graded_picks if (p.get("value_rating") or 0) >= 3]
-    value_record = tier_record(value_plays)
-
+    ou_gradeable = [g for g in games if g.get("ou_model_correct") is not None]
     return {
-        "total_graded": total,
-        "ats": {"w": ats_w, "l": ats_l, "p": ats_p, "pct": ats_pct},
-        "su": {"correct": su_correct, "total": total, "pct": round(su_correct / total * 100, 1)},
+        "total_graded": len(games),
+        "ats_graded": sum(g.get("ats_result") in ("W", "L", "P") for g in games),
+        "ats": record(games),
+        "su": {"correct": sum(bool(g.get("model_correct_winner")) for g in games), "total": len(games),
+               "pct": round(sum(bool(g.get("model_correct_winner")) for g in games) / len(games) * 100, 1)},
         "ou": {
-            "over": ou_o, "under": ou_u, "push": ou_p,
-            "model_correct": ou_correct,
-            "model_gradeable": ou_gradeable,
-            "model_pct": round(ou_correct / ou_gradeable * 100, 1) if ou_gradeable > 0 else 0,
+            "over": sum(g.get("ou_result") == "O" for g in games),
+            "under": sum(g.get("ou_result") == "U" for g in games),
+            "push": sum(g.get("ou_result") == "P" for g in games),
+            "model_correct": sum(bool(g.get("ou_model_correct")) for g in ou_gradeable),
+            "model_gradeable": len(ou_gradeable),
+            "model_pct": round(sum(bool(g.get("ou_model_correct")) for g in ou_gradeable) / len(ou_gradeable) * 100, 1)
+            if ou_gradeable else 0,
         },
         "by_confidence": {
-            "high": tier_record(high_conf),
-            "medium": tier_record(med_conf),
-            "low": tier_record(low_conf),
+            "high": record([g for g in games if g.get("confidence", 0) >= 70]),
+            "medium": record([g for g in games if 40 <= g.get("confidence", 0) < 70]),
+            "low": record([g for g in games if g.get("confidence", 0) < 40]),
         },
-        "value_plays": value_record,
+        "value_plays": record([g for g in games if (g.get("value_rating") or 0) >= 3]),
+        "best_bets": record([g for g in games if g.get("is_best_bet")]),
     }
 
 
-def load_existing_results() -> Dict:
-    """Load existing results.json if it exists."""
-    path = os.path.join(RESULTS_DIR, "results.json")
-    if os.path.exists(path):
-        with open(path) as f:
+def load_results():
+    if os.path.exists(RESULTS_PATH):
+        with open(RESULTS_PATH) as f:
             return json.load(f)
     return {"generated_at": None, "games": [], "summary": {}}
 
 
-def save_results(results: Dict):
-    """Save results.json to public/results/."""
-    os.makedirs(RESULTS_DIR, exist_ok=True)
-    results["generated_at"] = datetime.now().isoformat()
-    path = os.path.join(RESULTS_DIR, "results.json")
-    with open(path, "w") as f:
+def save_results(results):
+    os.makedirs(os.path.dirname(RESULTS_PATH), exist_ok=True)
+    results["summary"] = compute_summary(results["games"])
+    results["generated_at"] = datetime.now(EASTERN).isoformat()
+    results["games"].sort(key=lambda g: (g.get("date", ""), g.get("game_id", "")))
+    with open(RESULTS_PATH, "w") as f:
         json.dump(results, f, indent=2)
-    print(f"[OK] Results saved to {path}")
+    s = results["summary"]
+    print(f"[OK] {RESULTS_PATH}: {s.get('total_graded', 0)} graded, ATS {s.get('ats', {}).get('w', 0)}-"
+          f"{s.get('ats', {}).get('l', 0)}-{s.get('ats', {}).get('p', 0)}, SU {s.get('su', {}).get('pct', 0)}%")
 
 
-def grade_date(date_str: str, existing_games: List[Dict]) -> List[Dict]:
-    """
-    Fetch scores for date_str and grade any matching ungraded picks.
-    Returns updated games list.
-    """
-    picks_path = os.path.join(PICKS_DIR, f"picks_{date_str}.json")
-    if not os.path.exists(picks_path):
-        print(f"[WARN] No picks file found for {date_str}")
-        return existing_games
+def grade_date(date_str, games):
+    """Grade ungraded picks from picks/picks_<date>.json. Returns the number graded."""
+    path = os.path.join(PICKS_DIR, f"picks_{date_str}.json")
+    if not os.path.exists(path):
+        print(f"[WARN] no picks file for {date_str}")
+        return 0
+    with open(path) as f:
+        picks = json.load(f).get("picks", [])
+    done = {g["game_id"] for g in games}
+    pending = [p for p in picks if p["game_id"] not in done]
+    if not pending:
+        print(f"[INFO] {date_str}: nothing to grade")
+        return 0
 
-    with open(picks_path) as f:
-        picks_data = json.load(f)
-
-    picks = picks_data.get("picks", [])
-    if not picks:
-        print(f"[WARN] No picks in file for {date_str}")
-        return existing_games
-
-    # Skip if already fully graded for this date
-    already_graded_ids = {g["game_id"] for g in existing_games if g.get("graded")}
-    ungraded = [p for p in picks if p["game_id"] not in already_graded_ids]
-
-    if not ungraded:
-        print(f"[INFO] All picks for {date_str} already graded")
-        return existing_games
-
-    print(f"[INFO] Fetching scores for {date_str} ({len(ungraded)} picks to grade)...")
     scores = fetch_scores(date_str)
-
-    if not scores:
-        print(f"[WARN] No completed scores found for {date_str}")
-        return existing_games
-
-    graded_count = 0
-    for pick in ungraded:
-        result = fuzzy_match_game(pick, scores)
-        if result:
-            graded = grade_pick(pick, result)
-            existing_games.append(graded)
-            graded_count += 1
-            status = graded["ats_result"]
-            print(f"  {pick['away_team']} @ {pick['home_team']}: ATS {status} "
-                  f"(actual: {result['away_score']}-{result['home_score']})")
-        else:
-            print(f"  [NOMATCH] {pick['away_team']} @ {pick['home_team']}")
-
-    print(f"[OK] Graded {graded_count}/{len(ungraded)} picks for {date_str}")
-    return existing_games
+    graded = 0
+    for pick in pending:
+        result = scores.get(pick["game_id"])
+        if not result:
+            print(f"  [PENDING] {pick['away_team']} @ {pick['home_team']} — no final score")
+            continue
+        g = grade_pick(pick, result)
+        games.append(g)
+        graded += 1
+        tag = g["ats_result"] or ("SU " + ("W" if g["model_correct_winner"] else "L"))
+        print(f"  {tag:<4} {pick['away_team']} @ {pick['home_team']}  ({result['away_score']}-{result['home_score']})")
+    print(f"[OK] graded {graded}/{len(pending)} picks for {date_str}")
+    return graded
 
 
 def main():
-    parser = argparse.ArgumentParser(description="CBB Results Tracker v1.0")
-    parser.add_argument("--date", type=str, help="Date to grade (YYYY-MM-DD), defaults to yesterday")
-    parser.add_argument("--rebuild", action="store_true", help="Rebuild all results from all pick files")
-    args = parser.parse_args()
+    ap = argparse.ArgumentParser(description="CBB Results Tracker")
+    ap.add_argument("--date", help="Eastern date to grade (YYYY-MM-DD), default yesterday")
+    ap.add_argument("--rebuild", action="store_true",
+                    help="regrade every picks file from scratch (refetches scores; loses lines for any pick file "
+                         "that was regenerated after the fact)")
+    ap.add_argument("--regrade", action="store_true",
+                    help="reapply the grading rules to the existing history using its stored final scores")
+    args = ap.parse_args()
 
-    existing = load_existing_results()
-    games = existing.get("games", [])
-
-    if args.rebuild:
-        print("[INFO] Rebuilding results from all pick files...")
-        games = []
-        pick_files = sorted([f for f in os.listdir(PICKS_DIR) if f.startswith("picks_") and f.endswith(".json")])
-        for fname in pick_files:
-            date_str = fname.replace("picks_", "").replace(".json", "")
-            if date_str == "latest":
-                continue
-            games = grade_date(date_str, games)
+    if args.regrade:
+        results = load_results()
+        results["games"] = [
+            grade_pick(g, {"home_score": g["actual_home_score"], "away_score": g["actual_away_score"],
+                           "total": g["actual_home_score"] + g["actual_away_score"],
+                           "margin": g["actual_home_score"] - g["actual_away_score"]})
+            for g in results["games"]
+        ]
+        print(f"[OK] regraded {len(results['games'])} games")
+    elif args.rebuild:
+        results = {"generated_at": None, "games": [], "summary": {}}
+        dates = sorted(re.findall(r"picks_(\d{8})\.json$", os.path.basename(p))[0]
+                       for p in glob.glob(os.path.join(PICKS_DIR, "picks_*.json")))
+        for d in dates:
+            print(f"--- {d}")
+            grade_date(d, results["games"])
+            time.sleep(0.5)
     else:
+        results = load_results()
         if args.date:
-            target = datetime.strptime(args.date, "%Y-%m-%d")
+            date_str = datetime.strptime(args.date, "%Y-%m-%d").strftime("%Y%m%d")
         else:
-            target = datetime.now() - timedelta(days=1)
-        date_str = target.strftime("%Y%m%d")
-        print(f"[INFO] Grading picks for {target.strftime('%B %d, %Y')}...")
-        games = grade_date(date_str, games)
+            date_str = (datetime.now(EASTERN) - timedelta(days=1)).strftime("%Y%m%d")
+        grade_date(date_str, results["games"])
 
-    summary = compute_summary([g for g in games if g.get("graded")])
-    save_results({"games": games, "summary": summary})
-
-    if summary:
-        ats = summary["ats"]
-        print(f"\n{'='*50}")
-        print(f"  Overall ATS: {ats['w']}-{ats['l']}-{ats['p']} ({ats['pct']}%)")
-        print(f"  High Conf:   {summary['by_confidence']['high']['w']}-"
-              f"{summary['by_confidence']['high']['l']} "
-              f"({summary['by_confidence']['high']['pct']}%)")
-        print(f"  Value Plays: {summary['value_plays']['w']}-"
-              f"{summary['value_plays']['l']} "
-              f"({summary['value_plays']['pct']}%)")
-        print(f"{'='*50}\n")
+    save_results(results)
 
 
 if __name__ == "__main__":

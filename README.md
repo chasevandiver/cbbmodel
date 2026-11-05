@@ -1,81 +1,82 @@
 # Courtside Edge
 
-College basketball prediction dashboard powered by the CBB Model v2.2.
+College basketball spread and total projections, published daily to a React dashboard.
 
-## Project Structure
+## How the model works
+
+For each Division I game the model takes Barttorvik's adjusted offensive and
+defensive efficiencies and tempo (`{season}_team_results.json`) and projects:
 
 ```
-courtside-edge/
-├── public/
-│   └── picks/
-│       └── latest.json        ← model output (update this daily)
-├── src/
-│   ├── App.jsx                ← React dashboard (courtside_edge.jsx)
-│   └── main.jsx               ← entry point
-├── cbb_model.py               ← prediction model
-├── index.html
-├── package.json
-└── vite.config.js
+home_proj_oe = home.AdjOE + away.AdjDE - national_avg
+away_proj_oe = away.AdjOE + home.AdjDE - national_avg
+spread       = (home_proj_oe - away_proj_oe) * tempo / 100 + home_court   (3.5 pts, 0 on neutral floors)
+total        = (home_proj_oe + away_proj_oe) * tempo / 100
+win prob     = Phi(spread / 11)
 ```
 
-## First-Time Setup
+Adjusted efficiencies already capture shooting, turnovers, rebounding and free
+throws, so nothing else is layered on. Market lines (The Odds API, with ESPN's
+line as fallback) are used only to report the model-vs-market edge and to rank
+the slate by confidence; they never move the projection.
+
+Team names are matched exactly: ESPN's team `location` is normalized and looked
+up in the Barttorvik table, with an explicit alias table for the handful of
+names that differ. A game with a team that has no rating (non-D-I opponents) is
+skipped, never guessed.
+
+## Setup
 
 ```bash
+pip install requests
 npm install
-npm run dev        # local dev at http://localhost:5173
-npm run build      # production build → dist/
+export ODDS_API_KEY=...        # optional; without it only ESPN lines are used
 ```
 
-### Deploy to Vercel
-```bash
-npx vercel         # follow prompts, framework = Vite
-```
-
-After the first deploy, Vercel auto-deploys every time you push to main.
-
-## Daily Workflow
-
-Each morning, run the model and push the output:
+## Commands
 
 ```bash
-# 1. Run the model (from this directory)
-python3 cbb_model.py
+python3 cbb_model.py                          # today's picks -> picks/latest.json + public/latest.json
+python3 cbb_model.py --date 2026-11-05        # a specific date (Eastern)
+python3 cbb_model.py --output console --debug # readable output with team matching, writes nothing
+python3 cbb_model.py --check-teams            # audit ESPN <-> Barttorvik names (run each new season)
 
-# 2. Copy output to public folder
-cp picks/latest.json public/picks/latest.json
+python3 results_tracker.py                    # grade yesterday's picks -> public/results/results.json
+python3 results_tracker.py --date 2026-11-04  # grade a specific date
+python3 results_tracker.py --rebuild          # regrade every picks file from scratch
 
-# 3. Commit and push — Vercel auto-deploys in ~20 seconds
-git add public/picks/latest.json
-git commit -m "picks $(date +%Y%m%d)"
-git push
+python3 automate.py                           # grade yesterday, generate today, commit + push
 ```
 
-Or run it all in one line:
-```bash
-python3 cbb_model.py && cp picks/latest.json public/picks/latest.json && git add public/picks/latest.json && git commit -m "picks $(date +%Y%m%d)" && git push
+If Barttorvik is unreachable the model uses a cached copy under `data/` only if
+it is less than 3 days old; otherwise it exits non-zero and publishes nothing.
+
+## Daily automation
+
+`.github/workflows/daily.yml` runs `automate.py` every morning and commits
+`picks/`, `public/latest.json` and `public/results/results.json`. Set the
+`ODDS_API_KEY` repository secret. Vercel redeploys on push to `main`.
+
+## Project structure
+
+```
+cbb_model.py          projections
+results_tracker.py    grading
+automate.py           daily driver
+picks/                one JSON per date + latest.json
+public/latest.json    served to the dashboard
+public/results/       graded history
+src/App.jsx           picks dashboard
+src/Results.jsx       results dashboard
 ```
 
-## Environment Variables
+## Grading
 
-Set these in your shell or Vercel project settings:
+ATS is graded only on picks that carried a real market line, using the same
+rule as the dashboard: bet the home side if the model beats the line by more
+than 0.5, the away side if it trails by more than 0.5, otherwise no bet.
+Games without a line count only toward straight-up accuracy.
 
-| Variable | Description |
-|---|---|
-| `ODDS_API_KEY` | The Odds API key (rotate the one in source!) |
-
-Add to Vercel: **Project Settings → Environment Variables**
-
-## Model Commands
-
-```bash
-python3 cbb_model.py                          # today's picks → JSON
-python3 cbb_model.py --output console         # readable console output
-python3 cbb_model.py --output console --debug # show team matching
-python3 cbb_model.py --date 2026-02-25        # specific date
-```
-
-## How the Dashboard Works
-
-- `src/App.jsx` fetches `/picks/latest.json` on load
-- Falls back to built-in `SAMPLE_DATA` if the file is missing or empty
-- No backend required — it's a fully static site
+The results history before November 2026 was produced by an earlier version of
+the model with a looser team matcher; treat it as a baseline, not a
+validation of the current model.

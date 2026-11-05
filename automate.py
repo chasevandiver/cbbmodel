@@ -1,84 +1,76 @@
 #!/usr/bin/env python3
 """
-CBB Daily Automation Script
-============================
-Runs automatically via cron. Each morning:
-  1. Grades yesterday's picks against ESPN final scores
-  2. Generates today's picks
-  3. Copies latest.json to public/
-  4. Commits and pushes to GitHub (triggers Vercel deploy)
+CBB Daily Automation
+====================
+  1. Grade yesterday's picks against final scores
+  2. Generate today's picks
+  3. Commit and push (skipped under GitHub Actions, where the workflow commits)
 
-Cron setup (run `crontab -e` and add):
-  0 9 * * * /usr/bin/python3 /Users/chasevandiver/Desktop/Personal/CBBBettingModel/automate.py >> /Users/chasevandiver/Desktop/Personal/CBBBettingModel/logs/auto.log 2>&1
+Exit code is non-zero if the model fails, so a CI run goes red instead of
+publishing stale or placeholder picks.
 
-This runs at 9:00 AM daily. Adjust time as needed (all games finish by ~2 AM CT).
+Local cron example (9:00 AM):
+  0 9 * * * cd /path/to/cbbmodel && ODDS_API_KEY=... /usr/bin/python3 automate.py >> logs/auto.log 2>&1
 """
 
+import os
 import subprocess
 import sys
-import os
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
-# ── Config ────────────────────────────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOG_DIR  = os.path.join(BASE_DIR, "logs")
-os.makedirs(LOG_DIR, exist_ok=True)
+EASTERN = ZoneInfo("America/New_York")
+IN_CI = os.environ.get("GITHUB_ACTIONS") == "true"
+TRACKED = ["picks/", "public/latest.json", "public/results/results.json"]
+
 
 def log(msg):
-    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{ts}] {msg}", flush=True)
+    print(f"[{datetime.now(EASTERN):%Y-%m-%d %H:%M:%S}] {msg}", flush=True)
 
-def run(cmd, cwd=BASE_DIR):
-    log(f"$ {' '.join(cmd)}")
-    result = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
-    if result.stdout.strip():
-        for line in result.stdout.strip().splitlines():
-            log(f"  {line}")
-    if result.stderr.strip():
-        for line in result.stderr.strip().splitlines():
-            log(f"  [stderr] {line}")
-    if result.returncode != 0:
-        log(f"  [ERROR] exit code {result.returncode}")
-        return False
-    return True
 
-# ── Step 1: Grade yesterday's games ──────────────────────────────────────────
-log("=" * 60)
-log("CBB DAILY AUTOMATION")
-log("=" * 60)
+def run(cmd):
+    log("$ " + " ".join(cmd))
+    proc = subprocess.run(cmd, cwd=BASE_DIR, capture_output=True, text=True)
+    for stream, lines in (("", proc.stdout), ("[stderr] ", proc.stderr)):
+        for line in lines.strip().splitlines():
+            log(f"  {stream}{line}")
+    if proc.returncode != 0:
+        log(f"  [ERROR] exit code {proc.returncode}")
+    return proc.returncode == 0
 
-yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-log(f"Step 1: Grading picks for {yesterday}...")
-ok = run([sys.executable, "results_tracker.py", "--date", yesterday])
-if not ok:
-    log("[WARN] Results grading had errors — continuing anyway")
 
-# ── Step 2: Generate today's picks ───────────────────────────────────────────
-log("Step 2: Generating today's picks...")
-ok = run([sys.executable, "cbb_model.py", "--debug"])
-if not ok:
-    log("[ERROR] Model failed — aborting git push")
-    sys.exit(1)
+def main():
+    os.makedirs(os.path.join(BASE_DIR, "logs"), exist_ok=True)
+    now = datetime.now(EASTERN)
+    log("=" * 60)
+    log("CBB DAILY AUTOMATION")
 
-# ── Step 3: Stage and commit ──────────────────────────────────────────────────
-today = datetime.now().strftime("%b %d")
-log("Step 3: Committing to git...")
+    yesterday = (now - timedelta(days=1)).strftime("%Y-%m-%d")
+    log(f"Step 1: grading {yesterday}")
+    if not run([sys.executable, "results_tracker.py", "--date", yesterday]):
+        log("[WARN] grading failed — continuing")
 
-run(["git", "add",
-     "public/latest.json",
-     "public/results/results.json",
-     "picks/"])
+    log("Step 2: generating picks")
+    if not run([sys.executable, "cbb_model.py", "--debug"]):
+        log("[FATAL] model failed — nothing published")
+        sys.exit(1)
 
-# Check if there's anything to commit
-status = subprocess.run(["git", "status", "--porcelain"], cwd=BASE_DIR, capture_output=True, text=True)
-if not status.stdout.strip():
-    log("Nothing new to commit — already up to date")
-else:
-    run(["git", "commit", "-m", f"auto: {today} picks + grade {yesterday}"])
-    ok = run(["git", "push"])
-    if not ok:
-        log("[WARN] Push failed — trying force push")
-        run(["git", "push", "--force"])
+    if IN_CI:
+        log("Step 3: skipped (GitHub Actions workflow commits)")
+        return
 
-log("Done! Site will update in ~30 seconds via Vercel.")
-log("=" * 60)
+    log("Step 3: commit and push")
+    run(["git", "add", "--"] + TRACKED)
+    if not subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=BASE_DIR).returncode:
+        log("nothing to commit")
+        return
+    if not run(["git", "commit", "-m", f"auto: {now:%b %d} picks + results"]):
+        sys.exit(1)
+    if not run(["git", "push"]):
+        sys.exit(1)
+    log("Done")
+
+
+if __name__ == "__main__":
+    main()

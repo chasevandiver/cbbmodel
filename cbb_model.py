@@ -1,1226 +1,603 @@
 #!/usr/bin/env python3
 """
 College Basketball Prediction Model
-====================================
-A comprehensive statistical model for predicting NCAA basketball game outcomes.
-Uses KenPom-style advanced metrics, tempo-adjusted efficiency, and multiple
-predictive factors to generate spread and moneyline predictions.
+===================================
+Projects a point spread and total for every Division I game on a date.
 
-Requirements:
-    pip install requests beautifulsoup4 pandas numpy scipy scikit-learn
+Method (KenPom / Barttorvik style):
+    home_proj_oe = home.AdjOE + away.AdjDE - national_avg
+    away_proj_oe = away.AdjOE + home.AdjDE - national_avg
+    margin       = (home_proj_oe - away_proj_oe) * tempo / 100 + home_court
+    total        = (home_proj_oe + away_proj_oe) * tempo / 100
 
-Data Sources:
-    - ESPN API for schedules and scores
-    - barttorvik.com for advanced team stats (T-Rank)
-    - Sports Reference for supplementary stats
+Adjusted efficiencies already encapsulate shooting, turnovers, rebounding and
+free throws, so nothing else is added on top. Market lines are used only to
+report an edge and to score confidence, never to move the projection.
+
+Data sources:
+    - barttorvik.com   T-Rank adjusted efficiencies (cached under data/)
+    - ESPN             schedule, team metadata, fallback spread/total
+    - The Odds API     consensus spread/total (ODDS_API_KEY env var)
 
 Usage:
-    python cbb_model.py              # Generate today's picks
-    python cbb_model.py --date 2026-02-25  # Generate picks for a specific date
-    python cbb_model.py --output json      # Output as JSON for the website
+    python3 cbb_model.py                         # today's picks -> picks/ + public/
+    python3 cbb_model.py --date 2026-11-05       # a specific date (ET)
+    python3 cbb_model.py --output console        # readable output, writes nothing
+    python3 cbb_model.py --debug                 # show team matching
+    python3 cbb_model.py --check-teams           # audit ESPN <-> Barttorvik names
 """
 
-import requests
-import json
-import sys
-import os
-from datetime import datetime, timedelta
 import argparse
+import json
 import math
-import random
+import os
+import re
+import sys
+import time
+import unicodedata
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
+
+import requests
 
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(BASE_DIR, "picks")
+PUBLIC_DIR = os.path.join(BASE_DIR, "public")
+DATA_DIR = os.path.join(BASE_DIR, "data")
+
 ESPN_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard"
-BARTTORVIK_URL = "https://barttorvik.com/trank.php"
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "picks")
-
-# The Odds API
-ODDS_API_KEY = "f1c651a894f64fafcdda0ef0c250aba7"
+ESPN_TEAMS_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams"
+BARTTORVIK_URL = "https://barttorvik.com/{season}_team_results.json"
 ODDS_API_URL = "https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds"
+ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+ODDS_BOOKMAKERS = "draftkings,fanduel,betmgm,williamhill_us"
 
-# Model weights for each factor (tuned via backtesting)
-WEIGHTS = {
-    "adj_efficiency_margin": 0.30,    # KenPom-style adjusted efficiency margin
-    "tempo_adjusted_scoring": 0.12,   # Tempo-adjusted offensive/defensive ratings
-    "strength_of_schedule": 0.08,     # SOS impact
-    "recent_form": 0.12,              # Last 10 games performance trend
-    "home_court_advantage": 0.08,     # Home court bump (~3.5 pts historically)
-    "turnover_margin": 0.06,          # TO margin differential
-    "rebounding_margin": 0.06,        # Rebounding differential
-    "free_throw_rate": 0.04,          # FT rate and FT%
-    "three_point_shooting": 0.05,     # 3PT% offense vs opponent 3PT% defense
-    "experience_factor": 0.03,        # Roster experience / continuity
-    "rest_advantage": 0.03,           # Days of rest differential
-    "travel_fatigue": 0.03,           # Travel distance / timezone changes
+EASTERN = ZoneInfo("America/New_York")      # ESPN schedules are keyed by Eastern date
+
+HTTP_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "application/json,text/plain,*/*",
 }
+HTTP_RETRIES = 3
+STATS_CACHE_MAX_AGE_DAYS = 3                # refuse stale cached ratings beyond this
 
-HOME_COURT_ADVANTAGE_PTS = 3.5  # NCAA average home court advantage in points
-NEUTRAL_SITE_ADVANTAGE = 0.0
-NEUTRAL_SITE_PSEUDO_HCA = 1.5   # max pseudo-home advantage for better team on neutral floor
-BLOWOUT_THRESHOLD_PTS = 12.0    # predicted margin above this triggers regression
-BLOWOUT_REGRESSION_RATE = 0.25  # blend this fraction toward market when predicting blowout
-SWEET_SPOT_MIN = 3.0            # min model-vs-market edge for "best bet" flag
-SWEET_SPOT_MAX = 6.0            # max model-vs-market edge for "best bet" flag
-TEMPO_MISMATCH_THRESHOLD = 5.0  # tempo diff this large flags upset potential
+HOME_COURT_ADVANTAGE_PTS = 3.5              # D-I average; neutral sites get 0
+SPREAD_STD_DEV = 11.0                       # std dev of (actual - projected) margin
+MODEL_VERSION = "4.0.0"
 
+# Edge-vs-market bands used for confidence and the best-bet flag. An edge larger
+# than EDGE_MAX_TRUSTED almost always means stale ratings or a bad data point,
+# not a genuine opportunity. Re-tune these once a clean season of results exists.
+EDGE_BEST_BET_MIN = 3.0
+EDGE_BEST_BET_MAX = 6.0
+EDGE_MAX_TRUSTED = 10.0
 
-# ============================================================================
-# ESPN → BARTTORVIK TEAM NAME ALIAS TABLE
-# Add entries here whenever a team fails to match.
-# ============================================================================
-
-# Maps ESPN display names (lowercased) to exact barttorvik keys (lowercased).
-# Add entries here whenever a team fails to match.
+# ESPN team "location" -> Barttorvik team name, for the names that differ after
+# normalization. Run `--check-teams` at the start of each season to find drift.
 ESPN_TO_BARTTORVIK = {
-    "western michigan broncos":         "w. michigan",
-    "central michigan chippewas":       "c. michigan",
-    "eastern michigan eagles":          "e. michigan",
-    "northern illinois huskies":        "n. illinois",
-    "southern illinois salukis":        "s. illinois",
-    "middle tennessee blue raiders":    "mid tenn",
-    "miami (oh) redhawks":              "miami oh",
-    "miami (fl) hurricanes":            "miami fl",
-    "miami hurricanes":                 "miami fl",
-    "georgia state panthers":           "ga. st.",
-    "georgia southern eagles":          "ga. southern",
-    "san josé state spartans":          "san jose st.",
-    "san jose state spartans":          "san jose st.",
-    "louisiana ragin' cajuns":         "louisiana",
-    "louisiana lafayette ragin' cajuns": "louisiana",
-    "unc wilmington seahawks":          "unc wilmington",
-    "umass minutemen":                  "massachusetts",
-    "massachusetts minutemen":          "massachusetts",
-    "uconn huskies":                    "connecticut",
-    "utep miners":                      "utep",
-    "utsa roadrunners":                 "utsa",
-    "ut arlington mavericks":           "ut arlington",
-    "texas-arlington mavericks":        "ut arlington",
-    "lsu tigers":                       "lsu",
-    "vcu rams":                         "vcu",
-    "ucf knights":                      "ucf",
-    "uic flames":                       "uic",
-    "umkc roos":                        "umkc",
-    "siu edwardsville cougars":         "siue",
-    "southern indiana screaming eagles": "southern indiana",
-    "pfw mastodons":                    "purdue ft. wayne",
-    "purdue fort wayne mastodons":      "purdue ft. wayne",
-    "uc davis aggies":                  "uc davis",
-    "uc irvine anteaters":              "uc irvine",
-    "uc riverside highlanders":         "uc riverside",
-    "uc santa barbara gauchos":         "uc santa barbara",
-    "cal poly mustangs":                "cal poly",
-    "cal state bakersfield roadrunners": "cs bakersfield",
-    "cal state fullerton titans":       "cs fullerton",
-    "cal state northridge matadors":    "cs northridge",
-    "long beach state beach":           "long beach st.",
-    "hawaii rainbow warriors":          "hawaii",
-    "south florida bulls":              "usf",
-    "fiu panthers":                     "fiu",
-    "fau owls":                         "fau",
-    "florida atlantic owls":            "fau",
-    "florida international panthers":   "fiu",
-    "bowling green falcons":            "bowling green",
-    "kent state golden flashes":        "kent st.",
-    "coastal carolina chanticleers":    "coastal carolina",
-    "morehead state eagles":            "morehead st.",
-    "air force falcons":                "air force",
-    "army black knights":               "army",
-    "navy midshipmen":                  "navy",
-    "loyola chicago ramblers":          "loyola chicago",
-    "loyola marymount lions":           "lmu",
-    "st. john's red storm":            "st. john's",
-    "saint john's red storm":          "st. john's",
-    "mount st. mary's mountaineers":   "mt. st. mary's",
-    "mount st. mary's":                "mt. st. mary's",
-    "southern miss golden eagles":      "southern miss",
-    "south dakota state jackrabbits":   "s. dakota st.",
-    "north dakota state bison":         "n. dakota st.",
-    "south dakota coyotes":             "s. dakota",
-    "north dakota fighting hawks":      "n. dakota",
-    "southeast missouri state redhawks": "se missouri st.",
-    "southeast missouri redhawks":      "se missouri st.",
-    "western kentucky hilltoppers":     "w. kentucky",
-    "eastern kentucky colonels":        "e. kentucky",
-    "western illinois leathernecks":    "w. illinois",
-    "eastern illinois panthers":        "e. illinois",
-    "northern iowa panthers":           "n. iowa",
-    "southern utah thunderbirds":       "s. utah",
-    "northern colorado bears":          "n. colorado",
-    "western carolina catamounts":      "w. carolina",
-    "eastern washington eagles":        "e. washington",
-    "northern arizona lumberjacks":     "n. arizona",
-    "southern utah thunderbirds":       "s. utah",
-    "new mexico state aggies":          "new mexico st.",
-    "sam houston state bearkats":       "sam houston st.",
-    "stephen f. austin lumberjacks":    "sfa",
-    "stephen f austin lumberjacks":     "sfa",
-    "lamar cardinals":                  "lamar",
-    "george washington revolutionaries": "g. washington",
-    "central connecticut blue devils":  "central conn.",
-    "sacred heart pioneers":            "sacred heart",
-    "st. francis red flash":            "saint francis pa",
-    "saint francis (pa) red flash":     "saint francis pa",
-    "saint francis red flash":          "saint francis pa",
-    "new haven chargers":               "new haven",
-
-    # ── NC State — ESPN uses multiple name formats ────────────────────────────
-    # Must cover pre- AND post-normalization forms because "State"→"St." replacement
-    # runs during normalization, mangling "nc state wolfpack" → "nc st. wolfpack"
-    "nc state wolfpack":                "n.c. state",
-    "north carolina state wolfpack":    "n.c. state",
-    "n.c. state wolfpack":              "n.c. state",
-    "nc st. wolfpack":                  "n.c. state",
-    "north carolina st. wolfpack":      "n.c. state",
-    "nc state":                         "n.c. state",
-    "nc st.":                           "n.c. state",
-    "ncsu wolfpack":                    "n.c. state",
-    "ncsu":                             "n.c. state",
-    "north carolina state":             "n.c. state",
-
-    # ── Other fixes from debug run 2026-03-02 ─────────────────────────────────
-    # NOMAATCHes (games being skipped entirely)
-    "morgan state bears":               "morgan st.",
-    "coppin state eagles":              "coppin st.",
-    "iowa state cyclones":              "iowa st.",
-    "idaho vandals":                    "idaho",
-    "weber state wildcats":             "weber st.",
-    "idaho state bengals":              "idaho st.",
-
-    # Wrong matches (producing garbage predictions)
-    "iu indianapolis jaguars":          "iupui",
-    "delaware state hornets":           "delaware st.",
-    "northern arizona lumberjacks":     "n. arizona",
-    "se louisiana lions":               "se louisiana",
-    "texas a&m-corpus christi islanders": "tx. a&m corpus christi",
-    "northwestern state demons":        "northwestern st.",
-    "montana state bobcats":            "montana st.",
-    "northern colorado bears":          "n. colorado",
-    "stephen f. austin lumberjacks":    "sfa",
-    "incarnate word cardinals":         "incarnate word",
-    "ut rio grande valley vaqueros":    "ut rio grande valley",
-    "nicholls colonels":                "nicholls st.",
-    "mcneese cowboys":                  "mcneese st.",
-    "new orleans privateers":           "new orleans",
-    "houston christian huskies":        "houston christian",
-    "east texas a&m lions":             "east texas a&m",
+    "American University": "American",
+    "App State": "Appalachian St.",
+    "California Baptist": "Cal Baptist",
+    "Florida International": "FIU",
+    "Grambling": "Grambling St.",
+    "Hawai'i": "Hawaii",
+    "IU Indianapolis": "IU Indy",
+    "Kansas City": "UMKC",
+    "Long Island University": "LIU",
+    "Loyola Maryland": "Loyola MD",
+    "LSU New Orleans": "New Orleans",
+    "McNeese": "McNeese St.",
+    "Miami": "Miami FL",
+    "NC State": "N.C. State",
+    "Nicholls": "Nicholls St.",
+    "Ole Miss": "Mississippi",
+    "Omaha": "Nebraska Omaha",
+    "Pennsylvania": "Penn",
+    "Queens University": "Queens",
+    "Sam Houston": "Sam Houston St.",
+    "SE Louisiana": "Southeastern Louisiana",
+    "Seattle U": "Seattle",
+    "South Carolina Upstate": "USC Upstate",
+    "Texas A&M-Corpus Christi": "Texas A&M Corpus Chris",
+    "UAlbany": "Albany",
+    "UConn": "Connecticut",
+    "UIC": "Illinois Chicago",
+    "UL Monroe": "Louisiana Monroe",
+    "UT Martin": "Tennessee Martin",
 }
 
 
 # ============================================================================
-# DATA FETCHING
+# HELPERS
 # ============================================================================
 
-class TeamStatsProvider:
-    """
-    Fetches and caches team statistics from multiple sources.
-    """
+def canon(name):
+    """Canonical key for a team name: accent-free, lowercase, 'State'/'Saint' -> 'st'."""
+    name = unicodedata.normalize("NFD", name or "")
+    name = "".join(c for c in name if unicodedata.category(c) != "Mn").lower().strip()
+    name = name.replace("&", " and ")
+    name = re.sub(r"\bsaint\b", "st", name)
+    name = re.sub(r"\bstate\b", "st", name)
+    name = re.sub(r"\bst\.", "st", name)
+    name = re.sub(r"[^a-z0-9 ]", " ", name)
+    return re.sub(r"\s+", " ", name).strip()
 
-    def __init__(self):
-        self.team_stats_cache = {}
-        self.schedule_cache = {}
 
-    def fetch_team_stats(self):
-        """
-        Fetch advanced team stats from barttorvik, fallback to ESPN.
-        Returns dict of team_name -> stats dict
-        """
+def season_for(date):
+    """Barttorvik labels a season by the year it ends: Nov 2026 - Apr 2027 -> 2027."""
+    return date.year + 1 if date.month >= 10 else date.year
+
+
+def http_get(url, **kwargs):
+    """GET with retries and a browser-like UA. Returns the Response or raises."""
+    kwargs.setdefault("timeout", 20)
+    headers = dict(HTTP_HEADERS)
+    headers.update(kwargs.pop("headers", {}))
+    last_err = None
+    for attempt in range(HTTP_RETRIES):
         try:
-            stats = self._fetch_barttorvik_stats()
-            if stats:
-                self.team_stats_cache = stats
-                return stats
-        except Exception as e:
-            print(f"[WARN] Could not fetch Barttorvik stats: {e}")
-
-        try:
-            stats = self._fetch_espn_team_stats()
-            if stats:
-                self.team_stats_cache = stats
-                return stats
-        except Exception as e:
-            print(f"[WARN] Could not fetch ESPN stats: {e}")
-
-        print("[ERROR] No stats source available. Model cannot run.")
-        return {}
-
-    def _fetch_barttorvik_stats(self):
-        """
-        Fetch T-Rank data from barttorvik.com
-
-        Barttorvik list-of-lists format (2026_team_results.json):
-        Index mapping based on observed data:
-        [0]  = rank
-        [1]  = team name
-        [2]  = conference
-        [3]  = record (e.g. "25-2")
-        [4]  = AdjOE
-        [5]  = AdjOE rank
-        [6]  = AdjDE
-        [7]  = AdjDE rank
-        [8]  = Barthag
-        [9]  = Barthag rank
-        [10] = wins (float version)
-        [11] = losses (float version)
-        [12] = AdjTempo (approx)
-        [13] = AdjTempo rank
-        [14] = SOS (approx)
-        [22] = recent AdjOE
-        [24] = recent AdjDE
-        [26] = projected AdjOE
-        [28] = projected AdjDE
-        """
-        url = "https://barttorvik.com/2026_team_results.json"
-        headers = {"User-Agent": "Mozilla/5.0 (compatible; CBBModel/1.0)"}
-
-        resp = requests.get(url, headers=headers, timeout=15)
-        if resp.status_code != 200:
-            return None
-
-        try:
-            data = resp.json()
-        except json.JSONDecodeError:
-            return None
-
-        if not isinstance(data, list):
-            return None
-
-        stats = {}
-        for team in data:
-            try:
-                if isinstance(team, list):
-                    team_name = str(team[1])
-                    conf = str(team[2]) if len(team) > 2 else ""
-
-                    # [3] = full season record e.g. "25-2"
-                    record = str(team[3]) if len(team) > 3 else "0-0"
-                    if "-" in record:
-                        wins = int(record.split("-")[0])
-                        losses = int(record.split("-")[1])
-                    else:
-                        wins, losses = 0, 0
-
-                    adj_oe  = float(team[4])  if len(team) > 4  else 100.0
-                    adj_de  = float(team[6])  if len(team) > 6  else 100.0
-                    barthag = float(team[8])  if len(team) > 8  else 0.5
-                    # [44] = AdjTempo (confirmed ~65-82 range)
-                    adj_tempo = float(team[44]) if len(team) > 44 else 68.0
-                    # [33] = SOS
-                    sos = float(team[33]) if len(team) > 33 else 0.0
-                    # [23] = recent AdjOE, [24] = recent AdjDE
-                    recent_adj_oe = float(team[23]) if len(team) > 23 else adj_oe
-                    recent_adj_de = float(team[24]) if len(team) > 24 else adj_de
-
-                    stats[self._normalize_team_name(team_name)] = {
-                        "adj_oe": adj_oe,
-                        "adj_de": adj_de,
-                        "adj_tempo": adj_tempo,
-                        "barthag": barthag,
-                        "wins": wins,
-                        "losses": losses,
-                        "sos": sos,
-                        "conf": conf,
-                        # Four Factors — not directly in this endpoint, use defaults
-                        "efg_pct":   round((float(team[15]) if len(team) > 15 else 0.50) * 100, 2),
-                        "efg_pct_d": round((float(team[16]) if len(team) > 16 else 0.50) * 100, 2),
-                        "to_pct":    round((1 - (float(team[17]) if len(team) > 17 else 0.80)) * 100, 2),
-                        "to_pct_d":  round((1 - (float(team[18]) if len(team) > 18 else 0.80)) * 100, 2),
-                        "orb_pct":   round((float(team[19]) if len(team) > 19 else 0.30) * 100, 2),
-                        "drb_pct": 70.0,
-                        "ft_rate":   round((float(team[21]) if len(team) > 21 else 0.30) * 100, 2),
-                        "ft_rate_d": round((float(team[22]) if len(team) > 22 else 0.30) * 100, 2),
-                        "ft_pct": 70.0,
-                        "three_pct": 33.0,
-                        "three_pct_d": 33.0,
-                        "two_pct": 48.0,
-                        "two_pct_d": 48.0,
-                        "blk_pct": 8.0,
-                        "stl_pct": 9.0,
-                        "assist_pct": 50.0,
-                        "experience": float(team[43]) if len(team) > 43 and isinstance(team[43], (int, float)) and 0 < float(team[43]) < 6 else 1.5,
-                        "recent_adj_oe": recent_adj_oe,
-                        "recent_adj_de": recent_adj_de,
-                    }
-
-                elif isinstance(team, dict):
-                    # Handle dict format just in case
-                    team_name = team.get("team", team.get("Team", ""))
-                    if not team_name:
-                        continue
-                    adj_oe = float(team.get("adjoe", team.get("AdjOE", 100)))
-                    adj_de = float(team.get("adjde", team.get("AdjDE", 100)))
-                    record = team.get("record", "0-0")
-                    if "-" in str(record):
-                        wins = int(str(record).split("-")[0])
-                        losses = int(str(record).split("-")[1])
-                    else:
-                        wins = int(team.get("wins", team.get("W", 0)))
-                        losses = int(team.get("losses", team.get("L", 0)))
-
-                    stats[self._normalize_team_name(team_name)] = {
-                        "adj_oe": adj_oe,
-                        "adj_de": adj_de,
-                        "adj_tempo": float(team.get("adjtempo", team.get("AdjTempo", 68))),
-                        "barthag": float(team.get("barthag", team.get("Barthag", 0.5))),
-                        "wins": wins,
-                        "losses": losses,
-                        "sos": float(team.get("sos", team.get("SOS", 0))),
-                        "conf": team.get("conf", team.get("Conf", "")),
-                        "efg_pct": float(team.get("efg", team.get("eFG%", 50))),
-                        "efg_pct_d": float(team.get("efg_d", team.get("DeFG%", 50))),
-                        "to_pct": float(team.get("tov", team.get("TO%", 18))),
-                        "to_pct_d": float(team.get("tov_d", team.get("DTO%", 18))),
-                        "orb_pct": float(team.get("orb", team.get("ORB%", 30))),
-                        "drb_pct": float(team.get("drb", team.get("DRB%", 70))),
-                        "ft_rate": float(team.get("ftr", team.get("FTRate", 30))),
-                        "ft_rate_d": float(team.get("ftr_d", team.get("DFTRate", 30))),
-                        "ft_pct": float(team.get("ft_pct", team.get("FT%", 70))),
-                        "three_pct": float(team.get("three_pct", team.get("3P%", 33))),
-                        "three_pct_d": float(team.get("three_pct_d", team.get("D3P%", 33))),
-                        "two_pct": float(team.get("two_pct", team.get("2P%", 48))),
-                        "two_pct_d": float(team.get("two_pct_d", team.get("D2P%", 48))),
-                        "blk_pct": float(team.get("blk", team.get("Blk%", 8))),
-                        "stl_pct": float(team.get("stl", team.get("Stl%", 9))),
-                        "assist_pct": float(team.get("ast", team.get("Ast%", 50))),
-                        "experience": float(team.get("exp", team.get("Exp", 1.5))),
-                        "recent_adj_oe": float(team.get("adjoe_recent", adj_oe)),
-                        "recent_adj_de": float(team.get("adjde_recent", adj_de)),
-                    }
-
-            except (IndexError, ValueError, TypeError):
-                continue
-
-        return stats if stats else None
-
-    def _fetch_espn_team_stats(self):
-        """Fetch basic team stats from ESPN API"""
-        url = "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams"
-        resp = requests.get(url, timeout=15)
-        if resp.status_code != 200:
-            return None
-        data = resp.json()
-        stats = {}
-        for team in data.get("sports", [{}])[0].get("leagues", [{}])[0].get("teams", []):
-            team_info = team.get("team", {})
-            name = team_info.get("displayName", "")
-            stats[self._normalize_team_name(name)] = self._default_stats(name)
-        return stats
-
-    def _default_stats(self, team_name):
-        """Return default/average stats when real data unavailable"""
-        return {
-            "adj_oe": 100.0,
-            "adj_de": 100.0,
-            "adj_tempo": 68.0,
-            "barthag": 0.5,
-            "wins": 0,
-            "losses": 0,
-            "sos": 0.0,
-            "conf": "",
-            "efg_pct": 50.0,
-            "efg_pct_d": 50.0,
-            "to_pct": 18.0,
-            "to_pct_d": 18.0,
-            "orb_pct": 30.0,
-            "drb_pct": 70.0,
-            "ft_rate": 30.0,
-            "ft_rate_d": 30.0,
-            "ft_pct": 70.0,
-            "three_pct": 33.0,
-            "three_pct_d": 33.0,
-            "two_pct": 48.0,
-            "two_pct_d": 48.0,
-            "blk_pct": 8.0,
-            "stl_pct": 9.0,
-            "assist_pct": 50.0,
-            "experience": 1.5,
-            "recent_adj_oe": 100.0,
-            "recent_adj_de": 100.0,
-        }
+            resp = requests.get(url, headers=headers, **kwargs)
+            if resp.status_code == 200:
+                return resp
+            last_err = f"HTTP {resp.status_code}: {resp.text[:120]!r}"
+        except requests.RequestException as e:
+            last_err = str(e)
+        time.sleep(2 ** attempt)
+    raise RuntimeError(f"{url} failed after {HTTP_RETRIES} attempts: {last_err}")
 
 
-    def _normalize_team_name(self, name):
-        """Normalize team names for matching across sources."""
-        import unicodedata
-        # Strip accents (José -> Jose)
-        name = unicodedata.normalize("NFD", name)
-        name = "".join(c for c in name if unicodedata.category(c) != "Mn")
-        name = name.strip()
-
-        # Check alias table first (before any other normalization)
-        lower = name.lower()
-        if lower in ESPN_TO_BARTTORVIK:
-            return ESPN_TO_BARTTORVIK[lower]
-
-        # Remove common ESPN nickname suffixes
-        for suffix in [
-            " Blue Devils", " Tar Heels", " Wildcats", " Bulldogs", " Tigers",
-            " Eagles", " Bears", " Lions", " Hawks", " Knights", " Warriors",
-            " Cougars", " Huskies", " Trojans", " Bruins", " Volunteers",
-            " Hoosiers", " Boilermakers", " Spartans", " Wolverines", " Buckeyes",
-            " Longhorns", " Sooners", " Jayhawks", " Cyclones", " Cowboys",
-            " Red Raiders", " Mountaineers", " Panthers", " Cardinals", " Ducks",
-            " Beavers", " Utes", " Sun Devils", " Buffaloes", " Golden Bears",
-            " Aggies", " Horned Frogs", " Mustangs", " Mean Green", " Roadrunners",
-            " Golden Eagles", " Flames", " Braves", " Broncos", " Falcons",
-            " Chippewas", " Flashes", " Chanticleers", " Screaming Eagles",
-            " RedHawks", " Redhawks", " Rockets", " Zips", " Bulls",
-            " Thundering Herd", " Monarchs", " Musketeers", " Bearcats",
-            " Hilltoppers", " Colonels", " Leathernecks", " Ramblers",
-            " Explorers", " Billikens", " Flyers", " Friars", " Hoyas",
-            " Retrievers", " Greyhounds", " Ravens", " Terrapins", " Terps",
-            " Fighting Irish", " Orange", " Crimson Tide", " Razorbacks",
-            " Gators", " Seminoles", " Hurricanes", " Hokies", " Cavaliers",
-            " Demon Deacons", " Yellow Jackets", " Cornhuskers", " Hawkeyes",
-            " Badgers", " Gophers", " Illini", " Ramblin Wrecks",
-            " Midshipmen", " Black Knights", " Cadets",
-        ]:
-            if name.endswith(suffix):
-                name = name[: -len(suffix)]
-                break
-
-        replacements = {
-            "Saint ": "St. ",
-            "State": "St.",
-            "University": "",
-            "  ": " ",
-        }
-        for old_str, new_str in replacements.items():
-            name = name.replace(old_str, new_str)
-        return name.strip().lower()
-
-    def fetch_odds(self):
-        """
-        Fetch live spreads and totals from The Odds API.
-        Returns a dict keyed by normalized team name pairs for fast lookup.
-        Format: { "team_a|team_b": { spread, over_under, favorite, bookmaker } }
-        """
-        params = {
-            "apiKey": ODDS_API_KEY,
-            "regions": "us",
-            "markets": "spreads,totals",
-            "oddsFormat": "american",
-            "bookmakers": "draftkings,fanduel,betmgm,williamhill_us",
-        }
-        try:
-            resp = requests.get(ODDS_API_URL, params=params, timeout=15)
-            if resp.status_code != 200:
-                print(f"[WARN] Odds API returned {resp.status_code}: {resp.text[:200]}")
-                return {}
-
-            data = resp.json()
-            odds_map = {}
-
-            for game in data:
-                home = game.get("home_team", "")
-                away = game.get("away_team", "")
-                home_key = self._normalize_team_name(home)
-                away_key = self._normalize_team_name(away)
-
-                spread = None
-                over_under = None
-                favorite = None
-                bookmaker_used = None
-
-                # Walk through bookmakers, prefer DraftKings then FanDuel
-                for bookie in game.get("bookmakers", []):
-                    bookmaker_used = bookie.get("key", "")
-                    for market in bookie.get("markets", []):
-                        if market["key"] == "spreads" and spread is None:
-                            for outcome in market.get("outcomes", []):
-                                if outcome["name"] == home:
-                                    spread = float(outcome["point"])
-                                    favorite = home if spread < 0 else away
-                        if market["key"] == "totals" and over_under is None:
-                            for outcome in market.get("outcomes", []):
-                                if outcome["name"] == "Over":
-                                    over_under = float(outcome["point"])
-                    if spread is not None and over_under is not None:
-                        break
-
-                if spread is not None:
-                    key = f"{home_key}|{away_key}"
-                    odds_map[key] = {
-                        "spread": spread,          # from home team perspective (negative = home favored)
-                        "over_under": over_under,
-                        "favorite": favorite,
-                        "bookmaker": bookmaker_used,
-                        "home_team": home,
-                        "away_team": away,
-                    }
-
-            print(f"       Loaded odds for {len(odds_map)} games from The Odds API")
-            return odds_map
-
-        except Exception as e:
-            print(f"[WARN] Could not fetch odds: {e}")
-            return {}
-
-    def fetch_schedule(self, date_str):
-        """
-        Fetch the day's schedule from ESPN API.
-        date_str format: YYYYMMDD
-        """
-        seen_ids = set()
-        games = []
-
-        def parse_events(data):
-            for event in data.get("events", []):
-                game_id = event.get("id", "")
-                if game_id in seen_ids:
-                    continue
-                seen_ids.add(game_id)
-
-                competition = event.get("competitions", [{}])[0]
-                competitors = competition.get("competitors", [])
-                if len(competitors) != 2:
-                    continue
-
-                home_team = None
-                away_team = None
-                for c in competitors:
-                    team_data = {
-                        "id": c.get("id", ""),
-                        "name": c.get("team", {}).get("displayName", ""),
-                        "abbreviation": c.get("team", {}).get("abbreviation", ""),
-                        "logo": c.get("team", {}).get("logo", ""),
-                        "rank": c.get("curatedRank", {}).get("current", 99),
-                        "record": c.get("records", [{}])[0].get("summary", "0-0") if c.get("records") else "0-0",
-                    }
-                    if c.get("homeAway") == "home":
-                        home_team = team_data
-                    else:
-                        away_team = team_data
-
-                if home_team and away_team:
-                    games.append({
-                        "game_id": game_id,
-                        "date": event.get("date", ""),
-                        "name": event.get("name", ""),
-                        "home": home_team,
-                        "away": away_team,
-                        "venue": competition.get("venue", {}).get("fullName", ""),
-                        "neutral_site": competition.get("neutralSite", False),
-                        "conference_game": competition.get("conferenceCompetition", False),
-                        "broadcast": competition.get("broadcasts", [{}])[0].get("names", [""])[0] if competition.get("broadcasts") else "",
-                        "status": event.get("status", {}).get("type", {}).get("name", ""),
-                        "odds": self._extract_odds(competition),
-                    })
-
-        try:
-            # Primary call: groups=50 (Division I)
-            resp = requests.get(ESPN_SCOREBOARD_URL, params={"dates": date_str, "limit": 500, "groups": 50}, timeout=15)
-            parse_events(resp.json())
-
-            # Supplemental calls for major conferences that sometimes get missed
-            # ACC=2, Big 12=8, Big Ten=7, SEC=9, Big East=4, Pac-12=21
-            for group_id in [2, 8, 7, 9, 4, 21]:
-                try:
-                    r = requests.get(ESPN_SCOREBOARD_URL, params={"dates": date_str, "limit": 100, "groups": group_id}, timeout=10)
-                    parse_events(r.json())
-                except Exception:
-                    pass
-
-        except Exception as e:
-            print(f"[ERROR] Failed to fetch schedule: {e}")
-
-        return games
-
-    def _extract_odds(self, competition):
-        """Extract betting odds from ESPN data"""
-        odds_data = competition.get("odds", [{}])
-        if not odds_data:
-            return None
-        odds = odds_data[0]
-        return {
-            "spread": odds.get("spread", 0),
-            "over_under": odds.get("overUnder", 0),
-            "spread_holder": odds.get("spreadHolder", {}).get("displayName", ""),
-            "favorite_id": odds.get("spreadHolder", {}).get("id", ""),
-        }
+def norm_cdf(x):
+    return 0.5 * (1.0 + math.erf(x / math.sqrt(2.0)))
 
 
 # ============================================================================
-# PREDICTION MODEL
+# TEAM RATINGS
 # ============================================================================
 
-class CBBPredictionModel:
+class TeamRatings:
     """
-    Multi-factor college basketball prediction model.
-
-    Core methodology:
-    1. Start with adjusted efficiency margin (KenPom-style)
-    2. Layer in Four Factors analysis
-    3. Apply tempo adjustment for projected pace
-    4. Factor in situational variables (home court, rest, travel)
-    5. Apply recent form weighting
-    6. Generate point spread, projected total, and win probability
+    Barttorvik team_results.json, list-of-lists. Columns used:
+        [1] team  [2] conf  [3] record "W-L"  [4] AdjOE  [6] AdjDE  [8] Barthag  [44] AdjTempo
+    The file carries no four-factor or recent-form columns; do not read others.
     """
 
-    def __init__(self, team_stats):
-        self.team_stats = team_stats
-        self.predictions = []
+    def __init__(self, season):
+        self.season = season
+        self.by_key = {}            # canon(team name) -> stats
+        self.avg_oe = 0.0
+        self.source = None
 
-    def predict_game(self, game):
-        """Generate a full prediction for a single game"""
-        home = game["home"]
-        away = game["away"]
-
-        home_name = self._find_team(home["name"])
-        away_name = self._find_team(away["name"])
-
-        if not home_name or not away_name:
-            if getattr(self, "debug", False):
-                if not home_name:
-                    print(f"  [NOMATCH] {home['name']}")
-                if not away_name:
-                    print(f"  [NOMATCH] {away['name']}")
-            return None
-
-        if getattr(self, "debug", False):
-            print(f"  [MATCH] {home['name']} → {home_name}  |  {away['name']} → {away_name}")
-
-        home_stats = self.team_stats[home_name]
-        away_stats = self.team_stats[away_name]
-
-        # ---- CORE: Adjusted Efficiency Margin ----
-        # Project each team's points per 100 possessions against the other's defense.
-        # Formula: (Team_AdjOE * Opp_AdjDE) / national_avg
-        # This gives efficiency in points-per-100-possessions units.
-        national_avg_oe = 100.0
-        home_projected_oe = home_stats["adj_oe"] + away_stats["adj_de"] - 100.0
-        away_projected_oe = away_stats["adj_oe"] + home_stats["adj_de"] - 100.0
-
-        # Efficiency differential (points per 100 possessions)
-        efficiency_margin = home_projected_oe - away_projected_oe
-
-        # ---- TEMPO PROJECTION ----
-        projected_tempo = (home_stats["adj_tempo"] + away_stats["adj_tempo"]) / 2
-
-        # ---- TEMPO MISMATCH FLAG ----
-        # 5+ pt tempo differential makes pace unpredictable → upset-prone.
-        tempo_diff = abs(home_stats["adj_tempo"] - away_stats["adj_tempo"])
-        tempo_mismatch = tempo_diff >= TEMPO_MISMATCH_THRESHOLD
-
-        # ---- CONVERT EFFICIENCY TO ACTUAL POINTS ----
-        # Multiply by (tempo / 100) to get expected point margin for this game's pace.
-        # e.g. efficiency_margin=8.0, tempo=68 → raw_margin = 8.0 * (68/100) = 5.4 pts
-        raw_margin = efficiency_margin * (projected_tempo / 100.0)
-
-        # ---- HOME COURT ADVANTAGE / NEUTRAL SITE ----
-        if game.get("neutral_site", False):
-            # Neutral floor: no traditional HCA. Instead, the better team earns a
-            # small "pseudo-home" advantage (up to ±1.5 pts) based on quality gap.
-            # This models conference tournament seeding and NCAA bracket placement.
-            home_barthag = home_stats.get("barthag", 0.5)
-            away_barthag = away_stats.get("barthag", 0.5)
-            barthag_diff = home_barthag - away_barthag  # positive → home is better team
-
-            # Secondary: AP/ESPN ranking if available (lower number = better seed)
-            home_rank = home.get("rank", 99)
-            away_rank = away.get("rank", 99)
-            rank_adj = 0.0
-            if home_rank < 99 and away_rank < 99:
-                rank_diff = away_rank - home_rank   # positive → home is better ranked
-                rank_adj = max(min(rank_diff * 0.04, 0.8), -0.8)
-
-            hca = max(
-                min(barthag_diff * 5.0 + rank_adj, NEUTRAL_SITE_PSEUDO_HCA),
-                -NEUTRAL_SITE_PSEUDO_HCA,
+    # ---- loading --------------------------------------------------------
+    def load(self):
+        rows = self._fetch_live()
+        if rows is None:
+            rows = self._load_cache()
+        if rows is None:
+            raise SystemExit(
+                f"[FATAL] No team ratings for season {self.season}: Barttorvik is unreachable "
+                f"and no cache younger than {STATS_CACHE_MAX_AGE_DAYS} days exists under data/. "
+                "Refusing to generate picks from placeholder data."
             )
-        else:
-            hca = HOME_COURT_ADVANTAGE_PTS
+        self._index(rows)
+        return self
 
-        # ---- RECENT FORM (small nudge only) ----
-        # adj_oe/adj_de already capture turnovers, rebounding, shooting, etc.
-        # Adding those on top is double-counting. Only recent trend is additive.
-        home_recent_net = home_stats.get("recent_adj_oe", home_stats["adj_oe"]) - home_stats.get("recent_adj_de", home_stats["adj_de"])
-        away_recent_net = away_stats.get("recent_adj_oe", away_stats["adj_oe"]) - away_stats.get("recent_adj_de", away_stats["adj_de"])
-        home_trend = home_recent_net - (home_stats["adj_oe"] - home_stats["adj_de"])
-        away_trend = away_recent_net - (away_stats["adj_oe"] - away_stats["adj_de"])
-        # Convert to points, cap at ±2 pts
-        recent_form_pts = max(-2.0, min(2.0, (home_trend - away_trend) * (projected_tempo / 100.0) * 0.25))
+    def _fetch_live(self):
+        url = BARTTORVIK_URL.format(season=self.season)
+        try:
+            rows = http_get(url).json()
+        except (RuntimeError, ValueError) as e:
+            print(f"[WARN] Barttorvik fetch failed: {e}")
+            return None
+        if not isinstance(rows, list) or len(rows) < 300:
+            print(f"[WARN] Barttorvik returned an unexpected payload ({type(rows).__name__}, "
+                  f"{len(rows) if isinstance(rows, list) else 'n/a'} rows)")
+            return None
+        os.makedirs(DATA_DIR, exist_ok=True)
+        with open(self._cache_path(), "w") as f:
+            json.dump({"fetched_at": datetime.now(EASTERN).isoformat(), "rows": rows}, f)
+        self.source = "barttorvik (live)"
+        return rows
 
-        # Zero out secondary factors (all captured inside adj_oe/adj_de)
-        four_factors_margin = self._calc_four_factors(home_stats, away_stats)
-        turnover_margin     = self._calc_turnover_advantage(home_stats, away_stats)
-        rebounding_margin   = self._calc_rebounding_advantage(home_stats, away_stats)
-        three_point_margin  = self._calc_three_point_advantage(home_stats, away_stats)
-        ft_margin           = self._calc_ft_advantage(home_stats, away_stats)
-        recent_form_diff    = recent_form_pts
-        to_margin       = self._calc_turnover_advantage(home_stats, away_stats)
-        reb_margin      = self._calc_rebounding_advantage(home_stats, away_stats)
-        three_pt_margin = self._calc_three_point_advantage(home_stats, away_stats)
-        ft_margin       = self._calc_ft_advantage(home_stats, away_stats)
-        exp_margin      = (home_stats.get("barthag", 0.5) - away_stats.get("barthag", 0.5)) * 2.0
-        sos_margin          = (home_stats.get("sos", 0.0) - away_stats.get("sos", 0.0)) * 2.0
+    def _cache_path(self):
+        return os.path.join(DATA_DIR, f"barttorvik_{self.season}.json")
 
-        # ============================================================
-        # FINAL PREDICTION = efficiency margin (in pts) + HCA + recent trend
-        # ============================================================
-        # Scale factor contributions (they're additive adjustments in points)
-        # four_factors/TO/reb are huge because Barttorvik values are 0-1 decimals
-        # treated as percentages in calc functions — scale down accordingly
-        ff_contribution  = max(min(four_factors_margin * 0.015, 3.0), -3.0)
-        to_contribution  = max(min(to_margin * 0.015, 2.0), -2.0)
-        reb_contribution = max(min(reb_margin * 0.5, 2.0), -2.0)
-        ft_contribution  = max(min(ft_margin * 0.015, 1.5), -1.5)
-        exp_contribution = max(min(exp_margin, 1.0), -1.0)
+    def _load_cache(self):
+        path = self._cache_path()
+        if not os.path.exists(path):
+            return None
+        with open(path) as f:
+            blob = json.load(f)
+        fetched = datetime.fromisoformat(blob["fetched_at"])
+        age = datetime.now(EASTERN) - fetched
+        if age > timedelta(days=STATS_CACHE_MAX_AGE_DAYS):
+            print(f"[WARN] Cached ratings are {age.days} days old — too stale to use")
+            return None
+        print(f"[WARN] Using cached ratings fetched {fetched:%Y-%m-%d %H:%M} ET")
+        self.source = f"barttorvik (cache {fetched:%Y-%m-%d})"
+        return blob["rows"]
 
-        predicted_margin = raw_margin + hca + recent_form_pts + ff_contribution + to_contribution + reb_contribution + ft_contribution + exp_contribution
+    def _index(self, rows):
+        for t in rows:
+            try:
+                wins, losses = (int(x) for x in str(t[3]).split("-")[:2])
+            except (ValueError, IndexError):
+                wins, losses = 0, 0
+            self.by_key[canon(t[1])] = {
+                "team": t[1],
+                "conf": t[2],
+                "adj_oe": float(t[4]),
+                "adj_de": float(t[6]),
+                "barthag": float(t[8]),
+                "adj_tempo": float(t[44]),
+                "wins": wins,
+                "losses": losses,
+                "games": wins + losses,
+            }
+        self.avg_oe = sum(s["adj_oe"] for s in self.by_key.values()) / len(self.by_key)
 
-        # ---- BLOWOUT REGRESSION ----
-        # Empirical result: predicted blowouts (12+ pts) have MAE=15.9 pts vs
-        # 10.0 pts for tight games, and model over-predicts 55% of blowouts by 5+ pts.
-        # Blend large predictions 25% toward the market line (or 15% toward 0).
-        if abs(predicted_margin) >= BLOWOUT_THRESHOLD_PTS:
-            _mkt_odds = game.get("odds")
-            if _mkt_odds and _mkt_odds.get("spread") is not None:
-                _market_margin = -float(_mkt_odds["spread"])
-                predicted_margin = (
-                    predicted_margin * (1 - BLOWOUT_REGRESSION_RATE)
-                    + _market_margin * BLOWOUT_REGRESSION_RATE
-                )
-            else:
-                # No market data: regress 15% toward zero
-                predicted_margin *= (1 - BLOWOUT_REGRESSION_RATE * 0.6)
+    # ---- lookup ---------------------------------------------------------
+    def find(self, location):
+        """Exact lookup by ESPN team location via the alias table, then canonical key."""
+        alias = ESPN_TO_BARTTORVIK.get(location)
+        if alias and canon(alias) in self.by_key:
+            return self.by_key[canon(alias)]
+        return self.by_key.get(canon(location))
 
-        # ---- PROJECT TOTAL SCORE ----
-        # Apply 0.905 calibration factor — barttorvik AdjOE/AdjDE are inflated
-        # relative to actual game scores; empirically derived from market O/U comparison.
-        projected_total = projected_tempo * (home_projected_oe + away_projected_oe) / 100 * 0.905
 
-        # ---- WIN PROBABILITY ----
-        std_dev = 11.0
-        home_win_prob = 1 / (1 + math.exp(-predicted_margin / (std_dev * 0.5)))
+# ============================================================================
+# SCHEDULE + ODDS
+# ============================================================================
 
-        # ---- CONFIDENCE RATING ----
-        confidence = self._calc_confidence(
-            predicted_margin, home_stats, away_stats,
-            game.get("odds"), projected_total
-        )
+def fetch_schedule(date_str):
+    """All D-I games on an Eastern date (YYYYMMDD). Includes non-D-I opponents; those won't match ratings."""
+    data = http_get(ESPN_SCOREBOARD_URL, params={"dates": date_str, "limit": 500, "groups": 50}).json()
+    games = []
+    for event in data.get("events", []):
+        comp = (event.get("competitions") or [{}])[0]
+        sides = {}
+        for c in comp.get("competitors", []):
+            team = c.get("team", {})
+            sides[c.get("homeAway")] = {
+                "id": team.get("id", ""),
+                "location": team.get("location") or team.get("displayName", ""),
+                "name": team.get("displayName", ""),
+                "abbreviation": team.get("abbreviation", ""),
+                "logo": team.get("logo", ""),
+                "rank": (c.get("curatedRank") or {}).get("current", 99),
+                "record": (c.get("records") or [{}])[0].get("summary", "0-0"),
+            }
+        if "home" not in sides or "away" not in sides:
+            continue
+        broadcasts = comp.get("broadcasts") or []
+        games.append({
+            "game_id": event.get("id", ""),
+            "date": event.get("date", ""),
+            "name": event.get("name", ""),
+            "home": sides["home"],
+            "away": sides["away"],
+            "venue": (comp.get("venue") or {}).get("fullName", ""),
+            "neutral_site": bool(comp.get("neutralSite", False)),
+            "conference_game": bool(comp.get("conferenceCompetition", False)),
+            "broadcast": (broadcasts[0].get("names") or [""])[0] if broadcasts else "",
+            "status": (event.get("status") or {}).get("type", {}).get("name", ""),
+            "odds": _espn_odds(comp),
+        })
+    return games
 
-        # ---- VALUE RATING vs MARKET ----
-        # The Odds API spread is stored in home-team perspective:
-        #   negative = home is favored (e.g. Toledo at home = -11.5)
-        #   positive = away is favored (e.g. home is underdog = +11.5)
-        # predicted_margin is also in home-team perspective (positive = home wins).
-        # Value = how many pts our prediction differs from the market line.
-        # Toledo: predicted_margin=+13.7, market=-11.5 → both mean "Toledo by X"
-        #   Model says Toledo by 13.7, market says Toledo by 11.5 → edge = 2.2
-        #   Correct math: spread_diff = 13.7 - 11.5 = 2.2 (compare absolute margins)
-        value_rating = None
-        market_spread = None
-        market_spread_home = None
-        if game.get("odds") and game["odds"].get("spread") is not None:
-            market_spread_home = float(game["odds"]["spread"])
-            market_spread = market_spread_home
-            # Convert both to "home team margin" and subtract
-            # market_spread_home is negative when home favored, so negate it to get margin
-            # Both margins expressed as "home team wins by X" (negative = away wins)
-            market_margin = -market_spread_home  # e.g. -(-11.5) = +11.5 = "Toledo wins by 11.5"
-            model_margin = predicted_margin       # e.g. +13.7 = "Toledo wins by 13.7"
-            spread_diff = model_margin - market_margin  # e.g. 13.7 - 11.5 = +2.2
 
-            # Express spread_edge from the PICK's perspective so + always means covers:
-            # If pick is home team, home margin being larger = covers = positive edge (already correct)
-            # If pick is away team, away margin being larger = covers, but away margin is negative,
-            # so a more-negative model_margin vs market = covers = flip sign
-            pick_is_home = predicted_margin > 0
+def _espn_odds(comp):
+    """ESPN's line, home-team perspective (negative = home favored). None when absent."""
+    odds = (comp.get("odds") or [None])[0]
+    if not odds or odds.get("spread") is None:
+        return None
+    return {
+        "spread": float(odds["spread"]),
+        "over_under": float(odds["overUnder"]) if odds.get("overUnder") is not None else None,
+        "spread_holder": (odds.get("spreadHolder") or {}).get("displayName") or odds.get("details", ""),
+        "bookmaker": "espn",
+    }
+
+
+def fetch_market_odds():
+    """The Odds API spreads/totals; empty list if no key or the call fails."""
+    if not ODDS_API_KEY:
+        print("       [WARN] ODDS_API_KEY not set — using ESPN lines only")
+        return []
+    params = {"apiKey": ODDS_API_KEY, "regions": "us", "markets": "spreads,totals",
+              "oddsFormat": "american", "bookmakers": ODDS_BOOKMAKERS}
+    try:
+        data = http_get(ODDS_API_URL, params=params).json()
+    except (RuntimeError, ValueError) as e:
+        print(f"       [WARN] Odds API unavailable: {e}")
+        return []
+    out = []
+    for g in data:
+        home, away = g.get("home_team", ""), g.get("away_team", "")
+        spread = total = book = None
+        for bookie in g.get("bookmakers", []):
+            for market in bookie.get("markets", []):
+                if market["key"] == "spreads" and spread is None:
+                    for o in market.get("outcomes", []):
+                        if o["name"] == home and o.get("point") is not None:
+                            spread, book = float(o["point"]), bookie.get("key")
+                elif market["key"] == "totals" and total is None:
+                    for o in market.get("outcomes", []):
+                        if o["name"] == "Over" and o.get("point") is not None:
+                            total = float(o["point"])
+            if spread is not None and total is not None:
+                break
+        if spread is None:
+            continue
+        try:
+            commence = datetime.fromisoformat(g["commence_time"].replace("Z", "+00:00")).astimezone(EASTERN)
+        except (KeyError, ValueError):
+            continue
+        out.append({"home": home, "away": away, "spread": spread, "over_under": total,
+                    "bookmaker": book, "date": commence.strftime("%Y%m%d"),
+                    "home_key": canon(home), "away_key": canon(away)})
+    return out
+
+
+def _name_matches(odds_name_key, team, rating):
+    """Odds API names are 'Location Nickname' with abbreviations ('Chicago St Cougars').
+    Accept when the ESPN location or Barttorvik name is a whole-word prefix of it.
+    Returns the matched prefix length (0 = no match) so callers can prefer the tightest fit."""
+    best = 0
+    candidates = [canon(team["location"])]
+    if rating:
+        candidates.append(canon(rating["team"]))
+    for cand in candidates:
+        if cand and (odds_name_key == cand or odds_name_key.startswith(cand + " ")):
+            best = max(best, len(cand))
+    return best
+
+
+def attach_market_odds(games, odds, date_str, ratings):
+    """Overwrite ESPN lines with Odds API lines for games on the target date. Each odds entry is used once."""
+    todays = [o for o in odds if o["date"] == date_str]
+    matched = 0
+    used = set()
+    for game in games:
+        best, best_i = 0, None
+        hr, ar = ratings.find(game["home"]["location"]), ratings.find(game["away"]["location"])
+        for i, o in enumerate(todays):
+            if i in used:
+                continue
+            h = _name_matches(o["home_key"], game["home"], hr)
+            a = _name_matches(o["away_key"], game["away"], ar)
+            if h and a and h + a > best:
+                best, best_i = h + a, i
+        if best_i is None:
+            continue
+        o = todays[best_i]
+        used.add(best_i)
+        game["odds"] = {"spread": o["spread"], "over_under": o["over_under"],
+                        "spread_holder": o["home"] if o["spread"] < 0 else o["away"],
+                        "bookmaker": o["bookmaker"]}
+        matched += 1
+    return matched
+
+
+# ============================================================================
+# PREDICTION
+# ============================================================================
+
+class PredictionModel:
+    def __init__(self, ratings, debug=False):
+        self.ratings = ratings
+        self.debug = debug
+        self.skipped = []
+
+    def predict_all(self, games):
+        preds = []
+        for g in games:
+            p = self.predict(g)
+            if p:
+                preds.append(p)
+        preds.sort(key=lambda p: p["confidence"], reverse=True)
+        return preds
+
+    def predict(self, game):
+        home, away = game["home"], game["away"]
+        hs, as_ = self.ratings.find(home["location"]), self.ratings.find(away["location"])
+        if not hs or not as_:
+            missing = [t["name"] for t, s in ((home, hs), (away, as_)) if not s]
+            self.skipped.append(f"{away['name']} @ {home['name']}  (no ratings: {', '.join(missing)})")
+            return None
+        if self.debug:
+            print(f"  [MATCH] {home['name']} -> {hs['team']}  |  {away['name']} -> {as_['team']}")
+
+        avg = self.ratings.avg_oe
+        home_oe = hs["adj_oe"] + as_["adj_de"] - avg         # pts per 100 poss vs this defense
+        away_oe = as_["adj_oe"] + hs["adj_de"] - avg
+        tempo = (hs["adj_tempo"] + as_["adj_tempo"]) / 2.0
+        efficiency_margin = (home_oe - away_oe) * tempo / 100.0
+        hca = 0.0 if game["neutral_site"] else HOME_COURT_ADVANTAGE_PTS
+        margin = efficiency_margin + hca                      # + = home wins by
+        total = (home_oe + away_oe) * tempo / 100.0
+        home_win_prob = norm_cdf(margin / SPREAD_STD_DEV)
+
+        odds = game.get("odds")
+        market_spread = odds["spread"] if odds else None      # home perspective
+        market_total = odds.get("over_under") if odds else None
+        pick_is_home = margin > 0
+        spread_diff = spread_edge = total_edge = None
+        if market_spread is not None:
+            spread_diff = margin - (-market_spread)           # + = model likes home more than market
             spread_edge = spread_diff if pick_is_home else -spread_diff
-            value_rating = abs(spread_diff)
-        else:
-            pick_is_home = predicted_margin > 0
-            spread_edge = None
+        if market_total is not None:
+            total_edge = total - market_total
 
-        # ---- BEST BET FLAG ----
-        # Sweet spot of 3-6 pt edge vs market = historically 72.2% ATS.
-        is_best_bet = (
-            value_rating is not None
-            and SWEET_SPOT_MIN <= value_rating <= SWEET_SPOT_MAX
-        )
+        confidence = self._confidence(margin, spread_diff, hs, as_)
+        edge_abs = abs(spread_diff) if spread_diff is not None else None
 
-        prediction = {
+        return {
             "game_id": game["game_id"],
             "date": game["date"],
             "home_team": home["name"],
             "away_team": away["name"],
             "home_abbr": home["abbreviation"],
             "away_abbr": away["abbreviation"],
-            "home_logo": home.get("logo", ""),
-            "away_logo": away.get("logo", ""),
-            "home_rank": home.get("rank", 99),
-            "away_rank": away.get("rank", 99),
-            "home_record": home.get("record", ""),
-            "away_record": away.get("record", ""),
-            "venue": game.get("venue", ""),
-            "neutral_site": game.get("neutral_site", False),
-            "conference_game": game.get("conference_game", False),
-            "broadcast": game.get("broadcast", ""),
-            "predicted_spread": round(predicted_margin, 1),
-            "predicted_total": round(projected_total, 1),
-            "home_projected_score": round((projected_total + predicted_margin) / 2, 1),
-            "away_projected_score": round((projected_total - predicted_margin) / 2, 1),
+            "home_logo": home["logo"],
+            "away_logo": away["logo"],
+            "home_rank": home["rank"],
+            "away_rank": away["rank"],
+            "home_record": home["record"],
+            "away_record": away["record"],
+            "home_rating_team": hs["team"],
+            "away_rating_team": as_["team"],
+            "home_adj_em": round(hs["adj_oe"] - hs["adj_de"], 2),
+            "away_adj_em": round(as_["adj_oe"] - as_["adj_de"], 2),
+            "venue": game["venue"],
+            "neutral_site": game["neutral_site"],
+            "conference_game": game["conference_game"],
+            "broadcast": game["broadcast"],
+            "predicted_spread": round(margin, 1),
+            "predicted_total": round(total, 1),
+            "home_projected_score": round((total + margin) / 2, 1),
+            "away_projected_score": round((total - margin) / 2, 1),
             "home_win_prob": round(home_win_prob * 100, 1),
             "away_win_prob": round((1 - home_win_prob) * 100, 1),
             "confidence": round(confidence, 1),
-            "pick": home["name"] if predicted_margin > 0 else away["name"],
-            "pick_abbr": home["abbreviation"] if predicted_margin > 0 else away["abbreviation"],
+            "pick": home["name"] if pick_is_home else away["name"],
+            "pick_abbr": home["abbreviation"] if pick_is_home else away["abbreviation"],
+            "is_home_pick": pick_is_home,
+            "projected_tempo": round(tempo, 1),
             "factors": {
-                "efficiency_margin": round(raw_margin, 2),
-                "four_factors": round(ff_contribution, 2),
+                "efficiency_margin": round(efficiency_margin, 2),
                 "home_court": round(hca, 2),
-                "recent_form": round(recent_form_diff, 2),
-                "turnover_margin": round(to_contribution, 2),
-                "rebounding": round(reb_contribution, 2),
-                "three_point": round(three_pt_margin, 2),
-                "free_throw": round(ft_contribution, 2),
-                "experience": round(exp_contribution, 2),
-                "sos": round(sos_margin, 2),
             },
             "market": {
-                "spread": game.get("odds", {}).get("spread") if game.get("odds") else None,
-                "over_under": game.get("odds", {}).get("over_under") if game.get("odds") else None,
-                "spread_holder": game.get("odds", {}).get("spread_holder") if game.get("odds") else None,
+                "spread": market_spread,
+                "over_under": market_total,
+                "spread_holder": odds.get("spread_holder") if odds else None,
+                "bookmaker": odds.get("bookmaker") if odds else None,
             },
-            "value_rating": round(value_rating, 1) if value_rating else None,
+            "value_rating": round(edge_abs, 1) if edge_abs is not None else None,
             "model_vs_market": {
                 "spread_edge": round(spread_edge, 1) if spread_edge is not None else None,
-                "total_edge": round(projected_total - (game.get("odds", {}).get("over_under") or 0), 1) if game.get("odds") and game["odds"].get("over_under") else None,
+                "total_edge": round(total_edge, 1) if total_edge is not None else None,
             },
-            "is_best_bet": is_best_bet,
-            "is_tournament_game": game.get("neutral_site", False),
-            "tempo_mismatch": tempo_mismatch,
-            "tempo_diff": round(tempo_diff, 1),
-            "is_home_pick": pick_is_home,
+            "is_best_bet": edge_abs is not None and EDGE_BEST_BET_MIN <= edge_abs <= EDGE_BEST_BET_MAX,
+            "is_tournament_game": game["neutral_site"],
         }
 
-        return prediction
-
-
-    def _normalize_team_name(self, name: str) -> str:
-        """Normalize team name for matching."""
-        import unicodedata
-        name = unicodedata.normalize("NFD", name)
-        name = "".join(c for c in name if unicodedata.category(c) != "Mn")
-        name = name.strip()
-        lower = name.lower()
-        # Check alias table
-        espn_map = getattr(self, '_espn_map', {})
-        if lower in espn_map:
-            return espn_map[lower]
-        # Strip common nicknames
-        nicknames = [
-            " Blue Devils", " Tar Heels", " Wildcats", " Bulldogs", " Tigers",
-            " Eagles", " Bears", " Lions", " Hawks", " Knights", " Warriors",
-            " Cougars", " Huskies", " Trojans", " Bruins", " Volunteers",
-            " Hoosiers", " Boilermakers", " Spartans", " Wolverines", " Buckeyes",
-            " Longhorns", " Sooners", " Jayhawks", " Cyclones", " Cowboys",
-            " Red Raiders", " Mountaineers", " Panthers", " Cardinals", " Ducks",
-            " Beavers", " Utes", " Sun Devils", " Buffaloes", " Golden Bears",
-            " Aggies", " Horned Frogs", " Mustangs", " Mean Green", " Roadrunners",
-            " Golden Eagles", " Flames", " Braves", " Broncos", " Falcons",
-            " Musketeers", " Bearcats", " Hilltoppers", " Colonels", " Explorers",
-            " Billikens", " Flyers", " Friars", " Hoyas", " Retrievers",
-            " Greyhounds", " Ravens", " Terrapins", " Fighting Irish", " Orange",
-            " Crimson Tide", " Razorbacks", " Gators", " Seminoles", " Hurricanes",
-            " Hokies", " Cavaliers", " Demon Deacons", " Yellow Jackets",
-            " Cornhuskers", " Hawkeyes", " Badgers", " Gophers", " Illini",
-            " Midshipmen", " Black Knights", " Owls", " Gaels", " Ramblers",
-            " Redhawks", " RedHawks", " Rockets", " Zips", " Bulls",
-            " Thundering Herd", " Monarchs", " Leathernecks", " Paladins",
-            " Buccaneers", " Citadel", " Purple Aces", " Bruins",
-        ]
-        for suffix in nicknames:
-            if name.endswith(suffix):
-                name = name[:-len(suffix)]
-                break
-        name = name.replace("Saint ", "St. ").replace("  ", " ")
-        return name.strip().lower()
-
-    def _find_team(self, team_name):
-        """Find team in stats cache. Uses alias table first, then normalization, then fuzzy."""
-        import unicodedata
-
-        # Step 1: Check alias table on the raw ESPN name
-        raw_lower = team_name.strip().lower()
-        # Strip accents for alias lookup
-        raw_ascii = unicodedata.normalize("NFD", raw_lower)
-        raw_ascii = "".join(c for c in raw_ascii if unicodedata.category(c) != "Mn")
-        if raw_ascii in ESPN_TO_BARTTORVIK:
-            target = ESPN_TO_BARTTORVIK[raw_ascii]
-            if target in self.team_stats:
-                return target
-
-        # Step 2: Normalize and direct match
-        normalized = self._normalize_team_name(team_name)
-        if normalized in self.team_stats:
-            return normalized
-
-        # Step 3: Exact match after stripping nickname
-        normalized_stripped = self._strip_nickname(normalized)
-        if normalized_stripped and normalized_stripped in self.team_stats:
-            return normalized_stripped
-
-        # Step 4: Key is a substring of normalized (barttorvik abbreviated name inside ESPN name)
-        # Only accept if the barttorvik key is at least 6 chars to avoid false matches
-        for key in self.team_stats:
-            if len(key) >= 6 and key in normalized:
-                return key
-
-        # Step 5: Normalized is a substring of the key
-        for key in self.team_stats:
-            if len(normalized) >= 6 and normalized in key:
-                return key
-
-        # Step 6: Word-level overlap — require 2+ shared words, or 1 word that is
-        # at least 7 chars (avoids matching "michigan" across WMU/CMU/EMU/Michigan)
-        norm_words = set(normalized.split())
-        stripped_words = set(normalized_stripped.split()) if normalized_stripped else set()
-        combined_words = norm_words | stripped_words
-        GENERIC = {"the", "of", "at", "a", "and", "st.", "state", "university",
-                   "north", "south", "east", "west", "northern", "southern",
-                   "eastern", "western", "central", "upper", "lower", "new",
-                   "old", "great", "little", "big"}
-        best_key = None
-        best_score = 0
-        for key in self.team_stats:
-            key_words = set(key.split())
-            shared = (combined_words & key_words) - GENERIC
-            if not shared:
-                continue
-            # Score: prefer more shared words, and longer shared words
-            score = sum(len(w) for w in shared) + len(shared) * 2
-            # Require either 2+ shared words, or 1 word of 7+ chars
-            qualifies = len(shared) >= 2 or any(len(w) >= 7 for w in shared)
-            if qualifies and score > best_score:
-                best_score = score
-                best_key = key
-        if best_key:
-            return best_key
-
-        return None
-
-    def _strip_nickname(self, name):
-        """Strip common team nicknames from a name string"""
-        nicknames = [
-            "blue devils", "tar heels", "wildcats", "bulldogs", "tigers",
-            "eagles", "bears", "lions", "hawks", "knights", "warriors",
-            "cougars", "huskies", "trojans", "bruins", "volunteers",
-            "hoosiers", "boilermakers", "spartans", "wolverines", "buckeyes",
-            "longhorns", "sooners", "jayhawks", "cyclones", "cowboys",
-            "red raiders", "mountaineers", "panthers", "cardinals", "ducks",
-            "beavers", "utes", "sun devils", "buffaloes", "golden bears",
-            "aggies", "horned frogs", "mustangs", "mean green", "roadrunners",
-            "golden eagles", "flames", "braves", "razorbacks", "gators",
-            "seminoles", "hurricanes", "hokies", "cavaliers", "demon deacons",
-            "yellow jackets", "ramblin wrecks", "orange", "crimson tide",
-            "cornhuskers", "hawkeyes", "badgers", "gophers", "illini",
-            "fighting irish", "friars", "hoyas", "ravens", "terrapins",
-            "terps", "retrievers", "greyhounds", "retrievers",
-        ]
-        for nick in sorted(nicknames, key=len, reverse=True):
-            if name.endswith(" " + nick):
-                return name[: -(len(nick) + 1)].strip()
-        return name
-
-    def _calc_four_factors(self, home, away):
-        """Four Factors differential. Oliver's weights: eFG% 40%, TO% 25%, ORB% 20%, FT Rate 15%"""
-        home_efg_adv = home["efg_pct"] - away["efg_pct_d"]
-        home_to_adv  = away["to_pct_d"] - home["to_pct"]
-        home_orb_adv = home["orb_pct"] - (100 - away["drb_pct"])
-        home_ft_adv  = home["ft_rate"] - away["ft_rate_d"]
-
-        away_efg_adv = away["efg_pct"] - home["efg_pct_d"]
-        away_to_adv  = home["to_pct_d"] - away["to_pct"]
-        away_orb_adv = away["orb_pct"] - (100 - home["drb_pct"])
-        away_ft_adv  = away["ft_rate"] - home["ft_rate_d"]
-
-        home_ff = home_efg_adv * 0.40 + home_to_adv * 0.25 + home_orb_adv * 0.20 + home_ft_adv * 0.15
-        away_ff = away_efg_adv * 0.40 + away_to_adv * 0.25 + away_orb_adv * 0.20 + away_ft_adv * 0.15
-
-        return home_ff - away_ff
-
-    def _calc_recent_form(self, home, away):
-        """Recent form differential"""
-        home_recent_margin = home.get("recent_adj_oe", home["adj_oe"]) - home.get("recent_adj_de", home["adj_de"])
-        away_recent_margin = away.get("recent_adj_oe", away["adj_oe"]) - away.get("recent_adj_de", away["adj_de"])
-        home_season_margin = home["adj_oe"] - home["adj_de"]
-        away_season_margin = away["adj_oe"] - away["adj_de"]
-        home_trend = home_recent_margin - home_season_margin
-        away_trend = away_recent_margin - away_season_margin
-        return (home_trend - away_trend) * 0.5
-
-    def _calc_turnover_advantage(self, home, away):
-        """TO margin differential"""
-        home_to_diff = away["to_pct_d"] - home["to_pct"]
-        away_to_diff = home["to_pct_d"] - away["to_pct"]
-        return (home_to_diff - away_to_diff) * 0.3
-
-    def _calc_rebounding_advantage(self, home, away):
-        """Rebounding margin differential"""
-        home_reb = home["orb_pct"] + home["drb_pct"]
-        away_reb = away["orb_pct"] + away["drb_pct"]
-        return (home_reb - away_reb) * 0.1
-
-    def _calc_three_point_advantage(self, home, away):
-        """Three-point shooting matchup advantage"""
-        home_three_adv = home["three_pct"] - away["three_pct_d"]
-        away_three_adv = away["three_pct"] - home["three_pct_d"]
-        return (home_three_adv - away_three_adv) * 0.4
-
-    def _calc_ft_advantage(self, home, away):
-        """Free throw shooting and rate advantage"""
-        home_ft = home["ft_rate"] * home["ft_pct"] / 100
-        away_ft = away["ft_rate"] * away["ft_pct"] / 100
-        return (home_ft - away_ft) * 0.15
-
-    def _calc_confidence(self, margin, home_stats, away_stats, odds, total):
+    @staticmethod
+    def _confidence(margin, spread_diff, hs, as_):
         """
-        Rebuilt confidence scoring based on empirical ATS results (256 graded games):
-
-          Sweet spot (3-6 pt edge vs market) → 72.2% ATS → HIGH confidence
-          Tight game predictions (<5 pts)    → 60.7% ATS → HIGH confidence
-          Big predicted blowouts (12+ pts)   → 52.4% ATS → LOW confidence
-          Away picks overall                 → 43.3% ATS → penalized baseline
-
-        Old formula (margin_conf = abs(margin)*3) was INVERTED — it rewarded
-        large-spread predictions that perform worst. This rewrite flips that.
+        Heuristic 15-95 score for ranking a slate. Not a calibrated probability.
+          + edge vs market, up to 6 pts (bigger edges are usually data problems)
+          - no market line, or an edge too large to trust
+          - very large projected margins (least reliable region)
+          + ratings maturity (games played this season)
         """
-        confidence = 40.0  # neutral baseline
-
-        # ── 1. MODEL vs MARKET AGREEMENT ─────────────────────────────────────
-        # Most predictive signal: where does our prediction sit relative to the line?
-        if odds and odds.get("spread") is not None:
-            market_spread_home = float(odds["spread"])
-            market_margin = -market_spread_home  # convert to "home wins by X" frame
-
-            # Direction agreement bonus/penalty
-            direction_matches = (
-                (margin > 0 and market_margin > 0) or
-                (margin < 0 and market_margin < 0)
-            )
-            confidence += 10 if direction_matches else -15
-
-            # Sweet spot: 3-6 pt edge historically 72.2% ATS → biggest boost
-            spread_diff = abs(margin - market_margin)
-            if SWEET_SPOT_MIN <= spread_diff <= SWEET_SPOT_MAX:
-                confidence += 22
-            elif 2.0 <= spread_diff < SWEET_SPOT_MIN:
-                confidence += 10
-            elif SWEET_SPOT_MAX < spread_diff <= 10.0:
-                confidence += 4
-            else:
-                confidence -= 4  # >10 pt disagreement with market = shaky
+        c = 50.0
+        if spread_diff is None:
+            c -= 10
         else:
-            confidence -= 8  # no market data: less information available
-
-        # ── 2. PREDICTED MARGIN SIZE ──────────────────────────────────────────
-        # Small margins → reliable; big margins → model over-predicts blowouts.
-        abs_margin = abs(margin)
-        if abs_margin >= 15:
-            confidence -= 22   # very bad empirical accuracy
-        elif abs_margin >= 12:
-            confidence -= 14
-        elif abs_margin >= 8:
-            confidence -= 6
-        elif abs_margin < 5:
-            confidence += 14   # tight game predictions: 60.7% ATS
-        else:  # 5 ≤ abs_margin < 8
-            confidence += 6
-
-        # ── 3. AWAY PICK SKEPTICISM ───────────────────────────────────────────
-        # Away picks hit only 43.3% historically — apply baseline penalty.
-        if margin < 0:
-            confidence -= 10
-
-        # ── 4. DATA QUALITY ───────────────────────────────────────────────────
-        games_played = min(
-            home_stats.get("wins", 0) + home_stats.get("losses", 0),
-            away_stats.get("wins", 0) + away_stats.get("losses", 0),
-        )
-        confidence += min(games_played * 0.4, 10)
-
-        # ── 5. QUALITY DIFFERENTIAL ──────────────────────────────────────────
-        barthag_diff = abs(home_stats.get("barthag", 0.5) - away_stats.get("barthag", 0.5))
-        if barthag_diff > 0.25:
-            confidence += 5
-        elif barthag_diff < 0.05:
-            confidence -= 3   # nearly identical teams = outcome uncertain
-
-        return max(min(confidence, 95), 15)
-
-    def predict_all_games(self, games):
-        """Generate predictions for all games in the schedule"""
-        predictions = []
-        skipped = 0
-        for game in games:
-            try:
-                pred = self.predict_game(game)
-                if pred:
-                    predictions.append(pred)
-                else:
-                    skipped += 1
-            except Exception as e:
-                print(f"[WARN] Could not predict {game.get('name', 'unknown')}: {e}")
-                skipped += 1
-
-        if skipped > 0:
-            print(f"       (Skipped {skipped} games — teams not found in stats cache)")
-
-        predictions.sort(key=lambda x: x["confidence"], reverse=True)
-        return predictions
+            edge = abs(spread_diff)
+            c += min(edge, EDGE_BEST_BET_MAX) * 4
+            if edge > EDGE_MAX_TRUSTED:
+                c -= 20
+        m = abs(margin)
+        if m >= 15:
+            c -= 10
+        elif m >= 10:
+            c -= 5
+        c += min(hs["games"], as_["games"], 10)
+        return max(15.0, min(95.0, c))
 
 
 # ============================================================================
-# OUTPUT GENERATION
+# OUTPUT
 # ============================================================================
 
-def generate_output(predictions, date_str, output_format="json"):
-    """Generate output file for the website"""
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-    output = {
-        "generated_at": datetime.now().isoformat(),
+def build_output(predictions, date_str, ratings):
+    return {
+        "generated_at": datetime.now(EASTERN).isoformat(),
         "date": date_str,
         "total_games": len(predictions),
-        "model_version": "3.0.0",
+        "model_version": MODEL_VERSION,
+        "ratings_source": ratings.source,
+        "ratings_season": ratings.season,
         "picks": predictions,
         "summary": {
             "total_games": len(predictions),
-            "high_confidence": len([p for p in predictions if p["confidence"] >= 70]),
-            "medium_confidence": len([p for p in predictions if 40 <= p["confidence"] < 70]),
-            "low_confidence": len([p for p in predictions if p["confidence"] < 40]),
+            "high_confidence": sum(p["confidence"] >= 70 for p in predictions),
+            "medium_confidence": sum(40 <= p["confidence"] < 70 for p in predictions),
+            "low_confidence": sum(p["confidence"] < 40 for p in predictions),
             "avg_confidence": round(sum(p["confidence"] for p in predictions) / max(len(predictions), 1), 1),
-            "value_plays": len([p for p in predictions if p.get("value_rating") and p["value_rating"] >= 3]),
-            "best_bets": len([p for p in predictions if p.get("is_best_bet")]),
-            "tournament_games": len([p for p in predictions if p.get("is_tournament_game")]),
-            "tempo_mismatches": len([p for p in predictions if p.get("tempo_mismatch")]),
+            "value_plays": sum((p["value_rating"] or 0) >= 3 for p in predictions),
+            "best_bets": sum(p["is_best_bet"] for p in predictions),
+            "with_market_line": sum(p["market"]["spread"] is not None for p in predictions),
+            "tournament_games": sum(p["is_tournament_game"] for p in predictions),
         },
     }
 
-    if output_format == "json":
-        filepath = os.path.join(OUTPUT_DIR, f"picks_{date_str}.json")
-        with open(filepath, "w") as f:
+
+def write_output(output, date_str):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    paths = [os.path.join(OUTPUT_DIR, f"picks_{date_str}.json"), os.path.join(OUTPUT_DIR, "latest.json")]
+    if os.path.isdir(PUBLIC_DIR):
+        paths.append(os.path.join(PUBLIC_DIR, "latest.json"))
+    for path in paths:
+        with open(path, "w") as f:
             json.dump(output, f, indent=2)
-        print(f"[OK] Picks saved to {filepath}")
+        print(f"[OK] wrote {os.path.relpath(path, BASE_DIR)}")
 
-        latest_path = os.path.join(OUTPUT_DIR, "latest.json")
-        with open(latest_path, "w") as f:
-            json.dump(output, f, indent=2)
-        print(f"[OK] Latest picks updated at {latest_path}")
 
-        # Auto-copy to public/ so the React app can serve it
-        public_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "public")
-        if os.path.isdir(public_dir):
-            public_path = os.path.join(public_dir, "latest.json")
-            with open(public_path, "w") as f:
-                json.dump(output, f, indent=2)
-            print(f"[OK] Public copy updated at {public_path}")
+def print_console(predictions):
+    for i, p in enumerate(predictions, 1):
+        tags = []
+        if p["is_tournament_game"]:
+            tags.append("NEUTRAL")
+        if p["is_best_bet"]:
+            tags.append("BEST BET")
+        tag = f"  [{', '.join(tags)}]" if tags else ""
+        print(f"\n  #{i} [{p['confidence']:.0f}] {p['away_team']} @ {p['home_team']}{tag}")
+        print(f"     Model: {p['pick_abbr']} by {abs(p['predicted_spread']):.1f}   "
+              f"({p['away_abbr']} {p['away_projected_score']:.0f} - {p['home_abbr']} {p['home_projected_score']:.0f}, "
+              f"total {p['predicted_total']:.1f}, home win {p['home_win_prob']:.0f}%)")
+        mk = p["market"]
+        if mk["spread"] is not None:
+            side = p["home_abbr"] if mk["spread"] < 0 else p["away_abbr"]
+            ou = f", O/U {mk['over_under']:.1f}" if mk["over_under"] is not None else ""
+            print(f"     Market: {side} {-abs(mk['spread']):.1f}{ou} ({mk['bookmaker']})   "
+                  f"edge {p['model_vs_market']['spread_edge']:+.1f} on {p['pick_abbr']}")
+        else:
+            print("     Market: n/a")
 
-    return output
+
+# ============================================================================
+# TEAM NAME AUDIT
+# ============================================================================
+
+def check_teams(ratings):
+    """Compare ESPN's D-I team list with Barttorvik's names and report anything unmatched."""
+    data = http_get(ESPN_TEAMS_URL, params={"limit": 1000}).json()
+    teams = data["sports"][0]["leagues"][0]["teams"]
+    unmatched, used = [], set()
+    for t in teams:
+        loc = t["team"].get("location") or t["team"]["displayName"]
+        r = ratings.find(loc)
+        if r:
+            used.add(r["team"])
+        else:
+            unmatched.append(f"{loc}  ({t['team']['displayName']})")
+    print(f"ESPN D-I teams: {len(teams)}   matched: {len(teams) - len(unmatched)}   unmatched: {len(unmatched)}")
+    for u in unmatched:
+        print("  ESPN only:       ", u)
+    for name in sorted(s["team"] for s in ratings.by_key.values() if s["team"] not in used):
+        print("  Barttorvik only: ", name)
+    stale = [k for k in ESPN_TO_BARTTORVIK if canon(ESPN_TO_BARTTORVIK[k]) not in ratings.by_key]
+    for k in stale:
+        print(f"  alias target missing: {k} -> {ESPN_TO_BARTTORVIK[k]}")
+    return len(unmatched) + len(stale)
 
 
 # ============================================================================
@@ -1228,145 +605,52 @@ def generate_output(predictions, date_str, output_format="json"):
 # ============================================================================
 
 def main():
-    parser = argparse.ArgumentParser(description="College Basketball Prediction Model")
-    parser.add_argument("--date", type=str, help="Date to predict (YYYY-MM-DD), defaults to today")
-    parser.add_argument("--debug", action="store_true", help="Print team matching details")
-    parser.add_argument(
-        "--output", type=str, default="json", choices=["json", "csv", "console"],
-        help="Output format",
-    )
-    args = parser.parse_args()
+    ap = argparse.ArgumentParser(description="College Basketball Prediction Model")
+    ap.add_argument("--date", help="Eastern date to predict (YYYY-MM-DD), default today")
+    ap.add_argument("--output", choices=["json", "console"], default="json")
+    ap.add_argument("--debug", action="store_true", help="print team matching")
+    ap.add_argument("--check-teams", action="store_true", help="audit ESPN vs Barttorvik team names and exit")
+    args = ap.parse_args()
 
-    if args.date:
-        target_date = datetime.strptime(args.date, "%Y-%m-%d")
-    else:
-        target_date = datetime.now()
+    target = datetime.strptime(args.date, "%Y-%m-%d").replace(tzinfo=EASTERN) if args.date else datetime.now(EASTERN)
+    date_str = target.strftime("%Y%m%d")
+    season = season_for(target)
 
-    date_str = target_date.strftime("%Y%m%d")
-    display_date = target_date.strftime("%B %d, %Y")
+    print(f"\n{'=' * 60}\n  CBB Model v{MODEL_VERSION}  |  {target:%B %d, %Y}  |  season {season}\n{'=' * 60}\n")
 
-    print(f"\n{'='*60}")
-    print(f"  College Basketball Prediction Model v3.0")
-    print(f"  Generating picks for: {display_date}")
-    print(f"{'='*60}\n")
+    print("[1/3] Loading team ratings...")
+    ratings = TeamRatings(season).load()
+    print(f"       {len(ratings.by_key)} teams from {ratings.source}  (avg AdjOE {ratings.avg_oe:.1f})")
 
-    provider = TeamStatsProvider()
+    if args.check_teams:
+        sys.exit(1 if check_teams(ratings) else 0)
 
-    print("[1/3] Fetching team statistics...")
-    team_stats = provider.fetch_team_stats()
-    if not team_stats:
-        print("[ERROR] No team stats available. Exiting.")
-        sys.exit(1)
-    print(f"       Loaded stats for {len(team_stats)} teams")
+    print(f"[2/3] Fetching schedule and lines for {date_str}...")
+    games = fetch_schedule(date_str)
+    print(f"       {len(games)} games on ESPN")
+    odds = fetch_market_odds()
+    if odds:
+        matched = attach_market_odds(games, odds, date_str, ratings)
+        print(f"       Odds API lines matched for {matched}/{len(games)} games")
+    espn_lines = sum(1 for g in games if g.get("odds"))
+    print(f"       {espn_lines}/{len(games)} games have a market line")
 
-    print(f"[2/3] Fetching schedule + odds for {display_date}...")
-    games = provider.fetch_schedule(date_str)
-    if not games:
-        print(f"[WARN] No games found for {display_date}")
-        sys.exit(0)
-    print(f"       Found {len(games)} games")
+    print("[3/3] Projecting...")
+    model = PredictionModel(ratings, debug=args.debug)
+    predictions = model.predict_all(games)
+    print(f"       {len(predictions)} projections, {len(model.skipped)} games skipped")
+    if args.debug:
+        for s in model.skipped:
+            print(f"  [SKIP] {s}")
 
-    # Fetch real market odds and merge into games
-    odds_map = provider.fetch_odds()
-    if odds_map:
-        matched = 0
-        for game in games:
-            home_key = provider._normalize_team_name(game["home"]["name"])
-            away_key = provider._normalize_team_name(game["away"]["name"])
-            odds = odds_map.get(f"{home_key}|{away_key}") or odds_map.get(f"{away_key}|{home_key}")
-            if not odds:
-                for key, val in odds_map.items():
-                    k_home = provider._normalize_team_name(val["home_team"])
-                    k_away = provider._normalize_team_name(val["away_team"])
-                    if (home_key in k_home or k_home in home_key) and \
-                       (away_key in k_away or k_away in away_key):
-                        odds = val
-                        break
-            if odds:
-                game["odds"] = {
-                    "spread": odds["spread"],
-                    "over_under": odds["over_under"],
-                    "spread_holder": odds["favorite"],
-                    "favorite_id": "",
-                    "bookmaker": odds.get("bookmaker", ""),
-                }
-                matched += 1
-        print(f"       Matched odds for {matched}/{len(games)} games")
-    else:
-        print("       [WARN] No odds available — value ratings will be unavailable")
-
-    print("[3/3] Running prediction model...")
-    model = CBBPredictionModel(team_stats)
-    model.debug = args.debug
-    predictions = model.predict_all_games(games)
-    print(f"       Generated {len(predictions)} predictions")
-
-    print(f"\n{'='*60}")
-    output = generate_output(predictions, date_str, args.output)
-
+    output = build_output(predictions, date_str, ratings)
     if args.output == "console":
-        for i, p in enumerate(predictions, 1):
-            # --- Build tag line (tournament, tempo mismatch, best bet) ---
-            tags = []
-            if p.get("is_tournament_game"):
-                tags.append("NEUTRAL SITE")
-            if p.get("is_best_bet"):
-                tags.append("★★ BEST BET")
-            if p.get("tempo_mismatch"):
-                tags.append(f"TEMPO MISMATCH ({p.get('tempo_diff', 0):.1f})")
-            tag_str = f"  [{', '.join(tags)}]" if tags else ""
-
-            # --- Model pick line ---
-            # If model disagrees with market direction (spread_edge < 0 with market available),
-            # the pick to cover is the OTHER side of the market, not the model winner.
-            mkt = p.get("market", {})
-            edge = p.get("model_vs_market", {}).get("spread_edge")
-            has_market = mkt.get("spread") is not None and mkt.get("spread_holder")
-
-            if has_market and edge is not None and edge < 0:
-                # Model winner won't cover — pick the other side to cover
-                model_winner_abbr = p["pick_abbr"]
-                cover_abbr = p["home_abbr"] if p["pick_abbr"] == p["away_abbr"] else p["away_abbr"]
-                cover_name = p["home_team"] if p["pick_abbr"] == p["away_abbr"] else p["away_team"]
-                market_line = abs(mkt["spread"])
-                spread_display = f"{cover_abbr} +{market_line:.1f}  (model: {model_winner_abbr} wins but doesn't cover)"
-            else:
-                spread_display = f"{p['pick_abbr']} -{abs(p['predicted_spread']):.1f}"
-
-            print(f"\n  #{i} [{p['confidence']:.0f}% conf] {p['away_team']} @ {p['home_team']}{tag_str}")
-            print(f"     Model Pick:    {spread_display}")
-
-            # --- Market spread: always show as FAVORITE -X ---
-            if has_market:
-                mkt_spread_home = mkt["spread"]   # negative = home favored, positive = away favored
-                mkt_holder = mkt["spread_holder"]  # name of the favorite team
-                market_line = abs(mkt_spread_home)
-                ou = mkt.get("over_under")
-                ou_str = f"  O/U {ou}" if ou else ""
-                print(f"     Market Spread: {mkt_holder} -{market_line:.1f}{ou_str}")
-            else:
-                print(f"     Market Spread: n/a")
-
-            print(f"     Projected:     {p['away_abbr']} {p['away_projected_score']:.0f} - {p['home_abbr']} {p['home_projected_score']:.0f}  (Total: {p['predicted_total']:.1f})")
-            if p.get("value_rating") and p["value_rating"] >= 2:
-                bet_marker = "★★ BEST BET:" if p.get("is_best_bet") else "★ Value:    "
-                if edge is not None:
-                    cover_str = "covers" if edge > 0 else "falls short"
-                    pick_for_display = p["pick_abbr"]
-                    print(f"     {bet_marker}  {p['value_rating']:.1f} pt edge ({pick_for_display} {cover_str} by {abs(edge):.1f})")
-                else:
-                    print(f"     {bet_marker}  {p['value_rating']:.1f} pt edge")
-
-    print(f"\n{'='*60}")
-    print(f"  Summary: {output['summary']['high_confidence']} high confidence picks")
-    print(f"           {output['summary']['medium_confidence']} medium confidence picks")
-    print(f"           {output['summary']['value_plays']} value plays (3+ pt edge)")
-    print(f"           {output['summary']['best_bets']} best bets (3-6 pt sweet spot)")
-    if output['summary'].get('tournament_games', 0) > 0:
-        print(f"           {output['summary']['tournament_games']} tournament/neutral site games")
-    if output['summary'].get('tempo_mismatches', 0) > 0:
-        print(f"           {output['summary']['tempo_mismatches']} tempo mismatch games (upset-prone)")
-    print(f"{'='*60}\n")
+        print_console(predictions)
+    else:
+        write_output(output, date_str)
+    s = output["summary"]
+    print(f"\n  {s['total_games']} games | {s['with_market_line']} with lines | "
+          f"{s['value_plays']} value plays (3+ pt edge) | {s['best_bets']} best bets (3-6)\n")
 
 
 if __name__ == "__main__":
