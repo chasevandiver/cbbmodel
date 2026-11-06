@@ -65,6 +65,7 @@ python3 cbb_model.py --date 2026-11-05        # a specific date (Eastern)
 python3 cbb_model.py --output console --debug # readable output with team matching, writes nothing
 python3 cbb_model.py --check-teams            # audit ESPN <-> Barttorvik names (run each new season)
 python3 cbb_model.py --snapshot-lines         # stamp current lines on today's untipped picks
+python3 cbb_model.py --refresh-ratings        # download current ratings into data/ (no key needed)
 
 python3 results_tracker.py                    # grade yesterday's picks -> public/results/results.json
 python3 results_tracker.py --date 2026-11-04  # grade a specific date

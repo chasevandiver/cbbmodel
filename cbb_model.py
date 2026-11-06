@@ -725,6 +725,8 @@ def main():
     ap.add_argument("--check-teams", action="store_true", help="audit ESPN vs Barttorvik team names and exit")
     ap.add_argument("--snapshot-lines", action="store_true",
                     help="record the current market line on the day's picks (closing line) and exit")
+    ap.add_argument("--refresh-ratings", action="store_true",
+                    help="download the season's Barttorvik ratings into data/ and exit (non-zero on failure)")
     args = ap.parse_args()
 
     target = datetime.strptime(args.date, "%Y-%m-%d").replace(tzinfo=EASTERN) if args.date else datetime.now(EASTERN)
@@ -735,6 +737,13 @@ def main():
 
     if args.snapshot_lines:
         snapshot_closing_lines(date_str)
+        return
+
+    if args.refresh_ratings:
+        rows = TeamRatings(season)._fetch_live()
+        if not rows:
+            sys.exit("[FATAL] could not refresh ratings")
+        print(f"       cached {len(rows)} teams for season {season} under data/")
         return
 
     print("[1/3] Loading team ratings...")
