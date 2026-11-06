@@ -1,10 +1,14 @@
 name: CBB Daily Automation
 
 on:
+  # A daily Claude scheduled task refreshes data/ (Barttorvik blocks GitHub's
+  # runners) and pushes it; that push runs this job right away. The schedule
+  # slots are a fallback: GitHub runs them late, often by hours. The job is
+  # idempotent: grading skips graded games, picks keep their pick-time lines.
+  push:
+    branches: [main]
+    paths: ['data/**']
   schedule:
-    # GitHub runs scheduled jobs late, often by hours, so several slots are
-    # listed. The job is idempotent: grading skips games already graded and
-    # picks are simply regenerated with fresher lines.
     - cron: '10 11 * * *'   #  6:10 AM ET
     - cron: '10 12 * * *'   #  7:10 AM ET
     - cron: '10 13 * * *'   #  8:10 AM ET
