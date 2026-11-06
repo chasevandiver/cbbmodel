@@ -75,8 +75,12 @@ python3 estimate_hca.py                       # rebuild team_hca.json (run each 
 python3 automate.py                           # grade yesterday, generate today, commit + push
 ```
 
-If Barttorvik is unreachable the model uses a cached copy under `data/` only if
-it is less than 3 days old; otherwise it exits non-zero and publishes nothing.
+Barttorvik blocks GitHub's runner IPs (HTTP 403), so the Actions workflow can
+never fetch fresh ratings itself. It runs from the committed cache under
+`data/` as long as that is under 3 days old; otherwise the model exits
+non-zero and publishes nothing, while grading is still committed. Refresh the
+cache by running `python3 automate.py` (or just `cbb_model.py`) from any
+machine Barttorvik does not block and pushing; a daily local cron does this.
 
 ## Daily automation
 

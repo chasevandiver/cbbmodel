@@ -67,7 +67,7 @@ HTTP_HEADERS = {
     "Accept": "application/json,text/plain,*/*",
 }
 HTTP_RETRIES = 3
-STATS_CACHE_MAX_AGE_DAYS = 3                # refuse stale cached ratings beyond this
+STATS_CACHE_MAX_AGE_DAYS = 3                # refuse stale cached ratings beyond this (data/ is committed)
 
 HOME_COURT_ADVANTAGE_PTS = 3.4              # D-I mean 2023-26 (3.6 -> 3.3, declining); neutral sites get 0
 TEAM_HCA_PATH = os.path.join(BASE_DIR, "team_hca.json")   # per-team values from estimate_hca.py, shrunk toward the mean

@@ -22,7 +22,7 @@ from zoneinfo import ZoneInfo
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 EASTERN = ZoneInfo("America/New_York")
 IN_CI = os.environ.get("GITHUB_ACTIONS") == "true"
-TRACKED = ["picks/", "public/latest.json", "public/results/results.json"]
+TRACKED = ["picks/", "public/latest.json", "public/results/results.json", "data/"]
 
 
 def log(msg):
@@ -52,13 +52,13 @@ def main():
         log("[WARN] grading failed — continuing")
 
     log("Step 2: generating picks")
-    if not run([sys.executable, "cbb_model.py", "--debug"]):
-        log("[FATAL] model failed — nothing published")
-        sys.exit(1)
+    model_ok = run([sys.executable, "cbb_model.py", "--debug"])
+    if not model_ok:
+        log("[ERROR] model failed — no new picks; grading results are still committed")
 
     if IN_CI:
         log("Step 3: skipped (GitHub Actions workflow commits)")
-        return
+        sys.exit(0 if model_ok else 1)
 
     log("Step 3: commit and push")
     run(["git", "add", "--"] + TRACKED)
@@ -70,6 +70,7 @@ def main():
     if not run(["git", "push"]):
         sys.exit(1)
     log("Done")
+    sys.exit(0 if model_ok else 1)
 
 
 if __name__ == "__main__":
