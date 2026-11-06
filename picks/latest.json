@@ -602,11 +602,11 @@
       "is_best_bet": false,
       "is_tournament_game": false,
       "closing_line": {
-        "spread": -28.5,
+        "spread": -30.5,
         "over_under": 149.5,
         "spread_holder": "Texas Tech Red Raiders",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-05T13:15:38.527735-05:00"
+        "captured_at": "2026-11-05T20:42:19.239171-05:00"
       }
     },
     {
@@ -789,7 +789,7 @@
         "over_under": 173.5,
         "spread_holder": "Arizona Wildcats",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-05T13:15:38.527735-05:00"
+        "captured_at": "2026-11-05T20:42:19.239171-05:00"
       }
     },
     {
@@ -1273,11 +1273,11 @@
       "is_best_bet": false,
       "is_tournament_game": false,
       "closing_line": {
-        "spread": -8.5,
-        "over_under": 138.5,
+        "spread": -7.5,
+        "over_under": 136.5,
         "spread_holder": "Utah Utes",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-05T13:15:38.527735-05:00"
+        "captured_at": "2026-11-05T20:42:19.239171-05:00"
       }
     },
     {
