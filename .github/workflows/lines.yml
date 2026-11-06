@@ -2,15 +2,18 @@ name: Closing line snapshots
 
 # Records the current market line on each of today's picks that has not tipped
 # yet. The last snapshot before tip-off is the closing line the results tracker
-# uses for closing-line value. Five snapshots a day plus the morning picks run
-# is ~180 Odds API requests a month, under the free tier's 500.
+# uses for closing-line value. GitHub starts scheduled jobs late, so slots are
+# spread through the day. Seven snapshots plus up to four picks runs a day is
+# ~330 Odds API requests a month, under the free tier's 500.
 on:
   schedule:
-    - cron: '30 16 * * *'   # 11:30 AM ET
-    - cron: '30 21 * * *'   #  4:30 PM ET
+    - cron: '0 16 * * *'    # 11:00 AM ET
+    - cron: '0 18 * * *'    #  1:00 PM ET
+    - cron: '0 20 * * *'    #  3:00 PM ET
+    - cron: '0 22 * * *'    #  5:00 PM ET
     - cron: '30 23 * * *'   #  6:30 PM ET
-    - cron: '30 1 * * *'    #  8:30 PM ET
-    - cron: '30 3 * * *'    # 10:30 PM ET
+    - cron: '0 1 * * *'     #  8:00 PM ET
+    - cron: '30 2 * * *'    #  9:30 PM ET
   workflow_dispatch:
 
 permissions:

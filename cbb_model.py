@@ -618,6 +618,33 @@ def build_output(predictions, date_str, ratings):
     }
 
 
+def preserve_pick_time_lines(predictions, date_str):
+    """
+    When a day's picks are regenerated, keep the market line from the first run that had one
+    (the pick-time line) and any closing-line snapshots. Otherwise every rerun would reset the
+    baseline that closing-line value is measured against.
+    """
+    path = os.path.join(OUTPUT_DIR, f"picks_{date_str}.json")
+    if not os.path.exists(path):
+        return 0
+    with open(path) as f:
+        previous = {p["game_id"]: p for p in json.load(f).get("picks", [])}
+    kept = 0
+    for pick in predictions:
+        old = previous.get(pick["game_id"])
+        if not old:
+            continue
+        if old.get("market", {}).get("spread") is not None:
+            pick["market"] = old["market"]
+            pick["value_rating"], pick["model_vs_market"], pick["is_best_bet"], pick["confidence"] = (
+                old["value_rating"], old["model_vs_market"], old["is_best_bet"], old["confidence"])
+            kept += 1
+        if old.get("closing_line"):
+            pick["closing_line"] = old["closing_line"]
+    predictions.sort(key=lambda p: p["confidence"], reverse=True)
+    return kept
+
+
 def write_output(output, date_str):
     """Write picks_<date>.json; also refresh latest.json copies unless they hold a later date."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -739,6 +766,10 @@ def main():
         for s in model.skipped:
             print(f"  [SKIP] {s}")
 
+    if args.output == "json":
+        kept = preserve_pick_time_lines(predictions, date_str)
+        if kept:
+            print(f"       kept pick-time lines from the earlier run for {kept} games")
     output = build_output(predictions, date_str, ratings)
     if args.output == "console":
         print_console(predictions)

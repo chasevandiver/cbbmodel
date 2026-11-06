@@ -2,9 +2,13 @@ name: CBB Daily Automation
 
 on:
   schedule:
-    # 12:30 UTC = 7:30 AM ET / 6:30 AM CT. GitHub often starts scheduled runs
-    # late, sometimes by hours, so this is set well before the first tips.
-    - cron: '30 12 * * *'
+    # GitHub runs scheduled jobs late, often by hours, so several slots are
+    # listed. The job is idempotent: grading skips games already graded and
+    # picks are simply regenerated with fresher lines.
+    - cron: '10 11 * * *'   #  6:10 AM ET
+    - cron: '10 12 * * *'   #  7:10 AM ET
+    - cron: '10 13 * * *'   #  8:10 AM ET
+    - cron: '10 14 * * *'   #  9:10 AM ET
   workflow_dispatch:
 
 permissions:
