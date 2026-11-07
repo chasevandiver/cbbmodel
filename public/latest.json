@@ -118,7 +118,7 @@
         "over_under": 170.5,
         "spread_holder": "Santa Clara Broncos",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -233,7 +233,7 @@
         "over_under": 136.5,
         "spread_holder": "Houston Christian Huskies",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -348,7 +348,7 @@
         "over_under": 163.5,
         "spread_holder": "UTSA Roadrunners",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -517,7 +517,7 @@
         "over_under": 151.5,
         "spread_holder": "Gonzaga Bulldogs",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -578,7 +578,7 @@
         "over_under": 155.5,
         "spread_holder": "Murray St Racers",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -693,7 +693,7 @@
         "over_under": 149.5,
         "spread_holder": "Furman Paladins",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -815,7 +815,7 @@
         "over_under": 143.5,
         "spread_holder": "Evansville Purple Aces",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -876,7 +876,7 @@
         "over_under": 146.5,
         "spread_holder": "Maryland Terrapins",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -937,7 +937,7 @@
         "over_under": 151.5,
         "spread_holder": "UC San Diego Tritons",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -998,7 +998,7 @@
         "over_under": 140.5,
         "spread_holder": "Old Dominion Monarchs",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -1116,11 +1116,11 @@
       "is_best_bet": true,
       "is_tournament_game": false,
       "closing_line": {
-        "spread": -12.5,
-        "over_under": 155.5,
+        "spread": -13.5,
+        "over_under": 156.5,
         "spread_holder": "High Point Panthers",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -1242,7 +1242,7 @@
         "over_under": 158.5,
         "spread_holder": "Nebraska Cornhuskers",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -1299,11 +1299,11 @@
       "is_best_bet": true,
       "is_tournament_game": false,
       "closing_line": {
-        "spread": -27.5,
+        "spread": -28.5,
         "over_under": 157.5,
         "spread_holder": "New Mexico Lobos",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -1364,7 +1364,7 @@
         "over_under": 148.5,
         "spread_holder": "Niagara Purple Eagles",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -1421,11 +1421,11 @@
       "is_best_bet": true,
       "is_tournament_game": false,
       "closing_line": {
-        "spread": -21.5,
+        "spread": -22.5,
         "over_under": 155.5,
         "spread_holder": "Grand Canyon Antelopes",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -1486,7 +1486,7 @@
         "over_under": 144.5,
         "spread_holder": "Seattle Redhawks",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -1601,7 +1601,7 @@
         "over_under": 156.5,
         "spread_holder": "UC Riverside Highlanders",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -1662,7 +1662,7 @@
         "over_under": 155.5,
         "spread_holder": "Utah Valley Wolverines",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -1723,7 +1723,7 @@
         "over_under": 148.5,
         "spread_holder": "St. Bonaventure Bonnies",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -1835,10 +1835,10 @@
       "is_tournament_game": false,
       "closing_line": {
         "spread": -7.5,
-        "over_under": 145.5,
+        "over_under": 146.5,
         "spread_holder": "UC Irvine Anteaters",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -2007,7 +2007,7 @@
         "over_under": 139.5,
         "spread_holder": "Bradley Braves",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -2237,7 +2237,7 @@
         "over_under": 144.5,
         "spread_holder": "Lipscomb Bisons",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -2298,7 +2298,7 @@
         "over_under": 152.5,
         "spread_holder": "Western Carolina Catamounts",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -2532,10 +2532,10 @@
       "is_tournament_game": false,
       "closing_line": {
         "spread": -20.5,
-        "over_under": 159.5,
+        "over_under": 158.5,
         "spread_holder": "Miami (OH) RedHawks",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -2718,7 +2718,7 @@
         "over_under": 147.5,
         "spread_holder": "Davidson Wildcats",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
@@ -2779,7 +2779,7 @@
         "over_under": 147.5,
         "spread_holder": "Dayton Flyers",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-07T14:42:46.344726-05:00"
+        "captured_at": "2026-11-07T16:39:05.352349-05:00"
       }
     },
     {
