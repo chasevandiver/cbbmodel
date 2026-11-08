@@ -61,10 +61,10 @@
       "is_tournament_game": true,
       "closing_line": {
         "spread": 19.5,
-        "over_under": 143.5,
+        "over_under": 142.5,
         "spread_holder": "Houston Cougars",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+        "captured_at": "2026-11-08T16:52:54.067068-05:00"
       }
     },
     {
@@ -1064,7 +1064,7 @@
         "over_under": 146.5,
         "spread_holder": "Hawai'i Rainbow Warriors",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+        "captured_at": "2026-11-08T16:52:54.067068-05:00"
       }
     },
     {
@@ -1179,7 +1179,7 @@
         "over_under": 158.5,
         "spread_holder": "William & Mary Tribe",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+        "captured_at": "2026-11-08T16:52:54.067068-05:00"
       }
     },
     {
@@ -1240,7 +1240,7 @@
         "over_under": 153.5,
         "spread_holder": "Pittsburgh Panthers",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+        "captured_at": "2026-11-08T16:52:54.067068-05:00"
       }
     },
     {
@@ -1571,7 +1571,7 @@
         "over_under": 150.5,
         "spread_holder": "Richmond Spiders",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+        "captured_at": "2026-11-08T16:52:54.067068-05:00"
       }
     },
     {
@@ -1628,11 +1628,11 @@
       "is_best_bet": false,
       "is_tournament_game": false,
       "closing_line": {
-        "spread": -11.5,
+        "spread": -12.5,
         "over_under": 141.5,
         "spread_holder": "UTEP Miners",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+        "captured_at": "2026-11-08T16:52:54.067068-05:00"
       }
     }
   ],
