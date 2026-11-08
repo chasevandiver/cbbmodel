@@ -58,7 +58,14 @@
         "total_edge": -0.3
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 19.5,
+        "over_under": 143.5,
+        "spread_holder": "Houston Cougars",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+      }
     },
     {
       "game_id": "401921685",
@@ -166,7 +173,14 @@
         "total_edge": -1.4
       },
       "is_best_bet": true,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 146.5,
+        "spread_holder": "Nevada Wolf Pack",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+      }
     },
     {
       "game_id": "401924646",
@@ -544,7 +558,14 @@
         "total_edge": 6.9
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 132.5,
+        "spread_holder": "Saint Peter's Peacocks",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+      }
     },
     {
       "game_id": "401921684",
@@ -976,7 +997,14 @@
         "total_edge": 7.9
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -6.5,
+        "over_under": 138.5,
+        "spread_holder": "Binghamton Bearcats",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+      }
     },
     {
       "game_id": "401929002",
@@ -1030,7 +1058,14 @@
         "total_edge": -2.9
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -8.5,
+        "over_under": 146.5,
+        "spread_holder": "Hawai'i Rainbow Warriors",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+      }
     },
     {
       "game_id": "401926215",
@@ -1138,7 +1173,14 @@
         "total_edge": -8.2
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -10.5,
+        "over_under": 158.5,
+        "spread_holder": "William & Mary Tribe",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+      }
     },
     {
       "game_id": "401909707",
@@ -1192,7 +1234,14 @@
         "total_edge": 0.2
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 2.5,
+        "over_under": 153.5,
+        "spread_holder": "Pittsburgh Panthers",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+      }
     },
     {
       "game_id": "401920739",
@@ -1516,7 +1565,14 @@
         "total_edge": 1.5
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 150.5,
+        "spread_holder": "Richmond Spiders",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+      }
     },
     {
       "game_id": "401929352",
@@ -1570,7 +1626,14 @@
         "total_edge": 4.3
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -11.5,
+        "over_under": 141.5,
+        "spread_holder": "UTEP Miners",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-08T15:00:35.448084-05:00"
+      }
     }
   ],
   "summary": {
