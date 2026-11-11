@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-11T14:33:43.546002-05:00",
+ "generated_at": "2026-11-11T15:10:12.284435-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-11",
@@ -163,14 +163,14 @@
     "name": "UAlbany Great Danes",
     "abbr": "UALB",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
-    "record": "2-1",
+    "record": "2-2",
     "rank": null
    },
    "away": {
     "name": "Dartmouth Big Green",
     "abbr": "DART",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
-    "record": "2-1",
+    "record": "3-1",
     "rank": null
    },
    "venue": "Broadview Center",

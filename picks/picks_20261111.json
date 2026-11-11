@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:33:43.491500-05:00",
+  "generated_at": "2026-11-11T15:10:12.229635-05:00",
   "date": "20261111",
   "total_games": 48,
   "model_version": "4.1.0",
@@ -17,8 +17,8 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "2-1",
-      "away_record": "2-1",
+      "home_record": "2-2",
+      "away_record": "3-1",
       "home_location": "UAlbany",
       "away_location": "Dartmouth",
       "home_rating_team": "Albany",
