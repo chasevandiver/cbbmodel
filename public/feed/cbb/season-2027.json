@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-11T13:38:55.857420-05:00",
+ "generated_at": "2026-11-11T14:33:43.546002-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -22373,14 +22373,14 @@
     "name": "East Texas A&M Lions",
     "abbr": "ETAM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2837.png",
-    "record": "2-0",
+    "record": "2-1",
     "rank": null
    },
    "away": {
     "name": "Fairleigh Dickinson Knights",
     "abbr": "FDU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/161.png",
-    "record": "1-2",
+    "record": "2-2",
     "rank": null
    },
    "venue": "The Field House",
@@ -22438,14 +22438,14 @@
     "name": "Florida A&M Rattlers",
     "abbr": "FAMU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
-    "record": "0-3",
+    "record": "0-4",
     "rank": null
    },
    "away": {
     "name": "Kansas City Roos",
     "abbr": "KC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/140.png",
-    "record": "1-2",
+    "record": "2-2",
     "rank": null
    },
    "venue": "McArthur Center",
@@ -22707,17 +22707,17 @@
    "start_time": "2026-11-11T20:00Z",
    "status": "pending",
    "home": {
-    "name": "South Florida Bulls",
-    "abbr": "USF",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
-    "record": "1-1",
-    "rank": null
-   },
-   "away": {
     "name": "Saint Joseph's Hawks",
     "abbr": "JOES",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png",
     "record": "2-0",
+    "rank": null
+   },
+   "away": {
+    "name": "South Florida Bulls",
+    "abbr": "USF",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+    "record": "1-1",
     "rank": null
    },
    "venue": "Alumni Hall (Navy)",
@@ -22726,17 +22726,17 @@
    "broadcast": "CBSSN",
    "model": {
     "version": "4.1.0",
-    "spread_home": -4.2,
+    "spread_home": 4.2,
     "total": 146.0,
-    "home_score": 75.1,
-    "away_score": 70.9,
-    "home_win_prob": 64.8,
+    "home_score": 70.9,
+    "away_score": 75.1,
+    "home_win_prob": 35.2,
     "confidence": 65.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "South Florida Bulls",
      "abbr": "USF",
-     "side": "home"
+     "side": "away"
     }
    },
    "market": {
@@ -22748,7 +22748,7 @@
    },
    "closing": null,
    "edge": {
-    "spread": -3.3,
+    "spread": -11.7,
     "total": -5.5,
     "value_rating": 3.3,
     "is_best_bet": true
