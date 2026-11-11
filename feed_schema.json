@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/chasevandiver/cbbmodel/feed_schema.json",
+  "title": "Shared pick feed",
+  "description": "Sport-agnostic picks + results feed shared by the CBB/CFB/NBA model repos. See FEED_SCHEMA.md.",
+  "oneOf": [{ "$ref": "#/$defs/feed_file" }, { "$ref": "#/$defs/index" }],
+  "$defs": {
+    "sport": { "type": "string", "enum": ["cbb", "cfb", "nba", "nfl"] },
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "datetime": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T" },
+    "nullable_number": { "type": ["number", "null"] },
+    "nullable_string": { "type": ["string", "null"] },
+    "nullable_boolean": { "type": ["boolean", "null"] },
+    "grade": { "type": ["string", "null"], "enum": ["W", "L", "P", null] },
+    "ou": { "type": ["string", "null"], "enum": ["O", "U", "P", null] },
+    "model_info": {
+      "type": "object",
+      "required": ["name", "version"],
+      "properties": { "name": { "type": "string" }, "version": { "$ref": "#/$defs/nullable_string" } }
+    },
+    "common_header": {
+      "type": "object",
+      "required": ["schema_version", "sport", "league", "sport_name", "model", "generated_at", "season", "season_label"],
+      "properties": {
+        "schema_version": { "type": "string", "const": "1.0" },
+        "sport": { "$ref": "#/$defs/sport" },
+        "league": { "type": "string" },
+        "sport_name": { "type": "string" },
+        "model": { "$ref": "#/$defs/model_info" },
+        "generated_at": { "$ref": "#/$defs/datetime" },
+        "season": { "type": "integer" },
+        "season_label": { "type": "string" }
+      }
+    },
+    "feed_file": {
+      "allOf": [
+        { "$ref": "#/$defs/common_header" },
+        {
+          "type": "object",
+          "required": ["kind", "records"],
+          "properties": {
+            "kind": { "type": "string", "enum": ["slate", "season"] },
+            "slate_date": { "$ref": "#/$defs/date" },
+            "records": { "type": "array", "items": { "$ref": "#/$defs/record" } }
+          }
+        }
+      ]
+    },
+    "team": {
+      "type": "object",
+      "required": ["name", "abbr", "logo", "record", "rank"],
+      "properties": {
+        "name": { "type": "string" },
+        "abbr": { "$ref": "#/$defs/nullable_string" },
+        "logo": { "$ref": "#/$defs/nullable_string" },
+        "record": { "$ref": "#/$defs/nullable_string" },
+        "rank": { "type": ["integer", "null"] }
+      }
+    },
+    "market": {
+      "type": ["object", "null"],
+      "required": ["spread_home", "total", "favorite", "bookmaker", "captured_at"],
+      "properties": {
+        "spread_home": { "$ref": "#/$defs/nullable_number" },
+        "total": { "$ref": "#/$defs/nullable_number" },
+        "favorite": { "$ref": "#/$defs/nullable_string" },
+        "bookmaker": { "$ref": "#/$defs/nullable_string" },
+        "captured_at": { "$ref": "#/$defs/nullable_string" }
+      }
+    },
+    "record": {
+      "type": "object",
+      "required": [
+        "id", "sport", "league", "season", "season_label", "slate_date", "game_id", "game_id_source",
+        "start_time", "status", "home", "away", "venue", "neutral_site", "conference_game", "broadcast",
+        "model", "market", "closing", "edge", "bet", "result", "tags"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^(cbb|cfb|nba|nfl):" },
+        "sport": { "$ref": "#/$defs/sport" },
+        "league": { "type": "string" },
+        "season": { "type": "integer" },
+        "season_label": { "type": "string" },
+        "slate_date": { "$ref": "#/$defs/date" },
+        "game_id": { "type": "string" },
+        "game_id_source": { "type": "string" },
+        "start_time": { "$ref": "#/$defs/datetime" },
+        "status": { "type": "string", "enum": ["pending", "final", "no_result"] },
+        "home": { "$ref": "#/$defs/team" },
+        "away": { "$ref": "#/$defs/team" },
+        "venue": { "$ref": "#/$defs/nullable_string" },
+        "neutral_site": { "$ref": "#/$defs/nullable_boolean" },
+        "conference_game": { "$ref": "#/$defs/nullable_boolean" },
+        "broadcast": { "$ref": "#/$defs/nullable_string" },
+        "model": {
+          "type": "object",
+          "required": ["version", "spread_home", "total", "home_score", "away_score", "home_win_prob", "confidence", "confidence_tier", "pick"],
+          "properties": {
+            "version": { "$ref": "#/$defs/nullable_string" },
+            "spread_home": { "$ref": "#/$defs/nullable_number" },
+            "total": { "$ref": "#/$defs/nullable_number" },
+            "home_score": { "$ref": "#/$defs/nullable_number" },
+            "away_score": { "$ref": "#/$defs/nullable_number" },
+            "home_win_prob": { "$ref": "#/$defs/nullable_number" },
+            "confidence": { "$ref": "#/$defs/nullable_number" },
+            "confidence_tier": { "type": ["string", "null"], "enum": ["high", "medium", "low", null] },
+            "pick": {
+              "type": "object",
+              "required": ["team", "abbr", "side"],
+              "properties": {
+                "team": { "$ref": "#/$defs/nullable_string" },
+                "abbr": { "$ref": "#/$defs/nullable_string" },
+                "side": { "type": ["string", "null"], "enum": ["home", "away", null] }
+              }
+            }
+          }
+        },
+        "market": { "$ref": "#/$defs/market" },
+        "closing": { "$ref": "#/$defs/market" },
+        "edge": {
+          "type": "object",
+          "required": ["spread", "total", "value_rating", "is_best_bet"],
+          "properties": {
+            "spread": { "$ref": "#/$defs/nullable_number" },
+            "total": { "$ref": "#/$defs/nullable_number" },
+            "value_rating": { "$ref": "#/$defs/nullable_number" },
+            "is_best_bet": { "type": "boolean" }
+          }
+        },
+        "bet": {
+          "type": "object",
+          "required": ["side", "cover_line"],
+          "properties": {
+            "side": { "type": "string", "enum": ["home", "away", "none"] },
+            "cover_line": { "$ref": "#/$defs/nullable_number" }
+          }
+        },
+        "result": {
+          "type": ["object", "null"],
+          "required": ["home_score", "away_score", "margin_home", "total", "winner", "su_correct", "ats", "ou_call", "ou_result", "ou_correct", "clv"],
+          "properties": {
+            "home_score": { "type": "number" },
+            "away_score": { "type": "number" },
+            "margin_home": { "type": "number" },
+            "total": { "type": "number" },
+            "winner": { "$ref": "#/$defs/nullable_string" },
+            "su_correct": { "$ref": "#/$defs/nullable_boolean" },
+            "ats": { "$ref": "#/$defs/grade" },
+            "ou_call": { "$ref": "#/$defs/ou" },
+            "ou_result": { "$ref": "#/$defs/ou" },
+            "ou_correct": { "$ref": "#/$defs/nullable_boolean" },
+            "clv": { "$ref": "#/$defs/nullable_number" }
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["best_bet", "value", "high_confidence", "tournament", "conference"] },
+          "uniqueItems": true
+        }
+      }
+    },
+    "record_block": {
+      "type": "object",
+      "required": ["w", "l", "p", "pct"],
+      "properties": {
+        "w": { "type": "integer" }, "l": { "type": "integer" }, "p": { "type": "integer" }, "pct": { "type": "number" }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "total_graded": { "type": "integer" },
+        "ats_graded": { "type": "integer" },
+        "ats": { "$ref": "#/$defs/record_block" },
+        "su": {
+          "type": "object",
+          "required": ["correct", "total", "pct"],
+          "properties": { "correct": { "type": "integer" }, "total": { "type": "integer" }, "pct": { "type": "number" } }
+        },
+        "ou": {
+          "type": "object",
+          "required": ["over", "under", "push", "model_correct", "model_gradeable", "model_pct"]
+        },
+        "by_confidence": {
+          "type": "object",
+          "required": ["high", "medium", "low"],
+          "properties": {
+            "high": { "$ref": "#/$defs/record_block" },
+            "medium": { "$ref": "#/$defs/record_block" },
+            "low": { "$ref": "#/$defs/record_block" }
+          }
+        },
+        "value_plays": { "$ref": "#/$defs/record_block" },
+        "best_bets": { "$ref": "#/$defs/record_block" },
+        "clv": { "type": "object", "required": ["n"] },
+        "calibration": { "type": "object", "required": ["n"] }
+      }
+    },
+    "index": {
+      "allOf": [
+        { "$ref": "#/$defs/common_header" },
+        {
+          "type": "object",
+          "required": ["files", "seasons", "slate", "summary", "all_time"],
+          "properties": {
+            "files": {
+              "type": "object",
+              "required": ["slate", "season"],
+              "properties": { "slate": { "type": "string" }, "season": { "type": "string" } }
+            },
+            "seasons": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["season", "label", "file", "records", "final", "pending", "no_result"],
+                "properties": {
+                  "season": { "type": "integer" }, "label": { "type": "string" }, "file": { "type": "string" },
+                  "records": { "type": "integer" }, "final": { "type": "integer" },
+                  "pending": { "type": "integer" }, "no_result": { "type": "integer" }
+                }
+              }
+            },
+            "slate": {
+              "type": "object",
+              "required": ["date", "total_games", "pending"],
+              "properties": {
+                "date": { "$ref": "#/$defs/date" }, "total_games": { "type": "integer" }, "pending": { "type": "integer" }
+              }
+            },
+            "summary": { "$ref": "#/$defs/summary" },
+            "all_time": { "$ref": "#/$defs/summary" }
+          }
+        }
+      ]
+    }
+  }
+}

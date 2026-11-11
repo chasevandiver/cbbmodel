@@ -1,0 +1,224 @@
+{
+ "schema_version": "1.0",
+ "sport": "cbb",
+ "league": "NCAAM",
+ "sport_name": "College Basketball",
+ "model": {
+  "name": "courtside-edge",
+  "version": "4.1.0"
+ },
+ "generated_at": "2026-11-11T09:30:13.281295-05:00",
+ "season": 2027,
+ "season_label": "2026-27",
+ "files": {
+  "slate": "slate.json",
+  "season": "season-2027.json"
+ },
+ "seasons": [
+  {
+   "season": 2027,
+   "label": "2026-27",
+   "file": "season-2027.json",
+   "records": 317,
+   "final": 269,
+   "pending": 48,
+   "no_result": 0
+  },
+  {
+   "season": 2026,
+   "label": "2025-26",
+   "file": "season-2026.json",
+   "records": 751,
+   "final": 718,
+   "pending": 0,
+   "no_result": 33
+  }
+ ],
+ "slate": {
+  "date": "2026-11-11",
+  "total_games": 48,
+  "pending": 48
+ },
+ "summary": {
+  "total_graded": 269,
+  "ats_graded": 240,
+  "ats": {
+   "w": 139,
+   "l": 101,
+   "p": 0,
+   "pct": 57.9
+  },
+  "su": {
+   "correct": 222,
+   "total": 269,
+   "pct": 82.5
+  },
+  "ou": {
+   "over": 131,
+   "under": 138,
+   "push": 0,
+   "model_correct": 131,
+   "model_gradeable": 269,
+   "model_pct": 48.7
+  },
+  "by_confidence": {
+   "high": {
+    "w": 9,
+    "l": 8,
+    "p": 0,
+    "pct": 52.9
+   },
+   "medium": {
+    "w": 130,
+    "l": 93,
+    "p": 0,
+    "pct": 58.3
+   },
+   "low": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": 0
+   }
+  },
+  "value_plays": {
+   "w": 58,
+   "l": 55,
+   "p": 0,
+   "pct": 51.3
+  },
+  "best_bets": {
+   "w": 38,
+   "l": 31,
+   "p": 0,
+   "pct": 55.1
+  },
+  "clv": {
+   "n": 192,
+   "avg": -0.1,
+   "beat_close_pct": 24.0,
+   "beat_or_matched_pct": 74.0
+  },
+  "calibration": {
+   "n": 269,
+   "model_mae": 9.34,
+   "market_mae": 8.79,
+   "intercept": -0.7,
+   "model_weight": 0.068,
+   "market_weight": 1.008,
+   "ats_by_edge": {
+    "0-2": {
+     "w": 52,
+     "l": 23,
+     "pct": 69.3
+    },
+    "2-4": {
+     "w": 45,
+     "l": 34,
+     "pct": 57.0
+    },
+    "4-7": {
+     "w": 36,
+     "l": 30,
+     "pct": 54.5
+    },
+    "7+": {
+     "w": 6,
+     "l": 14,
+     "pct": 30.0
+    }
+   }
+  }
+ },
+ "all_time": {
+  "total_graded": 987,
+  "ats_graded": 846,
+  "ats": {
+   "w": 447,
+   "l": 399,
+   "p": 0,
+   "pct": 52.8
+  },
+  "su": {
+   "correct": 690,
+   "total": 987,
+   "pct": 69.9
+  },
+  "ou": {
+   "over": 481,
+   "under": 496,
+   "push": 0,
+   "model_correct": 488,
+   "model_gradeable": 977,
+   "model_pct": 49.9
+  },
+  "by_confidence": {
+   "high": {
+    "w": 109,
+    "l": 113,
+    "p": 0,
+    "pct": 49.1
+   },
+   "medium": {
+    "w": 297,
+    "l": 239,
+    "p": 0,
+    "pct": 55.4
+   },
+   "low": {
+    "w": 41,
+    "l": 47,
+    "p": 0,
+    "pct": 46.6
+   }
+  },
+  "value_plays": {
+   "w": 203,
+   "l": 185,
+   "p": 0,
+   "pct": 52.3
+  },
+  "best_bets": {
+   "w": 75,
+   "l": 62,
+   "p": 0,
+   "pct": 54.7
+  },
+  "clv": {
+   "n": 192,
+   "avg": -0.1,
+   "beat_close_pct": 24.0,
+   "beat_or_matched_pct": 74.0
+  },
+  "calibration": {
+   "n": 977,
+   "model_mae": 10.46,
+   "market_mae": 8.89,
+   "intercept": 0.19,
+   "model_weight": -0.01,
+   "market_weight": 1.019,
+   "ats_by_edge": {
+    "0-2": {
+     "w": 166,
+     "l": 145,
+     "pct": 53.4
+    },
+    "2-4": {
+     "w": 140,
+     "l": 114,
+     "pct": 55.1
+    },
+    "4-7": {
+     "w": 74,
+     "l": 64,
+     "pct": 53.6
+    },
+    "7+": {
+     "w": 67,
+     "l": 76,
+     "pct": 46.9
+    }
+   }
+  }
+ }
+}

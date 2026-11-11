@@ -4,6 +4,7 @@ CBB Daily Automation
 ====================
   1. Grade yesterday's picks against final scores
   2. Generate today's picks
+  2b. Export the shared pick feed (public/feed/) for the slate app
   3. Commit and push (skipped under GitHub Actions, where the workflow commits)
 
 Exit code is non-zero if the model fails, so a CI run goes red instead of
@@ -22,7 +23,7 @@ from zoneinfo import ZoneInfo
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 EASTERN = ZoneInfo("America/New_York")
 IN_CI = os.environ.get("GITHUB_ACTIONS") == "true"
-TRACKED = ["picks/", "public/latest.json", "public/results/results.json", "data/"]
+TRACKED = ["picks/", "public/latest.json", "public/results/results.json", "public/feed/", "data/"]
 
 
 def log(msg):
@@ -55,6 +56,10 @@ def main():
     model_ok = run([sys.executable, "cbb_model.py", "--debug"])
     if not model_ok:
         log("[ERROR] model failed — no new picks; grading results are still committed")
+
+    log("Step 2b: exporting shared feed")
+    if not run([sys.executable, "export_feed.py"]):
+        log("[WARN] feed export failed — continuing")
 
     if IN_CI:
         log("Step 3: skipped (GitHub Actions workflow commits)")

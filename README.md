@@ -73,6 +73,7 @@ python3 results_tracker.py --regrade          # reapply grading rules to the sto
 python3 results_tracker.py --rebuild          # regrade from pick files (refetches scores)
 
 python3 estimate_hca.py                       # rebuild team_hca.json (run each summer)
+python3 export_feed.py --validate             # write public/feed/cbb/ (shared slate-app feed, see FEED_SCHEMA.md)
 python3 automate.py                           # grade yesterday, generate today, commit + push
 ```
 
@@ -99,6 +100,7 @@ commit, so `main` always gets a SHA Vercel has not seen.
 ```
 cbb_model.py          projections
 results_tracker.py    grading
+export_feed.py        shared pick feed for the slate app (FEED_SCHEMA.md, feed_schema.json)
 automate.py           daily driver
 picks/                one JSON per date + latest.json
 public/latest.json    served to the dashboard
