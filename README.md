@@ -105,8 +105,11 @@ automate.py           daily driver
 picks/                one JSON per date + latest.json
 public/latest.json    served to the dashboard
 public/results/       graded history
-src/App.jsx           picks dashboard
+src/App.jsx           app shell: tabs, theme toggle, data loading
+src/Picks.jsx         today's slate
 src/Results.jsx       results dashboard
+src/lib.js            shared bet / record / formatting helpers
+src/styles.css        all styling (light + dark themes, responsive)
 ```
 
 ## Grading
