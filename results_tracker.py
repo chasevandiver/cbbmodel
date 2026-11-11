@@ -10,7 +10,9 @@ Usage:
     python3 results_tracker.py --rebuild          # regrade every picks/picks_*.json from scratch
 
 Output:
-    public/results/results.json  — graded history + summary for the dashboard
+    public/results/results.json  — graded history + summary for the dashboard. The summary
+                                   covers the current season only; summary.all_time has the
+                                   full history.
 
 Grading rules:
     ATS   only when the pick carried a real market line. bet_side follows the
@@ -197,7 +199,34 @@ def closing_line_value(games):
             "beat_or_matched_pct": round(sum(v >= 0 for v in vals) / len(vals) * 100, 1)}
 
 
+def season_for(date_str):
+    """Barttorvik labels a season by the year it ends: Nov 2026 - Apr 2027 -> 2027."""
+    d = datetime.strptime(date_str[:10], "%Y-%m-%d")
+    return d.year + 1 if d.month >= 10 else d.year
+
+
+def season_label(season):
+    return f"{season - 1}-{str(season)[-2:]}"
+
+
 def compute_summary(games):
+    """
+    Headline stats cover the current season only (the season of the most recently graded game),
+    so last season's history stops bleeding into this season's record. The full history is kept
+    under "all_time" for reference.
+    """
+    if not games:
+        return {}
+    season = max(season_for(g["date"]) for g in games if g.get("date"))
+    this_season = [g for g in games if g.get("date") and season_for(g["date"]) == season]
+    summary = _summary_block(this_season)
+    summary["season"] = season
+    summary["season_label"] = season_label(season)
+    summary["all_time"] = _summary_block(games)
+    return summary
+
+
+def _summary_block(games):
     if not games:
         return {}
     ou_gradeable = [g for g in games if g.get("ou_model_correct") is not None]
@@ -247,8 +276,10 @@ def save_results(results):
     with open(RESULTS_PATH, "w") as f:
         json.dump(results, f, indent=2)
     s = results["summary"]
-    print(f"[OK] {RESULTS_PATH}: {s.get('total_graded', 0)} graded, ATS {s.get('ats', {}).get('w', 0)}-"
-          f"{s.get('ats', {}).get('l', 0)}-{s.get('ats', {}).get('p', 0)}, SU {s.get('su', {}).get('pct', 0)}%")
+    print(f"[OK] {RESULTS_PATH}: {s.get('season_label', '?')} season {s.get('total_graded', 0)} graded, "
+          f"ATS {s.get('ats', {}).get('w', 0)}-{s.get('ats', {}).get('l', 0)}-{s.get('ats', {}).get('p', 0)}, "
+          f"SU {s.get('su', {}).get('pct', 0)}% "
+          f"(all time {s.get('all_time', {}).get('total_graded', 0)} graded)")
 
 
 def grade_date(date_str, games):

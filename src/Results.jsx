@@ -209,6 +209,12 @@ function getConference(teamName) {
   return TEAM_CONFERENCE[teamName] || "Other";
 }
 
+// Barttorvik labels a season by the year it ends: Nov 2026 - Apr 2027 -> 2027.
+function seasonOf(dateStr) {
+  const d = new Date(dateStr);
+  return d.getUTCMonth() >= 9 ? d.getUTCFullYear() + 1 : d.getUTCFullYear();
+}
+
 function computeStats(games) {
   const atsW = games.filter(g => g.ats_result === "W").length;
   const atsL = games.filter(g => g.ats_result === "L").length;
@@ -642,7 +648,9 @@ export default function Results({ onNavigate }) {
   // Build sorted unique conference list from graded games (must be before early return)
   const availableConfs = useMemo(() => {
     if (!data) return ["all"];
-    const graded = data.games.filter(g => g.graded);
+    const season = data.summary.season
+      ?? Math.max(...data.games.filter(g => g.date).map(g => seasonOf(g.date)));
+    const graded = data.games.filter(g => g.graded && g.date && seasonOf(g.date) === season);
     const confs = new Set();
     graded.forEach(g => {
       confs.add(getConference(g.home_team));
@@ -665,7 +673,11 @@ export default function Results({ onNavigate }) {
   );
 
   const { summary, games } = data;
-  const graded = games.filter(g => g.graded);
+  // Season only (Nov-Apr, labeled by the year it ends). Older seasons stay in the file
+  // but are not counted anywhere on this page.
+  const season = summary.season ?? Math.max(...games.filter(g => g.date).map(g => seasonOf(g.date)));
+  const seasonLabel = summary.season_label ?? `${season - 1}-${String(season).slice(-2)}`;
+  const graded = games.filter(g => g.graded && g.date && seasonOf(g.date) === season);
 
   // Date boundary helpers
   const now = new Date();
@@ -718,7 +730,7 @@ export default function Results({ onNavigate }) {
   const datePeriodLabel = dateFilter === "yesterday" ? "Yesterday"
     : dateFilter === "7days" ? "Last 7 Days"
     : dateFilter === "30days" ? "Last 30 Days"
-    : "Season";
+    : `${seasonLabel} Season`;
   const atsColor = ats.pct >= 55 ? C.green : ats.pct >= 50 ? C.yellow : C.red;
 
   return (
@@ -904,7 +916,7 @@ export default function Results({ onNavigate }) {
               fontSize: 9, fontWeight: 800, color: C.muted, letterSpacing: 2.5,
               textTransform: "uppercase", fontFamily: "'JetBrains Mono', monospace", marginBottom: 14,
             }}>
-              Model vs Market · all time ({summary.calibration.n} games with a line)
+              Model vs Market · {seasonLabel} season ({summary.calibration.n} games with a line)
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 12 }}>
               <StatCard label="Model error" value={summary.calibration.model_mae}
@@ -999,7 +1011,7 @@ export default function Results({ onNavigate }) {
             <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
               <span style={{ fontSize: 9, color: C.dim, fontFamily: "'JetBrains Mono', monospace", marginRight: 2 }}>DATE:</span>
               {[
-                { key: "all", label: "All Time" },
+                { key: "all", label: "Season" },
                 { key: "yesterday", label: "Yesterday" },
                 { key: "7days", label: "Last 7 Days" },
                 { key: "30days", label: "Last 30 Days" },
