@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-12T06:41:51.513552-05:00",
+ "generated_at": "2026-11-12T13:51:44.016803-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -49,6 +49,7 @@
     "away_score": 71.8,
     "home_win_prob": 43.8,
     "confidence": 54.2,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "McNeese Cowboys",
@@ -132,6 +133,7 @@
     "away_score": 69.3,
     "home_win_prob": 84.0,
     "confidence": 70.0,
+    "tempo": 72.0,
     "confidence_tier": "high",
     "pick": {
      "team": "Vanderbilt Commodores",
@@ -218,6 +220,7 @@
     "away_score": 64.6,
     "home_win_prob": 99.3,
     "confidence": 50.0,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Indiana Hoosiers",
@@ -301,6 +304,7 @@
     "away_score": 71.4,
     "home_win_prob": 90.0,
     "confidence": 52.4,
+    "tempo": 71.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Penn State Nittany Lions",
@@ -384,6 +388,7 @@
     "away_score": 63.8,
     "home_win_prob": 93.8,
     "confidence": 43.4,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Seton Hall Pirates",
@@ -467,6 +472,7 @@
     "away_score": 69.5,
     "home_win_prob": 89.5,
     "confidence": 64.8,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Pittsburgh Panthers",
@@ -553,6 +559,7 @@
     "away_score": 60.1,
     "home_win_prob": 97.8,
     "confidence": 42.2,
+    "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Syracuse Orange",
@@ -636,6 +643,7 @@
     "away_score": 68.6,
     "home_win_prob": 74.6,
     "confidence": 51.9,
+    "tempo": 69.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Saint Peter's Peacocks",
@@ -719,6 +727,7 @@
     "away_score": 70.4,
     "home_win_prob": 68.7,
     "confidence": 63.6,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Incarnate Word Cardinals",
@@ -805,6 +814,7 @@
     "away_score": 64.6,
     "home_win_prob": 94.0,
     "confidence": 58.4,
+    "tempo": 69.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Notre Dame Fighting Irish",
@@ -891,6 +901,7 @@
     "away_score": 66.1,
     "home_win_prob": 96.6,
     "confidence": 42.5,
+    "tempo": 71.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Virginia Tech Hokies",
@@ -974,6 +985,7 @@
     "away_score": 71.6,
     "home_win_prob": 52.5,
     "confidence": 53.2,
+    "tempo": 69.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Fairfield Stags",
@@ -1057,6 +1069,7 @@
     "away_score": 70.6,
     "home_win_prob": 76.1,
     "confidence": 57.8,
+    "tempo": 71.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Iona Gaels",
@@ -1140,6 +1153,7 @@
     "away_score": 67.5,
     "home_win_prob": 73.5,
     "confidence": 60.6,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Marist Red Foxes",
@@ -1223,6 +1237,7 @@
     "away_score": 68.5,
     "home_win_prob": 71.9,
     "confidence": 59.5,
+    "tempo": 70.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Navy Midshipmen",
@@ -1306,6 +1321,7 @@
     "away_score": 75.3,
     "home_win_prob": 45.3,
     "confidence": 70.2,
+    "tempo": 71.2,
     "confidence_tier": "high",
     "pick": {
      "team": "UAlbany Great Danes",
@@ -1393,6 +1409,7 @@
     "away_score": 66.5,
     "home_win_prob": 85.8,
     "confidence": 55.2,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Merrimack Warriors",
@@ -1476,6 +1493,7 @@
     "away_score": 68.9,
     "home_win_prob": 79.7,
     "confidence": 61.6,
+    "tempo": 72.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Quinnipiac Bobcats",
@@ -1559,6 +1577,7 @@
     "away_score": 75.6,
     "home_win_prob": 31.1,
     "confidence": 75.0,
+    "tempo": 71.0,
     "confidence_tier": "high",
     "pick": {
      "team": "New Hampshire Wildcats",
@@ -1645,6 +1664,7 @@
     "away_score": 70.4,
     "home_win_prob": 66.2,
     "confidence": 54.6,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Sacred Heart Pioneers",
@@ -1728,6 +1748,7 @@
     "away_score": 66.8,
     "home_win_prob": 95.3,
     "confidence": 65.0,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Cincinnati Bearcats",
@@ -1813,6 +1834,7 @@
     "away_score": 76.5,
     "home_win_prob": 54.1,
     "confidence": 52.5,
+    "tempo": 72.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Lehigh Mountain Hawks",
@@ -1896,6 +1918,7 @@
     "away_score": 68.8,
     "home_win_prob": 60.8,
     "confidence": 53.1,
+    "tempo": 68.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Princeton Tigers",
@@ -1979,6 +2002,7 @@
     "away_score": 80.1,
     "home_win_prob": 19.0,
     "confidence": 51.7,
+    "tempo": 72.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Howard Bison",
@@ -2062,6 +2086,7 @@
     "away_score": 71.8,
     "home_win_prob": 87.5,
     "confidence": 50.5,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Charlotte 49ers",
@@ -2145,6 +2170,7 @@
     "away_score": 66.9,
     "home_win_prob": 96.6,
     "confidence": 42.8,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Mississippi State Bulldogs",
@@ -2228,6 +2254,7 @@
     "away_score": 64.7,
     "home_win_prob": 93.5,
     "confidence": 52.4,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Fordham Rams",
@@ -2311,6 +2338,7 @@
     "away_score": 74.3,
     "home_win_prob": 79.7,
     "confidence": 60.4,
+    "tempo": 72.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Tulane Green Wave",
@@ -2394,6 +2422,7 @@
     "away_score": 63.7,
     "home_win_prob": 99.4,
     "confidence": 65.0,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Florida Gators",
@@ -2479,6 +2508,7 @@
     "away_score": 61.0,
     "home_win_prob": 99.9,
     "confidence": 65.0,
+    "tempo": 72.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas Longhorns",
@@ -2564,6 +2594,7 @@
     "away_score": 64.8,
     "home_win_prob": 99.1,
     "confidence": 54.6,
+    "tempo": 72.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Creighton Bluejays",
@@ -2650,6 +2681,7 @@
     "away_score": 60.1,
     "home_win_prob": 99.5,
     "confidence": 45.0,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Duke Blue Devils",
@@ -2735,6 +2767,7 @@
     "away_score": 70.7,
     "home_win_prob": 82.2,
     "confidence": 70.0,
+    "tempo": 71.4,
     "confidence_tier": "high",
     "pick": {
      "team": "Loyola Chicago Ramblers",
@@ -2815,6 +2848,7 @@
     "away_score": 64.7,
     "home_win_prob": 99.2,
     "confidence": 48.5,
+    "tempo": 72.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "SMU Mustangs",
@@ -2898,6 +2932,7 @@
     "away_score": 70.1,
     "home_win_prob": 91.7,
     "confidence": 48.0,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Tulsa Golden Hurricane",
@@ -2981,6 +3016,7 @@
     "away_score": 68.0,
     "home_win_prob": 78.3,
     "confidence": 71.5,
+    "tempo": 70.8,
     "confidence_tier": "high",
     "pick": {
      "team": "Rice Owls",
@@ -3068,6 +3104,7 @@
     "away_score": 65.3,
     "home_win_prob": 97.3,
     "confidence": 62.4,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Michigan State Spartans",
@@ -3154,6 +3191,7 @@
     "away_score": 71.7,
     "home_win_prob": 54.5,
     "confidence": 68.0,
+    "tempo": 69.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "South Alabama Jaguars",
@@ -3240,6 +3278,7 @@
     "away_score": 72.3,
     "home_win_prob": 69.6,
     "confidence": 54.4,
+    "tempo": 72.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "DePaul Blue Demons",
@@ -3323,6 +3362,7 @@
     "away_score": 69.1,
     "home_win_prob": 96.6,
     "confidence": 44.0,
+    "tempo": 72.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Illinois Fighting Illini",
@@ -3408,6 +3448,7 @@
     "away_score": 65.6,
     "home_win_prob": 97.7,
     "confidence": 65.0,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas Tech Red Raiders",
@@ -3493,6 +3534,7 @@
     "away_score": 65.3,
     "home_win_prob": 83.9,
     "confidence": 55.6,
+    "tempo": 69.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Utah Utes",
@@ -3576,6 +3618,7 @@
     "away_score": 67.6,
     "home_win_prob": 98.9,
     "confidence": 62.5,
+    "tempo": 74.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Arizona Wildcats",
@@ -3662,6 +3705,7 @@
     "away_score": 71.0,
     "home_win_prob": 70.6,
     "confidence": 52.9,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Boston College Eagles",
@@ -3741,6 +3785,7 @@
     "away_score": 59.9,
     "home_win_prob": 99.8,
     "confidence": 61.4,
+    "tempo": 72.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Baylor Bears",
@@ -3827,6 +3872,7 @@
     "away_score": 63.9,
     "home_win_prob": 99.5,
     "confidence": 65.0,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Virginia Cavaliers",
@@ -3912,6 +3958,7 @@
     "away_score": 63.5,
     "home_win_prob": 96.6,
     "confidence": 51.4,
+    "tempo": 72.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Florida International Panthers",
@@ -3989,6 +4036,7 @@
     "away_score": 68.5,
     "home_win_prob": 94.5,
     "confidence": 45.4,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Oregon Ducks",
@@ -4072,6 +4120,7 @@
     "away_score": 62.2,
     "home_win_prob": 98.9,
     "confidence": 41.9,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Ohio State Buckeyes",
@@ -4155,6 +4204,7 @@
     "away_score": 72.7,
     "home_win_prob": 58.3,
     "confidence": 59.7,
+    "tempo": 72.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "South Carolina Upstate Spartans",
@@ -4238,6 +4288,7 @@
     "away_score": 65.1,
     "home_win_prob": 91.8,
     "confidence": 57.7,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Purdue Boilermakers",
@@ -4324,6 +4375,7 @@
     "away_score": 65.5,
     "home_win_prob": 97.3,
     "confidence": 54.1,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Georgia Bulldogs",
@@ -4410,6 +4462,7 @@
     "away_score": 67.8,
     "home_win_prob": 92.9,
     "confidence": 65.0,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Xavier Musketeers",
@@ -4495,6 +4548,7 @@
     "away_score": 67.6,
     "home_win_prob": 88.6,
     "confidence": 70.0,
+    "tempo": 70.8,
     "confidence_tier": "high",
     "pick": {
      "team": "Florida State Seminoles",
@@ -4581,6 +4635,7 @@
     "away_score": 73.2,
     "home_win_prob": 50.6,
     "confidence": 60.4,
+    "tempo": 70.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Ball State Cardinals",
@@ -4664,6 +4719,7 @@
     "away_score": 74.9,
     "home_win_prob": 67.9,
     "confidence": 61.4,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Missouri Tigers",
@@ -4743,6 +4799,7 @@
     "away_score": 67.1,
     "home_win_prob": 70.7,
     "confidence": 65.0,
+    "tempo": 69.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Brown Bears",
@@ -4823,6 +4880,7 @@
     "away_score": 64.0,
     "home_win_prob": 94.5,
     "confidence": 45.5,
+    "tempo": 68.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Clemson Tigers",
@@ -4906,6 +4964,7 @@
     "away_score": 64.3,
     "home_win_prob": 97.7,
     "confidence": 50.8,
+    "tempo": 71.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "North Carolina Tar Heels",
@@ -4989,6 +5048,7 @@
     "away_score": 73.3,
     "home_win_prob": 69.1,
     "confidence": 51.0,
+    "tempo": 72.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Kennesaw State Owls",
@@ -5072,6 +5132,7 @@
     "away_score": 67.4,
     "home_win_prob": 95.3,
     "confidence": 44.7,
+    "tempo": 70.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "NC State Wolfpack",
@@ -5155,6 +5216,7 @@
     "away_score": 61.2,
     "home_win_prob": 98.6,
     "confidence": 54.9,
+    "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "George Mason Patriots",
@@ -5241,6 +5303,7 @@
     "away_score": 66.0,
     "home_win_prob": 94.4,
     "confidence": 45.3,
+    "tempo": 72.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Georgia Tech Yellow Jackets",
@@ -5324,6 +5387,7 @@
     "away_score": 71.1,
     "home_win_prob": 70.4,
     "confidence": 53.5,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Mount St. Mary's Mountaineers",
@@ -5401,6 +5465,7 @@
     "away_score": 70.7,
     "home_win_prob": 80.2,
     "confidence": 54.4,
+    "tempo": 70.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Elon Phoenix",
@@ -5484,6 +5549,7 @@
     "away_score": 61.6,
     "home_win_prob": 99.6,
     "confidence": 55.6,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Villanova Wildcats",
@@ -5570,6 +5636,7 @@
     "away_score": 67.5,
     "home_win_prob": 93.0,
     "confidence": 65.0,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "UCF Knights",
@@ -5655,6 +5722,7 @@
     "away_score": 62.9,
     "home_win_prob": 97.2,
     "confidence": 65.0,
+    "tempo": 68.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "West Virginia Mountaineers",
@@ -5740,6 +5808,7 @@
     "away_score": 67.4,
     "home_win_prob": 95.1,
     "confidence": 65.0,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Kentucky Wildcats",
@@ -5825,6 +5894,7 @@
     "away_score": 61.4,
     "home_win_prob": 97.9,
     "confidence": 48.6,
+    "tempo": 69.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Rutgers Scarlet Knights",
@@ -5908,6 +5978,7 @@
     "away_score": 68.6,
     "home_win_prob": 97.4,
     "confidence": 57.1,
+    "tempo": 75.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Alabama Crimson Tide",
@@ -5994,6 +6065,7 @@
     "away_score": 69.4,
     "home_win_prob": 86.8,
     "confidence": 62.9,
+    "tempo": 71.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "UAB Blazers",
@@ -6080,6 +6152,7 @@
     "away_score": 65.3,
     "home_win_prob": 96.9,
     "confidence": 56.6,
+    "tempo": 70.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Wisconsin Badgers",
@@ -6166,6 +6239,7 @@
     "away_score": 75.4,
     "home_win_prob": 52.1,
     "confidence": 62.7,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Wright State Raiders",
@@ -6249,6 +6323,7 @@
     "away_score": 56.2,
     "home_win_prob": 99.9,
     "confidence": 64.0,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Oklahoma Sooners",
@@ -6328,6 +6403,7 @@
     "away_score": 65.8,
     "home_win_prob": 97.9,
     "confidence": 64.0,
+    "tempo": 71.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Marquette Golden Eagles",
@@ -6413,6 +6489,7 @@
     "away_score": 62.1,
     "home_win_prob": 98.8,
     "confidence": 64.3,
+    "tempo": 71.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Iowa State Cyclones",
@@ -6499,6 +6576,7 @@
     "away_score": 67.6,
     "home_win_prob": 81.4,
     "confidence": 69.7,
+    "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Minnesota Golden Gophers",
@@ -6585,6 +6663,7 @@
     "away_score": 62.2,
     "home_win_prob": 98.3,
     "confidence": 46.0,
+    "tempo": 71.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "TCU Horned Frogs",
@@ -6668,6 +6747,7 @@
     "away_score": 73.0,
     "home_win_prob": 49.8,
     "confidence": 75.0,
+    "tempo": 70.1,
     "confidence_tier": "high",
     "pick": {
      "team": "UConn Huskies",
@@ -6755,6 +6835,7 @@
     "away_score": 66.0,
     "home_win_prob": 90.8,
     "confidence": 54.6,
+    "tempo": 68.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Northwestern Wildcats",
@@ -6838,6 +6919,7 @@
     "away_score": 66.6,
     "home_win_prob": 97.0,
     "confidence": 65.0,
+    "tempo": 72.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas A&M Aggies",
@@ -6923,6 +7005,7 @@
     "away_score": 65.7,
     "home_win_prob": 99.1,
     "confidence": 65.0,
+    "tempo": 76.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "LSU Tigers",
@@ -7008,6 +7091,7 @@
     "away_score": 67.5,
     "home_win_prob": 58.5,
     "confidence": 55.6,
+    "tempo": 69.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Louisiana Ragin' Cajuns",
@@ -7085,6 +7169,7 @@
     "away_score": 67.9,
     "home_win_prob": 83.0,
     "confidence": 46.0,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "UIC Flames",
@@ -7168,6 +7253,7 @@
     "away_score": 68.2,
     "home_win_prob": 87.6,
     "confidence": 70.0,
+    "tempo": 70.9,
     "confidence_tier": "high",
     "pick": {
      "team": "Ole Miss Rebels",
@@ -7254,6 +7340,7 @@
     "away_score": 57.6,
     "home_win_prob": 99.1,
     "confidence": 65.0,
+    "tempo": 68.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Iowa Hawkeyes",
@@ -7339,6 +7426,7 @@
     "away_score": 72.3,
     "home_win_prob": 40.6,
     "confidence": 55.5,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Southern Illinois Salukis",
@@ -7422,6 +7510,7 @@
     "away_score": 64.7,
     "home_win_prob": 93.0,
     "confidence": 50.2,
+    "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Wyoming Cowboys",
@@ -7505,6 +7594,7 @@
     "away_score": 63.8,
     "home_win_prob": 98.1,
     "confidence": 65.0,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Kansas Jayhawks",
@@ -7590,6 +7680,7 @@
     "away_score": 71.5,
     "home_win_prob": 88.7,
     "confidence": 57.2,
+    "tempo": 74.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Kansas State Wildcats",
@@ -7667,6 +7758,7 @@
     "away_score": 74.1,
     "home_win_prob": 93.8,
     "confidence": 47.3,
+    "tempo": 73.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Oklahoma State Cowboys",
@@ -7750,6 +7842,7 @@
     "away_score": 57.5,
     "home_win_prob": 99.8,
     "confidence": 62.8,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Miami Hurricanes",
@@ -7836,6 +7929,7 @@
     "away_score": 65.4,
     "home_win_prob": 91.3,
     "confidence": 64.0,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Arizona State Sun Devils",
@@ -7916,6 +8010,7 @@
     "away_score": 61.4,
     "home_win_prob": 99.4,
     "confidence": 60.4,
+    "tempo": 71.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "BYU Cougars",
@@ -8002,6 +8097,7 @@
     "away_score": 66.2,
     "home_win_prob": 89.5,
     "confidence": 56.8,
+    "tempo": 69.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Colorado State Rams",
@@ -8085,6 +8181,7 @@
     "away_score": 73.7,
     "home_win_prob": 62.1,
     "confidence": 59.4,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "San Diego Toreros",
@@ -8168,6 +8265,7 @@
     "away_score": 71.9,
     "home_win_prob": 87.6,
     "confidence": 70.0,
+    "tempo": 75.9,
     "confidence_tier": "high",
     "pick": {
      "team": "Oregon State Beavers",
@@ -8254,6 +8352,7 @@
     "away_score": 71.6,
     "home_win_prob": 61.1,
     "confidence": 57.4,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Portland Pilots",
@@ -8333,6 +8432,7 @@
     "away_score": 70.8,
     "home_win_prob": 59.3,
     "confidence": 75.0,
+    "tempo": 69.8,
     "confidence_tier": "high",
     "pick": {
      "team": "San Francisco Dons",
@@ -8419,6 +8519,7 @@
     "away_score": 66.0,
     "home_win_prob": 90.0,
     "confidence": 48.5,
+    "tempo": 70.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Stanford Cardinal",
@@ -8502,6 +8603,7 @@
     "away_score": 62.4,
     "home_win_prob": 99.5,
     "confidence": 53.5,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "UCLA Bruins",
@@ -8588,6 +8690,7 @@
     "away_score": 60.9,
     "home_win_prob": 99.7,
     "confidence": 65.0,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Louisville Cardinals",
@@ -8667,6 +8770,7 @@
     "away_score": 73.1,
     "home_win_prob": 78.7,
     "confidence": 54.0,
+    "tempo": 72.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Winthrop Eagles",
@@ -8744,6 +8848,7 @@
     "away_score": 75.7,
     "home_win_prob": 73.6,
     "confidence": 68.2,
+    "tempo": 72.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Ohio Bobcats",
@@ -8824,6 +8929,7 @@
     "away_score": 73.2,
     "home_win_prob": 42.1,
     "confidence": 69.8,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Lamar Cardinals",
@@ -8904,6 +9010,7 @@
     "away_score": 77.4,
     "home_win_prob": 39.0,
     "confidence": 52.7,
+    "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "UNC Wilmington Seahawks",
@@ -8981,6 +9088,7 @@
     "away_score": 78.6,
     "home_win_prob": 52.2,
     "confidence": 54.6,
+    "tempo": 74.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "South Dakota Coyotes",
@@ -9058,6 +9166,7 @@
     "away_score": 70.3,
     "home_win_prob": 55.1,
     "confidence": 51.4,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Drexel Dragons",
@@ -9135,6 +9244,7 @@
     "away_score": 76.4,
     "home_win_prob": 46.6,
     "confidence": 64.7,
+    "tempo": 72.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Toledo Rockets",
@@ -9215,6 +9325,7 @@
     "away_score": 80.1,
     "home_win_prob": 43.3,
     "confidence": 53.6,
+    "tempo": 72.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "VCU Rams",
@@ -9298,6 +9409,7 @@
     "away_score": 67.4,
     "home_win_prob": 86.0,
     "confidence": 47.6,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Longwood Lancers",
@@ -9381,6 +9493,7 @@
     "away_score": 69.9,
     "home_win_prob": 82.4,
     "confidence": 47.1,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Montana State Bobcats",
@@ -9464,6 +9577,7 @@
     "away_score": 77.7,
     "home_win_prob": 37.8,
     "confidence": 54.6,
+    "tempo": 71.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "San Diego State Aztecs",
@@ -9543,6 +9657,7 @@
     "away_score": 70.0,
     "home_win_prob": 75.1,
     "confidence": 62.9,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "La Salle Explorers",
@@ -9628,6 +9743,7 @@
     "away_score": 71.6,
     "home_win_prob": 64.7,
     "confidence": 60.4,
+    "tempo": 71.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Rhode Island Rams",
@@ -9713,6 +9829,7 @@
     "away_score": 61.8,
     "home_win_prob": 93.1,
     "confidence": 45.6,
+    "tempo": 70.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Saint Joseph's Hawks",
@@ -9796,6 +9913,7 @@
     "away_score": 71.7,
     "home_win_prob": 87.0,
     "confidence": 49.5,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "UNLV Rebels",
@@ -9879,6 +9997,7 @@
     "away_score": 68.4,
     "home_win_prob": 86.6,
     "confidence": 47.3,
+    "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "UC Santa Barbara Gauchos",
@@ -9962,6 +10081,7 @@
     "away_score": 62.3,
     "home_win_prob": 97.7,
     "confidence": 59.3,
+    "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Utah State Aggies",
@@ -10048,6 +10168,7 @@
     "away_score": 69.4,
     "home_win_prob": 95.7,
     "confidence": 47.6,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Miami (OH) RedHawks",
@@ -10131,6 +10252,7 @@
     "away_score": 68.7,
     "home_win_prob": 91.2,
     "confidence": 59.5,
+    "tempo": 71.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "High Point Panthers",
@@ -10217,6 +10339,7 @@
     "away_score": 68.8,
     "home_win_prob": 69.0,
     "confidence": 52.2,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Lipscomb Bisons",
@@ -10300,6 +10423,7 @@
     "away_score": 72.1,
     "home_win_prob": 70.0,
     "confidence": 75.0,
+    "tempo": 72.3,
     "confidence_tier": "high",
     "pick": {
      "team": "IU Indianapolis Jaguars",
@@ -10380,6 +10504,7 @@
     "away_score": 76.9,
     "home_win_prob": 26.1,
     "confidence": 61.2,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Old Dominion Monarchs",
@@ -10463,6 +10588,7 @@
     "away_score": 72.0,
     "home_win_prob": 54.7,
     "confidence": 63.9,
+    "tempo": 69.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Furman Paladins",
@@ -10549,6 +10675,7 @@
     "away_score": 74.3,
     "home_win_prob": 78.8,
     "confidence": 68.2,
+    "tempo": 72.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "UTSA Roadrunners",
@@ -10635,6 +10762,7 @@
     "away_score": 65.4,
     "home_win_prob": 98.0,
     "confidence": 64.9,
+    "tempo": 70.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Gonzaga Bulldogs",
@@ -10721,6 +10849,7 @@
     "away_score": 77.1,
     "home_win_prob": 40.0,
     "confidence": 52.1,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Western Carolina Catamounts",
@@ -10804,6 +10933,7 @@
     "away_score": 71.6,
     "home_win_prob": 65.9,
     "confidence": 66.9,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "UT Rio Grande Valley Vaqueros",
@@ -10884,6 +11014,7 @@
     "away_score": 64.3,
     "home_win_prob": 97.8,
     "confidence": 58.0,
+    "tempo": 70.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "New Mexico Lobos",
@@ -10970,6 +11101,7 @@
     "away_score": 66.9,
     "home_win_prob": 91.8,
     "confidence": 53.8,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "George Washington Revolutionaries",
@@ -11050,6 +11182,7 @@
     "away_score": 74.2,
     "home_win_prob": 68.2,
     "confidence": 57.8,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Niagara Purple Eagles",
@@ -11133,6 +11266,7 @@
     "away_score": 75.0,
     "home_win_prob": 66.0,
     "confidence": 59.2,
+    "tempo": 72.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Nebraska Cornhuskers",
@@ -11218,6 +11352,7 @@
     "away_score": 67.0,
     "home_win_prob": 95.1,
     "confidence": 46.3,
+    "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Dayton Flyers",
@@ -11301,6 +11436,7 @@
     "away_score": 81.5,
     "home_win_prob": 19.4,
     "confidence": 54.9,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "St. Bonaventure Bonnies",
@@ -11384,6 +11520,7 @@
     "away_score": 73.6,
     "home_win_prob": 32.4,
     "confidence": 69.0,
+    "tempo": 69.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Houston Christian Huskies",
@@ -11470,6 +11607,7 @@
     "away_score": 68.5,
     "home_win_prob": 84.8,
     "confidence": 46.8,
+    "tempo": 70.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Davidson Wildcats",
@@ -11553,6 +11691,7 @@
     "away_score": 75.6,
     "home_win_prob": 50.8,
     "confidence": 61.9,
+    "tempo": 70.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Georgetown Hoyas",
@@ -11636,6 +11775,7 @@
     "away_score": 76.1,
     "home_win_prob": 60.4,
     "confidence": 56.6,
+    "tempo": 71.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "UC Riverside Highlanders",
@@ -11719,6 +11859,7 @@
     "away_score": 66.7,
     "home_win_prob": 94.2,
     "confidence": 57.7,
+    "tempo": 72.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Grand Canyon Lopes",
@@ -11805,6 +11946,7 @@
     "away_score": 71.9,
     "home_win_prob": 52.7,
     "confidence": 54.0,
+    "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Bradley Braves",
@@ -11888,6 +12030,7 @@
     "away_score": 73.2,
     "home_win_prob": 64.5,
     "confidence": 56.7,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Little Rock Trojans",
@@ -11965,6 +12108,7 @@
     "away_score": 69.6,
     "home_win_prob": 72.4,
     "confidence": 62.8,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Evansville Purple Aces",
@@ -12050,6 +12194,7 @@
     "away_score": 67.9,
     "home_win_prob": 93.4,
     "confidence": 64.7,
+    "tempo": 71.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Murray State Racers",
@@ -12136,6 +12281,7 @@
     "away_score": 86.2,
     "home_win_prob": 21.1,
     "confidence": 56.3,
+    "tempo": 79.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Utah Valley Wolverines",
@@ -12219,6 +12365,7 @@
     "away_score": 69.6,
     "home_win_prob": 77.8,
     "confidence": 54.6,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "UC Irvine Anteaters",
@@ -12302,6 +12449,7 @@
     "away_score": 68.5,
     "home_win_prob": 79.0,
     "confidence": 57.6,
+    "tempo": 71.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Seattle U Redhawks",
@@ -12385,6 +12533,7 @@
     "away_score": 74.7,
     "home_win_prob": 84.9,
     "confidence": 70.0,
+    "tempo": 73.6,
     "confidence_tier": "high",
     "pick": {
      "team": "Santa Clara Broncos",
@@ -12471,6 +12620,7 @@
     "away_score": 69.7,
     "home_win_prob": 73.5,
     "confidence": 61.4,
+    "tempo": 71.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "UC San Diego Tritons",
@@ -12554,6 +12704,7 @@
     "away_score": 64.8,
     "home_win_prob": 96.5,
     "confidence": 65.0,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "St. John's Red Storm",
@@ -12633,6 +12784,7 @@
     "away_score": 75.2,
     "home_win_prob": 64.6,
     "confidence": 53.5,
+    "tempo": 71.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Virginia Cavaliers",
@@ -12712,6 +12864,7 @@
     "away_score": 72.5,
     "home_win_prob": 43.8,
     "confidence": 51.9,
+    "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Fairfield Stags",
@@ -12789,6 +12942,7 @@
     "away_score": 68.9,
     "home_win_prob": 69.0,
     "confidence": 59.9,
+    "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Maine Black Bears",
@@ -12866,6 +13020,7 @@
     "away_score": 71.2,
     "home_win_prob": 69.0,
     "confidence": 67.9,
+    "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "New Hampshire Wildcats",
@@ -12946,6 +13101,7 @@
     "away_score": 72.0,
     "home_win_prob": 46.9,
     "confidence": 61.4,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Marist Red Foxes",
@@ -13023,6 +13179,7 @@
     "away_score": 65.9,
     "home_win_prob": 90.6,
     "confidence": 58.0,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "South Carolina Gamecocks",
@@ -13102,6 +13259,7 @@
     "away_score": 80.9,
     "home_win_prob": 43.9,
     "confidence": 63.7,
+    "tempo": 76.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Princeton Tigers",
@@ -13182,6 +13340,7 @@
     "away_score": 74.0,
     "home_win_prob": 63.8,
     "confidence": 56.6,
+    "tempo": 72.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Boise State Broncos",
@@ -13259,6 +13418,7 @@
     "away_score": 68.1,
     "home_win_prob": 60.2,
     "confidence": 62.6,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Lehigh Mountain Hawks",
@@ -13336,6 +13496,7 @@
     "away_score": 66.3,
     "home_win_prob": 73.6,
     "confidence": 58.2,
+    "tempo": 70.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Dartmouth Big Green",
@@ -13413,6 +13574,7 @@
     "away_score": 68.4,
     "home_win_prob": 74.3,
     "confidence": 57.3,
+    "tempo": 70.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Vermont Catamounts",
@@ -13490,6 +13652,7 @@
     "away_score": 77.4,
     "home_win_prob": 71.2,
     "confidence": 53.6,
+    "tempo": 73.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Western Michigan Broncos",
@@ -13567,6 +13730,7 @@
     "away_score": 72.9,
     "home_win_prob": 70.0,
     "confidence": 63.0,
+    "tempo": 70.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "St. Thomas Tommies",
@@ -13644,6 +13808,7 @@
     "away_score": 70.4,
     "home_win_prob": 47.8,
     "confidence": 59.5,
+    "tempo": 68.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Merrimack Warriors",
@@ -13721,6 +13886,7 @@
     "away_score": 73.7,
     "home_win_prob": 69.4,
     "confidence": 52.4,
+    "tempo": 72.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Air Force Falcons",
@@ -13798,6 +13964,7 @@
     "away_score": 80.5,
     "home_win_prob": 34.2,
     "confidence": 55.9,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Western Kentucky Hilltoppers",
@@ -13875,6 +14042,7 @@
     "away_score": 69.7,
     "home_win_prob": 85.7,
     "confidence": 53.1,
+    "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Drake Bulldogs",
@@ -13952,6 +14120,7 @@
     "away_score": 68.9,
     "home_win_prob": 78.4,
     "confidence": 56.6,
+    "tempo": 69.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Binghamton Bearcats",
@@ -14035,6 +14204,7 @@
     "away_score": 68.8,
     "home_win_prob": 52.8,
     "confidence": 61.1,
+    "tempo": 68.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "NJIT Highlanders",
@@ -14118,6 +14288,7 @@
     "away_score": 73.6,
     "home_win_prob": 42.2,
     "confidence": 65.6,
+    "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Saint Mary's Gaels",
@@ -14205,6 +14376,7 @@
     "away_score": 77.1,
     "home_win_prob": 45.3,
     "confidence": 51.9,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Richmond Spiders",
@@ -14290,6 +14462,7 @@
     "away_score": 78.4,
     "home_win_prob": 30.6,
     "confidence": 63.4,
+    "tempo": 70.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "North Dakota State Bison",
@@ -14370,6 +14543,7 @@
     "away_score": 69.1,
     "home_win_prob": 86.2,
     "confidence": 55.9,
+    "tempo": 71.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "William & Mary Tribe",
@@ -14453,6 +14627,7 @@
     "away_score": 66.6,
     "home_win_prob": 87.5,
     "confidence": 50.6,
+    "tempo": 70.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "UTEP Miners",
@@ -14536,6 +14711,7 @@
     "away_score": 79.0,
     "home_win_prob": 38.3,
     "confidence": 55.1,
+    "tempo": 71.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Pittsburgh Panthers",
@@ -14621,6 +14797,7 @@
     "away_score": 78.8,
     "home_win_prob": 13.1,
     "confidence": 70.0,
+    "tempo": 69.4,
     "confidence_tier": "high",
     "pick": {
      "team": "Houston Cougars",
@@ -14708,6 +14885,7 @@
     "away_score": 77.7,
     "home_win_prob": 34.1,
     "confidence": 59.0,
+    "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "USC Trojans",
@@ -14787,6 +14965,7 @@
     "away_score": 69.1,
     "home_win_prob": 80.5,
     "confidence": 56.1,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Hawai'i Rainbow Warriors",
@@ -14870,6 +15049,7 @@
     "away_score": 65.4,
     "home_win_prob": 98.3,
     "confidence": 50.3,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Ohio State Buckeyes",
@@ -14947,6 +15127,7 @@
     "away_score": 73.1,
     "home_win_prob": 68.8,
     "confidence": 52.4,
+    "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Indiana Hoosiers",
@@ -15026,6 +15207,7 @@
     "away_score": 73.4,
     "home_win_prob": 71.7,
     "confidence": 54.2,
+    "tempo": 72.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Pennsylvania Quakers",
@@ -15103,6 +15285,7 @@
     "away_score": 66.9,
     "home_win_prob": 97.1,
     "confidence": 48.5,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Georgia Bulldogs",
@@ -15186,6 +15369,7 @@
     "away_score": 62.5,
     "home_win_prob": 99.4,
     "confidence": 43.7,
+    "tempo": 70.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Tennessee Volunteers",
@@ -15269,6 +15453,7 @@
     "away_score": 59.9,
     "home_win_prob": 99.7,
     "confidence": 63.0,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas Longhorns",
@@ -15355,6 +15540,7 @@
     "away_score": 72.5,
     "home_win_prob": 83.9,
     "confidence": 52.4,
+    "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Bowling Green Falcons",
@@ -15438,6 +15624,7 @@
     "away_score": 68.0,
     "home_win_prob": 78.4,
     "confidence": 56.5,
+    "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Cincinnati Bearcats",
@@ -15521,6 +15708,7 @@
     "away_score": 62.5,
     "home_win_prob": 98.8,
     "confidence": 55.5,
+    "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Clemson Tigers",
@@ -15607,6 +15795,7 @@
     "away_score": 71.5,
     "home_win_prob": 60.2,
     "confidence": 58.6,
+    "tempo": 71.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Chicago State Cougars",
@@ -15690,6 +15879,7 @@
     "away_score": 67.5,
     "home_win_prob": 70.0,
     "confidence": 53.0,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Towson Tigers",
@@ -15773,6 +15963,7 @@
     "away_score": 68.3,
     "home_win_prob": 84.4,
     "confidence": 49.5,
+    "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Columbia Lions",
@@ -15856,6 +16047,7 @@
     "away_score": 57.4,
     "home_win_prob": 99.8,
     "confidence": 62.6,
+    "tempo": 72.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "UConn Huskies",
@@ -15942,6 +16134,7 @@
     "away_score": 73.4,
     "home_win_prob": 71.6,
     "confidence": 55.2,
+    "tempo": 69.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Jacksonville Dolphins",
@@ -16025,6 +16218,7 @@
     "away_score": 63.6,
     "home_win_prob": 99.6,
     "confidence": 59.1,
+    "tempo": 72.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Miami Hurricanes",
@@ -16111,6 +16305,7 @@
     "away_score": 68.7,
     "home_win_prob": 83.0,
     "confidence": 51.1,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Coastal Carolina Chanticleers",
@@ -16194,6 +16389,7 @@
     "away_score": 61.6,
     "home_win_prob": 97.8,
     "confidence": 66.0,
+    "tempo": 69.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Notre Dame Fighting Irish",
@@ -16279,6 +16475,7 @@
     "away_score": 65.0,
     "home_win_prob": 96.0,
     "confidence": 46.8,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "UIC Flames",
@@ -16362,6 +16559,7 @@
     "away_score": 67.3,
     "home_win_prob": 98.5,
     "confidence": 66.0,
+    "tempo": 73.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Alabama Crimson Tide",
@@ -16447,6 +16645,7 @@
     "away_score": 69.8,
     "home_win_prob": 96.8,
     "confidence": 50.3,
+    "tempo": 73.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Mississippi State Bulldogs",
@@ -16530,6 +16729,7 @@
     "away_score": 68.9,
     "home_win_prob": 88.7,
     "confidence": 55.8,
+    "tempo": 71.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "UAB Blazers",
@@ -16613,6 +16813,7 @@
     "away_score": 63.8,
     "home_win_prob": 98.7,
     "confidence": 54.1,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Oklahoma Sooners",
@@ -16699,6 +16900,7 @@
     "away_score": 64.4,
     "home_win_prob": 99.6,
     "confidence": 66.0,
+    "tempo": 73.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas A&M Aggies",
@@ -16784,6 +16986,7 @@
     "away_score": 64.5,
     "home_win_prob": 95.0,
     "confidence": 48.2,
+    "tempo": 67.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Northwestern Wildcats",
@@ -16861,6 +17064,7 @@
     "away_score": 62.4,
     "home_win_prob": 95.5,
     "confidence": 46.0,
+    "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "LSU Tigers",
@@ -16946,6 +17150,7 @@
     "away_score": 61.9,
     "home_win_prob": 98.1,
     "confidence": 66.0,
+    "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Missouri Tigers",
@@ -17031,6 +17236,7 @@
     "away_score": 68.2,
     "home_win_prob": 83.2,
     "confidence": 66.7,
+    "tempo": 68.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Purdue Boilermakers",
@@ -17117,6 +17323,7 @@
     "away_score": 64.0,
     "home_win_prob": 95.7,
     "confidence": 56.3,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "DePaul Blue Demons",
@@ -17203,6 +17410,7 @@
     "away_score": 62.6,
     "home_win_prob": 96.6,
     "confidence": 58.5,
+    "tempo": 68.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Auburn Tigers",
@@ -17289,6 +17497,7 @@
     "away_score": 74.1,
     "home_win_prob": 39.0,
     "confidence": 61.7,
+    "tempo": 68.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Seton Hall Pirates",
@@ -17368,6 +17577,7 @@
     "away_score": 71.2,
     "home_win_prob": 87.1,
     "confidence": 63.1,
+    "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Oregon State Beavers",
@@ -17454,6 +17664,7 @@
     "away_score": 65.7,
     "home_win_prob": 91.4,
     "confidence": 52.0,
+    "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Stanford Cardinal",
@@ -17537,6 +17748,7 @@
     "away_score": 58.6,
     "home_win_prob": 99.4,
     "confidence": 65.0,
+    "tempo": 70.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Washington Huskies",
@@ -17616,6 +17828,7 @@
     "away_score": 71.9,
     "home_win_prob": 75.3,
     "confidence": 53.1,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Hawai'i Rainbow Warriors",
@@ -17699,6 +17912,7 @@
     "away_score": 81.1,
     "home_win_prob": 31.0,
     "confidence": 68.1,
+    "tempo": 72.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Florida Gators",
@@ -17785,6 +17999,7 @@
     "away_score": 60.8,
     "home_win_prob": 98.9,
     "confidence": 50.9,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Georgetown Hoyas",
@@ -17868,6 +18083,7 @@
     "away_score": 62.9,
     "home_win_prob": 97.1,
     "confidence": 51.4,
+    "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Rutgers Scarlet Knights",
@@ -17951,6 +18167,7 @@
     "away_score": 60.6,
     "home_win_prob": 98.9,
     "confidence": 59.9,
+    "tempo": 71.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Providence Friars",
@@ -18037,6 +18254,7 @@
     "away_score": 67.6,
     "home_win_prob": 97.5,
     "confidence": 65.0,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Xavier Musketeers",
@@ -18122,6 +18340,7 @@
     "away_score": 53.8,
     "home_win_prob": 98.2,
     "confidence": 48.1,
+    "tempo": 65.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Boston College Eagles",
@@ -18205,6 +18424,7 @@
     "away_score": 73.1,
     "home_win_prob": 61.8,
     "confidence": 64.8,
+    "tempo": 70.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Duke Blue Devils",
@@ -18292,6 +18512,7 @@
     "away_score": 63.8,
     "home_win_prob": 96.8,
     "confidence": 49.7,
+    "tempo": 71.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Wake Forest Demon Deacons",
@@ -18375,6 +18596,7 @@
     "away_score": 71.7,
     "home_win_prob": 66.4,
     "confidence": 56.6,
+    "tempo": 70.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Central Michigan Chippewas",
@@ -18458,6 +18680,7 @@
     "away_score": 69.6,
     "home_win_prob": 91.4,
     "confidence": 57.0,
+    "tempo": 75.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Dayton Flyers",
@@ -18541,6 +18764,7 @@
     "away_score": 68.9,
     "home_win_prob": 78.9,
     "confidence": 62.6,
+    "tempo": 70.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Fordham Rams",
@@ -18624,6 +18848,7 @@
     "away_score": 67.5,
     "home_win_prob": 91.9,
     "confidence": 45.5,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "George Washington Revolutionaries",
@@ -18701,6 +18926,7 @@
     "away_score": 67.7,
     "home_win_prob": 67.5,
     "confidence": 70.0,
+    "tempo": 68.3,
     "confidence_tier": "high",
     "pick": {
      "team": "New Haven Chargers",
@@ -18788,6 +19014,7 @@
     "away_score": 71.7,
     "home_win_prob": 86.3,
     "confidence": 52.9,
+    "tempo": 72.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "North Carolina Tar Heels",
@@ -18871,6 +19098,7 @@
     "away_score": 74.2,
     "home_win_prob": 55.2,
     "confidence": 63.8,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Troy Trojans",
@@ -18954,6 +19182,7 @@
     "away_score": 65.9,
     "home_win_prob": 96.9,
     "confidence": 46.3,
+    "tempo": 68.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "NC State Wolfpack",
@@ -19037,6 +19266,7 @@
     "away_score": 62.2,
     "home_win_prob": 94.2,
     "confidence": 51.0,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Rhode Island Rams",
@@ -19120,6 +19350,7 @@
     "away_score": 69.1,
     "home_win_prob": 91.8,
     "confidence": 46.9,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Georgia Tech Yellow Jackets",
@@ -19203,6 +19434,7 @@
     "away_score": 78.2,
     "home_win_prob": 33.8,
     "confidence": 56.4,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Harvard Crimson",
@@ -19286,6 +19518,7 @@
     "away_score": 73.9,
     "home_win_prob": 48.0,
     "confidence": 72.2,
+    "tempo": 68.7,
     "confidence_tier": "high",
     "pick": {
      "team": "Virginia Tech Hokies",
@@ -19374,6 +19607,7 @@
     "away_score": 76.1,
     "home_win_prob": 47.3,
     "confidence": 57.0,
+    "tempo": 72.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Mercer Bears",
@@ -19457,6 +19691,7 @@
     "away_score": 66.0,
     "home_win_prob": 96.4,
     "confidence": 63.0,
+    "tempo": 70.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "UCF Knights",
@@ -19543,6 +19778,7 @@
     "away_score": 68.5,
     "home_win_prob": 94.1,
     "confidence": 66.0,
+    "tempo": 70.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Villanova Wildcats",
@@ -19628,6 +19864,7 @@
     "away_score": 74.7,
     "home_win_prob": 80.3,
     "confidence": 52.5,
+    "tempo": 74.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Kennesaw State Owls",
@@ -19711,6 +19948,7 @@
     "away_score": 67.3,
     "home_win_prob": 79.1,
     "confidence": 62.3,
+    "tempo": 68.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Davidson Wildcats",
@@ -19794,6 +20032,7 @@
     "away_score": 72.6,
     "home_win_prob": 71.8,
     "confidence": 59.4,
+    "tempo": 70.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Duquesne Dukes",
@@ -19877,6 +20116,7 @@
     "away_score": 76.5,
     "home_win_prob": 47.3,
     "confidence": 55.0,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Wright State Raiders",
@@ -19960,6 +20200,7 @@
     "away_score": 71.5,
     "home_win_prob": 88.9,
     "confidence": 55.3,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Vanderbilt Commodores",
@@ -20043,6 +20284,7 @@
     "away_score": 73.0,
     "home_win_prob": 79.2,
     "confidence": 57.8,
+    "tempo": 71.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Tulane Green Wave",
@@ -20126,6 +20368,7 @@
     "away_score": 71.0,
     "home_win_prob": 35.2,
     "confidence": 61.2,
+    "tempo": 66.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas State Bobcats",
@@ -20209,6 +20452,7 @@
     "away_score": 67.1,
     "home_win_prob": 84.4,
     "confidence": 61.4,
+    "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Middle Tennessee Blue Raiders",
@@ -20295,6 +20539,7 @@
     "away_score": 67.2,
     "home_win_prob": 94.6,
     "confidence": 53.3,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Baylor Bears",
@@ -20378,6 +20623,7 @@
     "away_score": 57.9,
     "home_win_prob": 99.5,
     "confidence": 61.8,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Iowa State Cyclones",
@@ -20464,6 +20710,7 @@
     "away_score": 69.2,
     "home_win_prob": 94.7,
     "confidence": 64.9,
+    "tempo": 72.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Saint Louis Billikens",
@@ -20550,6 +20797,7 @@
     "away_score": 78.7,
     "home_win_prob": 50.7,
     "confidence": 62.8,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas Tech Red Raiders",
@@ -20633,6 +20881,7 @@
     "away_score": 67.3,
     "home_win_prob": 97.2,
     "confidence": 55.7,
+    "tempo": 72.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "SMU Mustangs",
@@ -20713,6 +20962,7 @@
     "away_score": 79.5,
     "home_win_prob": 35.8,
     "confidence": 54.0,
+    "tempo": 73.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Belmont Bruins",
@@ -20796,6 +21046,7 @@
     "away_score": 76.2,
     "home_win_prob": 58.2,
     "confidence": 52.9,
+    "tempo": 72.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "South Dakota Coyotes",
@@ -20879,6 +21130,7 @@
     "away_score": 68.4,
     "home_win_prob": 97.8,
     "confidence": 55.5,
+    "tempo": 72.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Murray State Racers",
@@ -20965,6 +21217,7 @@
     "away_score": 64.7,
     "home_win_prob": 88.0,
     "confidence": 71.0,
+    "tempo": 71.7,
     "confidence_tier": "high",
     "pick": {
      "team": "Arkansas State Red Wolves",
@@ -21045,6 +21298,7 @@
     "away_score": 75.1,
     "home_win_prob": 71.9,
     "confidence": 67.6,
+    "tempo": 73.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Northern Iowa Panthers",
@@ -21131,6 +21385,7 @@
     "away_score": 65.0,
     "home_win_prob": 95.6,
     "confidence": 66.0,
+    "tempo": 70.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Ole Miss Rebels",
@@ -21216,6 +21471,7 @@
     "away_score": 64.2,
     "home_win_prob": 95.5,
     "confidence": 61.2,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Wisconsin Badgers",
@@ -21302,6 +21558,7 @@
     "away_score": 78.4,
     "home_win_prob": 46.4,
     "confidence": 62.0,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Creighton Bluejays",
@@ -21385,6 +21642,7 @@
     "away_score": 60.7,
     "home_win_prob": 99.8,
     "confidence": 60.5,
+    "tempo": 71.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Arizona Wildcats",
@@ -21471,6 +21729,7 @@
     "away_score": 71.6,
     "home_win_prob": 81.1,
     "confidence": 63.2,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Colorado Buffaloes",
@@ -21554,6 +21813,7 @@
     "away_score": 64.9,
     "home_win_prob": 99.4,
     "confidence": 66.0,
+    "tempo": 74.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "TCU Horned Frogs",
@@ -21639,6 +21899,7 @@
     "away_score": 56.8,
     "home_win_prob": 99.9,
     "confidence": 49.3,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Virginia Cavaliers",
@@ -21722,6 +21983,7 @@
     "away_score": 67.7,
     "home_win_prob": 95.1,
     "confidence": 43.2,
+    "tempo": 74.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Utah Utes",
@@ -21805,6 +22067,7 @@
     "away_score": 63.1,
     "home_win_prob": 87.2,
     "confidence": 63.0,
+    "tempo": 67.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Arizona State Sun Devils",
@@ -21891,6 +22154,7 @@
     "away_score": 71.5,
     "home_win_prob": 98.0,
     "confidence": 61.9,
+    "tempo": 72.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "BYU Cougars",
@@ -21977,6 +22241,7 @@
     "away_score": 67.8,
     "home_win_prob": 95.5,
     "confidence": 57.4,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "New Mexico Lobos",
@@ -22057,6 +22322,7 @@
     "away_score": 59.8,
     "home_win_prob": 98.3,
     "confidence": 51.1,
+    "tempo": 70.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Utah State Aggies",
@@ -22140,6 +22406,7 @@
     "away_score": 73.2,
     "home_win_prob": 66.3,
     "confidence": 59.5,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Fresno State Bulldogs",
@@ -22223,6 +22490,7 @@
     "away_score": 81.0,
     "home_win_prob": 26.5,
     "confidence": 61.6,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Kansas Jayhawks",
@@ -22308,6 +22576,7 @@
     "away_score": 70.0,
     "home_win_prob": 70.8,
     "confidence": 73.9,
+    "tempo": 70.3,
     "confidence_tier": "high",
     "pick": {
      "team": "San Francisco Dons",
@@ -22395,6 +22664,7 @@
     "away_score": 65.4,
     "home_win_prob": 82.5,
     "confidence": 47.8,
+    "tempo": 70.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "East Texas A&M Lions",
@@ -22472,6 +22742,7 @@
     "away_score": 76.5,
     "home_win_prob": 45.4,
     "confidence": 74.0,
+    "tempo": 71.0,
     "confidence_tier": "high",
     "pick": {
      "team": "Kansas City Roos",
@@ -22554,6 +22825,7 @@
     "away_score": 68.8,
     "home_win_prob": 61.6,
     "confidence": 75.9,
+    "tempo": 69.5,
     "confidence_tier": "high",
     "pick": {
      "team": "UAlbany Great Danes",
@@ -22635,6 +22907,7 @@
     "away_score": 66.1,
     "home_win_prob": 86.1,
     "confidence": 48.7,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "UC Davis Aggies",
@@ -22712,6 +22985,7 @@
     "away_score": 82.2,
     "home_win_prob": 28.8,
     "confidence": 69.4,
+    "tempo": 73.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Loyola Chicago Ramblers",
@@ -22792,6 +23066,7 @@
     "away_score": 75.1,
     "home_win_prob": 35.2,
     "confidence": 65.2,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "South Florida Bulls",
@@ -22873,6 +23148,7 @@
     "away_score": 73.0,
     "home_win_prob": 77.4,
     "confidence": 59.9,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "East Carolina Pirates",
@@ -22950,6 +23226,7 @@
     "away_score": 67.1,
     "home_win_prob": 93.7,
     "confidence": 48.6,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "San Diego State Aztecs",
@@ -23027,6 +23304,7 @@
     "away_score": 75.7,
     "home_win_prob": 22.0,
     "confidence": 56.0,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Pennsylvania Quakers",
@@ -23110,6 +23388,7 @@
     "away_score": 72.1,
     "home_win_prob": 64.7,
     "confidence": 65.4,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "VMI Keydets",
@@ -23196,6 +23475,7 @@
     "away_score": 75.7,
     "home_win_prob": 68.7,
     "confidence": 60.6,
+    "tempo": 72.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "IU Indianapolis Jaguars",
@@ -23273,6 +23553,7 @@
     "away_score": 75.1,
     "home_win_prob": 65.7,
     "confidence": 63.7,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Temple Owls",
@@ -23356,6 +23637,7 @@
     "away_score": 74.2,
     "home_win_prob": 66.0,
     "confidence": 56.2,
+    "tempo": 71.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Michigan Wolverines",
@@ -23439,6 +23721,7 @@
     "away_score": 68.7,
     "home_win_prob": 82.0,
     "confidence": 52.8,
+    "tempo": 71.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Massachusetts Minutemen",
@@ -23522,6 +23805,7 @@
     "away_score": 70.8,
     "home_win_prob": 84.7,
     "confidence": 58.0,
+    "tempo": 71.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "St. Bonaventure Bonnies",
@@ -23605,6 +23889,7 @@
     "away_score": 70.1,
     "home_win_prob": 50.1,
     "confidence": 57.9,
+    "tempo": 69.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Drexel Dragons",
@@ -23688,6 +23973,7 @@
     "away_score": 73.3,
     "home_win_prob": 56.3,
     "confidence": 53.0,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "West Georgia Wolves",
@@ -23771,6 +24057,7 @@
     "away_score": 74.3,
     "home_win_prob": 73.3,
     "confidence": 61.4,
+    "tempo": 72.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Florida Atlantic Owls",
@@ -23854,6 +24141,7 @@
     "away_score": 62.1,
     "home_win_prob": 98.4,
     "confidence": 66.0,
+    "tempo": 70.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "VCU Rams",
@@ -23939,6 +24227,7 @@
     "away_score": 65.8,
     "home_win_prob": 98.2,
     "confidence": 59.2,
+    "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "St. John's Red Storm",
@@ -24025,6 +24314,7 @@
     "away_score": 70.0,
     "home_win_prob": 74.0,
     "confidence": 62.3,
+    "tempo": 68.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "East Tennessee State Buccaneers",
@@ -24108,6 +24398,7 @@
     "away_score": 78.1,
     "home_win_prob": 38.0,
     "confidence": 52.6,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "James Madison Dukes",
@@ -24191,6 +24482,7 @@
     "away_score": 82.0,
     "home_win_prob": 14.0,
     "confidence": 49.4,
+    "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Furman Paladins",
@@ -24274,6 +24566,7 @@
     "away_score": 59.6,
     "home_win_prob": 94.1,
     "confidence": 63.2,
+    "tempo": 67.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "South Carolina Gamecocks",
@@ -24360,6 +24653,7 @@
     "away_score": 70.3,
     "home_win_prob": 69.9,
     "confidence": 56.9,
+    "tempo": 68.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Princeton Tigers",
@@ -24443,6 +24737,7 @@
     "away_score": 65.2,
     "home_win_prob": 97.3,
     "confidence": 56.0,
+    "tempo": 70.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Notre Dame Fighting Irish",
@@ -24529,6 +24824,7 @@
     "away_score": 77.2,
     "home_win_prob": 30.5,
     "confidence": 57.5,
+    "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Old Dominion Monarchs",
@@ -24612,6 +24908,7 @@
     "away_score": 72.5,
     "home_win_prob": 76.1,
     "confidence": 53.2,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "UNC Wilmington Seahawks",
@@ -24695,6 +24992,7 @@
     "away_score": 73.3,
     "home_win_prob": 67.6,
     "confidence": 54.1,
+    "tempo": 71.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Indiana State Sycamores",
@@ -24778,6 +25076,7 @@
     "away_score": 76.1,
     "home_win_prob": 61.5,
     "confidence": 74.8,
+    "tempo": 71.8,
     "confidence_tier": "high",
     "pick": {
      "team": "Sam Houston Bearkats",
@@ -24865,6 +25164,7 @@
     "away_score": 74.7,
     "home_win_prob": 46.0,
     "confidence": 57.6,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Santa Clara Broncos",
@@ -24948,6 +25248,7 @@
     "away_score": 74.5,
     "home_win_prob": 32.2,
     "confidence": 54.3,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Stephen F. Austin Lumberjacks",
@@ -25031,6 +25332,7 @@
     "away_score": 74.6,
     "home_win_prob": 74.3,
     "confidence": 57.3,
+    "tempo": 73.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Southern Miss Golden Eagles",
@@ -25114,6 +25416,7 @@
     "away_score": 58.5,
     "home_win_prob": 99.1,
     "confidence": 46.0,
+    "tempo": 67.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Houston Cougars",
@@ -25199,6 +25502,7 @@
     "away_score": 68.4,
     "home_win_prob": 93.6,
     "confidence": 49.1,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Tulsa Golden Hurricane",
@@ -25282,6 +25586,7 @@
     "away_score": 63.9,
     "home_win_prob": 97.0,
     "confidence": 46.0,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Arkansas Razorbacks",
@@ -25367,6 +25672,7 @@
     "away_score": 73.9,
     "home_win_prob": 41.5,
     "confidence": 55.4,
+    "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Valparaiso Beacons",
@@ -25450,6 +25756,7 @@
     "away_score": 72.9,
     "home_win_prob": 92.9,
     "confidence": 51.5,
+    "tempo": 73.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Grand Canyon Lopes",
@@ -25533,6 +25840,7 @@
     "away_score": 73.6,
     "home_win_prob": 53.6,
     "confidence": 62.0,
+    "tempo": 68.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "UC Santa Barbara Gauchos",
@@ -25616,6 +25924,7 @@
     "away_score": 68.3,
     "home_win_prob": 90.0,
     "confidence": 52.5,
+    "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Colorado State Rams",
@@ -25699,6 +26008,7 @@
     "away_score": 60.6,
     "home_win_prob": 99.4,
     "confidence": 66.0,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Nebraska Cornhuskers",
@@ -25784,6 +26094,7 @@
     "away_score": 65.9,
     "home_win_prob": 92.0,
     "confidence": 46.2,
+    "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Boise State Broncos",
@@ -25867,6 +26178,7 @@
     "away_score": 57.2,
     "home_win_prob": 100.0,
     "confidence": 66.0,
+    "tempo": 71.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "UCLA Bruins",
@@ -25952,6 +26264,7 @@
     "away_score": 68.2,
     "home_win_prob": 85.1,
     "confidence": 67.2,
+    "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Seattle U Redhawks",
@@ -26038,6 +26351,7 @@
     "away_score": 76.4,
     "home_win_prob": 32.0,
     "confidence": 57.4,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Pacific Tigers",
@@ -26121,6 +26435,7 @@
     "away_score": 62.6,
     "home_win_prob": 87.1,
     "confidence": 54.8,
+    "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "California Baptist Lancers",
@@ -26204,6 +26519,7 @@
     "away_score": 58.4,
     "home_win_prob": 99.7,
     "confidence": 66.0,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Oregon Ducks",
@@ -26283,6 +26599,7 @@
     "away_score": 78.4,
     "home_win_prob": 35.5,
     "confidence": 69.7,
+    "tempo": 72.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "USC Trojans",
@@ -26369,6 +26686,7 @@
     "away_score": 67.3,
     "home_win_prob": 89.1,
     "confidence": 50.9,
+    "tempo": 69.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "George Mason Patriots",
@@ -26436,6 +26754,7 @@
     "away_score": 74.3,
     "home_win_prob": 72.9,
     "confidence": 53.8,
+    "tempo": 73.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "UMBC Retrievers",
@@ -26501,6 +26820,7 @@
     "away_score": 76.6,
     "home_win_prob": 16.5,
     "confidence": 48.8,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Bradley Braves",
@@ -26568,6 +26888,7 @@
     "away_score": 69.1,
     "home_win_prob": 97.4,
     "confidence": 59.3,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Indiana Hoosiers",
@@ -26636,6 +26957,7 @@
     "away_score": 66.8,
     "home_win_prob": 95.2,
     "confidence": 51.7,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Penn State Nittany Lions",
@@ -26701,6 +27023,7 @@
     "away_score": 69.5,
     "home_win_prob": 87.9,
     "confidence": 53.5,
+    "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Bowling Green Falcons",
@@ -26766,6 +27089,7 @@
     "away_score": 66.3,
     "home_win_prob": 83.4,
     "confidence": 55.3,
+    "tempo": 69.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Brown Bears",
@@ -26831,6 +27155,7 @@
     "away_score": 57.7,
     "home_win_prob": 98.2,
     "confidence": 49.0,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Rhode Island Rams",
@@ -26896,6 +27221,7 @@
     "away_score": 74.8,
     "home_win_prob": 42.1,
     "confidence": 76.0,
+    "tempo": 70.3,
     "confidence_tier": "high",
     "pick": {
      "team": "Cal State Bakersfield Roadrunners",
@@ -26964,6 +27290,7 @@
     "away_score": 69.2,
     "home_win_prob": 94.3,
     "confidence": 59.6,
+    "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "High Point Panthers",
@@ -27032,6 +27359,7 @@
     "away_score": 63.0,
     "home_win_prob": 89.8,
     "confidence": 49.8,
+    "tempo": 68.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Towson Tigers",
@@ -27097,6 +27425,7 @@
     "away_score": 64.9,
     "home_win_prob": 96.8,
     "confidence": 66.0,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "West Virginia Mountaineers",
@@ -27164,6 +27493,7 @@
     "away_score": 70.6,
     "home_win_prob": 80.9,
     "confidence": 56.5,
+    "tempo": 70.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Howard Bison",
@@ -27229,6 +27559,7 @@
     "away_score": 72.7,
     "home_win_prob": 54.8,
     "confidence": 52.7,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Quinnipiac Bobcats",
@@ -27294,6 +27625,7 @@
     "away_score": 69.4,
     "home_win_prob": 70.5,
     "confidence": 58.7,
+    "tempo": 70.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Sacred Heart Pioneers",
@@ -27359,6 +27691,7 @@
     "away_score": 78.9,
     "home_win_prob": 40.3,
     "confidence": 55.2,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Western Michigan Broncos",
@@ -27424,6 +27757,7 @@
     "away_score": 75.6,
     "home_win_prob": 32.5,
     "confidence": 58.0,
+    "tempo": 70.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Richmond Spiders",
@@ -27489,6 +27823,7 @@
     "away_score": 60.2,
     "home_win_prob": 96.8,
     "confidence": 59.7,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Minnesota Golden Gophers",
@@ -27557,6 +27892,7 @@
     "away_score": 77.9,
     "home_win_prob": 26.8,
     "confidence": 74.3,
+    "tempo": 68.4,
     "confidence_tier": "high",
     "pick": {
      "team": "Loyola Marymount Lions",
@@ -27627,6 +27963,7 @@
     "away_score": 78.6,
     "home_win_prob": 67.5,
     "confidence": 62.0,
+    "tempo": 73.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas A&M Aggies",
@@ -27692,6 +28029,7 @@
     "away_score": 68.3,
     "home_win_prob": 85.2,
     "confidence": 64.0,
+    "tempo": 71.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Alabama A&M Bulldogs",
@@ -27760,6 +28098,7 @@
     "away_score": 73.3,
     "home_win_prob": 60.3,
     "confidence": 62.5,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "UTEP Miners",
@@ -27825,6 +28164,7 @@
     "away_score": 69.1,
     "home_win_prob": 94.2,
     "confidence": 66.0,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "BYU Cougars",
@@ -27892,6 +28232,7 @@
     "away_score": 74.3,
     "home_win_prob": 71.9,
     "confidence": 56.4,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "San Jos\u00e9 State Spartans",

@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-12T06:41:51.513552-05:00",
+ "generated_at": "2026-11-12T13:51:44.016803-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-12",
@@ -50,6 +50,7 @@
     "away_score": 67.3,
     "home_win_prob": 89.1,
     "confidence": 50.9,
+    "tempo": 69.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "George Mason Patriots",
@@ -117,6 +118,7 @@
     "away_score": 74.3,
     "home_win_prob": 72.9,
     "confidence": 53.8,
+    "tempo": 73.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "UMBC Retrievers",
@@ -182,6 +184,7 @@
     "away_score": 76.6,
     "home_win_prob": 16.5,
     "confidence": 48.8,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Bradley Braves",
@@ -249,6 +252,7 @@
     "away_score": 69.1,
     "home_win_prob": 97.4,
     "confidence": 59.3,
+    "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Indiana Hoosiers",
@@ -317,6 +321,7 @@
     "away_score": 66.8,
     "home_win_prob": 95.2,
     "confidence": 51.7,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Penn State Nittany Lions",
@@ -382,6 +387,7 @@
     "away_score": 69.5,
     "home_win_prob": 87.9,
     "confidence": 53.5,
+    "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Bowling Green Falcons",
@@ -447,6 +453,7 @@
     "away_score": 66.3,
     "home_win_prob": 83.4,
     "confidence": 55.3,
+    "tempo": 69.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Brown Bears",
@@ -512,6 +519,7 @@
     "away_score": 57.7,
     "home_win_prob": 98.2,
     "confidence": 49.0,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Rhode Island Rams",
@@ -577,6 +585,7 @@
     "away_score": 74.8,
     "home_win_prob": 42.1,
     "confidence": 76.0,
+    "tempo": 70.3,
     "confidence_tier": "high",
     "pick": {
      "team": "Cal State Bakersfield Roadrunners",
@@ -645,6 +654,7 @@
     "away_score": 69.2,
     "home_win_prob": 94.3,
     "confidence": 59.6,
+    "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "High Point Panthers",
@@ -713,6 +723,7 @@
     "away_score": 63.0,
     "home_win_prob": 89.8,
     "confidence": 49.8,
+    "tempo": 68.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Towson Tigers",
@@ -778,6 +789,7 @@
     "away_score": 64.9,
     "home_win_prob": 96.8,
     "confidence": 66.0,
+    "tempo": 70.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "West Virginia Mountaineers",
@@ -845,6 +857,7 @@
     "away_score": 70.6,
     "home_win_prob": 80.9,
     "confidence": 56.5,
+    "tempo": 70.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Howard Bison",
@@ -910,6 +923,7 @@
     "away_score": 72.7,
     "home_win_prob": 54.8,
     "confidence": 52.7,
+    "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Quinnipiac Bobcats",
@@ -975,6 +989,7 @@
     "away_score": 69.4,
     "home_win_prob": 70.5,
     "confidence": 58.7,
+    "tempo": 70.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Sacred Heart Pioneers",
@@ -1040,6 +1055,7 @@
     "away_score": 78.9,
     "home_win_prob": 40.3,
     "confidence": 55.2,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Western Michigan Broncos",
@@ -1105,6 +1121,7 @@
     "away_score": 75.6,
     "home_win_prob": 32.5,
     "confidence": 58.0,
+    "tempo": 70.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Richmond Spiders",
@@ -1170,6 +1187,7 @@
     "away_score": 60.2,
     "home_win_prob": 96.8,
     "confidence": 59.7,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Minnesota Golden Gophers",
@@ -1238,6 +1256,7 @@
     "away_score": 77.9,
     "home_win_prob": 26.8,
     "confidence": 74.3,
+    "tempo": 68.4,
     "confidence_tier": "high",
     "pick": {
      "team": "Loyola Marymount Lions",
@@ -1308,6 +1327,7 @@
     "away_score": 78.6,
     "home_win_prob": 67.5,
     "confidence": 62.0,
+    "tempo": 73.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas A&M Aggies",
@@ -1373,6 +1393,7 @@
     "away_score": 68.3,
     "home_win_prob": 85.2,
     "confidence": 64.0,
+    "tempo": 71.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Alabama A&M Bulldogs",
@@ -1441,6 +1462,7 @@
     "away_score": 73.3,
     "home_win_prob": 60.3,
     "confidence": 62.5,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "UTEP Miners",
@@ -1506,6 +1528,7 @@
     "away_score": 69.1,
     "home_win_prob": 94.2,
     "confidence": 66.0,
+    "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "BYU Cougars",
@@ -1573,6 +1596,7 @@
     "away_score": 74.3,
     "home_win_prob": 71.9,
     "confidence": 56.4,
+    "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "San Jos\u00e9 State Spartans",

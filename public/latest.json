@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T06:41:51.476636-05:00",
+  "generated_at": "2026-11-12T13:51:43.955402-05:00",
   "date": "20261112",
   "total_games": 24,
   "model_version": "4.1.0",
@@ -115,60 +115,6 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401921768",
-      "date": "2026-11-13T00:00Z",
-      "home_team": "West Virginia Mountaineers",
-      "away_team": "Mercer Bears",
-      "home_abbr": "WVU",
-      "away_abbr": "MER",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-0",
-      "away_record": "2-2",
-      "home_location": "West Virginia",
-      "away_location": "Mercer",
-      "home_rating_team": "West Virginia",
-      "away_rating_team": "Mercer",
-      "home_adj_em": 16.88,
-      "away_adj_em": -6.95,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Hope Coliseum",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 20.4,
-      "predicted_total": 150.3,
-      "home_projected_score": 85.4,
-      "away_projected_score": 64.9,
-      "home_win_prob": 96.8,
-      "away_win_prob": 3.2,
-      "confidence": 66.0,
-      "pick": "West Virginia Mountaineers",
-      "pick_abbr": "WVU",
-      "is_home_pick": true,
-      "projected_tempo": 70.0,
-      "factors": {
-        "efficiency_margin": 16.69,
-        "home_court": 3.76
-      },
-      "market": {
-        "spread": -27.5,
-        "over_under": 151.5,
-        "spread_holder": "West Virginia Mountaineers",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 7.1,
-      "model_vs_market": {
-        "spread_edge": -7.1,
-        "total_edge": -1.2
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401921741",
       "date": "2026-11-13T02:00Z",
       "home_team": "BYU Cougars",
@@ -218,6 +164,60 @@
       "model_vs_market": {
         "spread_edge": -6.2,
         "total_edge": -9.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401921768",
+      "date": "2026-11-13T00:00Z",
+      "home_team": "West Virginia Mountaineers",
+      "away_team": "Mercer Bears",
+      "home_abbr": "WVU",
+      "away_abbr": "MER",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-0",
+      "away_record": "2-2",
+      "home_location": "West Virginia",
+      "away_location": "Mercer",
+      "home_rating_team": "West Virginia",
+      "away_rating_team": "Mercer",
+      "home_adj_em": 16.88,
+      "away_adj_em": -6.95,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Hope Coliseum",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 20.4,
+      "predicted_total": 150.3,
+      "home_projected_score": 85.4,
+      "away_projected_score": 64.9,
+      "home_win_prob": 96.8,
+      "away_win_prob": 3.2,
+      "confidence": 66.0,
+      "pick": "West Virginia Mountaineers",
+      "pick_abbr": "WVU",
+      "is_home_pick": true,
+      "projected_tempo": 70.0,
+      "factors": {
+        "efficiency_margin": 16.69,
+        "home_court": 3.76
+      },
+      "market": {
+        "spread": -27.5,
+        "over_under": 151.5,
+        "spread_holder": "West Virginia Mountaineers",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 7.1,
+      "model_vs_market": {
+        "spread_edge": -7.1,
+        "total_edge": -1.2
       },
       "is_best_bet": false,
       "is_tournament_game": false
