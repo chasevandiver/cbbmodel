@@ -38,6 +38,11 @@ checks every file it writes.
   future), `final` (graded), `no_result` (never graded: cancelled, postponed,
   or no final score found).
 - Unknown values are `null`, never omitted and never `0`.
+- **Freshness**: `slate.json` is rewritten by the morning picks run and again
+  after every closing-line snapshot (`.github/workflows/lines.yml`), so
+  `closing` on a pending record is at most one snapshot interval old. A
+  consumer that wants the current line reads `closing` when present and
+  `market` otherwise; `market` never changes once a pick is published.
 
 ## Envelope (slate and season files)
 
@@ -64,7 +69,7 @@ checks every file it writes.
 | `status` | `pending` \| `final` \| `no_result` | |
 | `home`, `away` | Team | `{name, abbr, logo, record, rank}`; `rank` null when unranked |
 | `venue`, `neutral_site`, `conference_game`, `broadcast` | | |
-| `model` | Model | `spread_home`, `total`, `home_score`, `away_score`, `home_win_prob` (0-100), `confidence` (0-100), `confidence_tier` (`high` ≥70, `medium` 40-70, `low` <40), `pick` `{team, abbr, side}` |
+| `model` | Model | `spread_home`, `total`, `home_score`, `away_score`, `home_win_prob` (0-100), `confidence` (0-100), `tempo` (projected possessions per team; optional, null when the model has no pace), `confidence_tier` (`high` ≥70, `medium` 40-70, `low` <40), `pick` `{team, abbr, side}` |
 | `market` | Market \| null | line at pick time: `spread_home`, `total`, `favorite`, `bookmaker`, `captured_at` |
 | `closing` | Market \| null | last line captured before tip, same shape |
 | `edge` | Edge | `spread`, `total` (signed, see conventions), `value_rating` (abs spread edge), `is_best_bet` |

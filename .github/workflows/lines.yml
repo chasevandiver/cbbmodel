@@ -36,11 +36,16 @@ jobs:
         run: python cbb_model.py --snapshot-lines
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      # The slate app reads public/feed/, not picks/. Without this the feed's
+      # `closing` block stayed at whatever the morning run wrote, so the app's
+      # line was up to a day stale while this job snapshotted seven times.
+      - name: Re-export the shared feed
+        run: python export_feed.py
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add -- picks/ public/latest.json
+          git add -- picks/ public/latest.json public/feed/
           git diff --cached --quiet || git commit -m "auto: closing-line snapshot $(TZ=America/New_York date +'%b %d %H:%M')"
           git pull --rebase origin main
           git push
