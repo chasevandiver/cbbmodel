@@ -634,6 +634,14 @@ def preserve_pick_time_lines(predictions, date_str):
         old = previous.get(pick["game_id"])
         if not old:
             continue
+        if old.get("home_team") != pick["home_team"]:
+            # ESPN re-designates home and away on some neutral-site games between runs.
+            # Every stored line is home-relative, so carrying the old one forward would
+            # attach it to the other team with its sign unchanged (2026-11-11, Saint
+            # Joseph's vs South Florida: stored as home -7.5 with South Florida, now the
+            # away side, as the favorite). Keep the line just priced under the current
+            # designation instead; the pick-time baseline for this one game restarts.
+            continue
         if old.get("market", {}).get("spread") is not None:
             pick["market"] = old["market"]
             pick["value_rating"], pick["model_vs_market"], pick["is_best_bet"], pick["confidence"] = (
