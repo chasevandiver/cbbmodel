@@ -187,6 +187,7 @@ def to_record(pick, slate_date, model_version, now):
             "away_score": pick.get("away_projected_score"),
             "home_win_prob": pick.get("home_win_prob"),
             "confidence": pick.get("confidence"),
+            "tempo": pick.get("projected_tempo"),
             "confidence_tier": confidence_tier(pick.get("confidence")),
             "pick": {"team": pick_team, "abbr": pick.get("pick_abbr"), "side": pick_side},
         },

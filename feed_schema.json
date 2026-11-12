@@ -103,6 +103,7 @@
             "away_score": { "$ref": "#/$defs/nullable_number" },
             "home_win_prob": { "$ref": "#/$defs/nullable_number" },
             "confidence": { "$ref": "#/$defs/nullable_number" },
+            "tempo": { "$ref": "#/$defs/nullable_number" },
             "confidence_tier": { "type": ["string", "null"], "enum": ["high", "medium", "low", null] },
             "pick": {
               "type": "object",
