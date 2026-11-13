@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-13T06:41:53.262361-05:00",
+ "generated_at": "2026-11-13T13:29:28.424998-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -29097,7 +29097,7 @@
     "record": "1-2",
     "rank": null
    },
-   "venue": "Thomas Hill Arena",
+   "venue": "Tower Hill Arena",
    "neutral_site": false,
    "conference_game": false,
    "broadcast": "SEC Network",
