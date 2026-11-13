@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-12T18:23:51.943135-05:00",
+ "generated_at": "2026-11-12T19:56:27.375547-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-12",
@@ -1213,7 +1213,7 @@
     "total": 151.5,
     "favorite": "Richmond Spiders",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-12T18:23:51.871071-05:00"
+    "captured_at": "2026-11-12T19:56:27.314133-05:00"
    },
    "edge": {
     "spread": -1.5,
@@ -1285,7 +1285,7 @@
     "total": 141.5,
     "favorite": "Minnesota Golden Gophers",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-12T18:23:51.871071-05:00"
+    "captured_at": "2026-11-12T19:56:27.314133-05:00"
    },
    "edge": {
     "spread": -4.2,
@@ -1360,7 +1360,7 @@
     "total": 141.5,
     "favorite": "South Alabama Jaguars",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-12T18:23:51.871071-05:00"
+    "captured_at": "2026-11-12T19:56:27.314133-05:00"
    },
    "edge": {
     "spread": -5.3,
@@ -1434,10 +1434,10 @@
    },
    "closing": {
     "spread_home": -8.5,
-    "total": 178.5,
+    "total": 179.5,
     "favorite": "Texas A&M Aggies",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-12T18:23:51.871071-05:00"
+    "captured_at": "2026-11-12T19:56:27.314133-05:00"
    },
    "edge": {
     "spread": -2.5,
@@ -1509,7 +1509,7 @@
     "total": 146.5,
     "favorite": "Alabama A&M Bulldogs",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-12T18:23:51.871071-05:00"
+    "captured_at": "2026-11-12T19:56:27.314133-05:00"
    },
    "edge": {
     "spread": 4.0,
@@ -1584,7 +1584,7 @@
     "total": 144.5,
     "favorite": "UTEP Miners",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-12T18:23:51.871071-05:00"
+    "captured_at": "2026-11-12T19:56:27.314133-05:00"
    },
    "edge": {
     "spread": -2.6,
@@ -1656,7 +1656,7 @@
     "total": 162.5,
     "favorite": "BYU Cougars",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-12T18:23:51.871071-05:00"
+    "captured_at": "2026-11-12T19:56:27.314133-05:00"
    },
    "edge": {
     "spread": -6.2,
@@ -1730,7 +1730,7 @@
     "total": 153.5,
     "favorite": "San Jos\u00e9 St Spartans",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-12T18:23:51.871071-05:00"
+    "captured_at": "2026-11-12T19:56:27.314133-05:00"
    },
    "edge": {
     "spread": -1.1,
