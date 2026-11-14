@@ -65,10 +65,12 @@ python3 cbb_model.py --date 2026-11-05        # a specific date (Eastern)
 python3 cbb_model.py --output console --debug # readable output with team matching, writes nothing
 python3 cbb_model.py --check-teams            # audit ESPN <-> Barttorvik names (run each new season)
 python3 cbb_model.py --snapshot-lines         # stamp current lines on today's untipped picks
+python3 cbb_model.py --early                  # preview the next unpublished day -> picks/early_<date>.json
 python3 cbb_model.py --refresh-ratings        # download current ratings into data/ (no key needed)
 
 python3 results_tracker.py                    # grade yesterday's picks -> public/results/results.json
 python3 results_tracker.py --date 2026-11-04  # grade a specific date
+python3 results_tracker.py --live             # grade today's and yesterday's finals so far
 python3 results_tracker.py --regrade          # reapply grading rules to the stored history
 python3 results_tracker.py --rebuild          # regrade from pick files (refetches scores)
 
@@ -90,6 +92,18 @@ machine Barttorvik does not block and pushing; a daily local cron does this.
 `picks/`, `public/latest.json` and `public/results/results.json`. Set the
 `ODDS_API_KEY` repository secret. Vercel redeploys on push to `main`.
 
+Two more workflows run through the day. `lines.yml` snapshots closing lines
+seven times, and on each run also grades the games that have gone final and
+prices the next day's slate as a preview (`picks/early_<date>.json`, exported
+as `feed/cbb/slate-next.json`). `grade.yml` grades hourly from early afternoon
+to 3:40 AM Eastern, so the record moves as games finish.
+
+The preview is not the pick of record. It uses the previous day's ratings and
+whatever lines are posted, is overwritten at every snapshot, and is never
+graded. The morning run still writes `picks_<date>.json` from that morning's
+ratings and line, and only that file counts toward the record and
+closing-line value.
+
 Vercel deduplicates by commit SHA. If a commit was already built as a branch
 preview, fast-forwarding `main` to it does not create a production
 deployment. Push `main` before the feature branch, or merge with a merge
@@ -102,7 +116,7 @@ cbb_model.py          projections
 results_tracker.py    grading
 export_feed.py        shared pick feed for the slate app (FEED_SCHEMA.md, feed_schema.json)
 automate.py           daily driver
-picks/                one JSON per date + latest.json
+picks/                one JSON per date + latest.json; early_<date>.json is the next day's preview
 public/latest.json    served to the dashboard
 public/results/       graded history
 src/App.jsx           app shell: tabs, theme toggle, data loading

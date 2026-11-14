@@ -1,0 +1,47 @@
+name: Live grading
+
+# Grades the day's picks as their games go final, between and after the
+# closing-line snapshots (lines.yml grades too; these slots fill the gaps and
+# cover the late tips). ESPN only: no Odds API request, so the slots are free.
+# GitHub starts scheduled jobs late, sometimes by hours, which is why there is
+# one every hour rather than a few well-placed ones. A run with nothing newly
+# final commits nothing.
+on:
+  schedule:
+    - cron: '40 18-23 * * *'   #  1:40 PM - 6:40 PM ET
+    - cron: '40 0-8 * * *'     #  7:40 PM - 3:40 AM ET
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cbb-commits
+  cancel-in-progress: false
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Grade finished games
+        run: python results_tracker.py --live
+      - name: Re-export the shared feed
+        run: python export_feed.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -- public/results/results.json
+          if git diff --cached --quiet; then
+            echo "nothing newly final"
+            exit 0
+          fi
+          git add -- public/feed/
+          git commit -m "auto: graded finals $(TZ=America/New_York date +'%b %d %H:%M')"
+          git pull --rebase --autostash origin main
+          git push

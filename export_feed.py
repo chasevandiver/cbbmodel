@@ -6,7 +6,7 @@ Writes the sport-agnostic feed described in FEED_SCHEMA.md so one slate/tracking
 app can load picks from the CBB, CFB and NBA model repos with a single loader.
 
 Usage:
-    python3 export_feed.py              # write public/feed/cbb/{index,slate,season-<yyyy>}.json
+    python3 export_feed.py              # write public/feed/cbb/{index,slate,slate-next,season-<yyyy>}.json
     python3 export_feed.py --validate   # also validate every file against feed_schema.json
                                         # (needs `pip install jsonschema`)
 
@@ -231,6 +231,17 @@ def load_pick_files():
     return files
 
 
+def load_early(published_date):
+    """The newest picks/early_YYYYMMDD.json dated after the published slate, or None."""
+    for path in sorted(glob.glob(os.path.join(PICKS_DIR, "early_*.json")), reverse=True):
+        m = re.search(r"early_(\d{8})\.json$", os.path.basename(path))
+        if m and (not published_date or m.group(1) > published_date):
+            data = load_json(path, {})
+            if data.get("picks"):
+                return {**data, "date": m.group(1)}
+    return None
+
+
 def build_season_records(pick_files, graded_by_id, now):
     """
     Every pick ever published, keyed by game id, overlaid with its grade. If a game was
@@ -351,10 +362,31 @@ def main():
                        "slate_date": slate_date, "records": slate_records})
     written.append(slate_path)
 
+    # The next slate: an early preview of the day after the published one (cbb_model.py
+    # --early). Written only while it is ahead of slate.json, and removed otherwise, so a
+    # consumer can never read yesterday's preview as tomorrow's.
+    next_path = os.path.join(FEED_DIR, "slate-next.json")
+    next_meta = None
+    early = load_early(latest.get("date"))
+    if early:
+        next_date = slate_date_of(early["date"])
+        next_records = [to_record(p, next_date, early.get("model_version"), now) for p in early.get("picks", [])]
+        next_records.sort(key=lambda r: (r["start_time"], r["game_id"]))
+        write(next_path, {**header("slate", season_for(next_date), early.get("model_version"), now),
+                          "slate_date": next_date, "early": True, "records": next_records})
+        written.append(next_path)
+        next_meta = {"date": next_date, "total_games": len(next_records),
+                     "with_line": sum(r["market"] is not None for r in next_records)}
+    elif os.path.exists(next_path):
+        os.remove(next_path)
+        print(f"[OK] removed {os.path.relpath(next_path, BASE_DIR)} (no early slate ahead of {slate_date})")
+
     summary = results.get("summary", {})
     index = {k: v for k, v in header("index", current, model_version, now).items() if k != "kind"}
     index.update({
-        "files": {"slate": "slate.json", "season": f"season-{current}.json"},
+        "files": {"slate": "slate.json", "season": f"season-{current}.json",
+                  **({"next": "slate-next.json"} if next_meta else {})},
+        "next": next_meta,
         "seasons": seasons_meta,
         "slate": {
             "date": slate_date,
@@ -371,6 +403,8 @@ def main():
     for m in seasons_meta:
         print(f"     {m['label']}: {m['records']} records, {m['final']} final, {m['pending']} pending, {m['no_result']} no result")
     print(f"     slate {slate_date}: {len(slate_records)} games")
+    if next_meta:
+        print(f"     next slate {next_meta['date']}: {next_meta['total_games']} games, {next_meta['with_line']} with a line")
 
     if args.validate and not validate(written):
         sys.exit(1)

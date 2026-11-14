@@ -8,6 +8,7 @@ dashboard host serves as static files:
 ```
 /feed/cbb/index.json          manifest: current season, file list, season + all-time summary
 /feed/cbb/slate.json          the most recently published slate (today's picks)
+/feed/cbb/slate-next.json     an early preview of the next day's slate; present only while one exists
 /feed/cbb/season-2027.json    every pick published for a season, graded where a final exists
 ```
 
@@ -43,6 +44,21 @@ checks every file it writes.
   `closing` on a pending record is at most one snapshot interval old. A
   consumer that wants the current line reads `closing` when present and
   `market` otherwise; `market` never changes once a pick is published.
+
+- **Grading is live**: a pick is graded once its game is final, by hourly runs
+  through the day, not the next morning. So `summary`, the season file and
+  `slate.json` all carry results for the slate still being played, and a
+  record block can change several times in one evening.
+- **The next slate is a preview**: `slate-next.json` has the same shape as
+  `slate.json` plus `"early": true`, for the day after `slate.json`'s. It is
+  priced from the previous day's ratings and whatever lines are posted, and it
+  is rewritten at every snapshot, so `market` there DOES change. None of its
+  records are picks of record: they are never graded, never get a `closing`
+  line and appear in no season file. The morning run publishes that day in
+  `slate.json` with its own numbers, and the file is removed (and
+  `index.files.next` dropped, `index.next` set to null) until the following
+  preview is written. Check its `slate_date` is later than `slate.json`'s
+  before using it.
 
 ## Envelope (slate and season files)
 
@@ -83,7 +99,8 @@ checks every file it writes.
 |---|---|
 | `schema_version`, `sport`, `league`, `sport_name`, `model`, `generated_at` | as above |
 | `season`, `season_label` | the current season |
-| `files` | `{slate: "slate.json", season: "season-2027.json"}` relative to the index |
+| `files` | `{slate: "slate.json", season: "season-2027.json"}` relative to the index, plus `next: "slate-next.json"` while a preview exists |
+| `next` | `{date, total_games, with_line}` for the preview, or `null` |
 | `seasons` | `[{season, label, file, records, final, pending, no_result}]`, newest first |
 | `slate` | `{date, total_games, pending}` |
 | `summary` | current-season record blocks: `ats`, `su`, `ou`, `by_confidence`, `value_plays`, `best_bets`, `clv`, `calibration`, `total_graded`, `ats_graded` |

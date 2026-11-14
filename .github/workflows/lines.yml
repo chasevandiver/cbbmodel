@@ -2,7 +2,8 @@ name: Closing line snapshots
 
 # Records the current market line on each of today's picks that has not tipped
 # yet. The last snapshot before tip-off is the closing line the results tracker
-# uses for closing-line value. GitHub starts scheduled jobs late, so slots are
+# uses for closing-line value. Each run also grades the games that have gone
+# final and prices the next day's slate as a preview (see the steps). GitHub starts scheduled jobs late, so slots are
 # spread through the day. Seven snapshots plus up to four picks runs a day is
 # ~330 Odds API requests a month, under the free tier's 500.
 on:
@@ -32,10 +33,18 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-      - name: Snapshot lines
-        run: python cbb_model.py --snapshot-lines
+      # --early also prices the next unpublished day (normally tomorrow) into
+      # picks/early_<date>.json, from the same Odds API response, so it costs no
+      # extra request. That file is a preview: the morning run still writes the
+      # pick of record. A preview that fails is logged and does not fail the job.
+      - name: Snapshot lines and price the next slate early
+        run: python cbb_model.py --snapshot-lines --early
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      # ESPN only, no Odds API request. A game is graded once, after it is
+      # final, so the record moves through the day instead of the next morning.
+      - name: Grade finished games
+        run: python results_tracker.py --live
       # The slate app reads public/feed/, not picks/. Without this the feed's
       # `closing` block stayed at whatever the morning run wrote, so the app's
       # line was up to a day stale while this job snapshotted seven times.
@@ -45,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add -- picks/ public/latest.json public/feed/
+          git add -- picks/ public/latest.json public/feed/ public/results/results.json
           git diff --cached --quiet || git commit -m "auto: closing-line snapshot $(TZ=America/New_York date +'%b %d %H:%M')"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
