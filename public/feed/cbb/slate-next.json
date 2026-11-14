@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T01:40:28.851745-05:00",
+ "generated_at": "2026-11-14T02:18:15.202663-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-14",
@@ -1132,7 +1132,7 @@
    },
    "market": {
     "spread_home": -7.5,
-    "total": 164.5,
+    "total": 165.5,
     "favorite": "Winthrop Eagles",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -1140,7 +1140,7 @@
    "closing": null,
    "edge": {
     "spread": -2.9,
-    "total": -5.0,
+    "total": -6.0,
     "value_rating": 2.9,
     "is_best_bet": false
    },
@@ -3539,7 +3539,7 @@
    },
    "market": {
     "spread_home": 2.5,
-    "total": 164.5,
+    "total": 163.5,
     "favorite": "IUIN -2.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -3547,7 +3547,7 @@
    "closing": null,
    "edge": {
     "spread": 3.5,
-    "total": -6.5,
+    "total": -5.5,
     "value_rating": 3.5,
     "is_best_bet": true
    },

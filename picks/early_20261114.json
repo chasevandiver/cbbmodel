@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T01:40:28.537285-05:00",
+  "generated_at": "2026-11-14T02:18:14.975521-05:00",
   "date": "20261114",
   "total_games": 60,
   "model_version": "4.1.0",
@@ -696,14 +696,14 @@
       },
       "market": {
         "spread": 2.5,
-        "over_under": 164.5,
+        "over_under": 163.5,
         "spread_holder": "IUIN -2.5",
         "bookmaker": "espn"
       },
       "value_rating": 3.5,
       "model_vs_market": {
         "spread_edge": 3.5,
-        "total_edge": -6.5
+        "total_edge": -5.5
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -1074,14 +1074,14 @@
       },
       "market": {
         "spread": -7.5,
-        "over_under": 164.5,
+        "over_under": 165.5,
         "spread_holder": "Winthrop Eagles",
         "bookmaker": "draftkings"
       },
       "value_rating": 2.9,
       "model_vs_market": {
         "spread_edge": -2.9,
-        "total_edge": -5.0
+        "total_edge": -6.0
       },
       "is_best_bet": false,
       "is_tournament_game": false
