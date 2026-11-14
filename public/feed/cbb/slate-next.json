@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T02:18:15.202663-05:00",
+ "generated_at": "2026-11-14T04:12:28.101574-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-14",
@@ -722,7 +722,7 @@
     "home_score": 85.5,
     "away_score": 62.3,
     "home_win_prob": 98.2,
-    "confidence": 52.5,
+    "confidence": 56.5,
     "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
@@ -732,7 +732,7 @@
     }
    },
    "market": {
-    "spread_home": -25.5,
+    "spread_home": -26.5,
     "total": 145.5,
     "favorite": "South Carolina Gamecocks",
     "bookmaker": "draftkings",
@@ -740,17 +740,20 @@
    },
    "closing": null,
    "edge": {
-    "spread": -2.4,
+    "spread": -3.4,
     "total": 2.3,
-    "value_rating": 2.4,
-    "is_best_bet": false
+    "value_rating": 3.4,
+    "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 25.5
+    "cover_line": 26.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "best_bet",
+    "value"
+   ]
   },
   {
    "id": "cbb:401918993",
@@ -1264,7 +1267,7 @@
    },
    "market": {
     "spread_home": -3.5,
-    "total": 163.5,
+    "total": 162.5,
     "favorite": "Northern Kentucky Norse",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1272,7 +1275,7 @@
    "closing": null,
    "edge": {
     "spread": -0.6,
-    "total": -9.8,
+    "total": -8.8,
     "value_rating": 0.6,
     "is_best_bet": false
    },
@@ -1399,7 +1402,7 @@
    },
    "market": {
     "spread_home": -18.5,
-    "total": 155.5,
+    "total": 156.5,
     "favorite": "Wake Forest Demon Deacons",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1407,7 +1410,7 @@
    "closing": null,
    "edge": {
     "spread": -3.6,
-    "total": -5.6,
+    "total": -6.6,
     "value_rating": 3.6,
     "is_best_bet": true
    },
@@ -1799,7 +1802,7 @@
    },
    "market": {
     "spread_home": -7.5,
-    "total": 143.5,
+    "total": 138.5,
     "favorite": "Old Dominion Monarchs",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -1807,7 +1810,7 @@
    "closing": null,
    "edge": {
     "spread": -1.6,
-    "total": 5.5,
+    "total": 10.5,
     "value_rating": 1.6,
     "is_best_bet": false
    },

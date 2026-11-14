@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T02:18:14.975521-05:00",
+  "generated_at": "2026-11-14T04:12:27.918532-05:00",
   "date": "20261114",
   "total_games": 60,
   "model_version": "4.1.0",
@@ -1290,14 +1290,14 @@
       },
       "market": {
         "spread": -18.5,
-        "over_under": 155.5,
+        "over_under": 156.5,
         "spread_holder": "Wake Forest Demon Deacons",
         "bookmaker": "fanduel"
       },
       "value_rating": 3.6,
       "model_vs_market": {
         "spread_edge": -3.6,
-        "total_edge": -5.6
+        "total_edge": -6.6
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -1506,14 +1506,14 @@
       },
       "market": {
         "spread": -7.5,
-        "over_under": 143.5,
+        "over_under": 138.5,
         "spread_holder": "Old Dominion Monarchs",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.6,
       "model_vs_market": {
         "spread_edge": -1.6,
-        "total_edge": 5.5
+        "total_edge": 10.5
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2113,6 +2113,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401911392",
+      "date": "2026-11-14T19:00Z",
+      "home_team": "South Carolina Gamecocks",
+      "away_team": "Gardner-Webb Runnin' Bulldogs",
+      "home_abbr": "SC",
+      "away_abbr": "GWEB",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-0",
+      "away_record": "1-2",
+      "home_location": "South Carolina",
+      "away_location": "Gardner-Webb",
+      "home_rating_team": "South Carolina",
+      "away_rating_team": "Gardner Webb",
+      "home_adj_em": 10.11,
+      "away_adj_em": -18.17,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Colonial Life Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "SECN+",
+      "predicted_spread": 23.1,
+      "predicted_total": 147.8,
+      "home_projected_score": 85.5,
+      "away_projected_score": 62.3,
+      "home_win_prob": 98.2,
+      "away_win_prob": 1.8,
+      "confidence": 56.5,
+      "pick": "South Carolina Gamecocks",
+      "pick_abbr": "SC",
+      "is_home_pick": true,
+      "projected_tempo": 69.9,
+      "factors": {
+        "efficiency_margin": 19.78,
+        "home_court": 3.35
+      },
+      "market": {
+        "spread": -26.5,
+        "over_under": 145.5,
+        "spread_holder": "South Carolina Gamecocks",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 3.4,
+      "model_vs_market": {
+        "spread_edge": -3.4,
+        "total_edge": 2.3
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401922230",
       "date": "2026-11-14T19:00Z",
       "home_team": "Queens University Royals",
@@ -2262,14 +2316,14 @@
       },
       "market": {
         "spread": -3.5,
-        "over_under": 163.5,
+        "over_under": 162.5,
         "spread_holder": "Northern Kentucky Norse",
         "bookmaker": "fanduel"
       },
       "value_rating": 0.6,
       "model_vs_market": {
         "spread_edge": -0.6,
-        "total_edge": -9.8
+        "total_edge": -8.8
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2702,60 +2756,6 @@
       "model_vs_market": {
         "spread_edge": -0.5,
         "total_edge": -4.5
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401911392",
-      "date": "2026-11-14T19:00Z",
-      "home_team": "South Carolina Gamecocks",
-      "away_team": "Gardner-Webb Runnin' Bulldogs",
-      "home_abbr": "SC",
-      "away_abbr": "GWEB",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-0",
-      "away_record": "1-2",
-      "home_location": "South Carolina",
-      "away_location": "Gardner-Webb",
-      "home_rating_team": "South Carolina",
-      "away_rating_team": "Gardner Webb",
-      "home_adj_em": 10.11,
-      "away_adj_em": -18.17,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Colonial Life Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "SECN+",
-      "predicted_spread": 23.1,
-      "predicted_total": 147.8,
-      "home_projected_score": 85.5,
-      "away_projected_score": 62.3,
-      "home_win_prob": 98.2,
-      "away_win_prob": 1.8,
-      "confidence": 52.5,
-      "pick": "South Carolina Gamecocks",
-      "pick_abbr": "SC",
-      "is_home_pick": true,
-      "projected_tempo": 69.9,
-      "factors": {
-        "efficiency_margin": 19.78,
-        "home_court": 3.35
-      },
-      "market": {
-        "spread": -25.5,
-        "over_under": 145.5,
-        "spread_holder": "South Carolina Gamecocks",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 2.4,
-      "model_vs_market": {
-        "spread_edge": -2.4,
-        "total_edge": 2.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -3252,9 +3252,9 @@
     "high_confidence": 5,
     "medium_confidence": 53,
     "low_confidence": 2,
-    "avg_confidence": 60.0,
-    "value_plays": 23,
-    "best_bets": 21,
+    "avg_confidence": 60.1,
+    "value_plays": 24,
+    "best_bets": 22,
     "with_market_line": 57,
     "tournament_games": 3
   },
