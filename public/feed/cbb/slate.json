@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-13T20:53:44.429532-05:00",
+ "generated_at": "2026-11-13T22:28:38.339262-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-13",
@@ -3970,11 +3970,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": -14.5,
+    "spread_home": -15.5,
     "total": 144.5,
     "favorite": "Cal Baptist Lancers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-13T20:53:44.361965-05:00"
+    "captured_at": "2026-11-13T22:28:38.271124-05:00"
    },
    "edge": {
     "spread": -2.6,
