@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T14:07:38.520081-05:00",
+ "generated_at": "2026-11-14T15:12:05.463229-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-14",
@@ -83,7 +83,7 @@
    "game_id": "401919004",
    "game_id_source": "espn",
    "start_time": "2026-11-14T17:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Akron Zips",
     "abbr": "AKR",
@@ -136,7 +136,19 @@
     "side": "home",
     "cover_line": 11.5
    },
-   "result": null,
+   "result": {
+    "home_score": 65,
+    "away_score": 63,
+    "margin_home": 2,
+    "total": 128,
+    "winner": "Akron Zips",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -149,7 +161,7 @@
    "game_id": "401912229",
    "game_id_source": "espn",
    "start_time": "2026-11-14T18:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Army Black Knights",
     "abbr": "ARMY",
@@ -202,7 +214,19 @@
     "side": "away",
     "cover_line": -7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 77,
+    "margin_home": 2,
+    "total": 156,
+    "winner": "Army Black Knights",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -218,7 +242,7 @@
    "game_id": "401920074",
    "game_id_source": "espn",
    "start_time": "2026-11-14T18:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Bradley Braves",
     "abbr": "BRAD",
@@ -271,7 +295,19 @@
     "side": "away",
     "cover_line": 12.5
    },
-   "result": null,
+   "result": {
+    "home_score": 62,
+    "away_score": 61,
+    "margin_home": 1,
+    "total": 123,
+    "winner": "Bradley Braves",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "value",
     "tournament"
@@ -353,7 +389,7 @@
    "game_id": "401923303",
    "game_id_source": "espn",
    "start_time": "2026-11-14T18:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Maine Black Bears",
     "abbr": "ME",
@@ -406,7 +442,19 @@
     "side": "home",
     "cover_line": -4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 64,
+    "away_score": 66,
+    "margin_home": -2,
+    "total": 130,
+    "winner": "Drexel Dragons",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -1197,7 +1245,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -2.5,
+    "total": 162.5,
+    "favorite": "Northern Kentucky Norse",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -0.5,
     "total": -8.6,
@@ -1263,7 +1317,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -5.5,
+    "total": 160.5,
+    "favorite": "Gonzaga Bulldogs",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 3.7,
     "total": -3.0,
@@ -1332,7 +1392,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -18.5,
+    "total": 153.5,
+    "favorite": "Wake Forest Demon Deacons",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -3.6,
     "total": -6.4,
@@ -1401,7 +1467,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -16.5,
+    "total": 144.5,
+    "favorite": "St. Bonaventure Bonnies",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 2.9,
     "total": 2.9,
@@ -1527,7 +1599,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -15.5,
+    "total": 146.5,
+    "favorite": "East Carolina Pirates",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -5.8,
     "total": 1.7,
@@ -1597,7 +1675,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -17.5,
+    "total": 157.5,
+    "favorite": "Georgia Tech Yellow Jackets",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -2.2,
     "total": -2.7,
@@ -1663,7 +1747,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -1.5,
+    "total": 136.5,
+    "favorite": "Navy Midshipmen",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -3.3,
     "total": 2.2,
@@ -1732,7 +1822,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -6.5,
+    "total": 137.5,
+    "favorite": "Old Dominion Monarchs",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -1.7,
     "total": 11.7,
@@ -1869,7 +1965,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": 9.5,
+    "total": 153.5,
+    "favorite": "Toledo Rockets",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 9.5,
     "total": -1.5,
@@ -1938,7 +2040,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -9.5,
+    "total": 143.5,
+    "favorite": "Campbell Fighting Camels",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 1.8,
     "total": -4.7,
@@ -2004,7 +2112,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -14.5,
+    "total": 159.5,
+    "favorite": "California Golden Bears",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 1.9,
     "total": -12.0,
@@ -2070,7 +2184,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -1.5,
+    "total": 151.5,
+    "favorite": "Loyola (MD) Greyhounds",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 0.3,
     "total": 2.2,
@@ -2138,7 +2258,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -1.5,
+    "total": 157.5,
+    "favorite": "Oakland Golden Grizzlies",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -5.6,
     "total": -0.5,
@@ -2208,7 +2334,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -11.5,
+    "total": 155.5,
+    "favorite": "Providence Friars",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -3.5,
     "total": -3.2,
@@ -2277,7 +2409,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -2.5,
+    "total": 147.5,
+    "favorite": "Le Moyne Dolphins",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 0.6,
     "total": 2.5,
@@ -2343,7 +2481,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -8.5,
+    "total": 133.5,
+    "favorite": "North Texas Mean Green",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 1.7,
     "total": 7.8,
@@ -2409,7 +2553,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -3.5,
+    "total": 147.5,
+    "favorite": "Fresno St Bulldogs",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 0.8,
     "total": -0.5,
@@ -2475,7 +2625,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -3.5,
+    "total": 152.5,
+    "favorite": "Saint Joseph's Hawks",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -0.6,
     "total": -8.7,
@@ -2541,7 +2697,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -9.5,
+    "total": 158.5,
+    "favorite": "Siena Saints",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -3.7,
     "total": -8.2,
@@ -2610,7 +2772,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -4.5,
+    "total": 148.5,
+    "favorite": "Charleston Southern Buccaneers",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -1.6,
     "total": 0.5,
@@ -2676,7 +2844,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -12.5,
+    "total": 155.5,
+    "favorite": "Wichita St Shockers",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 0.5,
     "total": -2.6,
@@ -2742,7 +2916,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": 2.5,
+    "total": 147.5,
+    "favorite": "UAB Blazers",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 1.7,
     "total": -1.2,
@@ -2808,7 +2988,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -3.5,
+    "total": 157.5,
+    "favorite": "Western Carolina Catamounts",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 2.2,
     "total": -1.2,
@@ -2874,7 +3060,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -11.5,
+    "total": 142.5,
+    "favorite": "Fairfield Stags",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -4.0,
     "total": 2.4,
@@ -2943,7 +3135,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -8.5,
+    "total": 143.5,
+    "favorite": "San Francisco Dons",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -3.6,
     "total": 1.4,
@@ -3012,7 +3210,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -34.5,
+    "total": 144.5,
+    "favorite": "Villanova Wildcats",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -2.3,
     "total": 2.5,
@@ -3078,7 +3282,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -4.5,
+    "total": 139.5,
+    "favorite": "UT-Arlington Mavericks",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 0.9,
     "total": -6.9,
@@ -3144,7 +3354,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -10.5,
+    "total": 141.5,
+    "favorite": "Davidson Wildcats",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -1.6,
     "total": 3.3,
@@ -3270,7 +3486,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": 6.5,
+    "total": 146.5,
+    "favorite": "Cincinnati Bearcats",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 4.7,
     "total": -2.0,
@@ -3340,7 +3562,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -17.5,
+    "total": 140.5,
+    "favorite": "Duquesne Dukes",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -1.8,
     "total": 4.8,
@@ -3406,7 +3634,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -10.5,
+    "total": 144.5,
+    "favorite": "Towson Tigers",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -0.5,
     "total": -4.1,
@@ -3541,7 +3775,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -31.5,
+    "total": 163.5,
+    "favorite": "Grand Canyon Antelopes",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -5.7,
     "total": -8.3,
@@ -3610,7 +3850,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -3.5,
+    "total": 161.5,
+    "favorite": "Sacramento St Hornets",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 3.6,
     "total": -6.0,
@@ -3679,7 +3925,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": 1.5,
+    "total": 134.5,
+    "favorite": "Louisiana Tech Bulldogs",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 0.0,
     "total": -0.3,
@@ -3814,7 +4066,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -2.5,
+    "total": 154.5,
+    "favorite": "Belmont Bruins",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 0.4,
     "total": -1.1,
@@ -3880,7 +4138,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": 1.5,
+    "total": 150.5,
+    "favorite": "Montana Grizzlies",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -4.3,
     "total": -0.7,
@@ -3950,7 +4214,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -9.5,
+    "total": 152.5,
+    "favorite": "Nevada Wolf Pack",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": -0.5,
     "total": -4.3,
@@ -4016,7 +4286,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": 1.5,
+    "total": 165.5,
+    "favorite": "New Mexico Lobos",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-14T15:11:50.365253-05:00"
+   },
    "edge": {
     "spread": 2.8,
     "total": -11.7,
