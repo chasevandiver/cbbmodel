@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-13T22:28:38.339262-05:00",
+ "generated_at": "2026-11-14T01:40:28.851745-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-13",
@@ -23,7 +23,7 @@
    "game_id": "401921167",
    "game_id_source": "espn",
    "start_time": "2026-11-13T20:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Cleveland State Vikings",
     "abbr": "CLE",
@@ -76,7 +76,19 @@
     "side": "home",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 69,
+    "away_score": 67,
+    "margin_home": 2,
+    "total": 136,
+    "winner": "Cleveland State Vikings",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -91,7 +103,7 @@
    "game_id": "401909696",
    "game_id_source": "espn",
    "start_time": "2026-11-13T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Florida State Seminoles",
     "abbr": "FSU",
@@ -144,7 +156,19 @@
     "side": "away",
     "cover_line": 22.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 60,
+    "margin_home": 24,
+    "total": 144,
+    "winner": "Florida State Seminoles",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -160,7 +184,7 @@
    "game_id": "401921721",
    "game_id_source": "espn",
    "start_time": "2026-11-13T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Miami Hurricanes",
     "abbr": "MIA",
@@ -219,7 +243,19 @@
     "side": "away",
     "cover_line": 34.5
    },
-   "result": null,
+   "result": {
+    "home_score": 94,
+    "away_score": 52,
+    "margin_home": 42,
+    "total": 146,
+    "winner": "Miami Hurricanes",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": [
     "value"
    ]
@@ -234,7 +270,7 @@
    "game_id": "401909515",
    "game_id_source": "espn",
    "start_time": "2026-11-13T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Clemson Tigers",
     "abbr": "CLEM",
@@ -293,7 +329,19 @@
     "side": "none",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 78,
+    "away_score": 85,
+    "margin_home": -7,
+    "total": 163,
+    "winner": "Georgetown Hoyas",
+    "su_correct": false,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -306,7 +354,7 @@
    "game_id": "401923270",
    "game_id_source": "espn",
    "start_time": "2026-11-13T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Rutgers Scarlet Knights",
     "abbr": "RUTG",
@@ -365,7 +413,19 @@
     "side": "none",
     "cover_line": 22.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 51,
+    "margin_home": 21,
+    "total": 123,
+    "winner": "Rutgers Scarlet Knights",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -378,7 +438,7 @@
    "game_id": "401902278",
    "game_id_source": "espn",
    "start_time": "2026-11-13T23:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Butler Bulldogs",
     "abbr": "BTLR",
@@ -437,7 +497,19 @@
     "side": "none",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 64,
+    "away_score": 76,
+    "margin_home": -12,
+    "total": 140,
+    "winner": "Pittsburgh Panthers",
+    "su_correct": false,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -450,7 +522,7 @@
    "game_id": "401906772",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Florida Gators",
     "abbr": "FLA",
@@ -509,7 +581,19 @@
     "side": "away",
     "cover_line": 37.5
    },
-   "result": null,
+   "result": {
+    "home_score": 83,
+    "away_score": 54,
+    "margin_home": 29,
+    "total": 137,
+    "winner": "Florida Gators",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 2.0
+   },
    "tags": [
     "value"
    ]
@@ -524,7 +608,7 @@
    "game_id": "401906782",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "North Carolina Tar Heels",
     "abbr": "UNC",
@@ -583,7 +667,19 @@
     "side": "away",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 70,
+    "away_score": 78,
+    "margin_home": -8,
+    "total": 148,
+    "winner": "Georgia Bulldogs",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -596,7 +692,7 @@
    "game_id": "401906850",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Tennessee Volunteers",
     "abbr": "TENN",
@@ -655,7 +751,19 @@
     "side": "away",
     "cover_line": 29.5
    },
-   "result": null,
+   "result": {
+    "home_score": 83,
+    "away_score": 78,
+    "margin_home": 5,
+    "total": 161,
+    "winner": "Tennessee Volunteers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 2.0
+   },
    "tags": [
     "value"
    ]
@@ -670,7 +778,7 @@
    "game_id": "401911197",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Fordham Rams",
     "abbr": "FOR",
@@ -729,7 +837,19 @@
     "side": "away",
     "cover_line": 12.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 58,
+    "margin_home": 22,
+    "total": 138,
+    "winner": "Fordham Rams",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -742,7 +862,7 @@
    "game_id": "401911210",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "George Washington Revolutionaries",
     "abbr": "GW",
@@ -795,7 +915,19 @@
     "side": "away",
     "cover_line": 12.5
    },
-   "result": null,
+   "result": {
+    "home_score": 85,
+    "away_score": 57,
+    "margin_home": 28,
+    "total": 142,
+    "winner": "George Washington Revolutionaries",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -808,7 +940,7 @@
    "game_id": "401913528",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Illinois Fighting Illini",
     "abbr": "ILL",
@@ -867,7 +999,19 @@
     "side": "away",
     "cover_line": 36.5
    },
-   "result": null,
+   "result": {
+    "home_score": 108,
+    "away_score": 86,
+    "margin_home": 22,
+    "total": 194,
+    "winner": "Illinois Fighting Illini",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "value"
    ]
@@ -882,7 +1026,7 @@
    "game_id": "401918958",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "NC State Wolfpack",
     "abbr": "NCSU",
@@ -941,7 +1085,19 @@
     "side": "away",
     "cover_line": 22.5
    },
-   "result": null,
+   "result": {
+    "home_score": 81,
+    "away_score": 62,
+    "margin_home": 19,
+    "total": 143,
+    "winner": "NC State Wolfpack",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -957,7 +1113,7 @@
    "game_id": "401920379",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Virginia Tech Hokies",
     "abbr": "VT",
@@ -1010,7 +1166,19 @@
     "side": "away",
     "cover_line": 28.5
    },
-   "result": null,
+   "result": {
+    "home_score": 82,
+    "away_score": 62,
+    "margin_home": 20,
+    "total": 144,
+    "winner": "Virginia Tech Hokies",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -1026,7 +1194,7 @@
    "game_id": "401920747",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Northeastern Huskies",
     "abbr": "NE",
@@ -1085,7 +1253,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 73,
+    "margin_home": 11,
+    "total": 157,
+    "winner": "Northeastern Huskies",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -1098,7 +1278,7 @@
    "game_id": "401920973",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Elon Phoenix",
     "abbr": "ELON",
@@ -1157,7 +1337,19 @@
     "side": "home",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 70,
+    "away_score": 77,
+    "margin_home": -7,
+    "total": 147,
+    "winner": "Chattanooga Mocs",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -1173,7 +1365,7 @@
    "game_id": "401921191",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Hofstra Pride",
     "abbr": "HOF",
@@ -1232,7 +1424,19 @@
     "side": "away",
     "cover_line": 7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 62,
+    "away_score": 59,
+    "margin_home": 3,
+    "total": 121,
+    "winner": "Hofstra Pride",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -1245,7 +1449,7 @@
    "game_id": "401921803",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Kentucky Wildcats",
     "abbr": "UK",
@@ -1304,7 +1508,19 @@
     "side": "away",
     "cover_line": 34.5
    },
-   "result": null,
+   "result": {
+    "home_score": 78,
+    "away_score": 77,
+    "margin_home": 1,
+    "total": 155,
+    "winner": "Kentucky Wildcats",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 4.0
+   },
    "tags": [
     "value"
    ]
@@ -1319,7 +1535,7 @@
    "game_id": "401921825",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Vanderbilt Commodores",
     "abbr": "VAN",
@@ -1372,7 +1588,19 @@
     "side": "away",
     "cover_line": 40.5
    },
-   "result": null,
+   "result": {
+    "home_score": 89,
+    "away_score": 62,
+    "margin_home": 27,
+    "total": 151,
+    "winner": "Vanderbilt Commodores",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "value"
    ]
@@ -1387,7 +1615,7 @@
    "game_id": "401922211",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
@@ -1440,7 +1668,19 @@
     "side": "away",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 89,
+    "margin_home": -9,
+    "total": 169,
+    "winner": "Florida International Panthers",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -1453,7 +1693,7 @@
    "game_id": "401924704",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Bucknell Bison",
     "abbr": "BUCK",
@@ -1512,7 +1752,19 @@
     "side": "away",
     "cover_line": -5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 59,
+    "away_score": 77,
+    "margin_home": -18,
+    "total": 136,
+    "winner": "Columbia Lions",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -1525,7 +1777,7 @@
    "game_id": "401924796",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Lehigh Mountain Hawks",
     "abbr": "LEH",
@@ -1584,7 +1836,19 @@
     "side": "none",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 65,
+    "away_score": 60,
+    "margin_home": 5,
+    "total": 125,
+    "winner": "Lehigh Mountain Hawks",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -1597,7 +1861,7 @@
    "game_id": "401925755",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Michigan State Spartans",
     "abbr": "MSU",
@@ -1656,7 +1920,19 @@
     "side": "away",
     "cover_line": 28.5
    },
-   "result": null,
+   "result": {
+    "home_score": 106,
+    "away_score": 72,
+    "margin_home": 34,
+    "total": 178,
+    "winner": "Michigan State Spartans",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 2.0
+   },
    "tags": [
     "value"
    ]
@@ -1671,7 +1947,7 @@
    "game_id": "401925820",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Charlotte 49ers",
     "abbr": "CLT",
@@ -1730,7 +2006,19 @@
     "side": "home",
     "cover_line": 7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 60,
+    "away_score": 66,
+    "margin_home": -6,
+    "total": 126,
+    "winner": "App State Mountaineers",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -1746,7 +2034,7 @@
    "game_id": "401926133",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Purdue Boilermakers",
     "abbr": "PUR",
@@ -1805,7 +2093,19 @@
     "side": "none",
     "cover_line": 19.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 62,
+    "margin_home": 18,
+    "total": 142,
+    "winner": "Purdue Boilermakers",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -1818,7 +2118,7 @@
    "game_id": "401916316",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UConn Huskies",
     "abbr": "CONN",
@@ -1877,7 +2177,19 @@
     "side": "away",
     "cover_line": 10.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 68,
+    "margin_home": 16,
+    "total": 152,
+    "winner": "UConn Huskies",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": -2.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -1893,7 +2205,7 @@
    "game_id": "401926152",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
@@ -1946,7 +2258,19 @@
     "side": "home",
     "cover_line": 5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 88,
+    "away_score": 75,
+    "margin_home": 13,
+    "total": 163,
+    "winner": "Middle Tennessee Blue Raiders",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -1959,7 +2283,7 @@
    "game_id": "401926794",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Liberty Flames",
     "abbr": "LIB",
@@ -2018,7 +2342,19 @@
     "side": "away",
     "cover_line": 17.5
    },
-   "result": null,
+   "result": {
+    "home_score": 74,
+    "away_score": 66,
+    "margin_home": 8,
+    "total": 140,
+    "winner": "Liberty Flames",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -2031,7 +2367,7 @@
    "game_id": "401927363",
    "game_id_source": "espn",
    "start_time": "2026-11-14T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
@@ -2090,7 +2426,19 @@
     "side": "away",
     "cover_line": 13.5
    },
-   "result": null,
+   "result": {
+    "home_score": 81,
+    "away_score": 72,
+    "margin_home": 9,
+    "total": 153,
+    "winner": "Drake Bulldogs",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -2103,7 +2451,7 @@
    "game_id": "401906804",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Oklahoma Sooners",
     "abbr": "OU",
@@ -2162,7 +2510,19 @@
     "side": "away",
     "cover_line": 31.5
    },
-   "result": null,
+   "result": {
+    "home_score": 74,
+    "away_score": 58,
+    "margin_home": 16,
+    "total": 132,
+    "winner": "Oklahoma Sooners",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -2178,7 +2538,7 @@
    "game_id": "401909565",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Duke Blue Devils",
     "abbr": "DUKE",
@@ -2237,7 +2597,19 @@
     "side": "away",
     "cover_line": 44.5
    },
-   "result": null,
+   "result": {
+    "home_score": 90,
+    "away_score": 47,
+    "margin_home": 43,
+    "total": 137,
+    "winner": "Duke Blue Devils",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": [
     "value"
    ]
@@ -2252,7 +2624,7 @@
    "game_id": "401916297",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Maryland Terrapins",
     "abbr": "MD",
@@ -2311,7 +2683,19 @@
     "side": "home",
     "cover_line": -5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 83,
+    "away_score": 87,
+    "margin_home": -4,
+    "total": 170,
+    "winner": "Virginia Cavaliers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -2324,7 +2708,7 @@
    "game_id": "401917916",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Arkansas Razorbacks",
     "abbr": "ARK",
@@ -2383,7 +2767,19 @@
     "side": "away",
     "cover_line": 25.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 66,
+    "margin_home": 13,
+    "total": 145,
+    "winner": "Arkansas Razorbacks",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 3.0
+   },
    "tags": [
     "value"
    ]
@@ -2398,7 +2794,7 @@
    "game_id": "401919049",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "TCU Horned Frogs",
     "abbr": "TCU",
@@ -2457,7 +2853,19 @@
     "side": "away",
     "cover_line": 23.5
    },
-   "result": null,
+   "result": {
+    "home_score": 76,
+    "away_score": 64,
+    "margin_home": 12,
+    "total": 140,
+    "winner": "TCU Horned Frogs",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -2473,7 +2881,7 @@
    "game_id": "401920123",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Idaho Vandals",
     "abbr": "IDHO",
@@ -2532,7 +2940,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 74,
+    "away_score": 83,
+    "margin_home": -9,
+    "total": 157,
+    "winner": "Cal Poly Mustangs",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -2545,7 +2965,7 @@
    "game_id": "401921026",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UCF Knights",
     "abbr": "UCF",
@@ -2604,7 +3024,19 @@
     "side": "away",
     "cover_line": 22.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 70,
+    "margin_home": 14,
+    "total": 154,
+    "winner": "UCF Knights",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -2617,7 +3049,7 @@
    "game_id": "401925686",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Tarleton State Texans",
     "abbr": "TAR",
@@ -2676,7 +3108,19 @@
     "side": "home",
     "cover_line": 14.5
    },
-   "result": null,
+   "result": {
+    "home_score": 73,
+    "away_score": 69,
+    "margin_home": 4,
+    "total": 142,
+    "winner": "Tarleton State Texans",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 2.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -2692,7 +3136,7 @@
    "game_id": "401926117",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Samford Bulldogs",
     "abbr": "SAM",
@@ -2751,7 +3195,19 @@
     "side": "away",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 66,
+    "away_score": 90,
+    "margin_home": -24,
+    "total": 156,
+    "winner": "Wright State Raiders",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -2764,7 +3220,7 @@
    "game_id": "401927374",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "North Dakota State Bison",
     "abbr": "NDSU",
@@ -2823,7 +3279,19 @@
     "side": "away",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 82,
+    "away_score": 81,
+    "margin_home": 1,
+    "total": 163,
+    "winner": "North Dakota State Bison",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -2836,7 +3304,7 @@
    "game_id": "401927380",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Murray State Racers",
     "abbr": "MUR",
@@ -2895,7 +3363,19 @@
     "side": "away",
     "cover_line": 27.5
    },
-   "result": null,
+   "result": {
+    "home_score": 99,
+    "away_score": 78,
+    "margin_home": 21,
+    "total": 177,
+    "winner": "Murray State Racers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": [
     "value"
    ]
@@ -2910,7 +3390,7 @@
    "game_id": "401929199",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Texas State Bobcats",
     "abbr": "TXST",
@@ -2969,7 +3449,19 @@
     "side": "none",
     "cover_line": 10.5
    },
-   "result": null,
+   "result": {
+    "home_score": 85,
+    "away_score": 65,
+    "margin_home": 20,
+    "total": 150,
+    "winner": "Texas State Bobcats",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -2982,7 +3474,7 @@
    "game_id": "401929040",
    "game_id_source": "espn",
    "start_time": "2026-11-14T01:45Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Omaha Mavericks",
     "abbr": "OMA",
@@ -3041,7 +3533,19 @@
     "side": "away",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 67,
+    "away_score": 56,
+    "margin_home": 11,
+    "total": 123,
+    "winner": "Omaha Mavericks",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -3054,7 +3558,7 @@
    "game_id": "401906760",
    "game_id_source": "espn",
    "start_time": "2026-11-14T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Alabama Crimson Tide",
     "abbr": "ALA",
@@ -3113,7 +3617,19 @@
     "side": "away",
     "cover_line": 16.5
    },
-   "result": null,
+   "result": {
+    "home_score": 82,
+    "away_score": 76,
+    "margin_home": 6,
+    "total": 158,
+    "winner": "Alabama Crimson Tide",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -3129,7 +3645,7 @@
    "game_id": "401906794",
    "game_id_source": "espn",
    "start_time": "2026-11-14T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Mississippi State Bulldogs",
     "abbr": "MSST",
@@ -3188,7 +3704,19 @@
     "side": "home",
     "cover_line": -3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 63,
+    "away_score": 81,
+    "margin_home": -18,
+    "total": 144,
+    "winner": "Xavier Musketeers",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "tournament"
    ]
@@ -3203,7 +3731,7 @@
    "game_id": "401909503",
    "game_id_source": "espn",
    "start_time": "2026-11-14T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Northwestern Wildcats",
     "abbr": "NU",
@@ -3262,7 +3790,19 @@
     "side": "home",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 47,
+    "away_score": 67,
+    "margin_home": -20,
+    "total": 114,
+    "winner": "DePaul Blue Demons",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 3.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -3278,7 +3818,7 @@
    "game_id": "401909741",
    "game_id_source": "espn",
    "start_time": "2026-11-14T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Auburn Tigers",
     "abbr": "AUB",
@@ -3337,7 +3877,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 69,
+    "away_score": 80,
+    "margin_home": -11,
+    "total": 149,
+    "winner": "Arizona Wildcats",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -3350,7 +3902,7 @@
    "game_id": "401911014",
    "game_id_source": "espn",
    "start_time": "2026-11-14T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "SMU Mustangs",
     "abbr": "SMU",
@@ -3409,7 +3961,19 @@
     "side": "none",
     "cover_line": 22.5
    },
-   "result": null,
+   "result": {
+    "home_score": 90,
+    "away_score": 65,
+    "margin_home": 25,
+    "total": 155,
+    "winner": "SMU Mustangs",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -3422,7 +3986,7 @@
    "game_id": "401917980",
    "game_id_source": "espn",
    "start_time": "2026-11-14T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Arizona State Sun Devils",
     "abbr": "ASU",
@@ -3481,7 +4045,19 @@
     "side": "away",
     "cover_line": 32.5
    },
-   "result": null,
+   "result": {
+    "home_score": 92,
+    "away_score": 62,
+    "margin_home": 30,
+    "total": 154,
+    "winner": "Arizona State Sun Devils",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 3.0
+   },
    "tags": [
     "value"
    ]
@@ -3496,7 +4072,7 @@
    "game_id": "401921728",
    "game_id_source": "espn",
    "start_time": "2026-11-14T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UNLV Rebels",
     "abbr": "UNLV",
@@ -3555,7 +4131,19 @@
     "side": "home",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 76,
+    "away_score": 68,
+    "margin_home": 8,
+    "total": 144,
+    "winner": "UNLV Rebels",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -3568,7 +4156,7 @@
    "game_id": "401917526",
    "game_id_source": "espn",
    "start_time": "2026-11-14T02:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "San Diego Toreros",
     "abbr": "USD",
@@ -3627,7 +4215,19 @@
     "side": "home",
     "cover_line": 13.5
    },
-   "result": null,
+   "result": {
+    "home_score": 87,
+    "away_score": 67,
+    "margin_home": 20,
+    "total": 154,
+    "winner": "San Diego Toreros",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 3.0
+   },
    "tags": []
   },
   {
@@ -3640,7 +4240,7 @@
    "game_id": "401925739",
    "game_id_source": "espn",
    "start_time": "2026-11-14T02:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Oregon State Beavers",
     "abbr": "ORST",
@@ -3693,7 +4293,19 @@
     "side": "away",
     "cover_line": 33.5
    },
-   "result": null,
+   "result": {
+    "home_score": 81,
+    "away_score": 65,
+    "margin_home": 16,
+    "total": 146,
+    "winner": "Oregon State Beavers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "value"
    ]
@@ -3708,7 +4320,7 @@
    "game_id": "401917525",
    "game_id_source": "espn",
    "start_time": "2026-11-14T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
@@ -3767,7 +4379,19 @@
     "side": "home",
     "cover_line": 5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 61,
+    "margin_home": 23,
+    "total": 145,
+    "winner": "Saint Mary's Gaels",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -3783,7 +4407,7 @@
    "game_id": "401917527",
    "game_id_source": "espn",
    "start_time": "2026-11-14T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Portland Pilots",
     "abbr": "PORT",
@@ -3842,7 +4466,19 @@
     "side": "home",
     "cover_line": 7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 88,
+    "away_score": 94,
+    "margin_home": -6,
+    "total": 182,
+    "winner": "East Texas A&M Lions",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -3855,7 +4491,7 @@
    "game_id": "401920372",
    "game_id_source": "espn",
    "start_time": "2026-11-14T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Utah State Aggies",
     "abbr": "USU",
@@ -3914,7 +4550,19 @@
     "side": "away",
     "cover_line": 13.5
    },
-   "result": null,
+   "result": {
+    "home_score": 120,
+    "away_score": 82,
+    "margin_home": 38,
+    "total": 202,
+    "winner": "Utah State Aggies",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -3927,7 +4575,7 @@
    "game_id": "401920345",
    "game_id_source": "espn",
    "start_time": "2026-11-14T03:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "California Baptist Lancers",
     "abbr": "CBU",
@@ -3986,7 +4634,19 @@
     "side": "away",
     "cover_line": 17.5
    },
-   "result": null,
+   "result": {
+    "home_score": 74,
+    "away_score": 60,
+    "margin_home": 14,
+    "total": 134,
+    "winner": "California Baptist Lancers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": []
   }
  ]
