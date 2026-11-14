@@ -25,10 +25,13 @@ Usage:
     python3 cbb_model.py --output console        # readable output, writes nothing
     python3 cbb_model.py --debug                 # show team matching
     python3 cbb_model.py --check-teams           # audit ESPN <-> Barttorvik names
+    python3 cbb_model.py --early                 # tomorrow's slate as a preview -> picks/early_<date>.json
+    python3 cbb_model.py --snapshot-lines --early  # closing lines for today, then the preview, one odds request
 """
 
 import argparse
 import csv
+import glob
 import io
 import json
 import math
@@ -315,8 +318,20 @@ def _espn_odds(comp):
     }
 
 
+_odds_memo = None
+
+
 def fetch_market_odds():
-    """The Odds API spreads/totals; empty list if no key or the call fails."""
+    """The Odds API spreads/totals; empty list if no key or the call fails.
+    One response lists every upcoming game, so a process that snapshots today and prices
+    tomorrow asks once."""
+    global _odds_memo
+    if _odds_memo is None:
+        _odds_memo = _fetch_market_odds()
+    return _odds_memo
+
+
+def _fetch_market_odds():
     if not ODDS_API_KEY:
         print("       [WARN] ODDS_API_KEY not set — using ESPN lines only")
         return []
@@ -653,6 +668,44 @@ def preserve_pick_time_lines(predictions, date_str):
     return kept
 
 
+def early_path(date_str):
+    return os.path.join(OUTPUT_DIR, f"early_{date_str}.json")
+
+
+def early_target(today):
+    """
+    The day a preview is for: the one after the newest published slate, never before today.
+    Not simply "tomorrow": a snapshot slot that GitHub starts after midnight Eastern would
+    otherwise skip the day that has just begun and has no morning run yet.
+    """
+    latest = os.path.join(OUTPUT_DIR, "latest.json")
+    published = None
+    if os.path.exists(latest):
+        with open(latest) as f:
+            published = json.load(f).get("date")
+    if not published:
+        return today
+    after = datetime.strptime(published, "%Y%m%d").replace(tzinfo=EASTERN) + timedelta(days=1)
+    return max(after, today.replace(hour=0, minute=0, second=0, microsecond=0))
+
+
+def write_early(output, date_str):
+    """
+    Write early_<date>.json: a preview of a later day's slate, priced before that day's
+    morning run. It is not the pick of record. The morning run writes picks_<date>.json
+    from that morning's ratings and line, and that file alone is graded and measured for
+    closing-line value. Nothing reads an early file except export_feed.py.
+    """
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    output["early"] = True
+    for old in glob.glob(os.path.join(OUTPUT_DIR, "early_*.json")):
+        if os.path.basename(old) < f"early_{date_str}.json":
+            os.remove(old)
+    with open(early_path(date_str), "w") as f:
+        json.dump(output, f, indent=2)
+    print(f"[OK] wrote {os.path.relpath(early_path(date_str), BASE_DIR)}")
+
+
 def write_output(output, date_str):
     """Write picks_<date>.json; also refresh latest.json copies unless they hold a later date."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -733,19 +786,42 @@ def main():
     ap.add_argument("--check-teams", action="store_true", help="audit ESPN vs Barttorvik team names and exit")
     ap.add_argument("--snapshot-lines", action="store_true",
                     help="record the current market line on the day's picks (closing line) and exit")
+    ap.add_argument("--early", action="store_true",
+                    help="price the next unpublished day as a preview (normally tomorrow) into picks/early_<date>.json; "
+                         "with --snapshot-lines, do both on one Odds API request")
     ap.add_argument("--refresh-ratings", action="store_true",
                     help="download the season's Barttorvik ratings into data/ and exit (non-zero on failure)")
     args = ap.parse_args()
 
-    target = datetime.strptime(args.date, "%Y-%m-%d").replace(tzinfo=EASTERN) if args.date else datetime.now(EASTERN)
+    today = datetime.now(EASTERN)
+    if args.snapshot_lines:
+        snapshot_closing_lines((today if args.early or not args.date
+                                else datetime.strptime(args.date, "%Y-%m-%d")).strftime("%Y%m%d"))
+        if not args.early:
+            return
+        # The snapshot is the part of this run the record depends on. A preview that
+        # cannot be priced (ratings cache too old, ESPN down) must not fail the job
+        # and take the snapshot's commit with it.
+        try:
+            price(args, today)
+        except (SystemExit, Exception) as e:
+            print(f"[WARN] early slate skipped: {e}")
+        return
+    price(args, today)
+
+
+def price(args, today):
+    if args.date:
+        target = datetime.strptime(args.date, "%Y-%m-%d").replace(tzinfo=EASTERN)
+    else:
+        target = early_target(today) if args.early else today
     date_str = target.strftime("%Y%m%d")
     season = season_for(target)
+    if args.early and os.path.exists(os.path.join(OUTPUT_DIR, f"picks_{date_str}.json")):
+        print(f"[INFO] picks_{date_str}.json already published; no early slate needed")
+        return
 
     print(f"\n{'=' * 60}\n  CBB Model v{MODEL_VERSION}  |  {target:%B %d, %Y}  |  season {season}\n{'=' * 60}\n")
-
-    if args.snapshot_lines:
-        snapshot_closing_lines(date_str)
-        return
 
     if args.refresh_ratings:
         rows = TeamRatings(season)._fetch_live()
@@ -783,13 +859,15 @@ def main():
         for s in model.skipped:
             print(f"  [SKIP] {s}")
 
-    if args.output == "json":
+    if args.output == "json" and not args.early:
         kept = preserve_pick_time_lines(predictions, date_str)
         if kept:
             print(f"       kept pick-time lines from the earlier run for {kept} games")
     output = build_output(predictions, date_str, ratings)
     if args.output == "console":
         print_console(predictions)
+    elif args.early:
+        write_early(output, date_str)
     else:
         write_output(output, date_str)
     s = output["summary"]

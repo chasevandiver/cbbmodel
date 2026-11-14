@@ -7,6 +7,7 @@ Grades the model's picks against ESPN final scores, matched by ESPN game id.
 Usage:
     python3 results_tracker.py                    # grade yesterday (Eastern)
     python3 results_tracker.py --date 2026-11-04  # grade a specific date
+    python3 results_tracker.py --live             # grade today's and yesterday's finals so far
     python3 results_tracker.py --rebuild          # regrade every picks/picks_*.json from scratch
 
 Output:
@@ -315,6 +316,9 @@ def grade_date(date_str, games):
 def main():
     ap = argparse.ArgumentParser(description="CBB Results Tracker")
     ap.add_argument("--date", help="Eastern date to grade (YYYY-MM-DD), default yesterday")
+    ap.add_argument("--live", action="store_true",
+                    help="grade whatever has gone final so far today and yesterday (Eastern); safe to run all "
+                         "day, a game is graded once and a game still in progress is left pending")
     ap.add_argument("--rebuild", action="store_true",
                     help="regrade every picks file from scratch (refetches scores; loses lines for any pick file "
                          "that was regenerated after the fact)")
@@ -339,6 +343,14 @@ def main():
             print(f"--- {d}")
             grade_date(d, results["games"])
             time.sleep(0.5)
+    elif args.live:
+        # Yesterday too: a late tip finishes after midnight Eastern, when "today" has moved on.
+        results = load_results()
+        now = datetime.now(EASTERN)
+        graded = sum(grade_date((now - timedelta(days=back)).strftime("%Y%m%d"), results["games"])
+                     for back in (1, 0))
+        if not graded:
+            return      # nothing new: leave results.json and its timestamp alone
     else:
         results = load_results()
         if args.date:
