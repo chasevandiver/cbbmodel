@@ -7,7 +7,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T17:11:00.448841-05:00",
+ "generated_at": "2026-11-14T17:43:52.084559-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "files": {
@@ -26,8 +26,8 @@
    "label": "2026-27",
    "file": "season-2027.json",
    "records": 456,
-   "final": 412,
-   "pending": 44,
+   "final": 413,
+   "pending": 43,
    "no_result": 0
   },
   {
@@ -43,10 +43,10 @@
  "slate": {
   "date": "2026-11-14",
   "total_games": 60,
-  "pending": 44
+  "pending": 43
  },
  "summary": {
-  "total_graded": 412,
+  "total_graded": 413,
   "ats_graded": 365,
   "ats": {
    "w": 213,
@@ -56,16 +56,16 @@
   },
   "su": {
    "correct": 329,
-   "total": 412,
-   "pct": 79.9
+   "total": 413,
+   "pct": 79.7
   },
   "ou": {
    "over": 187,
-   "under": 225,
+   "under": 226,
    "push": 0,
-   "model_correct": 210,
-   "model_gradeable": 412,
-   "model_pct": 51.0
+   "model_correct": 211,
+   "model_gradeable": 413,
+   "model_pct": 51.1
   },
   "by_confidence": {
    "high": {
@@ -106,11 +106,11 @@
    "beat_or_matched_pct": 76.0
   },
   "calibration": {
-   "n": 412,
-   "model_mae": 9.41,
-   "market_mae": 9.06,
-   "intercept": -1.07,
-   "model_weight": 0.214,
+   "n": 413,
+   "model_mae": 9.42,
+   "market_mae": 9.07,
+   "intercept": -1.13,
+   "model_weight": 0.217,
    "market_weight": 0.842,
    "ats_by_edge": {
     "0-2": {
@@ -137,7 +137,7 @@
   }
  },
  "all_time": {
-  "total_graded": 1130,
+  "total_graded": 1131,
   "ats_graded": 971,
   "ats": {
    "w": 521,
@@ -147,16 +147,16 @@
   },
   "su": {
    "correct": 797,
-   "total": 1130,
+   "total": 1131,
    "pct": 70.5
   },
   "ou": {
    "over": 537,
-   "under": 583,
+   "under": 584,
    "push": 0,
-   "model_correct": 567,
-   "model_gradeable": 1120,
-   "model_pct": 50.6
+   "model_correct": 568,
+   "model_gradeable": 1121,
+   "model_pct": 50.7
   },
   "by_confidence": {
    "high": {
@@ -197,10 +197,10 @@
    "beat_or_matched_pct": 76.0
   },
   "calibration": {
-   "n": 1120,
+   "n": 1121,
    "model_mae": 10.34,
-   "market_mae": 8.97,
-   "intercept": 0.08,
+   "market_mae": 8.98,
+   "intercept": 0.06,
    "model_weight": -0.003,
    "market_weight": 0.979,
    "ats_by_edge": {

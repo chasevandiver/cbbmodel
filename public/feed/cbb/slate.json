@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T17:11:00.448841-05:00",
+ "generated_at": "2026-11-14T17:43:52.084559-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-14",
@@ -1347,7 +1347,7 @@
    "game_id": "401911016",
    "game_id_source": "espn",
    "start_time": "2026-11-14T20:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
@@ -1406,7 +1406,19 @@
     "side": "none",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 57,
+    "away_score": 68,
+    "margin_home": -11,
+    "total": 125,
+    "winner": "Central Michigan Chippewas",
+    "su_correct": false,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
