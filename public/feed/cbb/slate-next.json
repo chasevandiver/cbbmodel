@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T15:12:05.463229-05:00",
+ "generated_at": "2026-11-14T17:11:00.448841-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-15",
@@ -612,29 +612,37 @@
     "home_score": 90.0,
     "away_score": 68.3,
     "home_win_prob": 97.6,
-    "confidence": 33.0,
+    "confidence": 67.0,
     "tempo": 72.6,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Michigan Wolverines",
      "abbr": "MICH",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -29.5,
+    "total": 165.5,
+    "favorite": "Michigan Wolverines",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -7.8,
+    "total": -7.2,
+    "value_rating": 7.8,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 29.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value"
+   ]
   },
   {
    "id": "cbb:401920065",
@@ -863,7 +871,7 @@
    },
    "market": {
     "spread_home": -3.5,
-    "total": 144.5,
+    "total": 143.5,
     "favorite": "Utah Utes",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -871,7 +879,7 @@
    "closing": null,
    "edge": {
     "spread": -1.5,
-    "total": 3.3,
+    "total": 4.3,
     "value_rating": 1.5,
     "is_best_bet": false
    },
@@ -1180,7 +1188,7 @@
     "home_score": 75.3,
     "away_score": 74.3,
     "home_win_prob": 53.6,
-    "confidence": 67.0,
+    "confidence": 63.0,
     "tempo": 68.7,
     "confidence_tier": "medium",
     "pick": {
@@ -1190,7 +1198,7 @@
     }
    },
    "market": {
-    "spread_home": -4.5,
+    "spread_home": -3.5,
     "total": 145.5,
     "favorite": "Iowa Hawkeyes",
     "bookmaker": "fanduel",
@@ -1198,19 +1206,17 @@
    },
    "closing": null,
    "edge": {
-    "spread": -3.5,
+    "spread": -2.5,
     "total": 4.0,
-    "value_rating": 3.5,
-    "is_best_bet": true
+    "value_rating": 2.5,
+    "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 4.5
+    "cover_line": 3.5
    },
    "result": null,
    "tags": [
-    "best_bet",
-    "value",
     "tournament"
    ]
   },
@@ -1250,7 +1256,7 @@
     "home_score": 82.0,
     "away_score": 75.2,
     "home_win_prob": 73.2,
-    "confidence": 43.0,
+    "confidence": 54.3,
     "tempo": 71.9,
     "confidence_tier": "medium",
     "pick": {
@@ -1259,17 +1265,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -6.5,
+    "total": 164.5,
+    "favorite": "Saint Louis Billikens",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 0.3,
+    "total": -7.3,
+    "value_rating": 0.3,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": null
+    "cover_line": 6.5
    },
    "result": null,
    "tags": []
@@ -2038,7 +2050,7 @@
     "home_score": 81.8,
     "away_score": 71.3,
     "home_win_prob": 82.9,
-    "confidence": 52.2,
+    "confidence": 56.2,
     "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
@@ -2048,7 +2060,7 @@
     }
    },
    "market": {
-    "spread_home": -11.5,
+    "spread_home": -12.5,
     "total": 149.5,
     "favorite": "St. John's Red Storm",
     "bookmaker": "fanduel",
@@ -2056,14 +2068,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.1,
+    "spread": -2.1,
     "total": 3.6,
-    "value_rating": 1.1,
+    "value_rating": 2.1,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 11.5
+    "cover_line": 12.5
    },
    "result": null,
    "tags": []
@@ -2164,29 +2176,37 @@
     "home_score": 83.8,
     "away_score": 64.6,
     "home_win_prob": 96.0,
-    "confidence": 33.0,
+    "confidence": 47.0,
     "tempo": 70.5,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Wisconsin Badgers",
      "abbr": "WIS",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -29.5,
+    "total": 147.5,
+    "favorite": "Wisconsin Badgers",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -10.3,
+    "total": 1.0,
+    "value_rating": 10.3,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 29.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value"
+   ]
   },
   {
    "id": "cbb:401929200",
