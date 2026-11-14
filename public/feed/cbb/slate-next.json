@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T17:43:52.084559-05:00",
+ "generated_at": "2026-11-14T18:44:26.813230-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-15",
@@ -118,7 +118,7 @@
     "home_score": 71.4,
     "away_score": 70.9,
     "home_win_prob": 51.6,
-    "confidence": 43.0,
+    "confidence": 57.2,
     "tempo": 67.8,
     "confidence_tier": "medium",
     "pick": {
@@ -127,17 +127,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -1.5,
+    "total": 130.5,
+    "favorite": "American Eagles",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -1.0,
+    "total": 11.8,
+    "value_rating": 1.0,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 1.5
    },
    "result": null,
    "tags": []
@@ -304,7 +310,7 @@
     "home_score": 75.3,
     "away_score": 74.6,
     "home_win_prob": 52.6,
-    "confidence": 43.0,
+    "confidence": 56.1,
     "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
@@ -313,17 +319,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -1.5,
+    "total": 147.5,
+    "favorite": "Delaware Blue Hens",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -0.8,
+    "total": 2.4,
+    "value_rating": 0.8,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 1.5
    },
    "result": null,
    "tags": []
@@ -364,7 +376,7 @@
     "home_score": 69.2,
     "away_score": 73.2,
     "home_win_prob": 35.6,
-    "confidence": 44.0,
+    "confidence": 55.8,
     "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
@@ -373,17 +385,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 4.5,
+    "total": 131.5,
+    "favorite": "Quinnipiac Bobcats",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 0.4,
+    "total": 10.9,
+    "value_rating": 0.4,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": null
+    "cover_line": -4.5
    },
    "result": null,
    "tags": []
@@ -424,26 +442,32 @@
     "home_score": 81.8,
     "away_score": 69.3,
     "home_win_prob": 87.3,
-    "confidence": 39.0,
+    "confidence": 53.1,
     "tempo": 70.0,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Georgia State Panthers",
      "abbr": "GAST",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -11.5,
+    "total": 148.5,
+    "favorite": "Georgia St Panthers",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 1.0,
+    "total": 2.5,
+    "value_rating": 1.0,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": 11.5
    },
    "result": null,
    "tags": []
@@ -552,29 +576,38 @@
     "home_score": 76.8,
     "away_score": 61.6,
     "home_win_prob": 91.7,
-    "confidence": 33.0,
+    "confidence": 56.0,
     "tempo": 66.1,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Boston College Eagles",
      "abbr": "BC",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -18.5,
+    "total": 133.5,
+    "favorite": "Boston College Eagles",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
-    "is_best_bet": false
+    "spread": -3.2,
+    "total": 4.9,
+    "value_rating": 3.2,
+    "is_best_bet": true
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 18.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "best_bet",
+    "value"
+   ]
   },
   {
    "id": "cbb:401918453",
@@ -820,72 +853,6 @@
    "bet": {
     "side": "none",
     "cover_line": null
-   },
-   "result": null,
-   "tags": []
-  },
-  {
-   "id": "cbb:401921760",
-   "sport": "cbb",
-   "league": "NCAAM",
-   "season": 2027,
-   "season_label": "2026-27",
-   "slate_date": "2026-11-15",
-   "game_id": "401921760",
-   "game_id_source": "espn",
-   "start_time": "2026-11-15T19:00Z",
-   "status": "pending",
-   "home": {
-    "name": "Utah Utes",
-    "abbr": "UTAH",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-    "record": "3-0",
-    "rank": null
-   },
-   "away": {
-    "name": "Washington Huskies",
-    "abbr": "WASH",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-    "record": "2-0",
-    "rank": null
-   },
-   "venue": "Jon M. Huntsman Center",
-   "neutral_site": false,
-   "conference_game": false,
-   "broadcast": "ESPN+",
-   "model": {
-    "version": "4.1.0",
-    "spread_home": -2.0,
-    "total": 147.8,
-    "home_score": 74.9,
-    "away_score": 72.9,
-    "home_win_prob": 57.1,
-    "confidence": 58.2,
-    "tempo": 69.4,
-    "confidence_tier": "medium",
-    "pick": {
-     "team": "Utah Utes",
-     "abbr": "UTAH",
-     "side": "home"
-    }
-   },
-   "market": {
-    "spread_home": -3.5,
-    "total": 143.5,
-    "favorite": "Utah Utes",
-    "bookmaker": "draftkings",
-    "captured_at": null
-   },
-   "closing": null,
-   "edge": {
-    "spread": -1.5,
-    "total": 4.3,
-    "value_rating": 1.5,
-    "is_best_bet": false
-   },
-   "bet": {
-    "side": "away",
-    "cover_line": 3.5
    },
    "result": null,
    "tags": []
@@ -1628,26 +1595,32 @@
     "home_score": 80.2,
     "away_score": 69.4,
     "home_win_prob": 83.8,
-    "confidence": 38.0,
+    "confidence": 50.5,
     "tempo": 69.5,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "San Diego State Aztecs",
      "abbr": "SDSU",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -11.5,
+    "total": 143.5,
+    "favorite": "San Diego St Aztecs",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -0.6,
+    "total": 6.1,
+    "value_rating": 0.6,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 11.5
    },
    "result": null,
    "tags": [
@@ -1750,26 +1723,32 @@
     "home_score": 84.1,
     "away_score": 63.5,
     "home_win_prob": 96.9,
-    "confidence": 33.0,
+    "confidence": 54.6,
     "tempo": 69.2,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Penn State Nittany Lions",
      "abbr": "PSU",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -23.5,
+    "total": 142.5,
+    "favorite": "Penn State Nittany Lions",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -2.9,
+    "total": 5.1,
+    "value_rating": 2.9,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 23.5
    },
    "result": null,
    "tags": []
@@ -1870,26 +1849,32 @@
     "home_score": 88.0,
     "away_score": 71.3,
     "home_win_prob": 93.5,
-    "confidence": 33.0,
+    "confidence": 43.8,
     "tempo": 70.7,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Oregon Ducks",
      "abbr": "ORE",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -16.5,
+    "total": 156.5,
+    "favorite": "Oregon Ducks",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 0.2,
+    "total": 2.9,
+    "value_rating": 0.2,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": null
+    "cover_line": 16.5
    },
    "result": null,
    "tags": []
@@ -2364,7 +2349,7 @@
     "home_score": 86.5,
     "away_score": 79.3,
     "home_win_prob": 74.4,
-    "confidence": 43.0,
+    "confidence": 66.2,
     "tempo": 75.1,
     "confidence_tier": "medium",
     "pick": {
@@ -2373,20 +2358,29 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -10.5,
+    "total": 158.5,
+    "favorite": "San Jos\u00e9 St Spartans",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
-    "is_best_bet": false
+    "spread": -3.3,
+    "total": 7.4,
+    "value_rating": 3.3,
+    "is_best_bet": true
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 10.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "best_bet",
+    "value"
+   ]
   }
  ]
 }

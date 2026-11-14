@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T17:43:52.084559-05:00",
+ "generated_at": "2026-11-14T18:44:26.813230-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -34723,7 +34723,7 @@
    "game_id": "401921689",
    "game_id_source": "espn",
    "start_time": "2026-11-14T20:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Gonzaga Bulldogs",
     "abbr": "GONZ",
@@ -34782,7 +34782,19 @@
     "side": "home",
     "cover_line": 5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 81,
+    "margin_home": -1,
+    "total": 161,
+    "winner": "LSU Tigers",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -34798,7 +34810,7 @@
    "game_id": "401909728",
    "game_id_source": "espn",
    "start_time": "2026-11-14T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Wake Forest Demon Deacons",
     "abbr": "WAKE",
@@ -34857,7 +34869,19 @@
     "side": "away",
     "cover_line": 18.5
    },
-   "result": null,
+   "result": {
+    "home_score": 89,
+    "away_score": 51,
+    "margin_home": 38,
+    "total": 140,
+    "winner": "Wake Forest Demon Deacons",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -34873,7 +34897,7 @@
    "game_id": "401911264",
    "game_id_source": "espn",
    "start_time": "2026-11-14T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
@@ -34932,7 +34956,19 @@
     "side": "home",
     "cover_line": 15.5
    },
-   "result": null,
+   "result": {
+    "home_score": 81,
+    "away_score": 58,
+    "margin_home": 23,
+    "total": 139,
+    "winner": "St. Bonaventure Bonnies",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -35005,7 +35041,7 @@
    "game_id": "401918979",
    "game_id_source": "espn",
    "start_time": "2026-11-14T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "East Carolina Pirates",
     "abbr": "ECU",
@@ -35064,7 +35100,19 @@
     "side": "away",
     "cover_line": 16.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 48,
+    "margin_home": 24,
+    "total": 120,
+    "winner": "East Carolina Pirates",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -35081,7 +35129,7 @@
    "game_id": "401920307",
    "game_id_source": "espn",
    "start_time": "2026-11-14T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Georgia Tech Yellow Jackets",
     "abbr": "GT",
@@ -35140,7 +35188,19 @@
     "side": "away",
     "cover_line": 16.5
    },
-   "result": null,
+   "result": {
+    "home_score": 75,
+    "away_score": 74,
+    "margin_home": 1,
+    "total": 149,
+    "winner": "Georgia Tech Yellow Jackets",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -35153,7 +35213,7 @@
    "game_id": "401921221",
    "game_id_source": "espn",
    "start_time": "2026-11-14T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Navy Midshipmen",
     "abbr": "NAVY",
@@ -35212,7 +35272,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 58,
+    "away_score": 56,
+    "margin_home": 2,
+    "total": 114,
+    "winner": "Navy Midshipmen",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -35228,7 +35300,7 @@
    "game_id": "401922046",
    "game_id_source": "espn",
    "start_time": "2026-11-14T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Old Dominion Monarchs",
     "abbr": "ODU",
@@ -35287,7 +35359,19 @@
     "side": "away",
     "cover_line": 7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 74,
+    "margin_home": 6,
+    "total": 154,
+    "winner": "Old Dominion Monarchs",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -35300,7 +35384,7 @@
    "game_id": "401925889",
    "game_id_source": "espn",
    "start_time": "2026-11-14T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
@@ -35353,7 +35437,19 @@
     "side": "home",
     "cover_line": -4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 46,
+    "away_score": 71,
+    "margin_home": -25,
+    "total": 117,
+    "winner": "South Dakota State Jackrabbits",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -35371,7 +35467,7 @@
    "game_id": "401928804",
    "game_id_source": "espn",
    "start_time": "2026-11-14T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
@@ -35430,7 +35526,19 @@
     "side": "home",
     "cover_line": -11.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 85,
+    "margin_home": -13,
+    "total": 157,
+    "winner": "Toledo Rockets",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 2.0
+   },
    "tags": [
     "value",
     "high_confidence"
@@ -35446,7 +35554,7 @@
    "game_id": "401920741",
    "game_id_source": "espn",
    "start_time": "2026-11-14T21:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Campbell Fighting Camels",
     "abbr": "CAM",
@@ -35505,7 +35613,19 @@
     "side": "home",
     "cover_line": 8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 93,
+    "away_score": 77,
+    "margin_home": 16,
+    "total": 170,
+    "winner": "Campbell Fighting Camels",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -36150,7 +36270,7 @@
     "total": 158.5,
     "favorite": "Siena Saints",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -3.7,
@@ -36221,11 +36341,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": -4.5,
-    "total": 148.5,
+    "spread_home": -3.5,
+    "total": 149.5,
     "favorite": "Charleston Southern Buccaneers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -1.6,
@@ -36294,10 +36414,10 @@
    },
    "closing": {
     "spread_home": -12.5,
-    "total": 155.5,
+    "total": 156.5,
     "favorite": "Wichita St Shockers",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": 0.5,
@@ -36369,7 +36489,7 @@
     "total": 147.5,
     "favorite": "UAB Blazers",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": 1.7,
@@ -36441,7 +36561,7 @@
     "total": 157.5,
     "favorite": "Western Carolina Catamounts",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": 2.2,
@@ -36510,10 +36630,10 @@
    },
    "closing": {
     "spread_home": -11.5,
-    "total": 141.5,
+    "total": 142.5,
     "favorite": "Fairfield Stags",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -4.0,
@@ -36588,7 +36708,7 @@
     "total": 142.5,
     "favorite": "San Francisco Dons",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -3.6,
@@ -36663,7 +36783,7 @@
     "total": 144.5,
     "favorite": "Villanova Wildcats",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -2.3,
@@ -36735,7 +36855,7 @@
     "total": 139.5,
     "favorite": "UT-Arlington Mavericks",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": 0.9,
@@ -36807,7 +36927,7 @@
     "total": 141.5,
     "favorite": "Davidson Wildcats",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -1.6,
@@ -36939,7 +37059,7 @@
     "total": 146.5,
     "favorite": "Cincinnati Bearcats",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": 4.7,
@@ -37015,7 +37135,7 @@
     "total": 140.5,
     "favorite": "Duquesne Dukes",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -1.8,
@@ -37087,7 +37207,7 @@
     "total": 144.5,
     "favorite": "Towson Tigers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -0.5,
@@ -37228,7 +37348,7 @@
     "total": 163.5,
     "favorite": "Grand Canyon Antelopes",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -5.7,
@@ -37303,7 +37423,7 @@
     "total": 161.5,
     "favorite": "Sacramento St Hornets",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": 3.6,
@@ -37378,7 +37498,7 @@
     "total": 134.5,
     "favorite": "Louisiana Tech Bulldogs",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": 0.0,
@@ -37519,7 +37639,7 @@
     "total": 154.5,
     "favorite": "Belmont Bruins",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": 0.4,
@@ -37591,7 +37711,7 @@
     "total": 150.5,
     "favorite": "Montana Grizzlies",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -4.3,
@@ -37667,7 +37787,7 @@
     "total": 152.5,
     "favorite": "Nevada Wolf Pack",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": -0.5,
@@ -37739,7 +37859,7 @@
     "total": 165.5,
     "favorite": "New Mexico Lobos",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-14T17:10:45.064857-05:00"
+    "captured_at": "2026-11-14T18:44:11.518509-05:00"
    },
    "edge": {
     "spread": 2.8,
