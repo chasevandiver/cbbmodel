@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T20:24:45.631065-05:00",
+ "generated_at": "2026-11-14T21:58:35.291859-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-15",
@@ -61,7 +61,7 @@
    },
    "market": {
     "spread_home": -38.5,
-    "total": 143.5,
+    "total": 144.5,
     "favorite": "Iowa State Cyclones",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -69,7 +69,7 @@
    "closing": null,
    "edge": {
     "spread": -7.9,
-    "total": 1.6,
+    "total": 0.6,
     "value_rating": 7.9,
     "is_best_bet": false
    },
@@ -250,7 +250,7 @@
     "home_score": 73.7,
     "away_score": 69.8,
     "home_win_prob": 63.9,
-    "confidence": 59.7,
+    "confidence": 55.7,
     "tempo": 68.7,
     "confidence_tier": "medium",
     "pick": {
@@ -260,22 +260,22 @@
     }
    },
    "market": {
-    "spread_home": -2.5,
+    "spread_home": -3.5,
     "total": 143.5,
-    "favorite": "BU -2.5",
+    "favorite": "BU -3.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 1.4,
+    "spread": 0.4,
     "total": 0.0,
-    "value_rating": 1.4,
+    "value_rating": 0.4,
     "is_best_bet": false
    },
    "bet": {
-    "side": "home",
-    "cover_line": 2.5
+    "side": "none",
+    "cover_line": 3.5
    },
    "result": null,
    "tags": []
@@ -1186,7 +1186,7 @@
    },
    "market": {
     "spread_home": -3.5,
-    "total": 145.5,
+    "total": 146.5,
     "favorite": "Iowa Hawkeyes",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1194,7 +1194,7 @@
    "closing": null,
    "edge": {
     "spread": -2.5,
-    "total": 4.0,
+    "total": 3.0,
     "value_rating": 2.5,
     "is_best_bet": false
    },
@@ -1369,7 +1369,7 @@
     "home_score": 72.4,
     "away_score": 73.9,
     "home_win_prob": 44.2,
-    "confidence": 43.0,
+    "confidence": 60.6,
     "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
@@ -1378,17 +1378,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 3.5,
+    "total": 146.5,
+    "favorite": "PFW -3.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 1.9,
+    "total": -0.2,
+    "value_rating": 1.9,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": -3.5
    },
    "result": null,
    "tags": []
@@ -1632,7 +1638,7 @@
    },
    "market": {
     "spread_home": -11.5,
-    "total": 143.5,
+    "total": 144.5,
     "favorite": "San Diego St Aztecs",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -1640,7 +1646,7 @@
    "closing": null,
    "edge": {
     "spread": -0.6,
-    "total": 6.1,
+    "total": 5.1,
     "value_rating": 0.6,
     "is_best_bet": false
    },
@@ -1689,26 +1695,32 @@
     "home_score": 84.8,
     "away_score": 72.9,
     "home_win_prob": 86.0,
-    "confidence": 38.0,
+    "confidence": 49.6,
     "tempo": 74.9,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Pacific Tigers",
      "abbr": "PAC",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -11.5,
+    "total": 164.5,
+    "favorite": "Pacific Tigers",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 0.4,
+    "total": -6.7,
+    "value_rating": 0.4,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": null
+    "cover_line": 11.5
    },
    "result": null,
    "tags": []
@@ -1815,7 +1827,7 @@
     "home_score": 71.3,
     "away_score": 78.4,
     "home_win_prob": 26.1,
-    "confidence": 60.2,
+    "confidence": 56.2,
     "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
@@ -1825,7 +1837,7 @@
     }
    },
    "market": {
-    "spread_home": 5.5,
+    "spread_home": 6.5,
     "total": 141.5,
     "favorite": "Western Michigan Broncos",
     "bookmaker": "fanduel",
@@ -1833,14 +1845,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.6,
+    "spread": -0.6,
     "total": 8.2,
-    "value_rating": 1.6,
+    "value_rating": 0.6,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": -5.5
+    "cover_line": -6.5
    },
    "result": null,
    "tags": []
@@ -1881,7 +1893,7 @@
     "home_score": 88.0,
     "away_score": 71.3,
     "home_win_prob": 93.5,
-    "confidence": 43.8,
+    "confidence": 51.8,
     "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
@@ -1891,7 +1903,7 @@
     }
    },
    "market": {
-    "spread_home": -16.5,
+    "spread_home": -14.5,
     "total": 156.5,
     "favorite": "Oregon Ducks",
     "bookmaker": "fanduel",
@@ -1899,14 +1911,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.2,
+    "spread": 2.2,
     "total": 2.9,
-    "value_rating": 0.2,
+    "value_rating": 2.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": 16.5
+    "side": "home",
+    "cover_line": 14.5
    },
    "result": null,
    "tags": []
@@ -2269,7 +2281,7 @@
     "home_score": 74.1,
     "away_score": 78.6,
     "home_win_prob": 34.2,
-    "confidence": 43.0,
+    "confidence": 53.1,
     "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
@@ -2278,17 +2290,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 4.5,
+    "total": 150.5,
+    "favorite": "Texas State Bobcats",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 0.0,
+    "total": 2.2,
+    "value_rating": 0.0,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": null
+    "cover_line": -4.5
    },
    "result": null,
    "tags": []
