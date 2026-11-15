@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-15T02:29:19.336557-05:00",
+ "generated_at": "2026-11-15T04:41:51.737895-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-15",
@@ -61,7 +61,7 @@
    },
    "market": {
     "spread_home": 4.5,
-    "total": 132.5,
+    "total": 133.5,
     "favorite": "Quinnipiac Bobcats",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -69,7 +69,7 @@
    "closing": null,
    "edge": {
     "spread": 0.4,
-    "total": 9.9,
+    "total": 8.9,
     "value_rating": 0.4,
     "is_best_bet": false
    },
@@ -327,7 +327,7 @@
    },
    "market": {
     "spread_home": -2.5,
-    "total": 143.5,
+    "total": 141.5,
     "favorite": "BU -2.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -335,7 +335,7 @@
    "closing": null,
    "edge": {
     "spread": 1.4,
-    "total": 0.0,
+    "total": 2.0,
     "value_rating": 1.4,
     "is_best_bet": false
    },
@@ -1338,7 +1338,7 @@
    },
    "market": {
     "spread_home": -2.5,
-    "total": 145.5,
+    "total": 143.5,
     "favorite": "Alabama A&M Bulldogs",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -1346,7 +1346,7 @@
    "closing": null,
    "edge": {
     "spread": 1.9,
-    "total": 8.6,
+    "total": 10.6,
     "value_rating": 1.9,
     "is_best_bet": false
    },
@@ -1602,7 +1602,7 @@
    },
    "market": {
     "spread_home": -15.5,
-    "total": 138.5,
+    "total": 137.5,
     "favorite": "James Madison Dukes",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -1610,7 +1610,7 @@
    "closing": null,
    "edge": {
     "spread": -2.6,
-    "total": 6.0,
+    "total": 7.0,
     "value_rating": 2.6,
     "is_best_bet": false
    },
@@ -1725,7 +1725,7 @@
     "home_score": 84.8,
     "away_score": 72.9,
     "home_win_prob": 86.0,
-    "confidence": 49.6,
+    "confidence": 50.4,
     "tempo": 74.9,
     "confidence_tier": "medium",
     "pick": {
@@ -1735,7 +1735,7 @@
     }
    },
    "market": {
-    "spread_home": -11.5,
+    "spread_home": -12.5,
     "total": 164.5,
     "favorite": "Pacific Tigers",
     "bookmaker": "fanduel",
@@ -1743,14 +1743,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.4,
+    "spread": -0.6,
     "total": -6.7,
-    "value_rating": 0.4,
+    "value_rating": 0.6,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": 11.5
+    "side": "away",
+    "cover_line": 12.5
    },
    "result": null,
    "tags": []
@@ -2406,7 +2406,7 @@
    },
    "market": {
     "spread_home": -11.5,
-    "total": 157.5,
+    "total": 156.5,
     "favorite": "San Jos\u00e9 St Spartans",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -2414,7 +2414,7 @@
    "closing": null,
    "edge": {
     "spread": -4.3,
-    "total": 8.4,
+    "total": 9.4,
     "value_rating": 4.3,
     "is_best_bet": true
    },

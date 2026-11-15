@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:29:19.065369-05:00",
+  "generated_at": "2026-11-15T04:41:51.444951-05:00",
   "date": "20261115",
   "total_games": 36,
   "model_version": "4.1.0",
@@ -102,14 +102,14 @@
       },
       "market": {
         "spread": -11.5,
-        "over_under": 157.5,
+        "over_under": 156.5,
         "spread_holder": "San Jos\u00e9 St Spartans",
         "bookmaker": "fanduel"
       },
       "value_rating": 4.3,
       "model_vs_market": {
         "spread_edge": -4.3,
-        "total_edge": 8.4
+        "total_edge": 9.4
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -588,14 +588,14 @@
       },
       "market": {
         "spread": -2.5,
-        "over_under": 145.5,
+        "over_under": 143.5,
         "spread_holder": "Alabama A&M Bulldogs",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.9,
       "model_vs_market": {
         "spread_edge": 1.9,
-        "total_edge": 8.6
+        "total_edge": 10.6
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -750,14 +750,14 @@
       },
       "market": {
         "spread": -2.5,
-        "over_under": 143.5,
+        "over_under": 141.5,
         "spread_holder": "BU -2.5",
         "bookmaker": "espn"
       },
       "value_rating": 1.4,
       "model_vs_market": {
         "spread_edge": 1.4,
-        "total_edge": -0.0
+        "total_edge": 2.0
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -804,14 +804,14 @@
       },
       "market": {
         "spread": -15.5,
-        "over_under": 138.5,
+        "over_under": 137.5,
         "spread_holder": "James Madison Dukes",
         "bookmaker": "draftkings"
       },
       "value_rating": 2.6,
       "model_vs_market": {
         "spread_edge": -2.6,
-        "total_edge": 6.0
+        "total_edge": 7.0
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1452,14 +1452,14 @@
       },
       "market": {
         "spread": 4.5,
-        "over_under": 132.5,
+        "over_under": 133.5,
         "spread_holder": "Quinnipiac Bobcats",
         "bookmaker": "fanduel"
       },
       "value_rating": 0.4,
       "model_vs_market": {
         "spread_edge": -0.4,
-        "total_edge": 9.9
+        "total_edge": 8.9
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1927,7 +1927,7 @@
       "away_projected_score": 72.9,
       "home_win_prob": 86.0,
       "away_win_prob": 14.0,
-      "confidence": 49.6,
+      "confidence": 50.4,
       "pick": "Pacific Tigers",
       "pick_abbr": "PAC",
       "is_home_pick": true,
@@ -1937,14 +1937,14 @@
         "home_court": 2.65
       },
       "market": {
-        "spread": -11.5,
+        "spread": -12.5,
         "over_under": 164.5,
         "spread_holder": "Pacific Tigers",
         "bookmaker": "fanduel"
       },
-      "value_rating": 0.4,
+      "value_rating": 0.6,
       "model_vs_market": {
-        "spread_edge": 0.4,
+        "spread_edge": -0.6,
         "total_edge": -6.7
       },
       "is_best_bet": false,
