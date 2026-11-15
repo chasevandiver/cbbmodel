@@ -78217,31 +78217,556 @@
       "ou_result": "O",
       "model_ou_call": "U",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401918055",
+      "date": "2026-11-14T22:00Z",
+      "home_team": "California Golden Bears",
+      "away_team": "Utah Tech Trailblazers",
+      "home_abbr": "CAL",
+      "away_abbr": "UTU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-2",
+      "away_record": "1-2",
+      "home_location": "California",
+      "away_location": "Utah Tech",
+      "home_rating_team": "California",
+      "away_rating_team": "Utah Tech",
+      "home_adj_em": 7.33,
+      "away_adj_em": -12.6,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Haas Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACCNX",
+      "predicted_spread": 17.4,
+      "predicted_total": 145.5,
+      "home_projected_score": 81.5,
+      "away_projected_score": 64.0,
+      "home_win_prob": 94.4,
+      "away_win_prob": 5.6,
+      "confidence": 50.8,
+      "pick": "California Golden Bears",
+      "pick_abbr": "CAL",
+      "is_home_pick": true,
+      "projected_tempo": 71.2,
+      "factors": {
+        "efficiency_margin": 14.19,
+        "home_court": 3.25
+      },
+      "market": {
+        "spread": -15.5,
+        "over_under": 157.5,
+        "spread_holder": "California Golden Bears",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 1.9,
+      "model_vs_market": {
+        "spread_edge": 1.9,
+        "total_edge": -12.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -14.5,
+        "over_under": 159.5,
+        "spread_holder": "California Golden Bears",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-14T15:11:50.365253-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 15.5,
+      "clv": -1.0,
+      "actual_home_score": 79,
+      "actual_away_score": 73,
+      "actual_margin": 6,
+      "actual_total": 152,
+      "actual_winner": "California Golden Bears",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401920567",
+      "date": "2026-11-14T22:00Z",
+      "home_team": "Loyola Maryland Greyhounds",
+      "away_team": "Morgan State Bears",
+      "home_abbr": "L-MD",
+      "away_abbr": "MORG",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2352.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-3",
+      "away_record": "3-1",
+      "home_location": "Loyola Maryland",
+      "away_location": "Morgan State",
+      "home_rating_team": "Loyola MD",
+      "away_rating_team": "Morgan St.",
+      "home_adj_em": -18.22,
+      "away_adj_em": -16.63,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "SECU Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "MNMT",
+      "predicted_spread": -1.2,
+      "predicted_total": 152.7,
+      "home_projected_score": 75.8,
+      "away_projected_score": 76.9,
+      "home_win_prob": 45.8,
+      "away_win_prob": 54.2,
+      "confidence": 55.4,
+      "pick": "Morgan State Bears",
+      "pick_abbr": "MORG",
+      "is_home_pick": false,
+      "projected_tempo": 72.1,
+      "factors": {
+        "efficiency_margin": -1.15,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 150.5,
+        "spread_holder": "Morgan St Bears",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.3,
+      "model_vs_market": {
+        "spread_edge": -0.3,
+        "total_edge": 2.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 151.5,
+        "spread_holder": "Loyola (MD) Greyhounds",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-14T15:11:50.365253-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": -1.5,
+      "clv": null,
+      "actual_home_score": 61,
+      "actual_away_score": 63,
+      "actual_margin": -2,
+      "actual_total": 124,
+      "actual_winner": "Morgan State Bears",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401927387",
+      "date": "2026-11-14T22:00Z",
+      "home_team": "Oakland Golden Grizzlies",
+      "away_team": "Northern Iowa Panthers",
+      "home_abbr": "OAK",
+      "away_abbr": "UNI",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2473.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "0-5",
+      "away_record": "2-2",
+      "home_location": "Oakland",
+      "away_location": "Northern Iowa",
+      "home_rating_team": "Oakland",
+      "away_rating_team": "Northern Iowa",
+      "home_adj_em": -6.52,
+      "away_adj_em": 3.04,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "OU Credit Union O'rena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -4.1,
+      "predicted_total": 157.0,
+      "home_projected_score": 76.5,
+      "away_projected_score": 80.5,
+      "home_win_prob": 35.5,
+      "away_win_prob": 64.5,
+      "confidence": 76.3,
+      "pick": "Northern Iowa Panthers",
+      "pick_abbr": "UNI",
+      "is_home_pick": false,
+      "projected_tempo": 71.8,
+      "factors": {
+        "efficiency_margin": -6.86,
+        "home_court": 2.78
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 157.5,
+        "spread_holder": "Oakland Golden Grizzlies",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 5.6,
+      "model_vs_market": {
+        "spread_edge": 5.6,
+        "total_edge": -0.5
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 157.5,
+        "spread_holder": "Oakland Golden Grizzlies",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-14T15:11:50.365253-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": 0.0,
+      "actual_home_score": 80,
+      "actual_away_score": 76,
+      "actual_margin": 4,
+      "actual_total": 156,
+      "actual_winner": "Oakland Golden Grizzlies",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401909534",
+      "date": "2026-11-14T23:00Z",
+      "home_team": "Providence Friars",
+      "away_team": "Colorado Buffaloes",
+      "home_abbr": "PROV",
+      "away_abbr": "COLO",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-1",
+      "away_record": "2-1",
+      "home_location": "Providence",
+      "away_location": "Colorado",
+      "home_rating_team": "Providence",
+      "away_rating_team": "Colorado",
+      "home_adj_em": 14.76,
+      "away_adj_em": 8.71,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Amica Mutual Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "Peacock",
+      "predicted_spread": 8.0,
+      "predicted_total": 152.3,
+      "home_projected_score": 80.2,
+      "away_projected_score": 72.1,
+      "home_win_prob": 76.8,
+      "away_win_prob": 23.2,
+      "confidence": 66.8,
+      "pick": "Providence Friars",
+      "pick_abbr": "PROV",
+      "is_home_pick": true,
+      "projected_tempo": 72.4,
+      "factors": {
+        "efficiency_margin": 4.38,
+        "home_court": 3.66
+      },
+      "market": {
+        "spread": -11.5,
+        "over_under": 155.5,
+        "spread_holder": "Providence Friars",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 3.5,
+      "model_vs_market": {
+        "spread_edge": -3.5,
+        "total_edge": -3.2
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -10.5,
+        "over_under": 155.5,
+        "spread_holder": "Providence Friars",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-14T17:10:45.064857-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 11.5,
+      "clv": 1.0,
+      "actual_home_score": 67,
+      "actual_away_score": 53,
+      "actual_margin": 14,
+      "actual_total": 120,
+      "actual_winner": "Providence Friars",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401919782",
+      "date": "2026-11-14T23:00Z",
+      "home_team": "Le Moyne Dolphins",
+      "away_team": "Manhattan Jaspers",
+      "home_abbr": "LEM",
+      "away_abbr": "MAN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2330.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2363.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-2",
+      "away_record": "1-2",
+      "home_location": "Le Moyne",
+      "away_location": "Manhattan",
+      "home_rating_team": "Le Moyne",
+      "away_rating_team": "Manhattan",
+      "home_adj_em": -14.93,
+      "away_adj_em": -17.42,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Ted Grant Court",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "NEC Front Row",
+      "predicted_spread": 5.1,
+      "predicted_total": 151.0,
+      "home_projected_score": 78.1,
+      "away_projected_score": 73.0,
+      "home_win_prob": 67.9,
+      "away_win_prob": 32.1,
+      "confidence": 55.4,
+      "pick": "Le Moyne Dolphins",
+      "pick_abbr": "LEM",
+      "is_home_pick": true,
+      "projected_tempo": 71.0,
+      "factors": {
+        "efficiency_margin": 1.77,
+        "home_court": 3.34
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 148.5,
+        "spread_holder": "Le Moyne Dolphins",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.6,
+      "model_vs_market": {
+        "spread_edge": 0.6,
+        "total_edge": 2.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -2.5,
+        "over_under": 147.5,
+        "spread_holder": "Le Moyne Dolphins",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-14T17:10:45.064857-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 4.5,
+      "clv": -2.0,
+      "actual_home_score": 76,
+      "actual_away_score": 62,
+      "actual_margin": 14,
+      "actual_total": 138,
+      "actual_winner": "Le Moyne Dolphins",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401925827",
+      "date": "2026-11-14T23:00Z",
+      "home_team": "North Texas Mean Green",
+      "away_team": "South Alabama Jaguars",
+      "home_abbr": "UNT",
+      "away_abbr": "USA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-1",
+      "away_record": "2-2",
+      "home_location": "North Texas",
+      "away_location": "South Alabama",
+      "home_rating_team": "North Texas",
+      "away_rating_team": "South Alabama",
+      "home_adj_em": 5.05,
+      "away_adj_em": -5.24,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "The Super Pit",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 10.2,
+      "predicted_total": 142.3,
+      "home_projected_score": 76.3,
+      "away_projected_score": 66.1,
+      "home_win_prob": 82.2,
+      "away_win_prob": 17.8,
+      "confidence": 54.7,
+      "pick": "North Texas Mean Green",
+      "pick_abbr": "UNT",
+      "is_home_pick": true,
+      "projected_tempo": 67.6,
+      "factors": {
+        "efficiency_margin": 6.96,
+        "home_court": 3.2
+      },
+      "market": {
+        "spread": -8.5,
+        "over_under": 134.5,
+        "spread_holder": "North Texas Mean Green",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 1.7,
+      "model_vs_market": {
+        "spread_edge": 1.7,
+        "total_edge": 7.8
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -8.5,
+        "over_under": 133.5,
+        "spread_holder": "North Texas Mean Green",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-14T17:10:45.064857-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 8.5,
+      "clv": 0.0,
+      "actual_home_score": 66,
+      "actual_away_score": 65,
+      "actual_margin": 1,
+      "actual_total": 131,
+      "actual_winner": "North Texas Mean Green",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401926777",
+      "date": "2026-11-14T23:00Z",
+      "home_team": "Fresno State Bulldogs",
+      "away_team": "UC Riverside Highlanders",
+      "home_abbr": "FRES",
+      "away_abbr": "UCR",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/27.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-1",
+      "away_record": "3-0",
+      "home_location": "Fresno State",
+      "away_location": "UC Riverside",
+      "home_rating_team": "Fresno St.",
+      "away_rating_team": "UC Riverside",
+      "home_adj_em": -3.0,
+      "away_adj_em": -5.76,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Save Mart Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "YouTube",
+      "predicted_spread": 5.3,
+      "predicted_total": 149.0,
+      "home_projected_score": 77.1,
+      "away_projected_score": 71.8,
+      "home_win_prob": 68.5,
+      "away_win_prob": 31.5,
+      "confidence": 56.2,
+      "pick": "Fresno State Bulldogs",
+      "pick_abbr": "FRES",
+      "is_home_pick": true,
+      "projected_tempo": 71.2,
+      "factors": {
+        "efficiency_margin": 1.96,
+        "home_court": 3.33
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 149.5,
+        "spread_holder": "Fresno St Bulldogs",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 0.8,
+      "model_vs_market": {
+        "spread_edge": 0.8,
+        "total_edge": -0.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -3.5,
+        "over_under": 147.5,
+        "spread_holder": "Fresno St Bulldogs",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-14T17:10:45.064857-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 4.5,
+      "clv": -1.0,
+      "actual_home_score": 89,
+      "actual_away_score": 80,
+      "actual_margin": 9,
+      "actual_total": 169,
+      "actual_winner": "Fresno State Bulldogs",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 423,
-      "model_mae": 9.46,
-      "market_mae": 9.07,
-      "intercept": -1.19,
-      "model_weight": 0.189,
-      "market_weight": 0.871,
+      "n": 430,
+      "model_mae": 9.42,
+      "market_mae": 9.0,
+      "intercept": -1.12,
+      "model_weight": 0.165,
+      "market_weight": 0.888,
       "ats_by_edge": {
         "0-2": {
-          "w": 82,
-          "l": 41,
-          "pct": 66.7
+          "w": 84,
+          "l": 43,
+          "pct": 66.1
         },
         "2-4": {
           "w": 67,
-          "l": 53,
-          "pct": 55.8
+          "l": 54,
+          "pct": 55.4
         },
         "4-7": {
           "w": 48,
-          "l": 44,
-          "pct": 52.2
+          "l": 45,
+          "pct": 51.6
         },
         "7+": {
           "w": 20,
@@ -78251,61 +78776,61 @@
       }
     },
     "clv": {
-      "n": 292,
-      "avg": 0.1,
-      "beat_close_pct": 32.2,
-      "beat_or_matched_pct": 76.4
+      "n": 298,
+      "avg": 0.09,
+      "beat_close_pct": 31.9,
+      "beat_or_matched_pct": 75.8
     },
     "clv_by_confidence": {
       "high": {
-        "n": 18,
-        "avg": 0.06,
-        "beat_close_pct": 27.8,
-        "beat_or_matched_pct": 83.3
+        "n": 19,
+        "avg": 0.05,
+        "beat_close_pct": 26.3,
+        "beat_or_matched_pct": 84.2
       },
       "medium": {
-        "n": 274,
-        "avg": 0.1,
-        "beat_close_pct": 32.5,
-        "beat_or_matched_pct": 75.9
+        "n": 279,
+        "avg": 0.09,
+        "beat_close_pct": 32.3,
+        "beat_or_matched_pct": 75.3
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 423,
-    "ats_graded": 375,
+    "total_graded": 430,
+    "ats_graded": 381,
     "ats": {
-      "w": 217,
-      "l": 158,
+      "w": 219,
+      "l": 162,
       "p": 0,
-      "pct": 57.9
+      "pct": 57.5
     },
     "su": {
-      "correct": 336,
-      "total": 423,
-      "pct": 79.4
+      "correct": 342,
+      "total": 430,
+      "pct": 79.5
     },
     "ou": {
-      "over": 190,
-      "under": 233,
+      "over": 191,
+      "under": 239,
       "push": 0,
-      "model_correct": 216,
-      "model_gradeable": 423,
-      "model_pct": 51.1
+      "model_correct": 219,
+      "model_gradeable": 430,
+      "model_pct": 50.9
     },
     "by_confidence": {
       "high": {
         "w": 11,
-        "l": 14,
+        "l": 15,
         "p": 0,
-        "pct": 44.0
+        "pct": 42.3
       },
       "medium": {
-        "w": 206,
-        "l": 144,
+        "w": 208,
+        "l": 147,
         "p": 0,
-        "pct": 58.9
+        "pct": 58.6
       },
       "low": {
         "w": 0,
@@ -78316,41 +78841,41 @@
     },
     "value_plays": {
       "w": 89,
-      "l": 85,
+      "l": 87,
       "p": 0,
-      "pct": 51.1
+      "pct": 50.6
     },
     "best_bets": {
       "w": 51,
-      "l": 54,
+      "l": 56,
       "p": 0,
-      "pct": 48.6
+      "pct": 47.7
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1131,
-        "model_mae": 10.35,
-        "market_mae": 8.98,
-        "intercept": 0.03,
-        "model_weight": -0.004,
+        "n": 1138,
+        "model_mae": 10.33,
+        "market_mae": 8.95,
+        "intercept": 0.04,
+        "model_weight": -0.005,
         "market_weight": 0.984,
         "ats_by_edge": {
           "0-2": {
-            "w": 196,
-            "l": 163,
-            "pct": 54.6
+            "w": 198,
+            "l": 165,
+            "pct": 54.5
           },
           "2-4": {
             "w": 162,
-            "l": 133,
-            "pct": 54.9
+            "l": 134,
+            "pct": 54.7
           },
           "4-7": {
             "w": 86,
-            "l": 78,
-            "pct": 52.4
+            "l": 79,
+            "pct": 52.1
           },
           "7+": {
             "w": 81,
@@ -78360,61 +78885,61 @@
         }
       },
       "clv": {
-        "n": 292,
-        "avg": 0.1,
-        "beat_close_pct": 32.2,
-        "beat_or_matched_pct": 76.4
+        "n": 298,
+        "avg": 0.09,
+        "beat_close_pct": 31.9,
+        "beat_or_matched_pct": 75.8
       },
       "clv_by_confidence": {
         "high": {
-          "n": 18,
-          "avg": 0.06,
-          "beat_close_pct": 27.8,
-          "beat_or_matched_pct": 83.3
+          "n": 19,
+          "avg": 0.05,
+          "beat_close_pct": 26.3,
+          "beat_or_matched_pct": 84.2
         },
         "medium": {
-          "n": 274,
-          "avg": 0.1,
-          "beat_close_pct": 32.5,
-          "beat_or_matched_pct": 75.9
+          "n": 279,
+          "avg": 0.09,
+          "beat_close_pct": 32.3,
+          "beat_or_matched_pct": 75.3
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1141,
-      "ats_graded": 981,
+      "total_graded": 1148,
+      "ats_graded": 987,
       "ats": {
-        "w": 525,
-        "l": 456,
+        "w": 527,
+        "l": 460,
         "p": 0,
-        "pct": 53.5
+        "pct": 53.4
       },
       "su": {
-        "correct": 804,
-        "total": 1141,
-        "pct": 70.5
+        "correct": 810,
+        "total": 1148,
+        "pct": 70.6
       },
       "ou": {
-        "over": 540,
-        "under": 591,
+        "over": 541,
+        "under": 597,
         "push": 0,
-        "model_correct": 573,
-        "model_gradeable": 1131,
-        "model_pct": 50.7
+        "model_correct": 576,
+        "model_gradeable": 1138,
+        "model_pct": 50.6
       },
       "by_confidence": {
         "high": {
           "w": 111,
-          "l": 119,
+          "l": 120,
           "p": 0,
-          "pct": 48.3
+          "pct": 48.1
         },
         "medium": {
-          "w": 373,
-          "l": 290,
+          "w": 375,
+          "l": 293,
           "p": 0,
-          "pct": 56.3
+          "pct": 56.1
         },
         "low": {
           "w": 41,
@@ -78425,17 +78950,17 @@
       },
       "value_plays": {
         "w": 234,
-        "l": 215,
+        "l": 217,
         "p": 0,
-        "pct": 52.1
+        "pct": 51.9
       },
       "best_bets": {
         "w": 88,
-        "l": 85,
+        "l": 87,
         "p": 0,
-        "pct": 50.9
+        "pct": 50.3
       }
     }
   },
-  "generated_at": "2026-11-14T18:44:26.673166-05:00"
+  "generated_at": "2026-11-14T20:24:45.494620-05:00"
 }

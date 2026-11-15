@@ -362,7 +362,7 @@
         "over_under": 150.5,
         "spread_holder": "Montana Grizzlies",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-14T18:44:11.518509-05:00"
+        "captured_at": "2026-11-14T20:24:30.489178-05:00"
       }
     },
     {
@@ -1235,7 +1235,7 @@
         "over_under": 165.5,
         "spread_holder": "New Mexico Lobos",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-14T18:44:11.518509-05:00"
+        "captured_at": "2026-11-14T20:24:30.489178-05:00"
       }
     },
     {
@@ -2701,10 +2701,10 @@
       "is_tournament_game": false,
       "closing_line": {
         "spread": -2.5,
-        "over_under": 154.5,
+        "over_under": 155.5,
         "spread_holder": "Belmont Bruins",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-14T18:44:11.518509-05:00"
+        "captured_at": "2026-11-14T20:24:30.489178-05:00"
       }
     },
     {
@@ -2877,10 +2877,10 @@
       "is_tournament_game": false,
       "closing_line": {
         "spread": -9.5,
-        "over_under": 152.5,
+        "over_under": 151.5,
         "spread_holder": "Nevada Wolf Pack",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-14T18:44:11.518509-05:00"
+        "captured_at": "2026-11-14T20:24:30.489178-05:00"
       }
     },
     {

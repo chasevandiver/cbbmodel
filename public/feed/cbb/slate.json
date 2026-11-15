@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T18:44:26.813230-05:00",
+ "generated_at": "2026-11-14T20:24:45.631065-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-14",
@@ -2346,7 +2346,7 @@
    "game_id": "401918055",
    "game_id_source": "espn",
    "start_time": "2026-11-14T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "California Golden Bears",
     "abbr": "CAL",
@@ -2405,7 +2405,19 @@
     "side": "home",
     "cover_line": 15.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 73,
+    "margin_home": 6,
+    "total": 152,
+    "winner": "California Golden Bears",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -2418,7 +2430,7 @@
    "game_id": "401920567",
    "game_id_source": "espn",
    "start_time": "2026-11-14T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Loyola Maryland Greyhounds",
     "abbr": "L-MD",
@@ -2477,7 +2489,19 @@
     "side": "none",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 61,
+    "away_score": 63,
+    "margin_home": -2,
+    "total": 124,
+    "winner": "Morgan State Bears",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -2492,7 +2516,7 @@
    "game_id": "401927387",
    "game_id_source": "espn",
    "start_time": "2026-11-14T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Oakland Golden Grizzlies",
     "abbr": "OAK",
@@ -2551,7 +2575,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 76,
+    "margin_home": 4,
+    "total": 156,
+    "winner": "Oakland Golden Grizzlies",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -2568,7 +2604,7 @@
    "game_id": "401909534",
    "game_id_source": "espn",
    "start_time": "2026-11-14T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Providence Friars",
     "abbr": "PROV",
@@ -2627,7 +2663,19 @@
     "side": "away",
     "cover_line": 11.5
    },
-   "result": null,
+   "result": {
+    "home_score": 67,
+    "away_score": 53,
+    "margin_home": 14,
+    "total": 120,
+    "winner": "Providence Friars",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -2643,7 +2691,7 @@
    "game_id": "401919782",
    "game_id_source": "espn",
    "start_time": "2026-11-14T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Le Moyne Dolphins",
     "abbr": "LEM",
@@ -2702,7 +2750,19 @@
     "side": "home",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 76,
+    "away_score": 62,
+    "margin_home": 14,
+    "total": 138,
+    "winner": "Le Moyne Dolphins",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -2.0
+   },
    "tags": []
   },
   {
@@ -2715,7 +2775,7 @@
    "game_id": "401925827",
    "game_id_source": "espn",
    "start_time": "2026-11-14T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "North Texas Mean Green",
     "abbr": "UNT",
@@ -2774,7 +2834,19 @@
     "side": "home",
     "cover_line": 8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 66,
+    "away_score": 65,
+    "margin_home": 1,
+    "total": 131,
+    "winner": "North Texas Mean Green",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -2787,7 +2859,7 @@
    "game_id": "401926777",
    "game_id_source": "espn",
    "start_time": "2026-11-14T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Fresno State Bulldogs",
     "abbr": "FRES",
@@ -2846,7 +2918,19 @@
     "side": "home",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 89,
+    "away_score": 80,
+    "margin_home": 9,
+    "total": 169,
+    "winner": "Fresno State Bulldogs",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -4344,10 +4428,10 @@
    },
    "closing": {
     "spread_home": -2.5,
-    "total": 154.5,
+    "total": 155.5,
     "favorite": "Belmont Bruins",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T18:44:11.518509-05:00"
+    "captured_at": "2026-11-14T20:24:30.489178-05:00"
    },
    "edge": {
     "spread": 0.4,
@@ -4419,7 +4503,7 @@
     "total": 150.5,
     "favorite": "Montana Grizzlies",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T18:44:11.518509-05:00"
+    "captured_at": "2026-11-14T20:24:30.489178-05:00"
    },
    "edge": {
     "spread": -4.3,
@@ -4492,10 +4576,10 @@
    },
    "closing": {
     "spread_home": -9.5,
-    "total": 152.5,
+    "total": 151.5,
     "favorite": "Nevada Wolf Pack",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-14T18:44:11.518509-05:00"
+    "captured_at": "2026-11-14T20:24:30.489178-05:00"
    },
    "edge": {
     "spread": -0.5,
@@ -4567,7 +4651,7 @@
     "total": 165.5,
     "favorite": "New Mexico Lobos",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-14T18:44:11.518509-05:00"
+    "captured_at": "2026-11-14T20:24:30.489178-05:00"
    },
    "edge": {
     "spread": 2.8,
