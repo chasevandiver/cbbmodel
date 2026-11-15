@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-15T06:41:29.565898-05:00",
+ "generated_at": "2026-11-15T12:41:04.581721-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -33315,7 +33315,7 @@
    "game_id": "401924720",
    "game_id_source": "espn",
    "start_time": "2026-11-14T16:00Z",
-   "status": "pending",
+   "status": "no_result",
    "home": {
     "name": "Cornell Big Red",
     "abbr": "COR",

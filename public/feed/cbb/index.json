@@ -7,7 +7,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-15T06:41:29.565898-05:00",
+ "generated_at": "2026-11-15T12:41:04.581721-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "files": {
@@ -22,8 +22,8 @@
    "file": "season-2027.json",
    "records": 492,
    "final": 453,
-   "pending": 39,
-   "no_result": 0
+   "pending": 38,
+   "no_result": 1
   },
   {
    "season": 2026,
