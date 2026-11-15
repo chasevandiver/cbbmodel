@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-15T17:40:10.076375-05:00",
+ "generated_at": "2026-11-15T18:09:09.032716-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -39901,7 +39901,7 @@
    "game_id": "401917528",
    "game_id_source": "espn",
    "start_time": "2026-11-15T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Seattle U Redhawks",
     "abbr": "SEA",
@@ -39960,7 +39960,19 @@
     "side": "away",
     "cover_line": 16.5
    },
-   "result": null,
+   "result": {
+    "home_score": 77,
+    "away_score": 70,
+    "margin_home": 7,
+    "total": 147,
+    "winner": "Seattle U Redhawks",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -39973,7 +39985,7 @@
    "game_id": "401917531",
    "game_id_source": "espn",
    "start_time": "2026-11-15T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Loyola Marymount Lions",
     "abbr": "LMU",
@@ -40032,7 +40044,19 @@
     "side": "away",
     "cover_line": 17.5
    },
-   "result": null,
+   "result": {
+    "home_score": 86,
+    "away_score": 49,
+    "margin_home": 37,
+    "total": 135,
+    "winner": "Loyola Marymount Lions",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -40045,7 +40069,7 @@
    "game_id": "401919825",
    "game_id_source": "espn",
    "start_time": "2026-11-15T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "James Madison Dukes",
     "abbr": "JMU",
@@ -40104,7 +40128,19 @@
     "side": "away",
     "cover_line": 15.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 71,
+    "margin_home": 9,
+    "total": 151,
+    "winner": "James Madison Dukes",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 4.0
+   },
    "tags": []
   },
   {
@@ -40191,7 +40227,7 @@
    "game_id": "401934396",
    "game_id_source": "espn",
    "start_time": "2026-11-15T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Pacific Tigers",
     "abbr": "PAC",
@@ -40250,7 +40286,19 @@
     "side": "away",
     "cover_line": 12.5
    },
-   "result": null,
+   "result": {
+    "home_score": 93,
+    "away_score": 69,
+    "margin_home": 24,
+    "total": 162,
+    "winner": "Pacific Tigers",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": []
   },
   {
