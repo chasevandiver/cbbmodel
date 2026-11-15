@@ -79935,16 +79935,534 @@
       "ou_result": "U",
       "model_ou_call": "U",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401911520",
+      "date": "2026-11-15T01:00Z",
+      "home_team": "Sacramento State Hornets",
+      "away_team": "UC Davis Aggies",
+      "home_abbr": "SAC",
+      "away_abbr": "UCD",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-1",
+      "away_record": "2-1",
+      "home_location": "Sacramento State",
+      "away_location": "UC Davis",
+      "home_rating_team": "Sacramento St.",
+      "away_rating_team": "UC Davis",
+      "home_adj_em": 0.08,
+      "away_adj_em": -3.74,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Hornet Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 6.1,
+      "predicted_total": 154.5,
+      "home_projected_score": 80.3,
+      "away_projected_score": 74.2,
+      "home_win_prob": 71.2,
+      "away_win_prob": 28.8,
+      "confidence": 66.6,
+      "pick": "Sacramento State Hornets",
+      "pick_abbr": "SAC",
+      "is_home_pick": true,
+      "projected_tempo": 72.6,
+      "factors": {
+        "efficiency_margin": 2.77,
+        "home_court": 3.37
+      },
+      "market": {
+        "spread": -2.5,
+        "over_under": 160.5,
+        "spread_holder": "Sacramento St Hornets",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 3.6,
+      "model_vs_market": {
+        "spread_edge": 3.6,
+        "total_edge": -6.0
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -3.5,
+        "over_under": 161.5,
+        "spread_holder": "Sacramento St Hornets",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-14T18:44:11.518509-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 2.5,
+      "clv": 1.0,
+      "actual_home_score": 56,
+      "actual_away_score": 75,
+      "actual_margin": -19,
+      "actual_total": 131,
+      "actual_winner": "UC Davis Aggies",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401925063",
+      "date": "2026-11-15T01:00Z",
+      "home_team": "Nicholls Colonels",
+      "away_team": "Louisiana Tech Bulldogs",
+      "home_abbr": "NICH",
+      "away_abbr": "LT",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-2",
+      "away_record": "2-1",
+      "home_location": "Nicholls",
+      "away_location": "Louisiana Tech",
+      "home_rating_team": "Nicholls St.",
+      "away_rating_team": "Louisiana Tech",
+      "home_adj_em": -10.45,
+      "away_adj_em": -8.28,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "David R. Stopher Gymnasium",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 1.5,
+      "predicted_total": 138.2,
+      "home_projected_score": 69.8,
+      "away_projected_score": 68.3,
+      "home_win_prob": 55.4,
+      "away_win_prob": 44.6,
+      "confidence": 53.1,
+      "pick": "Nicholls Colonels",
+      "pick_abbr": "NICH",
+      "is_home_pick": true,
+      "projected_tempo": 68.4,
+      "factors": {
+        "efficiency_margin": -1.49,
+        "home_court": 2.97
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 138.5,
+        "spread_holder": "Nicholls St Colonels",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.0,
+      "model_vs_market": {
+        "spread_edge": -0.0,
+        "total_edge": -0.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 134.5,
+        "spread_holder": "Louisiana Tech Bulldogs",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-14T18:44:11.518509-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 1.5,
+      "clv": null,
+      "actual_home_score": 71,
+      "actual_away_score": 68,
+      "actual_margin": 3,
+      "actual_total": 139,
+      "actual_winner": "Nicholls Colonels",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401925079",
+      "date": "2026-11-15T01:00Z",
+      "home_team": "Little Rock Trojans",
+      "away_team": "Northwestern State Demons",
+      "home_abbr": "LR",
+      "away_abbr": "NWST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "0-3",
+      "away_record": "1-3",
+      "home_location": "Little Rock",
+      "away_location": "Northwestern State",
+      "home_rating_team": "Little Rock",
+      "away_rating_team": "Northwestern St.",
+      "home_adj_em": -7.79,
+      "away_adj_em": -11.08,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Jack Stephens Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 5.8,
+      "predicted_total": 150.4,
+      "home_projected_score": 78.1,
+      "away_projected_score": 72.3,
+      "home_win_prob": 69.9,
+      "away_win_prob": 30.1,
+      "confidence": 68.0,
+      "pick": "Little Rock Trojans",
+      "pick_abbr": "LR",
+      "is_home_pick": true,
+      "projected_tempo": 69.6,
+      "factors": {
+        "efficiency_margin": 2.29,
+        "home_court": 3.46
+      },
+      "market": {
+        "spread": -9.5,
+        "over_under": 143.5,
+        "spread_holder": "LR -9.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 3.7,
+      "model_vs_market": {
+        "spread_edge": -3.7,
+        "total_edge": 6.9
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 9.5,
+      "clv": null,
+      "actual_home_score": 84,
+      "actual_away_score": 83,
+      "actual_margin": 1,
+      "actual_total": 167,
+      "actual_winner": "Little Rock Trojans",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401920760",
+      "date": "2026-11-15T01:30Z",
+      "home_team": "Belmont Bruins",
+      "away_team": "Furman Paladins",
+      "home_abbr": "BEL",
+      "away_abbr": "FUR",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2057.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-1",
+      "away_record": "4-0",
+      "home_location": "Belmont",
+      "away_location": "Furman",
+      "home_rating_team": "Belmont",
+      "away_rating_team": "Furman",
+      "home_adj_em": 3.37,
+      "away_adj_em": 3.63,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Curb Event Center Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 2.9,
+      "predicted_total": 152.4,
+      "home_projected_score": 77.7,
+      "away_projected_score": 74.7,
+      "home_win_prob": 60.4,
+      "away_win_prob": 39.6,
+      "confidence": 54.7,
+      "pick": "Belmont Bruins",
+      "pick_abbr": "BEL",
+      "is_home_pick": true,
+      "projected_tempo": 71.1,
+      "factors": {
+        "efficiency_margin": -0.19,
+        "home_court": 3.1
+      },
+      "market": {
+        "spread": -2.5,
+        "over_under": 153.5,
+        "spread_holder": "Belmont Bruins",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 0.4,
+      "model_vs_market": {
+        "spread_edge": 0.4,
+        "total_edge": -1.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -2.5,
+        "over_under": 155.5,
+        "spread_holder": "Belmont Bruins",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-14T20:24:30.489178-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 2.5,
+      "clv": null,
+      "actual_home_score": 72,
+      "actual_away_score": 62,
+      "actual_margin": 10,
+      "actual_total": 134,
+      "actual_winner": "Belmont Bruins",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401922031",
+      "date": "2026-11-15T02:00Z",
+      "home_team": "North Dakota Fighting Hawks",
+      "away_team": "Montana Grizzlies",
+      "home_abbr": "UND",
+      "away_abbr": "MONT",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-2",
+      "away_record": "1-2",
+      "home_location": "North Dakota",
+      "away_location": "Montana",
+      "home_rating_team": "North Dakota",
+      "away_rating_team": "Montana",
+      "home_adj_em": -12.47,
+      "away_adj_em": -4.16,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Betty Engelstad Sioux Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "Summit League Network",
+      "predicted_spread": -2.8,
+      "predicted_total": 149.8,
+      "home_projected_score": 73.5,
+      "away_projected_score": 76.3,
+      "home_win_prob": 40.0,
+      "away_win_prob": 60.0,
+      "confidence": 70.1,
+      "pick": "Montana Grizzlies",
+      "pick_abbr": "MONT",
+      "is_home_pick": false,
+      "projected_tempo": 70.5,
+      "factors": {
+        "efficiency_margin": -5.87,
+        "home_court": 3.08
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 150.5,
+        "spread_holder": "North Dakota Fighting Hawks",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 4.3,
+      "model_vs_market": {
+        "spread_edge": 4.3,
+        "total_edge": -0.7
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 150.5,
+        "spread_holder": "Montana Grizzlies",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-14T20:24:30.489178-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": 3.0,
+      "actual_home_score": 71,
+      "actual_away_score": 80,
+      "actual_margin": -9,
+      "actual_total": 151,
+      "actual_winner": "Montana Grizzlies",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401911455",
+      "date": "2026-11-15T03:00Z",
+      "home_team": "Nevada Wolf Pack",
+      "away_team": "Utah Valley Wolverines",
+      "home_abbr": "NEV",
+      "away_abbr": "UVU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-1",
+      "away_record": "2-0",
+      "home_location": "Nevada",
+      "away_location": "Utah Valley",
+      "home_rating_team": "Nevada",
+      "away_rating_team": "Utah Valley",
+      "home_adj_em": 10.39,
+      "away_adj_em": 3.57,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Lawlor Events Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "MW+",
+      "predicted_spread": 9.0,
+      "predicted_total": 148.2,
+      "home_projected_score": 78.6,
+      "away_projected_score": 69.6,
+      "home_win_prob": 79.4,
+      "away_win_prob": 20.6,
+      "confidence": 53.9,
+      "pick": "Nevada Wolf Pack",
+      "pick_abbr": "NEV",
+      "is_home_pick": true,
+      "projected_tempo": 70.4,
+      "factors": {
+        "efficiency_margin": 4.79,
+        "home_court": 4.23
+      },
+      "market": {
+        "spread": -9.5,
+        "over_under": 152.5,
+        "spread_holder": "Nevada Wolf Pack",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 0.5,
+      "model_vs_market": {
+        "spread_edge": -0.5,
+        "total_edge": -4.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -9.5,
+        "over_under": 151.5,
+        "spread_holder": "Nevada Wolf Pack",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-14T21:58:19.870238-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 9.5,
+      "clv": null,
+      "actual_home_score": 71,
+      "actual_away_score": 73,
+      "actual_margin": -2,
+      "actual_total": 144,
+      "actual_winner": "Utah Valley Wolverines",
+      "model_correct_winner": false,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401917530",
+      "date": "2026-11-15T03:00Z",
+      "home_team": "Santa Clara Broncos",
+      "away_team": "New Mexico Lobos",
+      "home_abbr": "SCU",
+      "away_abbr": "UNM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-0",
+      "away_record": "3-0",
+      "home_location": "Santa Clara",
+      "away_location": "New Mexico",
+      "home_rating_team": "Santa Clara",
+      "away_rating_team": "New Mexico",
+      "home_adj_em": 10.96,
+      "away_adj_em": 13.73,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Leavey Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 1.3,
+      "predicted_total": 154.8,
+      "home_projected_score": 78.0,
+      "away_projected_score": 76.8,
+      "home_win_prob": 54.6,
+      "away_win_prob": 45.4,
+      "confidence": 64.1,
+      "pick": "Santa Clara Broncos",
+      "pick_abbr": "SCU",
+      "is_home_pick": true,
+      "projected_tempo": 72.9,
+      "factors": {
+        "efficiency_margin": -2.02,
+        "home_court": 3.29
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 166.5,
+        "spread_holder": "New Mexico Lobos",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.8,
+      "model_vs_market": {
+        "spread_edge": 2.8,
+        "total_edge": -11.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 165.5,
+        "spread_holder": "New Mexico Lobos",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-14T21:58:19.870238-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -1.5,
+      "clv": 0.0,
+      "actual_home_score": 90,
+      "actual_away_score": 85,
+      "actual_margin": 5,
+      "actual_total": 175,
+      "actual_winner": "Santa Clara Broncos",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 446,
-      "model_mae": 9.41,
-      "market_mae": 9.02,
-      "intercept": -1.16,
+      "n": 453,
+      "model_mae": 9.4,
+      "market_mae": 9.03,
+      "intercept": -1.24,
       "model_weight": 0.177,
-      "market_weight": 0.879,
+      "market_weight": 0.881,
       "ats_by_edge": {
         "0-2": {
           "w": 88,
@@ -79952,14 +80470,14 @@
           "pct": 66.2
         },
         "2-4": {
-          "w": 70,
-          "l": 56,
-          "pct": 55.6
+          "w": 72,
+          "l": 57,
+          "pct": 55.8
         },
         "4-7": {
-          "w": 49,
+          "w": 50,
           "l": 47,
-          "pct": 51.0
+          "pct": 51.5
         },
         "7+": {
           "w": 20,
@@ -79969,61 +80487,61 @@
       }
     },
     "clv": {
-      "n": 311,
-      "avg": 0.11,
-      "beat_close_pct": 32.8,
-      "beat_or_matched_pct": 76.2
+      "n": 314,
+      "avg": 0.12,
+      "beat_close_pct": 33.1,
+      "beat_or_matched_pct": 76.4
     },
     "clv_by_confidence": {
       "high": {
-        "n": 20,
-        "avg": 0.1,
-        "beat_close_pct": 30.0,
-        "beat_or_matched_pct": 85.0
+        "n": 21,
+        "avg": 0.24,
+        "beat_close_pct": 33.3,
+        "beat_or_matched_pct": 85.7
       },
       "medium": {
-        "n": 291,
+        "n": 293,
         "avg": 0.11,
-        "beat_close_pct": 33.0,
-        "beat_or_matched_pct": 75.6
+        "beat_close_pct": 33.1,
+        "beat_or_matched_pct": 75.8
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 446,
-    "ats_graded": 395,
+    "total_graded": 453,
+    "ats_graded": 399,
     "ats": {
-      "w": 227,
-      "l": 168,
+      "w": 230,
+      "l": 169,
       "p": 0,
-      "pct": 57.5
+      "pct": 57.6
     },
     "su": {
-      "correct": 354,
-      "total": 446,
-      "pct": 79.4
+      "correct": 359,
+      "total": 453,
+      "pct": 79.2
     },
     "ou": {
-      "over": 197,
-      "under": 249,
+      "over": 201,
+      "under": 252,
       "push": 0,
-      "model_correct": 229,
-      "model_gradeable": 446,
-      "model_pct": 51.3
+      "model_correct": 233,
+      "model_gradeable": 453,
+      "model_pct": 51.4
     },
     "by_confidence": {
       "high": {
-        "w": 11,
+        "w": 12,
         "l": 16,
         "p": 0,
-        "pct": 40.7
+        "pct": 42.9
       },
       "medium": {
-        "w": 216,
-        "l": 152,
+        "w": 218,
+        "l": 153,
         "p": 0,
-        "pct": 58.7
+        "pct": 58.8
       },
       "low": {
         "w": 0,
@@ -80033,25 +80551,25 @@
       }
     },
     "value_plays": {
-      "w": 93,
-      "l": 89,
+      "w": 95,
+      "l": 90,
       "p": 0,
-      "pct": 51.1
+      "pct": 51.4
     },
     "best_bets": {
-      "w": 55,
-      "l": 58,
+      "w": 57,
+      "l": 59,
       "p": 0,
-      "pct": 48.7
+      "pct": 49.1
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1154,
-        "model_mae": 10.31,
+        "n": 1161,
+        "model_mae": 10.3,
         "market_mae": 8.96,
-        "intercept": 0.02,
+        "intercept": -0.01,
         "model_weight": -0.004,
         "market_weight": 0.984,
         "ats_by_edge": {
@@ -80061,14 +80579,14 @@
             "pct": 54.7
           },
           "2-4": {
-            "w": 165,
-            "l": 136,
-            "pct": 54.8
+            "w": 167,
+            "l": 137,
+            "pct": 54.9
           },
           "4-7": {
-            "w": 87,
+            "w": 88,
             "l": 81,
-            "pct": 51.8
+            "pct": 52.1
           },
           "7+": {
             "w": 81,
@@ -80078,61 +80596,61 @@
         }
       },
       "clv": {
-        "n": 311,
-        "avg": 0.11,
-        "beat_close_pct": 32.8,
-        "beat_or_matched_pct": 76.2
+        "n": 314,
+        "avg": 0.12,
+        "beat_close_pct": 33.1,
+        "beat_or_matched_pct": 76.4
       },
       "clv_by_confidence": {
         "high": {
-          "n": 20,
-          "avg": 0.1,
-          "beat_close_pct": 30.0,
-          "beat_or_matched_pct": 85.0
+          "n": 21,
+          "avg": 0.24,
+          "beat_close_pct": 33.3,
+          "beat_or_matched_pct": 85.7
         },
         "medium": {
-          "n": 291,
+          "n": 293,
           "avg": 0.11,
-          "beat_close_pct": 33.0,
-          "beat_or_matched_pct": 75.6
+          "beat_close_pct": 33.1,
+          "beat_or_matched_pct": 75.8
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1164,
-      "ats_graded": 1001,
+      "total_graded": 1171,
+      "ats_graded": 1005,
       "ats": {
-        "w": 535,
-        "l": 466,
+        "w": 538,
+        "l": 467,
         "p": 0,
-        "pct": 53.4
+        "pct": 53.5
       },
       "su": {
-        "correct": 822,
-        "total": 1164,
+        "correct": 827,
+        "total": 1171,
         "pct": 70.6
       },
       "ou": {
-        "over": 547,
-        "under": 607,
+        "over": 551,
+        "under": 610,
         "push": 0,
-        "model_correct": 586,
-        "model_gradeable": 1154,
+        "model_correct": 590,
+        "model_gradeable": 1161,
         "model_pct": 50.8
       },
       "by_confidence": {
         "high": {
-          "w": 111,
+          "w": 112,
           "l": 121,
           "p": 0,
-          "pct": 47.8
+          "pct": 48.1
         },
         "medium": {
-          "w": 383,
-          "l": 298,
+          "w": 385,
+          "l": 299,
           "p": 0,
-          "pct": 56.2
+          "pct": 56.3
         },
         "low": {
           "w": 41,
@@ -80142,18 +80660,18 @@
         }
       },
       "value_plays": {
-        "w": 238,
-        "l": 219,
+        "w": 240,
+        "l": 220,
         "p": 0,
-        "pct": 52.1
+        "pct": 52.2
       },
       "best_bets": {
-        "w": 92,
-        "l": 89,
+        "w": 94,
+        "l": 90,
         "p": 0,
-        "pct": 50.8
+        "pct": 51.1
       }
     }
   },
-  "generated_at": "2026-11-14T22:02:31.478089-05:00"
+  "generated_at": "2026-11-15T02:08:10.557752-05:00"
 }

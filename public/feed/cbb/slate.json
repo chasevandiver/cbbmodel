@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T22:02:31.591175-05:00",
+ "generated_at": "2026-11-15T02:08:11.017472-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-14",
@@ -4360,7 +4360,7 @@
    "game_id": "401911520",
    "game_id_source": "espn",
    "start_time": "2026-11-15T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Sacramento State Hornets",
     "abbr": "SAC",
@@ -4419,7 +4419,19 @@
     "side": "home",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 56,
+    "away_score": 75,
+    "margin_home": -19,
+    "total": 131,
+    "winner": "UC Davis Aggies",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -4435,7 +4447,7 @@
    "game_id": "401925063",
    "game_id_source": "espn",
    "start_time": "2026-11-15T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Nicholls Colonels",
     "abbr": "NICH",
@@ -4494,7 +4506,19 @@
     "side": "none",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 71,
+    "away_score": 68,
+    "margin_home": 3,
+    "total": 139,
+    "winner": "Nicholls Colonels",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -4507,7 +4531,7 @@
    "game_id": "401925079",
    "game_id_source": "espn",
    "start_time": "2026-11-15T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Little Rock Trojans",
     "abbr": "LR",
@@ -4560,7 +4584,19 @@
     "side": "away",
     "cover_line": 9.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 83,
+    "margin_home": 1,
+    "total": 167,
+    "winner": "Little Rock Trojans",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -4576,7 +4612,7 @@
    "game_id": "401920760",
    "game_id_source": "espn",
    "start_time": "2026-11-15T01:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Belmont Bruins",
     "abbr": "BEL",
@@ -4635,7 +4671,19 @@
     "side": "none",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 62,
+    "margin_home": 10,
+    "total": 134,
+    "winner": "Belmont Bruins",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -4648,7 +4696,7 @@
    "game_id": "401922031",
    "game_id_source": "espn",
    "start_time": "2026-11-15T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
@@ -4707,7 +4755,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 71,
+    "away_score": 80,
+    "margin_home": -9,
+    "total": 151,
+    "winner": "Montana Grizzlies",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 3.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -4724,7 +4784,7 @@
    "game_id": "401911455",
    "game_id_source": "espn",
    "start_time": "2026-11-15T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
@@ -4783,7 +4843,19 @@
     "side": "none",
     "cover_line": 9.5
    },
-   "result": null,
+   "result": {
+    "home_score": 71,
+    "away_score": 73,
+    "margin_home": -2,
+    "total": 144,
+    "winner": "Utah Valley Wolverines",
+    "su_correct": false,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -4796,7 +4868,7 @@
    "game_id": "401917530",
    "game_id_source": "espn",
    "start_time": "2026-11-15T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
@@ -4855,7 +4927,19 @@
     "side": "home",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 90,
+    "away_score": 85,
+    "margin_home": 5,
+    "total": 175,
+    "winner": "Santa Clara Broncos",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   }
  ]
