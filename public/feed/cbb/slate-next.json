@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-15T18:09:09.032716-05:00",
+ "generated_at": "2026-11-15T18:50:39.734034-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-16",
@@ -50,29 +50,38 @@
     "home_score": 80.0,
     "away_score": 66.6,
     "home_win_prob": 88.8,
-    "confidence": 38.0,
+    "confidence": 72.0,
     "tempo": 69.9,
-    "confidence_tier": "low",
+    "confidence_tier": "high",
     "pick": {
      "team": "UTEP Miners",
      "abbr": "UTEP",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -19.5,
+    "total": 140.5,
+    "favorite": "UTEP Miners",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -6.1,
+    "total": 6.2,
+    "value_rating": 6.1,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 19.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value",
+    "high_confidence"
+   ]
   },
   {
    "id": "cbb:401916298",
@@ -189,7 +198,7 @@
    },
    "market": {
     "spread_home": 2.5,
-    "total": 148.5,
+    "total": 146.5,
     "favorite": "Iona Gaels",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -197,7 +206,7 @@
    "closing": null,
    "edge": {
     "spread": 0.8,
-    "total": -4.9,
+    "total": -2.9,
     "value_rating": 0.8,
     "is_best_bet": false
    },
@@ -244,29 +253,37 @@
     "home_score": 89.3,
     "away_score": 64.8,
     "home_win_prob": 98.7,
-    "confidence": 34.0,
+    "confidence": 68.0,
     "tempo": 71.2,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Ohio State Buckeyes",
      "abbr": "OSU",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -34.5,
+    "total": 153.5,
+    "favorite": "OSU -34.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -10.0,
+    "total": 0.7,
+    "value_rating": 10.0,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 34.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value"
+   ]
   },
   {
    "id": "cbb:401906783",
@@ -304,29 +321,38 @@
     "home_score": 86.8,
     "away_score": 68.3,
     "home_win_prob": 95.4,
-    "confidence": 33.0,
+    "confidence": 62.9,
     "tempo": 69.7,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Georgia Bulldogs",
      "abbr": "UGA",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -23.5,
+    "total": 153.5,
+    "favorite": "Georgia Bulldogs",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
-    "is_best_bet": false
+    "spread": -5.0,
+    "total": 1.6,
+    "value_rating": 5.0,
+    "is_best_bet": true
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 23.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "best_bet",
+    "value"
+   ]
   },
   {
    "id": "cbb:401911240",
@@ -441,7 +467,7 @@
    },
    "market": {
     "spread_home": -23.5,
-    "total": 146.5,
+    "total": 144.5,
     "favorite": "Clemson Tigers",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -449,7 +475,7 @@
    "closing": null,
    "edge": {
     "spread": 1.2,
-    "total": 2.7,
+    "total": 4.7,
     "value_rating": 1.2,
     "is_best_bet": false
    },
@@ -496,7 +522,7 @@
     "home_score": 72.5,
     "away_score": 74.1,
     "home_win_prob": 44.1,
-    "confidence": 45.0,
+    "confidence": 58.5,
     "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
@@ -505,17 +531,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 2.5,
+    "total": 149.5,
+    "favorite": "St. Thomas (MN) Tommies",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 0.9,
+    "total": -2.9,
+    "value_rating": 0.9,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": -2.5
    },
    "result": null,
    "tags": []
@@ -567,7 +599,7 @@
    },
    "market": {
     "spread_home": -30.5,
-    "total": 160.5,
+    "total": 159.5,
     "favorite": "Kentucky Wildcats",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -575,7 +607,7 @@
    "closing": null,
    "edge": {
     "spread": -4.8,
-    "total": -9.9,
+    "total": -8.9,
     "value_rating": 4.8,
     "is_best_bet": true
    },
@@ -625,7 +657,7 @@
     "home_score": 80.5,
     "away_score": 73.8,
     "home_win_prob": 72.7,
-    "confidence": 61.6,
+    "confidence": 57.6,
     "tempo": 71.3,
     "confidence_tier": "medium",
     "pick": {
@@ -635,7 +667,7 @@
     }
    },
    "market": {
-    "spread_home": -4.5,
+    "spread_home": -5.5,
     "total": 159.5,
     "favorite": "Tulsa Golden Hurricane",
     "bookmaker": "fanduel",
@@ -643,14 +675,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 2.1,
+    "spread": 1.1,
     "total": -5.2,
-    "value_rating": 2.1,
+    "value_rating": 1.1,
     "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": 4.5
+    "cover_line": 5.5
    },
    "result": null,
    "tags": []
@@ -1164,29 +1196,37 @@
     "home_score": 88.6,
     "away_score": 64.4,
     "home_win_prob": 98.6,
-    "confidence": 33.0,
+    "confidence": 47.0,
     "tempo": 71.5,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Texas A&M Aggies",
      "abbr": "TA&M",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -34.5,
+    "total": 158.5,
+    "favorite": "Texas A&M Aggies",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -10.3,
+    "total": -5.5,
+    "value_rating": 10.3,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 34.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value"
+   ]
   },
   {
    "id": "cbb:401929192",
@@ -1224,29 +1264,38 @@
     "home_score": 82.8,
     "away_score": 69.3,
     "home_win_prob": 89.0,
-    "confidence": 39.0,
+    "confidence": 65.1,
     "tempo": 72.6,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Oregon State Beavers",
      "abbr": "ORST",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -17.5,
+    "total": 152.5,
+    "favorite": "Oregon St Beavers",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
-    "is_best_bet": false
+    "spread": -4.0,
+    "total": -0.4,
+    "value_rating": 4.0,
+    "is_best_bet": true
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 17.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "best_bet",
+    "value"
+   ]
   },
   {
    "id": "cbb:401917532",
@@ -1284,7 +1333,7 @@
     "home_score": 83.9,
     "away_score": 67.0,
     "home_win_prob": 93.9,
-    "confidence": 46.1,
+    "confidence": 50.1,
     "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
@@ -1294,7 +1343,7 @@
     }
    },
    "market": {
-    "spread_home": -17.5,
+    "spread_home": -18.5,
     "total": 150.5,
     "favorite": "Saint Mary's Gaels",
     "bookmaker": "draftkings",
@@ -1302,14 +1351,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -0.5,
+    "spread": -1.5,
     "total": 0.4,
-    "value_rating": 0.5,
+    "value_rating": 1.5,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": 17.5
+    "side": "away",
+    "cover_line": 18.5
    },
    "result": null,
    "tags": []

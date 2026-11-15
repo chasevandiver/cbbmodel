@@ -7,7 +7,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-15T18:09:09.032716-05:00",
+ "generated_at": "2026-11-15T18:50:39.734034-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "files": {
@@ -18,7 +18,7 @@
  "next": {
   "date": "2026-11-16",
   "total_games": 22,
-  "with_line": 16
+  "with_line": 22
  },
  "seasons": [
   {
@@ -26,8 +26,8 @@
    "label": "2026-27",
    "file": "season-2027.json",
    "records": 492,
-   "final": 478,
-   "pending": 12,
+   "final": 481,
+   "pending": 9,
    "no_result": 2
   },
   {
@@ -43,29 +43,29 @@
  "slate": {
   "date": "2026-11-15",
   "total_games": 36,
-  "pending": 11
+  "pending": 8
  },
  "summary": {
-  "total_graded": 478,
-  "ats_graded": 420,
+  "total_graded": 481,
+  "ats_graded": 422,
   "ats": {
-   "w": 240,
-   "l": 180,
+   "w": 241,
+   "l": 181,
    "p": 0,
    "pct": 57.1
   },
   "su": {
-   "correct": 376,
-   "total": 478,
-   "pct": 78.7
+   "correct": 379,
+   "total": 481,
+   "pct": 78.8
   },
   "ou": {
    "over": 213,
-   "under": 264,
+   "under": 267,
    "push": 0,
    "model_correct": 243,
-   "model_gradeable": 477,
-   "model_pct": 50.9
+   "model_gradeable": 480,
+   "model_pct": 50.6
   },
   "by_confidence": {
    "high": {
@@ -75,8 +75,8 @@
     "pct": 41.4
    },
    "medium": {
-    "w": 228,
-    "l": 163,
+    "w": 229,
+    "l": 164,
     "p": 0,
     "pct": 58.3
    },
@@ -89,39 +89,39 @@
   },
   "value_plays": {
    "w": 99,
-   "l": 93,
+   "l": 94,
    "p": 0,
-   "pct": 51.6
+   "pct": 51.3
   },
   "best_bets": {
    "w": 58,
-   "l": 61,
+   "l": 62,
    "p": 0,
-   "pct": 48.7
+   "pct": 48.3
   },
   "clv": {
-   "n": 318,
-   "avg": 0.14,
-   "beat_close_pct": 33.6,
-   "beat_or_matched_pct": 76.4
+   "n": 320,
+   "avg": 0.13,
+   "beat_close_pct": 33.4,
+   "beat_or_matched_pct": 76.6
   },
   "calibration": {
-   "n": 477,
+   "n": 480,
    "model_mae": 9.44,
    "market_mae": 9.09,
-   "intercept": -0.95,
-   "model_weight": 0.159,
-   "market_weight": 0.883,
+   "intercept": -1.02,
+   "model_weight": 0.169,
+   "market_weight": 0.881,
    "ats_by_edge": {
     "0-2": {
-     "w": 92,
+     "w": 93,
      "l": 52,
-     "pct": 63.9
+     "pct": 64.1
     },
     "2-4": {
      "w": 76,
-     "l": 59,
-     "pct": 56.3
+     "l": 60,
+     "pct": 55.9
     },
     "4-7": {
      "w": 50,
@@ -137,26 +137,26 @@
   }
  },
  "all_time": {
-  "total_graded": 1196,
-  "ats_graded": 1026,
+  "total_graded": 1199,
+  "ats_graded": 1028,
   "ats": {
-   "w": 548,
-   "l": 478,
+   "w": 549,
+   "l": 479,
    "p": 0,
    "pct": 53.4
   },
   "su": {
-   "correct": 844,
-   "total": 1196,
+   "correct": 847,
+   "total": 1199,
    "pct": 70.6
   },
   "ou": {
    "over": 563,
-   "under": 622,
+   "under": 625,
    "push": 0,
    "model_correct": 600,
-   "model_gradeable": 1185,
-   "model_pct": 50.6
+   "model_gradeable": 1188,
+   "model_pct": 50.5
   },
   "by_confidence": {
    "high": {
@@ -166,8 +166,8 @@
     "pct": 47.9
    },
    "medium": {
-    "w": 395,
-    "l": 309,
+    "w": 396,
+    "l": 310,
     "p": 0,
     "pct": 56.1
    },
@@ -180,39 +180,39 @@
   },
   "value_plays": {
    "w": 244,
-   "l": 223,
+   "l": 224,
    "p": 0,
-   "pct": 52.2
+   "pct": 52.1
   },
   "best_bets": {
    "w": 95,
-   "l": 92,
+   "l": 93,
    "p": 0,
-   "pct": 50.8
+   "pct": 50.5
   },
   "clv": {
-   "n": 318,
-   "avg": 0.14,
-   "beat_close_pct": 33.6,
-   "beat_or_matched_pct": 76.4
+   "n": 320,
+   "avg": 0.13,
+   "beat_close_pct": 33.4,
+   "beat_or_matched_pct": 76.6
   },
   "calibration": {
-   "n": 1185,
+   "n": 1188,
    "model_mae": 10.3,
    "market_mae": 8.99,
-   "intercept": 0.06,
-   "model_weight": -0.005,
-   "market_weight": 0.981,
+   "intercept": 0.03,
+   "model_weight": -0.004,
+   "market_weight": 0.983,
    "ats_by_edge": {
     "0-2": {
-     "w": 206,
+     "w": 207,
      "l": 174,
-     "pct": 54.2
+     "pct": 54.3
     },
     "2-4": {
      "w": 171,
-     "l": 139,
-     "pct": 55.2
+     "l": 140,
+     "pct": 55.0
     },
     "4-7": {
      "w": 88,
