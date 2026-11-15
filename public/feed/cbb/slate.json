@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-14T21:58:35.291859-05:00",
+ "generated_at": "2026-11-14T22:02:31.591175-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-14",
@@ -4273,7 +4273,7 @@
    "game_id": "401911347",
    "game_id_source": "espn",
    "start_time": "2026-11-15T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Grand Canyon Lopes",
     "abbr": "GCU",
@@ -4332,7 +4332,19 @@
     "side": "away",
     "cover_line": 31.5
    },
-   "result": null,
+   "result": {
+    "home_score": 88,
+    "away_score": 52,
+    "margin_home": 36,
+    "total": 140,
+    "winner": "Grand Canyon Lopes",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value"

@@ -79860,16 +79860,91 @@
       "ou_result": "U",
       "model_ou_call": "U",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401911347",
+      "date": "2026-11-15T01:00Z",
+      "home_team": "Grand Canyon Lopes",
+      "away_team": "UL Monroe Warhawks",
+      "home_abbr": "GCU",
+      "away_abbr": "ULM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-0",
+      "away_record": "1-4",
+      "home_location": "Grand Canyon",
+      "away_location": "UL Monroe",
+      "home_rating_team": "Grand Canyon",
+      "away_rating_team": "Louisiana Monroe",
+      "home_adj_em": 16.32,
+      "away_adj_em": -13.67,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Global Credit Union Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "MW+",
+      "predicted_spread": 25.8,
+      "predicted_total": 157.2,
+      "home_projected_score": 91.5,
+      "away_projected_score": 65.7,
+      "home_win_prob": 99.0,
+      "away_win_prob": 1.0,
+      "confidence": 65.9,
+      "pick": "Grand Canyon Lopes",
+      "pick_abbr": "GCU",
+      "is_home_pick": true,
+      "projected_tempo": 74.0,
+      "factors": {
+        "efficiency_margin": 22.19,
+        "home_court": 3.59
+      },
+      "market": {
+        "spread": -31.5,
+        "over_under": 165.5,
+        "spread_holder": "Grand Canyon Antelopes",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 5.7,
+      "model_vs_market": {
+        "spread_edge": -5.7,
+        "total_edge": -8.3
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -31.5,
+        "over_under": 163.5,
+        "spread_holder": "Grand Canyon Antelopes",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-14T18:44:11.518509-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 31.5,
+      "clv": 0.0,
+      "actual_home_score": 88,
+      "actual_away_score": 52,
+      "actual_margin": 36,
+      "actual_total": 140,
+      "actual_winner": "Grand Canyon Lopes",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 445,
+      "n": 446,
       "model_mae": 9.41,
-      "market_mae": 9.03,
-      "intercept": -1.15,
+      "market_mae": 9.02,
+      "intercept": -1.16,
       "model_weight": 0.177,
-      "market_weight": 0.878,
+      "market_weight": 0.879,
       "ats_by_edge": {
         "0-2": {
           "w": 88,
@@ -79883,8 +79958,8 @@
         },
         "4-7": {
           "w": 49,
-          "l": 46,
-          "pct": 51.6
+          "l": 47,
+          "pct": 51.0
         },
         "7+": {
           "w": 20,
@@ -79894,10 +79969,10 @@
       }
     },
     "clv": {
-      "n": 310,
+      "n": 311,
       "avg": 0.11,
-      "beat_close_pct": 32.9,
-      "beat_or_matched_pct": 76.1
+      "beat_close_pct": 32.8,
+      "beat_or_matched_pct": 76.2
     },
     "clv_by_confidence": {
       "high": {
@@ -79907,35 +79982,35 @@
         "beat_or_matched_pct": 85.0
       },
       "medium": {
-        "n": 290,
+        "n": 291,
         "avg": 0.11,
-        "beat_close_pct": 33.1,
-        "beat_or_matched_pct": 75.5
+        "beat_close_pct": 33.0,
+        "beat_or_matched_pct": 75.6
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 445,
-    "ats_graded": 394,
+    "total_graded": 446,
+    "ats_graded": 395,
     "ats": {
       "w": 227,
-      "l": 167,
+      "l": 168,
       "p": 0,
-      "pct": 57.6
+      "pct": 57.5
     },
     "su": {
-      "correct": 353,
-      "total": 445,
-      "pct": 79.3
+      "correct": 354,
+      "total": 446,
+      "pct": 79.4
     },
     "ou": {
       "over": 197,
-      "under": 248,
+      "under": 249,
       "push": 0,
-      "model_correct": 228,
-      "model_gradeable": 445,
-      "model_pct": 51.2
+      "model_correct": 229,
+      "model_gradeable": 446,
+      "model_pct": 51.3
     },
     "by_confidence": {
       "high": {
@@ -79946,9 +80021,9 @@
       },
       "medium": {
         "w": 216,
-        "l": 151,
+        "l": 152,
         "p": 0,
-        "pct": 58.9
+        "pct": 58.7
       },
       "low": {
         "w": 0,
@@ -79959,26 +80034,26 @@
     },
     "value_plays": {
       "w": 93,
-      "l": 88,
+      "l": 89,
       "p": 0,
-      "pct": 51.4
+      "pct": 51.1
     },
     "best_bets": {
       "w": 55,
-      "l": 57,
+      "l": 58,
       "p": 0,
-      "pct": 49.1
+      "pct": 48.7
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1153,
+        "n": 1154,
         "model_mae": 10.31,
         "market_mae": 8.96,
-        "intercept": 0.03,
+        "intercept": 0.02,
         "model_weight": -0.004,
-        "market_weight": 0.983,
+        "market_weight": 0.984,
         "ats_by_edge": {
           "0-2": {
             "w": 202,
@@ -79992,8 +80067,8 @@
           },
           "4-7": {
             "w": 87,
-            "l": 80,
-            "pct": 52.1
+            "l": 81,
+            "pct": 51.8
           },
           "7+": {
             "w": 81,
@@ -80003,10 +80078,10 @@
         }
       },
       "clv": {
-        "n": 310,
+        "n": 311,
         "avg": 0.11,
-        "beat_close_pct": 32.9,
-        "beat_or_matched_pct": 76.1
+        "beat_close_pct": 32.8,
+        "beat_or_matched_pct": 76.2
       },
       "clv_by_confidence": {
         "high": {
@@ -80016,35 +80091,35 @@
           "beat_or_matched_pct": 85.0
         },
         "medium": {
-          "n": 290,
+          "n": 291,
           "avg": 0.11,
-          "beat_close_pct": 33.1,
-          "beat_or_matched_pct": 75.5
+          "beat_close_pct": 33.0,
+          "beat_or_matched_pct": 75.6
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1163,
-      "ats_graded": 1000,
+      "total_graded": 1164,
+      "ats_graded": 1001,
       "ats": {
         "w": 535,
-        "l": 465,
+        "l": 466,
         "p": 0,
-        "pct": 53.5
+        "pct": 53.4
       },
       "su": {
-        "correct": 821,
-        "total": 1163,
+        "correct": 822,
+        "total": 1164,
         "pct": 70.6
       },
       "ou": {
         "over": 547,
-        "under": 606,
+        "under": 607,
         "push": 0,
-        "model_correct": 585,
-        "model_gradeable": 1153,
-        "model_pct": 50.7
+        "model_correct": 586,
+        "model_gradeable": 1154,
+        "model_pct": 50.8
       },
       "by_confidence": {
         "high": {
@@ -80055,9 +80130,9 @@
         },
         "medium": {
           "w": 383,
-          "l": 297,
+          "l": 298,
           "p": 0,
-          "pct": 56.3
+          "pct": 56.2
         },
         "low": {
           "w": 41,
@@ -80068,17 +80143,17 @@
       },
       "value_plays": {
         "w": 238,
-        "l": 218,
+        "l": 219,
         "p": 0,
-        "pct": 52.2
+        "pct": 52.1
       },
       "best_bets": {
         "w": 92,
-        "l": 88,
+        "l": 89,
         "p": 0,
-        "pct": 51.1
+        "pct": 50.8
       }
     }
   },
-  "generated_at": "2026-11-14T21:58:35.149097-05:00"
+  "generated_at": "2026-11-14T22:02:31.478089-05:00"
 }
