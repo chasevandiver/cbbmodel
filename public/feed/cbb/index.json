@@ -7,27 +7,22 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-15T04:41:51.737895-05:00",
+ "generated_at": "2026-11-15T06:41:29.565898-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "files": {
   "slate": "slate.json",
-  "season": "season-2027.json",
-  "next": "slate-next.json"
+  "season": "season-2027.json"
  },
- "next": {
-  "date": "2026-11-15",
-  "total_games": 36,
-  "with_line": 36
- },
+ "next": null,
  "seasons": [
   {
    "season": 2027,
    "label": "2026-27",
    "file": "season-2027.json",
-   "records": 456,
+   "records": 492,
    "final": 453,
-   "pending": 3,
+   "pending": 39,
    "no_result": 0
   },
   {
@@ -41,9 +36,9 @@
   }
  ],
  "slate": {
-  "date": "2026-11-14",
-  "total_games": 60,
-  "pending": 3
+  "date": "2026-11-15",
+  "total_games": 36,
+  "pending": 36
  },
  "summary": {
   "total_graded": 453,
