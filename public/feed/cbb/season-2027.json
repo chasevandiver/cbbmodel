@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-15T21:57:42.878513-05:00",
+ "generated_at": "2026-11-16T02:13:30.163142-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -40910,7 +40910,7 @@
    "game_id": "401920896",
    "game_id_source": "espn",
    "start_time": "2026-11-16T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Wisconsin Badgers",
     "abbr": "WIS",
@@ -40969,7 +40969,19 @@
     "side": "away",
     "cover_line": 28.5
    },
-   "result": null,
+   "result": {
+    "home_score": 89,
+    "away_score": 81,
+    "margin_home": 8,
+    "total": 170,
+    "winner": "Wisconsin Badgers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "value"
    ]
@@ -40984,7 +40996,7 @@
    "game_id": "401929200",
    "game_id_source": "espn",
    "start_time": "2026-11-16T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
@@ -41043,7 +41055,19 @@
     "side": "none",
     "cover_line": -4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 67,
+    "away_score": 87,
+    "margin_home": -20,
+    "total": 154,
+    "winner": "Texas State Bobcats",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -41056,7 +41080,7 @@
    "game_id": "401911472",
    "game_id_source": "espn",
    "start_time": "2026-11-16T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "San Jos\u00e9 State Spartans",
     "abbr": "SJSU",
@@ -41115,7 +41139,19 @@
     "side": "away",
     "cover_line": 11.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 68,
+    "margin_home": 12,
+    "total": 148,
+    "winner": "San Jos\u00e9 State Spartans",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -2.0
+   },
    "tags": [
     "best_bet",
     "value",

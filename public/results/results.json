@@ -82706,16 +82706,241 @@
       "ou_result": "O",
       "model_ou_call": "U",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401920896",
+      "date": "2026-11-16T01:00Z",
+      "home_team": "Wisconsin Badgers",
+      "away_team": "Coastal Carolina Chanticleers",
+      "home_abbr": "WIS",
+      "away_abbr": "CCU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-0",
+      "away_record": "2-2",
+      "home_location": "Wisconsin",
+      "away_location": "Coastal Carolina",
+      "home_rating_team": "Wisconsin",
+      "away_rating_team": "Coastal Carolina",
+      "home_adj_em": 16.05,
+      "away_adj_em": -6.32,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Kohl Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "BTN",
+      "predicted_spread": 19.1,
+      "predicted_total": 148.0,
+      "home_projected_score": 83.6,
+      "away_projected_score": 64.5,
+      "home_win_prob": 95.9,
+      "away_win_prob": 4.1,
+      "confidence": 67.0,
+      "pick": "Wisconsin Badgers",
+      "pick_abbr": "WIS",
+      "is_home_pick": true,
+      "projected_tempo": 70.2,
+      "factors": {
+        "efficiency_margin": 15.71,
+        "home_court": 3.37
+      },
+      "market": {
+        "spread": -28.5,
+        "over_under": 147.5,
+        "spread_holder": "Wisconsin Badgers",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 9.4,
+      "model_vs_market": {
+        "spread_edge": -9.4,
+        "total_edge": 0.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -27.5,
+        "over_under": 148.5,
+        "spread_holder": "Wisconsin Badgers",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-15T18:50:24.703549-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 28.5,
+      "clv": 1.0,
+      "actual_home_score": 89,
+      "actual_away_score": 81,
+      "actual_margin": 8,
+      "actual_total": 170,
+      "actual_winner": "Wisconsin Badgers",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401929200",
+      "date": "2026-11-16T01:00Z",
+      "home_team": "UTSA Roadrunners",
+      "away_team": "Texas State Bobcats",
+      "home_abbr": "UTSA",
+      "away_abbr": "TXST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-1",
+      "away_record": "4-0",
+      "home_location": "UTSA",
+      "away_location": "Texas State",
+      "home_rating_team": "UTSA",
+      "away_rating_team": "Texas St.",
+      "home_adj_em": -4.89,
+      "away_adj_em": 5.25,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "UTSA Convocation Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": -4.4,
+      "predicted_total": 151.8,
+      "home_projected_score": 73.7,
+      "away_projected_score": 78.1,
+      "home_win_prob": 34.5,
+      "away_win_prob": 65.5,
+      "confidence": 53.5,
+      "pick": "Texas State Bobcats",
+      "pick_abbr": "TXST",
+      "is_home_pick": false,
+      "projected_tempo": 69.7,
+      "factors": {
+        "efficiency_margin": -7.06,
+        "home_court": 2.68
+      },
+      "market": {
+        "spread": 4.5,
+        "over_under": 149.5,
+        "spread_holder": "Texas State Bobcats",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.1,
+      "model_vs_market": {
+        "spread_edge": -0.1,
+        "total_edge": 2.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 3.5,
+        "over_under": 146.5,
+        "spread_holder": "Texas State Bobcats",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-15T18:50:24.703549-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": -4.5,
+      "clv": null,
+      "actual_home_score": 67,
+      "actual_away_score": 87,
+      "actual_margin": -20,
+      "actual_total": 154,
+      "actual_winner": "Texas State Bobcats",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401911472",
+      "date": "2026-11-16T02:00Z",
+      "home_team": "San Jos\u00e9 State Spartans",
+      "away_team": "Alabama State Hornets",
+      "home_abbr": "SJSU",
+      "away_abbr": "ALST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-2",
+      "away_record": "1-2",
+      "home_location": "San Jos\u00e9 State",
+      "away_location": "Alabama State",
+      "home_rating_team": "San Jose St.",
+      "away_rating_team": "Alabama St.",
+      "home_adj_em": -2.21,
+      "away_adj_em": -7.56,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Provident Credit Union Event Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "MW+",
+      "predicted_spread": 7.1,
+      "predicted_total": 164.9,
+      "home_projected_score": 86.0,
+      "away_projected_score": 78.9,
+      "home_win_prob": 74.2,
+      "away_win_prob": 25.8,
+      "confidence": 70.5,
+      "pick": "San Jos\u00e9 State Spartans",
+      "pick_abbr": "SJSU",
+      "is_home_pick": true,
+      "projected_tempo": 74.6,
+      "factors": {
+        "efficiency_margin": 3.99,
+        "home_court": 3.14
+      },
+      "market": {
+        "spread": -11.5,
+        "over_under": 156.5,
+        "spread_holder": "San Jos\u00e9 St Spartans",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 4.4,
+      "model_vs_market": {
+        "spread_edge": -4.4,
+        "total_edge": 8.4
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -13.5,
+        "over_under": 149.5,
+        "spread_holder": "San Jos\u00e9 St Spartans",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-15T20:27:37.303187-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 11.5,
+      "clv": -2.0,
+      "actual_home_score": 80,
+      "actual_away_score": 68,
+      "actual_margin": 12,
+      "actual_total": 148,
+      "actual_winner": "San Jos\u00e9 State Spartans",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 484,
-      "model_mae": 9.53,
-      "market_mae": 9.14,
-      "intercept": -1.03,
-      "model_weight": 0.151,
-      "market_weight": 0.907,
+      "n": 487,
+      "model_mae": 9.54,
+      "market_mae": 9.16,
+      "intercept": -1.11,
+      "model_weight": 0.179,
+      "market_weight": 0.884,
       "ats_by_edge": {
         "0-2": {
           "w": 93,
@@ -82729,72 +82954,72 @@
         },
         "4-7": {
           "w": 50,
-          "l": 49,
-          "pct": 50.5
+          "l": 50,
+          "pct": 50.0
         },
         "7+": {
-          "w": 22,
+          "w": 23,
           "l": 21,
-          "pct": 51.2
+          "pct": 52.3
         }
       }
     },
     "clv": {
-      "n": 324,
+      "n": 326,
       "avg": 0.13,
       "beat_close_pct": 34.0,
-      "beat_or_matched_pct": 76.5
+      "beat_or_matched_pct": 76.4
     },
     "clv_by_confidence": {
       "high": {
-        "n": 21,
-        "avg": 0.24,
-        "beat_close_pct": 33.3,
-        "beat_or_matched_pct": 85.7
+        "n": 22,
+        "avg": 0.14,
+        "beat_close_pct": 31.8,
+        "beat_or_matched_pct": 81.8
       },
       "medium": {
-        "n": 303,
+        "n": 304,
         "avg": 0.13,
-        "beat_close_pct": 34.0,
-        "beat_or_matched_pct": 75.9
+        "beat_close_pct": 34.2,
+        "beat_or_matched_pct": 76.0
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 485,
-    "ats_graded": 426,
+    "total_graded": 488,
+    "ats_graded": 428,
     "ats": {
-      "w": 241,
-      "l": 185,
+      "w": 242,
+      "l": 186,
       "p": 0,
-      "pct": 56.6
+      "pct": 56.5
     },
     "su": {
-      "correct": 383,
-      "total": 485,
-      "pct": 79.0
+      "correct": 386,
+      "total": 488,
+      "pct": 79.1
     },
     "ou": {
-      "over": 214,
-      "under": 270,
+      "over": 216,
+      "under": 271,
       "push": 0,
-      "model_correct": 244,
-      "model_gradeable": 484,
-      "model_pct": 50.4
+      "model_correct": 246,
+      "model_gradeable": 487,
+      "model_pct": 50.5
     },
     "by_confidence": {
       "high": {
         "w": 12,
-        "l": 17,
+        "l": 18,
         "p": 0,
-        "pct": 41.4
+        "pct": 40.0
       },
       "medium": {
-        "w": 229,
+        "w": 230,
         "l": 168,
         "p": 0,
-        "pct": 57.7
+        "pct": 57.8
       },
       "low": {
         "w": 0,
@@ -82804,27 +83029,27 @@
       }
     },
     "value_plays": {
-      "w": 99,
-      "l": 96,
+      "w": 100,
+      "l": 97,
       "p": 0,
       "pct": 50.8
     },
     "best_bets": {
       "w": 58,
-      "l": 63,
+      "l": 64,
       "p": 0,
-      "pct": 47.9
+      "pct": 47.5
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1192,
+        "n": 1195,
         "model_mae": 10.33,
-        "market_mae": 9.01,
-        "intercept": 0.01,
-        "model_weight": -0.005,
-        "market_weight": 0.994,
+        "market_mae": 9.02,
+        "intercept": -0.0,
+        "model_weight": -0.003,
+        "market_weight": 0.991,
         "ats_by_edge": {
           "0-2": {
             "w": 207,
@@ -82838,69 +83063,69 @@
           },
           "4-7": {
             "w": 88,
-            "l": 83,
-            "pct": 51.5
+            "l": 84,
+            "pct": 51.2
           },
           "7+": {
-            "w": 83,
+            "w": 84,
             "l": 83,
-            "pct": 50.0
+            "pct": 50.3
           }
         }
       },
       "clv": {
-        "n": 324,
+        "n": 326,
         "avg": 0.13,
         "beat_close_pct": 34.0,
-        "beat_or_matched_pct": 76.5
+        "beat_or_matched_pct": 76.4
       },
       "clv_by_confidence": {
         "high": {
-          "n": 21,
-          "avg": 0.24,
-          "beat_close_pct": 33.3,
-          "beat_or_matched_pct": 85.7
+          "n": 22,
+          "avg": 0.14,
+          "beat_close_pct": 31.8,
+          "beat_or_matched_pct": 81.8
         },
         "medium": {
-          "n": 303,
+          "n": 304,
           "avg": 0.13,
-          "beat_close_pct": 34.0,
-          "beat_or_matched_pct": 75.9
+          "beat_close_pct": 34.2,
+          "beat_or_matched_pct": 76.0
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1203,
-      "ats_graded": 1032,
+      "total_graded": 1206,
+      "ats_graded": 1034,
       "ats": {
-        "w": 549,
-        "l": 483,
+        "w": 550,
+        "l": 484,
         "p": 0,
         "pct": 53.2
       },
       "su": {
-        "correct": 851,
-        "total": 1203,
-        "pct": 70.7
+        "correct": 854,
+        "total": 1206,
+        "pct": 70.8
       },
       "ou": {
-        "over": 564,
-        "under": 628,
+        "over": 566,
+        "under": 629,
         "push": 0,
-        "model_correct": 601,
-        "model_gradeable": 1192,
-        "model_pct": 50.4
+        "model_correct": 603,
+        "model_gradeable": 1195,
+        "model_pct": 50.5
       },
       "by_confidence": {
         "high": {
           "w": 112,
-          "l": 122,
+          "l": 123,
           "p": 0,
-          "pct": 47.9
+          "pct": 47.7
         },
         "medium": {
-          "w": 396,
+          "w": 397,
           "l": 314,
           "p": 0,
           "pct": 55.8
@@ -82913,18 +83138,18 @@
         }
       },
       "value_plays": {
-        "w": 244,
-        "l": 226,
+        "w": 245,
+        "l": 227,
         "p": 0,
         "pct": 51.9
       },
       "best_bets": {
         "w": 95,
-        "l": 94,
+        "l": 95,
         "p": 0,
-        "pct": 50.3
+        "pct": 50.0
       }
     }
   },
-  "generated_at": "2026-11-15T21:57:42.774140-05:00"
+  "generated_at": "2026-11-16T02:13:30.022770-05:00"
 }
