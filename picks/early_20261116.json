@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T02:35:27.178069-05:00",
+  "generated_at": "2026-11-16T04:59:24.958307-05:00",
   "date": "20261116",
   "total_games": 22,
   "model_version": "4.1.0",
@@ -317,15 +317,15 @@
         "home_court": 3.95
       },
       "market": {
-        "spread": -34.5,
-        "over_under": 153.5,
+        "spread": -35.5,
+        "over_under": 154.5,
         "spread_holder": "Maryland Terrapins",
         "bookmaker": "draftkings"
       },
-      "value_rating": 6.4,
+      "value_rating": 7.4,
       "model_vs_market": {
-        "spread_edge": -6.4,
-        "total_edge": 1.3
+        "spread_edge": -7.4,
+        "total_edge": 0.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -696,14 +696,14 @@
       },
       "market": {
         "spread": -10.5,
-        "over_under": 160.5,
+        "over_under": 159.5,
         "spread_holder": "Kent State Golden Flashes",
         "bookmaker": "fanduel"
       },
       "value_rating": 1.3,
       "model_vs_market": {
         "spread_edge": -1.3,
-        "total_edge": -7.3
+        "total_edge": -6.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
