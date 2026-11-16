@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-16T16:57:19.397822-05:00",
+ "generated_at": "2026-11-16T17:51:58.461379-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -40494,7 +40494,7 @@
    "game_id": "401926073",
    "game_id_source": "espn",
    "start_time": "2026-11-15T22:00Z",
-   "status": "pending",
+   "status": "no_result",
    "home": {
     "name": "Oregon Ducks",
     "abbr": "ORE",
