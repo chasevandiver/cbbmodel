@@ -82931,16 +82931,84 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401929419",
+      "date": "2026-11-16T19:00Z",
+      "home_team": "UTEP Miners",
+      "away_team": "Florida A&M Rattlers",
+      "home_abbr": "UTEP",
+      "away_abbr": "FAMU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-1",
+      "away_record": "0-5",
+      "home_location": "UTEP",
+      "away_location": "Florida A&M",
+      "home_rating_team": "UTEP",
+      "away_rating_team": "Florida A&M",
+      "home_adj_em": 0.24,
+      "away_adj_em": -17.5,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Don Haskins Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "MW+",
+      "predicted_spread": 15.5,
+      "predicted_total": 143.2,
+      "home_projected_score": 79.4,
+      "away_projected_score": 63.9,
+      "home_win_prob": 92.0,
+      "away_win_prob": 8.0,
+      "confidence": 72.0,
+      "pick": "UTEP Miners",
+      "pick_abbr": "UTEP",
+      "is_home_pick": true,
+      "projected_tempo": 69.5,
+      "factors": {
+        "efficiency_margin": 12.33,
+        "home_court": 3.16
+      },
+      "market": {
+        "spread": -19.5,
+        "over_under": 141.5,
+        "spread_holder": "UTEP Miners",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 6.1,
+      "model_vs_market": {
+        "spread_edge": -6.1,
+        "total_edge": 5.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 19.5,
+      "clv": null,
+      "actual_home_score": 79,
+      "actual_away_score": 46,
+      "actual_margin": 33,
+      "actual_total": 125,
+      "actual_winner": "UTEP Miners",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 487,
-      "model_mae": 9.54,
-      "market_mae": 9.16,
-      "intercept": -1.11,
-      "model_weight": 0.179,
-      "market_weight": 0.884,
+      "n": 488,
+      "model_mae": 9.55,
+      "market_mae": 9.17,
+      "intercept": -1.09,
+      "model_weight": 0.176,
+      "market_weight": 0.888,
       "ats_by_edge": {
         "0-2": {
           "w": 93,
@@ -82954,8 +83022,8 @@
         },
         "4-7": {
           "w": 50,
-          "l": 50,
-          "pct": 50.0
+          "l": 51,
+          "pct": 49.5
         },
         "7+": {
           "w": 23,
@@ -82987,33 +83055,33 @@
         "n": 0
       }
     },
-    "total_graded": 488,
-    "ats_graded": 428,
+    "total_graded": 489,
+    "ats_graded": 429,
     "ats": {
       "w": 242,
-      "l": 186,
+      "l": 187,
       "p": 0,
-      "pct": 56.5
+      "pct": 56.4
     },
     "su": {
-      "correct": 386,
-      "total": 488,
+      "correct": 387,
+      "total": 489,
       "pct": 79.1
     },
     "ou": {
       "over": 216,
-      "under": 271,
+      "under": 272,
       "push": 0,
       "model_correct": 246,
-      "model_gradeable": 487,
-      "model_pct": 50.5
+      "model_gradeable": 488,
+      "model_pct": 50.4
     },
     "by_confidence": {
       "high": {
         "w": 12,
-        "l": 18,
+        "l": 19,
         "p": 0,
-        "pct": 40.0
+        "pct": 38.7
       },
       "medium": {
         "w": 230,
@@ -83030,9 +83098,9 @@
     },
     "value_plays": {
       "w": 100,
-      "l": 97,
+      "l": 98,
       "p": 0,
-      "pct": 50.8
+      "pct": 50.5
     },
     "best_bets": {
       "w": 58,
@@ -83044,12 +83112,12 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1195,
-        "model_mae": 10.33,
-        "market_mae": 9.02,
+        "n": 1196,
+        "model_mae": 10.34,
+        "market_mae": 9.03,
         "intercept": -0.0,
         "model_weight": -0.003,
-        "market_weight": 0.991,
+        "market_weight": 0.992,
         "ats_by_edge": {
           "0-2": {
             "w": 207,
@@ -83063,8 +83131,8 @@
           },
           "4-7": {
             "w": 88,
-            "l": 84,
-            "pct": 51.2
+            "l": 85,
+            "pct": 50.9
           },
           "7+": {
             "w": 84,
@@ -83096,33 +83164,33 @@
           "n": 0
         }
       },
-      "total_graded": 1206,
-      "ats_graded": 1034,
+      "total_graded": 1207,
+      "ats_graded": 1035,
       "ats": {
         "w": 550,
-        "l": 484,
+        "l": 485,
         "p": 0,
-        "pct": 53.2
+        "pct": 53.1
       },
       "su": {
-        "correct": 854,
-        "total": 1206,
+        "correct": 855,
+        "total": 1207,
         "pct": 70.8
       },
       "ou": {
         "over": 566,
-        "under": 629,
+        "under": 630,
         "push": 0,
         "model_correct": 603,
-        "model_gradeable": 1195,
-        "model_pct": 50.5
+        "model_gradeable": 1196,
+        "model_pct": 50.4
       },
       "by_confidence": {
         "high": {
           "w": 112,
-          "l": 123,
+          "l": 124,
           "p": 0,
-          "pct": 47.7
+          "pct": 47.5
         },
         "medium": {
           "w": 397,
@@ -83139,9 +83207,9 @@
       },
       "value_plays": {
         "w": 245,
-        "l": 227,
+        "l": 228,
         "p": 0,
-        "pct": 51.9
+        "pct": 51.8
       },
       "best_bets": {
         "w": 95,
@@ -83151,5 +83219,5 @@
       }
     }
   },
-  "generated_at": "2026-11-16T18:22:17.582930-05:00"
+  "generated_at": "2026-11-16T18:53:25.767019-05:00"
 }

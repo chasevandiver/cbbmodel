@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-16T18:22:32.745852-05:00",
+ "generated_at": "2026-11-16T18:53:25.880467-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -41168,7 +41168,7 @@
    "game_id": "401929419",
    "game_id_source": "espn",
    "start_time": "2026-11-16T19:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UTEP Miners",
     "abbr": "UTEP",
@@ -41221,7 +41221,19 @@
     "side": "away",
     "cover_line": 19.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 46,
+    "margin_home": 33,
+    "total": 125,
+    "winner": "UTEP Miners",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "value",
     "high_confidence"
@@ -41481,7 +41493,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -21.5,
+    "total": 153.5,
+    "favorite": "Georgia Bulldogs",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -4.0,
     "total": 2.6,
@@ -41550,7 +41568,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -12.5,
+    "total": 151.5,
+    "favorite": "Virginia Tech Hokies",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -0.8,
     "total": -1.5,
@@ -41616,7 +41640,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -24.5,
+    "total": 142.5,
+    "favorite": "Clemson Tigers",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": 1.1,
     "total": 4.7,
@@ -41682,7 +41712,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": 1.5,
+    "total": 145.5,
+    "favorite": "St. Thomas (MN) Tommies",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": 0.8,
     "total": -0.9,
@@ -41748,7 +41784,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -28.5,
+    "total": 152.5,
+    "favorite": "Kentucky Wildcats",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -3.9,
     "total": -7.9,
@@ -41817,7 +41859,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -5.5,
+    "total": 158.5,
+    "favorite": "Tulsa Golden Hurricane",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": 0.1,
     "total": -4.2,
@@ -41883,7 +41931,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -9.5,
+    "total": 161.5,
+    "favorite": "Kent State Golden Flashes",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -1.4,
     "total": -6.3,
@@ -41949,7 +42003,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -8.5,
+    "total": 145.5,
+    "favorite": "Drake Bulldogs",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -5.9,
     "total": 6.6,
@@ -42019,7 +42079,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -14.5,
+    "total": 154.5,
+    "favorite": "Kansas St Wildcats",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -2.5,
     "total": -4.9,
@@ -42085,7 +42151,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -33.5,
+    "total": 135.5,
+    "favorite": "Minnesota Golden Gophers",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -9.5,
     "total": 0.0,
@@ -42153,7 +42225,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -18.5,
+    "total": 162.5,
+    "favorite": "Oklahoma St Cowboys",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -5.4,
     "total": -5.5,
@@ -42222,7 +42300,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -5.5,
+    "total": 140.5,
+    "favorite": "Missouri St Bears",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -3.7,
     "total": 1.0,
@@ -42291,7 +42375,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -11.5,
+    "total": 140.5,
+    "favorite": "Northwestern Wildcats",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": 1.7,
     "total": 3.9,
@@ -42357,7 +42447,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -33.5,
+    "total": 162.5,
+    "favorite": "Texas A&M Aggies",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -9.3,
     "total": -5.3,
@@ -42425,7 +42521,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -16.5,
+    "total": 153.5,
+    "favorite": "Oregon St Beavers",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -4.1,
     "total": -0.5,
@@ -42494,7 +42596,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -18.5,
+    "total": 150.5,
+    "favorite": "Saint Mary's Gaels",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -0.6,
     "total": 1.4,
@@ -42560,7 +42668,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -18.5,
+    "total": 157.5,
+    "favorite": "UC San Diego Tritons",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -3.6,
     "total": -3.4,
@@ -42629,7 +42743,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -29.5,
+    "total": 145.5,
+    "favorite": "UCLA Bruins",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+   },
    "edge": {
     "spread": -10.0,
     "total": 2.6,
