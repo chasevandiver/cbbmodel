@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-15T18:50:39.734034-05:00",
+ "generated_at": "2026-11-15T20:27:38.295480-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-15",
@@ -2348,7 +2348,7 @@
    "game_id": "401911017",
    "game_id_source": "espn",
    "start_time": "2026-11-15T22:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Buffalo Bulls",
     "abbr": "BUF",
@@ -2407,7 +2407,19 @@
     "side": "away",
     "cover_line": 14.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 55,
+    "margin_home": 24,
+    "total": 134,
+    "winner": "Buffalo Bulls",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -2423,7 +2435,7 @@
    "game_id": "401920124",
    "game_id_source": "espn",
    "start_time": "2026-11-15T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Montana State Bobcats",
     "abbr": "MTST",
@@ -2482,7 +2494,19 @@
     "side": "away",
     "cover_line": 7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 77,
+    "away_score": 52,
+    "margin_home": 25,
+    "total": 129,
+    "winner": "Montana State Bobcats",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -2834,7 +2858,7 @@
     "total": 149.5,
     "favorite": "San Jos\u00e9 St Spartans",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-15T18:50:24.703549-05:00"
+    "captured_at": "2026-11-15T20:27:37.303187-05:00"
    },
    "edge": {
     "spread": -4.4,
