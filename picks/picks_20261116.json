@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T17:51:58.415777-05:00",
+  "generated_at": "2026-11-16T18:22:32.701050-05:00",
   "date": "20261116",
   "total_games": 22,
   "model_version": "4.1.0",
@@ -277,60 +277,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401916298",
-      "date": "2026-11-16T23:00Z",
-      "home_team": "Maryland Terrapins",
-      "away_team": "Alcorn State Braves",
-      "home_abbr": "MD",
-      "away_abbr": "ALCN",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "1-2",
-      "away_record": "0-4",
-      "home_location": "Maryland",
-      "away_location": "Alcorn State",
-      "home_rating_team": "Maryland",
-      "away_rating_team": "Alcorn St.",
-      "home_adj_em": 16.49,
-      "away_adj_em": -17.68,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "XFINITY Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "BTN",
-      "predicted_spread": 28.0,
-      "predicted_total": 154.8,
-      "home_projected_score": 91.4,
-      "away_projected_score": 63.4,
-      "home_win_prob": 99.5,
-      "away_win_prob": 0.5,
-      "confidence": 67.0,
-      "pick": "Maryland Terrapins",
-      "pick_abbr": "MD",
-      "is_home_pick": true,
-      "projected_tempo": 70.4,
-      "factors": {
-        "efficiency_margin": 24.07,
-        "home_court": 3.95
-      },
-      "market": {
-        "spread": -36.5,
-        "over_under": 154.5,
-        "spread_holder": "Maryland Terrapins",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 8.5,
-      "model_vs_market": {
-        "spread_edge": -8.5,
-        "total_edge": 0.3
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401920808",
       "date": "2026-11-17T01:30Z",
       "home_team": "Texas A&M Aggies",
@@ -380,6 +326,60 @@
       "model_vs_market": {
         "spread_edge": -9.3,
         "total_edge": -5.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401916298",
+      "date": "2026-11-16T23:00Z",
+      "home_team": "Maryland Terrapins",
+      "away_team": "Alcorn State Braves",
+      "home_abbr": "MD",
+      "away_abbr": "ALCN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-2",
+      "away_record": "0-4",
+      "home_location": "Maryland",
+      "away_location": "Alcorn State",
+      "home_rating_team": "Maryland",
+      "away_rating_team": "Alcorn St.",
+      "home_adj_em": 16.49,
+      "away_adj_em": -17.68,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "XFINITY Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "BTN",
+      "predicted_spread": 28.0,
+      "predicted_total": 154.8,
+      "home_projected_score": 91.4,
+      "away_projected_score": 63.4,
+      "home_win_prob": 99.5,
+      "away_win_prob": 0.5,
+      "confidence": 67.0,
+      "pick": "Maryland Terrapins",
+      "pick_abbr": "MD",
+      "is_home_pick": true,
+      "projected_tempo": 70.4,
+      "factors": {
+        "efficiency_margin": 24.07,
+        "home_court": 3.95
+      },
+      "market": {
+        "spread": -36.5,
+        "over_under": 154.5,
+        "spread_holder": "Maryland Terrapins",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 8.5,
+      "model_vs_market": {
+        "spread_edge": -8.5,
+        "total_edge": 0.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
