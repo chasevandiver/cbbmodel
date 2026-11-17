@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-16T21:04:03.226999-05:00",
+ "generated_at": "2026-11-16T21:49:36.036309-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -41826,7 +41826,7 @@
    "game_id": "401921804",
    "game_id_source": "espn",
    "start_time": "2026-11-17T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Kentucky Wildcats",
     "abbr": "UK",
@@ -41885,7 +41885,19 @@
     "side": "away",
     "cover_line": 29.5
    },
-   "result": null,
+   "result": {
+    "home_score": 88,
+    "away_score": 59,
+    "margin_home": 29,
+    "total": 147,
+    "winner": "Kentucky Wildcats",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -41901,7 +41913,7 @@
    "game_id": "401925864",
    "game_id_source": "espn",
    "start_time": "2026-11-17T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
@@ -41960,7 +41972,19 @@
     "side": "none",
     "cover_line": 6.5
    },
-   "result": null,
+   "result": {
+    "home_score": 67,
+    "away_score": 64,
+    "margin_home": 3,
+    "total": 131,
+    "winner": "Tulsa Golden Hurricane",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -42057,7 +42081,7 @@
    "game_id": "401927364",
    "game_id_source": "espn",
    "start_time": "2026-11-17T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
@@ -42116,7 +42140,19 @@
     "side": "away",
     "cover_line": 9.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 83,
+    "margin_home": -4,
+    "total": 162,
+    "winner": "Tarleton State Texans",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -42429,7 +42465,7 @@
    "game_id": "401920735",
    "game_id_source": "espn",
    "start_time": "2026-11-17T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Northwestern Wildcats",
     "abbr": "NU",
@@ -42488,7 +42524,19 @@
     "side": "home",
     "cover_line": 11.5
    },
-   "result": null,
+   "result": {
+    "home_score": 53,
+    "away_score": 75,
+    "margin_home": -22,
+    "total": 128,
+    "winner": "Columbia Lions",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -42697,7 +42745,7 @@
     "total": 150.5,
     "favorite": "Saint Mary's Gaels",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-16T20:46:04.960359-05:00"
+    "captured_at": "2026-11-16T21:49:34.946573-05:00"
    },
    "edge": {
     "spread": -0.6,
@@ -42766,10 +42814,10 @@
    },
    "closing": {
     "spread_home": -18.5,
-    "total": 157.5,
+    "total": 156.5,
     "favorite": "UC San Diego Tritons",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-16T20:46:04.960359-05:00"
+    "captured_at": "2026-11-16T21:49:34.946573-05:00"
    },
    "edge": {
     "spread": -3.6,
@@ -42840,11 +42888,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": -29.5,
+    "spread_home": -30.5,
     "total": 144.5,
     "favorite": "UCLA Bruins",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-16T20:46:04.960359-05:00"
+    "captured_at": "2026-11-16T21:49:34.946573-05:00"
    },
    "edge": {
     "spread": -10.0,

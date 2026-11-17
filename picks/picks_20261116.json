@@ -466,11 +466,11 @@
       "is_best_bet": false,
       "is_tournament_game": false,
       "closing_line": {
-        "spread": -29.5,
+        "spread": -30.5,
         "over_under": 144.5,
         "spread_holder": "UCLA Bruins",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-16T20:46:04.960359-05:00"
+        "captured_at": "2026-11-16T21:49:34.946573-05:00"
       }
     },
     {
@@ -1009,10 +1009,10 @@
       "is_tournament_game": false,
       "closing_line": {
         "spread": -18.5,
-        "over_under": 157.5,
+        "over_under": 156.5,
         "spread_holder": "UC San Diego Tritons",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-16T20:46:04.960359-05:00"
+        "captured_at": "2026-11-16T21:49:34.946573-05:00"
       }
     },
     {
@@ -1317,7 +1317,7 @@
         "over_under": 150.5,
         "spread_holder": "Saint Mary's Gaels",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-16T20:46:04.960359-05:00"
+        "captured_at": "2026-11-16T21:49:34.946573-05:00"
       }
     }
   ],
