@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-17T00:12:06.341077-05:00",
+ "generated_at": "2026-11-17T03:26:58.775616-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -42854,7 +42854,7 @@
    "game_id": "401920373",
    "game_id_source": "espn",
    "start_time": "2026-11-17T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
@@ -42913,7 +42913,19 @@
     "side": "away",
     "cover_line": 19.5
    },
-   "result": null,
+   "result": {
+    "home_score": 97,
+    "away_score": 92,
+    "margin_home": 5,
+    "total": 189,
+    "winner": "UC San Diego Tritons",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
