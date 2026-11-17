@@ -82999,21 +82999,225 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401916298",
+      "date": "2026-11-16T23:00Z",
+      "home_team": "Maryland Terrapins",
+      "away_team": "Alcorn State Braves",
+      "home_abbr": "MD",
+      "away_abbr": "ALCN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-2",
+      "away_record": "0-4",
+      "home_location": "Maryland",
+      "away_location": "Alcorn State",
+      "home_rating_team": "Maryland",
+      "away_rating_team": "Alcorn St.",
+      "home_adj_em": 16.49,
+      "away_adj_em": -17.68,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "XFINITY Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "BTN",
+      "predicted_spread": 28.0,
+      "predicted_total": 154.8,
+      "home_projected_score": 91.4,
+      "away_projected_score": 63.4,
+      "home_win_prob": 99.5,
+      "away_win_prob": 0.5,
+      "confidence": 67.0,
+      "pick": "Maryland Terrapins",
+      "pick_abbr": "MD",
+      "is_home_pick": true,
+      "projected_tempo": 70.4,
+      "factors": {
+        "efficiency_margin": 24.07,
+        "home_court": 3.95
+      },
+      "market": {
+        "spread": -36.5,
+        "over_under": 154.5,
+        "spread_holder": "Maryland Terrapins",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 8.5,
+      "model_vs_market": {
+        "spread_edge": -8.5,
+        "total_edge": 0.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 36.5,
+      "clv": null,
+      "actual_home_score": 117,
+      "actual_away_score": 57,
+      "actual_margin": 60,
+      "actual_total": 174,
+      "actual_winner": "Maryland Terrapins",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401921087",
+      "date": "2026-11-16T23:00Z",
+      "home_team": "UMBC Retrievers",
+      "away_team": "Iona Gaels",
+      "home_abbr": "UMBC",
+      "away_abbr": "IONA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2378.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/314.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "2-3",
+      "home_location": "UMBC",
+      "away_location": "Iona",
+      "home_rating_team": "UMBC",
+      "away_rating_team": "Iona",
+      "home_adj_em": -11.49,
+      "away_adj_em": -5.13,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Chesapeake Employers Insurance Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -1.7,
+      "predicted_total": 143.6,
+      "home_projected_score": 71.0,
+      "away_projected_score": 72.6,
+      "home_win_prob": 43.9,
+      "away_win_prob": 56.1,
+      "confidence": 58.3,
+      "pick": "Iona Gaels",
+      "pick_abbr": "IONA",
+      "is_home_pick": false,
+      "projected_tempo": 70.7,
+      "factors": {
+        "efficiency_margin": -4.5,
+        "home_court": 2.81
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 145.5,
+        "spread_holder": "Iona Gaels",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.8,
+      "model_vs_market": {
+        "spread_edge": -0.8,
+        "total_edge": -1.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -2.5,
+      "clv": null,
+      "actual_home_score": 75,
+      "actual_away_score": 67,
+      "actual_margin": 8,
+      "actual_total": 142,
+      "actual_winner": "UMBC Retrievers",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401916317",
+      "date": "2026-11-16T23:30Z",
+      "home_team": "Ohio State Buckeyes",
+      "away_team": "Prairie View A&M Panthers",
+      "home_abbr": "OSU",
+      "away_abbr": "PV",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-2",
+      "away_record": "2-3",
+      "home_location": "Ohio State",
+      "away_location": "Prairie View A&M",
+      "home_rating_team": "Ohio St.",
+      "away_rating_team": "Prairie View A&M",
+      "home_adj_em": 19.32,
+      "away_adj_em": -9.78,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Schottenstein Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "B1G+",
+      "predicted_spread": 24.5,
+      "predicted_total": 154.2,
+      "home_projected_score": 89.3,
+      "away_projected_score": 64.9,
+      "home_win_prob": 98.7,
+      "away_win_prob": 1.3,
+      "confidence": 68.0,
+      "pick": "Ohio State Buckeyes",
+      "pick_abbr": "OSU",
+      "is_home_pick": true,
+      "projected_tempo": 71.0,
+      "factors": {
+        "efficiency_margin": 20.66,
+        "home_court": 3.81
+      },
+      "market": {
+        "spread": -33.5,
+        "over_under": 154.5,
+        "spread_holder": "OSU -33.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 9.0,
+      "model_vs_market": {
+        "spread_edge": -9.0,
+        "total_edge": -0.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 33.5,
+      "clv": null,
+      "actual_home_score": 86,
+      "actual_away_score": 59,
+      "actual_margin": 27,
+      "actual_total": 145,
+      "actual_winner": "Ohio State Buckeyes",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 488,
-      "model_mae": 9.55,
-      "market_mae": 9.17,
-      "intercept": -1.09,
-      "model_weight": 0.176,
-      "market_weight": 0.888,
+      "n": 491,
+      "model_mae": 9.59,
+      "market_mae": 9.2,
+      "intercept": -1.07,
+      "model_weight": 0.168,
+      "market_weight": 0.898,
       "ats_by_edge": {
         "0-2": {
-          "w": 93,
+          "w": 94,
           "l": 53,
-          "pct": 63.7
+          "pct": 63.9
         },
         "2-4": {
           "w": 76,
@@ -83026,9 +83230,9 @@
           "pct": 49.5
         },
         "7+": {
-          "w": 23,
-          "l": 21,
-          "pct": 52.3
+          "w": 24,
+          "l": 22,
+          "pct": 52.2
         }
       }
     },
@@ -83055,26 +83259,26 @@
         "n": 0
       }
     },
-    "total_graded": 489,
-    "ats_graded": 429,
+    "total_graded": 492,
+    "ats_graded": 432,
     "ats": {
-      "w": 242,
-      "l": 187,
+      "w": 244,
+      "l": 188,
       "p": 0,
-      "pct": 56.4
+      "pct": 56.5
     },
     "su": {
-      "correct": 387,
-      "total": 489,
+      "correct": 389,
+      "total": 492,
       "pct": 79.1
     },
     "ou": {
-      "over": 216,
-      "under": 272,
+      "over": 217,
+      "under": 274,
       "push": 0,
-      "model_correct": 246,
-      "model_gradeable": 488,
-      "model_pct": 50.4
+      "model_correct": 249,
+      "model_gradeable": 491,
+      "model_pct": 50.7
     },
     "by_confidence": {
       "high": {
@@ -83084,10 +83288,10 @@
         "pct": 38.7
       },
       "medium": {
-        "w": 230,
-        "l": 168,
+        "w": 232,
+        "l": 169,
         "p": 0,
-        "pct": 57.8
+        "pct": 57.9
       },
       "low": {
         "w": 0,
@@ -83097,8 +83301,8 @@
       }
     },
     "value_plays": {
-      "w": 100,
-      "l": 98,
+      "w": 101,
+      "l": 99,
       "p": 0,
       "pct": 50.5
     },
@@ -83112,17 +83316,17 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1196,
-        "model_mae": 10.34,
-        "market_mae": 9.03,
+        "n": 1199,
+        "model_mae": 10.35,
+        "market_mae": 9.04,
         "intercept": -0.0,
         "model_weight": -0.003,
-        "market_weight": 0.992,
+        "market_weight": 0.995,
         "ats_by_edge": {
           "0-2": {
-            "w": 207,
+            "w": 208,
             "l": 175,
-            "pct": 54.2
+            "pct": 54.3
           },
           "2-4": {
             "w": 171,
@@ -83135,8 +83339,8 @@
             "pct": 50.9
           },
           "7+": {
-            "w": 84,
-            "l": 83,
+            "w": 85,
+            "l": 84,
             "pct": 50.3
           }
         }
@@ -83164,26 +83368,26 @@
           "n": 0
         }
       },
-      "total_graded": 1207,
-      "ats_graded": 1035,
+      "total_graded": 1210,
+      "ats_graded": 1038,
       "ats": {
-        "w": 550,
-        "l": 485,
+        "w": 552,
+        "l": 486,
         "p": 0,
-        "pct": 53.1
+        "pct": 53.2
       },
       "su": {
-        "correct": 855,
-        "total": 1207,
+        "correct": 857,
+        "total": 1210,
         "pct": 70.8
       },
       "ou": {
-        "over": 566,
-        "under": 630,
+        "over": 567,
+        "under": 632,
         "push": 0,
-        "model_correct": 603,
-        "model_gradeable": 1196,
-        "model_pct": 50.4
+        "model_correct": 606,
+        "model_gradeable": 1199,
+        "model_pct": 50.5
       },
       "by_confidence": {
         "high": {
@@ -83193,10 +83397,10 @@
           "pct": 47.5
         },
         "medium": {
-          "w": 397,
-          "l": 314,
+          "w": 399,
+          "l": 315,
           "p": 0,
-          "pct": 55.8
+          "pct": 55.9
         },
         "low": {
           "w": 41,
@@ -83206,8 +83410,8 @@
         }
       },
       "value_plays": {
-        "w": 245,
-        "l": 228,
+        "w": 246,
+        "l": 229,
         "p": 0,
         "pct": 51.8
       },
@@ -83219,5 +83423,5 @@
       }
     }
   },
-  "generated_at": "2026-11-16T18:53:25.767019-05:00"
+  "generated_at": "2026-11-16T20:46:05.378850-05:00"
 }

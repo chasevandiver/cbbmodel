@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-16T18:53:25.880467-05:00",
+ "generated_at": "2026-11-16T20:46:05.482576-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-16",
@@ -104,7 +104,7 @@
    "game_id": "401916298",
    "game_id_source": "espn",
    "start_time": "2026-11-16T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Maryland Terrapins",
     "abbr": "MD",
@@ -157,7 +157,19 @@
     "side": "away",
     "cover_line": 36.5
    },
-   "result": null,
+   "result": {
+    "home_score": 117,
+    "away_score": 57,
+    "margin_home": 60,
+    "total": 174,
+    "winner": "Maryland Terrapins",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "value"
    ]
@@ -172,7 +184,7 @@
    "game_id": "401921087",
    "game_id_source": "espn",
    "start_time": "2026-11-16T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UMBC Retrievers",
     "abbr": "UMBC",
@@ -225,7 +237,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 75,
+    "away_score": 67,
+    "margin_home": 8,
+    "total": 142,
+    "winner": "UMBC Retrievers",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -238,7 +262,7 @@
    "game_id": "401916317",
    "game_id_source": "espn",
    "start_time": "2026-11-16T23:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Ohio State Buckeyes",
     "abbr": "OSU",
@@ -291,7 +315,19 @@
     "side": "away",
     "cover_line": 33.5
    },
-   "result": null,
+   "result": {
+    "home_score": 86,
+    "away_score": 59,
+    "margin_home": 27,
+    "total": 145,
+    "winner": "Ohio State Buckeyes",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "value"
    ]
@@ -1378,10 +1414,10 @@
    },
    "closing": {
     "spread_home": -16.5,
-    "total": 153.5,
+    "total": 154.5,
     "favorite": "Oregon St Beavers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+    "captured_at": "2026-11-16T20:46:04.960359-05:00"
    },
    "edge": {
     "spread": -4.1,
@@ -1456,7 +1492,7 @@
     "total": 150.5,
     "favorite": "Saint Mary's Gaels",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+    "captured_at": "2026-11-16T20:46:04.960359-05:00"
    },
    "edge": {
     "spread": -0.6,
@@ -1528,7 +1564,7 @@
     "total": 157.5,
     "favorite": "UC San Diego Tritons",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+    "captured_at": "2026-11-16T20:46:04.960359-05:00"
    },
    "edge": {
     "spread": -3.6,
@@ -1600,10 +1636,10 @@
    },
    "closing": {
     "spread_home": -29.5,
-    "total": 145.5,
+    "total": 144.5,
     "favorite": "UCLA Bruins",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-16T18:53:10.427631-05:00"
+    "captured_at": "2026-11-16T20:46:04.960359-05:00"
    },
    "edge": {
     "spread": -10.0,
