@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-16T23:14:29.305198-05:00",
+ "generated_at": "2026-11-17T00:12:06.341077-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-16",
@@ -1538,7 +1538,7 @@
    "game_id": "401929192",
    "game_id_source": "espn",
    "start_time": "2026-11-17T02:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Oregon State Beavers",
     "abbr": "ORST",
@@ -1597,7 +1597,19 @@
     "side": "away",
     "cover_line": 17.5
    },
-   "result": null,
+   "result": {
+    "home_score": 109,
+    "away_score": 71,
+    "margin_home": 38,
+    "total": 180,
+    "winner": "Oregon State Beavers",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -1613,7 +1625,7 @@
    "game_id": "401917532",
    "game_id_source": "espn",
    "start_time": "2026-11-17T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
@@ -1672,7 +1684,19 @@
     "side": "away",
     "cover_line": 17.5
    },
-   "result": null,
+   "result": {
+    "home_score": 94,
+    "away_score": 78,
+    "margin_home": 16,
+    "total": 172,
+    "winner": "Saint Mary's Gaels",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -1760,7 +1784,7 @@
    "game_id": "401924265",
    "game_id_source": "espn",
    "start_time": "2026-11-17T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UCLA Bruins",
     "abbr": "UCLA",
@@ -1819,7 +1843,19 @@
     "side": "away",
     "cover_line": 34.5
    },
-   "result": null,
+   "result": {
+    "home_score": 105,
+    "away_score": 66,
+    "margin_home": 39,
+    "total": 171,
+    "winner": "UCLA Bruins",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 4.0
+   },
    "tags": [
     "value"
    ]

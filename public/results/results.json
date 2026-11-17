@@ -84253,21 +84253,246 @@
       "ou_result": "O",
       "model_ou_call": "U",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401929192",
+      "date": "2026-11-17T02:30Z",
+      "home_team": "Oregon State Beavers",
+      "away_team": "East Texas A&M Lions",
+      "home_abbr": "ORST",
+      "away_abbr": "ETAM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2837.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-0",
+      "away_record": "3-1",
+      "home_location": "Oregon State",
+      "away_location": "East Texas A&M",
+      "home_rating_team": "Oregon St.",
+      "away_rating_team": "East Texas A&M",
+      "home_adj_em": 9.53,
+      "away_adj_em": -3.36,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Gill Coliseum",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "YouTube",
+      "predicted_spread": 13.4,
+      "predicted_total": 152.0,
+      "home_projected_score": 82.7,
+      "away_projected_score": 69.3,
+      "home_win_prob": 88.8,
+      "away_win_prob": 11.2,
+      "confidence": 65.4,
+      "pick": "Oregon State Beavers",
+      "pick_abbr": "ORST",
+      "is_home_pick": true,
+      "projected_tempo": 72.3,
+      "factors": {
+        "efficiency_margin": 9.33,
+        "home_court": 4.06
+      },
+      "market": {
+        "spread": -17.5,
+        "over_under": 152.5,
+        "spread_holder": "Oregon St Beavers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 4.1,
+      "model_vs_market": {
+        "spread_edge": -4.1,
+        "total_edge": -0.5
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -16.5,
+        "over_under": 154.5,
+        "spread_holder": "Oregon St Beavers",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-16T20:46:04.960359-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 17.5,
+      "clv": 1.0,
+      "actual_home_score": 109,
+      "actual_away_score": 71,
+      "actual_margin": 38,
+      "actual_total": 180,
+      "actual_winner": "Oregon State Beavers",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401917532",
+      "date": "2026-11-17T03:00Z",
+      "home_team": "Saint Mary's Gaels",
+      "away_team": "Portland State Vikings",
+      "home_abbr": "SMC",
+      "away_abbr": "PRST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-1",
+      "away_record": "2-2",
+      "home_location": "Saint Mary's",
+      "away_location": "Portland State",
+      "home_rating_team": "Saint Mary's",
+      "away_rating_team": "Portland St.",
+      "home_adj_em": 14.49,
+      "away_adj_em": -3.68,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "University Credit Union Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 16.9,
+      "predicted_total": 150.9,
+      "home_projected_score": 83.9,
+      "away_projected_score": 67.0,
+      "home_win_prob": 93.8,
+      "away_win_prob": 6.2,
+      "confidence": 46.5,
+      "pick": "Saint Mary's Gaels",
+      "pick_abbr": "SMC",
+      "is_home_pick": true,
+      "projected_tempo": 70.6,
+      "factors": {
+        "efficiency_margin": 12.83,
+        "home_court": 4.05
+      },
+      "market": {
+        "spread": -17.5,
+        "over_under": 149.5,
+        "spread_holder": "Saint Mary's Gaels",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.6,
+      "model_vs_market": {
+        "spread_edge": -0.6,
+        "total_edge": 1.4
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -18.5,
+        "over_under": 150.5,
+        "spread_holder": "Saint Mary's Gaels",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-16T21:49:34.946573-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 17.5,
+      "clv": -1.0,
+      "actual_home_score": 94,
+      "actual_away_score": 78,
+      "actual_margin": 16,
+      "actual_total": 172,
+      "actual_winner": "Saint Mary's Gaels",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401924265",
+      "date": "2026-11-17T03:00Z",
+      "home_team": "UCLA Bruins",
+      "away_team": "Long Beach State Beach",
+      "home_abbr": "UCLA",
+      "away_abbr": "LBSU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/299.png",
+      "home_rank": 7,
+      "away_rank": 99,
+      "home_record": "3-0",
+      "away_record": "1-2",
+      "home_location": "UCLA",
+      "away_location": "Long Beach State",
+      "home_rating_team": "UCLA",
+      "away_rating_team": "Long Beach St.",
+      "home_adj_em": 23.12,
+      "away_adj_em": -6.91,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Pauley Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "BTN",
+      "predicted_spread": 24.5,
+      "predicted_total": 150.1,
+      "home_projected_score": 87.3,
+      "away_projected_score": 62.8,
+      "home_win_prob": 98.7,
+      "away_win_prob": 1.3,
+      "confidence": 67.0,
+      "pick": "UCLA Bruins",
+      "pick_abbr": "UCLA",
+      "is_home_pick": true,
+      "projected_tempo": 69.0,
+      "factors": {
+        "efficiency_margin": 20.71,
+        "home_court": 3.8
+      },
+      "market": {
+        "spread": -34.5,
+        "over_under": 147.5,
+        "spread_holder": "UCLA Bruins",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 10.0,
+      "model_vs_market": {
+        "spread_edge": -10.0,
+        "total_edge": 2.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -30.5,
+        "over_under": 144.5,
+        "spread_holder": "UCLA Bruins",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-16T21:49:34.946573-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 34.5,
+      "clv": 4.0,
+      "actual_home_score": 105,
+      "actual_away_score": 66,
+      "actual_margin": 39,
+      "actual_total": 171,
+      "actual_winner": "UCLA Bruins",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 505,
-      "model_mae": 9.7,
+      "n": 508,
+      "model_mae": 9.72,
       "market_mae": 9.27,
-      "intercept": -1.18,
-      "model_weight": 0.165,
-      "market_weight": 0.91,
+      "intercept": -1.16,
+      "model_weight": 0.153,
+      "market_weight": 0.922,
       "ats_by_edge": {
         "0-2": {
-          "w": 96,
+          "w": 97,
           "l": 56,
-          "pct": 63.2
+          "pct": 63.4
         },
         "2-4": {
           "w": 77,
@@ -84276,21 +84501,21 @@
         },
         "4-7": {
           "w": 51,
-          "l": 53,
-          "pct": 49.0
+          "l": 54,
+          "pct": 48.6
         },
         "7+": {
           "w": 25,
-          "l": 23,
-          "pct": 52.1
+          "l": 24,
+          "pct": 51.0
         }
       }
     },
     "clv": {
-      "n": 339,
-      "avg": 0.17,
-      "beat_close_pct": 35.7,
-      "beat_or_matched_pct": 77.3
+      "n": 342,
+      "avg": 0.18,
+      "beat_close_pct": 36.0,
+      "beat_or_matched_pct": 77.2
     },
     "clv_by_confidence": {
       "high": {
@@ -84300,35 +84525,35 @@
         "beat_or_matched_pct": 82.6
       },
       "medium": {
-        "n": 316,
-        "avg": 0.16,
-        "beat_close_pct": 35.8,
-        "beat_or_matched_pct": 76.9
+        "n": 319,
+        "avg": 0.18,
+        "beat_close_pct": 36.1,
+        "beat_or_matched_pct": 76.8
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 506,
-    "ats_graded": 445,
+    "total_graded": 509,
+    "ats_graded": 448,
     "ats": {
-      "w": 249,
-      "l": 196,
+      "w": 250,
+      "l": 198,
       "p": 0,
-      "pct": 56.0
+      "pct": 55.8
     },
     "su": {
-      "correct": 400,
-      "total": 506,
-      "pct": 79.1
+      "correct": 403,
+      "total": 509,
+      "pct": 79.2
     },
     "ou": {
-      "over": 223,
+      "over": 226,
       "under": 282,
       "push": 0,
-      "model_correct": 256,
-      "model_gradeable": 505,
-      "model_pct": 50.7
+      "model_correct": 258,
+      "model_gradeable": 508,
+      "model_pct": 50.8
     },
     "by_confidence": {
       "high": {
@@ -84338,10 +84563,10 @@
         "pct": 40.6
       },
       "medium": {
-        "w": 236,
-        "l": 177,
+        "w": 237,
+        "l": 179,
         "p": 0,
-        "pct": 57.1
+        "pct": 57.0
       },
       "low": {
         "w": 0,
@@ -84352,31 +84577,31 @@
     },
     "value_plays": {
       "w": 104,
-      "l": 103,
+      "l": 105,
       "p": 0,
-      "pct": 50.2
+      "pct": 49.8
     },
     "best_bets": {
       "w": 60,
-      "l": 67,
+      "l": 68,
       "p": 0,
-      "pct": 47.2
+      "pct": 46.9
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1213,
-        "model_mae": 10.39,
+        "n": 1216,
+        "model_mae": 10.4,
         "market_mae": 9.07,
         "intercept": -0.05,
         "model_weight": -0.003,
-        "market_weight": 1.001,
+        "market_weight": 1.004,
         "ats_by_edge": {
           "0-2": {
-            "w": 210,
+            "w": 211,
             "l": 178,
-            "pct": 54.1
+            "pct": 54.2
           },
           "2-4": {
             "w": 172,
@@ -84385,21 +84610,21 @@
           },
           "4-7": {
             "w": 89,
-            "l": 87,
-            "pct": 50.6
+            "l": 88,
+            "pct": 50.3
           },
           "7+": {
             "w": 86,
-            "l": 85,
-            "pct": 50.3
+            "l": 86,
+            "pct": 50.0
           }
         }
       },
       "clv": {
-        "n": 339,
-        "avg": 0.17,
-        "beat_close_pct": 35.7,
-        "beat_or_matched_pct": 77.3
+        "n": 342,
+        "avg": 0.18,
+        "beat_close_pct": 36.0,
+        "beat_or_matched_pct": 77.2
       },
       "clv_by_confidence": {
         "high": {
@@ -84409,35 +84634,35 @@
           "beat_or_matched_pct": 82.6
         },
         "medium": {
-          "n": 316,
-          "avg": 0.16,
-          "beat_close_pct": 35.8,
-          "beat_or_matched_pct": 76.9
+          "n": 319,
+          "avg": 0.18,
+          "beat_close_pct": 36.1,
+          "beat_or_matched_pct": 76.8
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1224,
-      "ats_graded": 1051,
+      "total_graded": 1227,
+      "ats_graded": 1054,
       "ats": {
-        "w": 557,
-        "l": 494,
+        "w": 558,
+        "l": 496,
         "p": 0,
-        "pct": 53.0
+        "pct": 52.9
       },
       "su": {
-        "correct": 868,
-        "total": 1224,
-        "pct": 70.9
+        "correct": 871,
+        "total": 1227,
+        "pct": 71.0
       },
       "ou": {
-        "over": 573,
+        "over": 576,
         "under": 640,
         "push": 0,
-        "model_correct": 613,
-        "model_gradeable": 1213,
-        "model_pct": 50.5
+        "model_correct": 615,
+        "model_gradeable": 1216,
+        "model_pct": 50.6
       },
       "by_confidence": {
         "high": {
@@ -84447,10 +84672,10 @@
           "pct": 47.7
         },
         "medium": {
-          "w": 403,
-          "l": 323,
+          "w": 404,
+          "l": 325,
           "p": 0,
-          "pct": 55.5
+          "pct": 55.4
         },
         "low": {
           "w": 41,
@@ -84461,17 +84686,17 @@
       },
       "value_plays": {
         "w": 249,
-        "l": 233,
+        "l": 235,
         "p": 0,
-        "pct": 51.7
+        "pct": 51.4
       },
       "best_bets": {
         "w": 97,
-        "l": 98,
+        "l": 99,
         "p": 0,
-        "pct": 49.7
+        "pct": 49.5
       }
     }
   },
-  "generated_at": "2026-11-16T23:14:29.202219-05:00"
+  "generated_at": "2026-11-17T00:12:06.197041-05:00"
 }
