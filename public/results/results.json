@@ -84553,16 +84553,152 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401927381",
+      "date": "2026-11-17T17:00Z",
+      "home_team": "Murray State Racers",
+      "away_team": "Hofstra Pride",
+      "home_abbr": "MUR",
+      "away_abbr": "HOF",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/93.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2275.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-0",
+      "away_record": "2-3",
+      "home_location": "Murray State",
+      "away_location": "Hofstra",
+      "home_rating_team": "Murray St.",
+      "away_rating_team": "Hofstra",
+      "home_adj_em": 8.2,
+      "away_adj_em": -0.47,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Landers Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 6.1,
+      "predicted_total": 144.9,
+      "home_projected_score": 75.5,
+      "away_projected_score": 69.4,
+      "home_win_prob": 70.9,
+      "away_win_prob": 29.1,
+      "confidence": 75.7,
+      "pick": "Murray State Racers",
+      "pick_abbr": "MUR",
+      "is_home_pick": true,
+      "projected_tempo": 70.1,
+      "factors": {
+        "efficiency_margin": 6.07,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -11.5,
+        "over_under": 148.5,
+        "spread_holder": "Murray St Racers",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 5.4,
+      "model_vs_market": {
+        "spread_edge": -5.4,
+        "total_edge": -3.6
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 11.5,
+      "clv": null,
+      "actual_home_score": 82,
+      "actual_away_score": 66,
+      "actual_margin": 16,
+      "actual_total": 148,
+      "actual_winner": "Murray State Racers",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401920511",
+      "date": "2026-11-17T19:00Z",
+      "home_team": "Houston Cougars",
+      "away_team": "Rutgers Scarlet Knights",
+      "home_abbr": "HOU",
+      "away_abbr": "RUTG",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+      "home_rank": 8,
+      "away_rank": 99,
+      "home_record": "4-0",
+      "away_record": "3-1",
+      "home_location": "Houston",
+      "away_location": "Rutgers",
+      "home_rating_team": "Houston",
+      "away_rating_team": "Rutgers",
+      "home_adj_em": 27.62,
+      "away_adj_em": 11.44,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": 11.1,
+      "predicted_total": 147.6,
+      "home_projected_score": 79.3,
+      "away_projected_score": 68.3,
+      "home_win_prob": 84.3,
+      "away_win_prob": 15.7,
+      "confidence": 69.8,
+      "pick": "Houston Cougars",
+      "pick_abbr": "HOU",
+      "is_home_pick": true,
+      "projected_tempo": 68.4,
+      "factors": {
+        "efficiency_margin": 11.06,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -16.5,
+        "over_under": 142.5,
+        "spread_holder": "HOU -16.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 5.4,
+      "model_vs_market": {
+        "spread_edge": -5.4,
+        "total_edge": 5.1
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 16.5,
+      "clv": null,
+      "actual_home_score": 85,
+      "actual_away_score": 73,
+      "actual_margin": 12,
+      "actual_total": 158,
+      "actual_winner": "Houston Cougars",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 509,
-      "model_mae": 9.73,
-      "market_mae": 9.28,
-      "intercept": -1.17,
-      "model_weight": 0.154,
-      "market_weight": 0.92,
+      "n": 511,
+      "model_mae": 9.71,
+      "market_mae": 9.26,
+      "intercept": -1.16,
+      "model_weight": 0.151,
+      "market_weight": 0.922,
       "ats_by_edge": {
         "0-2": {
           "w": 97,
@@ -84575,8 +84711,8 @@
           "pct": 54.9
         },
         "4-7": {
-          "w": 51,
-          "l": 54,
+          "w": 52,
+          "l": 55,
           "pct": 48.6
         },
         "7+": {
@@ -84609,39 +84745,39 @@
         "n": 0
       }
     },
-    "total_graded": 510,
-    "ats_graded": 449,
+    "total_graded": 512,
+    "ats_graded": 451,
     "ats": {
-      "w": 251,
-      "l": 198,
+      "w": 252,
+      "l": 199,
       "p": 0,
       "pct": 55.9
     },
     "su": {
-      "correct": 404,
-      "total": 510,
-      "pct": 79.2
+      "correct": 406,
+      "total": 512,
+      "pct": 79.3
     },
     "ou": {
-      "over": 227,
-      "under": 282,
+      "over": 228,
+      "under": 283,
       "push": 0,
-      "model_correct": 258,
-      "model_gradeable": 509,
-      "model_pct": 50.7
+      "model_correct": 260,
+      "model_gradeable": 511,
+      "model_pct": 50.9
     },
     "by_confidence": {
       "high": {
         "w": 13,
-        "l": 19,
+        "l": 20,
         "p": 0,
-        "pct": 40.6
+        "pct": 39.4
       },
       "medium": {
-        "w": 238,
+        "w": 239,
         "l": 179,
         "p": 0,
-        "pct": 57.1
+        "pct": 57.2
       },
       "low": {
         "w": 0,
@@ -84651,14 +84787,14 @@
       }
     },
     "value_plays": {
-      "w": 105,
-      "l": 105,
+      "w": 106,
+      "l": 106,
       "p": 0,
       "pct": 50.0
     },
     "best_bets": {
-      "w": 61,
-      "l": 68,
+      "w": 62,
+      "l": 69,
       "p": 0,
       "pct": 47.3
     },
@@ -84666,11 +84802,11 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1217,
-        "model_mae": 10.4,
-        "market_mae": 9.07,
+        "n": 1219,
+        "model_mae": 10.39,
+        "market_mae": 9.06,
         "intercept": -0.05,
-        "model_weight": -0.003,
+        "model_weight": -0.004,
         "market_weight": 1.002,
         "ats_by_edge": {
           "0-2": {
@@ -84684,8 +84820,8 @@
             "pct": 54.6
           },
           "4-7": {
-            "w": 89,
-            "l": 88,
+            "w": 90,
+            "l": 89,
             "pct": 50.3
           },
           "7+": {
@@ -84718,36 +84854,36 @@
           "n": 0
         }
       },
-      "total_graded": 1228,
-      "ats_graded": 1055,
+      "total_graded": 1230,
+      "ats_graded": 1057,
       "ats": {
-        "w": 559,
-        "l": 496,
+        "w": 560,
+        "l": 497,
         "p": 0,
         "pct": 53.0
       },
       "su": {
-        "correct": 872,
-        "total": 1228,
-        "pct": 71.0
+        "correct": 874,
+        "total": 1230,
+        "pct": 71.1
       },
       "ou": {
-        "over": 577,
-        "under": 640,
+        "over": 578,
+        "under": 641,
         "push": 0,
-        "model_correct": 615,
-        "model_gradeable": 1217,
-        "model_pct": 50.5
+        "model_correct": 617,
+        "model_gradeable": 1219,
+        "model_pct": 50.6
       },
       "by_confidence": {
         "high": {
           "w": 113,
-          "l": 124,
+          "l": 125,
           "p": 0,
-          "pct": 47.7
+          "pct": 47.5
         },
         "medium": {
-          "w": 405,
+          "w": 406,
           "l": 325,
           "p": 0,
           "pct": 55.5
@@ -84760,18 +84896,18 @@
         }
       },
       "value_plays": {
-        "w": 250,
-        "l": 235,
+        "w": 251,
+        "l": 236,
         "p": 0,
         "pct": 51.5
       },
       "best_bets": {
-        "w": 98,
-        "l": 99,
+        "w": 99,
+        "l": 100,
         "p": 0,
         "pct": 49.7
       }
     }
   },
-  "generated_at": "2026-11-17T17:17:26.822202-05:00"
+  "generated_at": "2026-11-17T18:13:36.750697-05:00"
 }

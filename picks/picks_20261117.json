@@ -58,7 +58,14 @@
         "total_edge": -0.6
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 8.5,
+        "over_under": 133.5,
+        "spread_holder": "Seattle Redhawks",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401927381",
@@ -220,7 +227,14 @@
         "total_edge": 1.1
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -12.5,
+        "over_under": 150.5,
+        "spread_holder": "Wyoming Cowboys",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401906773",
@@ -382,7 +396,14 @@
         "total_edge": 1.6
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -11.5,
+        "over_under": 142.5,
+        "spread_holder": "UC Davis Aggies",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401909544",
@@ -436,7 +457,14 @@
         "total_edge": -4.6
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -32.5,
+        "over_under": 157.5,
+        "spread_holder": "Xavier Musketeers",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401918970",
@@ -490,7 +518,14 @@
         "total_edge": -3.1
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -21.5,
+        "over_under": 155.5,
+        "spread_holder": "SMU Mustangs",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401906851",
@@ -544,7 +579,14 @@
         "total_edge": 0.7
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 2.5,
+        "over_under": 149.5,
+        "spread_holder": "Michigan St Spartans",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401920953",
@@ -652,7 +694,14 @@
         "total_edge": 1.9
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -27.5,
+        "over_under": 142.5,
+        "spread_holder": "Ole Miss Rebels",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401909535",
@@ -706,7 +755,14 @@
         "total_edge": -2.5
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -30.5,
+        "over_under": 154.5,
+        "spread_holder": "Providence Friars",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401920297",
@@ -814,7 +870,14 @@
         "total_edge": 0.2
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -41.5,
+        "over_under": 148.5,
+        "spread_holder": "Miami Hurricanes",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401916289",
@@ -922,7 +985,14 @@
         "total_edge": 4.0
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -29.5,
+        "over_under": 125.5,
+        "spread_holder": "DePaul Blue Demons",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401920512",
@@ -1030,7 +1100,14 @@
         "total_edge": -7.5
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 155.5,
+        "spread_holder": "Middle Tennessee Blue Raiders",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401906761",
@@ -1084,7 +1161,14 @@
         "total_edge": -14.1
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -25.5,
+        "over_under": 179.5,
+        "spread_holder": "Alabama Crimson Tide",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401921729",
@@ -1138,7 +1222,14 @@
         "total_edge": -2.2
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -6.5,
+        "over_under": 142.5,
+        "spread_holder": "Stanford Cardinal",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401922251",
@@ -1192,7 +1283,14 @@
         "total_edge": -3.0
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 5.5,
+        "over_under": 145.5,
+        "spread_holder": "Green Bay Phoenix",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401918994",
@@ -1246,7 +1344,14 @@
         "total_edge": -9.0
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -11.5,
+        "over_under": 164.5,
+        "spread_holder": "South Florida Bulls",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401921756",
@@ -1300,7 +1405,14 @@
         "total_edge": 3.6
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 154.5,
+        "spread_holder": "UCF Knights",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401909697",
@@ -1354,7 +1466,14 @@
         "total_edge": -2.5
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -25.5,
+        "over_under": 151.5,
+        "spread_holder": "Florida St Seminoles",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401926781",
@@ -1408,7 +1527,14 @@
         "total_edge": 4.0
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 130.5,
+        "spread_holder": "Louisiana Tech Bulldogs",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401925879",
@@ -1462,7 +1588,14 @@
         "total_edge": 1.0
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -22.5,
+        "over_under": 151.5,
+        "spread_holder": "Gonzaga Bulldogs",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401926143",
@@ -1516,7 +1649,14 @@
         "total_edge": -1.1
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -2.5,
+        "over_under": 146.5,
+        "spread_holder": "North Dakota Fighting Hawks",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401909566",
@@ -1570,7 +1710,14 @@
         "total_edge": -5.2
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -8.5,
+        "over_under": 167.5,
+        "spread_holder": "Duke Blue Devils",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401920921",
@@ -1678,7 +1825,14 @@
         "total_edge": -1.3
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 146.5,
+        "spread_holder": "Marshall Thundering Herd",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401923325",
@@ -1786,7 +1940,14 @@
         "total_edge": -4.1
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 158.5,
+        "spread_holder": "Omaha Mavericks",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401929358",
@@ -1840,7 +2001,14 @@
         "total_edge": 0.5
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 148.5,
+        "spread_holder": "Southern Miss Golden Eagles",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401925775",
@@ -1894,7 +2062,14 @@
         "total_edge": 10.4
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -3.5,
+        "over_under": 132.5,
+        "spread_holder": "Davidson Wildcats",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401909787",
@@ -1948,7 +2123,14 @@
         "total_edge": -1.2
       },
       "is_best_bet": true,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -16.5,
+        "over_under": 158.5,
+        "spread_holder": "Kansas Jayhawks",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401920720",
@@ -2002,7 +2184,14 @@
         "total_edge": 4.4
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -12.5,
+        "over_under": 145.5,
+        "spread_holder": "Utah Utes",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401909708",
@@ -2056,7 +2245,14 @@
         "total_edge": 0.4
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 148.5,
+        "spread_holder": "Villanova Wildcats",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401919783",
@@ -2110,7 +2306,14 @@
         "total_edge": 1.4
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -7.5,
+        "over_under": 147.5,
+        "spread_holder": "Evansville Purple Aces",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401921097",
@@ -2218,7 +2421,14 @@
         "total_edge": -7.5
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -2.5,
+        "over_under": 168.5,
+        "spread_holder": "William & Mary Tribe",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401919018",
@@ -2326,7 +2536,14 @@
         "total_edge": -2.1
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -11.5,
+        "over_under": 158.5,
+        "spread_holder": "Butler Bulldogs",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401921106",
@@ -2380,7 +2597,14 @@
         "total_edge": 5.1
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -17.5,
+        "over_under": 142.5,
+        "spread_holder": "Illinois St Redbirds",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401920426",
@@ -2434,7 +2658,14 @@
         "total_edge": 4.2
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -25.5,
+        "over_under": 144.5,
+        "spread_holder": "Virginia Cavaliers",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401909729",
@@ -2488,7 +2719,14 @@
         "total_edge": -0.3
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -14.5,
+        "over_under": 144.5,
+        "spread_holder": "Wake Forest Demon Deacons",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401911198",
@@ -2542,7 +2780,14 @@
         "total_edge": 3.6
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 11.5,
+        "over_under": 144.5,
+        "spread_holder": "Fordham Rams",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401927388",
@@ -2596,7 +2841,14 @@
         "total_edge": -1.1
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -13.5,
+        "over_under": 153.5,
+        "spread_holder": "Northern Iowa Panthers",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401911019",
@@ -2650,7 +2902,14 @@
         "total_edge": 0.4
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -12.5,
+        "over_under": 144.5,
+        "spread_holder": "Dayton Flyers",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401920308",
@@ -2704,7 +2963,14 @@
         "total_edge": -4.2
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -20.5,
+        "over_under": 150.5,
+        "spread_holder": "Georgia Tech Yellow Jackets",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401924941",
@@ -2758,7 +3024,14 @@
         "total_edge": -2.6
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 15.5,
+        "over_under": 146.5,
+        "spread_holder": "Akron Zips",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401911020",
@@ -2812,7 +3085,14 @@
         "total_edge": -0.5
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -9.5,
+        "over_under": 141.5,
+        "spread_holder": "Massachusetts Minutemen",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401921826",
@@ -2866,7 +3146,14 @@
         "total_edge": 2.2
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -40.5,
+        "over_under": 147.5,
+        "spread_holder": "Vanderbilt Commodores",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401920194",
@@ -2920,7 +3207,14 @@
         "total_edge": -1.3
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -16.5,
+        "over_under": 137.5,
+        "spread_holder": "Saint Joseph's Hawks",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     },
     {
       "game_id": "401920706",
@@ -2974,7 +3268,14 @@
         "total_edge": -0.9
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -21.5,
+        "over_under": 148.5,
+        "spread_holder": "Purdue Boilermakers",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T18:13:35.500906-05:00"
+      }
     }
   ],
   "summary": {
