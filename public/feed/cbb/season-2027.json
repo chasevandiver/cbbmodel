@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-16T21:49:36.036309-05:00",
+ "generated_at": "2026-11-16T23:14:29.305198-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -42169,7 +42169,7 @@
    "game_id": "401909798",
    "game_id_source": "espn",
    "start_time": "2026-11-17T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Kansas State Wildcats",
     "abbr": "KSU",
@@ -42228,7 +42228,19 @@
     "side": "away",
     "cover_line": 16.5
    },
-   "result": null,
+   "result": {
+    "home_score": 86,
+    "away_score": 45,
+    "margin_home": 41,
+    "total": 131,
+    "winner": "Kansas State Wildcats",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": []
   },
   {
@@ -42241,7 +42253,7 @@
    "game_id": "401916307",
    "game_id_source": "espn",
    "start_time": "2026-11-17T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Minnesota Golden Gophers",
     "abbr": "MINN",
@@ -42300,7 +42312,19 @@
     "side": "away",
     "cover_line": 35.5
    },
-   "result": null,
+   "result": {
+    "home_score": 99,
+    "away_score": 63,
+    "margin_home": 36,
+    "total": 162,
+    "winner": "Minnesota Golden Gophers",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 2.0
+   },
    "tags": [
     "value"
    ]
@@ -42315,7 +42339,7 @@
    "game_id": "401917917",
    "game_id_source": "espn",
    "start_time": "2026-11-17T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Oklahoma State Cowboys",
     "abbr": "OKST",
@@ -42374,7 +42398,19 @@
     "side": "away",
     "cover_line": 21.5
    },
-   "result": null,
+   "result": {
+    "home_score": 99,
+    "away_score": 66,
+    "margin_home": 33,
+    "total": 165,
+    "winner": "Oklahoma State Cowboys",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 3.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -42390,7 +42426,7 @@
    "game_id": "401917964",
    "game_id_source": "espn",
    "start_time": "2026-11-17T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Missouri State Bears",
     "abbr": "MOST",
@@ -42449,7 +42485,19 @@
     "side": "away",
     "cover_line": 6.5
    },
-   "result": null,
+   "result": {
+    "home_score": 73,
+    "away_score": 64,
+    "margin_home": 9,
+    "total": 137,
+    "winner": "Missouri State Bears",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -42549,7 +42597,7 @@
    "game_id": "401920808",
    "game_id_source": "espn",
    "start_time": "2026-11-17T01:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Texas A&M Aggies",
     "abbr": "TA&M",
@@ -42608,7 +42656,19 @@
     "side": "away",
     "cover_line": 33.5
    },
-   "result": null,
+   "result": {
+    "home_score": 101,
+    "away_score": 69,
+    "margin_home": 32,
+    "total": 170,
+    "winner": "Texas A&M Aggies",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": [
     "value"
    ]
