@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-17T03:46:53.458226-05:00",
+ "generated_at": "2026-11-17T05:55:35.150864-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-17",
@@ -1546,7 +1546,7 @@
    },
    "market": {
     "spread_home": -1.5,
-    "total": 137.5,
+    "total": 136.5,
     "favorite": "MSM -1.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -1554,7 +1554,7 @@
    "closing": null,
    "edge": {
     "spread": -1.6,
-    "total": 3.2,
+    "total": 4.2,
     "value_rating": 1.6,
     "is_best_bet": false
    },
@@ -2749,7 +2749,7 @@
    },
    "market": {
     "spread_home": 2.5,
-    "total": 150.5,
+    "total": 155.5,
     "favorite": "Lamar Cardinals",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -2757,7 +2757,7 @@
    "closing": null,
    "edge": {
     "spread": 1.1,
-    "total": 0.7,
+    "total": -4.3,
     "value_rating": 1.1,
     "is_best_bet": false
    },
@@ -2804,7 +2804,7 @@
     "home_score": 73.1,
     "away_score": 72.1,
     "home_win_prob": 53.6,
-    "confidence": 60.1,
+    "confidence": 64.1,
     "tempo": 69.2,
     "confidence_tier": "medium",
     "pick": {
@@ -2814,7 +2814,7 @@
     }
    },
    "market": {
-    "spread_home": -2.5,
+    "spread_home": -3.5,
     "total": 146.5,
     "favorite": "North Dakota Fighting Hawks",
     "bookmaker": "betmgm",
@@ -2822,14 +2822,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.5,
+    "spread": -2.5,
     "total": -1.3,
-    "value_rating": 1.5,
+    "value_rating": 2.5,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 2.5
+    "cover_line": 3.5
    },
    "result": null,
    "tags": []
@@ -3149,7 +3149,7 @@
    },
    "market": {
     "spread_home": -30.5,
-    "total": 146.5,
+    "total": 145.5,
     "favorite": "Ole Miss Rebels",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -3157,7 +3157,7 @@
    "closing": null,
    "edge": {
     "spread": -8.7,
-    "total": 0.9,
+    "total": 1.9,
     "value_rating": 8.7,
     "is_best_bet": false
    },
