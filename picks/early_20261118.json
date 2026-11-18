@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:10:39.910685-05:00",
+  "generated_at": "2026-11-18T05:27:23.815895-05:00",
   "date": "20261118",
   "total_games": 61,
   "model_version": "4.1.0",
@@ -37,7 +37,7 @@
       "away_projected_score": 72.0,
       "home_win_prob": 56.6,
       "away_win_prob": 43.4,
-      "confidence": 76.7,
+      "confidence": 72.7,
       "pick": "Duquesne Dukes",
       "pick_abbr": "DUQ",
       "is_home_pick": true,
@@ -47,72 +47,18 @@
         "home_court": 0.0
       },
       "market": {
-        "spread": -7.5,
+        "spread": -6.5,
         "over_under": 143.5,
         "spread_holder": "Duquesne Dukes",
         "bookmaker": "betmgm"
       },
-      "value_rating": 5.7,
+      "value_rating": 4.7,
       "model_vs_market": {
-        "spread_edge": -5.7,
+        "spread_edge": -4.7,
         "total_edge": 2.3
       },
       "is_best_bet": true,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401920963",
-      "date": "2026-11-19T00:00Z",
-      "home_team": "Ohio Bobcats",
-      "away_team": "Morehead State Eagles",
-      "home_abbr": "OHIO",
-      "away_abbr": "MORE",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-1",
-      "away_record": "3-2",
-      "home_location": "Ohio",
-      "away_location": "Morehead State",
-      "home_rating_team": "Ohio",
-      "away_rating_team": "Morehead St.",
-      "home_adj_em": -2.77,
-      "away_adj_em": -13.44,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Convocation Center (OH)",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 11.4,
-      "predicted_total": 153.2,
-      "home_projected_score": 82.3,
-      "away_projected_score": 70.9,
-      "home_win_prob": 84.9,
-      "away_win_prob": 15.1,
-      "confidence": 72.0,
-      "pick": "Ohio Bobcats",
-      "pick_abbr": "OHIO",
-      "is_home_pick": true,
-      "projected_tempo": 69.5,
-      "factors": {
-        "efficiency_margin": 7.42,
-        "home_court": 3.95
-      },
-      "market": {
-        "spread": -17.5,
-        "over_under": 150.5,
-        "spread_holder": "Ohio Bobcats",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 6.1,
-      "model_vs_market": {
-        "spread_edge": -6.1,
-        "total_edge": 2.7
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
     },
     {
       "game_id": "401921064",
@@ -169,6 +115,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401920974",
+      "date": "2026-11-18T23:30Z",
+      "home_team": "Winthrop Eagles",
+      "away_team": "Chattanooga Mocs",
+      "home_abbr": "WIN",
+      "away_abbr": "UTC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2737.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/236.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "0-4",
+      "away_record": "2-2",
+      "home_location": "Winthrop",
+      "away_location": "Chattanooga",
+      "home_rating_team": "Winthrop",
+      "away_rating_team": "Chattanooga",
+      "home_adj_em": -7.77,
+      "away_adj_em": -5.7,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Winthrop Coliseum",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 1.7,
+      "predicted_total": 159.6,
+      "home_projected_score": 80.6,
+      "away_projected_score": 79.0,
+      "home_win_prob": 56.1,
+      "away_win_prob": 43.9,
+      "confidence": 70.7,
+      "pick": "Winthrop Eagles",
+      "pick_abbr": "WIN",
+      "is_home_pick": true,
+      "projected_tempo": 71.5,
+      "factors": {
+        "efficiency_margin": -1.48,
+        "home_court": 3.16
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 164.5,
+        "spread_holder": "Chattanooga Mocs",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 4.2,
+      "model_vs_market": {
+        "spread_edge": 4.2,
+        "total_edge": -4.9
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401911377",
       "date": "2026-11-19T00:00Z",
       "home_team": "Charleston Southern Buccaneers",
@@ -218,6 +218,60 @@
       "model_vs_market": {
         "spread_edge": 4.1,
         "total_edge": -7.6
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401920963",
+      "date": "2026-11-19T00:00Z",
+      "home_team": "Ohio Bobcats",
+      "away_team": "Morehead State Eagles",
+      "home_abbr": "OHIO",
+      "away_abbr": "MORE",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-1",
+      "away_record": "3-2",
+      "home_location": "Ohio",
+      "away_location": "Morehead State",
+      "home_rating_team": "Ohio",
+      "away_rating_team": "Morehead St.",
+      "home_adj_em": -2.77,
+      "away_adj_em": -13.44,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Convocation Center (OH)",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 11.4,
+      "predicted_total": 153.2,
+      "home_projected_score": 82.3,
+      "away_projected_score": 70.9,
+      "home_win_prob": 84.9,
+      "away_win_prob": 15.1,
+      "confidence": 68.5,
+      "pick": "Ohio Bobcats",
+      "pick_abbr": "OHIO",
+      "is_home_pick": true,
+      "projected_tempo": 69.5,
+      "factors": {
+        "efficiency_margin": 7.42,
+        "home_court": 3.95
+      },
+      "market": {
+        "spread": -16.5,
+        "over_under": 150.5,
+        "spread_holder": "Ohio Bobcats",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 5.1,
+      "model_vs_market": {
+        "spread_edge": -5.1,
+        "total_edge": 2.7
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -318,14 +372,14 @@
       },
       "market": {
         "spread": -36.5,
-        "over_under": 158.5,
+        "over_under": 159.5,
         "spread_holder": "LSU Tigers",
         "bookmaker": "draftkings"
       },
       "value_rating": 9.1,
       "model_vs_market": {
         "spread_edge": -9.1,
-        "total_edge": -5.1
+        "total_edge": -6.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -655,60 +709,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401921134",
-      "date": "2026-11-19T00:30Z",
-      "home_team": "Texas Tech Red Raiders",
-      "away_team": "LSU New Orleans Privateers",
-      "home_abbr": "TTU",
-      "away_abbr": "NOLA",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2443.png",
-      "home_rank": 9,
-      "away_rank": 99,
-      "home_record": "4-0",
-      "away_record": "2-1",
-      "home_location": "Texas Tech",
-      "away_location": "LSU New Orleans",
-      "home_rating_team": "Texas Tech",
-      "away_rating_team": "New Orleans",
-      "home_adj_em": 24.16,
-      "away_adj_em": -6.39,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "United Supermarkets Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 25.3,
-      "predicted_total": 152.3,
-      "home_projected_score": 88.8,
-      "away_projected_score": 63.5,
-      "home_win_prob": 98.9,
-      "away_win_prob": 1.1,
-      "confidence": 67.0,
-      "pick": "Texas Tech Red Raiders",
-      "pick_abbr": "TTU",
-      "is_home_pick": true,
-      "projected_tempo": 70.4,
-      "factors": {
-        "efficiency_margin": 21.49,
-        "home_court": 3.77
-      },
-      "market": {
-        "spread": -34.5,
-        "over_under": 153.5,
-        "spread_holder": "Texas Tech Red Raiders",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 9.2,
-      "model_vs_market": {
-        "spread_edge": -9.2,
-        "total_edge": -1.2
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401911456",
       "date": "2026-11-19T03:00Z",
       "home_team": "Nevada Wolf Pack",
@@ -804,70 +804,16 @@
       },
       "market": {
         "spread": -34.5,
-        "over_under": 166.5,
+        "over_under": 165.5,
         "spread_holder": "UCLA -34.5",
         "bookmaker": "espn"
       },
       "value_rating": 9.4,
       "model_vs_market": {
         "spread_edge": -9.4,
-        "total_edge": -13.4
+        "total_edge": -12.4
       },
       "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401920974",
-      "date": "2026-11-18T23:30Z",
-      "home_team": "Winthrop Eagles",
-      "away_team": "Chattanooga Mocs",
-      "home_abbr": "WIN",
-      "away_abbr": "UTC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2737.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/236.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "0-4",
-      "away_record": "2-2",
-      "home_location": "Winthrop",
-      "away_location": "Chattanooga",
-      "home_rating_team": "Winthrop",
-      "away_rating_team": "Chattanooga",
-      "home_adj_em": -7.77,
-      "away_adj_em": -5.7,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Winthrop Coliseum",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 1.7,
-      "predicted_total": 159.6,
-      "home_projected_score": 80.6,
-      "away_projected_score": 79.0,
-      "home_win_prob": 56.1,
-      "away_win_prob": 43.9,
-      "confidence": 66.7,
-      "pick": "Winthrop Eagles",
-      "pick_abbr": "WIN",
-      "is_home_pick": true,
-      "projected_tempo": 71.5,
-      "factors": {
-        "efficiency_margin": -1.48,
-        "home_court": 3.16
-      },
-      "market": {
-        "spread": 1.5,
-        "over_under": 164.5,
-        "spread_holder": "Chattanooga Mocs",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 3.2,
-      "model_vs_market": {
-        "spread_edge": 3.2,
-        "total_edge": -4.9
-      },
-      "is_best_bet": true,
       "is_tournament_game": false
     },
     {
@@ -1020,14 +966,14 @@
       },
       "market": {
         "spread": -25.5,
-        "over_under": 159.5,
+        "over_under": 160.5,
         "spread_holder": "Arkansas St Red Wolves",
         "bookmaker": "betmgm"
       },
       "value_rating": 5.3,
       "model_vs_market": {
         "spread_edge": -5.3,
-        "total_edge": -8.6
+        "total_edge": -9.6
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -1452,14 +1398,14 @@
       },
       "market": {
         "spread": -11.5,
-        "over_under": 142.5,
+        "over_under": 141.5,
         "spread_holder": "Eastern Michigan Eagles",
         "bookmaker": "draftkings"
       },
       "value_rating": 2.7,
       "model_vs_market": {
         "spread_edge": -2.7,
-        "total_edge": 4.3
+        "total_edge": 5.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1614,14 +1560,14 @@
       },
       "market": {
         "spread": -26.5,
-        "over_under": 133.5,
+        "over_under": 134.5,
         "spread_holder": "George Mason Patriots",
         "bookmaker": "betmgm"
       },
       "value_rating": 4.7,
       "model_vs_market": {
         "spread_edge": -4.7,
-        "total_edge": 5.9
+        "total_edge": 4.9
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -2316,14 +2262,14 @@
       },
       "market": {
         "spread": -8.5,
-        "over_under": 162.5,
+        "over_under": 161.5,
         "spread_holder": "Auburn Tigers",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.2,
       "model_vs_market": {
         "spread_edge": -1.2,
-        "total_edge": -6.3
+        "total_edge": -5.3
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -2545,6 +2491,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401920515",
+      "date": "2026-11-19T00:30Z",
+      "home_team": "West Virginia Mountaineers",
+      "away_team": "Kansas Jayhawks",
+      "home_abbr": "WVU",
+      "away_abbr": "KU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+      "home_rank": 99,
+      "away_rank": 11,
+      "home_record": "4-0",
+      "away_record": "4-0",
+      "home_location": "West Virginia",
+      "away_location": "Kansas",
+      "home_rating_team": "West Virginia",
+      "away_rating_team": "Kansas",
+      "home_adj_em": 16.62,
+      "away_adj_em": 28.87,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": true,
+      "broadcast": "ESPN2",
+      "predicted_spread": -8.5,
+      "predicted_total": 147.3,
+      "home_projected_score": 69.4,
+      "away_projected_score": 77.9,
+      "home_win_prob": 22.0,
+      "away_win_prob": 78.0,
+      "confidence": 57.0,
+      "pick": "Kansas Jayhawks",
+      "pick_abbr": "KU",
+      "is_home_pick": false,
+      "projected_tempo": 69.4,
+      "factors": {
+        "efficiency_margin": -8.51,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 9.5,
+        "over_under": 150.5,
+        "spread_holder": "Kansas Jayhawks",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": -1.0,
+        "total_edge": -3.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
       "game_id": "401923401",
       "date": "2026-11-19T00:00Z",
       "home_team": "Merrimack Warriors",
@@ -2586,14 +2586,68 @@
       },
       "market": {
         "spread": -4.5,
-        "over_under": 134.5,
+        "over_under": 133.5,
         "spread_holder": "MRMK -4.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.6,
       "model_vs_market": {
         "spread_edge": 0.6,
-        "total_edge": 6.3
+        "total_edge": 7.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401928347",
+      "date": "2026-11-19T00:00Z",
+      "home_team": "Presbyterian Blue Hose",
+      "away_team": "Mercer Bears",
+      "home_abbr": "PRES",
+      "away_abbr": "MER",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "0-3",
+      "away_record": "2-3",
+      "home_location": "Presbyterian",
+      "away_location": "Mercer",
+      "home_rating_team": "Presbyterian",
+      "away_rating_team": "Mercer",
+      "home_adj_em": -6.51,
+      "away_adj_em": -6.69,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Templeton Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 3.3,
+      "predicted_total": 150.8,
+      "home_projected_score": 77.0,
+      "away_projected_score": 73.7,
+      "home_win_prob": 61.8,
+      "away_win_prob": 38.2,
+      "confidence": 56.2,
+      "pick": "Presbyterian Blue Hose",
+      "pick_abbr": "PRES",
+      "is_home_pick": true,
+      "projected_tempo": 69.4,
+      "factors": {
+        "efficiency_margin": 0.13,
+        "home_court": 3.17
+      },
+      "market": {
+        "spread": -2.5,
+        "over_under": 154.5,
+        "spread_holder": "Presbyterian Blue Hose",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 0.8,
+      "model_vs_market": {
+        "spread_edge": 0.8,
+        "total_edge": -3.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2815,60 +2869,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401928347",
-      "date": "2026-11-19T00:00Z",
-      "home_team": "Presbyterian Blue Hose",
-      "away_team": "Mercer Bears",
-      "home_abbr": "PRES",
-      "away_abbr": "MER",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "0-3",
-      "away_record": "2-3",
-      "home_location": "Presbyterian",
-      "away_location": "Mercer",
-      "home_rating_team": "Presbyterian",
-      "away_rating_team": "Mercer",
-      "home_adj_em": -6.51,
-      "away_adj_em": -6.69,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Templeton Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 3.3,
-      "predicted_total": 150.8,
-      "home_projected_score": 77.0,
-      "away_projected_score": 73.7,
-      "home_win_prob": 61.8,
-      "away_win_prob": 38.2,
-      "confidence": 53.8,
-      "pick": "Presbyterian Blue Hose",
-      "pick_abbr": "PRES",
-      "is_home_pick": true,
-      "projected_tempo": 69.4,
-      "factors": {
-        "efficiency_margin": 0.13,
-        "home_court": 3.17
-      },
-      "market": {
-        "spread": -3.5,
-        "over_under": 154.5,
-        "spread_holder": "Presbyterian Blue Hose",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 0.2,
-      "model_vs_market": {
-        "spread_edge": -0.2,
-        "total_edge": -3.7
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401929201",
       "date": "2026-11-19T01:00Z",
       "home_team": "Texas State Bobcats",
@@ -2977,60 +2977,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401920515",
-      "date": "2026-11-19T00:30Z",
-      "home_team": "West Virginia Mountaineers",
-      "away_team": "Kansas Jayhawks",
-      "home_abbr": "WVU",
-      "away_abbr": "KU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-      "home_rank": 99,
-      "away_rank": 11,
-      "home_record": "4-0",
-      "away_record": "4-0",
-      "home_location": "West Virginia",
-      "away_location": "Kansas",
-      "home_rating_team": "West Virginia",
-      "away_rating_team": "Kansas",
-      "home_adj_em": 16.62,
-      "away_adj_em": 28.87,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Michelob ULTRA Arena",
-      "neutral_site": true,
-      "conference_game": true,
-      "broadcast": "ESPN2",
-      "predicted_spread": -8.5,
-      "predicted_total": 147.3,
-      "home_projected_score": 69.4,
-      "away_projected_score": 77.9,
-      "home_win_prob": 22.0,
-      "away_win_prob": 78.0,
-      "confidence": 53.0,
-      "pick": "Kansas Jayhawks",
-      "pick_abbr": "KU",
-      "is_home_pick": false,
-      "projected_tempo": 69.4,
-      "factors": {
-        "efficiency_margin": -8.51,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": 8.5,
-        "over_under": 150.5,
-        "spread_holder": "Kansas Jayhawks",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 0.0,
-      "model_vs_market": {
-        "spread_edge": 0.0,
-        "total_edge": -3.2
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
-    },
-    {
       "game_id": "401909516",
       "date": "2026-11-18T23:30Z",
       "home_team": "Georgetown Hoyas",
@@ -3115,7 +3061,7 @@
       "away_projected_score": 66.2,
       "home_win_prob": 89.9,
       "away_win_prob": 10.1,
-      "confidence": 50.9,
+      "confidence": 51.1,
       "pick": "La Salle Explorers",
       "pick_abbr": "LAS",
       "is_home_pick": true,
@@ -3125,15 +3071,15 @@
         "home_court": 3.08
       },
       "market": {
-        "spread": -14.5,
-        "over_under": 143.5,
+        "spread": -13.5,
+        "over_under": 142.5,
         "spread_holder": "La Salle Explorers",
         "bookmaker": "betmgm"
       },
       "value_rating": 0.5,
       "model_vs_market": {
-        "spread_edge": -0.5,
-        "total_edge": 3.0
+        "spread_edge": 0.5,
+        "total_edge": 4.0
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -3287,15 +3233,69 @@
         "home_court": 3.23
       },
       "market": {
-        "spread": -45.5,
+        "spread": -44.5,
         "over_under": 153.5,
         "spread_holder": "Missouri Tigers",
         "bookmaker": "betmgm"
       },
-      "value_rating": 15.1,
+      "value_rating": 14.1,
       "model_vs_market": {
-        "spread_edge": -15.1,
+        "spread_edge": -14.1,
         "total_edge": -0.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401921134",
+      "date": "2026-11-19T00:30Z",
+      "home_team": "Texas Tech Red Raiders",
+      "away_team": "LSU New Orleans Privateers",
+      "home_abbr": "TTU",
+      "away_abbr": "NOLA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2443.png",
+      "home_rank": 9,
+      "away_rank": 99,
+      "home_record": "4-0",
+      "away_record": "2-1",
+      "home_location": "Texas Tech",
+      "away_location": "LSU New Orleans",
+      "home_rating_team": "Texas Tech",
+      "away_rating_team": "New Orleans",
+      "home_adj_em": 24.16,
+      "away_adj_em": -6.39,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "United Supermarkets Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 25.3,
+      "predicted_total": 152.3,
+      "home_projected_score": 88.8,
+      "away_projected_score": 63.5,
+      "home_win_prob": 98.9,
+      "away_win_prob": 1.1,
+      "confidence": 47.0,
+      "pick": "Texas Tech Red Raiders",
+      "pick_abbr": "TTU",
+      "is_home_pick": true,
+      "projected_tempo": 70.4,
+      "factors": {
+        "efficiency_margin": 21.49,
+        "home_court": 3.77
+      },
+      "market": {
+        "spread": -35.5,
+        "over_under": 153.5,
+        "spread_holder": "Texas Tech Red Raiders",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 10.2,
+      "model_vs_market": {
+        "spread_edge": -10.2,
+        "total_edge": -1.2
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -3306,9 +3306,9 @@
     "high_confidence": 4,
     "medium_confidence": 57,
     "low_confidence": 0,
-    "avg_confidence": 61.5,
+    "avg_confidence": 61.3,
     "value_plays": 28,
-    "best_bets": 18,
+    "best_bets": 19,
     "with_market_line": 61,
     "tournament_games": 6
   },
