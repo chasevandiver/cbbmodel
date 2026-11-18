@@ -88594,16 +88594,152 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401909753",
+      "date": "2026-11-18T17:00Z",
+      "home_team": "Baylor Bears",
+      "away_team": "Jackson State Tigers",
+      "home_abbr": "BAY",
+      "away_abbr": "JKST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "2-4",
+      "home_location": "Baylor",
+      "away_location": "Jackson State",
+      "home_rating_team": "Baylor",
+      "away_rating_team": "Jackson St.",
+      "home_adj_em": 19.23,
+      "away_adj_em": -10.03,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Foster Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 25.6,
+      "predicted_total": 153.2,
+      "home_projected_score": 89.4,
+      "away_projected_score": 63.8,
+      "home_win_prob": 99.0,
+      "away_win_prob": 1.0,
+      "confidence": 48.0,
+      "pick": "Baylor Bears",
+      "pick_abbr": "BAY",
+      "is_home_pick": true,
+      "projected_tempo": 71.6,
+      "factors": {
+        "efficiency_margin": 20.94,
+        "home_court": 4.64
+      },
+      "market": {
+        "spread": -35.5,
+        "over_under": 155.5,
+        "spread_holder": "Baylor Bears",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 11.8,
+      "model_vs_market": {
+        "spread_edge": -11.8,
+        "total_edge": -1.8
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 35.5,
+      "clv": null,
+      "actual_home_score": 104,
+      "actual_away_score": 55,
+      "actual_margin": 49,
+      "actual_total": 159,
+      "actual_winner": "Baylor Bears",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920513",
+      "date": "2026-11-18T19:00Z",
+      "home_team": "Notre Dame Fighting Irish",
+      "away_team": "Rutgers Scarlet Knights",
+      "home_abbr": "ND",
+      "away_abbr": "RUTG",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "3-2",
+      "home_location": "Notre Dame",
+      "away_location": "Rutgers",
+      "home_rating_team": "Notre Dame",
+      "away_rating_team": "Rutgers",
+      "home_adj_em": 13.32,
+      "away_adj_em": 11.31,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": 1.4,
+      "predicted_total": 154.1,
+      "home_projected_score": 77.8,
+      "away_projected_score": 76.4,
+      "home_win_prob": 55.1,
+      "away_win_prob": 44.9,
+      "confidence": 62.4,
+      "pick": "Notre Dame Fighting Irish",
+      "pick_abbr": "ND",
+      "is_home_pick": true,
+      "projected_tempo": 69.7,
+      "factors": {
+        "efficiency_margin": 1.41,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 149.5,
+        "spread_holder": "Notre Dame Fighting Irish",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.1,
+      "model_vs_market": {
+        "spread_edge": -2.1,
+        "total_edge": 4.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 3.5,
+      "clv": null,
+      "actual_home_score": 110,
+      "actual_away_score": 100,
+      "actual_margin": 10,
+      "actual_total": 210,
+      "actual_winner": "Notre Dame Fighting Irish",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 564,
-      "model_mae": 9.8,
+      "n": 566,
+      "model_mae": 9.82,
       "market_mae": 9.42,
-      "intercept": -1.13,
-      "model_weight": 0.132,
-      "market_weight": 0.919,
+      "intercept": -1.11,
+      "model_weight": 0.118,
+      "market_weight": 0.934,
       "ats_by_edge": {
         "0-2": {
           "w": 106,
@@ -88612,8 +88748,8 @@
         },
         "2-4": {
           "w": 87,
-          "l": 68,
-          "pct": 56.1
+          "l": 69,
+          "pct": 55.8
         },
         "4-7": {
           "w": 60,
@@ -88622,8 +88758,8 @@
         },
         "7+": {
           "w": 26,
-          "l": 27,
-          "pct": 49.1
+          "l": 28,
+          "pct": 48.1
         }
       }
     },
@@ -88650,25 +88786,25 @@
         "n": 0
       }
     },
-    "total_graded": 565,
-    "ats_graded": 497,
+    "total_graded": 567,
+    "ats_graded": 499,
     "ats": {
       "w": 279,
-      "l": 218,
+      "l": 220,
       "p": 0,
-      "pct": 56.1
+      "pct": 55.9
     },
     "su": {
-      "correct": 448,
-      "total": 565,
-      "pct": 79.3
+      "correct": 450,
+      "total": 567,
+      "pct": 79.4
     },
     "ou": {
-      "over": 260,
+      "over": 262,
       "under": 304,
       "push": 0,
-      "model_correct": 279,
-      "model_gradeable": 564,
+      "model_correct": 280,
+      "model_gradeable": 566,
       "model_pct": 49.5
     },
     "by_confidence": {
@@ -88680,9 +88816,9 @@
       },
       "medium": {
         "w": 263,
-        "l": 197,
+        "l": 199,
         "p": 0,
-        "pct": 57.2
+        "pct": 56.9
       },
       "low": {
         "w": 0,
@@ -88693,9 +88829,9 @@
     },
     "value_plays": {
       "w": 119,
-      "l": 112,
+      "l": 113,
       "p": 0,
-      "pct": 51.5
+      "pct": 51.3
     },
     "best_bets": {
       "w": 73,
@@ -88707,12 +88843,12 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1272,
-        "model_mae": 10.4,
+        "n": 1274,
+        "model_mae": 10.41,
         "market_mae": 9.14,
         "intercept": -0.07,
-        "model_weight": -0.004,
-        "market_weight": 0.991,
+        "model_weight": -0.005,
+        "market_weight": 0.994,
         "ats_by_edge": {
           "0-2": {
             "w": 220,
@@ -88721,8 +88857,8 @@
           },
           "2-4": {
             "w": 182,
-            "l": 148,
-            "pct": 55.2
+            "l": 149,
+            "pct": 55.0
           },
           "4-7": {
             "w": 98,
@@ -88731,8 +88867,8 @@
           },
           "7+": {
             "w": 87,
-            "l": 89,
-            "pct": 49.4
+            "l": 90,
+            "pct": 49.2
           }
         }
       },
@@ -88759,25 +88895,25 @@
           "n": 0
         }
       },
-      "total_graded": 1283,
-      "ats_graded": 1103,
+      "total_graded": 1285,
+      "ats_graded": 1105,
       "ats": {
         "w": 587,
-        "l": 516,
+        "l": 518,
         "p": 0,
-        "pct": 53.2
+        "pct": 53.1
       },
       "su": {
-        "correct": 916,
-        "total": 1283,
+        "correct": 918,
+        "total": 1285,
         "pct": 71.4
       },
       "ou": {
-        "over": 610,
+        "over": 612,
         "under": 662,
         "push": 0,
-        "model_correct": 636,
-        "model_gradeable": 1272,
+        "model_correct": 637,
+        "model_gradeable": 1274,
         "model_pct": 50.0
       },
       "by_confidence": {
@@ -88789,9 +88925,9 @@
         },
         "medium": {
           "w": 430,
-          "l": 343,
+          "l": 345,
           "p": 0,
-          "pct": 55.6
+          "pct": 55.5
         },
         "low": {
           "w": 41,
@@ -88802,9 +88938,9 @@
       },
       "value_plays": {
         "w": 264,
-        "l": 242,
+        "l": 243,
         "p": 0,
-        "pct": 52.2
+        "pct": 52.1
       },
       "best_bets": {
         "w": 110,
@@ -88814,5 +88950,5 @@
       }
     }
   },
-  "generated_at": "2026-11-18T16:53:42.851550-05:00"
+  "generated_at": "2026-11-18T17:44:42.823991-05:00"
 }
