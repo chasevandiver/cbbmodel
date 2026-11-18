@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-17T19:48:41.958481-05:00",
+ "generated_at": "2026-11-17T20:17:55.574155-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -43275,7 +43275,7 @@
    "game_id": "401912230",
    "game_id_source": "espn",
    "start_time": "2026-11-17T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Army Black Knights",
     "abbr": "ARMY",
@@ -43328,7 +43328,19 @@
     "side": "away",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 68,
+    "away_score": 73,
+    "margin_home": -5,
+    "total": 141,
+    "winner": "Marist Red Foxes",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -43345,7 +43357,7 @@
    "game_id": "401920953",
    "game_id_source": "espn",
    "start_time": "2026-11-17T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
@@ -43398,7 +43410,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 78,
+    "away_score": 87,
+    "margin_home": -9,
+    "total": 165,
+    "winner": "Liberty Flames",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -43415,7 +43439,7 @@
    "game_id": "401923325",
    "game_id_source": "espn",
    "start_time": "2026-11-17T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UMass Lowell River Hawks",
     "abbr": "UML",
@@ -43468,7 +43492,19 @@
     "side": "away",
     "cover_line": 6.5
    },
-   "result": null,
+   "result": {
+    "home_score": 66,
+    "away_score": 51,
+    "margin_home": 15,
+    "total": 117,
+    "winner": "UMass Lowell River Hawks",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
