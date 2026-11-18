@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:22:14.504409-05:00",
+  "generated_at": "2026-11-18T16:53:57.803020-05:00",
   "date": "20261118",
   "total_games": 61,
   "model_version": "4.1.0",
@@ -1898,7 +1898,7 @@
     },
     {
       "game_id": "401920514",
-      "date": "2026-11-18T21:30Z",
+      "date": "2026-11-18T21:48Z",
       "home_team": "Florida Gators",
       "away_team": "Houston Cougars",
       "home_abbr": "FLA",

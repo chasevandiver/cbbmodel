@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-18T16:22:14.546223-05:00",
+ "generated_at": "2026-11-18T16:53:57.872087-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-18",
@@ -158,7 +158,7 @@
    "slate_date": "2026-11-18",
    "game_id": "401920514",
    "game_id_source": "espn",
-   "start_time": "2026-11-18T21:30Z",
+   "start_time": "2026-11-18T21:48Z",
    "status": "pending",
    "home": {
     "name": "Florida Gators",
