@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-17T22:12:35.372292-05:00",
+ "generated_at": "2026-11-17T23:39:23.017282-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -46037,7 +46037,7 @@
    "game_id": "401921027",
    "game_id_source": "espn",
    "start_time": "2026-11-18T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Georgia Southern Eagles",
     "abbr": "GASO",
@@ -46096,7 +46096,19 @@
     "side": "away",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 78,
+    "away_score": 85,
+    "margin_home": -7,
+    "total": 163,
+    "winner": "Middle Tennessee Blue Raiders",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -46109,7 +46121,7 @@
    "game_id": "401921097",
    "game_id_source": "espn",
    "start_time": "2026-11-18T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Rice Owls",
     "abbr": "RICE",
@@ -46162,7 +46174,19 @@
     "side": "none",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 81,
+    "away_score": 74,
+    "margin_home": 7,
+    "total": 155,
+    "winner": "Rice Owls",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -46345,7 +46369,7 @@
    "game_id": "401925012",
    "game_id_source": "espn",
    "start_time": "2026-11-18T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Omaha Mavericks",
     "abbr": "OMA",
@@ -46404,7 +46428,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 74,
+    "away_score": 104,
+    "margin_home": -30,
+    "total": 178,
+    "winner": "Lamar Cardinals",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 4.0
+   },
    "tags": []
   },
   {
@@ -46417,7 +46453,7 @@
    "game_id": "401926143",
    "game_id_source": "espn",
    "start_time": "2026-11-18T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
@@ -46476,7 +46512,19 @@
     "side": "away",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 83,
+    "away_score": 78,
+    "margin_home": 5,
+    "total": 161,
+    "winner": "North Dakota Fighting Hawks",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -46489,7 +46537,7 @@
    "game_id": "401927388",
    "game_id_source": "espn",
    "start_time": "2026-11-18T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
@@ -46548,7 +46596,19 @@
     "side": "none",
     "cover_line": 12.5
    },
-   "result": null,
+   "result": {
+    "home_score": 81,
+    "away_score": 74,
+    "margin_home": 7,
+    "total": 155,
+    "winner": "Northern Iowa Panthers",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -46561,7 +46621,7 @@
    "game_id": "401929358",
    "game_id_source": "espn",
    "start_time": "2026-11-18T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Southern Miss Golden Eagles",
     "abbr": "USM",
@@ -46620,7 +46680,19 @@
     "side": "away",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 83,
+    "margin_home": -11,
+    "total": 155,
+    "winner": "UT Arlington Mavericks",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": []
   },
   {
@@ -46633,7 +46705,7 @@
    "game_id": "401920720",
    "game_id_source": "espn",
    "start_time": "2026-11-18T01:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Utah Utes",
     "abbr": "UTAH",
@@ -46692,7 +46764,19 @@
     "side": "away",
     "cover_line": 12.5
    },
-   "result": null,
+   "result": {
+    "home_score": 67,
+    "away_score": 71,
+    "margin_home": -4,
+    "total": 138,
+    "winner": "Eastern Washington Eagles",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -46705,7 +46789,7 @@
    "game_id": "401924922",
    "game_id_source": "espn",
    "start_time": "2026-11-18T01:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
@@ -46764,7 +46848,19 @@
     "side": "away",
     "cover_line": 11.5
    },
-   "result": null,
+   "result": {
+    "home_score": 81,
+    "away_score": 79,
+    "margin_home": 2,
+    "total": 160,
+    "winner": "Wyoming Cowboys",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": -1.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -46781,7 +46877,7 @@
    "game_id": "401925064",
    "game_id_source": "espn",
    "start_time": "2026-11-18T01:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Ole Miss Rebels",
     "abbr": "MISS",
@@ -46840,7 +46936,19 @@
     "side": "away",
     "cover_line": 30.5
    },
-   "result": null,
+   "result": {
+    "home_score": 76,
+    "away_score": 41,
+    "margin_home": 35,
+    "total": 117,
+    "winner": "Ole Miss Rebels",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 3.0
+   },
    "tags": [
     "value"
    ]
@@ -46855,7 +46963,7 @@
    "game_id": "401906851",
    "game_id_source": "espn",
    "start_time": "2026-11-18T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Tennessee Volunteers",
     "abbr": "TENN",
@@ -46914,7 +47022,19 @@
     "side": "home",
     "cover_line": -3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 61,
+    "away_score": 46,
+    "margin_home": 15,
+    "total": 107,
+    "winner": "Tennessee Volunteers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -46930,7 +47050,7 @@
    "game_id": "401911521",
    "game_id_source": "espn",
    "start_time": "2026-11-18T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UC Davis Aggies",
     "abbr": "UCD",
@@ -46989,7 +47109,19 @@
     "side": "away",
     "cover_line": 10.5
    },
-   "result": null,
+   "result": {
+    "home_score": 68,
+    "away_score": 75,
+    "margin_home": -7,
+    "total": 143,
+    "winner": "Alabama State Hornets",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -47005,7 +47137,7 @@
    "game_id": "401920426",
    "game_id_source": "espn",
    "start_time": "2026-11-18T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Virginia Cavaliers",
     "abbr": "UVA",
@@ -47064,7 +47196,19 @@
     "side": "away",
     "cover_line": 26.5
    },
-   "result": null,
+   "result": {
+    "home_score": 85,
+    "away_score": 65,
+    "margin_home": 20,
+    "total": 150,
+    "winner": "Virginia Cavaliers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
