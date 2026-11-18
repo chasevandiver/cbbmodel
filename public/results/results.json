@@ -88226,16 +88226,384 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401909787",
+      "date": "2026-11-18T02:30Z",
+      "home_team": "Kansas Jayhawks",
+      "away_team": "UNLV Rebels",
+      "home_abbr": "KU",
+      "away_abbr": "UNLV",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+      "home_rank": 11,
+      "away_rank": 99,
+      "home_record": "3-0",
+      "away_record": "3-0",
+      "home_location": "Kansas",
+      "away_location": "UNLV",
+      "home_rating_team": "Kansas",
+      "away_rating_team": "UNLV",
+      "home_adj_em": 28.87,
+      "away_adj_em": 7.76,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": 15.1,
+      "predicted_total": 155.3,
+      "home_projected_score": 85.2,
+      "away_projected_score": 70.1,
+      "home_win_prob": 91.5,
+      "away_win_prob": 8.5,
+      "confidence": 56.6,
+      "pick": "Kansas Jayhawks",
+      "pick_abbr": "KU",
+      "is_home_pick": true,
+      "projected_tempo": 71.5,
+      "factors": {
+        "efficiency_margin": 15.1,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -18.5,
+        "over_under": 156.5,
+        "spread_holder": "Kansas Jayhawks",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 3.4,
+      "model_vs_market": {
+        "spread_edge": -3.4,
+        "total_edge": -1.2
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -15.5,
+        "over_under": 158.5,
+        "spread_holder": "Kansas Jayhawks",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-17T21:12:41.364048-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 18.5,
+      "clv": 3.0,
+      "actual_home_score": 102,
+      "actual_away_score": 77,
+      "actual_margin": 25,
+      "actual_total": 179,
+      "actual_winner": "Kansas Jayhawks",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401917533",
+      "date": "2026-11-18T03:00Z",
+      "home_team": "California Baptist Lancers",
+      "away_team": "Seattle U Redhawks",
+      "home_abbr": "CBU",
+      "away_abbr": "SEA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2856.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-3",
+      "away_record": "2-2",
+      "home_location": "California Baptist",
+      "away_location": "Seattle U",
+      "home_rating_team": "Cal Baptist",
+      "away_rating_team": "Seattle",
+      "home_adj_em": -8.36,
+      "away_adj_em": -0.81,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Dale E. and Sarah Ann Fowler Events Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -1.5,
+      "predicted_total": 134.9,
+      "home_projected_score": 66.7,
+      "away_projected_score": 68.2,
+      "home_win_prob": 44.5,
+      "away_win_prob": 55.5,
+      "confidence": 78.0,
+      "pick": "Seattle U Redhawks",
+      "pick_abbr": "SEA",
+      "is_home_pick": false,
+      "projected_tempo": 66.7,
+      "factors": {
+        "efficiency_margin": -5.03,
+        "home_court": 3.5
+      },
+      "market": {
+        "spread": 9.5,
+        "over_under": 135.5,
+        "spread_holder": "Seattle Redhawks",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 8.0,
+      "model_vs_market": {
+        "spread_edge": -8.0,
+        "total_edge": -0.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 8.5,
+        "over_under": 133.5,
+        "spread_holder": "Seattle Redhawks",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T21:12:41.364048-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -9.5,
+      "clv": 1.0,
+      "actual_home_score": 54,
+      "actual_away_score": 83,
+      "actual_margin": -29,
+      "actual_total": 137,
+      "actual_winner": "Seattle U Redhawks",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401921729",
+      "date": "2026-11-18T03:00Z",
+      "home_team": "Stanford Cardinal",
+      "away_team": "UC Irvine Anteaters",
+      "home_abbr": "STAN",
+      "away_abbr": "UCI",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/300.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-1",
+      "away_record": "3-0",
+      "home_location": "Stanford",
+      "away_location": "UC Irvine",
+      "home_rating_team": "Stanford",
+      "away_rating_team": "UC Irvine",
+      "home_adj_em": 8.46,
+      "away_adj_em": 6.67,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Maples Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACCNX",
+      "predicted_spread": 5.1,
+      "predicted_total": 142.3,
+      "home_projected_score": 73.7,
+      "away_projected_score": 68.6,
+      "home_win_prob": 67.9,
+      "away_win_prob": 32.1,
+      "confidence": 62.5,
+      "pick": "Stanford Cardinal",
+      "pick_abbr": "STAN",
+      "is_home_pick": true,
+      "projected_tempo": 70.3,
+      "factors": {
+        "efficiency_margin": 1.26,
+        "home_court": 3.86
+      },
+      "market": {
+        "spread": -7.5,
+        "over_under": 144.5,
+        "spread_holder": "Stanford Cardinal",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 2.4,
+      "model_vs_market": {
+        "spread_edge": -2.4,
+        "total_edge": -2.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -6.5,
+        "over_under": 142.5,
+        "spread_holder": "Stanford Cardinal",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T21:12:41.364048-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 7.5,
+      "clv": 1.0,
+      "actual_home_score": 65,
+      "actual_away_score": 61,
+      "actual_margin": 4,
+      "actual_total": 126,
+      "actual_winner": "Stanford Cardinal",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401925879",
+      "date": "2026-11-18T04:00Z",
+      "home_team": "Gonzaga Bulldogs",
+      "away_team": "Montana State Bobcats",
+      "home_abbr": "GONZ",
+      "away_abbr": "MTST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
+      "home_rank": 22,
+      "away_rank": 99,
+      "home_record": "2-1",
+      "away_record": "2-2",
+      "home_location": "Gonzaga",
+      "away_location": "Montana State",
+      "home_rating_team": "Gonzaga",
+      "away_rating_team": "Montana St.",
+      "home_adj_em": 25.75,
+      "away_adj_em": 4.53,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "McCarthey Athletic Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "CBSSN",
+      "predicted_spread": 19.1,
+      "predicted_total": 153.5,
+      "home_projected_score": 86.3,
+      "away_projected_score": 67.2,
+      "home_win_prob": 95.9,
+      "away_win_prob": 4.1,
+      "confidence": 60.4,
+      "pick": "Gonzaga Bulldogs",
+      "pick_abbr": "GONZ",
+      "is_home_pick": true,
+      "projected_tempo": 70.0,
+      "factors": {
+        "efficiency_margin": 14.85,
+        "home_court": 4.29
+      },
+      "market": {
+        "spread": -23.5,
+        "over_under": 152.5,
+        "spread_holder": "Gonzaga Bulldogs",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 4.4,
+      "model_vs_market": {
+        "spread_edge": -4.4,
+        "total_edge": 1.0
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -22.5,
+        "over_under": 151.5,
+        "spread_holder": "Gonzaga Bulldogs",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-17T22:12:20.164732-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 23.5,
+      "clv": 1.0,
+      "actual_home_score": 74,
+      "actual_away_score": 62,
+      "actual_margin": 12,
+      "actual_total": 136,
+      "actual_winner": "Gonzaga Bulldogs",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920512",
+      "date": "2026-11-18T04:59Z",
+      "home_team": "Auburn Tigers",
+      "away_team": "West Virginia Mountaineers",
+      "home_abbr": "AUB",
+      "away_abbr": "WVU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-1",
+      "away_record": "3-0",
+      "home_location": "Auburn",
+      "away_location": "West Virginia",
+      "home_rating_team": "Auburn",
+      "away_rating_team": "West Virginia",
+      "home_adj_em": 18.09,
+      "away_adj_em": 16.62,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": 1.0,
+      "predicted_total": 148.2,
+      "home_projected_score": 74.6,
+      "away_projected_score": 73.6,
+      "home_win_prob": 53.7,
+      "away_win_prob": 46.3,
+      "confidence": 63.0,
+      "pick": "Auburn Tigers",
+      "pick_abbr": "AUB",
+      "is_home_pick": true,
+      "projected_tempo": 68.5,
+      "factors": {
+        "efficiency_margin": 1.01,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 143.5,
+        "spread_holder": "WVU -1.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 2.5,
+      "model_vs_market": {
+        "spread_edge": 2.5,
+        "total_edge": 4.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -1.5,
+      "clv": null,
+      "actual_home_score": 70,
+      "actual_away_score": 76,
+      "actual_margin": -6,
+      "actual_total": 146,
+      "actual_winner": "West Virginia Mountaineers",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 559,
-      "model_mae": 9.79,
+      "n": 564,
+      "model_mae": 9.8,
       "market_mae": 9.42,
-      "intercept": -1.04,
-      "model_weight": 0.156,
-      "market_weight": 0.896,
+      "intercept": -1.13,
+      "model_weight": 0.132,
+      "market_weight": 0.919,
       "ats_by_edge": {
         "0-2": {
           "w": 106,
@@ -88243,76 +88611,76 @@
           "pct": 61.6
         },
         "2-4": {
-          "w": 86,
-          "l": 66,
-          "pct": 56.6
+          "w": 87,
+          "l": 68,
+          "pct": 56.1
         },
         "4-7": {
-          "w": 59,
+          "w": 60,
           "l": 57,
-          "pct": 50.9
+          "pct": 51.3
         },
         "7+": {
           "w": 26,
-          "l": 26,
-          "pct": 50.0
+          "l": 27,
+          "pct": 49.1
         }
       }
     },
     "clv": {
-      "n": 377,
-      "avg": 0.22,
-      "beat_close_pct": 36.9,
-      "beat_or_matched_pct": 77.5
+      "n": 381,
+      "avg": 0.24,
+      "beat_close_pct": 37.5,
+      "beat_or_matched_pct": 77.7
     },
     "clv_by_confidence": {
       "high": {
-        "n": 24,
-        "avg": 0.12,
-        "beat_close_pct": 33.3,
-        "beat_or_matched_pct": 79.2
+        "n": 25,
+        "avg": 0.16,
+        "beat_close_pct": 36.0,
+        "beat_or_matched_pct": 80.0
       },
       "medium": {
-        "n": 353,
-        "avg": 0.23,
-        "beat_close_pct": 37.1,
-        "beat_or_matched_pct": 77.3
+        "n": 356,
+        "avg": 0.24,
+        "beat_close_pct": 37.6,
+        "beat_or_matched_pct": 77.5
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 560,
-    "ats_graded": 492,
+    "total_graded": 565,
+    "ats_graded": 497,
     "ats": {
-      "w": 277,
-      "l": 215,
+      "w": 279,
+      "l": 218,
       "p": 0,
-      "pct": 56.3
+      "pct": 56.1
     },
     "su": {
-      "correct": 444,
-      "total": 560,
+      "correct": 448,
+      "total": 565,
       "pct": 79.3
     },
     "ou": {
-      "over": 257,
-      "under": 302,
+      "over": 260,
+      "under": 304,
       "push": 0,
-      "model_correct": 277,
-      "model_gradeable": 559,
-      "model_pct": 49.6
+      "model_correct": 279,
+      "model_gradeable": 564,
+      "model_pct": 49.5
     },
     "by_confidence": {
       "high": {
         "w": 16,
-        "l": 20,
+        "l": 21,
         "p": 0,
-        "pct": 44.4
+        "pct": 43.2
       },
       "medium": {
-        "w": 261,
-        "l": 195,
+        "w": 263,
+        "l": 197,
         "p": 0,
         "pct": 57.2
       },
@@ -88324,14 +88692,14 @@
       }
     },
     "value_plays": {
-      "w": 118,
-      "l": 110,
+      "w": 119,
+      "l": 112,
       "p": 0,
-      "pct": 51.8
+      "pct": 51.5
     },
     "best_bets": {
-      "w": 72,
-      "l": 71,
+      "w": 73,
+      "l": 72,
       "p": 0,
       "pct": 50.3
     },
@@ -88339,12 +88707,12 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1267,
+        "n": 1272,
         "model_mae": 10.4,
         "market_mae": 9.14,
-        "intercept": -0.03,
-        "model_weight": -0.003,
-        "market_weight": 0.988,
+        "intercept": -0.07,
+        "model_weight": -0.004,
+        "market_weight": 0.991,
         "ats_by_edge": {
           "0-2": {
             "w": 220,
@@ -88352,78 +88720,78 @@
             "pct": 53.9
           },
           "2-4": {
-            "w": 181,
-            "l": 146,
-            "pct": 55.4
+            "w": 182,
+            "l": 148,
+            "pct": 55.2
           },
           "4-7": {
-            "w": 97,
+            "w": 98,
             "l": 91,
-            "pct": 51.6
+            "pct": 51.9
           },
           "7+": {
             "w": 87,
-            "l": 88,
-            "pct": 49.7
+            "l": 89,
+            "pct": 49.4
           }
         }
       },
       "clv": {
-        "n": 377,
-        "avg": 0.22,
-        "beat_close_pct": 36.9,
-        "beat_or_matched_pct": 77.5
+        "n": 381,
+        "avg": 0.24,
+        "beat_close_pct": 37.5,
+        "beat_or_matched_pct": 77.7
       },
       "clv_by_confidence": {
         "high": {
-          "n": 24,
-          "avg": 0.12,
-          "beat_close_pct": 33.3,
-          "beat_or_matched_pct": 79.2
+          "n": 25,
+          "avg": 0.16,
+          "beat_close_pct": 36.0,
+          "beat_or_matched_pct": 80.0
         },
         "medium": {
-          "n": 353,
-          "avg": 0.23,
-          "beat_close_pct": 37.1,
-          "beat_or_matched_pct": 77.3
+          "n": 356,
+          "avg": 0.24,
+          "beat_close_pct": 37.6,
+          "beat_or_matched_pct": 77.5
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1278,
-      "ats_graded": 1098,
+      "total_graded": 1283,
+      "ats_graded": 1103,
       "ats": {
-        "w": 585,
-        "l": 513,
+        "w": 587,
+        "l": 516,
         "p": 0,
-        "pct": 53.3
+        "pct": 53.2
       },
       "su": {
-        "correct": 912,
-        "total": 1278,
+        "correct": 916,
+        "total": 1283,
         "pct": 71.4
       },
       "ou": {
-        "over": 607,
-        "under": 660,
+        "over": 610,
+        "under": 662,
         "push": 0,
-        "model_correct": 634,
-        "model_gradeable": 1267,
+        "model_correct": 636,
+        "model_gradeable": 1272,
         "model_pct": 50.0
       },
       "by_confidence": {
         "high": {
           "w": 116,
-          "l": 125,
+          "l": 126,
           "p": 0,
-          "pct": 48.1
+          "pct": 47.9
         },
         "medium": {
-          "w": 428,
-          "l": 341,
+          "w": 430,
+          "l": 343,
           "p": 0,
-          "pct": 55.7
+          "pct": 55.6
         },
         "low": {
           "w": 41,
@@ -88433,18 +88801,18 @@
         }
       },
       "value_plays": {
-        "w": 263,
-        "l": 240,
+        "w": 264,
+        "l": 242,
         "p": 0,
-        "pct": 52.3
+        "pct": 52.2
       },
       "best_bets": {
-        "w": 109,
-        "l": 102,
+        "w": 110,
+        "l": 103,
         "p": 0,
-        "pct": 51.7
+        "pct": 51.6
       }
     }
   },
-  "generated_at": "2026-11-17T23:39:22.897541-05:00"
+  "generated_at": "2026-11-18T02:54:59.334975-05:00"
 }
