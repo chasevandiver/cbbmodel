@@ -84689,16 +84689,84 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401906773",
+      "date": "2026-11-17T21:51Z",
+      "home_team": "Florida Gators",
+      "away_team": "Notre Dame Fighting Irish",
+      "home_abbr": "FLA",
+      "away_abbr": "ND",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+      "home_rank": 1,
+      "away_rank": 99,
+      "home_record": "4-0",
+      "away_record": "4-0",
+      "home_location": "Florida",
+      "away_location": "Notre Dame",
+      "home_rating_team": "Florida",
+      "away_rating_team": "Notre Dame",
+      "home_adj_em": 27.79,
+      "away_adj_em": 13.2,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": 10.2,
+      "predicted_total": 151.7,
+      "home_projected_score": 81.0,
+      "away_projected_score": 70.8,
+      "home_win_prob": 82.4,
+      "away_win_prob": 17.6,
+      "confidence": 70.1,
+      "pick": "Florida Gators",
+      "pick_abbr": "FLA",
+      "is_home_pick": true,
+      "projected_tempo": 70.0,
+      "factors": {
+        "efficiency_margin": 10.22,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -15.5,
+        "over_under": 150.5,
+        "spread_holder": "Florida Gators",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 5.3,
+      "model_vs_market": {
+        "spread_edge": -5.3,
+        "total_edge": 1.2
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 15.5,
+      "clv": null,
+      "actual_home_score": 86,
+      "actual_away_score": 78,
+      "actual_margin": 8,
+      "actual_total": 164,
+      "actual_winner": "Florida Gators",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 511,
-      "model_mae": 9.71,
-      "market_mae": 9.26,
-      "intercept": -1.16,
-      "model_weight": 0.151,
-      "market_weight": 0.922,
+      "n": 512,
+      "model_mae": 9.7,
+      "market_mae": 9.25,
+      "intercept": -1.17,
+      "model_weight": 0.156,
+      "market_weight": 0.918,
       "ats_by_edge": {
         "0-2": {
           "w": 97,
@@ -84711,9 +84779,9 @@
           "pct": 54.9
         },
         "4-7": {
-          "w": 52,
+          "w": 53,
           "l": 55,
-          "pct": 48.6
+          "pct": 49.1
         },
         "7+": {
           "w": 25,
@@ -84745,33 +84813,33 @@
         "n": 0
       }
     },
-    "total_graded": 512,
-    "ats_graded": 451,
+    "total_graded": 513,
+    "ats_graded": 452,
     "ats": {
-      "w": 252,
+      "w": 253,
       "l": 199,
       "p": 0,
-      "pct": 55.9
+      "pct": 56.0
     },
     "su": {
-      "correct": 406,
-      "total": 512,
+      "correct": 407,
+      "total": 513,
       "pct": 79.3
     },
     "ou": {
-      "over": 228,
+      "over": 229,
       "under": 283,
       "push": 0,
-      "model_correct": 260,
-      "model_gradeable": 511,
-      "model_pct": 50.9
+      "model_correct": 261,
+      "model_gradeable": 512,
+      "model_pct": 51.0
     },
     "by_confidence": {
       "high": {
-        "w": 13,
+        "w": 14,
         "l": 20,
         "p": 0,
-        "pct": 39.4
+        "pct": 41.2
       },
       "medium": {
         "w": 239,
@@ -84787,26 +84855,26 @@
       }
     },
     "value_plays": {
-      "w": 106,
+      "w": 107,
       "l": 106,
       "p": 0,
-      "pct": 50.0
+      "pct": 50.2
     },
     "best_bets": {
-      "w": 62,
+      "w": 63,
       "l": 69,
       "p": 0,
-      "pct": 47.3
+      "pct": 47.7
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1219,
-        "model_mae": 10.39,
+        "n": 1220,
+        "model_mae": 10.38,
         "market_mae": 9.06,
         "intercept": -0.05,
-        "model_weight": -0.004,
+        "model_weight": -0.003,
         "market_weight": 1.002,
         "ats_by_edge": {
           "0-2": {
@@ -84820,9 +84888,9 @@
             "pct": 54.6
           },
           "4-7": {
-            "w": 90,
+            "w": 91,
             "l": 89,
-            "pct": 50.3
+            "pct": 50.6
           },
           "7+": {
             "w": 86,
@@ -84854,33 +84922,33 @@
           "n": 0
         }
       },
-      "total_graded": 1230,
-      "ats_graded": 1057,
+      "total_graded": 1231,
+      "ats_graded": 1058,
       "ats": {
-        "w": 560,
+        "w": 561,
         "l": 497,
         "p": 0,
         "pct": 53.0
       },
       "su": {
-        "correct": 874,
-        "total": 1230,
+        "correct": 875,
+        "total": 1231,
         "pct": 71.1
       },
       "ou": {
-        "over": 578,
+        "over": 579,
         "under": 641,
         "push": 0,
-        "model_correct": 617,
-        "model_gradeable": 1219,
-        "model_pct": 50.6
+        "model_correct": 618,
+        "model_gradeable": 1220,
+        "model_pct": 50.7
       },
       "by_confidence": {
         "high": {
-          "w": 113,
+          "w": 114,
           "l": 125,
           "p": 0,
-          "pct": 47.5
+          "pct": 47.7
         },
         "medium": {
           "w": 406,
@@ -84896,18 +84964,18 @@
         }
       },
       "value_plays": {
-        "w": 251,
+        "w": 252,
         "l": 236,
         "p": 0,
-        "pct": 51.5
+        "pct": 51.6
       },
       "best_bets": {
-        "w": 99,
+        "w": 100,
         "l": 100,
         "p": 0,
-        "pct": 49.7
+        "pct": 50.0
       }
     }
   },
-  "generated_at": "2026-11-17T18:13:36.750697-05:00"
+  "generated_at": "2026-11-17T19:48:41.825786-05:00"
 }
