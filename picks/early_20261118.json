@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T23:39:22.686979-05:00",
+  "generated_at": "2026-11-18T03:10:39.910685-05:00",
   "date": "20261118",
-  "total_games": 59,
+  "total_games": 61,
   "model_version": "4.1.0",
   "ratings_source": "barttorvik (cache 2026-11-17)",
   "ratings_season": 2027,
@@ -156,68 +156,14 @@
       },
       "market": {
         "spread": -10.5,
-        "over_under": 136.5,
+        "over_under": 134.5,
         "spread_holder": "San Francisco Dons",
         "bookmaker": "draftkings"
       },
       "value_rating": 4.7,
       "model_vs_market": {
         "spread_edge": -4.7,
-        "total_edge": 3.1
-      },
-      "is_best_bet": true,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401922292",
-      "date": "2026-11-18T23:30Z",
-      "home_team": "UNC Asheville Bulldogs",
-      "away_team": "Tennessee Tech Golden Eagles",
-      "home_abbr": "UNCA",
-      "away_abbr": "TNTC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2427.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-3",
-      "away_record": "3-2",
-      "home_location": "UNC Asheville",
-      "away_location": "Tennessee Tech",
-      "home_rating_team": "UNC Asheville",
-      "away_rating_team": "Tennessee Tech",
-      "home_adj_em": -8.77,
-      "away_adj_em": -4.41,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Kimmel Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 0.5,
-      "predicted_total": 154.4,
-      "home_projected_score": 77.4,
-      "away_projected_score": 76.9,
-      "home_win_prob": 51.8,
-      "away_win_prob": 48.2,
-      "confidence": 71.0,
-      "pick": "UNC Asheville Bulldogs",
-      "pick_abbr": "UNCA",
-      "is_home_pick": true,
-      "projected_tempo": 71.1,
-      "factors": {
-        "efficiency_margin": -3.1,
-        "home_court": 3.61
-      },
-      "market": {
-        "spread": 3.5,
-        "over_under": 161.5,
-        "spread_holder": "Tennessee Tech Golden Eagles",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 4.0,
-      "model_vs_market": {
-        "spread_edge": 4.0,
-        "total_edge": -7.1
+        "total_edge": 5.1
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -425,15 +371,15 @@
         "home_court": 3.96
       },
       "market": {
-        "spread": -31.5,
-        "over_under": 168.5,
+        "spread": -32.5,
+        "over_under": 169.5,
         "spread_holder": "Utah State Aggies",
         "bookmaker": "draftkings"
       },
-      "value_rating": 6.6,
+      "value_rating": 7.6,
       "model_vs_market": {
-        "spread_edge": -6.6,
-        "total_edge": -11.0
+        "spread_edge": -7.6,
+        "total_edge": -12.0
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -588,14 +534,14 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 152.5,
+        "over_under": 153.5,
         "spread_holder": "San Jos\u00e9 St Spartans",
         "bookmaker": "draftkings"
       },
       "value_rating": 3.5,
       "model_vs_market": {
         "spread_edge": -3.5,
-        "total_edge": 1.9
+        "total_edge": 0.9
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -650,6 +596,60 @@
       "model_vs_market": {
         "spread_edge": -4.5,
         "total_edge": -0.6
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401922292",
+      "date": "2026-11-18T23:30Z",
+      "home_team": "UNC Asheville Bulldogs",
+      "away_team": "Tennessee Tech Golden Eagles",
+      "home_abbr": "UNCA",
+      "away_abbr": "TNTC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2427.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "3-2",
+      "home_location": "UNC Asheville",
+      "away_location": "Tennessee Tech",
+      "home_rating_team": "UNC Asheville",
+      "away_rating_team": "Tennessee Tech",
+      "home_adj_em": -8.77,
+      "away_adj_em": -4.41,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Kimmel Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 0.5,
+      "predicted_total": 154.4,
+      "home_projected_score": 77.4,
+      "away_projected_score": 76.9,
+      "home_win_prob": 51.8,
+      "away_win_prob": 48.2,
+      "confidence": 67.0,
+      "pick": "UNC Asheville Bulldogs",
+      "pick_abbr": "UNCA",
+      "is_home_pick": true,
+      "projected_tempo": 71.1,
+      "factors": {
+        "efficiency_margin": -3.1,
+        "home_court": 3.61
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 161.5,
+        "spread_holder": "Tennessee Tech Golden Eagles",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 3.0,
+      "model_vs_market": {
+        "spread_edge": 3.0,
+        "total_edge": -7.1
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -804,14 +804,14 @@
       },
       "market": {
         "spread": -34.5,
-        "over_under": 165.5,
+        "over_under": 166.5,
         "spread_holder": "UCLA -34.5",
         "bookmaker": "espn"
       },
       "value_rating": 9.4,
       "model_vs_market": {
         "spread_edge": -9.4,
-        "total_edge": -12.4
+        "total_edge": -13.4
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1465,6 +1465,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401922283",
+      "date": "2026-11-18T23:30Z",
+      "home_team": "South Carolina Upstate Spartans",
+      "away_team": "Samford Bulldogs",
+      "home_abbr": "UPST",
+      "away_abbr": "SAM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-4",
+      "away_record": "1-2",
+      "home_location": "South Carolina Upstate",
+      "away_location": "Samford",
+      "home_rating_team": "USC Upstate",
+      "away_rating_team": "Samford",
+      "home_adj_em": -17.26,
+      "away_adj_em": -6.22,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "G.B. Hodge Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -4.8,
+      "predicted_total": 149.2,
+      "home_projected_score": 72.2,
+      "away_projected_score": 77.0,
+      "home_win_prob": 33.1,
+      "away_win_prob": 66.9,
+      "confidence": 63.7,
+      "pick": "Samford Bulldogs",
+      "pick_abbr": "SAM",
+      "is_home_pick": false,
+      "projected_tempo": 70.4,
+      "factors": {
+        "efficiency_margin": -7.77,
+        "home_court": 2.95
+      },
+      "market": {
+        "spread": 7.5,
+        "over_under": 150.5,
+        "spread_holder": "Samford Bulldogs",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 2.7,
+      "model_vs_market": {
+        "spread_edge": -2.7,
+        "total_edge": -1.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401922047",
       "date": "2026-11-19T00:00Z",
       "home_team": "Longwood Lancers",
@@ -1506,70 +1560,16 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 151.5,
+        "over_under": 152.5,
         "spread_holder": "Longwood Lancers",
         "bookmaker": "betmgm"
       },
       "value_rating": 2.0,
       "model_vs_market": {
         "spread_edge": 2.0,
-        "total_edge": -2.5
+        "total_edge": -3.5
       },
       "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401924721",
-      "date": "2026-11-19T01:00Z",
-      "home_team": "Syracuse Orange",
-      "away_team": "Cornell Big Red",
-      "home_abbr": "SYR",
-      "away_abbr": "COR",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-2",
-      "away_record": "2-2",
-      "home_location": "Syracuse",
-      "away_location": "Cornell",
-      "home_rating_team": "Syracuse",
-      "away_rating_team": "Cornell",
-      "home_adj_em": 12.93,
-      "away_adj_em": -7.25,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "JMA Wireless Dome",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ACC Network",
-      "predicted_spread": 17.8,
-      "predicted_total": 152.2,
-      "home_projected_score": 85.0,
-      "away_projected_score": 67.2,
-      "home_win_prob": 94.7,
-      "away_win_prob": 5.3,
-      "confidence": 62.9,
-      "pick": "Syracuse Orange",
-      "pick_abbr": "SYR",
-      "is_home_pick": true,
-      "projected_tempo": 70.6,
-      "factors": {
-        "efficiency_margin": 14.25,
-        "home_court": 3.53
-      },
-      "market": {
-        "spread": -22.5,
-        "over_under": 156.5,
-        "spread_holder": "Syracuse Orange",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 4.7,
-      "model_vs_market": {
-        "spread_edge": -4.7,
-        "total_edge": -4.3
-      },
-      "is_best_bet": true,
       "is_tournament_game": false
     },
     {
@@ -1614,14 +1614,14 @@
       },
       "market": {
         "spread": -26.5,
-        "over_under": 135.5,
+        "over_under": 133.5,
         "spread_holder": "George Mason Patriots",
         "bookmaker": "betmgm"
       },
       "value_rating": 4.7,
       "model_vs_market": {
         "spread_edge": -4.7,
-        "total_edge": 3.9
+        "total_edge": 5.9
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -1938,68 +1938,14 @@
       },
       "market": {
         "spread": -7.5,
-        "over_under": 148.5,
+        "over_under": 149.5,
         "spread_holder": "San Diego Toreros",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.7,
       "model_vs_market": {
         "spread_edge": 1.7,
-        "total_edge": 2.6
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401922283",
-      "date": "2026-11-18T23:30Z",
-      "home_team": "South Carolina Upstate Spartans",
-      "away_team": "Samford Bulldogs",
-      "home_abbr": "UPST",
-      "away_abbr": "SAM",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "1-4",
-      "away_record": "1-2",
-      "home_location": "South Carolina Upstate",
-      "away_location": "Samford",
-      "home_rating_team": "USC Upstate",
-      "away_rating_team": "Samford",
-      "home_adj_em": -17.26,
-      "away_adj_em": -6.22,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "G.B. Hodge Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": -4.8,
-      "predicted_total": 149.2,
-      "home_projected_score": 72.2,
-      "away_projected_score": 77.0,
-      "home_win_prob": 33.1,
-      "away_win_prob": 66.9,
-      "confidence": 59.7,
-      "pick": "Samford Bulldogs",
-      "pick_abbr": "SAM",
-      "is_home_pick": false,
-      "projected_tempo": 70.4,
-      "factors": {
-        "efficiency_margin": -7.77,
-        "home_court": 2.95
-      },
-      "market": {
-        "spread": 6.5,
-        "over_under": 150.5,
-        "spread_holder": "Samford Bulldogs",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 1.7,
-      "model_vs_market": {
-        "spread_edge": -1.7,
-        "total_edge": -1.3
+        "total_edge": 1.6
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2046,16 +1992,70 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 136.5,
+        "over_under": 135.5,
         "spread_holder": "BRAD -6.5",
         "bookmaker": "espn"
       },
       "value_rating": 1.4,
       "model_vs_market": {
         "spread_edge": 1.4,
-        "total_edge": 3.8
+        "total_edge": 4.8
       },
       "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401924721",
+      "date": "2026-11-19T01:00Z",
+      "home_team": "Syracuse Orange",
+      "away_team": "Cornell Big Red",
+      "home_abbr": "SYR",
+      "away_abbr": "COR",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-2",
+      "away_record": "2-2",
+      "home_location": "Syracuse",
+      "away_location": "Cornell",
+      "home_rating_team": "Syracuse",
+      "away_rating_team": "Cornell",
+      "home_adj_em": 12.93,
+      "away_adj_em": -7.25,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "JMA Wireless Dome",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACC Network",
+      "predicted_spread": 17.8,
+      "predicted_total": 152.2,
+      "home_projected_score": 85.0,
+      "away_projected_score": 67.2,
+      "home_win_prob": 94.7,
+      "away_win_prob": 5.3,
+      "confidence": 58.9,
+      "pick": "Syracuse Orange",
+      "pick_abbr": "SYR",
+      "is_home_pick": true,
+      "projected_tempo": 70.6,
+      "factors": {
+        "efficiency_margin": 14.25,
+        "home_court": 3.53
+      },
+      "market": {
+        "spread": -21.5,
+        "over_under": 158.5,
+        "spread_holder": "Syracuse Orange",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 3.7,
+      "model_vs_market": {
+        "spread_edge": -3.7,
+        "total_edge": -6.3
+      },
+      "is_best_bet": true,
       "is_tournament_game": false
     },
     {
@@ -2113,6 +2113,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401919735",
+      "date": "2026-11-19T00:00Z",
+      "home_team": "UIC Flames",
+      "away_team": "Chicago State Cougars",
+      "home_abbr": "UIC",
+      "away_abbr": "CHST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/82.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-1",
+      "away_record": "2-4",
+      "home_location": "UIC",
+      "away_location": "Chicago State",
+      "home_rating_team": "Illinois Chicago",
+      "away_rating_team": "Chicago St.",
+      "home_adj_em": 5.88,
+      "away_adj_em": -17.01,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Credit Union 1 Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 18.8,
+      "predicted_total": 145.1,
+      "home_projected_score": 82.0,
+      "away_projected_score": 63.1,
+      "home_win_prob": 95.7,
+      "away_win_prob": 4.3,
+      "confidence": 58.6,
+      "pick": "UIC Flames",
+      "pick_abbr": "UIC",
+      "is_home_pick": true,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": 15.73,
+        "home_court": 3.11
+      },
+      "market": {
+        "spread": -22.5,
+        "over_under": 141.5,
+        "spread_holder": "UIC Flames",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 3.7,
+      "model_vs_market": {
+        "spread_edge": -3.7,
+        "total_edge": 3.6
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401922055",
       "date": "2026-11-19T00:00Z",
       "home_team": "Radford Highlanders",
@@ -2154,14 +2208,14 @@
       },
       "market": {
         "spread": 5.5,
-        "over_under": 150.5,
+        "over_under": 149.5,
         "spread_holder": "Furman Paladins",
         "bookmaker": "betmgm"
       },
       "value_rating": 1.1,
       "model_vs_market": {
         "spread_edge": 1.1,
-        "total_edge": -2.7
+        "total_edge": -1.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2221,6 +2275,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401920516",
+      "date": "2026-11-19T03:00Z",
+      "home_team": "Auburn Tigers",
+      "away_team": "UNLV Rebels",
+      "home_abbr": "AUB",
+      "away_abbr": "UNLV",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-2",
+      "away_record": "3-1",
+      "home_location": "Auburn",
+      "away_location": "UNLV",
+      "home_rating_team": "Auburn",
+      "away_rating_team": "UNLV",
+      "home_adj_em": 18.09,
+      "away_adj_em": 7.76,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 7.3,
+      "predicted_total": 156.2,
+      "home_projected_score": 81.8,
+      "away_projected_score": 74.5,
+      "home_win_prob": 74.6,
+      "away_win_prob": 25.4,
+      "confidence": 57.8,
+      "pick": "Auburn Tigers",
+      "pick_abbr": "AUB",
+      "is_home_pick": true,
+      "projected_tempo": 70.5,
+      "factors": {
+        "efficiency_margin": 7.29,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -8.5,
+        "over_under": 162.5,
+        "spread_holder": "Auburn Tigers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.2,
+      "model_vs_market": {
+        "spread_edge": -1.2,
+        "total_edge": -6.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
       "game_id": "401921141",
       "date": "2026-11-19T00:00Z",
       "home_team": "South Carolina Gamecocks",
@@ -2270,6 +2378,60 @@
       "model_vs_market": {
         "spread_edge": -2.1,
         "total_edge": 8.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401920694",
+      "date": "2026-11-19T00:00Z",
+      "home_team": "Yale Bulldogs",
+      "away_team": "Vermont Catamounts",
+      "home_abbr": "YALE",
+      "away_abbr": "UVM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/261.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "2-2",
+      "home_location": "Yale",
+      "away_location": "Vermont",
+      "home_rating_team": "Yale",
+      "away_rating_team": "Vermont",
+      "home_adj_em": -2.33,
+      "away_adj_em": -1.87,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "John J. Lee Amphitheater",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 3.6,
+      "predicted_total": 145.4,
+      "home_projected_score": 74.5,
+      "away_projected_score": 70.9,
+      "home_win_prob": 63.0,
+      "away_win_prob": 37.0,
+      "confidence": 57.4,
+      "pick": "Yale Bulldogs",
+      "pick_abbr": "YALE",
+      "is_home_pick": true,
+      "projected_tempo": 66.4,
+      "factors": {
+        "efficiency_margin": -0.31,
+        "home_court": 3.95
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 140.5,
+        "spread_holder": "Yale Bulldogs",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 0.9,
+      "model_vs_market": {
+        "spread_edge": -0.9,
+        "total_edge": 4.9
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2424,14 +2586,14 @@
       },
       "market": {
         "spread": -4.5,
-        "over_under": 136.5,
+        "over_under": 134.5,
         "spread_holder": "MRMK -4.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.6,
       "model_vs_market": {
         "spread_edge": 0.6,
-        "total_edge": 4.3
+        "total_edge": 6.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2640,122 +2802,14 @@
       },
       "market": {
         "spread": -3.5,
-        "over_under": 140.5,
+        "over_under": 139.5,
         "spread_holder": "Towson Tigers",
         "bookmaker": "draftkings"
       },
       "value_rating": 0.3,
       "model_vs_market": {
         "spread_edge": -0.3,
-        "total_edge": 0.4
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401920694",
-      "date": "2026-11-19T00:00Z",
-      "home_team": "Yale Bulldogs",
-      "away_team": "Vermont Catamounts",
-      "home_abbr": "YALE",
-      "away_abbr": "UVM",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/261.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-3",
-      "away_record": "2-2",
-      "home_location": "Yale",
-      "away_location": "Vermont",
-      "home_rating_team": "Yale",
-      "away_rating_team": "Vermont",
-      "home_adj_em": -2.33,
-      "away_adj_em": -1.87,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "John J. Lee Amphitheater",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 3.6,
-      "predicted_total": 145.4,
-      "home_projected_score": 74.5,
-      "away_projected_score": 70.9,
-      "home_win_prob": 63.0,
-      "away_win_prob": 37.0,
-      "confidence": 54.6,
-      "pick": "Yale Bulldogs",
-      "pick_abbr": "YALE",
-      "is_home_pick": true,
-      "projected_tempo": 66.4,
-      "factors": {
-        "efficiency_margin": -0.31,
-        "home_court": 3.95
-      },
-      "market": {
-        "spread": -3.5,
-        "over_under": 140.5,
-        "spread_holder": "Yale Bulldogs",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 0.1,
-      "model_vs_market": {
-        "spread_edge": 0.1,
-        "total_edge": 4.9
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401919735",
-      "date": "2026-11-19T00:00Z",
-      "home_team": "UIC Flames",
-      "away_team": "Chicago State Cougars",
-      "home_abbr": "UIC",
-      "away_abbr": "CHST",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/82.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-1",
-      "away_record": "2-4",
-      "home_location": "UIC",
-      "away_location": "Chicago State",
-      "home_rating_team": "Illinois Chicago",
-      "away_rating_team": "Chicago St.",
-      "home_adj_em": 5.88,
-      "away_adj_em": -17.01,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Credit Union 1 Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 18.8,
-      "predicted_total": 145.1,
-      "home_projected_score": 82.0,
-      "away_projected_score": 63.1,
-      "home_win_prob": 95.7,
-      "away_win_prob": 4.3,
-      "confidence": 54.6,
-      "pick": "UIC Flames",
-      "pick_abbr": "UIC",
-      "is_home_pick": true,
-      "projected_tempo": 68.7,
-      "factors": {
-        "efficiency_margin": 15.73,
-        "home_court": 3.11
-      },
-      "market": {
-        "spread": -21.5,
-        "over_under": 141.5,
-        "spread_holder": "UIC Flames",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 2.7,
-      "model_vs_market": {
-        "spread_edge": -2.7,
-        "total_edge": 3.6
+        "total_edge": 1.4
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2856,14 +2910,14 @@
       },
       "market": {
         "spread": -17.5,
-        "over_under": 143.5,
+        "over_under": 142.5,
         "spread_holder": "Texas State Bobcats",
         "bookmaker": "betmgm"
       },
       "value_rating": 2.3,
       "model_vs_market": {
         "spread_edge": 2.3,
-        "total_edge": 1.1
+        "total_edge": 2.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2921,6 +2975,60 @@
       },
       "is_best_bet": false,
       "is_tournament_game": false
+    },
+    {
+      "game_id": "401920515",
+      "date": "2026-11-19T00:30Z",
+      "home_team": "West Virginia Mountaineers",
+      "away_team": "Kansas Jayhawks",
+      "home_abbr": "WVU",
+      "away_abbr": "KU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+      "home_rank": 99,
+      "away_rank": 11,
+      "home_record": "4-0",
+      "away_record": "4-0",
+      "home_location": "West Virginia",
+      "away_location": "Kansas",
+      "home_rating_team": "West Virginia",
+      "away_rating_team": "Kansas",
+      "home_adj_em": 16.62,
+      "away_adj_em": 28.87,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": true,
+      "broadcast": "ESPN2",
+      "predicted_spread": -8.5,
+      "predicted_total": 147.3,
+      "home_projected_score": 69.4,
+      "away_projected_score": 77.9,
+      "home_win_prob": 22.0,
+      "away_win_prob": 78.0,
+      "confidence": 53.0,
+      "pick": "Kansas Jayhawks",
+      "pick_abbr": "KU",
+      "is_home_pick": false,
+      "projected_tempo": 69.4,
+      "factors": {
+        "efficiency_margin": -8.51,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 8.5,
+        "over_under": 150.5,
+        "spread_holder": "Kansas Jayhawks",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.0,
+      "model_vs_market": {
+        "spread_edge": 0.0,
+        "total_edge": -3.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
     },
     {
       "game_id": "401909516",
@@ -3194,15 +3302,15 @@
     }
   ],
   "summary": {
-    "total_games": 59,
-    "high_confidence": 5,
-    "medium_confidence": 54,
+    "total_games": 61,
+    "high_confidence": 4,
+    "medium_confidence": 57,
     "low_confidence": 0,
-    "avg_confidence": 61.7,
-    "value_plays": 27,
-    "best_bets": 17,
-    "with_market_line": 59,
-    "tournament_games": 4
+    "avg_confidence": 61.5,
+    "value_plays": 28,
+    "best_bets": 18,
+    "with_market_line": 61,
+    "tournament_games": 6
   },
   "early": true
 }
