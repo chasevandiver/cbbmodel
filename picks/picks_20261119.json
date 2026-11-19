@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T16:26:09.211363-05:00",
+  "generated_at": "2026-11-19T17:07:51.024945-05:00",
   "date": "20261119",
   "total_games": 29,
   "model_version": "4.1.0",
@@ -449,8 +449,8 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
       "home_rank": 99,
       "away_rank": 1,
-      "home_record": "4-1",
-      "away_record": "5-1",
+      "home_record": "4-2",
+      "away_record": "6-1",
       "home_location": "West Virginia",
       "away_location": "Florida",
       "home_rating_team": "West Virginia",

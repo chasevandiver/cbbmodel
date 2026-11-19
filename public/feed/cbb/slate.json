@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-19T16:26:09.254508-05:00",
+ "generated_at": "2026-11-19T17:07:51.070609-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-19",
@@ -28,14 +28,14 @@
     "name": "West Virginia Mountaineers",
     "abbr": "WVU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-    "record": "4-1",
+    "record": "4-2",
     "rank": null
    },
    "away": {
     "name": "Florida Gators",
     "abbr": "FLA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-    "record": "5-1",
+    "record": "6-1",
     "rank": 1
    },
    "venue": "Michelob ULTRA Arena",
