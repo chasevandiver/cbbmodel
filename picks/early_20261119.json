@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T23:25:02.342705-05:00",
+  "generated_at": "2026-11-19T03:20:54.871359-05:00",
   "date": "20261119",
-  "total_games": 25,
+  "total_games": 29,
   "model_version": "4.1.0",
   "ratings_source": "barttorvik (cache 2026-11-18)",
   "ratings_season": 2027,
@@ -155,18 +155,72 @@
         "home_court": 3.81
       },
       "market": {
-        "spread": -32.5,
+        "spread": -31.5,
         "over_under": 158.5,
         "spread_holder": "Ohio State Buckeyes",
         "bookmaker": "draftkings"
       },
-      "value_rating": 7.4,
+      "value_rating": 6.4,
       "model_vs_market": {
-        "spread_edge": -7.4,
+        "spread_edge": -6.4,
         "total_edge": -7.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
+    },
+    {
+      "game_id": "401920518",
+      "date": "2026-11-20T04:00Z",
+      "home_team": "Kansas Jayhawks",
+      "away_team": "Houston Cougars",
+      "home_abbr": "KU",
+      "away_abbr": "HOU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+      "home_rank": 11,
+      "away_rank": 8,
+      "home_record": "5-0",
+      "away_record": "5-0",
+      "home_location": "Kansas",
+      "away_location": "Houston",
+      "home_rating_team": "Kansas",
+      "away_rating_team": "Houston",
+      "home_adj_em": 29.75,
+      "away_adj_em": 27.97,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": true,
+      "broadcast": "ESPN",
+      "predicted_spread": 1.3,
+      "predicted_total": 149.4,
+      "home_projected_score": 75.3,
+      "away_projected_score": 74.1,
+      "home_win_prob": 54.5,
+      "away_win_prob": 45.5,
+      "confidence": 69.0,
+      "pick": "Kansas Jayhawks",
+      "pick_abbr": "KU",
+      "is_home_pick": true,
+      "projected_tempo": 70.1,
+      "factors": {
+        "efficiency_margin": 1.25,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 150.5,
+        "spread_holder": "Houston Cougars",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 3.8,
+      "model_vs_market": {
+        "spread_edge": 3.8,
+        "total_edge": -1.1
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true
     },
     {
       "game_id": "401926773",
@@ -318,14 +372,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 162.5,
+        "over_under": 161.5,
         "spread_holder": "Oregon Ducks",
         "bookmaker": "fanduel"
       },
       "value_rating": 3.6,
       "model_vs_market": {
         "spread_edge": 3.6,
-        "total_edge": 3.2
+        "total_edge": 4.2
       },
       "is_best_bet": true,
       "is_tournament_game": true
@@ -426,14 +480,14 @@
       },
       "market": {
         "spread": -10.5,
-        "over_under": 137.5,
+        "over_under": 136.5,
         "spread_holder": "Quinnipiac Bobcats",
         "bookmaker": "betmgm"
       },
       "value_rating": 2.5,
       "model_vs_market": {
         "spread_edge": -2.5,
-        "total_edge": 2.2
+        "total_edge": 3.2
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -493,6 +547,114 @@
       "is_tournament_game": true
     },
     {
+      "game_id": "401920413",
+      "date": "2026-11-20T00:00Z",
+      "home_team": "High Point Panthers",
+      "away_team": "Montana State Bobcats",
+      "home_abbr": "HPU",
+      "away_abbr": "MTST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-0",
+      "away_record": "2-3",
+      "home_location": "High Point",
+      "away_location": "Montana State",
+      "home_rating_team": "High Point",
+      "away_rating_team": "Montana St.",
+      "home_adj_em": 14.17,
+      "away_adj_em": 4.94,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Qubein Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 10.3,
+      "predicted_total": 145.4,
+      "home_projected_score": 77.8,
+      "away_projected_score": 67.5,
+      "home_win_prob": 82.5,
+      "away_win_prob": 17.5,
+      "confidence": 62.8,
+      "pick": "High Point Panthers",
+      "pick_abbr": "HPU",
+      "is_home_pick": true,
+      "projected_tempo": 69.0,
+      "factors": {
+        "efficiency_margin": 6.37,
+        "home_court": 3.92
+      },
+      "market": {
+        "spread": -13.5,
+        "over_under": 144.5,
+        "spread_holder": "High Point Panthers",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 3.2,
+      "model_vs_market": {
+        "spread_edge": -3.2,
+        "total_edge": 0.9
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401920517",
+      "date": "2026-11-19T19:30Z",
+      "home_team": "West Virginia Mountaineers",
+      "away_team": "Florida Gators",
+      "home_abbr": "WVU",
+      "away_abbr": "FLA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+      "home_rank": 99,
+      "away_rank": 1,
+      "home_record": "4-1",
+      "away_record": "5-1",
+      "home_location": "West Virginia",
+      "away_location": "Florida",
+      "home_rating_team": "West Virginia",
+      "away_rating_team": "Florida",
+      "home_adj_em": 17.21,
+      "away_adj_em": 27.94,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": -7.4,
+      "predicted_total": 147.8,
+      "home_projected_score": 70.2,
+      "away_projected_score": 77.6,
+      "home_win_prob": 25.0,
+      "away_win_prob": 75.0,
+      "confidence": 62.4,
+      "pick": "Florida Gators",
+      "pick_abbr": "FLA",
+      "is_home_pick": false,
+      "projected_tempo": 69.0,
+      "factors": {
+        "efficiency_margin": -7.4,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 9.5,
+        "over_under": 149.5,
+        "spread_holder": "Florida Gators",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 2.1,
+      "model_vs_market": {
+        "spread_edge": -2.1,
+        "total_edge": -1.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
       "game_id": "401921028",
       "date": "2026-11-20T01:00Z",
       "home_team": "Houston Christian Huskies",
@@ -534,14 +696,14 @@
       },
       "market": {
         "spread": -3.5,
-        "over_under": 148.5,
+        "over_under": 150.5,
         "spread_holder": "Houston Christian Huskies",
         "bookmaker": "betmgm"
       },
       "value_rating": 1.3,
       "model_vs_market": {
         "spread_edge": 1.3,
-        "total_edge": -0.7
+        "total_edge": -2.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -588,122 +750,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 136.5,
+        "over_under": 135.5,
         "spread_holder": "New Mexico St Aggies",
         "bookmaker": "fanduel"
       },
       "value_rating": 1.3,
       "model_vs_market": {
         "spread_edge": 1.3,
-        "total_edge": 6.7
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401920413",
-      "date": "2026-11-20T00:00Z",
-      "home_team": "High Point Panthers",
-      "away_team": "Montana State Bobcats",
-      "home_abbr": "HPU",
-      "away_abbr": "MTST",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "5-0",
-      "away_record": "2-3",
-      "home_location": "High Point",
-      "away_location": "Montana State",
-      "home_rating_team": "High Point",
-      "away_rating_team": "Montana St.",
-      "home_adj_em": 14.17,
-      "away_adj_em": 4.94,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Qubein Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 10.3,
-      "predicted_total": 145.4,
-      "home_projected_score": 77.8,
-      "away_projected_score": 67.5,
-      "home_win_prob": 82.5,
-      "away_win_prob": 17.5,
-      "confidence": 58.8,
-      "pick": "High Point Panthers",
-      "pick_abbr": "HPU",
-      "is_home_pick": true,
-      "projected_tempo": 69.0,
-      "factors": {
-        "efficiency_margin": 6.37,
-        "home_court": 3.92
-      },
-      "market": {
-        "spread": -12.5,
-        "over_under": 144.5,
-        "spread_holder": "High Point Panthers",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 2.2,
-      "model_vs_market": {
-        "spread_edge": -2.2,
-        "total_edge": 0.9
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401920845",
-      "date": "2026-11-20T01:00Z",
-      "home_team": "St. Thomas Tommies",
-      "away_team": "Southeast Missouri State Redhawks",
-      "home_abbr": "STMN",
-      "away_abbr": "SEMO",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-3",
-      "away_record": "3-2",
-      "home_location": "St. Thomas",
-      "away_location": "Southeast Missouri State",
-      "home_rating_team": "St. Thomas",
-      "away_rating_team": "Southeast Missouri St.",
-      "home_adj_em": -1.82,
-      "away_adj_em": -6.89,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Lee & Penny Anderson Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "Summit League Network",
-      "predicted_spread": 7.4,
-      "predicted_total": 151.6,
-      "home_projected_score": 79.5,
-      "away_projected_score": 72.1,
-      "home_win_prob": 74.9,
-      "away_win_prob": 25.1,
-      "confidence": 58.6,
-      "pick": "St. Thomas Tommies",
-      "pick_abbr": "STMN",
-      "is_home_pick": true,
-      "projected_tempo": 70.0,
-      "factors": {
-        "efficiency_margin": 3.55,
-        "home_court": 3.84
-      },
-      "market": {
-        "spread": -6.5,
-        "over_under": 149.5,
-        "spread_holder": "STMN -6.5",
-        "bookmaker": "espn"
-      },
-      "value_rating": 0.9,
-      "model_vs_market": {
-        "spread_edge": 0.9,
-        "total_edge": 2.1
+        "total_edge": 7.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -758,6 +812,60 @@
       "model_vs_market": {
         "spread_edge": -2.1,
         "total_edge": -0.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401917536",
+      "date": "2026-11-20T03:30Z",
+      "home_team": "Santa Clara Broncos",
+      "away_team": "VCU Rams",
+      "home_abbr": "SCU",
+      "away_abbr": "VCU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-0",
+      "away_record": "2-1",
+      "home_location": "Santa Clara",
+      "away_location": "VCU",
+      "home_rating_team": "Santa Clara",
+      "away_rating_team": "VCU",
+      "home_adj_em": 12.04,
+      "away_adj_em": 14.75,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Leavey Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 1.3,
+      "predicted_total": 156.0,
+      "home_projected_score": 78.7,
+      "away_projected_score": 77.3,
+      "home_win_prob": 54.8,
+      "away_win_prob": 45.2,
+      "confidence": 57.7,
+      "pick": "Santa Clara Broncos",
+      "pick_abbr": "SCU",
+      "is_home_pick": true,
+      "projected_tempo": 72.2,
+      "factors": {
+        "efficiency_margin": -1.95,
+        "home_court": 3.29
+      },
+      "market": {
+        "spread": -2.5,
+        "over_under": 164.5,
+        "spread_holder": "Santa Clara Broncos",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 1.2,
+      "model_vs_market": {
+        "spread_edge": -1.2,
+        "total_edge": -8.5
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -871,6 +979,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401920519",
+      "date": "2026-11-19T22:00Z",
+      "home_team": "Auburn Tigers",
+      "away_team": "Notre Dame Fighting Irish",
+      "home_abbr": "AUB",
+      "away_abbr": "ND",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "5-1",
+      "home_location": "Auburn",
+      "away_location": "Notre Dame",
+      "home_rating_team": "Auburn",
+      "away_rating_team": "Notre Dame",
+      "home_adj_em": 17.39,
+      "away_adj_em": 13.32,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": 2.8,
+      "predicted_total": 153.6,
+      "home_projected_score": 78.2,
+      "away_projected_score": 75.4,
+      "home_win_prob": 60.1,
+      "away_win_prob": 39.9,
+      "confidence": 56.7,
+      "pick": "Auburn Tigers",
+      "pick_abbr": "AUB",
+      "is_home_pick": true,
+      "projected_tempo": 69.5,
+      "factors": {
+        "efficiency_margin": 2.83,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 152.5,
+        "spread_holder": "AUB -3.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.7,
+      "model_vs_market": {
+        "spread_edge": -0.7,
+        "total_edge": 1.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
       "game_id": "401919005",
       "date": "2026-11-20T00:30Z",
       "home_team": "Louisiana Tech Bulldogs",
@@ -925,6 +1087,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401920845",
+      "date": "2026-11-20T01:00Z",
+      "home_team": "St. Thomas Tommies",
+      "away_team": "Southeast Missouri State Redhawks",
+      "home_abbr": "STMN",
+      "away_abbr": "SEMO",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "3-2",
+      "home_location": "St. Thomas",
+      "away_location": "Southeast Missouri State",
+      "home_rating_team": "St. Thomas",
+      "away_rating_team": "Southeast Missouri St.",
+      "home_adj_em": -1.82,
+      "away_adj_em": -6.89,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Lee & Penny Anderson Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "Summit League Network",
+      "predicted_spread": 7.4,
+      "predicted_total": 151.6,
+      "home_projected_score": 79.5,
+      "away_projected_score": 72.1,
+      "home_win_prob": 74.9,
+      "away_win_prob": 25.1,
+      "confidence": 55.4,
+      "pick": "St. Thomas Tommies",
+      "pick_abbr": "STMN",
+      "is_home_pick": true,
+      "projected_tempo": 70.0,
+      "factors": {
+        "efficiency_margin": 3.55,
+        "home_court": 3.84
+      },
+      "market": {
+        "spread": -7.5,
+        "over_under": 149.5,
+        "spread_holder": "STMN -7.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.1,
+      "model_vs_market": {
+        "spread_edge": -0.1,
+        "total_edge": 2.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401928388",
       "date": "2026-11-20T02:00Z",
       "home_team": "Grambling Tigers",
@@ -966,14 +1182,14 @@
       },
       "market": {
         "spread": 1.5,
-        "over_under": 148.5,
+        "over_under": 147.5,
         "spread_holder": "Southern Miss Golden Eagles",
         "bookmaker": "betmgm"
       },
       "value_rating": 0.6,
       "model_vs_market": {
         "spread_edge": 0.6,
-        "total_edge": -0.7
+        "total_edge": 0.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1031,6 +1247,60 @@
       },
       "is_best_bet": false,
       "is_tournament_game": false
+    },
+    {
+      "game_id": "401920520",
+      "date": "2026-11-20T01:30Z",
+      "home_team": "UNLV Rebels",
+      "away_team": "Rutgers Scarlet Knights",
+      "home_abbr": "UNLV",
+      "away_abbr": "RUTG",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "3-2",
+      "home_location": "UNLV",
+      "away_location": "Rutgers",
+      "home_rating_team": "UNLV",
+      "away_rating_team": "Rutgers",
+      "home_adj_em": 6.72,
+      "away_adj_em": 11.31,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": -3.3,
+      "predicted_total": 157.6,
+      "home_projected_score": 77.2,
+      "away_projected_score": 80.4,
+      "home_win_prob": 38.3,
+      "away_win_prob": 61.7,
+      "confidence": 54.9,
+      "pick": "Rutgers Scarlet Knights",
+      "pick_abbr": "RUTG",
+      "is_home_pick": false,
+      "projected_tempo": 71.2,
+      "factors": {
+        "efficiency_margin": -3.26,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 3.5,
+        "over_under": 156.5,
+        "spread_holder": "RUTG -3.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.2,
+      "model_vs_market": {
+        "spread_edge": -0.2,
+        "total_edge": 1.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
     },
     {
       "game_id": "401928354",
@@ -1136,60 +1406,6 @@
       "model_vs_market": {
         "spread_edge": -0.1,
         "total_edge": -8.1
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401917536",
-      "date": "2026-11-20T03:30Z",
-      "home_team": "Santa Clara Broncos",
-      "away_team": "VCU Rams",
-      "home_abbr": "SCU",
-      "away_abbr": "VCU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "5-0",
-      "away_record": "2-1",
-      "home_location": "Santa Clara",
-      "away_location": "VCU",
-      "home_rating_team": "Santa Clara",
-      "away_rating_team": "VCU",
-      "home_adj_em": 12.04,
-      "away_adj_em": 14.75,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Leavey Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN2",
-      "predicted_spread": 1.3,
-      "predicted_total": 156.0,
-      "home_projected_score": 78.7,
-      "away_projected_score": 77.3,
-      "home_win_prob": 54.8,
-      "away_win_prob": 45.2,
-      "confidence": 53.7,
-      "pick": "Santa Clara Broncos",
-      "pick_abbr": "SCU",
-      "is_home_pick": true,
-      "projected_tempo": 72.2,
-      "factors": {
-        "efficiency_margin": -1.95,
-        "home_court": 3.29
-      },
-      "market": {
-        "spread": -1.5,
-        "over_under": 164.5,
-        "spread_holder": "Santa Clara Broncos",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 0.2,
-      "model_vs_market": {
-        "spread_edge": -0.2,
-        "total_edge": -8.5
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1344,29 +1560,29 @@
       },
       "market": {
         "spread": -18.5,
-        "over_under": 159.5,
+        "over_under": 158.5,
         "spread_holder": "Washington Huskies",
         "bookmaker": "fanduel"
       },
       "value_rating": 0.7,
       "model_vs_market": {
         "spread_edge": -0.7,
-        "total_edge": -10.3
+        "total_edge": -9.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
     }
   ],
   "summary": {
-    "total_games": 25,
+    "total_games": 29,
     "high_confidence": 1,
-    "medium_confidence": 24,
+    "medium_confidence": 28,
     "low_confidence": 0,
-    "avg_confidence": 59.7,
-    "value_plays": 8,
-    "best_bets": 3,
-    "with_market_line": 25,
-    "tournament_games": 3
+    "avg_confidence": 60.0,
+    "value_plays": 10,
+    "best_bets": 5,
+    "with_market_line": 29,
+    "tournament_games": 7
   },
   "early": true
 }
