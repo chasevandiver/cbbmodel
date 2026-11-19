@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-18T23:25:02.672900-05:00",
+ "generated_at": "2026-11-19T02:53:51.325937-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -51529,7 +51529,7 @@
    "game_id": "401909742",
    "game_id_source": "espn",
    "start_time": "2026-11-19T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Arizona Wildcats",
     "abbr": "ARIZ",
@@ -51588,7 +51588,19 @@
     "side": "home",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 85,
+    "away_score": 79,
+    "margin_home": 6,
+    "total": 164,
+    "winner": "Arizona Wildcats",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -52198,7 +52210,7 @@
    "game_id": "401917535",
    "game_id_source": "espn",
    "start_time": "2026-11-19T02:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "San Diego Toreros",
     "abbr": "USD",
@@ -52257,7 +52269,19 @@
     "side": "home",
     "cover_line": 7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 71,
+    "away_score": 62,
+    "margin_home": 9,
+    "total": 133,
+    "winner": "San Diego Toreros",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -52270,7 +52294,7 @@
    "game_id": "401911456",
    "game_id_source": "espn",
    "start_time": "2026-11-19T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
@@ -52329,7 +52353,19 @@
     "side": "away",
     "cover_line": 18.5
    },
-   "result": null,
+   "result": {
+    "home_score": 91,
+    "away_score": 74,
+    "margin_home": 17,
+    "total": 165,
+    "winner": "Nevada Wolf Pack",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -52345,7 +52381,7 @@
    "game_id": "401920516",
    "game_id_source": "espn",
    "start_time": "2026-11-19T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Auburn Tigers",
     "abbr": "AUB",
@@ -52404,7 +52440,19 @@
     "side": "away",
     "cover_line": 8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 86,
+    "away_score": 71,
+    "margin_home": 15,
+    "total": 157,
+    "winner": "Auburn Tigers",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": -1.0
+   },
    "tags": [
     "tournament"
    ]
@@ -52419,7 +52467,7 @@
    "game_id": "401921064",
    "game_id_source": "espn",
    "start_time": "2026-11-19T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "San Francisco Dons",
     "abbr": "SF",
@@ -52478,7 +52526,19 @@
     "side": "away",
     "cover_line": 10.5
    },
-   "result": null,
+   "result": {
+    "home_score": 77,
+    "away_score": 56,
+    "margin_home": 21,
+    "total": 133,
+    "winner": "San Francisco Dons",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -52495,7 +52555,7 @@
    "game_id": "401929004",
    "game_id_source": "espn",
    "start_time": "2026-11-19T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Hawai'i Rainbow Warriors",
     "abbr": "HAW",
@@ -52548,7 +52608,19 @@
     "side": "home",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 63,
+    "away_score": 79,
+    "margin_home": -16,
+    "total": 142,
+    "winner": "Washington State Cougars",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -52563,7 +52635,7 @@
    "game_id": "401929146",
    "game_id_source": "espn",
    "start_time": "2026-11-19T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
@@ -52622,7 +52694,19 @@
     "side": "away",
     "cover_line": 27.5
    },
-   "result": null,
+   "result": {
+    "home_score": 97,
+    "away_score": 51,
+    "margin_home": 46,
+    "total": 148,
+    "winner": "San Diego State Aztecs",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": []
   },
   {
@@ -52635,7 +52719,7 @@
    "game_id": "401920158",
    "game_id_source": "espn",
    "start_time": "2026-11-19T03:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UCLA Bruins",
     "abbr": "UCLA",
@@ -52688,7 +52772,19 @@
     "side": "away",
     "cover_line": 34.5
    },
-   "result": null,
+   "result": {
+    "home_score": 75,
+    "away_score": 71,
+    "margin_home": 4,
+    "total": 146,
+    "winner": "UCLA Bruins",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "value"
    ]
