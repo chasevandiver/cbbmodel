@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-19T03:20:55.086103-05:00",
+ "generated_at": "2026-11-19T05:34:46.986287-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-19",
@@ -525,9 +525,9 @@
     "home_score": 79.8,
     "away_score": 74.0,
     "home_win_prob": 70.2,
-    "confidence": 67.3,
+    "confidence": 71.3,
     "tempo": 68.6,
-    "confidence_tier": "medium",
+    "confidence_tier": "high",
     "pick": {
      "team": "Jacksonville Dolphins",
      "abbr": "JAX",
@@ -535,27 +535,28 @@
     }
    },
    "market": {
-    "spread_home": -2.5,
+    "spread_home": -1.5,
     "total": 144.5,
-    "favorite": "JAX -2.5",
+    "favorite": "JAX -1.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 3.3,
+    "spread": 4.3,
     "total": 9.2,
-    "value_rating": 3.3,
+    "value_rating": 4.3,
     "is_best_bet": true
    },
    "bet": {
     "side": "home",
-    "cover_line": 2.5
+    "cover_line": 1.5
    },
    "result": null,
    "tags": [
     "best_bet",
-    "value"
+    "value",
+    "high_confidence"
    ]
   },
   {
