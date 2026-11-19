@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-18T17:44:42.969254-05:00",
+ "generated_at": "2026-11-18T19:06:09.006623-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-18",
@@ -183,7 +183,7 @@
    "game_id": "401920514",
    "game_id_source": "espn",
    "start_time": "2026-11-18T21:48Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Florida Gators",
     "abbr": "FLA",
@@ -236,7 +236,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 76,
+    "away_score": 86,
+    "margin_home": -10,
+    "total": 162,
+    "winner": "Houston Cougars",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -584,7 +596,7 @@
     "total": 150.5,
     "favorite": "Samford Bulldogs",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": 2.7,
@@ -2179,11 +2191,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": -27.5,
-    "total": 146.5,
+    "spread_home": -26.5,
+    "total": 145.5,
     "favorite": "Marquette Golden Eagles",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -6.9,
@@ -2257,7 +2269,7 @@
     "total": 150.5,
     "favorite": "Kansas Jayhawks",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": 0.7,
@@ -2328,11 +2340,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": -28.5,
+    "spread_home": -29.5,
     "total": 153.5,
     "favorite": "Cincinnati Bearcats",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -4.7,
@@ -2403,11 +2415,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": -35.5,
+    "spread_home": -36.5,
     "total": 157.5,
     "favorite": "Texas Tech Red Raiders",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -10.2,
@@ -2481,7 +2493,7 @@
     "total": 147.5,
     "favorite": "Oklahoma Sooners",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -5.5,
@@ -2552,11 +2564,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": 4.5,
-    "total": 128.5,
+    "spread_home": 3.5,
+    "total": 127.5,
     "favorite": "Boston College Eagles",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": 2.8,
@@ -2694,7 +2706,7 @@
     "total": 148.5,
     "favorite": "UNC Greensboro Spartans",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": 2.5,
@@ -2766,7 +2778,7 @@
     "total": 159.5,
     "favorite": "LSU Tigers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -9.0,
@@ -2840,7 +2852,7 @@
     "total": 130.5,
     "favorite": "New Hampshire Wildcats",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": 1.8,
@@ -2912,7 +2924,7 @@
     "total": 155.5,
     "favorite": "Syracuse Orange",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -3.9,
@@ -3050,10 +3062,10 @@
    },
    "closing": {
     "spread_home": -28.5,
-    "total": 162.5,
+    "total": 161.5,
     "favorite": "Arkansas St Red Wolves",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -5.0,
@@ -3125,10 +3137,10 @@
    },
    "closing": {
     "spread_home": -18.5,
-    "total": 140.5,
+    "total": 139.5,
     "favorite": "Texas State Bobcats",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": 2.3,
@@ -3200,7 +3212,7 @@
     "total": 148.5,
     "favorite": "UTSA Roadrunners",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -4.4,
@@ -3275,7 +3287,7 @@
     "total": 155.5,
     "favorite": "Nebraska Cornhuskers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -3.8,
@@ -3350,7 +3362,7 @@
     "total": 153.5,
     "favorite": "Creighton Bluejays",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -7.0,
@@ -3424,7 +3436,7 @@
     "total": 147.5,
     "favorite": "Arizona Wildcats",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": 0.8,
@@ -3496,7 +3508,7 @@
     "total": 156.5,
     "favorite": "Colorado Buffaloes",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -4.0,
@@ -3571,7 +3583,7 @@
     "total": 156.5,
     "favorite": "San Jos\u00e9 St Spartans",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -3.4,
@@ -3646,7 +3658,7 @@
     "total": 147.5,
     "favorite": "Arizona St Sun Devils",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -6.8,
@@ -3789,7 +3801,7 @@
     "total": 153.5,
     "favorite": "Missouri Tigers",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -14.1,
@@ -3860,10 +3872,10 @@
    },
    "closing": {
     "spread_home": -28.5,
-    "total": 171.5,
+    "total": 172.5,
     "favorite": "Utah State Aggies",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -7.6,
@@ -3937,7 +3949,7 @@
     "total": 147.5,
     "favorite": "Colorado St Rams",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -0.7,
@@ -4009,7 +4021,7 @@
     "total": 147.5,
     "favorite": "San Diego Toreros",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": 1.6,
@@ -4081,7 +4093,7 @@
     "total": 146.5,
     "favorite": "Nevada Wolf Pack",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -4.5,
@@ -4156,7 +4168,7 @@
     "total": 157.5,
     "favorite": "Auburn Tigers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -0.9,
@@ -4230,7 +4242,7 @@
     "total": 134.5,
     "favorite": "San Francisco Dons",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -4.6,
@@ -4374,7 +4386,7 @@
     "total": 157.5,
     "favorite": "San Diego St Aztecs",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-18T17:44:28.203148-05:00"
+    "captured_at": "2026-11-18T19:05:54.135623-05:00"
    },
    "edge": {
     "spread": -2.4,

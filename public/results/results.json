@@ -88730,21 +88730,89 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401920514",
+      "date": "2026-11-18T21:48Z",
+      "home_team": "Florida Gators",
+      "away_team": "Houston Cougars",
+      "home_abbr": "FLA",
+      "away_abbr": "HOU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+      "home_rank": 1,
+      "away_rank": 8,
+      "home_record": "5-0",
+      "away_record": "4-0",
+      "home_location": "Florida",
+      "away_location": "Houston",
+      "home_rating_team": "Florida",
+      "away_rating_team": "Houston",
+      "home_adj_em": 27.94,
+      "away_adj_em": 27.97,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": -0.0,
+      "predicted_total": 148.9,
+      "home_projected_score": 74.4,
+      "away_projected_score": 74.5,
+      "home_win_prob": 49.9,
+      "away_win_prob": 50.1,
+      "confidence": 60.1,
+      "pick": "Houston Cougars",
+      "pick_abbr": "HOU",
+      "is_home_pick": false,
+      "projected_tempo": 69.1,
+      "factors": {
+        "efficiency_margin": -0.02,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 148.5,
+        "spread_holder": "Florida Gators",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.5,
+      "model_vs_market": {
+        "spread_edge": 1.5,
+        "total_edge": 0.4
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": null,
+      "actual_home_score": 76,
+      "actual_away_score": 86,
+      "actual_margin": -10,
+      "actual_total": 162,
+      "actual_winner": "Houston Cougars",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 566,
+      "n": 567,
       "model_mae": 9.82,
       "market_mae": 9.42,
-      "intercept": -1.11,
-      "model_weight": 0.118,
-      "market_weight": 0.934,
+      "intercept": -1.15,
+      "model_weight": 0.122,
+      "market_weight": 0.931,
       "ats_by_edge": {
         "0-2": {
-          "w": 106,
+          "w": 107,
           "l": 66,
-          "pct": 61.6
+          "pct": 61.8
         },
         "2-4": {
           "w": 87,
@@ -88786,26 +88854,26 @@
         "n": 0
       }
     },
-    "total_graded": 567,
-    "ats_graded": 499,
+    "total_graded": 568,
+    "ats_graded": 500,
     "ats": {
-      "w": 279,
+      "w": 280,
       "l": 220,
       "p": 0,
-      "pct": 55.9
+      "pct": 56.0
     },
     "su": {
-      "correct": 450,
-      "total": 567,
+      "correct": 451,
+      "total": 568,
       "pct": 79.4
     },
     "ou": {
-      "over": 262,
+      "over": 263,
       "under": 304,
       "push": 0,
-      "model_correct": 280,
-      "model_gradeable": 566,
-      "model_pct": 49.5
+      "model_correct": 281,
+      "model_gradeable": 567,
+      "model_pct": 49.6
     },
     "by_confidence": {
       "high": {
@@ -88815,10 +88883,10 @@
         "pct": 43.2
       },
       "medium": {
-        "w": 263,
+        "w": 264,
         "l": 199,
         "p": 0,
-        "pct": 56.9
+        "pct": 57.0
       },
       "low": {
         "w": 0,
@@ -88843,17 +88911,17 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1274,
+        "n": 1275,
         "model_mae": 10.41,
-        "market_mae": 9.14,
-        "intercept": -0.07,
+        "market_mae": 9.15,
+        "intercept": -0.08,
         "model_weight": -0.005,
         "market_weight": 0.994,
         "ats_by_edge": {
           "0-2": {
-            "w": 220,
+            "w": 221,
             "l": 188,
-            "pct": 53.9
+            "pct": 54.0
           },
           "2-4": {
             "w": 182,
@@ -88895,25 +88963,25 @@
           "n": 0
         }
       },
-      "total_graded": 1285,
-      "ats_graded": 1105,
+      "total_graded": 1286,
+      "ats_graded": 1106,
       "ats": {
-        "w": 587,
+        "w": 588,
         "l": 518,
         "p": 0,
-        "pct": 53.1
+        "pct": 53.2
       },
       "su": {
-        "correct": 918,
-        "total": 1285,
-        "pct": 71.4
+        "correct": 919,
+        "total": 1286,
+        "pct": 71.5
       },
       "ou": {
-        "over": 612,
+        "over": 613,
         "under": 662,
         "push": 0,
-        "model_correct": 637,
-        "model_gradeable": 1274,
+        "model_correct": 638,
+        "model_gradeable": 1275,
         "model_pct": 50.0
       },
       "by_confidence": {
@@ -88924,7 +88992,7 @@
           "pct": 47.9
         },
         "medium": {
-          "w": 430,
+          "w": 431,
           "l": 345,
           "p": 0,
           "pct": 55.5
@@ -88950,5 +89018,5 @@
       }
     }
   },
-  "generated_at": "2026-11-18T17:44:42.823991-05:00"
+  "generated_at": "2026-11-18T19:06:08.857629-05:00"
 }

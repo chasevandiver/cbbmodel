@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-18T17:44:42.969254-05:00",
+ "generated_at": "2026-11-18T19:06:09.006623-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-19",
@@ -186,7 +186,7 @@
     "home_score": 79.8,
     "away_score": 69.0,
     "home_win_prob": 83.5,
-    "confidence": 57.9,
+    "confidence": 53.9,
     "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
@@ -196,7 +196,7 @@
     }
    },
    "market": {
-    "spread_home": -8.5,
+    "spread_home": -9.5,
     "total": 146.5,
     "favorite": "St. Bonaventure Bonnies",
     "bookmaker": "fanduel",
@@ -204,14 +204,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 2.2,
+    "spread": 1.2,
     "total": 2.3,
-    "value_rating": 2.2,
+    "value_rating": 1.2,
     "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": 8.5
+    "cover_line": 9.5
    },
    "result": null,
    "tags": []
@@ -1064,7 +1064,7 @@
     "home_score": 72.9,
     "away_score": 70.6,
     "home_win_prob": 58.0,
-    "confidence": 44.0,
+    "confidence": 63.2,
     "tempo": 69.3,
     "confidence_tier": "medium",
     "pick": {
@@ -1073,17 +1073,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -4.5,
+    "total": 140.5,
+    "favorite": "WIS -4.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -2.3,
+    "total": 3.0,
+    "value_rating": 2.3,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 4.5
    },
    "result": null,
    "tags": [
@@ -1463,7 +1469,7 @@
    },
    "market": {
     "spread_home": -15.5,
-    "total": 152.5,
+    "total": 150.5,
     "favorite": "Stanford Cardinal",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1471,7 +1477,7 @@
    "closing": null,
    "edge": {
     "spread": -5.1,
-    "total": -2.8,
+    "total": -0.8,
     "value_rating": 5.1,
     "is_best_bet": true
    },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:44:42.579363-05:00",
+  "generated_at": "2026-11-18T19:06:08.599494-05:00",
   "date": "20261119",
   "total_games": 25,
   "model_version": "4.1.0",
@@ -102,14 +102,14 @@
       },
       "market": {
         "spread": -15.5,
-        "over_under": 152.5,
+        "over_under": 150.5,
         "spread_holder": "Stanford Cardinal",
         "bookmaker": "fanduel"
       },
       "value_rating": 5.1,
       "model_vs_market": {
         "spread_edge": -5.1,
-        "total_edge": -2.8
+        "total_edge": -0.8
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -223,6 +223,60 @@
       "is_tournament_game": true
     },
     {
+      "game_id": "401920888",
+      "date": "2026-11-20T01:30Z",
+      "home_team": "Wisconsin Badgers",
+      "away_team": "Seton Hall Pirates",
+      "home_abbr": "WIS",
+      "away_abbr": "HALL",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-0",
+      "away_record": "3-1",
+      "home_location": "Wisconsin",
+      "away_location": "Seton Hall",
+      "home_rating_team": "Wisconsin",
+      "away_rating_team": "Seton Hall",
+      "home_adj_em": 14.85,
+      "away_adj_em": 11.66,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Baha Mar Convention Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "CBSSN",
+      "predicted_spread": 2.2,
+      "predicted_total": 143.5,
+      "home_projected_score": 72.9,
+      "away_projected_score": 70.6,
+      "home_win_prob": 58.0,
+      "away_win_prob": 42.0,
+      "confidence": 63.2,
+      "pick": "Wisconsin Badgers",
+      "pick_abbr": "WIS",
+      "is_home_pick": true,
+      "projected_tempo": 69.3,
+      "factors": {
+        "efficiency_margin": 2.21,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 140.5,
+        "spread_holder": "WIS -4.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 2.3,
+      "model_vs_market": {
+        "spread_edge": -2.3,
+        "total_edge": 3.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
       "game_id": "401928826",
       "date": "2026-11-20T00:00Z",
       "home_team": "Toledo Rockets",
@@ -326,60 +380,6 @@
       "model_vs_market": {
         "spread_edge": -1.1,
         "total_edge": -8.1
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401911021",
-      "date": "2026-11-20T00:00Z",
-      "home_team": "St. Bonaventure Bonnies",
-      "away_team": "Buffalo Bulls",
-      "home_abbr": "SBU",
-      "away_abbr": "BUF",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/179.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-1",
-      "away_record": "2-2",
-      "home_location": "St. Bonaventure",
-      "away_location": "Buffalo",
-      "home_rating_team": "St. Bonaventure",
-      "away_rating_team": "Buffalo",
-      "home_adj_em": 6.53,
-      "away_adj_em": -4.0,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Reilly Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 10.7,
-      "predicted_total": 148.8,
-      "home_projected_score": 79.8,
-      "away_projected_score": 69.0,
-      "home_win_prob": 83.5,
-      "away_win_prob": 16.5,
-      "confidence": 57.9,
-      "pick": "St. Bonaventure Bonnies",
-      "pick_abbr": "SBU",
-      "is_home_pick": true,
-      "projected_tempo": 69.7,
-      "factors": {
-        "efficiency_margin": 7.35,
-        "home_court": 3.37
-      },
-      "market": {
-        "spread": -8.5,
-        "over_under": 146.5,
-        "spread_holder": "St. Bonaventure Bonnies",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 2.2,
-      "model_vs_market": {
-        "spread_edge": 2.2,
-        "total_edge": 2.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -596,6 +596,60 @@
       "model_vs_market": {
         "spread_edge": 0.3,
         "total_edge": 6.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401911021",
+      "date": "2026-11-20T00:00Z",
+      "home_team": "St. Bonaventure Bonnies",
+      "away_team": "Buffalo Bulls",
+      "home_abbr": "SBU",
+      "away_abbr": "BUF",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/179.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-1",
+      "away_record": "2-2",
+      "home_location": "St. Bonaventure",
+      "away_location": "Buffalo",
+      "home_rating_team": "St. Bonaventure",
+      "away_rating_team": "Buffalo",
+      "home_adj_em": 6.53,
+      "away_adj_em": -4.0,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Reilly Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 10.7,
+      "predicted_total": 148.8,
+      "home_projected_score": 79.8,
+      "away_projected_score": 69.0,
+      "home_win_prob": 83.5,
+      "away_win_prob": 16.5,
+      "confidence": 53.9,
+      "pick": "St. Bonaventure Bonnies",
+      "pick_abbr": "SBU",
+      "is_home_pick": true,
+      "projected_tempo": 69.7,
+      "factors": {
+        "efficiency_margin": 7.35,
+        "home_court": 3.37
+      },
+      "market": {
+        "spread": -9.5,
+        "over_under": 146.5,
+        "spread_holder": "St. Bonaventure Bonnies",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 1.2,
+      "model_vs_market": {
+        "spread_edge": 1.2,
+        "total_edge": 2.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1033,60 +1087,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401920888",
-      "date": "2026-11-20T01:30Z",
-      "home_team": "Wisconsin Badgers",
-      "away_team": "Seton Hall Pirates",
-      "home_abbr": "WIS",
-      "away_abbr": "HALL",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-0",
-      "away_record": "3-1",
-      "home_location": "Wisconsin",
-      "away_location": "Seton Hall",
-      "home_rating_team": "Wisconsin",
-      "away_rating_team": "Seton Hall",
-      "home_adj_em": 14.85,
-      "away_adj_em": 11.66,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Baha Mar Convention Center",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "CBSSN",
-      "predicted_spread": 2.2,
-      "predicted_total": 143.5,
-      "home_projected_score": 72.9,
-      "away_projected_score": 70.6,
-      "home_win_prob": 58.0,
-      "away_win_prob": 42.0,
-      "confidence": 44.0,
-      "pick": "Wisconsin Badgers",
-      "pick_abbr": "WIS",
-      "is_home_pick": true,
-      "projected_tempo": 69.3,
-      "factors": {
-        "efficiency_margin": 2.21,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": null,
-        "over_under": null,
-        "spread_holder": null,
-        "bookmaker": null
-      },
-      "value_rating": null,
-      "model_vs_market": {
-        "spread_edge": null,
-        "total_edge": null
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
-    },
-    {
       "game_id": "401928388",
       "date": "2026-11-20T00:00Z",
       "home_team": "Grambling Tigers",
@@ -1362,10 +1362,10 @@
     "high_confidence": 0,
     "medium_confidence": 23,
     "low_confidence": 2,
-    "avg_confidence": 51.4,
+    "avg_confidence": 52.0,
     "value_plays": 4,
     "best_bets": 2,
-    "with_market_line": 15,
+    "with_market_line": 16,
     "tournament_games": 3
   },
   "early": true
