@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-19T17:47:56.426026-05:00",
+ "generated_at": "2026-11-19T19:28:33.147305-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-20",
@@ -115,7 +115,7 @@
     "version": "4.1.0",
     "spread_home": 1.1,
     "total": 148.0,
-    "home_score": 73.4,
+    "home_score": 73.5,
     "away_score": 74.6,
     "home_win_prob": 45.9,
     "confidence": 63.5,
@@ -256,7 +256,7 @@
     "home_score": 78.2,
     "away_score": 70.2,
     "home_win_prob": 76.7,
-    "confidence": 45.0,
+    "confidence": 64.9,
     "tempo": 70.3,
     "confidence_tier": "medium",
     "pick": {
@@ -265,17 +265,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -10.5,
+    "total": 150.5,
+    "favorite": "GW -10.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -2.5,
+    "total": -2.1,
+    "value_rating": 2.5,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 10.5
    },
    "result": null,
    "tags": [
@@ -386,7 +392,7 @@
     "home_score": 73.3,
     "away_score": 69.1,
     "home_win_prob": 64.9,
-    "confidence": 45.0,
+    "confidence": 60.2,
     "tempo": 69.2,
     "confidence_tier": "medium",
     "pick": {
@@ -395,17 +401,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -5.5,
+    "total": 140.5,
+    "favorite": "Albany Great Danes",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -1.3,
+    "total": 2.0,
+    "value_rating": 1.3,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 5.5
    },
    "result": null,
    "tags": [
@@ -647,13 +659,13 @@
    "broadcast": "ACC Network",
    "model": {
     "version": "4.1.0",
-    "spread_home": -32.4,
+    "spread_home": -32.3,
     "total": 149.7,
     "home_score": 91.0,
     "away_score": 58.7,
     "home_win_prob": 99.8,
     "confidence": 69.0,
-    "tempo": 70.3,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Miami Hurricanes",
@@ -670,9 +682,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": -7.1,
+    "spread": -7.2,
     "total": 2.2,
-    "value_rating": 7.1,
+    "value_rating": 7.2,
     "is_best_bet": false
    },
    "bet": {
@@ -720,7 +732,7 @@
     "home_score": 71.6,
     "away_score": 67.1,
     "home_win_prob": 65.6,
-    "confidence": 44.0,
+    "confidence": 65.7,
     "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
@@ -729,17 +741,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -1.5,
+    "total": 150.5,
+    "favorite": "SIU -1.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 2.9,
+    "total": -11.8,
+    "value_rating": 2.9,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": 1.5
    },
    "result": null,
    "tags": [
@@ -910,7 +928,7 @@
     "home_score": 77.9,
     "away_score": 72.8,
     "home_win_prob": 67.9,
-    "confidence": 44.0,
+    "confidence": 59.6,
     "tempo": 70.9,
     "confidence_tier": "medium",
     "pick": {
@@ -919,17 +937,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -6.5,
+    "total": 148.5,
+    "favorite": "CSUN -6.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -1.4,
+    "total": 2.1,
+    "value_rating": 1.4,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 6.5
    },
    "result": null,
    "tags": []
@@ -1171,7 +1195,7 @@
     "spread_home": -28.0,
     "total": 150.9,
     "home_score": 89.5,
-    "away_score": 61.4,
+    "away_score": 61.5,
     "home_win_prob": 99.5,
     "confidence": 34.0,
     "tempo": 70.2,
@@ -1479,7 +1503,7 @@
     "home_score": 70.4,
     "away_score": 78.9,
     "home_win_prob": 22.1,
-    "confidence": 44.0,
+    "confidence": 54.1,
     "tempo": 69.3,
     "confidence_tier": "medium",
     "pick": {
@@ -1488,17 +1512,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 8.5,
+    "total": 143.5,
+    "favorite": "WMU -8.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 0.0,
+    "total": 5.7,
+    "value_rating": 0.0,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": null
+    "cover_line": -8.5
    },
    "result": null,
    "tags": []
@@ -1727,7 +1757,7 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -2.7,
-    "total": 143.3,
+    "total": 143.4,
     "home_score": 73.0,
     "away_score": 70.3,
     "home_win_prob": 59.6,
@@ -1917,7 +1947,7 @@
     "version": "4.1.0",
     "spread_home": -1.8,
     "total": 145.1,
-    "home_score": 73.4,
+    "home_score": 73.5,
     "away_score": 71.7,
     "home_win_prob": 56.4,
     "confidence": 57.9,
@@ -1986,7 +2016,7 @@
     "home_score": 75.4,
     "away_score": 75.8,
     "home_win_prob": 48.5,
-    "confidence": 45.0,
+    "confidence": 59.4,
     "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
@@ -1995,17 +2025,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 1.5,
+    "total": 152.5,
+    "favorite": "RICH -1.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 1.1,
+    "total": -1.3,
+    "value_rating": 1.1,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": -1.5
    },
    "result": null,
    "tags": [
@@ -2374,7 +2410,7 @@
     "home_score": 72.5,
     "away_score": 76.2,
     "home_win_prob": 37.0,
-    "confidence": 43.0,
+    "confidence": 56.4,
     "tempo": 70.6,
     "confidence_tier": "medium",
     "pick": {
@@ -2383,17 +2419,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 4.5,
+    "total": 152.5,
+    "favorite": "UVU -4.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 0.9,
+    "total": -3.8,
+    "value_rating": 0.9,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": -4.5
    },
    "result": null,
    "tags": [
@@ -2502,7 +2544,7 @@
     "spread_home": -28.4,
     "total": 152.3,
     "home_score": 90.4,
-    "away_score": 61.9,
+    "away_score": 62.0,
     "home_win_prob": 99.5,
     "confidence": 35.0,
     "tempo": 70.4,
@@ -2622,7 +2664,7 @@
     "spread_home": -11.3,
     "total": 154.8,
     "home_score": 83.0,
-    "away_score": 71.7,
+    "away_score": 71.8,
     "home_win_prob": 84.7,
     "confidence": 70.9,
     "tempo": 70.0,
@@ -2751,7 +2793,7 @@
     "version": "4.1.0",
     "spread_home": -16.3,
     "total": 151.2,
-    "home_score": 83.7,
+    "home_score": 83.8,
     "away_score": 67.4,
     "home_win_prob": 93.1,
     "confidence": 48.2,
@@ -2887,7 +2929,7 @@
     "away_score": 60.1,
     "home_win_prob": 100.0,
     "confidence": 49.0,
-    "tempo": 71.3,
+    "tempo": 71.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Illinois Fighting Illini",
@@ -2897,7 +2939,7 @@
    },
    "market": {
     "spread_home": -51.5,
-    "total": 162.5,
+    "total": 163.5,
     "favorite": "Illinois Fighting Illini",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -2905,7 +2947,7 @@
    "closing": null,
    "edge": {
     "spread": -14.7,
-    "total": -5.4,
+    "total": -6.4,
     "value_rating": 14.7,
     "is_best_bet": false
    },
@@ -2954,29 +2996,38 @@
     "home_score": 79.8,
     "away_score": 72.3,
     "home_win_prob": 75.3,
-    "confidence": 44.0,
+    "confidence": 78.0,
     "tempo": 69.5,
-    "confidence_tier": "medium",
+    "confidence_tier": "high",
     "pick": {
      "team": "Idaho Vandals",
      "abbr": "IDHO",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 1.5,
+    "total": 154.5,
+    "favorite": "CSUB -1.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 9.0,
+    "total": -2.4,
+    "value_rating": 9.0,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": -1.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value",
+    "high_confidence"
+   ]
   },
   {
    "id": "cbb:401928795",
