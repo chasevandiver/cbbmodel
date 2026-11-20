@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-20T06:41:59.468042-05:00",
+ "generated_at": "2026-11-20T14:04:28.351281-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-20",
@@ -1740,7 +1740,7 @@
     "home_score": 76.2,
     "away_score": 80.0,
     "home_win_prob": 36.6,
-    "confidence": 45.0,
+    "confidence": 56.1,
     "tempo": 72.6,
     "confidence_tier": "medium",
     "pick": {
@@ -1749,17 +1749,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 3.5,
+    "total": 162.5,
+    "favorite": "WIS -3.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -0.3,
+    "total": -6.3,
+    "value_rating": 0.3,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": null
+    "cover_line": -3.5
    },
    "result": null,
    "tags": [
@@ -3281,7 +3287,7 @@
     "home_score": 76.7,
     "away_score": 71.8,
     "home_win_prob": 67.2,
-    "confidence": 45.0,
+    "confidence": 60.6,
     "tempo": 68.4,
     "confidence_tier": "medium",
     "pick": {
@@ -3290,17 +3296,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -3.5,
+    "total": 140.5,
+    "favorite": "NCSU -3.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 1.4,
+    "total": 8.0,
+    "value_rating": 1.4,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": 3.5
    },
    "result": null,
    "tags": [
