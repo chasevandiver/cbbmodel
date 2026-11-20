@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-20T14:04:28.351281-05:00",
+ "generated_at": "2026-11-20T15:06:13.771269-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -55246,14 +55246,14 @@
     "name": "Florida State Seminoles",
     "abbr": "FSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-    "record": "4-1",
+    "record": "5-1",
     "rank": null
    },
    "away": {
     "name": "Green Bay Phoenix",
     "abbr": "GB",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png",
-    "record": "3-3",
+    "record": "3-4",
     "rank": null
    },
    "venue": "Donald L. Tucker Center",
@@ -55315,14 +55315,14 @@
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
-    "record": "4-1",
+    "record": "4-2",
     "rank": null
    },
    "away": {
     "name": "Temple Owls",
     "abbr": "TEM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
-    "record": "2-2",
+    "record": "3-2",
     "rank": null
    },
    "venue": "Elridge Blake Sports and Fitness Center",
@@ -55383,14 +55383,14 @@
     "name": "Minnesota Golden Gophers",
     "abbr": "MINN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
-    "record": "5-0",
+    "record": "6-0",
     "rank": null
    },
    "away": {
     "name": "Oklahoma State Cowboys",
     "abbr": "OKST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
-    "record": "3-1",
+    "record": "3-2",
     "rank": null
    },
    "venue": "TD Arena",
@@ -55586,17 +55586,17 @@
    "start_time": "2026-11-20T20:00Z",
    "status": "pending",
    "home": {
-    "name": "UAlbany Great Danes",
-    "abbr": "UALB",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
-    "record": "3-2",
-    "rank": null
-   },
-   "away": {
     "name": "Western Illinois Leathernecks",
     "abbr": "WIU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
     "record": "1-4",
+    "rank": null
+   },
+   "away": {
+    "name": "UAlbany Great Danes",
+    "abbr": "UALB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
+    "record": "3-2",
     "rank": null
    },
    "venue": "Koessler Athletic Center",
@@ -55605,42 +55605,34 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": -4.2,
+    "spread_home": 4.2,
     "total": 142.5,
-    "home_score": 73.3,
-    "away_score": 69.1,
-    "home_win_prob": 64.9,
-    "confidence": 79.0,
+    "home_score": 69.1,
+    "away_score": 73.3,
+    "home_win_prob": 35.1,
+    "confidence": 45.0,
     "tempo": 69.1,
-    "confidence_tier": "high",
+    "confidence_tier": "medium",
     "pick": {
      "team": "UAlbany Great Danes",
      "abbr": "UALB",
-     "side": "home"
+     "side": "away"
     }
    },
-   "market": {
-    "spread_home": -10.5,
-    "total": 139.5,
-    "favorite": "Albany Great Danes",
-    "bookmaker": "draftkings",
-    "captured_at": null
-   },
+   "market": null,
    "closing": null,
    "edge": {
-    "spread": -6.3,
-    "total": 3.0,
-    "value_rating": 6.3,
+    "spread": null,
+    "total": null,
+    "value_rating": null,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": 10.5
+    "side": "none",
+    "cover_line": null
    },
    "result": null,
    "tags": [
-    "value",
-    "high_confidence",
     "tournament"
    ]
   },
