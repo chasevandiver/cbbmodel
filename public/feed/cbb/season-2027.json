@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-19T23:12:23.994903-05:00",
+ "generated_at": "2026-11-20T02:42:56.669315-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -54389,7 +54389,7 @@
    "game_id": "401911534",
    "game_id_source": "espn",
    "start_time": "2026-11-20T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
@@ -54448,7 +54448,19 @@
     "side": "home",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 69,
+    "away_score": 84,
+    "margin_home": -15,
+    "total": 153,
+    "winner": "UTEP Miners",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -54545,7 +54557,7 @@
    "game_id": "401928354",
    "game_id_source": "espn",
    "start_time": "2026-11-20T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
@@ -54604,7 +54616,19 @@
     "side": "none",
     "cover_line": -3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 88,
+    "margin_home": -8,
+    "total": 168,
+    "winner": "UC Santa Barbara Gauchos",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -54617,7 +54641,7 @@
    "game_id": "401928388",
    "game_id_source": "espn",
    "start_time": "2026-11-20T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Grambling Tigers",
     "abbr": "GRAM",
@@ -54676,7 +54700,19 @@
     "side": "away",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 100,
+    "away_score": 103,
+    "margin_home": -3,
+    "total": 203,
+    "winner": "Southern Miss Golden Eagles",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -54777,7 +54813,7 @@
    "game_id": "401918056",
    "game_id_source": "espn",
    "start_time": "2026-11-20T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "California Golden Bears",
     "abbr": "CAL",
@@ -54836,7 +54872,19 @@
     "side": "away",
     "cover_line": 13.5
    },
-   "result": null,
+   "result": {
+    "home_score": 86,
+    "away_score": 54,
+    "margin_home": 32,
+    "total": 140,
+    "winner": "California Golden Bears",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -54849,7 +54897,7 @@
    "game_id": "401920349",
    "game_id_source": "espn",
    "start_time": "2026-11-20T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Stanford Cardinal",
     "abbr": "STAN",
@@ -54908,7 +54956,19 @@
     "side": "away",
     "cover_line": 16.5
    },
-   "result": null,
+   "result": {
+    "home_score": 78,
+    "away_score": 65,
+    "margin_home": 13,
+    "total": 143,
+    "winner": "Stanford Cardinal",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "value",
     "high_confidence"
@@ -54924,7 +54984,7 @@
    "game_id": "401917536",
    "game_id_source": "espn",
    "start_time": "2026-11-20T03:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Santa Clara Broncos",
     "abbr": "SCU",
@@ -54983,7 +55043,19 @@
     "side": "away",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 77,
+    "away_score": 83,
+    "margin_home": -6,
+    "total": 160,
+    "winner": "VCU Rams",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -54996,7 +55068,7 @@
    "game_id": "401920518",
    "game_id_source": "espn",
    "start_time": "2026-11-20T04:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Kansas Jayhawks",
     "abbr": "KU",
@@ -55055,7 +55127,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 83,
+    "away_score": 92,
+    "margin_home": -9,
+    "total": 175,
+    "winner": "Houston Cougars",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "tournament",
     "conference"
@@ -55071,7 +55155,7 @@
    "game_id": "401926773",
    "game_id_source": "espn",
    "start_time": "2026-11-20T04:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "USC Trojans",
     "abbr": "USC",
@@ -55130,7 +55214,19 @@
     "side": "away",
     "cover_line": 26.5
    },
-   "result": null,
+   "result": {
+    "home_score": 96,
+    "away_score": 51,
+    "margin_home": 45,
+    "total": 147,
+    "winner": "USC Trojans",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": -1.0
+   },
    "tags": [
     "value"
    ]
