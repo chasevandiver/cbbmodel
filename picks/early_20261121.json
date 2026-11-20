@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:24:49.042411-05:00",
+  "generated_at": "2026-11-20T18:51:15.624521-05:00",
   "date": "20261121",
   "total_games": 49,
   "model_version": "4.1.0",
@@ -48,14 +48,14 @@
       },
       "market": {
         "spread": -13.5,
-        "over_under": 139.5,
+        "over_under": 140.5,
         "spread_holder": "Loyola Marymount Lions",
         "bookmaker": "draftkings"
       },
       "value_rating": 4.3,
       "model_vs_market": {
         "spread_edge": -4.3,
-        "total_edge": 3.5
+        "total_edge": 2.5
       },
       "is_best_bet": true,
       "is_tournament_game": true
@@ -156,14 +156,14 @@
       },
       "market": {
         "spread": -12.5,
-        "over_under": 142.5,
+        "over_under": 141.5,
         "spread_holder": "Elon Phoenix",
         "bookmaker": "draftkings"
       },
       "value_rating": 3.9,
       "model_vs_market": {
         "spread_edge": -3.9,
-        "total_edge": 6.9
+        "total_edge": 7.9
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -385,6 +385,60 @@
       "is_tournament_game": true
     },
     {
+      "game_id": "401918995",
+      "date": "2026-11-21T21:00Z",
+      "home_team": "George Mason Patriots",
+      "away_team": "South Florida Bulls",
+      "home_abbr": "GMU",
+      "away_abbr": "USF",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "3-2",
+      "home_location": "George Mason",
+      "away_location": "South Florida",
+      "home_rating_team": "George Mason",
+      "away_rating_team": "South Florida",
+      "home_adj_em": 9.4,
+      "away_adj_em": 7.87,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "EagleBank Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 5.1,
+      "predicted_total": 149.8,
+      "home_projected_score": 77.4,
+      "away_projected_score": 72.3,
+      "home_win_prob": 67.9,
+      "away_win_prob": 32.1,
+      "confidence": 65.4,
+      "pick": "George Mason Patriots",
+      "pick_abbr": "GMU",
+      "is_home_pick": true,
+      "projected_tempo": 68.9,
+      "factors": {
+        "efficiency_margin": 1.05,
+        "home_court": 4.05
+      },
+      "market": {
+        "spread": -2.5,
+        "over_under": 147.5,
+        "spread_holder": "George Mason Patriots",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.6,
+      "model_vs_market": {
+        "spread_edge": 2.6,
+        "total_edge": 2.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401921169",
       "date": "2026-11-21T18:00Z",
       "home_team": "Cleveland State Vikings",
@@ -426,14 +480,14 @@
       },
       "market": {
         "spread": 4.5,
-        "over_under": 149.5,
+        "over_under": 147.5,
         "spread_holder": "Kent State Golden Flashes",
         "bookmaker": "draftkings"
       },
       "value_rating": 2.8,
       "model_vs_market": {
         "spread_edge": -2.8,
-        "total_edge": 1.2
+        "total_edge": 3.2
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -588,14 +642,14 @@
       },
       "market": {
         "spread": -15.5,
-        "over_under": 149.5,
+        "over_under": 146.5,
         "spread_holder": "Wake Forest Demon Deacons",
         "bookmaker": "draftkings"
       },
       "value_rating": 3.4,
       "model_vs_market": {
         "spread_edge": -3.4,
-        "total_edge": -1.5
+        "total_edge": 1.5
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -696,14 +750,68 @@
       },
       "market": {
         "spread": -7.5,
-        "over_under": 137.5,
+        "over_under": 138.5,
         "spread_holder": "Eastern Michigan Eagles",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.8,
       "model_vs_market": {
         "spread_edge": 1.8,
-        "total_edge": 8.1
+        "total_edge": 7.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401924722",
+      "date": "2026-11-21T19:00Z",
+      "home_team": "Morgan State Bears",
+      "away_team": "Cornell Big Red",
+      "home_abbr": "MORG",
+      "away_abbr": "COR",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "2-3",
+      "home_location": "Morgan State",
+      "away_location": "Cornell",
+      "home_rating_team": "Morgan St.",
+      "away_rating_team": "Cornell",
+      "home_adj_em": -16.93,
+      "away_adj_em": -6.41,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Hill Field House",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "",
+      "predicted_spread": -3.9,
+      "predicted_total": 154.2,
+      "home_projected_score": 75.1,
+      "away_projected_score": 79.1,
+      "home_win_prob": 36.0,
+      "away_win_prob": 64.0,
+      "confidence": 61.2,
+      "pick": "Cornell Big Red",
+      "pick_abbr": "COR",
+      "is_home_pick": false,
+      "projected_tempo": 71.8,
+      "factors": {
+        "efficiency_margin": -7.55,
+        "home_court": 3.6
+      },
+      "market": {
+        "spread": 5.5,
+        "over_under": 160.5,
+        "spread_holder": "Cornell Big Red",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.6,
+      "model_vs_market": {
+        "spread_edge": -1.6,
+        "total_edge": -6.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -758,60 +866,6 @@
       "model_vs_market": {
         "spread_edge": -1.5,
         "total_edge": 0.8
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401911337",
-      "date": "2026-11-21T22:00Z",
-      "home_team": "UTSA Roadrunners",
-      "away_team": "Air Force Falcons",
-      "home_abbr": "UTSA",
-      "away_abbr": "AF",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-2",
-      "away_record": "3-2",
-      "home_location": "UTSA",
-      "away_location": "Air Force",
-      "home_rating_team": "UTSA",
-      "away_rating_team": "Air Force",
-      "home_adj_em": -4.9,
-      "away_adj_em": -9.84,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "UTSA Convocation Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 6.4,
-      "predicted_total": 165.4,
-      "home_projected_score": 85.9,
-      "away_projected_score": 79.5,
-      "home_win_prob": 71.9,
-      "away_win_prob": 28.1,
-      "confidence": 59.5,
-      "pick": "UTSA Roadrunners",
-      "pick_abbr": "UTSA",
-      "is_home_pick": true,
-      "projected_tempo": 74.7,
-      "factors": {
-        "efficiency_margin": 3.69,
-        "home_court": 2.68
-      },
-      "market": {
-        "spread": -7.5,
-        "over_under": 170.5,
-        "spread_holder": "UTSA Roadrunners",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 1.1,
-      "model_vs_market": {
-        "spread_edge": -1.1,
-        "total_edge": -5.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -912,122 +966,14 @@
       },
       "market": {
         "spread": 4.5,
-        "over_under": 139.5,
+        "over_under": 138.5,
         "spread_holder": "Navy Midshipmen",
         "bookmaker": "draftkings"
       },
       "value_rating": 0.8,
       "model_vs_market": {
         "spread_edge": 0.8,
-        "total_edge": -1.5
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401924884",
-      "date": "2026-11-21T16:00Z",
-      "home_team": "Bucknell Bison",
-      "away_team": "Siena Saints",
-      "home_abbr": "BUCK",
-      "away_abbr": "SIE",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "1-4",
-      "away_record": "3-2",
-      "home_location": "Bucknell",
-      "away_location": "Siena",
-      "home_rating_team": "Bucknell",
-      "away_rating_team": "Siena",
-      "home_adj_em": -15.74,
-      "away_adj_em": -4.61,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Sojka Pavilion",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": -5.5,
-      "predicted_total": 152.3,
-      "home_projected_score": 73.4,
-      "away_projected_score": 78.9,
-      "home_win_prob": 30.9,
-      "away_win_prob": 69.1,
-      "confidence": 58.9,
-      "pick": "Siena Saints",
-      "pick_abbr": "SIE",
-      "is_home_pick": false,
-      "projected_tempo": 73.3,
-      "factors": {
-        "efficiency_margin": -8.15,
-        "home_court": 2.67
-      },
-      "market": {
-        "spread": 4.5,
-        "over_under": 152.5,
-        "spread_holder": "Siena Saints",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 1.0,
-      "model_vs_market": {
-        "spread_edge": 1.0,
-        "total_edge": -0.2
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401917537",
-      "date": "2026-11-22T03:00Z",
-      "home_team": "Pacific Tigers",
-      "away_team": "Bradley Braves",
-      "home_abbr": "PAC",
-      "away_abbr": "BRAD",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/71.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-1",
-      "away_record": "3-3",
-      "home_location": "Pacific",
-      "away_location": "Bradley",
-      "home_rating_team": "Pacific",
-      "away_rating_team": "Bradley",
-      "home_adj_em": 4.67,
-      "away_adj_em": -5.37,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Alex G. Spanos Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 9.4,
-      "predicted_total": 134.8,
-      "home_projected_score": 72.1,
-      "away_projected_score": 62.7,
-      "home_win_prob": 80.3,
-      "away_win_prob": 19.7,
-      "confidence": 58.5,
-      "pick": "Pacific Tigers",
-      "pick_abbr": "PAC",
-      "is_home_pick": true,
-      "projected_tempo": 67.0,
-      "factors": {
-        "efficiency_margin": 6.73,
-        "home_court": 2.65
-      },
-      "market": {
-        "spread": -8.5,
-        "over_under": 125.5,
-        "spread_holder": "Pacific Tigers",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 0.9,
-      "model_vs_market": {
-        "spread_edge": 0.9,
-        "total_edge": 9.3
+        "total_edge": -0.5
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1182,14 +1128,68 @@
       },
       "market": {
         "spread": 3.5,
-        "over_under": 144.5,
+        "over_under": 145.5,
         "spread_holder": "Drake Bulldogs",
         "bookmaker": "fanduel"
       },
       "value_rating": 0.8,
       "model_vs_market": {
         "spread_edge": -0.8,
-        "total_edge": 2.0
+        "total_edge": 1.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401923402",
+      "date": "2026-11-21T17:00Z",
+      "home_team": "Boston University Terriers",
+      "away_team": "Columbia Lions",
+      "home_abbr": "BU",
+      "away_abbr": "COLU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/104.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "4-1",
+      "home_location": "Boston University",
+      "away_location": "Columbia",
+      "home_rating_team": "Boston University",
+      "away_rating_team": "Columbia",
+      "home_adj_em": -8.02,
+      "away_adj_em": -1.45,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Case Gym",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -1.0,
+      "predicted_total": 146.6,
+      "home_projected_score": 72.8,
+      "away_projected_score": 73.8,
+      "home_win_prob": 46.2,
+      "away_win_prob": 53.8,
+      "confidence": 56.8,
+      "pick": "Columbia Lions",
+      "pick_abbr": "COLU",
+      "is_home_pick": false,
+      "projected_tempo": 67.6,
+      "factors": {
+        "efficiency_margin": -4.44,
+        "home_court": 3.39
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 144.5,
+        "spread_holder": "COLU -1.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.5,
+      "model_vs_market": {
+        "spread_edge": -0.5,
+        "total_edge": 2.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1249,6 +1249,222 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401911337",
+      "date": "2026-11-21T22:00Z",
+      "home_team": "UTSA Roadrunners",
+      "away_team": "Air Force Falcons",
+      "home_abbr": "UTSA",
+      "away_abbr": "AF",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "3-2",
+      "home_location": "UTSA",
+      "away_location": "Air Force",
+      "home_rating_team": "UTSA",
+      "away_rating_team": "Air Force",
+      "home_adj_em": -4.9,
+      "away_adj_em": -9.84,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "UTSA Convocation Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 6.4,
+      "predicted_total": 165.4,
+      "home_projected_score": 85.9,
+      "away_projected_score": 79.5,
+      "home_win_prob": 71.9,
+      "away_win_prob": 28.1,
+      "confidence": 55.5,
+      "pick": "UTSA Roadrunners",
+      "pick_abbr": "UTSA",
+      "is_home_pick": true,
+      "projected_tempo": 74.7,
+      "factors": {
+        "efficiency_margin": 3.69,
+        "home_court": 2.68
+      },
+      "market": {
+        "spread": -6.5,
+        "over_under": 173.5,
+        "spread_holder": "UTSA Roadrunners",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.1,
+      "model_vs_market": {
+        "spread_edge": -0.1,
+        "total_edge": -8.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401917537",
+      "date": "2026-11-22T03:00Z",
+      "home_team": "Pacific Tigers",
+      "away_team": "Bradley Braves",
+      "home_abbr": "PAC",
+      "away_abbr": "BRAD",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/71.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "3-3",
+      "home_location": "Pacific",
+      "away_location": "Bradley",
+      "home_rating_team": "Pacific",
+      "away_rating_team": "Bradley",
+      "home_adj_em": 4.67,
+      "away_adj_em": -5.37,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Alex G. Spanos Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 9.4,
+      "predicted_total": 134.8,
+      "home_projected_score": 72.1,
+      "away_projected_score": 62.7,
+      "home_win_prob": 80.3,
+      "away_win_prob": 19.7,
+      "confidence": 55.5,
+      "pick": "Pacific Tigers",
+      "pick_abbr": "PAC",
+      "is_home_pick": true,
+      "projected_tempo": 67.0,
+      "factors": {
+        "efficiency_margin": 6.73,
+        "home_court": 2.65
+      },
+      "market": {
+        "spread": -9.5,
+        "over_under": 125.5,
+        "spread_holder": "Pacific Tigers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.1,
+      "model_vs_market": {
+        "spread_edge": -0.1,
+        "total_edge": 9.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401924884",
+      "date": "2026-11-21T16:00Z",
+      "home_team": "Bucknell Bison",
+      "away_team": "Siena Saints",
+      "home_abbr": "BUCK",
+      "away_abbr": "SIE",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-4",
+      "away_record": "3-2",
+      "home_location": "Bucknell",
+      "away_location": "Siena",
+      "home_rating_team": "Bucknell",
+      "away_rating_team": "Siena",
+      "home_adj_em": -15.74,
+      "away_adj_em": -4.61,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Sojka Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -5.5,
+      "predicted_total": 152.3,
+      "home_projected_score": 73.4,
+      "away_projected_score": 78.9,
+      "home_win_prob": 30.9,
+      "away_win_prob": 69.1,
+      "confidence": 55.1,
+      "pick": "Siena Saints",
+      "pick_abbr": "SIE",
+      "is_home_pick": false,
+      "projected_tempo": 73.3,
+      "factors": {
+        "efficiency_margin": -8.15,
+        "home_court": 2.67
+      },
+      "market": {
+        "spread": 5.5,
+        "over_under": 153.5,
+        "spread_holder": "Siena Saints",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 0.0,
+      "model_vs_market": {
+        "spread_edge": -0.0,
+        "total_edge": -1.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401909719",
+      "date": "2026-11-21T19:00Z",
+      "home_team": "Syracuse Orange",
+      "away_team": "Lafayette Leopards",
+      "home_abbr": "SYR",
+      "away_abbr": "LAF",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/322.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "3-3",
+      "home_location": "Syracuse",
+      "away_location": "Lafayette",
+      "home_rating_team": "Syracuse",
+      "away_rating_team": "Lafayette",
+      "home_adj_em": 12.56,
+      "away_adj_em": -14.25,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "JMA Wireless Dome",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACCNX",
+      "predicted_spread": 22.0,
+      "predicted_total": 144.1,
+      "home_projected_score": 83.1,
+      "away_projected_score": 61.0,
+      "home_win_prob": 97.7,
+      "away_win_prob": 2.3,
+      "confidence": 54.8,
+      "pick": "Syracuse Orange",
+      "pick_abbr": "SYR",
+      "is_home_pick": true,
+      "projected_tempo": 69.0,
+      "factors": {
+        "efficiency_margin": 18.51,
+        "home_court": 3.53
+      },
+      "market": {
+        "spread": -24.5,
+        "over_under": 144.5,
+        "spread_holder": "Syracuse Orange",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.5,
+      "model_vs_market": {
+        "spread_edge": -2.5,
+        "total_edge": -0.4
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401925756",
       "date": "2026-11-21T17:00Z",
       "home_team": "Michigan State Spartans",
@@ -1290,68 +1506,14 @@
       },
       "market": {
         "spread": -41.5,
-        "over_under": 150.5,
+        "over_under": 149.5,
         "spread_holder": "Michigan St Spartans",
         "bookmaker": "draftkings"
       },
       "value_rating": 11.3,
       "model_vs_market": {
         "spread_edge": -11.3,
-        "total_edge": 1.4
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401923402",
-      "date": "2026-11-21T17:00Z",
-      "home_team": "Boston University Terriers",
-      "away_team": "Columbia Lions",
-      "home_abbr": "BU",
-      "away_abbr": "COLU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/104.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "5-1",
-      "away_record": "4-1",
-      "home_location": "Boston University",
-      "away_location": "Columbia",
-      "home_rating_team": "Boston University",
-      "away_rating_team": "Columbia",
-      "home_adj_em": -8.02,
-      "away_adj_em": -1.45,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Case Gym",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": -1.0,
-      "predicted_total": 146.6,
-      "home_projected_score": 72.8,
-      "away_projected_score": 73.8,
-      "home_win_prob": 46.2,
-      "away_win_prob": 53.8,
-      "confidence": 45.0,
-      "pick": "Columbia Lions",
-      "pick_abbr": "COLU",
-      "is_home_pick": false,
-      "projected_tempo": 67.6,
-      "factors": {
-        "efficiency_margin": -4.44,
-        "home_court": 3.39
-      },
-      "market": {
-        "spread": null,
-        "over_under": null,
-        "spread_holder": null,
-        "bookmaker": null
-      },
-      "value_rating": null,
-      "model_vs_market": {
-        "spread_edge": null,
-        "total_edge": null
+        "total_edge": 2.4
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1409,60 +1571,6 @@
       },
       "is_best_bet": false,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401924722",
-      "date": "2026-11-21T19:00Z",
-      "home_team": "Morgan State Bears",
-      "away_team": "Cornell Big Red",
-      "home_abbr": "MORG",
-      "away_abbr": "COR",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-2",
-      "away_record": "2-3",
-      "home_location": "Morgan State",
-      "away_location": "Cornell",
-      "home_rating_team": "Morgan St.",
-      "away_rating_team": "Cornell",
-      "home_adj_em": -16.93,
-      "away_adj_em": -6.41,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Hill Field House",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "",
-      "predicted_spread": -3.9,
-      "predicted_total": 154.2,
-      "home_projected_score": 75.1,
-      "away_projected_score": 79.1,
-      "home_win_prob": 36.0,
-      "away_win_prob": 64.0,
-      "confidence": 45.0,
-      "pick": "Cornell Big Red",
-      "pick_abbr": "COR",
-      "is_home_pick": false,
-      "projected_tempo": 71.8,
-      "factors": {
-        "efficiency_margin": -7.55,
-        "home_court": 3.6
-      },
-      "market": {
-        "spread": null,
-        "over_under": null,
-        "spread_holder": null,
-        "bookmaker": null
-      },
-      "value_rating": null,
-      "model_vs_market": {
-        "spread_edge": null,
-        "total_edge": null
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
     },
     {
       "game_id": "401922222",
@@ -1665,60 +1773,6 @@
       "factors": {
         "efficiency_margin": -2.42,
         "home_court": 3.02
-      },
-      "market": {
-        "spread": null,
-        "over_under": null,
-        "spread_holder": null,
-        "bookmaker": null
-      },
-      "value_rating": null,
-      "model_vs_market": {
-        "spread_edge": null,
-        "total_edge": null
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401918995",
-      "date": "2026-11-21T21:00Z",
-      "home_team": "George Mason Patriots",
-      "away_team": "South Florida Bulls",
-      "home_abbr": "GMU",
-      "away_abbr": "USF",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-1",
-      "away_record": "3-2",
-      "home_location": "George Mason",
-      "away_location": "South Florida",
-      "home_rating_team": "George Mason",
-      "away_rating_team": "South Florida",
-      "home_adj_em": 9.4,
-      "away_adj_em": 7.87,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "EagleBank Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 5.1,
-      "predicted_total": 149.8,
-      "home_projected_score": 77.4,
-      "away_projected_score": 72.3,
-      "home_win_prob": 67.9,
-      "away_win_prob": 32.1,
-      "confidence": 45.0,
-      "pick": "George Mason Patriots",
-      "pick_abbr": "GMU",
-      "is_home_pick": true,
-      "projected_tempo": 68.9,
-      "factors": {
-        "efficiency_margin": 1.05,
-        "home_court": 4.05
       },
       "market": {
         "spread": null,
@@ -2545,60 +2599,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401909719",
-      "date": "2026-11-21T19:00Z",
-      "home_team": "Syracuse Orange",
-      "away_team": "Lafayette Leopards",
-      "home_abbr": "SYR",
-      "away_abbr": "LAF",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/322.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-2",
-      "away_record": "3-3",
-      "home_location": "Syracuse",
-      "away_location": "Lafayette",
-      "home_rating_team": "Syracuse",
-      "away_rating_team": "Lafayette",
-      "home_adj_em": 12.56,
-      "away_adj_em": -14.25,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "JMA Wireless Dome",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ACCNX",
-      "predicted_spread": 22.0,
-      "predicted_total": 144.1,
-      "home_projected_score": 83.1,
-      "away_projected_score": 61.0,
-      "home_win_prob": 97.7,
-      "away_win_prob": 2.3,
-      "confidence": 35.0,
-      "pick": "Syracuse Orange",
-      "pick_abbr": "SYR",
-      "is_home_pick": true,
-      "projected_tempo": 69.0,
-      "factors": {
-        "efficiency_margin": 18.51,
-        "home_court": 3.53
-      },
-      "market": {
-        "spread": null,
-        "over_under": null,
-        "spread_holder": null,
-        "bookmaker": null
-      },
-      "value_rating": null,
-      "model_vs_market": {
-        "spread_edge": null,
-        "total_edge": null
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401909517",
       "date": "2026-11-21T23:00Z",
       "home_team": "Georgetown Hoyas",
@@ -2656,12 +2656,12 @@
   "summary": {
     "total_games": 49,
     "high_confidence": 3,
-    "medium_confidence": 43,
-    "low_confidence": 3,
-    "avg_confidence": 52.8,
+    "medium_confidence": 44,
+    "low_confidence": 2,
+    "avg_confidence": 54.0,
     "value_plays": 9,
     "best_bets": 7,
-    "with_market_line": 24,
+    "with_market_line": 28,
     "tournament_games": 7
   },
   "early": true

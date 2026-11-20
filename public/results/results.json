@@ -95708,26 +95708,162 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401922022",
+      "date": "2026-11-20T21:00Z",
+      "home_team": "Idaho State Bengals",
+      "away_team": "South Dakota State Jackrabbits",
+      "home_abbr": "IDST",
+      "away_abbr": "SDST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "0-4",
+      "away_record": "5-0",
+      "home_location": "Idaho State",
+      "away_location": "South Dakota State",
+      "home_rating_team": "Idaho St.",
+      "away_rating_team": "South Dakota St.",
+      "home_adj_em": -14.05,
+      "away_adj_em": -2.86,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Reed Gym",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -4.2,
+      "predicted_total": 143.5,
+      "home_projected_score": 69.6,
+      "away_projected_score": 73.8,
+      "home_win_prob": 35.1,
+      "away_win_prob": 64.9,
+      "confidence": 63.2,
+      "pick": "South Dakota State Jackrabbits",
+      "pick_abbr": "SDST",
+      "is_home_pick": false,
+      "projected_tempo": 68.2,
+      "factors": {
+        "efficiency_margin": -7.63,
+        "home_court": 3.42
+      },
+      "market": {
+        "spread": 6.5,
+        "over_under": 144.5,
+        "spread_holder": "South Dakota St Jackrabbits",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 2.3,
+      "model_vs_market": {
+        "spread_edge": -2.3,
+        "total_edge": -1.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -6.5,
+      "clv": null,
+      "actual_home_score": 86,
+      "actual_away_score": 71,
+      "actual_margin": 15,
+      "actual_total": 157,
+      "actual_winner": "Idaho State Bengals",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920066",
+      "date": "2026-11-20T21:30Z",
+      "home_team": "Liberty Flames",
+      "away_team": "Rhode Island Rams",
+      "home_abbr": "LIB",
+      "away_abbr": "URI",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-1",
+      "away_record": "5-0",
+      "home_location": "Liberty",
+      "away_location": "Rhode Island",
+      "home_rating_team": "Liberty",
+      "away_rating_team": "Rhode Island",
+      "home_adj_em": 1.05,
+      "away_adj_em": 3.28,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Colonial Hall",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "CBSSN",
+      "predicted_spread": -1.5,
+      "predicted_total": 146.4,
+      "home_projected_score": 72.4,
+      "away_projected_score": 73.9,
+      "home_win_prob": 44.5,
+      "away_win_prob": 55.5,
+      "confidence": 58.0,
+      "pick": "Rhode Island Rams",
+      "pick_abbr": "URI",
+      "is_home_pick": false,
+      "projected_tempo": 67.8,
+      "factors": {
+        "efficiency_margin": -1.51,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 141.5,
+        "spread_holder": "Rhode Island Rams",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": -1.0,
+        "total_edge": 4.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -2.5,
+      "clv": null,
+      "actual_home_score": 71,
+      "actual_away_score": 68,
+      "actual_margin": 3,
+      "actual_total": 139,
+      "actual_winner": "Liberty Flames",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 660,
-      "model_mae": 9.84,
-      "market_mae": 9.43,
-      "intercept": -1.23,
+      "n": 662,
+      "model_mae": 9.85,
+      "market_mae": 9.44,
+      "intercept": -1.13,
       "model_weight": 0.113,
-      "market_weight": 0.936,
+      "market_weight": 0.931,
       "ats_by_edge": {
         "0-2": {
-          "w": 121,
+          "w": 122,
           "l": 76,
-          "pct": 61.4
+          "pct": 61.6
         },
         "2-4": {
-          "w": 101,
+          "w": 102,
           "l": 85,
-          "pct": 54.3
+          "pct": 54.5
         },
         "4-7": {
           "w": 70,
@@ -95764,26 +95900,26 @@
         "n": 0
       }
     },
-    "total_graded": 662,
-    "ats_graded": 584,
+    "total_graded": 664,
+    "ats_graded": 586,
     "ats": {
-      "w": 324,
+      "w": 326,
       "l": 260,
       "p": 0,
-      "pct": 55.5
+      "pct": 55.6
     },
     "su": {
       "correct": 523,
-      "total": 662,
-      "pct": 79.0
+      "total": 664,
+      "pct": 78.8
     },
     "ou": {
-      "over": 316,
-      "under": 344,
+      "over": 317,
+      "under": 345,
       "push": 0,
       "model_correct": 335,
-      "model_gradeable": 660,
-      "model_pct": 50.8
+      "model_gradeable": 662,
+      "model_pct": 50.6
     },
     "by_confidence": {
       "high": {
@@ -95793,10 +95929,10 @@
         "pct": 43.2
       },
       "medium": {
-        "w": 305,
+        "w": 307,
         "l": 235,
         "p": 0,
-        "pct": 56.5
+        "pct": 56.6
       },
       "low": {
         "w": 0,
@@ -95821,22 +95957,22 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1368,
+        "n": 1370,
         "model_mae": 10.38,
         "market_mae": 9.17,
-        "intercept": -0.17,
-        "model_weight": -0.004,
-        "market_weight": 0.992,
+        "intercept": -0.13,
+        "model_weight": -0.005,
+        "market_weight": 0.99,
         "ats_by_edge": {
           "0-2": {
-            "w": 235,
+            "w": 236,
             "l": 198,
-            "pct": 54.3
+            "pct": 54.4
           },
           "2-4": {
-            "w": 196,
+            "w": 197,
             "l": 165,
-            "pct": 54.3
+            "pct": 54.4
           },
           "4-7": {
             "w": 108,
@@ -95873,26 +96009,26 @@
           "n": 0
         }
       },
-      "total_graded": 1380,
-      "ats_graded": 1190,
+      "total_graded": 1382,
+      "ats_graded": 1192,
       "ats": {
-        "w": 632,
+        "w": 634,
         "l": 558,
         "p": 0,
-        "pct": 53.1
+        "pct": 53.2
       },
       "su": {
         "correct": 991,
-        "total": 1380,
-        "pct": 71.8
+        "total": 1382,
+        "pct": 71.7
       },
       "ou": {
-        "over": 666,
-        "under": 702,
+        "over": 667,
+        "under": 703,
         "push": 0,
         "model_correct": 692,
-        "model_gradeable": 1368,
-        "model_pct": 50.6
+        "model_gradeable": 1370,
+        "model_pct": 50.5
       },
       "by_confidence": {
         "high": {
@@ -95902,10 +96038,10 @@
           "pct": 47.8
         },
         "medium": {
-          "w": 472,
+          "w": 474,
           "l": 381,
           "p": 0,
-          "pct": 55.3
+          "pct": 55.4
         },
         "low": {
           "w": 41,
@@ -95928,5 +96064,5 @@
       }
     }
   },
-  "generated_at": "2026-11-20T17:24:49.340818-05:00"
+  "generated_at": "2026-11-20T18:51:15.818630-05:00"
 }

@@ -7,7 +7,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-20T17:24:49.451864-05:00",
+ "generated_at": "2026-11-20T18:51:15.938779-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "files": {
@@ -18,7 +18,7 @@
  "next": {
   "date": "2026-11-21",
   "total_games": 49,
-  "with_line": 24
+  "with_line": 28
  },
  "seasons": [
   {
@@ -26,8 +26,8 @@
    "label": "2026-27",
    "file": "season-2027.json",
    "records": 710,
-   "final": 662,
-   "pending": 44,
+   "final": 664,
+   "pending": 42,
    "no_result": 4
   },
   {
@@ -43,29 +43,29 @@
  "slate": {
   "date": "2026-11-20",
   "total_games": 51,
-  "pending": 44
+  "pending": 42
  },
  "summary": {
-  "total_graded": 662,
-  "ats_graded": 584,
+  "total_graded": 664,
+  "ats_graded": 586,
   "ats": {
-   "w": 324,
+   "w": 326,
    "l": 260,
    "p": 0,
-   "pct": 55.5
+   "pct": 55.6
   },
   "su": {
    "correct": 523,
-   "total": 662,
-   "pct": 79.0
+   "total": 664,
+   "pct": 78.8
   },
   "ou": {
-   "over": 316,
-   "under": 344,
+   "over": 317,
+   "under": 345,
    "push": 0,
    "model_correct": 335,
-   "model_gradeable": 660,
-   "model_pct": 50.8
+   "model_gradeable": 662,
+   "model_pct": 50.6
   },
   "by_confidence": {
    "high": {
@@ -75,10 +75,10 @@
     "pct": 43.2
    },
    "medium": {
-    "w": 305,
+    "w": 307,
     "l": 235,
     "p": 0,
-    "pct": 56.5
+    "pct": 56.6
    },
    "low": {
     "w": 0,
@@ -106,22 +106,22 @@
    "beat_or_matched_pct": 76.8
   },
   "calibration": {
-   "n": 660,
-   "model_mae": 9.84,
-   "market_mae": 9.43,
-   "intercept": -1.23,
+   "n": 662,
+   "model_mae": 9.85,
+   "market_mae": 9.44,
+   "intercept": -1.13,
    "model_weight": 0.113,
-   "market_weight": 0.936,
+   "market_weight": 0.931,
    "ats_by_edge": {
     "0-2": {
-     "w": 121,
+     "w": 122,
      "l": 76,
-     "pct": 61.4
+     "pct": 61.6
     },
     "2-4": {
-     "w": 101,
+     "w": 102,
      "l": 85,
-     "pct": 54.3
+     "pct": 54.5
     },
     "4-7": {
      "w": 70,
@@ -137,26 +137,26 @@
   }
  },
  "all_time": {
-  "total_graded": 1380,
-  "ats_graded": 1190,
+  "total_graded": 1382,
+  "ats_graded": 1192,
   "ats": {
-   "w": 632,
+   "w": 634,
    "l": 558,
    "p": 0,
-   "pct": 53.1
+   "pct": 53.2
   },
   "su": {
    "correct": 991,
-   "total": 1380,
-   "pct": 71.8
+   "total": 1382,
+   "pct": 71.7
   },
   "ou": {
-   "over": 666,
-   "under": 702,
+   "over": 667,
+   "under": 703,
    "push": 0,
    "model_correct": 692,
-   "model_gradeable": 1368,
-   "model_pct": 50.6
+   "model_gradeable": 1370,
+   "model_pct": 50.5
   },
   "by_confidence": {
    "high": {
@@ -166,10 +166,10 @@
     "pct": 47.8
    },
    "medium": {
-    "w": 472,
+    "w": 474,
     "l": 381,
     "p": 0,
-    "pct": 55.3
+    "pct": 55.4
    },
    "low": {
     "w": 41,
@@ -197,22 +197,22 @@
    "beat_or_matched_pct": 76.8
   },
   "calibration": {
-   "n": 1368,
+   "n": 1370,
    "model_mae": 10.38,
    "market_mae": 9.17,
-   "intercept": -0.17,
-   "model_weight": -0.004,
-   "market_weight": 0.992,
+   "intercept": -0.13,
+   "model_weight": -0.005,
+   "market_weight": 0.99,
    "ats_by_edge": {
     "0-2": {
-     "w": 235,
+     "w": 236,
      "l": 198,
-     "pct": 54.3
+     "pct": 54.4
     },
     "2-4": {
-     "w": 196,
+     "w": 197,
      "l": 165,
-     "pct": 54.3
+     "pct": 54.4
     },
     "4-7": {
      "w": 108,
