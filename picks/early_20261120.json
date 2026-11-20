@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T03:00:19.788545-05:00",
+  "generated_at": "2026-11-20T05:15:54.969659-05:00",
   "date": "20261120",
   "total_games": 51,
   "model_version": "4.1.0",
@@ -1398,14 +1398,14 @@
       },
       "market": {
         "spread": 3.5,
-        "over_under": 142.5,
+        "over_under": 146.5,
         "spread_holder": "UT-Arlington Mavericks",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.6,
       "model_vs_market": {
         "spread_edge": -1.6,
-        "total_edge": 2.4
+        "total_edge": -1.6
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1776,14 +1776,14 @@
       },
       "market": {
         "spread": 2.5,
-        "over_under": 135.5,
+        "over_under": 134.5,
         "spread_holder": "Mercyhurst Lakers",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.0,
       "model_vs_market": {
         "spread_edge": -1.0,
-        "total_edge": 10.5
+        "total_edge": 11.5
       },
       "is_best_bet": false,
       "is_tournament_game": false

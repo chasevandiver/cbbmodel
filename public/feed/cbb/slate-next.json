@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-20T03:00:19.940958-05:00",
+ "generated_at": "2026-11-20T05:15:55.149895-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-20",
@@ -818,7 +818,7 @@
    },
    "market": {
     "spread_home": 2.5,
-    "total": 135.5,
+    "total": 134.5,
     "favorite": "Mercyhurst Lakers",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -826,7 +826,7 @@
    "closing": null,
    "edge": {
     "spread": 1.0,
-    "total": 10.5,
+    "total": 11.5,
     "value_rating": 1.0,
     "is_best_bet": false
    },
@@ -2282,7 +2282,7 @@
    },
    "market": {
     "spread_home": 3.5,
-    "total": 142.5,
+    "total": 146.5,
     "favorite": "UT-Arlington Mavericks",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -2290,7 +2290,7 @@
    "closing": null,
    "edge": {
     "spread": 1.6,
-    "total": 2.4,
+    "total": -1.6,
     "value_rating": 1.6,
     "is_best_bet": false
    },
