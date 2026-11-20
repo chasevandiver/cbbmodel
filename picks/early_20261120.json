@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T19:28:32.719445-05:00",
+  "generated_at": "2026-11-19T20:42:27.769846-05:00",
   "date": "20261120",
   "total_games": 49,
   "model_version": "4.1.0",
@@ -47,14 +47,14 @@
         "home_court": 2.96
       },
       "market": {
-        "spread": 1.5,
+        "spread": -1.5,
         "over_under": 154.5,
-        "spread_holder": "CSUB -1.5",
+        "spread_holder": "IDHO -1.5",
         "bookmaker": "espn"
       },
-      "value_rating": 9.0,
+      "value_rating": 6.0,
       "model_vs_market": {
-        "spread_edge": 9.0,
+        "spread_edge": 6.0,
         "total_edge": -2.4
       },
       "is_best_bet": false,
@@ -642,14 +642,14 @@
       },
       "market": {
         "spread": -28.5,
-        "over_under": 142.5,
+        "over_under": 143.5,
         "spread_holder": "Tennessee Volunteers",
         "bookmaker": "fanduel"
       },
       "value_rating": 5.2,
       "model_vs_market": {
         "spread_edge": -5.2,
-        "total_edge": 4.4
+        "total_edge": 3.4
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -804,14 +804,14 @@
       },
       "market": {
         "spread": 6.5,
-        "over_under": 145.5,
+        "over_under": 144.5,
         "spread_holder": "South Dakota St Jackrabbits",
         "bookmaker": "fanduel"
       },
       "value_rating": 2.3,
       "model_vs_market": {
         "spread_edge": -2.3,
-        "total_edge": -2.1
+        "total_edge": -1.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1549,7 +1549,7 @@
       "away_projected_score": 67.9,
       "home_win_prob": 42.9,
       "away_win_prob": 57.1,
-      "confidence": 55.9,
+      "confidence": 56.1,
       "pick": "North Texas Mean Green",
       "pick_abbr": "UNT",
       "is_home_pick": false,
@@ -1559,14 +1559,14 @@
         "home_court": 3.2
       },
       "market": {
-        "spread": 1.5,
+        "spread": 2.5,
         "over_under": 127.5,
         "spread_holder": "North Texas Mean Green",
         "bookmaker": "fanduel"
       },
       "value_rating": 0.5,
       "model_vs_market": {
-        "spread_edge": 0.5,
+        "spread_edge": -0.5,
         "total_edge": 6.4
       },
       "is_best_bet": false,
@@ -1776,14 +1776,14 @@
       },
       "market": {
         "spread": -20.5,
-        "over_under": 154.5,
+        "over_under": 156.5,
         "spread_holder": "North Carolina Tar Heels",
         "bookmaker": "fanduel"
       },
       "value_rating": 2.1,
       "model_vs_market": {
         "spread_edge": -2.1,
-        "total_edge": -4.6
+        "total_edge": -6.6
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1830,14 +1830,14 @@
       },
       "market": {
         "spread": -16.5,
-        "over_under": 156.5,
+        "over_under": 155.5,
         "spread_holder": "Kansas St Wildcats",
         "bookmaker": "fanduel"
       },
       "value_rating": 1.4,
       "model_vs_market": {
         "spread_edge": -1.4,
-        "total_edge": -3.0
+        "total_edge": -2.0
       },
       "is_best_bet": false,
       "is_tournament_game": false

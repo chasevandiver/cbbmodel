@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-19T19:28:33.147305-05:00",
+ "generated_at": "2026-11-19T20:42:28.175103-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-20",
@@ -541,7 +541,7 @@
    },
    "market": {
     "spread_home": 6.5,
-    "total": 145.5,
+    "total": 144.5,
     "favorite": "South Dakota St Jackrabbits",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -549,7 +549,7 @@
    "closing": null,
    "edge": {
     "spread": 2.3,
-    "total": -2.1,
+    "total": -1.1,
     "value_rating": 2.3,
     "is_best_bet": false
    },
@@ -994,7 +994,7 @@
     "home_score": 66.0,
     "away_score": 67.9,
     "home_win_prob": 42.9,
-    "confidence": 55.9,
+    "confidence": 56.1,
     "tempo": 65.9,
     "confidence_tier": "medium",
     "pick": {
@@ -1004,7 +1004,7 @@
     }
    },
    "market": {
-    "spread_home": 1.5,
+    "spread_home": 2.5,
     "total": 127.5,
     "favorite": "North Texas Mean Green",
     "bookmaker": "fanduel",
@@ -1012,14 +1012,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -0.5,
+    "spread": 0.5,
     "total": 6.4,
     "value_rating": 0.5,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": -1.5
+    "cover_line": -2.5
    },
    "result": null,
    "tags": []
@@ -1071,7 +1071,7 @@
    },
    "market": {
     "spread_home": -28.5,
-    "total": 142.5,
+    "total": 143.5,
     "favorite": "Tennessee Volunteers",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1079,7 +1079,7 @@
    "closing": null,
    "edge": {
     "spread": -5.2,
-    "total": 4.4,
+    "total": 3.4,
     "value_rating": 5.2,
     "is_best_bet": true
    },
@@ -2355,7 +2355,7 @@
    },
    "market": {
     "spread_home": -16.5,
-    "total": 156.5,
+    "total": 155.5,
     "favorite": "Kansas St Wildcats",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -2363,7 +2363,7 @@
    "closing": null,
    "edge": {
     "spread": -1.4,
-    "total": -3.0,
+    "total": -2.0,
     "value_rating": 1.4,
     "is_best_bet": false
    },
@@ -2873,7 +2873,7 @@
    },
    "market": {
     "spread_home": -20.5,
-    "total": 154.5,
+    "total": 156.5,
     "favorite": "North Carolina Tar Heels",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -2881,7 +2881,7 @@
    "closing": null,
    "edge": {
     "spread": -2.1,
-    "total": -4.6,
+    "total": -6.6,
     "value_rating": 2.1,
     "is_best_bet": false
    },
@@ -3006,22 +3006,22 @@
     }
    },
    "market": {
-    "spread_home": 1.5,
+    "spread_home": -1.5,
     "total": 154.5,
-    "favorite": "CSUB -1.5",
+    "favorite": "IDHO -1.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 9.0,
+    "spread": 6.0,
     "total": -2.4,
-    "value_rating": 9.0,
+    "value_rating": 6.0,
     "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": -1.5
+    "cover_line": 1.5
    },
    "result": null,
    "tags": [
