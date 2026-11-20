@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T20:42:27.769846-05:00",
+  "generated_at": "2026-11-19T21:44:16.472630-05:00",
   "date": "20261120",
   "total_games": 49,
   "model_version": "4.1.0",
@@ -59,6 +59,60 @@
       },
       "is_best_bet": false,
       "is_tournament_game": false
+    },
+    {
+      "game_id": "401919826",
+      "date": "2026-11-20T20:00Z",
+      "home_team": "UAlbany Great Danes",
+      "away_team": "Western Illinois Leathernecks",
+      "home_abbr": "UALB",
+      "away_abbr": "WIU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "1-4",
+      "home_location": "UAlbany",
+      "away_location": "Western Illinois",
+      "home_rating_team": "Albany",
+      "away_rating_team": "Western Illinois",
+      "home_adj_em": -14.39,
+      "away_adj_em": -20.47,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Koessler Athletic Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 4.2,
+      "predicted_total": 142.5,
+      "home_projected_score": 73.3,
+      "away_projected_score": 69.1,
+      "home_win_prob": 64.9,
+      "away_win_prob": 35.1,
+      "confidence": 72.2,
+      "pick": "UAlbany Great Danes",
+      "pick_abbr": "UALB",
+      "is_home_pick": true,
+      "projected_tempo": 69.2,
+      "factors": {
+        "efficiency_margin": 4.2,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -8.5,
+        "over_under": 139.5,
+        "spread_holder": "Albany Great Danes",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 4.3,
+      "model_vs_market": {
+        "spread_edge": -4.3,
+        "total_edge": 3.0
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true
     },
     {
       "game_id": "401921757",
@@ -169,60 +223,6 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401909698",
-      "date": "2026-11-20T17:00Z",
-      "home_team": "Florida State Seminoles",
-      "away_team": "Green Bay Phoenix",
-      "home_abbr": "FSU",
-      "away_abbr": "GB",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-1",
-      "away_record": "3-3",
-      "home_location": "Florida State",
-      "away_location": "Green Bay",
-      "home_rating_team": "Florida St.",
-      "away_rating_team": "Green Bay",
-      "home_adj_em": 15.19,
-      "away_adj_em": -3.7,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Donald L. Tucker Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ACCNX",
-      "predicted_spread": 16.6,
-      "predicted_total": 155.2,
-      "home_projected_score": 85.9,
-      "away_projected_score": 69.3,
-      "home_win_prob": 93.5,
-      "away_win_prob": 6.5,
-      "confidence": 69.0,
-      "pick": "Florida State Seminoles",
-      "pick_abbr": "FSU",
-      "is_home_pick": true,
-      "projected_tempo": 70.2,
-      "factors": {
-        "efficiency_margin": 13.26,
-        "home_court": 3.36
-      },
-      "market": {
-        "spread": -23.5,
-        "over_under": 153.5,
-        "spread_holder": "Florida St Seminoles",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 6.9,
-      "model_vs_market": {
-        "spread_edge": -6.9,
-        "total_edge": 1.7
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401921723",
       "date": "2026-11-20T22:00Z",
       "home_team": "Miami Hurricanes",
@@ -328,6 +328,60 @@
         "total_edge": 0.6
       },
       "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401909698",
+      "date": "2026-11-20T17:00Z",
+      "home_team": "Florida State Seminoles",
+      "away_team": "Green Bay Phoenix",
+      "home_abbr": "FSU",
+      "away_abbr": "GB",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "3-3",
+      "home_location": "Florida State",
+      "away_location": "Green Bay",
+      "home_rating_team": "Florida St.",
+      "away_rating_team": "Green Bay",
+      "home_adj_em": 15.19,
+      "away_adj_em": -3.7,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Donald L. Tucker Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACCNX",
+      "predicted_spread": 16.6,
+      "predicted_total": 155.2,
+      "home_projected_score": 85.9,
+      "away_projected_score": 69.3,
+      "home_win_prob": 93.5,
+      "away_win_prob": 6.5,
+      "confidence": 68.5,
+      "pick": "Florida State Seminoles",
+      "pick_abbr": "FSU",
+      "is_home_pick": true,
+      "projected_tempo": 70.2,
+      "factors": {
+        "efficiency_margin": 13.26,
+        "home_court": 3.36
+      },
+      "market": {
+        "spread": -22.5,
+        "over_under": 153.5,
+        "spread_holder": "Florida St Seminoles",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 5.9,
+      "model_vs_market": {
+        "spread_edge": -5.9,
+        "total_edge": 1.7
+      },
+      "is_best_bet": true,
       "is_tournament_game": false
     },
     {
@@ -817,6 +871,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401919827",
+      "date": "2026-11-20T22:30Z",
+      "home_team": "Canisius Golden Griffins",
+      "away_team": "Mercyhurst Lakers",
+      "home_abbr": "CAN",
+      "away_abbr": "MERC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "1-4",
+      "home_location": "Canisius",
+      "away_location": "Mercyhurst",
+      "home_rating_team": "Canisius",
+      "away_rating_team": "Mercyhurst",
+      "home_adj_em": -17.91,
+      "away_adj_em": -11.24,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Koessler Athletic Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -1.5,
+      "predicted_total": 146.0,
+      "home_projected_score": 72.3,
+      "away_projected_score": 73.7,
+      "home_win_prob": 44.7,
+      "away_win_prob": 55.3,
+      "confidence": 63.2,
+      "pick": "Mercyhurst Lakers",
+      "pick_abbr": "MERC",
+      "is_home_pick": false,
+      "projected_tempo": 67.1,
+      "factors": {
+        "efficiency_margin": -4.48,
+        "home_court": 3.02
+      },
+      "market": {
+        "spread": 3.5,
+        "over_under": 137.5,
+        "spread_holder": "Mercyhurst Lakers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.0,
+      "model_vs_market": {
+        "spread_edge": -2.0,
+        "total_edge": 8.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401911252",
       "date": "2026-11-21T04:00Z",
       "home_team": "Saint Mary's Gaels",
@@ -923,60 +1031,6 @@
       },
       "is_best_bet": false,
       "is_tournament_game": false
-    },
-    {
-      "game_id": "401919826",
-      "date": "2026-11-20T20:00Z",
-      "home_team": "UAlbany Great Danes",
-      "away_team": "Western Illinois Leathernecks",
-      "home_abbr": "UALB",
-      "away_abbr": "WIU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-2",
-      "away_record": "1-4",
-      "home_location": "UAlbany",
-      "away_location": "Western Illinois",
-      "home_rating_team": "Albany",
-      "away_rating_team": "Western Illinois",
-      "home_adj_em": -14.39,
-      "away_adj_em": -20.47,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Koessler Athletic Center",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 4.2,
-      "predicted_total": 142.5,
-      "home_projected_score": 73.3,
-      "away_projected_score": 69.1,
-      "home_win_prob": 64.9,
-      "away_win_prob": 35.1,
-      "confidence": 60.2,
-      "pick": "UAlbany Great Danes",
-      "pick_abbr": "UALB",
-      "is_home_pick": true,
-      "projected_tempo": 69.2,
-      "factors": {
-        "efficiency_margin": 4.2,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": -5.5,
-        "over_under": 140.5,
-        "spread_holder": "Albany Great Danes",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 1.3,
-      "model_vs_market": {
-        "spread_edge": -1.3,
-        "total_edge": 2.0
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
     },
     {
       "game_id": "401921007",
@@ -1303,60 +1357,6 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401926782",
-      "date": "2026-11-21T00:00Z",
-      "home_team": "Jacksonville State Gamecocks",
-      "away_team": "Georgia State Panthers",
-      "home_abbr": "JXST",
-      "away_abbr": "GAST",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-3",
-      "away_record": "2-3",
-      "home_location": "Jacksonville State",
-      "away_location": "Georgia State",
-      "home_rating_team": "Jacksonville St.",
-      "away_rating_team": "Georgia St.",
-      "home_adj_em": -4.91,
-      "away_adj_em": -2.88,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Pete Mathews Coliseum",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 1.8,
-      "predicted_total": 145.1,
-      "home_projected_score": 73.5,
-      "away_projected_score": 71.7,
-      "home_win_prob": 56.4,
-      "away_win_prob": 43.6,
-      "confidence": 57.9,
-      "pick": "Jacksonville State Gamecocks",
-      "pick_abbr": "JXST",
-      "is_home_pick": true,
-      "projected_tempo": 66.6,
-      "factors": {
-        "efficiency_margin": -1.35,
-        "home_court": 3.12
-      },
-      "market": {
-        "spread": -2.5,
-        "over_under": 136.5,
-        "spread_holder": "Jacksonville St Gamecocks",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 0.7,
-      "model_vs_market": {
-        "spread_edge": -0.7,
-        "total_edge": 8.6
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401924736",
       "date": "2026-11-21T00:00Z",
       "home_team": "Princeton Tigers",
@@ -1452,14 +1452,14 @@
       },
       "market": {
         "spread": -2.5,
-        "over_under": 155.5,
+        "over_under": 154.5,
         "spread_holder": "Indiana Hoosiers",
         "bookmaker": "fanduel"
       },
       "value_rating": 0.4,
       "model_vs_market": {
         "spread_edge": 0.4,
-        "total_edge": 1.1
+        "total_edge": 2.1
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1568,6 +1568,60 @@
       "model_vs_market": {
         "spread_edge": -0.5,
         "total_edge": 6.4
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401926782",
+      "date": "2026-11-21T00:00Z",
+      "home_team": "Jacksonville State Gamecocks",
+      "away_team": "Georgia State Panthers",
+      "home_abbr": "JXST",
+      "away_abbr": "GAST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "2-3",
+      "home_location": "Jacksonville State",
+      "away_location": "Georgia State",
+      "home_rating_team": "Jacksonville St.",
+      "away_rating_team": "Georgia St.",
+      "home_adj_em": -4.91,
+      "away_adj_em": -2.88,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Pete Mathews Coliseum",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 1.8,
+      "predicted_total": 145.1,
+      "home_projected_score": 73.5,
+      "away_projected_score": 71.7,
+      "home_win_prob": 56.4,
+      "away_win_prob": 43.6,
+      "confidence": 56.1,
+      "pick": "Jacksonville State Gamecocks",
+      "pick_abbr": "JXST",
+      "is_home_pick": true,
+      "projected_tempo": 66.6,
+      "factors": {
+        "efficiency_margin": -1.35,
+        "home_court": 3.12
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 136.5,
+        "spread_holder": "Jacksonville St Gamecocks",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 0.3,
+      "model_vs_market": {
+        "spread_edge": 0.3,
+        "total_edge": 8.6
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1884,14 +1938,14 @@
       },
       "market": {
         "spread": -51.5,
-        "over_under": 163.5,
+        "over_under": 164.5,
         "spread_holder": "Illinois Fighting Illini",
         "bookmaker": "fanduel"
       },
       "value_rating": 14.7,
       "model_vs_market": {
         "spread_edge": -14.7,
-        "total_edge": -6.4
+        "total_edge": -7.4
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1946,60 +2000,6 @@
       "model_vs_market": {
         "spread_edge": 0.8,
         "total_edge": 1.7
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401919827",
-      "date": "2026-11-20T22:30Z",
-      "home_team": "Canisius Golden Griffins",
-      "away_team": "Mercyhurst Lakers",
-      "home_abbr": "CAN",
-      "away_abbr": "MERC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-3",
-      "away_record": "1-4",
-      "home_location": "Canisius",
-      "away_location": "Mercyhurst",
-      "home_rating_team": "Canisius",
-      "away_rating_team": "Mercyhurst",
-      "home_adj_em": -17.91,
-      "away_adj_em": -11.24,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Koessler Athletic Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": -1.5,
-      "predicted_total": 146.0,
-      "home_projected_score": 72.3,
-      "away_projected_score": 73.7,
-      "home_win_prob": 44.7,
-      "away_win_prob": 55.3,
-      "confidence": 45.0,
-      "pick": "Mercyhurst Lakers",
-      "pick_abbr": "MERC",
-      "is_home_pick": false,
-      "projected_tempo": 67.1,
-      "factors": {
-        "efficiency_margin": -4.48,
-        "home_court": 3.02
-      },
-      "market": {
-        "spread": null,
-        "over_under": null,
-        "spread_holder": null,
-        "bookmaker": null
-      },
-      "value_rating": null,
-      "model_vs_market": {
-        "spread_edge": null,
-        "total_edge": null
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2655,13 +2655,13 @@
   ],
   "summary": {
     "total_games": 49,
-    "high_confidence": 2,
-    "medium_confidence": 43,
+    "high_confidence": 3,
+    "medium_confidence": 42,
     "low_confidence": 4,
-    "avg_confidence": 55.7,
-    "value_plays": 10,
-    "best_bets": 5,
-    "with_market_line": 36,
+    "avg_confidence": 56.3,
+    "value_plays": 11,
+    "best_bets": 7,
+    "with_market_line": 37,
     "tournament_games": 13
   },
   "early": true

@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-19T20:42:28.175103-05:00",
+ "generated_at": "2026-11-19T21:44:16.862867-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -53049,7 +53049,7 @@
    "game_id": "401902280",
    "game_id_source": "espn",
    "start_time": "2026-11-20T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Butler Bulldogs",
     "abbr": "BTLR",
@@ -53108,7 +53108,19 @@
     "side": "away",
     "cover_line": 15.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 77,
+    "margin_home": 7,
+    "total": 161,
+    "winner": "Butler Bulldogs",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -53121,7 +53133,7 @@
    "game_id": "401911021",
    "game_id_source": "espn",
    "start_time": "2026-11-20T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
@@ -53180,7 +53192,19 @@
     "side": "none",
     "cover_line": 10.5
    },
-   "result": null,
+   "result": {
+    "home_score": 78,
+    "away_score": 69,
+    "margin_home": 9,
+    "total": 147,
+    "winner": "St. Bonaventure Bonnies",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -53193,7 +53217,7 @@
    "game_id": "401916318",
    "game_id_source": "espn",
    "start_time": "2026-11-20T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Ohio State Buckeyes",
     "abbr": "OSU",
@@ -53252,7 +53276,19 @@
     "side": "away",
     "cover_line": 31.5
    },
-   "result": null,
+   "result": {
+    "home_score": 101,
+    "away_score": 62,
+    "margin_home": 39,
+    "total": 163,
+    "winner": "Ohio State Buckeyes",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 3.0
+   },
    "tags": [
     "value"
    ]
@@ -53267,7 +53303,7 @@
    "game_id": "401920413",
    "game_id_source": "espn",
    "start_time": "2026-11-20T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "High Point Panthers",
     "abbr": "HPU",
@@ -53326,7 +53362,19 @@
     "side": "away",
     "cover_line": 13.5
    },
-   "result": null,
+   "result": {
+    "home_score": 85,
+    "away_score": 74,
+    "margin_home": 11,
+    "total": 159,
+    "winner": "High Point Panthers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -53342,7 +53390,7 @@
    "game_id": "401920878",
    "game_id_source": "espn",
    "start_time": "2026-11-20T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
@@ -53395,7 +53443,19 @@
     "side": "home",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 78,
+    "margin_home": -6,
+    "total": 150,
+    "winner": "Little Rock Trojans",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -53412,7 +53472,7 @@
    "game_id": "401923304",
    "game_id_source": "espn",
    "start_time": "2026-11-20T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Quinnipiac Bobcats",
     "abbr": "QUIN",
@@ -53471,7 +53531,19 @@
     "side": "away",
     "cover_line": 11.5
    },
-   "result": null,
+   "result": {
+    "home_score": 67,
+    "away_score": 69,
+    "margin_home": -2,
+    "total": 136,
+    "winner": "Maine Black Bears",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 3.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -53487,7 +53559,7 @@
    "game_id": "401928826",
    "game_id_source": "espn",
    "start_time": "2026-11-20T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Toledo Rockets",
     "abbr": "TOL",
@@ -53546,7 +53618,19 @@
     "side": "away",
     "cover_line": 6.5
    },
-   "result": null,
+   "result": {
+    "home_score": 83,
+    "away_score": 76,
+    "margin_home": 7,
+    "total": 159,
+    "winner": "Toledo Rockets",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -53559,7 +53643,7 @@
    "game_id": "401919005",
    "game_id_source": "espn",
    "start_time": "2026-11-20T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Louisiana Tech Bulldogs",
     "abbr": "LT",
@@ -53618,7 +53702,19 @@
     "side": "home",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 74,
+    "away_score": 67,
+    "margin_home": 7,
+    "total": 141,
+    "winner": "Louisiana Tech Bulldogs",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 3.0
+   },
    "tags": []
   },
   {
@@ -53631,7 +53727,7 @@
    "game_id": "401926814",
    "game_id_source": "espn",
    "start_time": "2026-11-20T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Drake Bulldogs",
     "abbr": "DRKE",
@@ -53690,7 +53786,19 @@
     "side": "none",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 86,
+    "away_score": 70,
+    "margin_home": 16,
+    "total": 156,
+    "winner": "Drake Bulldogs",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -54605,10 +54713,10 @@
    },
    "closing": {
     "spread_home": -14.5,
-    "total": 145.5,
+    "total": 146.5,
     "favorite": "California Golden Bears",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-19T20:42:12.879311-05:00"
+    "captured_at": "2026-11-19T21:44:01.745565-05:00"
    },
    "edge": {
     "spread": -2.2,
@@ -54677,10 +54785,10 @@
    },
    "closing": {
     "spread_home": -16.5,
-    "total": 154.5,
+    "total": 152.5,
     "favorite": "Stanford Cardinal",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-19T20:42:12.879311-05:00"
+    "captured_at": "2026-11-19T21:44:01.745565-05:00"
    },
    "edge": {
     "spread": -6.1,
@@ -54755,7 +54863,7 @@
     "total": 164.5,
     "favorite": "Santa Clara Broncos",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-19T20:42:12.879311-05:00"
+    "captured_at": "2026-11-19T21:44:01.745565-05:00"
    },
    "edge": {
     "spread": -1.2,
@@ -54823,11 +54931,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": 3.5,
+    "spread_home": 2.5,
     "total": 151.5,
     "favorite": "Houston Cougars",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-19T20:42:12.879311-05:00"
+    "captured_at": "2026-11-19T21:44:01.745565-05:00"
    },
    "edge": {
     "spread": 2.7,
@@ -54902,7 +55010,7 @@
     "total": 159.5,
     "favorite": "USC Trojans",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-19T20:42:12.879311-05:00"
+    "captured_at": "2026-11-19T21:44:01.745565-05:00"
    },
    "edge": {
     "spread": -9.5,

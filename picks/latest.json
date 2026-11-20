@@ -61,10 +61,10 @@
       "is_tournament_game": false,
       "closing_line": {
         "spread": -16.5,
-        "over_under": 154.5,
+        "over_under": 152.5,
         "spread_holder": "Stanford Cardinal",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-19T20:42:12.879311-05:00"
+        "captured_at": "2026-11-19T21:44:01.745565-05:00"
       }
     },
     {
@@ -362,7 +362,7 @@
         "over_under": 159.5,
         "spread_holder": "USC Trojans",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-19T20:42:12.879311-05:00"
+        "captured_at": "2026-11-19T21:44:01.745565-05:00"
       }
     },
     {
@@ -595,11 +595,11 @@
       "is_best_bet": false,
       "is_tournament_game": true,
       "closing_line": {
-        "spread": 3.5,
+        "spread": 2.5,
         "over_under": 151.5,
         "spread_holder": "Houston Cougars",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-19T20:42:12.879311-05:00"
+        "captured_at": "2026-11-19T21:44:01.745565-05:00"
       }
     },
     {
@@ -894,10 +894,10 @@
       "is_tournament_game": false,
       "closing_line": {
         "spread": -14.5,
-        "over_under": 145.5,
+        "over_under": 146.5,
         "spread_holder": "California Golden Bears",
         "bookmaker": "betmgm",
-        "captured_at": "2026-11-19T20:42:12.879311-05:00"
+        "captured_at": "2026-11-19T21:44:01.745565-05:00"
       }
     },
     {
@@ -1073,7 +1073,7 @@
         "over_under": 164.5,
         "spread_holder": "Santa Clara Broncos",
         "bookmaker": "fanduel",
-        "captured_at": "2026-11-19T20:42:12.879311-05:00"
+        "captured_at": "2026-11-19T21:44:01.745565-05:00"
       }
     },
     {
