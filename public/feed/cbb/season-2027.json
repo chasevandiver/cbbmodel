@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-20T21:54:14.162531-05:00",
+ "generated_at": "2026-11-20T23:12:35.462237-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -58133,7 +58133,7 @@
    "game_id": "401906784",
    "game_id_source": "espn",
    "start_time": "2026-11-21T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Georgia Tech Yellow Jackets",
     "abbr": "GT",
@@ -58192,7 +58192,19 @@
     "side": "home",
     "cover_line": -8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 82,
+    "away_score": 88,
+    "margin_home": -6,
+    "total": 170,
+    "winner": "Georgia Bulldogs",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -58205,7 +58217,7 @@
    "game_id": "401909799",
    "game_id_source": "espn",
    "start_time": "2026-11-21T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Kansas State Wildcats",
     "abbr": "KSU",
@@ -58264,7 +58276,19 @@
     "side": "none",
     "cover_line": 15.5
    },
-   "result": null,
+   "result": {
+    "home_score": 70,
+    "away_score": 80,
+    "margin_home": -10,
+    "total": 150,
+    "winner": "Campbell Fighting Camels",
+    "su_correct": false,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -58277,7 +58301,7 @@
    "game_id": "401916125",
    "game_id_source": "espn",
    "start_time": "2026-11-21T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "East Carolina Pirates",
     "abbr": "ECU",
@@ -58330,7 +58354,19 @@
     "side": "none",
     "cover_line": -3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 90,
+    "away_score": 79,
+    "margin_home": 11,
+    "total": 169,
+    "winner": "East Carolina Pirates",
+    "su_correct": false,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -58345,7 +58381,7 @@
    "game_id": "401916290",
    "game_id_source": "espn",
    "start_time": "2026-11-21T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Indiana Hoosiers",
     "abbr": "IU",
@@ -58404,7 +58440,19 @@
     "side": "none",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 90,
+    "away_score": 76,
+    "margin_home": 14,
+    "total": 166,
+    "winner": "Indiana Hoosiers",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -58419,7 +58467,7 @@
    "game_id": "401919784",
    "game_id_source": "espn",
    "start_time": "2026-11-21T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Missouri Tigers",
     "abbr": "MIZ",
@@ -58478,7 +58526,19 @@
     "side": "away",
     "cover_line": 36.5
    },
-   "result": null,
+   "result": {
+    "home_score": 91,
+    "away_score": 64,
+    "margin_home": 27,
+    "total": 155,
+    "winner": "Missouri Tigers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": [
     "value"
    ]
@@ -58493,7 +58553,7 @@
    "game_id": "401920707",
    "game_id_source": "espn",
    "start_time": "2026-11-21T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Alabama A&M Bulldogs",
     "abbr": "AAMU",
@@ -58552,7 +58612,19 @@
     "side": "home",
     "cover_line": -5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 85,
+    "away_score": 69,
+    "margin_home": 16,
+    "total": 154,
+    "winner": "Alabama A&M Bulldogs",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -58569,7 +58641,7 @@
    "game_id": "401921757",
    "game_id_source": "espn",
    "start_time": "2026-11-21T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Vanderbilt Commodores",
     "abbr": "VAN",
@@ -58628,7 +58700,19 @@
     "side": "away",
     "cover_line": 17.5
    },
-   "result": null,
+   "result": {
+    "home_score": 82,
+    "away_score": 74,
+    "margin_home": 8,
+    "total": 156,
+    "winner": "Vanderbilt Commodores",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "value",
     "high_confidence"
@@ -58808,7 +58892,7 @@
    "game_id": "401912710",
    "game_id_source": "espn",
    "start_time": "2026-11-21T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "North Carolina Tar Heels",
     "abbr": "UNC",
@@ -58867,7 +58951,19 @@
     "side": "away",
     "cover_line": 20.5
    },
-   "result": null,
+   "result": {
+    "home_score": 88,
+    "away_score": 72,
+    "margin_home": 16,
+    "total": 160,
+    "winner": "North Carolina Tar Heels",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 2.0
+   },
    "tags": []
   },
   {
@@ -58880,7 +58976,7 @@
    "game_id": "401913529",
    "game_id_source": "espn",
    "start_time": "2026-11-21T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Illinois Fighting Illini",
     "abbr": "ILL",
@@ -58939,7 +59035,19 @@
     "side": "away",
     "cover_line": 50.5
    },
-   "result": null,
+   "result": {
+    "home_score": 114,
+    "away_score": 52,
+    "margin_home": 62,
+    "total": 166,
+    "winner": "Illinois Fighting Illini",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 5.0
+   },
    "tags": [
     "value"
    ]
@@ -58954,7 +59062,7 @@
    "game_id": "401920137",
    "game_id_source": "espn",
    "start_time": "2026-11-21T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Idaho Vandals",
     "abbr": "IDHO",
@@ -59007,7 +59115,19 @@
     "side": "home",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 81,
+    "margin_home": 3,
+    "total": 165,
+    "winner": "Idaho Vandals",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "value",
     "high_confidence"
