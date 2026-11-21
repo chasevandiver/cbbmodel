@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T23:12:35.013795-05:00",
+  "generated_at": "2026-11-21T02:56:36.974175-05:00",
   "date": "20261121",
-  "total_games": 50,
+  "total_games": 51,
   "model_version": "4.1.0",
   "ratings_source": "barttorvik (cache 2026-11-20)",
   "ratings_season": 2027,
@@ -156,71 +156,17 @@
       },
       "market": {
         "spread": -13.5,
-        "over_under": 137.5,
+        "over_under": 136.5,
         "spread_holder": "Loyola Marymount Lions",
         "bookmaker": "draftkings"
       },
       "value_rating": 4.3,
       "model_vs_market": {
         "spread_edge": -4.3,
-        "total_edge": 5.5
+        "total_edge": 6.5
       },
       "is_best_bet": true,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401917918",
-      "date": "2026-11-21T21:00Z",
-      "home_team": "Jacksonville Dolphins",
-      "away_team": "Central Arkansas Bears",
-      "home_abbr": "JAX",
-      "away_abbr": "CARK",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-3",
-      "away_record": "2-3",
-      "home_location": "Jacksonville",
-      "away_location": "Central Arkansas",
-      "home_rating_team": "Jacksonville",
-      "away_rating_team": "Central Arkansas",
-      "home_adj_em": -5.75,
-      "away_adj_em": -1.64,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Swisher Gymnasium",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 0.6,
-      "predicted_total": 149.7,
-      "home_projected_score": 75.2,
-      "away_projected_score": 74.6,
-      "home_win_prob": 52.2,
-      "away_win_prob": 47.8,
-      "confidence": 71.4,
-      "pick": "Jacksonville Dolphins",
-      "pick_abbr": "JAX",
-      "is_home_pick": true,
-      "projected_tempo": 68.5,
-      "factors": {
-        "efficiency_margin": -2.82,
-        "home_court": 3.42
-      },
-      "market": {
-        "spread": 3.5,
-        "over_under": 145.5,
-        "spread_holder": "Central Arkansas Bears",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 4.1,
-      "model_vs_market": {
-        "spread_edge": 4.1,
-        "total_edge": 4.2
-      },
-      "is_best_bet": true,
-      "is_tournament_game": false
     },
     {
       "game_id": "401921776",
@@ -318,14 +264,14 @@
       },
       "market": {
         "spread": -3.5,
-        "over_under": 132.5,
+        "over_under": 133.5,
         "spread_holder": "Vermont Catamounts",
         "bookmaker": "betmgm"
       },
       "value_rating": 4.0,
       "model_vs_market": {
         "spread_edge": 4.0,
-        "total_edge": 4.5
+        "total_edge": 3.5
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -385,6 +331,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401924882",
+      "date": "2026-11-21T19:00Z",
+      "home_team": "Saint Peter's Peacocks",
+      "away_team": "Stony Brook Seawolves",
+      "home_abbr": "SPU",
+      "away_abbr": "STBK",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2612.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "0-5",
+      "away_record": "2-2",
+      "home_location": "Saint Peter's",
+      "away_location": "Stony Brook",
+      "home_rating_team": "Saint Peter's",
+      "away_rating_team": "Stony Brook",
+      "home_adj_em": -13.86,
+      "away_adj_em": -6.34,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Yanitelli Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -1.7,
+      "predicted_total": 135.5,
+      "home_projected_score": 66.9,
+      "away_projected_score": 68.6,
+      "home_win_prob": 43.8,
+      "away_win_prob": 56.2,
+      "confidence": 69.2,
+      "pick": "Stony Brook Seawolves",
+      "pick_abbr": "STBK",
+      "is_home_pick": false,
+      "projected_tempo": 66.1,
+      "factors": {
+        "efficiency_margin": -4.97,
+        "home_court": 3.26
+      },
+      "market": {
+        "spread": 5.5,
+        "over_under": 125.5,
+        "spread_holder": "Stony Brook Seawolves",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 3.8,
+      "model_vs_market": {
+        "spread_edge": -3.8,
+        "total_edge": 10.0
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401921811",
       "date": "2026-11-21T18:00Z",
       "home_team": "LSU Tigers",
@@ -434,60 +434,6 @@
       "model_vs_market": {
         "spread_edge": -7.4,
         "total_edge": -8.3
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401909517",
-      "date": "2026-11-21T23:00Z",
-      "home_team": "Georgetown Hoyas",
-      "away_team": "Coppin State Eagles",
-      "home_abbr": "GTWN",
-      "away_abbr": "COPP",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "5-0",
-      "away_record": "1-5",
-      "home_location": "Georgetown",
-      "away_location": "Coppin State",
-      "home_rating_team": "Georgetown",
-      "away_rating_team": "Coppin St.",
-      "home_adj_em": 15.26,
-      "away_adj_em": -18.83,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "McDonough Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 26.3,
-      "predicted_total": 146.2,
-      "home_projected_score": 86.3,
-      "away_projected_score": 60.0,
-      "home_win_prob": 99.2,
-      "away_win_prob": 0.8,
-      "confidence": 69.0,
-      "pick": "Georgetown Hoyas",
-      "pick_abbr": "GTWN",
-      "is_home_pick": true,
-      "projected_tempo": 68.7,
-      "factors": {
-        "efficiency_margin": 23.43,
-        "home_court": 2.86
-      },
-      "market": {
-        "spread": -32.5,
-        "over_under": 142.5,
-        "spread_holder": "Georgetown Hoyas",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 6.2,
-      "model_vs_market": {
-        "spread_edge": -6.2,
-        "total_edge": 3.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -547,6 +493,60 @@
       "is_tournament_game": true
     },
     {
+      "game_id": "401911022",
+      "date": "2026-11-21T19:00Z",
+      "home_team": "Bowling Green Falcons",
+      "away_team": "Northern Illinois Huskies",
+      "home_abbr": "BGSU",
+      "away_abbr": "NIU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-1",
+      "away_record": "3-3",
+      "home_location": "Bowling Green",
+      "away_location": "Northern Illinois",
+      "home_rating_team": "Bowling Green",
+      "away_rating_team": "Northern Illinois",
+      "home_adj_em": -0.14,
+      "away_adj_em": -7.29,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Stroh Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 8.1,
+      "predicted_total": 156.6,
+      "home_projected_score": 82.4,
+      "away_projected_score": 74.2,
+      "home_win_prob": 77.0,
+      "away_win_prob": 23.0,
+      "confidence": 68.6,
+      "pick": "Bowling Green Falcons",
+      "pick_abbr": "BGSU",
+      "is_home_pick": true,
+      "projected_tempo": 68.0,
+      "factors": {
+        "efficiency_margin": 4.86,
+        "home_court": 3.28
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 148.5,
+        "spread_holder": "Bowling Green Falcons",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 3.6,
+      "model_vs_market": {
+        "spread_edge": 3.6,
+        "total_edge": 8.1
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401925049",
       "date": "2026-11-22T01:30Z",
       "home_team": "Texas Southern Tigers",
@@ -588,14 +588,68 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 160.5,
+        "over_under": 159.5,
         "spread_holder": "Texas Southern Tigers",
         "bookmaker": "draftkings"
       },
       "value_rating": 3.5,
       "model_vs_market": {
         "spread_edge": 3.5,
-        "total_edge": -6.5
+        "total_edge": -5.5
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401917918",
+      "date": "2026-11-21T21:00Z",
+      "home_team": "Jacksonville Dolphins",
+      "away_team": "Central Arkansas Bears",
+      "home_abbr": "JAX",
+      "away_abbr": "CARK",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "2-3",
+      "home_location": "Jacksonville",
+      "away_location": "Central Arkansas",
+      "home_rating_team": "Jacksonville",
+      "away_rating_team": "Central Arkansas",
+      "home_adj_em": -5.75,
+      "away_adj_em": -1.64,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Swisher Gymnasium",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 0.6,
+      "predicted_total": 149.7,
+      "home_projected_score": 75.2,
+      "away_projected_score": 74.6,
+      "home_win_prob": 52.2,
+      "away_win_prob": 47.8,
+      "confidence": 67.4,
+      "pick": "Jacksonville Dolphins",
+      "pick_abbr": "JAX",
+      "is_home_pick": true,
+      "projected_tempo": 68.5,
+      "factors": {
+        "efficiency_margin": -2.82,
+        "home_court": 3.42
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 145.5,
+        "spread_holder": "Central Arkansas Bears",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 3.1,
+      "model_vs_market": {
+        "spread_edge": 3.1,
+        "total_edge": 4.2
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -642,14 +696,14 @@
       },
       "market": {
         "spread": 5.5,
-        "over_under": 149.5,
+        "over_under": 148.5,
         "spread_holder": "Fordham Rams",
         "bookmaker": "fanduel"
       },
       "value_rating": 3.0,
       "model_vs_market": {
         "spread_edge": -3.0,
-        "total_edge": 0.4
+        "total_edge": 1.4
       },
       "is_best_bet": true,
       "is_tournament_game": true
@@ -763,6 +817,114 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401909517",
+      "date": "2026-11-21T23:00Z",
+      "home_team": "Georgetown Hoyas",
+      "away_team": "Coppin State Eagles",
+      "home_abbr": "GTWN",
+      "away_abbr": "COPP",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-0",
+      "away_record": "1-5",
+      "home_location": "Georgetown",
+      "away_location": "Coppin State",
+      "home_rating_team": "Georgetown",
+      "away_rating_team": "Coppin St.",
+      "home_adj_em": 15.26,
+      "away_adj_em": -18.83,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "McDonough Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 26.3,
+      "predicted_total": 146.2,
+      "home_projected_score": 86.3,
+      "away_projected_score": 60.0,
+      "home_win_prob": 99.2,
+      "away_win_prob": 0.8,
+      "confidence": 65.8,
+      "pick": "Georgetown Hoyas",
+      "pick_abbr": "GTWN",
+      "is_home_pick": true,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": 23.43,
+        "home_court": 2.86
+      },
+      "market": {
+        "spread": -31.5,
+        "over_under": 142.5,
+        "spread_holder": "Georgetown Hoyas",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 5.2,
+      "model_vs_market": {
+        "spread_edge": -5.2,
+        "total_edge": 3.7
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401921169",
+      "date": "2026-11-21T18:00Z",
+      "home_team": "Cleveland State Vikings",
+      "away_team": "Kent State Golden Flashes",
+      "home_abbr": "CLE",
+      "away_abbr": "KENT",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/325.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "1-3",
+      "home_location": "Cleveland State",
+      "away_location": "Kent State",
+      "home_rating_team": "Cleveland St.",
+      "away_rating_team": "Kent St.",
+      "home_adj_em": -10.79,
+      "away_adj_em": -3.83,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Wolstein Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -1.7,
+      "predicted_total": 150.7,
+      "home_projected_score": 74.5,
+      "away_projected_score": 76.2,
+      "home_win_prob": 44.0,
+      "away_win_prob": 56.0,
+      "confidence": 65.3,
+      "pick": "Kent State Golden Flashes",
+      "pick_abbr": "KENT",
+      "is_home_pick": false,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": -4.79,
+        "home_court": 3.12
+      },
+      "market": {
+        "spread": 4.5,
+        "over_under": 147.5,
+        "spread_holder": "Kent State Golden Flashes",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.8,
+      "model_vs_market": {
+        "spread_edge": -2.8,
+        "total_edge": 3.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401911023",
       "date": "2026-11-21T23:00Z",
       "home_team": "Massachusetts Minutemen",
@@ -817,60 +979,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401924882",
-      "date": "2026-11-21T19:00Z",
-      "home_team": "Saint Peter's Peacocks",
-      "away_team": "Stony Brook Seawolves",
-      "home_abbr": "SPU",
-      "away_abbr": "STBK",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2612.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "0-5",
-      "away_record": "2-2",
-      "home_location": "Saint Peter's",
-      "away_location": "Stony Brook",
-      "home_rating_team": "Saint Peter's",
-      "away_rating_team": "Stony Brook",
-      "home_adj_em": -13.86,
-      "away_adj_em": -6.34,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Yanitelli Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": -1.7,
-      "predicted_total": 135.5,
-      "home_projected_score": 66.9,
-      "away_projected_score": 68.6,
-      "home_win_prob": 43.8,
-      "away_win_prob": 56.2,
-      "confidence": 65.2,
-      "pick": "Stony Brook Seawolves",
-      "pick_abbr": "STBK",
-      "is_home_pick": false,
-      "projected_tempo": 66.1,
-      "factors": {
-        "efficiency_margin": -4.97,
-        "home_court": 3.26
-      },
-      "market": {
-        "spread": 4.5,
-        "over_under": 126.5,
-        "spread_holder": "Stony Brook Seawolves",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 2.8,
-      "model_vs_market": {
-        "spread_edge": -2.8,
-        "total_edge": 9.0
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401924722",
       "date": "2026-11-21T19:00Z",
       "home_team": "Morgan State Bears",
@@ -912,68 +1020,14 @@
       },
       "market": {
         "spread": 6.5,
-        "over_under": 160.5,
+        "over_under": 161.5,
         "spread_holder": "Cornell Big Red",
         "bookmaker": "draftkings"
       },
       "value_rating": 2.6,
       "model_vs_market": {
         "spread_edge": -2.6,
-        "total_edge": -6.3
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401911022",
-      "date": "2026-11-21T19:00Z",
-      "home_team": "Bowling Green Falcons",
-      "away_team": "Northern Illinois Huskies",
-      "home_abbr": "BGSU",
-      "away_abbr": "NIU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-1",
-      "away_record": "3-3",
-      "home_location": "Bowling Green",
-      "away_location": "Northern Illinois",
-      "home_rating_team": "Bowling Green",
-      "away_rating_team": "Northern Illinois",
-      "home_adj_em": -0.14,
-      "away_adj_em": -7.29,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Stroh Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 8.1,
-      "predicted_total": 156.6,
-      "home_projected_score": 82.4,
-      "away_projected_score": 74.2,
-      "home_win_prob": 77.0,
-      "away_win_prob": 23.0,
-      "confidence": 64.6,
-      "pick": "Bowling Green Falcons",
-      "pick_abbr": "BGSU",
-      "is_home_pick": true,
-      "projected_tempo": 68.0,
-      "factors": {
-        "efficiency_margin": 4.86,
-        "home_court": 3.28
-      },
-      "market": {
-        "spread": -5.5,
-        "over_under": 148.5,
-        "spread_holder": "Bowling Green Falcons",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 2.6,
-      "model_vs_market": {
-        "spread_edge": 2.6,
-        "total_edge": 8.1
+        "total_edge": -7.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1020,14 +1074,14 @@
       },
       "market": {
         "spread": 2.5,
-        "over_under": 151.5,
+        "over_under": 150.5,
         "spread_holder": "Middle Tennessee Blue Raiders",
         "bookmaker": "draftkings"
       },
       "value_rating": 2.5,
       "model_vs_market": {
         "spread_edge": 2.5,
-        "total_edge": -3.9
+        "total_edge": -2.9
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1182,14 +1236,14 @@
       },
       "market": {
         "spread": -5.5,
-        "over_under": 164.5,
+        "over_under": 165.5,
         "spread_holder": "Wofford Terriers",
         "bookmaker": "betmgm"
       },
       "value_rating": 1.9,
       "model_vs_market": {
         "spread_edge": -1.9,
-        "total_edge": -4.4
+        "total_edge": -5.4
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1236,17 +1290,71 @@
       },
       "market": {
         "spread": 5.5,
-        "over_under": 141.5,
+        "over_under": 139.5,
         "spread_holder": "UC Irvine Anteaters",
         "bookmaker": "fanduel"
       },
       "value_rating": 2.0,
       "model_vs_market": {
         "spread_edge": -2.0,
-        "total_edge": 3.5
+        "total_edge": 5.5
       },
       "is_best_bet": false,
       "is_tournament_game": true
+    },
+    {
+      "game_id": "401923312",
+      "date": "2026-11-21T18:00Z",
+      "home_team": "New Haven Chargers",
+      "away_team": "New Hampshire Wildcats",
+      "home_abbr": "NHVN",
+      "away_abbr": "UNH",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "4-2",
+      "home_location": "New Haven",
+      "away_location": "New Hampshire",
+      "home_rating_team": "New Haven",
+      "away_rating_team": "New Hampshire",
+      "home_adj_em": -15.97,
+      "away_adj_em": -10.26,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Jeffery P. Hazell Athletics Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "",
+      "predicted_spread": -0.8,
+      "predicted_total": 135.5,
+      "home_projected_score": 67.3,
+      "away_projected_score": 68.1,
+      "home_win_prob": 47.2,
+      "away_win_prob": 52.8,
+      "confidence": 61.9,
+      "pick": "New Hampshire Wildcats",
+      "pick_abbr": "UNH",
+      "is_home_pick": false,
+      "projected_tempo": 67.6,
+      "factors": {
+        "efficiency_margin": -3.86,
+        "home_court": 3.1
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 128.5,
+        "spread_holder": "New Hampshire Wildcats",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.7,
+      "model_vs_market": {
+        "spread_edge": -1.7,
+        "total_edge": 7.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
     },
     {
       "game_id": "401911394",
@@ -1406,60 +1514,6 @@
       "model_vs_market": {
         "spread_edge": 1.6,
         "total_edge": 3.3
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401921169",
-      "date": "2026-11-21T18:00Z",
-      "home_team": "Cleveland State Vikings",
-      "away_team": "Kent State Golden Flashes",
-      "home_abbr": "CLE",
-      "away_abbr": "KENT",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/325.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-3",
-      "away_record": "1-3",
-      "home_location": "Cleveland State",
-      "away_location": "Kent State",
-      "home_rating_team": "Cleveland St.",
-      "away_rating_team": "Kent St.",
-      "home_adj_em": -10.79,
-      "away_adj_em": -3.83,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Wolstein Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": -1.7,
-      "predicted_total": 150.7,
-      "home_projected_score": 74.5,
-      "away_projected_score": 76.2,
-      "home_win_prob": 44.0,
-      "away_win_prob": 56.0,
-      "confidence": 61.3,
-      "pick": "Kent State Golden Flashes",
-      "pick_abbr": "KENT",
-      "is_home_pick": false,
-      "projected_tempo": 68.7,
-      "factors": {
-        "efficiency_margin": -4.79,
-        "home_court": 3.12
-      },
-      "market": {
-        "spread": 3.5,
-        "over_under": 149.5,
-        "spread_holder": "Kent State Golden Flashes",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 1.8,
-      "model_vs_market": {
-        "spread_edge": -1.8,
-        "total_edge": 1.2
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1776,16 +1830,70 @@
       },
       "market": {
         "spread": 6.5,
-        "over_under": 153.5,
+        "over_under": 154.5,
         "spread_holder": "Siena Saints",
         "bookmaker": "fanduel"
       },
       "value_rating": 1.0,
       "model_vs_market": {
         "spread_edge": -1.0,
-        "total_edge": -1.2
+        "total_edge": -2.2
       },
       "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401909719",
+      "date": "2026-11-21T19:00Z",
+      "home_team": "Syracuse Orange",
+      "away_team": "Lafayette Leopards",
+      "home_abbr": "SYR",
+      "away_abbr": "LAF",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/322.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "3-3",
+      "home_location": "Syracuse",
+      "away_location": "Lafayette",
+      "home_rating_team": "Syracuse",
+      "away_rating_team": "Lafayette",
+      "home_adj_em": 12.56,
+      "away_adj_em": -14.25,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "JMA Wireless Dome",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACCNX",
+      "predicted_spread": 22.0,
+      "predicted_total": 144.1,
+      "home_projected_score": 83.1,
+      "away_projected_score": 61.0,
+      "home_win_prob": 97.7,
+      "away_win_prob": 2.3,
+      "confidence": 58.8,
+      "pick": "Syracuse Orange",
+      "pick_abbr": "SYR",
+      "is_home_pick": true,
+      "projected_tempo": 69.0,
+      "factors": {
+        "efficiency_margin": 18.51,
+        "home_court": 3.53
+      },
+      "market": {
+        "spread": -25.5,
+        "over_under": 143.5,
+        "spread_holder": "Syracuse Orange",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 3.5,
+      "model_vs_market": {
+        "spread_edge": -3.5,
+        "total_edge": 0.6
+      },
+      "is_best_bet": true,
       "is_tournament_game": false
     },
     {
@@ -1830,14 +1938,14 @@
       },
       "market": {
         "spread": 7.5,
-        "over_under": 149.5,
+        "over_under": 148.5,
         "spread_holder": "Northeastern Huskies",
         "bookmaker": "betmgm"
       },
       "value_rating": 0.9,
       "model_vs_market": {
         "spread_edge": -0.9,
-        "total_edge": 2.1
+        "total_edge": 3.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1951,60 +2059,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401923312",
-      "date": "2026-11-21T18:00Z",
-      "home_team": "New Haven Chargers",
-      "away_team": "New Hampshire Wildcats",
-      "home_abbr": "NHVN",
-      "away_abbr": "UNH",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-3",
-      "away_record": "4-2",
-      "home_location": "New Haven",
-      "away_location": "New Hampshire",
-      "home_rating_team": "New Haven",
-      "away_rating_team": "New Hampshire",
-      "home_adj_em": -15.97,
-      "away_adj_em": -10.26,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Jeffery P. Hazell Athletics Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "",
-      "predicted_spread": -0.8,
-      "predicted_total": 135.5,
-      "home_projected_score": 67.3,
-      "away_projected_score": 68.1,
-      "home_win_prob": 47.2,
-      "away_win_prob": 52.8,
-      "confidence": 57.9,
-      "pick": "New Hampshire Wildcats",
-      "pick_abbr": "UNH",
-      "is_home_pick": false,
-      "projected_tempo": 67.6,
-      "factors": {
-        "efficiency_margin": -3.86,
-        "home_court": 3.1
-      },
-      "market": {
-        "spread": 1.5,
-        "over_under": 126.5,
-        "spread_holder": "New Hampshire Wildcats",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 0.7,
-      "model_vs_market": {
-        "spread_edge": -0.7,
-        "total_edge": 9.0
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401911378",
       "date": "2026-11-22T00:00Z",
       "home_team": "Mercer Bears",
@@ -2057,6 +2111,60 @@
       },
       "is_best_bet": false,
       "is_tournament_game": false
+    },
+    {
+      "game_id": "401920570",
+      "date": "2026-11-21T22:30Z",
+      "home_team": "East Carolina Pirates",
+      "away_team": "Southern Illinois Salukis",
+      "home_abbr": "ECU",
+      "away_abbr": "SIU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "2-3",
+      "home_location": "East Carolina",
+      "away_location": "Southern Illinois",
+      "home_rating_team": "East Carolina",
+      "away_rating_team": "Southern Illinois",
+      "home_adj_em": -0.4,
+      "away_adj_em": -3.65,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Elridge Blake Sports and Fitness Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 2.3,
+      "predicted_total": 145.1,
+      "home_projected_score": 73.7,
+      "away_projected_score": 71.4,
+      "home_win_prob": 58.3,
+      "away_win_prob": 41.7,
+      "confidence": 57.2,
+      "pick": "East Carolina Pirates",
+      "pick_abbr": "ECU",
+      "is_home_pick": true,
+      "projected_tempo": 70.7,
+      "factors": {
+        "efficiency_margin": 2.3,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 153.5,
+        "spread_holder": "East Carolina Pirates",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.8,
+      "model_vs_market": {
+        "spread_edge": 0.8,
+        "total_edge": -8.4
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
     },
     {
       "game_id": "401927365",
@@ -2208,14 +2316,14 @@
       },
       "market": {
         "spread": 5.5,
-        "over_under": 136.5,
+        "over_under": 135.5,
         "spread_holder": "Navy Midshipmen",
         "bookmaker": "draftkings"
       },
       "value_rating": 0.2,
       "model_vs_market": {
         "spread_edge": -0.2,
-        "total_edge": 1.5
+        "total_edge": 2.5
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2316,14 +2424,14 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 133.5,
+        "over_under": 130.5,
         "spread_holder": "MERC -6.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.2,
       "model_vs_market": {
         "spread_edge": -0.2,
-        "total_edge": 6.2
+        "total_edge": 9.2
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -2370,14 +2478,14 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 173.5,
+        "over_under": 172.5,
         "spread_holder": "UTSA Roadrunners",
         "bookmaker": "draftkings"
       },
       "value_rating": 0.1,
       "model_vs_market": {
         "spread_edge": -0.1,
-        "total_edge": -8.1
+        "total_edge": -7.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2432,60 +2540,6 @@
       "model_vs_market": {
         "spread_edge": -0.1,
         "total_edge": 8.3
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401909719",
-      "date": "2026-11-21T19:00Z",
-      "home_team": "Syracuse Orange",
-      "away_team": "Lafayette Leopards",
-      "home_abbr": "SYR",
-      "away_abbr": "LAF",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/322.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-2",
-      "away_record": "3-3",
-      "home_location": "Syracuse",
-      "away_location": "Lafayette",
-      "home_rating_team": "Syracuse",
-      "away_rating_team": "Lafayette",
-      "home_adj_em": 12.56,
-      "away_adj_em": -14.25,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "JMA Wireless Dome",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ACCNX",
-      "predicted_spread": 22.0,
-      "predicted_total": 144.1,
-      "home_projected_score": 83.1,
-      "away_projected_score": 61.0,
-      "home_win_prob": 97.7,
-      "away_win_prob": 2.3,
-      "confidence": 54.8,
-      "pick": "Syracuse Orange",
-      "pick_abbr": "SYR",
-      "is_home_pick": true,
-      "projected_tempo": 69.0,
-      "factors": {
-        "efficiency_margin": 18.51,
-        "home_court": 3.53
-      },
-      "market": {
-        "spread": -24.5,
-        "over_under": 142.5,
-        "spread_holder": "Syracuse Orange",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 2.5,
-      "model_vs_market": {
-        "spread_edge": -2.5,
-        "total_edge": 1.6
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2586,14 +2640,14 @@
       },
       "market": {
         "spread": 13.5,
-        "over_under": 149.5,
+        "over_under": 152.5,
         "spread_holder": "UNC Wilmington Seahawks",
         "bookmaker": "betmgm"
       },
       "value_rating": 0.9,
       "model_vs_market": {
         "spread_edge": -0.9,
-        "total_edge": 2.3
+        "total_edge": -0.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2708,15 +2762,15 @@
     }
   ],
   "summary": {
-    "total_games": 50,
-    "high_confidence": 7,
-    "medium_confidence": 43,
+    "total_games": 51,
+    "high_confidence": 6,
+    "medium_confidence": 45,
     "low_confidence": 0,
-    "avg_confidence": 62.1,
-    "value_plays": 15,
-    "best_bets": 11,
-    "with_market_line": 49,
-    "tournament_games": 8
+    "avg_confidence": 62.3,
+    "value_plays": 18,
+    "best_bets": 15,
+    "with_market_line": 50,
+    "tournament_games": 9
   },
   "early": true
 }
