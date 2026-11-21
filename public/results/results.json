@@ -98631,31 +98631,324 @@
       "ou_result": "O",
       "model_ou_call": "U",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401928795",
+      "date": "2026-11-21T02:00Z",
+      "home_team": "Boise State Broncos",
+      "away_team": "Sam Houston Bearkats",
+      "home_abbr": "BOIS",
+      "away_abbr": "SHSU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-1",
+      "away_record": "2-3",
+      "home_location": "Boise State",
+      "away_location": "Sam Houston",
+      "home_rating_team": "Boise St.",
+      "away_rating_team": "Sam Houston St.",
+      "home_adj_em": 10.14,
+      "away_adj_em": 1.35,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "ExtraMile Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "YouTube",
+      "predicted_spread": 10.5,
+      "predicted_total": 154.3,
+      "home_projected_score": 82.4,
+      "away_projected_score": 71.9,
+      "home_win_prob": 83.1,
+      "away_win_prob": 16.9,
+      "confidence": 52.9,
+      "pick": "Boise State Broncos",
+      "pick_abbr": "BOIS",
+      "is_home_pick": true,
+      "projected_tempo": 71.3,
+      "factors": {
+        "efficiency_margin": 6.26,
+        "home_court": 4.26
+      },
+      "market": {
+        "spread": -11.5,
+        "over_under": 168.5,
+        "spread_holder": "Boise State Broncos",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": -1.0,
+        "total_edge": -14.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -12.5,
+        "over_under": 168.5,
+        "spread_holder": "Boise State Broncos",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-20T20:10:13.151461-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 11.5,
+      "clv": -1.0,
+      "actual_home_score": 69,
+      "actual_away_score": 83,
+      "actual_margin": -14,
+      "actual_total": 152,
+      "actual_winner": "Sam Houston Bearkats",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401921691",
+      "date": "2026-11-21T02:30Z",
+      "home_team": "NC State Wolfpack",
+      "away_team": "Seton Hall Pirates",
+      "home_abbr": "NCSU",
+      "away_abbr": "HALL",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-0",
+      "away_record": "4-1",
+      "home_location": "NC State",
+      "away_location": "Seton Hall",
+      "home_rating_team": "N.C. State",
+      "away_rating_team": "Seton Hall",
+      "home_adj_em": 19.89,
+      "away_adj_em": 12.72,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Baha Mar Convention Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "CBSSN",
+      "predicted_spread": 4.9,
+      "predicted_total": 148.5,
+      "home_projected_score": 76.7,
+      "away_projected_score": 71.8,
+      "home_win_prob": 67.2,
+      "away_win_prob": 32.8,
+      "confidence": 60.6,
+      "pick": "NC State Wolfpack",
+      "pick_abbr": "NCSU",
+      "is_home_pick": true,
+      "projected_tempo": 68.4,
+      "factors": {
+        "efficiency_margin": 4.91,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 140.5,
+        "spread_holder": "NCSU -3.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 1.4,
+      "model_vs_market": {
+        "spread_edge": 1.4,
+        "total_edge": 8.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 3.5,
+      "clv": null,
+      "actual_home_score": 81,
+      "actual_away_score": 87,
+      "actual_margin": -6,
+      "actual_total": 168,
+      "actual_winner": "Seton Hall Pirates",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401925664",
+      "date": "2026-11-21T03:00Z",
+      "home_team": "Fresno State Bulldogs",
+      "away_team": "Alabama State Hornets",
+      "home_abbr": "FRES",
+      "away_abbr": "ALST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "2-3",
+      "home_location": "Fresno State",
+      "away_location": "Alabama State",
+      "home_rating_team": "Fresno St.",
+      "away_rating_team": "Alabama St.",
+      "home_adj_em": -1.84,
+      "away_adj_em": -6.46,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Save Mart Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "YouTube",
+      "predicted_spread": 6.5,
+      "predicted_total": 150.7,
+      "home_projected_score": 78.6,
+      "away_projected_score": 72.1,
+      "home_win_prob": 72.4,
+      "away_win_prob": 27.6,
+      "confidence": 70.8,
+      "pick": "Fresno State Bulldogs",
+      "pick_abbr": "FRES",
+      "is_home_pick": true,
+      "projected_tempo": 69.7,
+      "factors": {
+        "efficiency_margin": 3.22,
+        "home_court": 3.33
+      },
+      "market": {
+        "spread": -10.5,
+        "over_under": 148.5,
+        "spread_holder": "Fresno St Bulldogs",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 4.0,
+      "model_vs_market": {
+        "spread_edge": -4.0,
+        "total_edge": 2.2
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -10.5,
+        "over_under": 146.5,
+        "spread_holder": "Fresno St Bulldogs",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-20T21:53:58.628984-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 10.5,
+      "clv": 0.0,
+      "actual_home_score": 80,
+      "actual_away_score": 68,
+      "actual_margin": 12,
+      "actual_total": 148,
+      "actual_winner": "Fresno State Bulldogs",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401911252",
+      "date": "2026-11-21T04:00Z",
+      "home_team": "Saint Mary's Gaels",
+      "away_team": "Saint Louis Billikens",
+      "home_abbr": "SMC",
+      "away_abbr": "SLU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "3-1",
+      "home_location": "Saint Mary's",
+      "away_location": "Saint Louis",
+      "home_rating_team": "Saint Mary's",
+      "away_rating_team": "Saint Louis",
+      "home_adj_em": 14.24,
+      "away_adj_em": 14.8,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "University Credit Union Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 3.6,
+      "predicted_total": 156.5,
+      "home_projected_score": 80.1,
+      "away_projected_score": 76.4,
+      "home_win_prob": 63.0,
+      "away_win_prob": 37.0,
+      "confidence": 62.6,
+      "pick": "Saint Mary's Gaels",
+      "pick_abbr": "SMC",
+      "is_home_pick": true,
+      "projected_tempo": 71.3,
+      "factors": {
+        "efficiency_margin": -0.4,
+        "home_court": 4.05
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 159.5,
+        "spread_holder": "Saint Mary's Gaels",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 2.1,
+      "model_vs_market": {
+        "spread_edge": 2.1,
+        "total_edge": -3.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 162.5,
+        "spread_holder": "Saint Mary's Gaels",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-20T21:53:58.628984-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 1.5,
+      "clv": 0.0,
+      "actual_home_score": 95,
+      "actual_away_score": 78,
+      "actual_margin": 17,
+      "actual_total": 173,
+      "actual_winner": "Saint Mary's Gaels",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 700,
-      "model_mae": 9.93,
-      "market_mae": 9.51,
-      "intercept": -0.85,
-      "model_weight": 0.108,
-      "market_weight": 0.926,
+      "n": 704,
+      "model_mae": 9.95,
+      "market_mae": 9.53,
+      "intercept": -0.86,
+      "model_weight": 0.106,
+      "market_weight": 0.927,
       "ats_by_edge": {
         "0-2": {
-          "w": 129,
-          "l": 79,
-          "pct": 62.0
+          "w": 130,
+          "l": 80,
+          "pct": 61.9
         },
         "2-4": {
-          "w": 105,
+          "w": 106,
           "l": 91,
-          "pct": 53.6
+          "pct": 53.8
         },
         "4-7": {
           "w": 74,
-          "l": 69,
-          "pct": 51.7
+          "l": 70,
+          "pct": 51.4
         },
         "7+": {
           "w": 35,
@@ -98665,61 +98958,61 @@
       }
     },
     "clv": {
-      "n": 472,
+      "n": 475,
       "avg": 0.3,
-      "beat_close_pct": 38.3,
+      "beat_close_pct": 38.1,
       "beat_or_matched_pct": 77.5
     },
     "clv_by_confidence": {
       "high": {
-        "n": 33,
+        "n": 34,
         "avg": 0.24,
-        "beat_close_pct": 36.4,
-        "beat_or_matched_pct": 81.8
+        "beat_close_pct": 35.3,
+        "beat_or_matched_pct": 82.4
       },
       "medium": {
-        "n": 439,
-        "avg": 0.31,
-        "beat_close_pct": 38.5,
-        "beat_or_matched_pct": 77.2
+        "n": 441,
+        "avg": 0.3,
+        "beat_close_pct": 38.3,
+        "beat_or_matched_pct": 77.1
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 702,
-    "ats_graded": 616,
+    "total_graded": 706,
+    "ats_graded": 620,
     "ats": {
-      "w": 343,
-      "l": 273,
+      "w": 345,
+      "l": 275,
       "p": 0,
-      "pct": 55.7
+      "pct": 55.6
     },
     "su": {
-      "correct": 549,
-      "total": 702,
-      "pct": 78.2
+      "correct": 551,
+      "total": 706,
+      "pct": 78.0
     },
     "ou": {
-      "over": 337,
-      "under": 363,
+      "over": 339,
+      "under": 365,
       "push": 0,
-      "model_correct": 356,
-      "model_gradeable": 700,
+      "model_correct": 358,
+      "model_gradeable": 704,
       "model_pct": 50.9
     },
     "by_confidence": {
       "high": {
         "w": 22,
-        "l": 25,
+        "l": 26,
         "p": 0,
-        "pct": 46.8
+        "pct": 45.8
       },
       "medium": {
-        "w": 321,
-        "l": 248,
+        "w": 323,
+        "l": 249,
         "p": 0,
-        "pct": 56.4
+        "pct": 56.5
       },
       "low": {
         "w": 0,
@@ -98730,41 +99023,41 @@
     },
     "value_plays": {
       "w": 149,
-      "l": 136,
+      "l": 137,
       "p": 0,
-      "pct": 52.3
+      "pct": 52.1
     },
     "best_bets": {
       "w": 88,
-      "l": 87,
+      "l": 88,
       "p": 0,
-      "pct": 50.3
+      "pct": 50.0
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1408,
-        "model_mae": 10.41,
-        "market_mae": 9.22,
-        "intercept": -0.05,
+        "n": 1412,
+        "model_mae": 10.42,
+        "market_mae": 9.23,
+        "intercept": -0.06,
         "model_weight": -0.005,
-        "market_weight": 0.989,
+        "market_weight": 0.988,
         "ats_by_edge": {
           "0-2": {
-            "w": 243,
-            "l": 201,
+            "w": 244,
+            "l": 202,
             "pct": 54.7
           },
           "2-4": {
-            "w": 200,
+            "w": 201,
             "l": 171,
-            "pct": 53.9
+            "pct": 54.0
           },
           "4-7": {
             "w": 112,
-            "l": 103,
-            "pct": 52.1
+            "l": 104,
+            "pct": 51.9
           },
           "7+": {
             "w": 96,
@@ -98774,61 +99067,61 @@
         }
       },
       "clv": {
-        "n": 472,
+        "n": 475,
         "avg": 0.3,
-        "beat_close_pct": 38.3,
+        "beat_close_pct": 38.1,
         "beat_or_matched_pct": 77.5
       },
       "clv_by_confidence": {
         "high": {
-          "n": 33,
+          "n": 34,
           "avg": 0.24,
-          "beat_close_pct": 36.4,
-          "beat_or_matched_pct": 81.8
+          "beat_close_pct": 35.3,
+          "beat_or_matched_pct": 82.4
         },
         "medium": {
-          "n": 439,
-          "avg": 0.31,
-          "beat_close_pct": 38.5,
-          "beat_or_matched_pct": 77.2
+          "n": 441,
+          "avg": 0.3,
+          "beat_close_pct": 38.3,
+          "beat_or_matched_pct": 77.1
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1420,
-      "ats_graded": 1222,
+      "total_graded": 1424,
+      "ats_graded": 1226,
       "ats": {
-        "w": 651,
-        "l": 571,
+        "w": 653,
+        "l": 573,
         "p": 0,
         "pct": 53.3
       },
       "su": {
-        "correct": 1017,
-        "total": 1420,
+        "correct": 1019,
+        "total": 1424,
         "pct": 71.6
       },
       "ou": {
-        "over": 687,
-        "under": 721,
+        "over": 689,
+        "under": 723,
         "push": 0,
-        "model_correct": 713,
-        "model_gradeable": 1408,
+        "model_correct": 715,
+        "model_gradeable": 1412,
         "model_pct": 50.6
       },
       "by_confidence": {
         "high": {
           "w": 122,
-          "l": 130,
+          "l": 131,
           "p": 0,
-          "pct": 48.4
+          "pct": 48.2
         },
         "medium": {
-          "w": 488,
-          "l": 394,
+          "w": 490,
+          "l": 395,
           "p": 0,
-          "pct": 55.3
+          "pct": 55.4
         },
         "low": {
           "w": 41,
@@ -98839,17 +99132,17 @@
       },
       "value_plays": {
         "w": 294,
-        "l": 266,
+        "l": 267,
         "p": 0,
-        "pct": 52.5
+        "pct": 52.4
       },
       "best_bets": {
         "w": 125,
-        "l": 118,
+        "l": 119,
         "p": 0,
-        "pct": 51.4
+        "pct": 51.2
       }
     }
   },
-  "generated_at": "2026-11-20T23:12:35.295288-05:00"
+  "generated_at": "2026-11-21T02:39:58.743770-05:00"
 }
