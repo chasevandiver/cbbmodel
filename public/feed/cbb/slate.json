@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-21T06:41:22.434474-05:00",
+ "generated_at": "2026-11-21T12:57:30.260287-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-21",
@@ -28,14 +28,14 @@
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
-    "record": "3-2",
+    "record": "4-2",
     "rank": null
    },
    "away": {
     "name": "South Carolina Upstate Spartans",
     "abbr": "UPST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
-    "record": "1-5",
+    "record": "1-6",
     "rank": null
    },
    "venue": "Bodford Arena",
@@ -1265,7 +1265,7 @@
     "home_score": 74.7,
     "away_score": 67.0,
     "home_win_prob": 75.9,
-    "confidence": 45.0,
+    "confidence": 63.9,
     "tempo": 67.3,
     "confidence_tier": "medium",
     "pick": {
@@ -1274,17 +1274,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -5.5,
+    "total": 143.5,
+    "favorite": "Austin Peay Governors",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 2.2,
+    "total": -1.9,
+    "value_rating": 2.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": 5.5
    },
    "result": null,
    "tags": []
@@ -2120,7 +2126,7 @@
    "venue": "Pensacola Bay Center",
    "neutral_site": true,
    "conference_game": false,
-   "broadcast": "",
+   "broadcast": "YouTube",
    "model": {
     "version": "4.1.0",
     "spread_home": 2.1,
