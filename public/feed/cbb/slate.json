@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-21T14:09:02.199554-05:00",
+ "generated_at": "2026-11-21T15:03:30.019465-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-21",
@@ -44,13 +44,13 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": -6.0,
-    "total": 146.5,
-    "home_score": 76.2,
-    "away_score": 70.3,
-    "home_win_prob": 70.6,
+    "spread_home": -8.0,
+    "total": 147.0,
+    "home_score": 77.5,
+    "away_score": 69.5,
+    "home_win_prob": 76.8,
     "confidence": 61.2,
-    "tempo": 69.2,
+    "tempo": 68.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "UNC Greensboro Spartans",
@@ -67,13 +67,13 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.5,
-    "total": 0.0,
+    "spread": 0.5,
+    "total": 0.5,
     "value_rating": 1.5,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
+    "side": "none",
     "cover_line": 7.5
    },
    "result": null,
@@ -110,13 +110,13 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": 5.6,
-    "total": 152.9,
-    "home_score": 73.6,
-    "away_score": 79.3,
-    "home_win_prob": 30.5,
+    "spread_home": 5.5,
+    "total": 154.9,
+    "home_score": 74.7,
+    "away_score": 80.2,
+    "home_win_prob": 30.7,
     "confidence": 58.5,
-    "tempo": 73.2,
+    "tempo": 73.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Siena Saints",
@@ -133,8 +133,8 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.9,
-    "total": -1.6,
+    "spread": 1.0,
+    "total": 0.4,
     "value_rating": 0.9,
     "is_best_bet": false
    },
@@ -160,14 +160,14 @@
     "name": "Boston University Terriers",
     "abbr": "BU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/104.png",
-    "record": "5-1",
+    "record": "5-2",
     "rank": null
    },
    "away": {
     "name": "Columbia Lions",
     "abbr": "COLU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
-    "record": "4-1",
+    "record": "5-1",
     "rank": null
    },
    "venue": "Case Gym",
@@ -176,13 +176,13 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": 1.0,
-    "total": 146.7,
-    "home_score": 72.8,
-    "away_score": 73.8,
-    "home_win_prob": 46.3,
+    "spread_home": 1.7,
+    "total": 144.8,
+    "home_score": 71.5,
+    "away_score": 73.3,
+    "home_win_prob": 43.7,
     "confidence": 56.9,
-    "tempo": 67.5,
+    "tempo": 68.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Columbia Lions",
@@ -199,8 +199,8 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.5,
-    "total": 4.2,
+    "spread": -0.2,
+    "total": 2.3,
     "value_rating": 0.5,
     "is_best_bet": false
    },
@@ -242,11 +242,11 @@
    "broadcast": "BTN",
    "model": {
     "version": "4.1.0",
-    "spread_home": -30.3,
-    "total": 152.2,
-    "home_score": 91.2,
-    "away_score": 60.9,
-    "home_win_prob": 99.7,
+    "spread_home": -29.5,
+    "total": 152.6,
+    "home_score": 91.0,
+    "away_score": 61.5,
+    "home_win_prob": 99.6,
     "confidence": 48.0,
     "tempo": 69.4,
     "confidence_tier": "medium",
@@ -265,8 +265,8 @@
    },
    "closing": null,
    "edge": {
-    "spread": -11.2,
-    "total": 1.7,
+    "spread": -12.0,
+    "total": 2.1,
     "value_rating": 11.2,
     "is_best_bet": false
    },
@@ -310,9 +310,9 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": -9.3,
-    "total": 146.1,
-    "home_score": 77.7,
+    "spread_home": -9.4,
+    "total": 146.2,
+    "home_score": 77.8,
     "away_score": 68.4,
     "home_win_prob": 80.2,
     "confidence": 61.3,
@@ -333,8 +333,8 @@
    },
    "closing": null,
    "edge": {
-    "spread": 1.8,
-    "total": 7.6,
+    "spread": 1.9,
+    "total": 7.7,
     "value_rating": 1.8,
     "is_best_bet": false
    },
@@ -377,9 +377,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 1.6,
-    "total": 151.0,
-    "home_score": 74.7,
-    "away_score": 76.3,
+    "total": 151.1,
+    "home_score": 74.8,
+    "away_score": 76.4,
     "home_win_prob": 44.3,
     "confidence": 61.7,
     "tempo": 68.7,
@@ -400,7 +400,7 @@
    "closing": null,
    "edge": {
     "spread": 1.9,
-    "total": 3.5,
+    "total": 3.6,
     "value_rating": 1.9,
     "is_best_bet": false
    },
@@ -426,14 +426,14 @@
     "name": "LSU Tigers",
     "abbr": "LSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-    "record": "5-0",
+    "record": "6-0",
     "rank": 25
    },
    "away": {
     "name": "Queens University Royals",
     "abbr": "QUC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2511.png",
-    "record": "3-2",
+    "record": "3-3",
     "rank": null
    },
    "venue": "Pete Maravich Assembly Center",
@@ -443,10 +443,10 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -19.2,
-    "total": 164.4,
-    "home_score": 91.8,
-    "away_score": 72.6,
-    "home_win_prob": 95.9,
+    "total": 164.5,
+    "home_score": 91.9,
+    "away_score": 72.7,
+    "home_win_prob": 96.0,
     "confidence": 69.0,
     "tempo": 71.9,
     "confidence_tier": "medium",
@@ -466,7 +466,7 @@
    "closing": null,
    "edge": {
     "spread": -7.3,
-    "total": -8.1,
+    "total": -8.0,
     "value_rating": 7.3,
     "is_best_bet": false
    },
@@ -494,14 +494,14 @@
     "name": "New Haven Chargers",
     "abbr": "NHVN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
-    "record": "2-3",
+    "record": "3-3",
     "rank": null
    },
    "away": {
     "name": "New Hampshire Wildcats",
     "abbr": "UNH",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
-    "record": "4-2",
+    "record": "4-3",
     "rank": null
    },
    "venue": "Jeffery P. Hazell Athletics Center",
@@ -511,8 +511,8 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 0.8,
-    "total": 135.6,
-    "home_score": 67.4,
+    "total": 135.7,
+    "home_score": 67.5,
     "away_score": 68.2,
     "home_win_prob": 47.2,
     "confidence": 61.9,
@@ -534,7 +534,7 @@
    "closing": null,
    "edge": {
     "spread": 1.7,
-    "total": 5.1,
+    "total": 5.2,
     "value_rating": 1.7,
     "is_best_bet": false
    },
@@ -577,9 +577,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -5.2,
-    "total": 135.6,
-    "home_score": 70.4,
-    "away_score": 65.2,
+    "total": 135.7,
+    "home_score": 70.5,
+    "away_score": 65.3,
     "home_win_prob": 68.2,
     "confidence": 61.2,
     "tempo": 67.3,
@@ -600,7 +600,7 @@
    "closing": null,
    "edge": {
     "spread": -1.3,
-    "total": 5.1,
+    "total": 5.2,
     "value_rating": 1.3,
     "is_best_bet": false
    },
@@ -645,12 +645,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -22.1,
-    "total": 144.2,
+    "total": 144.3,
     "home_score": 83.2,
     "away_score": 61.1,
     "home_win_prob": 97.8,
     "confidence": 58.6,
-    "tempo": 68.9,
+    "tempo": 69.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Syracuse Orange",
@@ -668,7 +668,7 @@
    "closing": null,
    "edge": {
     "spread": -3.4,
-    "total": 0.7,
+    "total": 0.8,
     "value_rating": 3.4,
     "is_best_bet": true
    },
@@ -714,12 +714,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -12.1,
-    "total": 148.3,
+    "total": 148.4,
     "home_score": 80.2,
     "away_score": 68.1,
     "home_win_prob": 86.5,
     "confidence": 63.5,
-    "tempo": 68.6,
+    "tempo": 68.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Wake Forest Demon Deacons",
@@ -737,7 +737,7 @@
    "closing": null,
    "edge": {
     "spread": -3.4,
-    "total": 0.8,
+    "total": 0.9,
     "value_rating": 3.4,
     "is_best_bet": true
    },
@@ -783,9 +783,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -8.1,
-    "total": 157.1,
-    "home_score": 82.6,
-    "away_score": 74.5,
+    "total": 157.2,
+    "home_score": 82.7,
+    "away_score": 74.6,
     "home_win_prob": 76.8,
     "confidence": 68.2,
     "tempo": 67.9,
@@ -806,7 +806,7 @@
    "closing": null,
    "edge": {
     "spread": 3.6,
-    "total": 8.6,
+    "total": 8.7,
     "value_rating": 3.6,
     "is_best_bet": true
    },
@@ -852,12 +852,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 2.5,
-    "total": 150.3,
-    "home_score": 73.9,
+    "total": 150.4,
+    "home_score": 74.0,
     "away_score": 76.4,
     "home_win_prob": 41.1,
     "confidence": 67.1,
-    "tempo": 69.4,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Fordham Rams",
@@ -875,7 +875,7 @@
    "closing": null,
    "edge": {
     "spread": 3.0,
-    "total": 1.8,
+    "total": 1.9,
     "value_rating": 3.0,
     "is_best_bet": true
    },
@@ -922,9 +922,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -2.5,
-    "total": 152.3,
+    "total": 152.4,
     "home_score": 77.4,
-    "away_score": 74.9,
+    "away_score": 75.0,
     "home_win_prob": 58.8,
     "confidence": 73.8,
     "tempo": 70.7,
@@ -945,7 +945,7 @@
    "closing": null,
    "edge": {
     "spread": 5.0,
-    "total": -7.2,
+    "total": -7.1,
     "value_rating": 5.0,
     "is_best_bet": true
    },
@@ -992,12 +992,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 5.1,
-    "total": 137.9,
-    "home_score": 66.4,
-    "away_score": 71.5,
+    "total": 138.0,
+    "home_score": 66.5,
+    "away_score": 71.6,
     "home_win_prob": 32.0,
     "confidence": 57.4,
-    "tempo": 68.4,
+    "tempo": 68.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Navy Midshipmen",
@@ -1015,7 +1015,7 @@
    "closing": null,
    "edge": {
     "spread": 0.4,
-    "total": 2.4,
+    "total": 2.5,
     "value_rating": 0.4,
     "is_best_bet": false
    },
@@ -1058,9 +1058,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 1.5,
-    "total": 157.5,
-    "home_score": 78.0,
-    "away_score": 79.5,
+    "total": 157.7,
+    "home_score": 78.1,
+    "away_score": 79.6,
     "home_win_prob": 44.6,
     "confidence": 67.0,
     "tempo": 71.6,
@@ -1081,7 +1081,7 @@
    "closing": null,
    "edge": {
     "spread": 3.0,
-    "total": -2.0,
+    "total": -1.8,
     "value_rating": 3.0,
     "is_best_bet": false
    },
@@ -1126,12 +1126,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 3.9,
-    "total": 154.3,
-    "home_score": 75.2,
-    "away_score": 79.1,
+    "total": 154.4,
+    "home_score": 75.3,
+    "away_score": 79.2,
     "home_win_prob": 36.0,
     "confidence": 65.3,
-    "tempo": 71.6,
+    "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Cornell Big Red",
@@ -1149,7 +1149,7 @@
    "closing": null,
    "edge": {
     "spread": 2.6,
-    "total": -7.2,
+    "total": -7.1,
     "value_rating": 2.6,
     "is_best_bet": false
    },
@@ -1192,7 +1192,7 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 1.6,
-    "total": 135.8,
+    "total": 135.9,
     "home_score": 67.1,
     "away_score": 68.7,
     "home_win_prob": 44.1,
@@ -1215,7 +1215,7 @@
    "closing": null,
    "edge": {
     "spread": 3.9,
-    "total": 10.3,
+    "total": 10.4,
     "value_rating": 3.9,
     "is_best_bet": true
    },
@@ -1261,7 +1261,7 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -7.7,
-    "total": 141.6,
+    "total": 141.7,
     "home_score": 74.7,
     "away_score": 67.0,
     "home_win_prob": 75.9,
@@ -1284,7 +1284,7 @@
    "closing": null,
    "edge": {
     "spread": 2.2,
-    "total": -1.9,
+    "total": -1.8,
     "value_rating": 2.2,
     "is_best_bet": false
    },
@@ -1327,12 +1327,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 4.5,
-    "total": 149.2,
+    "total": 149.3,
     "home_score": 72.4,
-    "away_score": 76.8,
+    "away_score": 76.9,
     "home_win_prob": 34.3,
     "confidence": 62.8,
-    "tempo": 69.5,
+    "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Middle Tennessee Blue Raiders",
@@ -1350,7 +1350,7 @@
    "closing": null,
    "edge": {
     "spread": -2.0,
-    "total": -1.3,
+    "total": -1.2,
     "value_rating": 2.0,
     "is_best_bet": false
    },
@@ -1395,7 +1395,7 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 0.5,
-    "total": 152.5,
+    "total": 152.6,
     "home_score": 76.0,
     "away_score": 76.5,
     "home_win_prob": 48.3,
@@ -1418,7 +1418,7 @@
    "closing": null,
    "edge": {
     "spread": 1.0,
-    "total": 0.0,
+    "total": 0.1,
     "value_rating": 1.0,
     "is_best_bet": false
    },
@@ -1461,12 +1461,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 2.7,
-    "total": 146.7,
+    "total": 146.8,
     "home_score": 72.0,
-    "away_score": 74.7,
+    "away_score": 74.8,
     "home_win_prob": 40.2,
     "confidence": 57.1,
-    "tempo": 68.4,
+    "tempo": 68.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Drake Bulldogs",
@@ -1484,7 +1484,7 @@
    "closing": null,
    "edge": {
     "spread": 0.8,
-    "total": 2.2,
+    "total": 2.3,
     "value_rating": 0.8,
     "is_best_bet": false
    },
@@ -1527,9 +1527,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -4.2,
-    "total": 145.6,
-    "home_score": 74.9,
-    "away_score": 70.7,
+    "total": 145.7,
+    "home_score": 75.0,
+    "away_score": 70.8,
     "home_win_prob": 64.8,
     "confidence": 77.7,
     "tempo": 66.6,
@@ -1550,7 +1550,7 @@
    "closing": null,
    "edge": {
     "spread": 5.7,
-    "total": 8.1,
+    "total": 8.2,
     "value_rating": 5.7,
     "is_best_bet": true
    },
@@ -1597,9 +1597,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -0.7,
-    "total": 150.1,
+    "total": 150.2,
     "home_score": 75.4,
-    "away_score": 74.7,
+    "away_score": 74.8,
     "home_win_prob": 52.5,
     "confidence": 67.7,
     "tempo": 68.5,
@@ -1620,7 +1620,7 @@
    "closing": null,
    "edge": {
     "spread": 3.2,
-    "total": 4.6,
+    "total": 4.7,
     "value_rating": 3.2,
     "is_best_bet": true
    },
@@ -1666,9 +1666,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -5.2,
-    "total": 150.1,
-    "home_score": 77.6,
-    "away_score": 72.4,
+    "total": 150.2,
+    "home_score": 77.7,
+    "away_score": 72.5,
     "home_win_prob": 68.1,
     "confidence": 61.7,
     "tempo": 68.9,
@@ -1689,7 +1689,7 @@
    "closing": null,
    "edge": {
     "spread": 1.7,
-    "total": 3.6,
+    "total": 3.7,
     "value_rating": 1.7,
     "is_best_bet": false
    },
@@ -1732,7 +1732,7 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -1.2,
-    "total": 153.9,
+    "total": 154.0,
     "home_score": 77.6,
     "away_score": 76.4,
     "home_win_prob": 54.3,
@@ -1755,7 +1755,7 @@
    "closing": null,
    "edge": {
     "spread": -1.3,
-    "total": -6.6,
+    "total": -6.5,
     "value_rating": 1.3,
     "is_best_bet": false
    },
@@ -1798,9 +1798,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -6.8,
-    "total": 145.0,
+    "total": 145.1,
     "home_score": 75.9,
-    "away_score": 69.1,
+    "away_score": 69.2,
     "home_win_prob": 73.1,
     "confidence": 55.1,
     "tempo": 68.3,
@@ -1821,7 +1821,7 @@
    "closing": null,
    "edge": {
     "spread": 0.3,
-    "total": 3.5,
+    "total": 3.6,
     "value_rating": 0.3,
     "is_best_bet": false
    },
@@ -1864,9 +1864,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -1.0,
-    "total": 145.6,
-    "home_score": 73.3,
-    "away_score": 72.3,
+    "total": 145.8,
+    "home_score": 73.4,
+    "away_score": 72.4,
     "home_win_prob": 53.6,
     "confidence": 65.9,
     "tempo": 68.7,
@@ -1887,7 +1887,7 @@
    "closing": null,
    "edge": {
     "spread": 2.5,
-    "total": 3.1,
+    "total": 3.3,
     "value_rating": 2.5,
     "is_best_bet": false
    },
@@ -1930,9 +1930,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 3.5,
-    "total": 145.2,
+    "total": 145.3,
     "home_score": 70.9,
-    "away_score": 74.3,
+    "away_score": 74.4,
     "home_win_prob": 37.6,
     "confidence": 62.1,
     "tempo": 68.7,
@@ -1953,7 +1953,7 @@
    "closing": null,
    "edge": {
     "spread": 2.0,
-    "total": 5.7,
+    "total": 5.8,
     "value_rating": 2.0,
     "is_best_bet": false
    },
@@ -1998,12 +1998,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -6.3,
-    "total": 165.5,
+    "total": 165.6,
     "home_score": 85.9,
-    "away_score": 79.6,
+    "away_score": 79.7,
     "home_win_prob": 71.6,
     "confidence": 58.1,
-    "tempo": 74.5,
+    "tempo": 74.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "UTSA Roadrunners",
@@ -2021,7 +2021,7 @@
    "closing": null,
    "edge": {
     "spread": 0.8,
-    "total": -7.0,
+    "total": -6.9,
     "value_rating": 0.8,
     "is_best_bet": false
    },
@@ -2063,13 +2063,13 @@
    "broadcast": "NEC Front Row",
    "model": {
     "version": "4.1.0",
-    "spread_home": 6.6,
-    "total": 151.9,
-    "home_score": 72.7,
-    "away_score": 79.2,
-    "home_win_prob": 27.5,
+    "spread_home": 6.5,
+    "total": 152.1,
+    "home_score": 72.8,
+    "away_score": 79.3,
+    "home_win_prob": 27.7,
     "confidence": 58.7,
-    "tempo": 69.8,
+    "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Northeastern Huskies",
@@ -2086,8 +2086,8 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.9,
-    "total": 3.4,
+    "spread": 1.0,
+    "total": 3.6,
     "value_rating": 0.9,
     "is_best_bet": false
    },
@@ -2130,9 +2130,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 2.1,
-    "total": 147.6,
-    "home_score": 72.7,
-    "away_score": 74.8,
+    "total": 147.7,
+    "home_score": 72.8,
+    "away_score": 74.9,
     "home_win_prob": 42.4,
     "confidence": 60.6,
     "tempo": 71.0,
@@ -2153,7 +2153,7 @@
    "closing": null,
    "edge": {
     "spread": 1.4,
-    "total": 4.1,
+    "total": 4.2,
     "value_rating": 1.4,
     "is_best_bet": false
    },
@@ -2198,9 +2198,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -3.5,
-    "total": 160.4,
-    "home_score": 81.9,
-    "away_score": 78.4,
+    "total": 160.5,
+    "home_score": 82.0,
+    "away_score": 78.5,
     "home_win_prob": 62.6,
     "confidence": 62.9,
     "tempo": 71.5,
@@ -2221,7 +2221,7 @@
    "closing": null,
    "edge": {
     "spread": -2.0,
-    "total": -5.1,
+    "total": -5.0,
     "value_rating": 2.0,
     "is_best_bet": false
    },
@@ -2263,13 +2263,13 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": -2.6,
-    "total": 146.9,
-    "home_score": 74.7,
-    "away_score": 72.1,
-    "home_win_prob": 59.3,
+    "spread_home": -2.5,
+    "total": 147.0,
+    "home_score": 74.8,
+    "away_score": 72.2,
+    "home_win_prob": 59.1,
     "confidence": 59.4,
-    "tempo": 70.7,
+    "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "East Carolina Pirates",
@@ -2286,8 +2286,8 @@
    },
    "closing": null,
    "edge": {
-    "spread": 1.1,
-    "total": -6.6,
+    "spread": 1.0,
+    "total": -6.5,
     "value_rating": 1.1,
     "is_best_bet": false
    },
@@ -2332,12 +2332,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -26.2,
-    "total": 146.5,
+    "total": 146.6,
     "home_score": 86.4,
-    "away_score": 60.1,
+    "away_score": 60.2,
     "home_win_prob": 99.1,
     "confidence": 66.1,
-    "tempo": 68.6,
+    "tempo": 68.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Georgetown Hoyas",
@@ -2355,7 +2355,7 @@
    "closing": null,
    "edge": {
     "spread": -5.3,
-    "total": 4.0,
+    "total": 4.1,
     "value_rating": 5.3,
     "is_best_bet": true
    },
@@ -2401,12 +2401,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -9.6,
-    "total": 137.7,
+    "total": 137.8,
     "home_score": 73.7,
     "away_score": 64.1,
     "home_win_prob": 80.9,
     "confidence": 65.6,
-    "tempo": 69.8,
+    "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Massachusetts Minutemen",
@@ -2424,7 +2424,7 @@
    "closing": null,
    "edge": {
     "spread": -2.9,
-    "total": 0.2,
+    "total": 0.3,
     "value_rating": 2.9,
     "is_best_bet": false
    },
@@ -2467,9 +2467,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 12.6,
-    "total": 151.8,
-    "home_score": 69.6,
-    "away_score": 82.2,
+    "total": 151.9,
+    "home_score": 69.7,
+    "away_score": 82.3,
     "home_win_prob": 12.6,
     "confidence": 53.7,
     "tempo": 68.3,
@@ -2490,7 +2490,7 @@
    "closing": null,
    "edge": {
     "spread": 0.9,
-    "total": -0.7,
+    "total": -0.6,
     "value_rating": 0.9,
     "is_best_bet": false
    },
@@ -2533,10 +2533,10 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -7.5,
-    "total": 137.5,
+    "total": 137.6,
     "home_score": 72.5,
     "away_score": 65.0,
-    "home_win_prob": 75.1,
+    "home_win_prob": 75.2,
     "confidence": 70.9,
     "tempo": 66.7,
     "confidence_tier": "high",
@@ -2556,7 +2556,7 @@
    "closing": null,
    "edge": {
     "spread": 4.0,
-    "total": 4.0,
+    "total": 4.1,
     "value_rating": 4.0,
     "is_best_bet": true
    },
@@ -2603,12 +2603,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -7.8,
-    "total": 154.5,
+    "total": 154.6,
     "home_score": 81.2,
     "away_score": 73.4,
     "home_win_prob": 76.2,
     "confidence": 57.7,
-    "tempo": 71.6,
+    "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Mercer Bears",
@@ -2626,7 +2626,7 @@
    "closing": null,
    "edge": {
     "spread": -0.7,
-    "total": -6.0,
+    "total": -5.9,
     "value_rating": 0.7,
     "is_best_bet": false
    },
@@ -2668,11 +2668,11 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": -6.9,
-    "total": 149.2,
-    "home_score": 78.0,
-    "away_score": 71.1,
-    "home_win_prob": 73.5,
+    "spread_home": -6.8,
+    "total": 149.3,
+    "home_score": 78.1,
+    "away_score": 71.2,
+    "home_win_prob": 73.3,
     "confidence": 61.4,
     "tempo": 70.6,
     "confidence_tier": "medium",
@@ -2691,8 +2691,8 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.6,
-    "total": -0.3,
+    "spread": -1.7,
+    "total": -0.2,
     "value_rating": 1.6,
     "is_best_bet": false
    },
@@ -2735,7 +2735,7 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -9.1,
-    "total": 143.2,
+    "total": 143.3,
     "home_score": 76.2,
     "away_score": 67.1,
     "home_win_prob": 79.6,
@@ -2758,7 +2758,7 @@
    "closing": null,
    "edge": {
     "spread": -4.4,
-    "total": 6.7,
+    "total": 6.8,
     "value_rating": 4.4,
     "is_best_bet": true
    },
@@ -2806,9 +2806,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -9.4,
-    "total": 156.8,
-    "home_score": 83.1,
-    "away_score": 73.7,
+    "total": 156.9,
+    "home_score": 83.2,
+    "away_score": 73.8,
     "home_win_prob": 80.3,
     "confidence": 58.5,
     "tempo": 69.5,
@@ -2829,7 +2829,7 @@
    "closing": null,
    "edge": {
     "spread": 0.9,
-    "total": 0.3,
+    "total": 0.4,
     "value_rating": 0.9,
     "is_best_bet": false
    },
@@ -2871,11 +2871,11 @@
    "broadcast": "FloSports",
    "model": {
     "version": "4.1.0",
-    "spread_home": -8.5,
-    "total": 149.7,
-    "home_score": 79.1,
+    "spread_home": -8.6,
+    "total": 149.9,
+    "home_score": 79.3,
     "away_score": 70.6,
-    "home_win_prob": 78.1,
+    "home_win_prob": 78.4,
     "confidence": 70.9,
     "tempo": 67.9,
     "confidence_tier": "high",
@@ -2894,8 +2894,8 @@
    },
    "closing": null,
    "edge": {
-    "spread": -4.0,
-    "total": 7.2,
+    "spread": -3.9,
+    "total": 7.4,
     "value_rating": 4.0,
     "is_best_bet": true
    },
@@ -2942,8 +2942,8 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -7.7,
-    "total": 153.2,
-    "home_score": 80.4,
+    "total": 153.3,
+    "home_score": 80.5,
     "away_score": 72.8,
     "home_win_prob": 75.7,
     "confidence": 58.4,
@@ -2965,7 +2965,7 @@
    "closing": null,
    "edge": {
     "spread": -0.8,
-    "total": -2.3,
+    "total": -2.2,
     "value_rating": 0.8,
     "is_best_bet": false
    },
@@ -3008,9 +3008,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 0.1,
-    "total": 155.5,
+    "total": 155.6,
     "home_score": 77.7,
-    "away_score": 77.8,
+    "away_score": 77.9,
     "home_win_prob": 49.5,
     "confidence": 71.4,
     "tempo": 71.3,
@@ -3031,7 +3031,7 @@
    "closing": null,
    "edge": {
     "spread": 4.4,
-    "total": -4.0,
+    "total": -3.9,
     "value_rating": 4.4,
     "is_best_bet": true
    },
@@ -3078,9 +3078,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -6.1,
-    "total": 156.9,
+    "total": 157.0,
     "home_score": 81.5,
-    "away_score": 75.4,
+    "away_score": 75.5,
     "home_win_prob": 71.0,
     "confidence": 59.7,
     "tempo": 70.3,
@@ -3101,7 +3101,7 @@
    "closing": null,
    "edge": {
     "spread": -1.4,
-    "total": -7.6,
+    "total": -7.5,
     "value_rating": 1.4,
     "is_best_bet": false
    },
@@ -3144,12 +3144,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -2.8,
-    "total": 142.8,
-    "home_score": 72.8,
-    "away_score": 70.0,
+    "total": 142.9,
+    "home_score": 72.9,
+    "away_score": 70.1,
     "home_win_prob": 60.1,
     "confidence": 56.3,
-    "tempo": 68.7,
+    "tempo": 68.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Oral Roberts Golden Eagles",
@@ -3167,7 +3167,7 @@
    "closing": null,
    "edge": {
     "spread": 0.3,
-    "total": 2.3,
+    "total": 2.4,
     "value_rating": 0.3,
     "is_best_bet": false
    },
@@ -3210,9 +3210,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -1.3,
-    "total": 141.7,
-    "home_score": 71.5,
-    "away_score": 70.2,
+    "total": 141.8,
+    "home_score": 71.6,
+    "away_score": 70.3,
     "home_win_prob": 54.7,
     "confidence": 66.8,
     "tempo": 66.4,
@@ -3233,7 +3233,7 @@
    "closing": null,
    "edge": {
     "spread": -3.2,
-    "total": 3.2,
+    "total": 3.3,
     "value_rating": 3.2,
     "is_best_bet": true
    },
@@ -3280,7 +3280,7 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 1.9,
-    "total": 154.4,
+    "total": 154.5,
     "home_score": 76.3,
     "away_score": 78.2,
     "home_win_prob": 43.0,
@@ -3303,7 +3303,7 @@
    "closing": null,
    "edge": {
     "spread": -3.4,
-    "total": -5.1,
+    "total": -5.0,
     "value_rating": 3.4,
     "is_best_bet": true
    },
@@ -3349,12 +3349,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -9.4,
-    "total": 135.0,
-    "home_score": 72.2,
-    "away_score": 62.8,
+    "total": 135.1,
+    "home_score": 72.3,
+    "away_score": 62.9,
     "home_win_prob": 80.3,
     "confidence": 55.5,
-    "tempo": 66.9,
+    "tempo": 67.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Pacific Tigers",
@@ -3372,7 +3372,7 @@
    "closing": null,
    "edge": {
     "spread": -0.1,
-    "total": 8.5,
+    "total": 8.6,
     "value_rating": 0.1,
     "is_best_bet": false
    },
@@ -3414,9 +3414,9 @@
    "broadcast": "ESPN2",
    "model": {
     "version": "4.1.0",
-    "spread_home": -19.3,
-    "total": 151.0,
-    "home_score": 85.1,
+    "spread_home": -19.2,
+    "total": 151.1,
+    "home_score": 85.2,
     "away_score": 65.9,
     "home_win_prob": 96.0,
     "confidence": 69.0,
@@ -3437,8 +3437,8 @@
    },
    "closing": null,
    "edge": {
-    "spread": -6.2,
-    "total": 1.5,
+    "spread": -6.3,
+    "total": 1.6,
     "value_rating": 6.2,
     "is_best_bet": false
    },
