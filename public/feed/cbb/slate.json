@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-21T17:56:58.254472-05:00",
+ "generated_at": "2026-11-21T18:34:26.464160-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-21",
@@ -1851,7 +1851,7 @@
    "game_id": "401917918",
    "game_id_source": "espn",
    "start_time": "2026-11-21T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Jacksonville Dolphins",
     "abbr": "JAX",
@@ -1904,7 +1904,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 67,
+    "away_score": 82,
+    "margin_home": -15,
+    "total": 149,
+    "winner": "Central Arkansas Bears",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -1920,7 +1932,7 @@
    "game_id": "401918995",
    "game_id_source": "espn",
    "start_time": "2026-11-21T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "George Mason Patriots",
     "abbr": "GMU",
@@ -1973,7 +1985,19 @@
     "side": "home",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 73,
+    "away_score": 62,
+    "margin_home": 11,
+    "total": 135,
+    "winner": "George Mason Patriots",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -2064,7 +2088,7 @@
    "game_id": "401922048",
    "game_id_source": "espn",
    "start_time": "2026-11-21T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
@@ -2117,7 +2141,19 @@
     "side": "none",
     "cover_line": 6.5
    },
-   "result": null,
+   "result": {
+    "home_score": 74,
+    "away_score": 68,
+    "margin_home": 6,
+    "total": 142,
+    "winner": "East Tennessee State Buccaneers",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -2130,7 +2166,7 @@
    "game_id": "401923322",
    "game_id_source": "espn",
    "start_time": "2026-11-21T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
@@ -2183,7 +2219,19 @@
     "side": "home",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 91,
+    "away_score": 81,
+    "margin_home": 10,
+    "total": 172,
+    "winner": "Canisius Golden Griffins",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {

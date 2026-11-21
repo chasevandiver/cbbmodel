@@ -100490,6 +100490,142 @@
       "ou_model_correct": false
     },
     {
+      "game_id": "401917918",
+      "date": "2026-11-21T21:00Z",
+      "home_team": "Jacksonville Dolphins",
+      "away_team": "Central Arkansas Bears",
+      "home_abbr": "JAX",
+      "away_abbr": "CARK",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "2-3",
+      "home_location": "Jacksonville",
+      "away_location": "Central Arkansas",
+      "home_rating_team": "Jacksonville",
+      "away_rating_team": "Central Arkansas",
+      "home_adj_em": -5.74,
+      "away_adj_em": -1.73,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Swisher Gymnasium",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 0.7,
+      "predicted_total": 150.2,
+      "home_projected_score": 75.4,
+      "away_projected_score": 74.8,
+      "home_win_prob": 52.5,
+      "away_win_prob": 47.5,
+      "confidence": 67.7,
+      "pick": "Jacksonville Dolphins",
+      "pick_abbr": "JAX",
+      "is_home_pick": true,
+      "projected_tempo": 68.5,
+      "factors": {
+        "efficiency_margin": -2.74,
+        "home_court": 3.42
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 145.5,
+        "spread_holder": "Central Arkansas Bears",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 3.2,
+      "model_vs_market": {
+        "spread_edge": 3.2,
+        "total_edge": 4.6
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -2.5,
+      "clv": null,
+      "actual_home_score": 67,
+      "actual_away_score": 82,
+      "actual_margin": -15,
+      "actual_total": 149,
+      "actual_winner": "Central Arkansas Bears",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401918995",
+      "date": "2026-11-21T21:00Z",
+      "home_team": "George Mason Patriots",
+      "away_team": "South Florida Bulls",
+      "home_abbr": "GMU",
+      "away_abbr": "USF",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "3-2",
+      "home_location": "George Mason",
+      "away_location": "South Florida",
+      "home_rating_team": "George Mason",
+      "away_rating_team": "South Florida",
+      "home_adj_em": 9.42,
+      "away_adj_em": 7.77,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "EagleBank Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 5.2,
+      "predicted_total": 150.2,
+      "home_projected_score": 77.7,
+      "away_projected_score": 72.5,
+      "home_win_prob": 68.1,
+      "away_win_prob": 31.9,
+      "confidence": 61.7,
+      "pick": "George Mason Patriots",
+      "pick_abbr": "GMU",
+      "is_home_pick": true,
+      "projected_tempo": 68.9,
+      "factors": {
+        "efficiency_margin": 1.13,
+        "home_court": 4.05
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 146.5,
+        "spread_holder": "George Mason Patriots",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.7,
+      "model_vs_market": {
+        "spread_edge": 1.7,
+        "total_edge": 3.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 3.5,
+      "clv": null,
+      "actual_home_score": 73,
+      "actual_away_score": 62,
+      "actual_margin": 11,
+      "actual_total": 135,
+      "actual_winner": "George Mason Patriots",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
       "game_id": "401921183",
       "date": "2026-11-21T21:00Z",
       "home_team": "La Salle Explorers",
@@ -100556,25 +100692,161 @@
       "ou_result": "U",
       "model_ou_call": "U",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401922048",
+      "date": "2026-11-21T21:00Z",
+      "home_team": "East Tennessee State Buccaneers",
+      "away_team": "Longwood Lancers",
+      "home_abbr": "ETSU",
+      "away_abbr": "LONG",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2193.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-3",
+      "away_record": "4-2",
+      "home_location": "East Tennessee State",
+      "away_location": "Longwood",
+      "home_rating_team": "East Tennessee St.",
+      "away_rating_team": "Longwood",
+      "home_adj_em": -1.38,
+      "away_adj_em": -6.03,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Freedom Hall (TN)",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 6.8,
+      "predicted_total": 145.1,
+      "home_projected_score": 75.9,
+      "away_projected_score": 69.2,
+      "home_win_prob": 73.1,
+      "away_win_prob": 26.9,
+      "confidence": 55.1,
+      "pick": "East Tennessee State Buccaneers",
+      "pick_abbr": "ETSU",
+      "is_home_pick": true,
+      "projected_tempo": 68.3,
+      "factors": {
+        "efficiency_margin": 3.17,
+        "home_court": 3.59
+      },
+      "market": {
+        "spread": -6.5,
+        "over_under": 141.5,
+        "spread_holder": "East Tennessee St Buccaneers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.3,
+      "model_vs_market": {
+        "spread_edge": 0.3,
+        "total_edge": 3.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 6.5,
+      "clv": null,
+      "actual_home_score": 74,
+      "actual_away_score": 68,
+      "actual_margin": 6,
+      "actual_total": 142,
+      "actual_winner": "East Tennessee State Buccaneers",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401923322",
+      "date": "2026-11-21T21:00Z",
+      "home_team": "Canisius Golden Griffins",
+      "away_team": "UAlbany Great Danes",
+      "home_abbr": "CAN",
+      "away_abbr": "UALB",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "4-2",
+      "home_location": "Canisius",
+      "away_location": "UAlbany",
+      "home_rating_team": "Canisius",
+      "away_rating_team": "Albany",
+      "home_adj_em": -17.0,
+      "away_adj_em": -14.03,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Koessler Athletic Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 1.0,
+      "predicted_total": 145.8,
+      "home_projected_score": 73.4,
+      "away_projected_score": 72.4,
+      "home_win_prob": 53.6,
+      "away_win_prob": 46.4,
+      "confidence": 65.9,
+      "pick": "Canisius Golden Griffins",
+      "pick_abbr": "CAN",
+      "is_home_pick": true,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": -2.04,
+        "home_court": 3.02
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 142.5,
+        "spread_holder": "Albany Great Danes",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 2.5,
+      "model_vs_market": {
+        "spread_edge": 2.5,
+        "total_edge": 3.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -1.5,
+      "clv": null,
+      "actual_home_score": 91,
+      "actual_away_score": 81,
+      "actual_margin": 10,
+      "actual_total": 172,
+      "actual_winner": "Canisius Golden Griffins",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 728,
-      "model_mae": 10.02,
-      "market_mae": 9.62,
-      "intercept": -0.89,
-      "model_weight": 0.134,
-      "market_weight": 0.9,
+      "n": 732,
+      "model_mae": 10.0,
+      "market_mae": 9.61,
+      "intercept": -0.88,
+      "model_weight": 0.136,
+      "market_weight": 0.898,
       "ats_by_edge": {
         "0-2": {
-          "w": 135,
+          "w": 136,
           "l": 83,
-          "pct": 61.9
+          "pct": 62.1
         },
         "2-4": {
-          "w": 109,
-          "l": 97,
+          "w": 110,
+          "l": 98,
           "pct": 52.9
         },
         "4-7": {
@@ -100612,26 +100884,26 @@
         "n": 0
       }
     },
-    "total_graded": 730,
-    "ats_graded": 641,
+    "total_graded": 734,
+    "ats_graded": 644,
     "ats": {
-      "w": 356,
-      "l": 285,
+      "w": 358,
+      "l": 286,
       "p": 0,
-      "pct": 55.5
+      "pct": 55.6
     },
     "su": {
-      "correct": 568,
-      "total": 730,
+      "correct": 571,
+      "total": 734,
       "pct": 77.8
     },
     "ou": {
-      "over": 352,
-      "under": 376,
+      "over": 355,
+      "under": 377,
       "push": 0,
-      "model_correct": 372,
-      "model_gradeable": 728,
-      "model_pct": 51.1
+      "model_correct": 375,
+      "model_gradeable": 732,
+      "model_pct": 51.2
     },
     "by_confidence": {
       "high": {
@@ -100641,8 +100913,8 @@
         "pct": 48.0
       },
       "medium": {
-        "w": 332,
-        "l": 259,
+        "w": 334,
+        "l": 260,
         "p": 0,
         "pct": 56.2
       },
@@ -100655,35 +100927,35 @@
     },
     "value_plays": {
       "w": 154,
-      "l": 142,
+      "l": 143,
       "p": 0,
-      "pct": 52.0
+      "pct": 51.9
     },
     "best_bets": {
       "w": 91,
-      "l": 92,
+      "l": 93,
       "p": 0,
-      "pct": 49.7
+      "pct": 49.5
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1436,
-        "model_mae": 10.44,
-        "market_mae": 9.28,
+        "n": 1440,
+        "model_mae": 10.43,
+        "market_mae": 9.27,
         "intercept": -0.07,
         "model_weight": -0.003,
         "market_weight": 0.982,
         "ats_by_edge": {
           "0-2": {
-            "w": 249,
+            "w": 250,
             "l": 205,
-            "pct": 54.8
+            "pct": 54.9
           },
           "2-4": {
-            "w": 204,
-            "l": 177,
+            "w": 205,
+            "l": 178,
             "pct": 53.5
           },
           "4-7": {
@@ -100721,25 +100993,25 @@
           "n": 0
         }
       },
-      "total_graded": 1448,
-      "ats_graded": 1247,
+      "total_graded": 1452,
+      "ats_graded": 1250,
       "ats": {
-        "w": 664,
-        "l": 583,
+        "w": 666,
+        "l": 584,
         "p": 0,
-        "pct": 53.2
+        "pct": 53.3
       },
       "su": {
-        "correct": 1036,
-        "total": 1448,
-        "pct": 71.5
+        "correct": 1039,
+        "total": 1452,
+        "pct": 71.6
       },
       "ou": {
-        "over": 702,
-        "under": 734,
+        "over": 705,
+        "under": 735,
         "push": 0,
-        "model_correct": 729,
-        "model_gradeable": 1436,
+        "model_correct": 732,
+        "model_gradeable": 1440,
         "model_pct": 50.8
       },
       "by_confidence": {
@@ -100750,8 +101022,8 @@
           "pct": 48.6
         },
         "medium": {
-          "w": 499,
-          "l": 405,
+          "w": 501,
+          "l": 406,
           "p": 0,
           "pct": 55.2
         },
@@ -100764,17 +101036,17 @@
       },
       "value_plays": {
         "w": 299,
-        "l": 272,
+        "l": 273,
         "p": 0,
-        "pct": 52.4
+        "pct": 52.3
       },
       "best_bets": {
         "w": 128,
-        "l": 123,
+        "l": 124,
         "p": 0,
-        "pct": 51.0
+        "pct": 50.8
       }
     }
   },
-  "generated_at": "2026-11-21T17:56:58.110482-05:00"
+  "generated_at": "2026-11-21T18:34:26.340045-05:00"
 }
