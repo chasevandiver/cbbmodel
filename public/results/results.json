@@ -95844,25 +95844,311 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401921723",
+      "date": "2026-11-20T22:00Z",
+      "home_team": "Miami Hurricanes",
+      "away_team": "Manhattan Jaspers",
+      "home_abbr": "MIA",
+      "away_abbr": "MAN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2363.png",
+      "home_rank": 17,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "1-4",
+      "home_location": "Miami",
+      "away_location": "Manhattan",
+      "home_rating_team": "Miami FL",
+      "away_rating_team": "Manhattan",
+      "home_adj_em": 22.81,
+      "away_adj_em": -18.28,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Watsco Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACC Network",
+      "predicted_spread": 32.3,
+      "predicted_total": 149.8,
+      "home_projected_score": 91.0,
+      "away_projected_score": 58.7,
+      "home_win_prob": 99.8,
+      "away_win_prob": 0.2,
+      "confidence": 69.0,
+      "pick": "Miami Hurricanes",
+      "pick_abbr": "MIA",
+      "is_home_pick": true,
+      "projected_tempo": 70.2,
+      "factors": {
+        "efficiency_margin": 28.86,
+        "home_court": 3.43
+      },
+      "market": {
+        "spread": -39.5,
+        "over_under": 149.5,
+        "spread_holder": "Miami Hurricanes",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 7.2,
+      "model_vs_market": {
+        "spread_edge": -7.2,
+        "total_edge": 0.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 39.5,
+      "clv": null,
+      "actual_home_score": 106,
+      "actual_away_score": 54,
+      "actual_margin": 52,
+      "actual_total": 160,
+      "actual_winner": "Miami Hurricanes",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401916124",
+      "date": "2026-11-20T22:30Z",
+      "home_team": "Southern Illinois Salukis",
+      "away_team": "UT Martin Skyhawks",
+      "home_abbr": "SIU",
+      "away_abbr": "UTM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-2",
+      "away_record": "3-2",
+      "home_location": "Southern Illinois",
+      "away_location": "UT Martin",
+      "home_rating_team": "Southern Illinois",
+      "away_rating_team": "Tennessee Martin",
+      "home_adj_em": -3.65,
+      "away_adj_em": -10.05,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Elridge Blake Sports and Fitness Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 4.4,
+      "predicted_total": 138.8,
+      "home_projected_score": 71.6,
+      "away_projected_score": 67.2,
+      "home_win_prob": 65.7,
+      "away_win_prob": 34.3,
+      "confidence": 65.8,
+      "pick": "Southern Illinois Salukis",
+      "pick_abbr": "SIU",
+      "is_home_pick": true,
+      "projected_tempo": 69.5,
+      "factors": {
+        "efficiency_margin": 4.45,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 149.5,
+        "spread_holder": "SIU -1.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 2.9,
+      "model_vs_market": {
+        "spread_edge": 2.9,
+        "total_edge": -10.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 1.5,
+      "clv": null,
+      "actual_home_score": 73,
+      "actual_away_score": 76,
+      "actual_margin": -3,
+      "actual_total": 149,
+      "actual_winner": "UT Martin Skyhawks",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401919827",
+      "date": "2026-11-20T22:30Z",
+      "home_team": "Canisius Golden Griffins",
+      "away_team": "Mercyhurst Lakers",
+      "home_abbr": "CAN",
+      "away_abbr": "MERC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "1-4",
+      "home_location": "Canisius",
+      "away_location": "Mercyhurst",
+      "home_rating_team": "Canisius",
+      "away_rating_team": "Mercyhurst",
+      "home_adj_em": -17.92,
+      "away_adj_em": -11.19,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Koessler Athletic Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -1.5,
+      "predicted_total": 146.1,
+      "home_projected_score": 72.3,
+      "away_projected_score": 73.8,
+      "home_win_prob": 44.6,
+      "away_win_prob": 55.4,
+      "confidence": 59.0,
+      "pick": "Mercyhurst Lakers",
+      "pick_abbr": "MERC",
+      "is_home_pick": false,
+      "projected_tempo": 67.2,
+      "factors": {
+        "efficiency_margin": -4.52,
+        "home_court": 3.02
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 134.5,
+        "spread_holder": "Mercyhurst Lakers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": -1.0,
+        "total_edge": 11.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 4.5,
+        "over_under": 136.5,
+        "spread_holder": "Mercyhurst Lakers",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-20T17:24:34.128249-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -2.5,
+      "clv": -2.0,
+      "actual_home_score": 63,
+      "actual_away_score": 56,
+      "actual_margin": 7,
+      "actual_total": 119,
+      "actual_winner": "Canisius Golden Griffins",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401921419",
+      "date": "2026-11-20T22:30Z",
+      "home_team": "Utah Utes",
+      "away_team": "Dayton Flyers",
+      "home_abbr": "UTAH",
+      "away_abbr": "DAY",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2168.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-1",
+      "away_record": "2-3",
+      "home_location": "Utah",
+      "away_location": "Dayton",
+      "home_rating_team": "Utah",
+      "away_rating_team": "Dayton",
+      "home_adj_em": 5.13,
+      "away_adj_em": 6.31,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "TD Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": -0.8,
+      "predicted_total": 144.5,
+      "home_projected_score": 71.9,
+      "away_projected_score": 72.7,
+      "home_win_prob": 47.1,
+      "away_win_prob": 52.9,
+      "confidence": 63.2,
+      "pick": "Dayton Flyers",
+      "pick_abbr": "DAY",
+      "is_home_pick": false,
+      "projected_tempo": 68.3,
+      "factors": {
+        "efficiency_margin": -0.81,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 141.5,
+        "spread_holder": "Utah Utes",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 2.3,
+      "model_vs_market": {
+        "spread_edge": 2.3,
+        "total_edge": 3.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 139.5,
+        "spread_holder": "Utah Utes",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-20T17:24:34.128249-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": 0.0,
+      "actual_home_score": 46,
+      "actual_away_score": 63,
+      "actual_margin": -17,
+      "actual_total": 109,
+      "actual_winner": "Dayton Flyers",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 662,
-      "model_mae": 9.85,
-      "market_mae": 9.44,
-      "intercept": -1.13,
-      "model_weight": 0.113,
-      "market_weight": 0.931,
+      "n": 666,
+      "model_mae": 9.86,
+      "market_mae": 9.45,
+      "intercept": -1.18,
+      "model_weight": 0.122,
+      "market_weight": 0.928,
       "ats_by_edge": {
         "0-2": {
-          "w": 122,
+          "w": 123,
           "l": 76,
-          "pct": 61.6
+          "pct": 61.8
         },
         "2-4": {
-          "w": 102,
-          "l": 85,
+          "w": 103,
+          "l": 86,
           "pct": 54.5
         },
         "4-7": {
@@ -95872,16 +96158,16 @@
         },
         "7+": {
           "w": 32,
-          "l": 31,
-          "pct": 50.8
+          "l": 32,
+          "pct": 50.0
         }
       }
     },
     "clv": {
-      "n": 448,
+      "n": 450,
       "avg": 0.27,
-      "beat_close_pct": 38.2,
-      "beat_or_matched_pct": 76.8
+      "beat_close_pct": 38.0,
+      "beat_or_matched_pct": 76.7
     },
     "clv_by_confidence": {
       "high": {
@@ -95891,34 +96177,34 @@
         "beat_or_matched_pct": 80.6
       },
       "medium": {
-        "n": 417,
-        "avg": 0.28,
-        "beat_close_pct": 38.4,
-        "beat_or_matched_pct": 76.5
+        "n": 419,
+        "avg": 0.27,
+        "beat_close_pct": 38.2,
+        "beat_or_matched_pct": 76.4
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 664,
-    "ats_graded": 586,
+    "total_graded": 668,
+    "ats_graded": 590,
     "ats": {
-      "w": 326,
-      "l": 260,
+      "w": 328,
+      "l": 262,
       "p": 0,
       "pct": 55.6
     },
     "su": {
-      "correct": 523,
-      "total": 664,
-      "pct": 78.8
+      "correct": 525,
+      "total": 668,
+      "pct": 78.6
     },
     "ou": {
-      "over": 317,
-      "under": 345,
+      "over": 318,
+      "under": 348,
       "push": 0,
-      "model_correct": 335,
-      "model_gradeable": 662,
+      "model_correct": 337,
+      "model_gradeable": 666,
       "model_pct": 50.6
     },
     "by_confidence": {
@@ -95929,8 +96215,8 @@
         "pct": 43.2
       },
       "medium": {
-        "w": 307,
-        "l": 235,
+        "w": 309,
+        "l": 237,
         "p": 0,
         "pct": 56.6
       },
@@ -95943,9 +96229,9 @@
     },
     "value_plays": {
       "w": 141,
-      "l": 131,
+      "l": 132,
       "p": 0,
-      "pct": 51.8
+      "pct": 51.6
     },
     "best_bets": {
       "w": 86,
@@ -95957,21 +96243,21 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1370,
-        "model_mae": 10.38,
-        "market_mae": 9.17,
-        "intercept": -0.13,
-        "model_weight": -0.005,
-        "market_weight": 0.99,
+        "n": 1374,
+        "model_mae": 10.39,
+        "market_mae": 9.18,
+        "intercept": -0.16,
+        "model_weight": -0.004,
+        "market_weight": 0.992,
         "ats_by_edge": {
           "0-2": {
-            "w": 236,
+            "w": 237,
             "l": 198,
-            "pct": 54.4
+            "pct": 54.5
           },
           "2-4": {
-            "w": 197,
-            "l": 165,
+            "w": 198,
+            "l": 166,
             "pct": 54.4
           },
           "4-7": {
@@ -95981,16 +96267,16 @@
           },
           "7+": {
             "w": 93,
-            "l": 93,
-            "pct": 50.0
+            "l": 94,
+            "pct": 49.7
           }
         }
       },
       "clv": {
-        "n": 448,
+        "n": 450,
         "avg": 0.27,
-        "beat_close_pct": 38.2,
-        "beat_or_matched_pct": 76.8
+        "beat_close_pct": 38.0,
+        "beat_or_matched_pct": 76.7
       },
       "clv_by_confidence": {
         "high": {
@@ -96000,34 +96286,34 @@
           "beat_or_matched_pct": 80.6
         },
         "medium": {
-          "n": 417,
-          "avg": 0.28,
-          "beat_close_pct": 38.4,
-          "beat_or_matched_pct": 76.5
+          "n": 419,
+          "avg": 0.27,
+          "beat_close_pct": 38.2,
+          "beat_or_matched_pct": 76.4
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1382,
-      "ats_graded": 1192,
+      "total_graded": 1386,
+      "ats_graded": 1196,
       "ats": {
-        "w": 634,
-        "l": 558,
+        "w": 636,
+        "l": 560,
         "p": 0,
         "pct": 53.2
       },
       "su": {
-        "correct": 991,
-        "total": 1382,
-        "pct": 71.7
+        "correct": 993,
+        "total": 1386,
+        "pct": 71.6
       },
       "ou": {
-        "over": 667,
-        "under": 703,
+        "over": 668,
+        "under": 706,
         "push": 0,
-        "model_correct": 692,
-        "model_gradeable": 1370,
+        "model_correct": 694,
+        "model_gradeable": 1374,
         "model_pct": 50.5
       },
       "by_confidence": {
@@ -96038,8 +96324,8 @@
           "pct": 47.8
         },
         "medium": {
-          "w": 474,
-          "l": 381,
+          "w": 476,
+          "l": 383,
           "p": 0,
           "pct": 55.4
         },
@@ -96052,9 +96338,9 @@
       },
       "value_plays": {
         "w": 286,
-        "l": 261,
+        "l": 262,
         "p": 0,
-        "pct": 52.3
+        "pct": 52.2
       },
       "best_bets": {
         "w": 123,
@@ -96064,5 +96350,5 @@
       }
     }
   },
-  "generated_at": "2026-11-20T18:51:15.818630-05:00"
+  "generated_at": "2026-11-20T20:10:28.126817-05:00"
 }

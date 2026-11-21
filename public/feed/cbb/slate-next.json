@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-20T18:51:15.938779-05:00",
+ "generated_at": "2026-11-20T20:10:28.272037-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-21",
@@ -116,7 +116,7 @@
     "home_score": 73.4,
     "away_score": 78.9,
     "home_win_prob": 30.9,
-    "confidence": 55.1,
+    "confidence": 59.1,
     "tempo": 73.3,
     "confidence_tier": "medium",
     "pick": {
@@ -126,7 +126,7 @@
     }
    },
    "market": {
-    "spread_home": 5.5,
+    "spread_home": 6.5,
     "total": 153.5,
     "favorite": "Siena Saints",
     "bookmaker": "fanduel",
@@ -134,14 +134,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.0,
+    "spread": 1.0,
     "total": -1.2,
-    "value_rating": 0.0,
+    "value_rating": 1.0,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": -5.5
+    "side": "home",
+    "cover_line": -6.5
    },
    "result": null,
    "tags": []
@@ -508,7 +508,7 @@
     "home_score": 67.3,
     "away_score": 68.1,
     "home_win_prob": 47.2,
-    "confidence": 57.9,
+    "confidence": 61.9,
     "tempo": 67.6,
     "confidence_tier": "medium",
     "pick": {
@@ -518,7 +518,7 @@
     }
    },
    "market": {
-    "spread_home": 1.5,
+    "spread_home": 2.5,
     "total": 127.5,
     "favorite": "New Hampshire Wildcats",
     "bookmaker": "draftkings",
@@ -526,14 +526,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.7,
+    "spread": 1.7,
     "total": 8.0,
-    "value_rating": 0.7,
+    "value_rating": 1.7,
     "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": -1.5
+    "cover_line": -2.5
    },
    "result": null,
    "tags": []
@@ -553,7 +553,7 @@
     "name": "Mercyhurst Lakers",
     "abbr": "MERC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
-    "record": "1-4",
+    "record": "1-5",
     "rank": null
    },
    "away": {
@@ -1043,7 +1043,7 @@
     "home_score": 77.8,
     "away_score": 79.5,
     "home_win_prob": 44.0,
-    "confidence": 45.0,
+    "confidence": 66.3,
     "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
@@ -1052,17 +1052,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 4.5,
+    "total": 160.5,
+    "favorite": "LR -4.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 2.8,
+    "total": -3.2,
+    "value_rating": 2.8,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": -4.5
    },
    "result": null,
    "tags": []
@@ -1180,7 +1186,7 @@
    },
    "market": {
     "spread_home": 4.5,
-    "total": 127.5,
+    "total": 126.5,
     "favorite": "Stony Brook Seawolves",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1188,7 +1194,7 @@
    "closing": null,
    "edge": {
     "spread": 2.8,
-    "total": 8.0,
+    "total": 9.0,
     "value_rating": 2.8,
     "is_best_bet": false
    },
@@ -1306,7 +1312,7 @@
    },
    "market": {
     "spread_home": 1.5,
-    "total": 154.5,
+    "total": 152.5,
     "favorite": "St. Thomas (MN) Tommies",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1314,7 +1320,7 @@
    "closing": null,
    "edge": {
     "spread": 1.1,
-    "total": -2.2,
+    "total": -0.2,
     "value_rating": 1.1,
     "is_best_bet": false
    },
@@ -1718,7 +1724,7 @@
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
-    "record": "2-3",
+    "record": "3-3",
     "rank": null
    },
    "away": {
@@ -1810,7 +1816,7 @@
    },
    "market": {
     "spread_home": 4.5,
-    "total": 143.5,
+    "total": 141.5,
     "favorite": "UC Irvine Anteaters",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1818,7 +1824,7 @@
    "closing": null,
    "edge": {
     "spread": 1.0,
-    "total": 1.5,
+    "total": 3.5,
     "value_rating": 1.0,
     "is_best_bet": false
    },

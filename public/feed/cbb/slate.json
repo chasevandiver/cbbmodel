@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-20T18:51:15.938779-05:00",
+ "generated_at": "2026-11-20T20:10:28.272037-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-20",
@@ -740,7 +740,7 @@
    "game_id": "401921723",
    "game_id_source": "espn",
    "start_time": "2026-11-20T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Miami Hurricanes",
     "abbr": "MIA",
@@ -793,7 +793,19 @@
     "side": "away",
     "cover_line": 39.5
    },
-   "result": null,
+   "result": {
+    "home_score": 106,
+    "away_score": 54,
+    "margin_home": 52,
+    "total": 160,
+    "winner": "Miami Hurricanes",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "value"
    ]
@@ -808,7 +820,7 @@
    "game_id": "401916124",
    "game_id_source": "espn",
    "start_time": "2026-11-20T22:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
@@ -861,7 +873,19 @@
     "side": "home",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 73,
+    "away_score": 76,
+    "margin_home": -3,
+    "total": 149,
+    "winner": "UT Martin Skyhawks",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -876,7 +900,7 @@
    "game_id": "401919827",
    "game_id_source": "espn",
    "start_time": "2026-11-20T22:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Canisius Golden Griffins",
     "abbr": "CAN",
@@ -935,7 +959,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 63,
+    "away_score": 56,
+    "margin_home": 7,
+    "total": 119,
+    "winner": "Canisius Golden Griffins",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -2.0
+   },
    "tags": []
   },
   {
@@ -948,7 +984,7 @@
    "game_id": "401921419",
    "game_id_source": "espn",
    "start_time": "2026-11-20T22:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Utah Utes",
     "abbr": "UTAH",
@@ -1007,7 +1043,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 46,
+    "away_score": 63,
+    "margin_home": -17,
+    "total": 109,
+    "winner": "Dayton Flyers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": [
     "tournament"
    ]
@@ -3298,10 +3346,10 @@
    },
    "closing": {
     "spread_home": -18.5,
-    "total": 158.5,
+    "total": 157.5,
     "favorite": "North Carolina Tar Heels",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-20T18:51:01.153737-05:00"
+    "captured_at": "2026-11-20T20:10:13.151461-05:00"
    },
    "edge": {
     "spread": -2.2,
@@ -3369,11 +3417,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": -47.5,
-    "total": 165.5,
+    "spread_home": -45.5,
+    "total": 163.5,
     "favorite": "Illinois Fighting Illini",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-20T18:51:01.153737-05:00"
+    "captured_at": "2026-11-20T20:10:13.151461-05:00"
    },
    "edge": {
     "spread": -13.7,
@@ -3516,7 +3564,7 @@
     "total": 168.5,
     "favorite": "Boise State Broncos",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-20T18:51:01.153737-05:00"
+    "captured_at": "2026-11-20T20:10:13.151461-05:00"
    },
    "edge": {
     "spread": -1.0,
@@ -3653,10 +3701,10 @@
    },
    "closing": {
     "spread_home": -10.5,
-    "total": 145.5,
+    "total": 146.5,
     "favorite": "Fresno St Bulldogs",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-20T18:51:01.153737-05:00"
+    "captured_at": "2026-11-20T20:10:13.151461-05:00"
    },
    "edge": {
     "spread": -4.0,
@@ -3729,10 +3777,10 @@
    },
    "closing": {
     "spread_home": -1.5,
-    "total": 161.5,
+    "total": 162.5,
     "favorite": "Saint Mary's Gaels",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-20T18:51:01.153737-05:00"
+    "captured_at": "2026-11-20T20:10:13.151461-05:00"
    },
    "edge": {
     "spread": 2.1,

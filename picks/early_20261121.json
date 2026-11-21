@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T18:51:15.624521-05:00",
+  "generated_at": "2026-11-20T20:10:27.848987-05:00",
   "date": "20261121",
   "total_games": 49,
   "model_version": "4.1.0",
@@ -385,6 +385,60 @@
       "is_tournament_game": true
     },
     {
+      "game_id": "401922222",
+      "date": "2026-11-21T19:00Z",
+      "home_team": "North Florida Ospreys",
+      "away_team": "Little Rock Trojans",
+      "home_abbr": "UNF",
+      "away_abbr": "LR",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "2-3",
+      "home_location": "North Florida",
+      "away_location": "Little Rock",
+      "home_rating_team": "North Florida",
+      "away_rating_team": "Little Rock",
+      "home_adj_em": -14.15,
+      "away_adj_em": -7.31,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "UNF Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -1.7,
+      "predicted_total": 157.3,
+      "home_projected_score": 77.8,
+      "away_projected_score": 79.5,
+      "home_win_prob": 44.0,
+      "away_win_prob": 56.0,
+      "confidence": 66.3,
+      "pick": "Little Rock Trojans",
+      "pick_abbr": "LR",
+      "is_home_pick": false,
+      "projected_tempo": 71.7,
+      "factors": {
+        "efficiency_margin": -4.91,
+        "home_court": 3.24
+      },
+      "market": {
+        "spread": 4.5,
+        "over_under": 160.5,
+        "spread_holder": "LR -4.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 2.8,
+      "model_vs_market": {
+        "spread_edge": -2.8,
+        "total_edge": -3.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401918995",
       "date": "2026-11-21T21:00Z",
       "home_team": "George Mason Patriots",
@@ -534,14 +588,14 @@
       },
       "market": {
         "spread": 4.5,
-        "over_under": 127.5,
+        "over_under": 126.5,
         "spread_holder": "Stony Brook Seawolves",
         "bookmaker": "fanduel"
       },
       "value_rating": 2.8,
       "model_vs_market": {
         "spread_edge": -2.8,
-        "total_edge": 8.0
+        "total_edge": 9.0
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -704,6 +758,60 @@
       "model_vs_market": {
         "spread_edge": 1.8,
         "total_edge": 0.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401923312",
+      "date": "2026-11-21T18:00Z",
+      "home_team": "New Haven Chargers",
+      "away_team": "New Hampshire Wildcats",
+      "home_abbr": "NHVN",
+      "away_abbr": "UNH",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "4-2",
+      "home_location": "New Haven",
+      "away_location": "New Hampshire",
+      "home_rating_team": "New Haven",
+      "away_rating_team": "New Hampshire",
+      "home_adj_em": -15.97,
+      "away_adj_em": -10.26,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Jeffery P. Hazell Athletics Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "",
+      "predicted_spread": -0.8,
+      "predicted_total": 135.5,
+      "home_projected_score": 67.3,
+      "away_projected_score": 68.1,
+      "home_win_prob": 47.2,
+      "away_win_prob": 52.8,
+      "confidence": 61.9,
+      "pick": "New Hampshire Wildcats",
+      "pick_abbr": "UNH",
+      "is_home_pick": false,
+      "projected_tempo": 67.6,
+      "factors": {
+        "efficiency_margin": -3.86,
+        "home_court": 3.1
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 127.5,
+        "spread_holder": "New Hampshire Wildcats",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.7,
+      "model_vs_market": {
+        "spread_edge": -1.7,
+        "total_edge": 8.0
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -912,14 +1020,14 @@
       },
       "market": {
         "spread": 1.5,
-        "over_under": 154.5,
+        "over_under": 152.5,
         "spread_holder": "St. Thomas (MN) Tommies",
         "bookmaker": "fanduel"
       },
       "value_rating": 1.1,
       "model_vs_market": {
         "spread_edge": -1.1,
-        "total_edge": -2.2
+        "total_edge": -0.2
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -979,6 +1087,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401924884",
+      "date": "2026-11-21T16:00Z",
+      "home_team": "Bucknell Bison",
+      "away_team": "Siena Saints",
+      "home_abbr": "BUCK",
+      "away_abbr": "SIE",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-4",
+      "away_record": "3-2",
+      "home_location": "Bucknell",
+      "away_location": "Siena",
+      "home_rating_team": "Bucknell",
+      "away_rating_team": "Siena",
+      "home_adj_em": -15.74,
+      "away_adj_em": -4.61,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Sojka Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -5.5,
+      "predicted_total": 152.3,
+      "home_projected_score": 73.4,
+      "away_projected_score": 78.9,
+      "home_win_prob": 30.9,
+      "away_win_prob": 69.1,
+      "confidence": 59.1,
+      "pick": "Siena Saints",
+      "pick_abbr": "SIE",
+      "is_home_pick": false,
+      "projected_tempo": 73.3,
+      "factors": {
+        "efficiency_margin": -8.15,
+        "home_court": 2.67
+      },
+      "market": {
+        "spread": 6.5,
+        "over_under": 153.5,
+        "spread_holder": "Siena Saints",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": -1.0,
+        "total_edge": -1.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401917538",
       "date": "2026-11-21T21:30Z",
       "home_team": "San Diego Toreros",
@@ -1020,71 +1182,17 @@
       },
       "market": {
         "spread": 4.5,
-        "over_under": 143.5,
+        "over_under": 141.5,
         "spread_holder": "UC Irvine Anteaters",
         "bookmaker": "fanduel"
       },
       "value_rating": 1.0,
       "model_vs_market": {
         "spread_edge": -1.0,
-        "total_edge": 1.5
+        "total_edge": 3.5
       },
       "is_best_bet": false,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401923312",
-      "date": "2026-11-21T18:00Z",
-      "home_team": "New Haven Chargers",
-      "away_team": "New Hampshire Wildcats",
-      "home_abbr": "NHVN",
-      "away_abbr": "UNH",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-3",
-      "away_record": "4-2",
-      "home_location": "New Haven",
-      "away_location": "New Hampshire",
-      "home_rating_team": "New Haven",
-      "away_rating_team": "New Hampshire",
-      "home_adj_em": -15.97,
-      "away_adj_em": -10.26,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Jeffery P. Hazell Athletics Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "",
-      "predicted_spread": -0.8,
-      "predicted_total": 135.5,
-      "home_projected_score": 67.3,
-      "away_projected_score": 68.1,
-      "home_win_prob": 47.2,
-      "away_win_prob": 52.8,
-      "confidence": 57.9,
-      "pick": "New Hampshire Wildcats",
-      "pick_abbr": "UNH",
-      "is_home_pick": false,
-      "projected_tempo": 67.6,
-      "factors": {
-        "efficiency_margin": -3.86,
-        "home_court": 3.1
-      },
-      "market": {
-        "spread": 1.5,
-        "over_under": 127.5,
-        "spread_holder": "New Hampshire Wildcats",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 0.7,
-      "model_vs_market": {
-        "spread_edge": -0.7,
-        "total_edge": 8.0
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
     },
     {
       "game_id": "401927365",
@@ -1357,60 +1465,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401924884",
-      "date": "2026-11-21T16:00Z",
-      "home_team": "Bucknell Bison",
-      "away_team": "Siena Saints",
-      "home_abbr": "BUCK",
-      "away_abbr": "SIE",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "1-4",
-      "away_record": "3-2",
-      "home_location": "Bucknell",
-      "away_location": "Siena",
-      "home_rating_team": "Bucknell",
-      "away_rating_team": "Siena",
-      "home_adj_em": -15.74,
-      "away_adj_em": -4.61,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Sojka Pavilion",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": -5.5,
-      "predicted_total": 152.3,
-      "home_projected_score": 73.4,
-      "away_projected_score": 78.9,
-      "home_win_prob": 30.9,
-      "away_win_prob": 69.1,
-      "confidence": 55.1,
-      "pick": "Siena Saints",
-      "pick_abbr": "SIE",
-      "is_home_pick": false,
-      "projected_tempo": 73.3,
-      "factors": {
-        "efficiency_margin": -8.15,
-        "home_court": 2.67
-      },
-      "market": {
-        "spread": 5.5,
-        "over_under": 153.5,
-        "spread_holder": "Siena Saints",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 0.0,
-      "model_vs_market": {
-        "spread_edge": -0.0,
-        "total_edge": -1.2
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401909719",
       "date": "2026-11-21T19:00Z",
       "home_team": "Syracuse Orange",
@@ -1529,7 +1583,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "1-4",
+      "home_record": "1-5",
       "away_record": "1-5",
       "home_location": "Mercyhurst",
       "away_location": "Western Illinois",
@@ -1571,60 +1625,6 @@
       },
       "is_best_bet": false,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401922222",
-      "date": "2026-11-21T19:00Z",
-      "home_team": "North Florida Ospreys",
-      "away_team": "Little Rock Trojans",
-      "home_abbr": "UNF",
-      "away_abbr": "LR",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-3",
-      "away_record": "2-3",
-      "home_location": "North Florida",
-      "away_location": "Little Rock",
-      "home_rating_team": "North Florida",
-      "away_rating_team": "Little Rock",
-      "home_adj_em": -14.15,
-      "away_adj_em": -7.31,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "UNF Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": -1.7,
-      "predicted_total": 157.3,
-      "home_projected_score": 77.8,
-      "away_projected_score": 79.5,
-      "home_win_prob": 44.0,
-      "away_win_prob": 56.0,
-      "confidence": 45.0,
-      "pick": "Little Rock Trojans",
-      "pick_abbr": "LR",
-      "is_home_pick": false,
-      "projected_tempo": 71.7,
-      "factors": {
-        "efficiency_margin": -4.91,
-        "home_court": 3.24
-      },
-      "market": {
-        "spread": null,
-        "over_under": null,
-        "spread_holder": null,
-        "bookmaker": null
-      },
-      "value_rating": null,
-      "model_vs_market": {
-        "spread_edge": null,
-        "total_edge": null
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
     },
     {
       "game_id": "401917953",
@@ -1745,7 +1745,7 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "2-3",
+      "home_record": "3-3",
       "away_record": "4-2",
       "home_location": "Canisius",
       "away_location": "UAlbany",
@@ -2658,10 +2658,10 @@
     "high_confidence": 3,
     "medium_confidence": 44,
     "low_confidence": 2,
-    "avg_confidence": 54.0,
+    "avg_confidence": 54.6,
     "value_plays": 9,
     "best_bets": 7,
-    "with_market_line": 28,
+    "with_market_line": 29,
     "tournament_games": 7
   },
   "early": true
