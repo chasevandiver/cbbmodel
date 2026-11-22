@@ -58,7 +58,14 @@
         "total_edge": 6.3
       },
       "is_best_bet": true,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -9.5,
+        "over_under": 131.5,
+        "spread_holder": "Minnesota Golden Gophers",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      }
     },
     {
       "game_id": "401926795",
@@ -166,7 +173,14 @@
         "total_edge": 4.2
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -23.5,
+        "over_under": 137.5,
+        "spread_holder": "Boston College Eagles",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      }
     },
     {
       "game_id": "401920905",
@@ -220,7 +234,14 @@
         "total_edge": 3.0
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -28.5,
+        "over_under": 145.5,
+        "spread_holder": "UCLA Bruins",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      }
     },
     {
       "game_id": "401909527",
@@ -328,7 +349,14 @@
         "total_edge": -2.4
       },
       "is_best_bet": true,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -7.5,
+        "over_under": 146.5,
+        "spread_holder": "Portland Pilots",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      }
     },
     {
       "game_id": "401919020",
@@ -436,7 +464,14 @@
         "total_edge": -1.2
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -32.5,
+        "over_under": 145.5,
+        "spread_holder": "USC Trojans",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      }
     },
     {
       "game_id": "401921748",
@@ -706,7 +741,14 @@
         "total_edge": -5.5
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -10.5,
+        "over_under": 155.5,
+        "spread_holder": "Samford Bulldogs",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      }
     },
     {
       "game_id": "401918988",
@@ -868,7 +910,14 @@
         "total_edge": 3.7
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 2.5,
+        "over_under": 144.5,
+        "spread_holder": "Temple Owls",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      }
     },
     {
       "game_id": "401921176",
@@ -1030,7 +1079,14 @@
         "total_edge": -0.2
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 147.5,
+        "spread_holder": "UC San Diego Tritons",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      }
     },
     {
       "game_id": "401929023",
@@ -1786,7 +1842,14 @@
         "total_edge": 7.5
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 136.5,
+        "spread_holder": "UC Irvine Anteaters",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      }
     },
     {
       "game_id": "401902281",
