@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-21T22:23:34.939698-05:00",
+ "generated_at": "2026-11-22T02:25:09.709565-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-21",
@@ -3776,7 +3776,7 @@
    "game_id": "401925099",
    "game_id_source": "espn",
    "start_time": "2026-11-22T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Oral Roberts Golden Eagles",
     "abbr": "ORU",
@@ -3829,7 +3829,19 @@
     "side": "none",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 78,
+    "away_score": 74,
+    "margin_home": 4,
+    "total": 152,
+    "winner": "Oral Roberts Golden Eagles",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -3924,7 +3936,7 @@
    "game_id": "401925049",
    "game_id_source": "espn",
    "start_time": "2026-11-22T01:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Texas Southern Tigers",
     "abbr": "TXSO",
@@ -3983,7 +3995,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 70,
+    "away_score": 75,
+    "margin_home": -5,
+    "total": 145,
+    "winner": "LSU New Orleans Privateers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -3999,7 +4023,7 @@
    "game_id": "401917537",
    "game_id_source": "espn",
    "start_time": "2026-11-22T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Pacific Tigers",
     "abbr": "PAC",
@@ -4058,7 +4082,19 @@
     "side": "none",
     "cover_line": 9.5
    },
-   "result": null,
+   "result": {
+    "home_score": 63,
+    "away_score": 62,
+    "margin_home": 1,
+    "total": 125,
+    "winner": "Pacific Tigers",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -4071,7 +4107,7 @@
    "game_id": "401909567",
    "game_id_source": "espn",
    "start_time": "2026-11-22T04:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Duke Blue Devils",
     "abbr": "DUKE",
@@ -4130,7 +4166,19 @@
     "side": "away",
     "cover_line": 25.5
    },
-   "result": null,
+   "result": {
+    "home_score": 78,
+    "away_score": 74,
+    "margin_home": 4,
+    "total": 152,
+    "winner": "Duke Blue Devils",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "value",
     "tournament"

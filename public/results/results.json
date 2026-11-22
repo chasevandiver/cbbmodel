@@ -102173,6 +102173,74 @@
       "ou_model_correct": false
     },
     {
+      "game_id": "401925099",
+      "date": "2026-11-22T01:00Z",
+      "home_team": "Oral Roberts Golden Eagles",
+      "away_team": "Texas A&M-Corpus Christi Islanders",
+      "home_abbr": "ORU",
+      "away_abbr": "AMCC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/357.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "2-3",
+      "home_location": "Oral Roberts",
+      "away_location": "Texas A&M-Corpus Christi",
+      "home_rating_team": "Oral Roberts",
+      "away_rating_team": "Texas A&M Corpus Chris",
+      "home_adj_em": -5.92,
+      "away_adj_em": -4.95,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Mabee Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "Summit League Network",
+      "predicted_spread": 2.8,
+      "predicted_total": 142.9,
+      "home_projected_score": 72.9,
+      "away_projected_score": 70.1,
+      "home_win_prob": 60.1,
+      "away_win_prob": 39.9,
+      "confidence": 56.3,
+      "pick": "Oral Roberts Golden Eagles",
+      "pick_abbr": "ORU",
+      "is_home_pick": true,
+      "projected_tempo": 68.8,
+      "factors": {
+        "efficiency_margin": -0.67,
+        "home_court": 3.48
+      },
+      "market": {
+        "spread": -2.5,
+        "over_under": 140.5,
+        "spread_holder": "ORU -2.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.3,
+      "model_vs_market": {
+        "spread_edge": 0.3,
+        "total_edge": 2.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 2.5,
+      "clv": null,
+      "actual_home_score": 78,
+      "actual_away_score": 74,
+      "actual_margin": 4,
+      "actual_total": 152,
+      "actual_winner": "Oral Roberts Golden Eagles",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
       "game_id": "401928998",
       "date": "2026-11-22T01:00Z",
       "home_team": "Valparaiso Beacons",
@@ -102239,16 +102307,241 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401925049",
+      "date": "2026-11-22T01:30Z",
+      "home_team": "Texas Southern Tigers",
+      "away_team": "LSU New Orleans Privateers",
+      "home_abbr": "TXSO",
+      "away_abbr": "NOLA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2640.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2443.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-5",
+      "away_record": "2-2",
+      "home_location": "Texas Southern",
+      "away_location": "LSU New Orleans",
+      "home_rating_team": "Texas Southern",
+      "away_rating_team": "New Orleans",
+      "home_adj_em": -15.24,
+      "away_adj_em": -7.98,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "H&PE Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "SWAC TV",
+      "predicted_spread": -1.9,
+      "predicted_total": 154.5,
+      "home_projected_score": 76.3,
+      "away_projected_score": 78.2,
+      "home_win_prob": 43.0,
+      "away_win_prob": 57.0,
+      "confidence": 67.7,
+      "pick": "LSU New Orleans Privateers",
+      "pick_abbr": "NOLA",
+      "is_home_pick": false,
+      "projected_tempo": 73.0,
+      "factors": {
+        "efficiency_margin": -5.3,
+        "home_court": 3.36
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 159.5,
+        "spread_holder": "Texas Southern Tigers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 3.4,
+      "model_vs_market": {
+        "spread_edge": 3.4,
+        "total_edge": -5.1
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 154.5,
+        "spread_holder": "Texas Southern Tigers",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-21T19:08:57.310109-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": 0.0,
+      "actual_home_score": 70,
+      "actual_away_score": 75,
+      "actual_margin": -5,
+      "actual_total": 145,
+      "actual_winner": "LSU New Orleans Privateers",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401917537",
+      "date": "2026-11-22T03:00Z",
+      "home_team": "Pacific Tigers",
+      "away_team": "Bradley Braves",
+      "home_abbr": "PAC",
+      "away_abbr": "BRAD",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/71.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "3-3",
+      "home_location": "Pacific",
+      "away_location": "Bradley",
+      "home_rating_team": "Pacific",
+      "away_rating_team": "Bradley",
+      "home_adj_em": 4.68,
+      "away_adj_em": -5.39,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Alex G. Spanos Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 9.4,
+      "predicted_total": 135.1,
+      "home_projected_score": 72.3,
+      "away_projected_score": 62.9,
+      "home_win_prob": 80.3,
+      "away_win_prob": 19.7,
+      "confidence": 55.5,
+      "pick": "Pacific Tigers",
+      "pick_abbr": "PAC",
+      "is_home_pick": true,
+      "projected_tempo": 67.0,
+      "factors": {
+        "efficiency_margin": 6.74,
+        "home_court": 2.65
+      },
+      "market": {
+        "spread": -9.5,
+        "over_under": 126.5,
+        "spread_holder": "Pacific Tigers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.1,
+      "model_vs_market": {
+        "spread_edge": -0.1,
+        "total_edge": 8.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -8.5,
+        "over_under": 130.5,
+        "spread_holder": "Pacific Tigers",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-21T20:44:33.531257-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 9.5,
+      "clv": null,
+      "actual_home_score": 63,
+      "actual_away_score": 62,
+      "actual_margin": 1,
+      "actual_total": 125,
+      "actual_winner": "Pacific Tigers",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401909567",
+      "date": "2026-11-22T04:00Z",
+      "home_team": "Duke Blue Devils",
+      "away_team": "Washington State Cougars",
+      "home_abbr": "DUKE",
+      "away_abbr": "WSU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+      "home_rank": 5,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "2-3",
+      "home_location": "Duke",
+      "away_location": "Washington State",
+      "home_rating_team": "Duke",
+      "away_rating_team": "Washington St.",
+      "home_adj_em": 27.73,
+      "away_adj_em": 0.24,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Acrisure Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 19.2,
+      "predicted_total": 151.1,
+      "home_projected_score": 85.2,
+      "away_projected_score": 65.9,
+      "home_win_prob": 96.0,
+      "away_win_prob": 4.0,
+      "confidence": 69.0,
+      "pick": "Duke Blue Devils",
+      "pick_abbr": "DUKE",
+      "is_home_pick": true,
+      "projected_tempo": 69.9,
+      "factors": {
+        "efficiency_margin": 19.23,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -25.5,
+        "over_under": 149.5,
+        "spread_holder": "Duke Blue Devils",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 6.2,
+      "model_vs_market": {
+        "spread_edge": -6.2,
+        "total_edge": 1.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -25.5,
+        "over_under": 149.5,
+        "spread_holder": "Duke Blue Devils",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-21T22:23:19.503240-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 25.5,
+      "clv": 0.0,
+      "actual_home_score": 78,
+      "actual_away_score": 74,
+      "actual_margin": 4,
+      "actual_total": 152,
+      "actual_winner": "Duke Blue Devils",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 751,
-      "model_mae": 10.01,
+      "n": 755,
+      "model_mae": 9.99,
       "market_mae": 9.65,
-      "intercept": -0.76,
-      "model_weight": 0.14,
-      "market_weight": 0.888,
+      "intercept": -0.79,
+      "model_weight": 0.149,
+      "market_weight": 0.879,
       "ats_by_edge": {
         "0-2": {
           "w": 142,
@@ -102256,14 +102549,14 @@
           "pct": 62.0
         },
         "2-4": {
-          "w": 113,
+          "w": 114,
           "l": 100,
-          "pct": 53.1
+          "pct": 53.3
         },
         "4-7": {
-          "w": 80,
+          "w": 81,
           "l": 70,
-          "pct": 53.3
+          "pct": 53.6
         },
         "7+": {
           "w": 36,
@@ -102273,10 +102566,10 @@
       }
     },
     "clv": {
-      "n": 492,
+      "n": 494,
       "avg": 0.29,
-      "beat_close_pct": 38.2,
-      "beat_or_matched_pct": 77.4
+      "beat_close_pct": 38.1,
+      "beat_or_matched_pct": 77.5
     },
     "clv_by_confidence": {
       "high": {
@@ -102286,35 +102579,35 @@
         "beat_or_matched_pct": 84.2
       },
       "medium": {
-        "n": 454,
+        "n": 456,
         "avg": 0.29,
-        "beat_close_pct": 38.1,
-        "beat_or_matched_pct": 76.9
+        "beat_close_pct": 37.9,
+        "beat_or_matched_pct": 77.0
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 753,
-    "ats_graded": 663,
+    "total_graded": 757,
+    "ats_graded": 665,
     "ats": {
-      "w": 371,
+      "w": 373,
       "l": 292,
       "p": 0,
-      "pct": 56.0
+      "pct": 56.1
     },
     "su": {
-      "correct": 584,
-      "total": 753,
-      "pct": 77.6
+      "correct": 588,
+      "total": 757,
+      "pct": 77.7
     },
     "ou": {
-      "over": 367,
-      "under": 384,
+      "over": 369,
+      "under": 386,
       "push": 0,
-      "model_correct": 388,
-      "model_gradeable": 751,
-      "model_pct": 51.7
+      "model_correct": 391,
+      "model_gradeable": 755,
+      "model_pct": 51.8
     },
     "by_confidence": {
       "high": {
@@ -102324,10 +102617,10 @@
         "pct": 50.0
       },
       "medium": {
-        "w": 344,
+        "w": 346,
         "l": 265,
         "p": 0,
-        "pct": 56.5
+        "pct": 56.6
       },
       "low": {
         "w": 0,
@@ -102337,27 +102630,27 @@
       }
     },
     "value_plays": {
-      "w": 159,
+      "w": 161,
       "l": 144,
       "p": 0,
-      "pct": 52.5
+      "pct": 52.8
     },
     "best_bets": {
-      "w": 96,
+      "w": 97,
       "l": 94,
       "p": 0,
-      "pct": 50.5
+      "pct": 50.8
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1459,
-        "model_mae": 10.43,
+        "n": 1463,
+        "model_mae": 10.42,
         "market_mae": 9.3,
-        "intercept": -0.03,
-        "model_weight": -0.003,
-        "market_weight": 0.979,
+        "intercept": -0.04,
+        "model_weight": -0.002,
+        "market_weight": 0.976,
         "ats_by_edge": {
           "0-2": {
             "w": 256,
@@ -102365,14 +102658,14 @@
             "pct": 55.1
           },
           "2-4": {
-            "w": 208,
+            "w": 209,
             "l": 180,
-            "pct": 53.6
+            "pct": 53.7
           },
           "4-7": {
-            "w": 118,
+            "w": 119,
             "l": 104,
-            "pct": 53.2
+            "pct": 53.4
           },
           "7+": {
             "w": 97,
@@ -102382,10 +102675,10 @@
         }
       },
       "clv": {
-        "n": 492,
+        "n": 494,
         "avg": 0.29,
-        "beat_close_pct": 38.2,
-        "beat_or_matched_pct": 77.4
+        "beat_close_pct": 38.1,
+        "beat_or_matched_pct": 77.5
       },
       "clv_by_confidence": {
         "high": {
@@ -102395,34 +102688,34 @@
           "beat_or_matched_pct": 84.2
         },
         "medium": {
-          "n": 454,
+          "n": 456,
           "avg": 0.29,
-          "beat_close_pct": 38.1,
-          "beat_or_matched_pct": 76.9
+          "beat_close_pct": 37.9,
+          "beat_or_matched_pct": 77.0
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1471,
-      "ats_graded": 1269,
+      "total_graded": 1475,
+      "ats_graded": 1271,
       "ats": {
-        "w": 679,
+        "w": 681,
         "l": 590,
         "p": 0,
-        "pct": 53.5
+        "pct": 53.6
       },
       "su": {
-        "correct": 1052,
-        "total": 1471,
-        "pct": 71.5
+        "correct": 1056,
+        "total": 1475,
+        "pct": 71.6
       },
       "ou": {
-        "over": 717,
-        "under": 742,
+        "over": 719,
+        "under": 744,
         "push": 0,
-        "model_correct": 745,
-        "model_gradeable": 1459,
+        "model_correct": 748,
+        "model_gradeable": 1463,
         "model_pct": 51.1
       },
       "by_confidence": {
@@ -102433,10 +102726,10 @@
           "pct": 49.0
         },
         "medium": {
-          "w": 511,
+          "w": 513,
           "l": 411,
           "p": 0,
-          "pct": 55.4
+          "pct": 55.5
         },
         "low": {
           "w": 41,
@@ -102446,18 +102739,18 @@
         }
       },
       "value_plays": {
-        "w": 304,
+        "w": 306,
         "l": 274,
         "p": 0,
-        "pct": 52.6
+        "pct": 52.8
       },
       "best_bets": {
-        "w": 133,
+        "w": 134,
         "l": 125,
         "p": 0,
-        "pct": 51.6
+        "pct": 51.7
       }
     }
   },
-  "generated_at": "2026-11-21T22:23:34.806490-05:00"
+  "generated_at": "2026-11-22T02:25:09.559324-05:00"
 }
