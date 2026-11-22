@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-22T18:27:25.155265-05:00",
+ "generated_at": "2026-11-22T18:47:24.985719-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -65314,7 +65314,7 @@
    "game_id": "401917540",
    "game_id_source": "espn",
    "start_time": "2026-11-22T21:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Loyola Marymount Lions",
     "abbr": "LMU",
@@ -65373,7 +65373,19 @@
     "side": "none",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 68,
+    "away_score": 72,
+    "margin_home": -4,
+    "total": 140,
+    "winner": "UC Irvine Anteaters",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
