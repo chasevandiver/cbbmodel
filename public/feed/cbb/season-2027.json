@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-21T18:34:26.464160-05:00",
+ "generated_at": "2026-11-21T19:09:12.170922-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -61700,7 +61700,7 @@
    "game_id": "401917538",
    "game_id_source": "espn",
    "start_time": "2026-11-21T21:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "San Diego Toreros",
     "abbr": "USD",
@@ -61759,7 +61759,19 @@
     "side": "home",
     "cover_line": -5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 64,
+    "away_score": 67,
+    "margin_home": -3,
+    "total": 131,
+    "winner": "UC Irvine Anteaters",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "tournament"
    ]
@@ -61774,7 +61786,7 @@
    "game_id": "401911337",
    "game_id_source": "espn",
    "start_time": "2026-11-21T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UTSA Roadrunners",
     "abbr": "UTSA",
@@ -61833,7 +61845,19 @@
     "side": "home",
     "cover_line": 5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 90,
+    "away_score": 68,
+    "margin_home": 22,
+    "total": 158,
+    "winner": "UTSA Roadrunners",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -61846,7 +61870,7 @@
    "game_id": "401919849",
    "game_id_source": "espn",
    "start_time": "2026-11-21T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Stonehill Skyhawks",
     "abbr": "STO",
@@ -61905,7 +61929,19 @@
     "side": "home",
     "cover_line": -7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 95,
+    "away_score": 82,
+    "margin_home": 13,
+    "total": 177,
+    "winner": "Stonehill Skyhawks",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": -2.0
+   },
    "tags": []
   },
   {
@@ -61918,7 +61954,7 @@
    "game_id": "401925065",
    "game_id_source": "espn",
    "start_time": "2026-11-21T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Nicholls Colonels",
     "abbr": "NICH",
@@ -61971,7 +62007,19 @@
     "side": "home",
     "cover_line": -3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 69,
+    "away_score": 80,
+    "margin_home": -11,
+    "total": 149,
+    "winner": "Southern Miss Golden Eagles",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -62991,7 +63039,7 @@
     "total": 163.5,
     "favorite": "Tennessee Tech Golden Eagles",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-21T17:56:43.184302-05:00"
+    "captured_at": "2026-11-21T19:08:57.310109-05:00"
    },
    "edge": {
     "spread": -1.4,
@@ -63199,7 +63247,7 @@
     "total": 154.5,
     "favorite": "Texas Southern Tigers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-21T17:56:43.184302-05:00"
+    "captured_at": "2026-11-21T19:08:57.310109-05:00"
    },
    "edge": {
     "spread": -3.4,
@@ -63274,7 +63322,7 @@
     "total": 130.5,
     "favorite": "Pacific Tigers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-21T17:56:43.184302-05:00"
+    "captured_at": "2026-11-21T19:08:57.310109-05:00"
    },
    "edge": {
     "spread": -0.1,
@@ -63346,7 +63394,7 @@
     "total": 149.5,
     "favorite": "Duke Blue Devils",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-21T17:56:43.184302-05:00"
+    "captured_at": "2026-11-21T19:08:57.310109-05:00"
    },
    "edge": {
     "spread": -6.3,

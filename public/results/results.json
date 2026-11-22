@@ -100828,26 +100828,319 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401917538",
+      "date": "2026-11-21T21:30Z",
+      "home_team": "San Diego Toreros",
+      "away_team": "UC Irvine Anteaters",
+      "home_abbr": "USD",
+      "away_abbr": "UCI",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/300.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "3-1",
+      "home_location": "San Diego",
+      "away_location": "UC Irvine",
+      "home_rating_team": "San Diego",
+      "away_rating_team": "UC Irvine",
+      "home_adj_em": 1.98,
+      "away_adj_em": 7.03,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Acrisure Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FloSports",
+      "predicted_spread": -3.5,
+      "predicted_total": 145.3,
+      "home_projected_score": 70.9,
+      "away_projected_score": 74.4,
+      "home_win_prob": 37.6,
+      "away_win_prob": 62.4,
+      "confidence": 62.1,
+      "pick": "UC Irvine Anteaters",
+      "pick_abbr": "UCI",
+      "is_home_pick": false,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": -3.47,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 5.5,
+        "over_under": 139.5,
+        "spread_holder": "UC Irvine Anteaters",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 2.0,
+      "model_vs_market": {
+        "spread_edge": -2.0,
+        "total_edge": 5.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 4.5,
+        "over_under": 133.5,
+        "spread_holder": "UC Irvine Anteaters",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-21T16:15:15.460086-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -5.5,
+      "clv": 1.0,
+      "actual_home_score": 64,
+      "actual_away_score": 67,
+      "actual_margin": -3,
+      "actual_total": 131,
+      "actual_winner": "UC Irvine Anteaters",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401911337",
+      "date": "2026-11-21T22:00Z",
+      "home_team": "UTSA Roadrunners",
+      "away_team": "Air Force Falcons",
+      "home_abbr": "UTSA",
+      "away_abbr": "AF",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "3-2",
+      "home_location": "UTSA",
+      "away_location": "Air Force",
+      "home_rating_team": "UTSA",
+      "away_rating_team": "Air Force",
+      "home_adj_em": -4.87,
+      "away_adj_em": -9.7,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "UTSA Convocation Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 6.3,
+      "predicted_total": 165.6,
+      "home_projected_score": 85.9,
+      "away_projected_score": 79.7,
+      "home_win_prob": 71.6,
+      "away_win_prob": 28.4,
+      "confidence": 58.1,
+      "pick": "UTSA Roadrunners",
+      "pick_abbr": "UTSA",
+      "is_home_pick": true,
+      "projected_tempo": 74.6,
+      "factors": {
+        "efficiency_margin": 3.6,
+        "home_court": 2.68
+      },
+      "market": {
+        "spread": -5.5,
+        "over_under": 172.5,
+        "spread_holder": "UTSA Roadrunners",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.8,
+      "model_vs_market": {
+        "spread_edge": 0.8,
+        "total_edge": -7.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -5.5,
+        "over_under": 173.5,
+        "spread_holder": "UTSA Roadrunners",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-21T16:15:15.460086-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 5.5,
+      "clv": 0.0,
+      "actual_home_score": 90,
+      "actual_away_score": 68,
+      "actual_margin": 22,
+      "actual_total": 158,
+      "actual_winner": "UTSA Roadrunners",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401919849",
+      "date": "2026-11-21T22:00Z",
+      "home_team": "Stonehill Skyhawks",
+      "away_team": "Northeastern Huskies",
+      "home_abbr": "STO",
+      "away_abbr": "NE",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/284.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "1-4",
+      "away_record": "2-3",
+      "home_location": "Stonehill",
+      "away_location": "Northeastern",
+      "home_rating_team": "Stonehill",
+      "away_rating_team": "Northeastern",
+      "home_adj_em": -17.76,
+      "away_adj_em": -3.95,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Merkert Gymnasium",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "NEC Front Row",
+      "predicted_spread": -6.5,
+      "predicted_total": 152.1,
+      "home_projected_score": 72.8,
+      "away_projected_score": 79.3,
+      "home_win_prob": 27.7,
+      "away_win_prob": 72.3,
+      "confidence": 58.7,
+      "pick": "Northeastern Huskies",
+      "pick_abbr": "NE",
+      "is_home_pick": false,
+      "projected_tempo": 69.7,
+      "factors": {
+        "efficiency_margin": -9.63,
+        "home_court": 3.12
+      },
+      "market": {
+        "spread": 7.5,
+        "over_under": 148.5,
+        "spread_holder": "Northeastern Huskies",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 0.9,
+      "model_vs_market": {
+        "spread_edge": -0.9,
+        "total_edge": 3.4
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 9.5,
+        "over_under": 146.5,
+        "spread_holder": "Northeastern Huskies",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-21T16:15:15.460086-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -7.5,
+      "clv": -2.0,
+      "actual_home_score": 95,
+      "actual_away_score": 82,
+      "actual_margin": 13,
+      "actual_total": 177,
+      "actual_winner": "Stonehill Skyhawks",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401925065",
+      "date": "2026-11-21T22:00Z",
+      "home_team": "Nicholls Colonels",
+      "away_team": "Southern Miss Golden Eagles",
+      "home_abbr": "NICH",
+      "away_abbr": "USM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-3",
+      "away_record": "3-3",
+      "home_location": "Nicholls",
+      "away_location": "Southern Miss",
+      "home_rating_team": "Nicholls St.",
+      "away_rating_team": "Southern Miss",
+      "home_adj_em": -11.19,
+      "away_adj_em": -8.24,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Pensacola Bay Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "YouTube",
+      "predicted_spread": -2.1,
+      "predicted_total": 147.7,
+      "home_projected_score": 72.8,
+      "away_projected_score": 74.9,
+      "home_win_prob": 42.4,
+      "away_win_prob": 57.6,
+      "confidence": 60.6,
+      "pick": "Southern Miss Golden Eagles",
+      "pick_abbr": "USM",
+      "is_home_pick": false,
+      "projected_tempo": 71.0,
+      "factors": {
+        "efficiency_margin": -2.1,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 3.5,
+        "over_under": 143.5,
+        "spread_holder": "USM -3.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 1.4,
+      "model_vs_market": {
+        "spread_edge": -1.4,
+        "total_edge": 4.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -3.5,
+      "clv": null,
+      "actual_home_score": 69,
+      "actual_away_score": 80,
+      "actual_margin": -11,
+      "actual_total": 149,
+      "actual_winner": "Southern Miss Golden Eagles",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 732,
-      "model_mae": 10.0,
-      "market_mae": 9.61,
-      "intercept": -0.88,
-      "model_weight": 0.136,
-      "market_weight": 0.898,
+      "n": 736,
+      "model_mae": 10.01,
+      "market_mae": 9.62,
+      "intercept": -0.78,
+      "model_weight": 0.133,
+      "market_weight": 0.896,
       "ats_by_edge": {
         "0-2": {
-          "w": 136,
-          "l": 83,
-          "pct": 62.1
+          "w": 138,
+          "l": 84,
+          "pct": 62.2
         },
         "2-4": {
-          "w": 110,
+          "w": 111,
           "l": 98,
-          "pct": 52.9
+          "pct": 53.1
         },
         "4-7": {
           "w": 76,
@@ -100862,10 +101155,10 @@
       }
     },
     "clv": {
-      "n": 475,
-      "avg": 0.3,
+      "n": 478,
+      "avg": 0.29,
       "beat_close_pct": 38.1,
-      "beat_or_matched_pct": 77.5
+      "beat_or_matched_pct": 77.4
     },
     "clv_by_confidence": {
       "high": {
@@ -100875,35 +101168,35 @@
         "beat_or_matched_pct": 82.4
       },
       "medium": {
-        "n": 441,
+        "n": 444,
         "avg": 0.3,
         "beat_close_pct": 38.3,
-        "beat_or_matched_pct": 77.1
+        "beat_or_matched_pct": 77.0
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 734,
-    "ats_graded": 644,
+    "total_graded": 738,
+    "ats_graded": 648,
     "ats": {
-      "w": 358,
-      "l": 286,
+      "w": 361,
+      "l": 287,
       "p": 0,
-      "pct": 55.6
+      "pct": 55.7
     },
     "su": {
-      "correct": 571,
-      "total": 734,
+      "correct": 574,
+      "total": 738,
       "pct": 77.8
     },
     "ou": {
-      "over": 355,
-      "under": 377,
+      "over": 357,
+      "under": 379,
       "push": 0,
-      "model_correct": 375,
-      "model_gradeable": 732,
-      "model_pct": 51.2
+      "model_correct": 378,
+      "model_gradeable": 736,
+      "model_pct": 51.4
     },
     "by_confidence": {
       "high": {
@@ -100913,10 +101206,10 @@
         "pct": 48.0
       },
       "medium": {
-        "w": 334,
-        "l": 260,
+        "w": 337,
+        "l": 261,
         "p": 0,
-        "pct": 56.2
+        "pct": 56.4
       },
       "low": {
         "w": 0,
@@ -100941,22 +101234,22 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1440,
-        "model_mae": 10.43,
-        "market_mae": 9.27,
-        "intercept": -0.07,
+        "n": 1444,
+        "model_mae": 10.44,
+        "market_mae": 9.28,
+        "intercept": -0.03,
         "model_weight": -0.003,
-        "market_weight": 0.982,
+        "market_weight": 0.981,
         "ats_by_edge": {
           "0-2": {
-            "w": 250,
-            "l": 205,
-            "pct": 54.9
+            "w": 252,
+            "l": 206,
+            "pct": 55.0
           },
           "2-4": {
-            "w": 205,
+            "w": 206,
             "l": 178,
-            "pct": 53.5
+            "pct": 53.6
           },
           "4-7": {
             "w": 114,
@@ -100971,10 +101264,10 @@
         }
       },
       "clv": {
-        "n": 475,
-        "avg": 0.3,
+        "n": 478,
+        "avg": 0.29,
         "beat_close_pct": 38.1,
-        "beat_or_matched_pct": 77.5
+        "beat_or_matched_pct": 77.4
       },
       "clv_by_confidence": {
         "high": {
@@ -100984,35 +101277,35 @@
           "beat_or_matched_pct": 82.4
         },
         "medium": {
-          "n": 441,
+          "n": 444,
           "avg": 0.3,
           "beat_close_pct": 38.3,
-          "beat_or_matched_pct": 77.1
+          "beat_or_matched_pct": 77.0
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1452,
-      "ats_graded": 1250,
+      "total_graded": 1456,
+      "ats_graded": 1254,
       "ats": {
-        "w": 666,
-        "l": 584,
+        "w": 669,
+        "l": 585,
         "p": 0,
         "pct": 53.3
       },
       "su": {
-        "correct": 1039,
-        "total": 1452,
+        "correct": 1042,
+        "total": 1456,
         "pct": 71.6
       },
       "ou": {
-        "over": 705,
-        "under": 735,
+        "over": 707,
+        "under": 737,
         "push": 0,
-        "model_correct": 732,
-        "model_gradeable": 1440,
-        "model_pct": 50.8
+        "model_correct": 735,
+        "model_gradeable": 1444,
+        "model_pct": 50.9
       },
       "by_confidence": {
         "high": {
@@ -101022,10 +101315,10 @@
           "pct": 48.6
         },
         "medium": {
-          "w": 501,
-          "l": 406,
+          "w": 504,
+          "l": 407,
           "p": 0,
-          "pct": 55.2
+          "pct": 55.3
         },
         "low": {
           "w": 41,
@@ -101048,5 +101341,5 @@
       }
     }
   },
-  "generated_at": "2026-11-21T18:34:26.340045-05:00"
+  "generated_at": "2026-11-21T19:09:12.029371-05:00"
 }
