@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T02:43:40.656315-05:00",
+  "generated_at": "2026-11-22T05:01:46.671344-05:00",
   "date": "20261122",
   "total_games": 38,
   "model_version": "4.1.0",
@@ -966,14 +966,14 @@
       },
       "market": {
         "spread": 5.5,
-        "over_under": 147.5,
+        "over_under": 148.5,
         "spread_holder": "GW -5.5",
         "bookmaker": "espn"
       },
       "value_rating": 1.1,
       "model_vs_market": {
         "spread_edge": -1.1,
-        "total_edge": 0.6
+        "total_edge": -0.4
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1560,14 +1560,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 132.5,
+        "over_under": 129.5,
         "spread_holder": "American Eagles",
         "bookmaker": "betmgm"
       },
       "value_rating": 0.7,
       "model_vs_market": {
         "spread_edge": 0.7,
-        "total_edge": 3.4
+        "total_edge": 6.4
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1614,14 +1614,14 @@
       },
       "market": {
         "spread": -2.5,
-        "over_under": 164.5,
+        "over_under": 165.5,
         "spread_holder": "LAM -2.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.9,
       "model_vs_market": {
         "spread_edge": -0.9,
-        "total_edge": -5.2
+        "total_edge": -6.2
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1722,14 +1722,14 @@
       },
       "market": {
         "spread": 6.5,
-        "over_under": 135.5,
+        "over_under": 136.5,
         "spread_holder": "TROY -6.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.4,
       "model_vs_market": {
         "spread_edge": 0.4,
-        "total_edge": 5.1
+        "total_edge": 4.1
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1830,14 +1830,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 152.5,
+        "over_under": 153.5,
         "spread_holder": "UTU -1.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.3,
       "model_vs_market": {
         "spread_edge": -0.3,
-        "total_edge": 0.9
+        "total_edge": -0.1
       },
       "is_best_bet": false,
       "is_tournament_game": true

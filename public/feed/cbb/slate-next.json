@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-22T02:43:40.876663-05:00",
+ "generated_at": "2026-11-22T05:01:46.834018-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-22",
@@ -265,7 +265,7 @@
    },
    "market": {
     "spread_home": -1.5,
-    "total": 132.5,
+    "total": 129.5,
     "favorite": "American Eagles",
     "bookmaker": "betmgm",
     "captured_at": null
@@ -273,7 +273,7 @@
    "closing": null,
    "edge": {
     "spread": 0.7,
-    "total": 3.4,
+    "total": 6.4,
     "value_rating": 0.7,
     "is_best_bet": false
    },
@@ -871,7 +871,7 @@
    },
    "market": {
     "spread_home": -1.5,
-    "total": 152.5,
+    "total": 153.5,
     "favorite": "UTU -1.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -879,7 +879,7 @@
    "closing": null,
    "edge": {
     "spread": -0.3,
-    "total": 0.9,
+    "total": -0.1,
     "value_rating": 0.3,
     "is_best_bet": false
    },
@@ -939,7 +939,7 @@
    },
    "market": {
     "spread_home": 5.5,
-    "total": 147.5,
+    "total": 148.5,
     "favorite": "GW -5.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -947,7 +947,7 @@
    "closing": null,
    "edge": {
     "spread": 1.1,
-    "total": 0.6,
+    "total": -0.4,
     "value_rating": 1.1,
     "is_best_bet": false
    },
@@ -1209,7 +1209,7 @@
    },
    "market": {
     "spread_home": 6.5,
-    "total": 135.5,
+    "total": 136.5,
     "favorite": "TROY -6.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -1217,7 +1217,7 @@
    "closing": null,
    "edge": {
     "spread": -0.4,
-    "total": 5.1,
+    "total": 4.1,
     "value_rating": 0.4,
     "is_best_bet": false
    },
@@ -1885,7 +1885,7 @@
    },
    "market": {
     "spread_home": -2.5,
-    "total": 164.5,
+    "total": 165.5,
     "favorite": "LAM -2.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -1893,7 +1893,7 @@
    "closing": null,
    "edge": {
     "spread": -0.9,
-    "total": -5.2,
+    "total": -6.2,
     "value_rating": 0.9,
     "is_best_bet": false
    },
