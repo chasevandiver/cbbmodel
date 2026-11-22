@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T22:23:34.426019-05:00",
+  "generated_at": "2026-11-22T02:43:40.656315-05:00",
   "date": "20261122",
   "total_games": 38,
   "model_version": "4.1.0",
@@ -264,14 +264,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 142.5,
+        "over_under": 143.5,
         "spread_holder": "LIB -1.5",
         "bookmaker": "espn"
       },
       "value_rating": 3.4,
       "model_vs_market": {
         "spread_edge": 3.4,
-        "total_edge": 4.9
+        "total_edge": 3.9
       },
       "is_best_bet": true,
       "is_tournament_game": true
@@ -372,14 +372,14 @@
       },
       "market": {
         "spread": -30.5,
-        "over_under": 148.5,
+        "over_under": 147.5,
         "spread_holder": "Cincinnati Bearcats",
         "bookmaker": "betmgm"
       },
       "value_rating": 5.7,
       "model_vs_market": {
         "spread_edge": -5.7,
-        "total_edge": -3.0
+        "total_edge": -2.0
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -601,60 +601,6 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401929023",
-      "date": "2026-11-22T18:00Z",
-      "home_team": "Canisius Golden Griffins",
-      "away_team": "Western Illinois Leathernecks",
-      "home_abbr": "CAN",
-      "away_abbr": "WIU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-3",
-      "away_record": "1-6",
-      "home_location": "Canisius",
-      "away_location": "Western Illinois",
-      "home_rating_team": "Canisius",
-      "away_rating_team": "Western Illinois",
-      "home_adj_em": -17.0,
-      "away_adj_em": -20.71,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Koessler Athletic Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 5.6,
-      "predicted_total": 146.7,
-      "home_projected_score": 76.1,
-      "away_projected_score": 70.6,
-      "home_win_prob": 69.4,
-      "away_win_prob": 30.6,
-      "confidence": 64.3,
-      "pick": "Canisius Golden Griffins",
-      "pick_abbr": "CAN",
-      "is_home_pick": true,
-      "projected_tempo": 68.7,
-      "factors": {
-        "efficiency_margin": 2.55,
-        "home_court": 3.02
-      },
-      "market": {
-        "spread": -3.5,
-        "over_under": 139.5,
-        "spread_holder": "Canisius Golden Griffins",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 2.1,
-      "model_vs_market": {
-        "spread_edge": 2.1,
-        "total_edge": 7.2
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401918988",
       "date": "2026-11-22T19:00Z",
       "home_team": "Memphis Tigers",
@@ -696,14 +642,14 @@
       },
       "market": {
         "spread": -21.5,
-        "over_under": 159.5,
+        "over_under": 158.5,
         "spread_holder": "Memphis Tigers",
         "bookmaker": "betmgm"
       },
       "value_rating": 4.9,
       "model_vs_market": {
         "spread_edge": -4.9,
-        "total_edge": -1.6
+        "total_edge": -0.6
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -761,60 +707,6 @@
       },
       "is_best_bet": false,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401919809",
-      "date": "2026-11-22T18:00Z",
-      "home_team": "Long Island University Sharks",
-      "away_team": "Fairfield Stags",
-      "home_abbr": "LIU",
-      "away_abbr": "FAIR",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/112358.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2217.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "1-6",
-      "away_record": "3-2",
-      "home_location": "Long Island University",
-      "away_location": "Fairfield",
-      "home_rating_team": "LIU",
-      "away_rating_team": "Fairfield",
-      "home_adj_em": -8.0,
-      "away_adj_em": -9.51,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Brooklyn Athletic Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "NEC Front Row",
-      "predicted_spread": 4.3,
-      "predicted_total": 141.9,
-      "home_projected_score": 73.1,
-      "away_projected_score": 68.8,
-      "home_win_prob": 65.2,
-      "away_win_prob": 34.8,
-      "confidence": 62.2,
-      "pick": "Long Island University Sharks",
-      "pick_abbr": "LIU",
-      "is_home_pick": true,
-      "projected_tempo": 70.2,
-      "factors": {
-        "efficiency_margin": 1.06,
-        "home_court": 3.24
-      },
-      "market": {
-        "spread": -2.5,
-        "over_under": 143.5,
-        "spread_holder": "LIU Sharks",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 1.8,
-      "model_vs_market": {
-        "spread_edge": 1.8,
-        "total_edge": -1.6
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
     },
     {
       "game_id": "401921206",
@@ -925,6 +817,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401928999",
+      "date": "2026-11-22T23:00Z",
+      "home_team": "Valparaiso Beacons",
+      "away_team": "Southern Miss Golden Eagles",
+      "home_abbr": "VAL",
+      "away_abbr": "USM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2674.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "4-3",
+      "home_location": "Valparaiso",
+      "away_location": "Southern Miss",
+      "home_rating_team": "Valparaiso",
+      "away_rating_team": "Southern Miss",
+      "home_adj_em": 1.04,
+      "away_adj_em": -8.24,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Pensacola Bay Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "YouTube",
+      "predicted_spread": 6.5,
+      "predicted_total": 149.1,
+      "home_projected_score": 77.8,
+      "away_projected_score": 71.3,
+      "home_win_prob": 72.2,
+      "away_win_prob": 27.8,
+      "confidence": 62.1,
+      "pick": "Valparaiso Beacons",
+      "pick_abbr": "VAL",
+      "is_home_pick": true,
+      "projected_tempo": 69.9,
+      "factors": {
+        "efficiency_margin": 6.49,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -8.5,
+        "over_under": 145.5,
+        "spread_holder": "VAL -8.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 2.0,
+      "model_vs_market": {
+        "spread_edge": -2.0,
+        "total_edge": 3.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
       "game_id": "401921176",
       "date": "2026-11-22T21:30Z",
       "home_team": "Maryland Eastern Shore Hawks",
@@ -966,68 +912,14 @@
       },
       "market": {
         "spread": 10.5,
-        "over_under": 142.5,
+        "over_under": 140.5,
         "spread_holder": "IUIN -10.5",
         "bookmaker": "espn"
       },
       "value_rating": 1.5,
       "model_vs_market": {
         "spread_edge": -1.5,
-        "total_edge": -0.4
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
-    },
-    {
-      "game_id": "401925066",
-      "date": "2026-11-22T20:00Z",
-      "home_team": "Nicholls Colonels",
-      "away_team": "Troy Trojans",
-      "home_abbr": "NICH",
-      "away_abbr": "TROY",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "2-4",
-      "away_record": "2-4",
-      "home_location": "Nicholls",
-      "away_location": "Troy",
-      "home_rating_team": "Nicholls St.",
-      "away_rating_team": "Troy",
-      "home_adj_em": -11.19,
-      "away_adj_em": -0.92,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Pensacola Bay Center",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "YouTube",
-      "predicted_spread": -6.9,
-      "predicted_total": 140.6,
-      "home_projected_score": 66.8,
-      "away_projected_score": 73.8,
-      "home_win_prob": 26.4,
-      "away_win_prob": 73.6,
-      "confidence": 60.7,
-      "pick": "Troy Trojans",
-      "pick_abbr": "TROY",
-      "is_home_pick": false,
-      "projected_tempo": 67.5,
-      "factors": {
-        "efficiency_margin": -6.93,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": 5.5,
-        "over_under": 134.5,
-        "spread_holder": "TROY -5.5",
-        "bookmaker": "espn"
-      },
-      "value_rating": 1.4,
-      "model_vs_market": {
-        "spread_edge": 1.4,
-        "total_edge": 6.1
+        "total_edge": 1.6
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1074,17 +966,71 @@
       },
       "market": {
         "spread": 5.5,
-        "over_under": 146.5,
+        "over_under": 147.5,
         "spread_holder": "GW -5.5",
         "bookmaker": "espn"
       },
       "value_rating": 1.1,
       "model_vs_market": {
         "spread_edge": -1.1,
-        "total_edge": 1.6
+        "total_edge": 0.6
       },
       "is_best_bet": false,
       "is_tournament_game": true
+    },
+    {
+      "game_id": "401929023",
+      "date": "2026-11-22T18:00Z",
+      "home_team": "Canisius Golden Griffins",
+      "away_team": "Western Illinois Leathernecks",
+      "home_abbr": "CAN",
+      "away_abbr": "WIU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2099.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-3",
+      "away_record": "1-6",
+      "home_location": "Canisius",
+      "away_location": "Western Illinois",
+      "home_rating_team": "Canisius",
+      "away_rating_team": "Western Illinois",
+      "home_adj_em": -17.0,
+      "away_adj_em": -20.71,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Koessler Athletic Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 5.6,
+      "predicted_total": 146.7,
+      "home_projected_score": 76.1,
+      "away_projected_score": 70.6,
+      "home_win_prob": 69.4,
+      "away_win_prob": 30.6,
+      "confidence": 60.3,
+      "pick": "Canisius Golden Griffins",
+      "pick_abbr": "CAN",
+      "is_home_pick": true,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": 2.55,
+        "home_court": 3.02
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 139.5,
+        "spread_holder": "Canisius Golden Griffins",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 1.1,
+      "model_vs_market": {
+        "spread_edge": 1.1,
+        "total_edge": 7.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
     },
     {
       "game_id": "401920381",
@@ -1290,14 +1236,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 144.5,
+        "over_under": 146.5,
         "spread_holder": "UC San Diego Tritons",
         "bookmaker": "fanduel"
       },
       "value_rating": 1.4,
       "model_vs_market": {
         "spread_edge": -1.4,
-        "total_edge": 1.8
+        "total_edge": -0.2
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1411,58 +1357,58 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401928999",
-      "date": "2026-11-22T23:00Z",
-      "home_team": "Valparaiso Beacons",
-      "away_team": "Southern Miss Golden Eagles",
-      "home_abbr": "VAL",
-      "away_abbr": "USM",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2674.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+      "game_id": "401919809",
+      "date": "2026-11-22T18:00Z",
+      "home_team": "Long Island University Sharks",
+      "away_team": "Fairfield Stags",
+      "home_abbr": "LIU",
+      "away_abbr": "FAIR",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/112358.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2217.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "4-1",
-      "away_record": "4-3",
-      "home_location": "Valparaiso",
-      "away_location": "Southern Miss",
-      "home_rating_team": "Valparaiso",
-      "away_rating_team": "Southern Miss",
-      "home_adj_em": 1.04,
-      "away_adj_em": -8.24,
+      "home_record": "1-6",
+      "away_record": "3-2",
+      "home_location": "Long Island University",
+      "away_location": "Fairfield",
+      "home_rating_team": "LIU",
+      "away_rating_team": "Fairfield",
+      "home_adj_em": -8.0,
+      "away_adj_em": -9.51,
       "home_rest_days": null,
       "away_rest_days": null,
-      "venue": "Pensacola Bay Center",
-      "neutral_site": true,
+      "venue": "Brooklyn Athletic Center",
+      "neutral_site": false,
       "conference_game": false,
-      "broadcast": "YouTube",
-      "predicted_spread": 6.5,
-      "predicted_total": 149.1,
-      "home_projected_score": 77.8,
-      "away_projected_score": 71.3,
-      "home_win_prob": 72.2,
-      "away_win_prob": 27.8,
-      "confidence": 58.1,
-      "pick": "Valparaiso Beacons",
-      "pick_abbr": "VAL",
+      "broadcast": "NEC Front Row",
+      "predicted_spread": 4.3,
+      "predicted_total": 141.9,
+      "home_projected_score": 73.1,
+      "away_projected_score": 68.8,
+      "home_win_prob": 65.2,
+      "away_win_prob": 34.8,
+      "confidence": 58.2,
+      "pick": "Long Island University Sharks",
+      "pick_abbr": "LIU",
       "is_home_pick": true,
-      "projected_tempo": 69.9,
+      "projected_tempo": 70.2,
       "factors": {
-        "efficiency_margin": 6.49,
-        "home_court": 0.0
+        "efficiency_margin": 1.06,
+        "home_court": 3.24
       },
       "market": {
-        "spread": -7.5,
-        "over_under": 143.5,
-        "spread_holder": "VAL -7.5",
-        "bookmaker": "espn"
+        "spread": -3.5,
+        "over_under": 146.5,
+        "spread_holder": "LIU Sharks",
+        "bookmaker": "betmgm"
       },
-      "value_rating": 1.0,
+      "value_rating": 0.8,
       "model_vs_market": {
-        "spread_edge": -1.0,
-        "total_edge": 5.6
+        "spread_edge": 0.8,
+        "total_edge": -4.6
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": false
     },
     {
       "game_id": "401928790",
@@ -1614,14 +1560,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 133.5,
+        "over_under": 132.5,
         "spread_holder": "American Eagles",
         "bookmaker": "betmgm"
       },
       "value_rating": 0.7,
       "model_vs_market": {
         "spread_edge": 0.7,
-        "total_edge": 2.4
+        "total_edge": 3.4
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1668,14 +1614,14 @@
       },
       "market": {
         "spread": -2.5,
-        "over_under": 162.5,
+        "over_under": 164.5,
         "spread_holder": "LAM -2.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.9,
       "model_vs_market": {
         "spread_edge": -0.9,
-        "total_edge": -3.2
+        "total_edge": -5.2
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1722,17 +1668,125 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 142.5,
+        "over_under": 141.5,
         "spread_holder": "South Alabama Jaguars",
         "bookmaker": "betmgm"
       },
       "value_rating": 0.2,
       "model_vs_market": {
         "spread_edge": -0.2,
-        "total_edge": 1.6
+        "total_edge": 2.6
       },
       "is_best_bet": false,
       "is_tournament_game": false
+    },
+    {
+      "game_id": "401925066",
+      "date": "2026-11-22T20:00Z",
+      "home_team": "Nicholls Colonels",
+      "away_team": "Troy Trojans",
+      "home_abbr": "NICH",
+      "away_abbr": "TROY",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-4",
+      "away_record": "2-4",
+      "home_location": "Nicholls",
+      "away_location": "Troy",
+      "home_rating_team": "Nicholls St.",
+      "away_rating_team": "Troy",
+      "home_adj_em": -11.19,
+      "away_adj_em": -0.92,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Pensacola Bay Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "YouTube",
+      "predicted_spread": -6.9,
+      "predicted_total": 140.6,
+      "home_projected_score": 66.8,
+      "away_projected_score": 73.8,
+      "home_win_prob": 26.4,
+      "away_win_prob": 73.6,
+      "confidence": 56.7,
+      "pick": "Troy Trojans",
+      "pick_abbr": "TROY",
+      "is_home_pick": false,
+      "projected_tempo": 67.5,
+      "factors": {
+        "efficiency_margin": -6.93,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 6.5,
+        "over_under": 135.5,
+        "spread_holder": "TROY -6.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.4,
+      "model_vs_market": {
+        "spread_edge": 0.4,
+        "total_edge": 5.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
+      "game_id": "401917540",
+      "date": "2026-11-22T21:30Z",
+      "home_team": "Loyola Marymount Lions",
+      "away_team": "UC Irvine Anteaters",
+      "home_abbr": "LMU",
+      "away_abbr": "UCI",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/300.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "3-2",
+      "home_location": "Loyola Marymount",
+      "away_location": "UC Irvine",
+      "home_rating_team": "Loyola Marymount",
+      "away_rating_team": "UC Irvine",
+      "home_adj_em": 2.45,
+      "away_adj_em": 7.03,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Acrisure Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FloSports",
+      "predicted_spread": -3.2,
+      "predicted_total": 146.5,
+      "home_projected_score": 71.7,
+      "away_projected_score": 74.8,
+      "home_win_prob": 38.6,
+      "away_win_prob": 61.4,
+      "confidence": 56.7,
+      "pick": "UC Irvine Anteaters",
+      "pick_abbr": "UCI",
+      "is_home_pick": false,
+      "projected_tempo": 69.3,
+      "factors": {
+        "efficiency_margin": -3.17,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 138.5,
+        "spread_holder": "UC Irvine Anteaters",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 0.7,
+      "model_vs_market": {
+        "spread_edge": 0.7,
+        "total_edge": 8.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
     },
     {
       "game_id": "401925942",
@@ -1776,14 +1830,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 154.5,
+        "over_under": 152.5,
         "spread_holder": "UTU -1.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.3,
       "model_vs_market": {
         "spread_edge": -0.3,
-        "total_edge": -1.1
+        "total_edge": 0.9
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1843,55 +1897,55 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401917540",
-      "date": "2026-11-22T21:30Z",
-      "home_team": "Loyola Marymount Lions",
-      "away_team": "UC Irvine Anteaters",
-      "home_abbr": "LMU",
-      "away_abbr": "UCI",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/300.png",
+      "game_id": "401902281",
+      "date": "2026-11-22T17:00Z",
+      "home_team": "Butler Bulldogs",
+      "away_team": "Nebraska Cornhuskers",
+      "home_abbr": "BTLR",
+      "away_abbr": "NEB",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
       "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-3",
-      "away_record": "3-2",
-      "home_location": "Loyola Marymount",
-      "away_location": "UC Irvine",
-      "home_rating_team": "Loyola Marymount",
-      "away_rating_team": "UC Irvine",
-      "home_adj_em": 2.45,
-      "away_adj_em": 7.03,
+      "away_rank": 24,
+      "home_record": "4-2",
+      "away_record": "5-0",
+      "home_location": "Butler",
+      "away_location": "Nebraska",
+      "home_rating_team": "Butler",
+      "away_rating_team": "Nebraska",
+      "home_adj_em": 8.38,
+      "away_adj_em": 24.1,
       "home_rest_days": null,
       "away_rest_days": null,
-      "venue": "Acrisure Arena",
+      "venue": "Credit Union 1 Arena",
       "neutral_site": true,
       "conference_game": false,
-      "broadcast": "FloSports",
-      "predicted_spread": -3.2,
-      "predicted_total": 146.5,
-      "home_projected_score": 71.7,
-      "away_projected_score": 74.8,
-      "home_win_prob": 38.6,
-      "away_win_prob": 61.4,
-      "confidence": 55.3,
-      "pick": "UC Irvine Anteaters",
-      "pick_abbr": "UCI",
+      "broadcast": "FS1",
+      "predicted_spread": -11.3,
+      "predicted_total": 152.5,
+      "home_projected_score": 70.6,
+      "away_projected_score": 81.9,
+      "home_win_prob": 15.3,
+      "away_win_prob": 84.7,
+      "confidence": 54.9,
+      "pick": "Nebraska Cornhuskers",
+      "pick_abbr": "NEB",
       "is_home_pick": false,
-      "projected_tempo": 69.3,
+      "projected_tempo": 71.7,
       "factors": {
-        "efficiency_margin": -3.17,
+        "efficiency_margin": -11.27,
         "home_court": 0.0
       },
       "market": {
-        "spread": 3.5,
-        "over_under": 139.5,
-        "spread_holder": "UC Irvine Anteaters",
-        "bookmaker": "betmgm"
+        "spread": 12.5,
+        "over_under": 154.5,
+        "spread_holder": "NEB -12.5",
+        "bookmaker": "espn"
       },
-      "value_rating": 0.3,
+      "value_rating": 1.2,
       "model_vs_market": {
-        "spread_edge": -0.3,
-        "total_edge": 7.0
+        "spread_edge": -1.2,
+        "total_edge": -2.0
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1951,60 +2005,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401902281",
-      "date": "2026-11-22T17:00Z",
-      "home_team": "Butler Bulldogs",
-      "away_team": "Nebraska Cornhuskers",
-      "home_abbr": "BTLR",
-      "away_abbr": "NEB",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-      "home_rank": 99,
-      "away_rank": 24,
-      "home_record": "4-2",
-      "away_record": "5-0",
-      "home_location": "Butler",
-      "away_location": "Nebraska",
-      "home_rating_team": "Butler",
-      "away_rating_team": "Nebraska",
-      "home_adj_em": 8.38,
-      "away_adj_em": 24.1,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Credit Union 1 Arena",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "FS1",
-      "predicted_spread": -11.3,
-      "predicted_total": 152.5,
-      "home_projected_score": 70.6,
-      "away_projected_score": 81.9,
-      "home_win_prob": 15.3,
-      "away_win_prob": 84.7,
-      "confidence": 50.9,
-      "pick": "Nebraska Cornhuskers",
-      "pick_abbr": "NEB",
-      "is_home_pick": false,
-      "projected_tempo": 71.7,
-      "factors": {
-        "efficiency_margin": -11.27,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": 11.5,
-        "over_under": 154.5,
-        "spread_holder": "NEB -11.5",
-        "bookmaker": "espn"
-      },
-      "value_rating": 0.2,
-      "model_vs_market": {
-        "spread_edge": -0.2,
-        "total_edge": -2.0
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
-    },
-    {
       "game_id": "401906868",
       "date": "2026-11-22T20:00Z",
       "home_team": "Texas Longhorns",
@@ -2046,14 +2046,14 @@
       },
       "market": {
         "spread": -39.5,
-        "over_under": 148.5,
+        "over_under": 149.5,
         "spread_holder": "Texas Longhorns",
         "bookmaker": "betmgm"
       },
       "value_rating": 10.3,
       "model_vs_market": {
         "spread_edge": -10.3,
-        "total_edge": 0.7
+        "total_edge": -0.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
