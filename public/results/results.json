@@ -101121,31 +101121,406 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401925709",
+      "date": "2026-11-21T22:00Z",
+      "home_team": "Wofford Terriers",
+      "away_team": "Winthrop Eagles",
+      "home_abbr": "WOF",
+      "away_abbr": "WIN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2737.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "0-5",
+      "home_location": "Wofford",
+      "away_location": "Winthrop",
+      "home_rating_team": "Wofford",
+      "away_rating_team": "Winthrop",
+      "home_adj_em": -8.96,
+      "away_adj_em": -9.41,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Jerry Richardson Indoor Stadium",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 3.5,
+      "predicted_total": 160.5,
+      "home_projected_score": 82.0,
+      "away_projected_score": 78.5,
+      "home_win_prob": 62.6,
+      "away_win_prob": 37.4,
+      "confidence": 62.9,
+      "pick": "Wofford Terriers",
+      "pick_abbr": "WOF",
+      "is_home_pick": true,
+      "projected_tempo": 71.5,
+      "factors": {
+        "efficiency_margin": 0.32,
+        "home_court": 3.2
+      },
+      "market": {
+        "spread": -5.5,
+        "over_under": 165.5,
+        "spread_holder": "Wofford Terriers",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 2.0,
+      "model_vs_market": {
+        "spread_edge": -2.0,
+        "total_edge": -5.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -6.5,
+        "over_under": 161.5,
+        "spread_holder": "Wofford Terriers",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-21T16:15:15.460086-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 5.5,
+      "clv": -1.0,
+      "actual_home_score": 91,
+      "actual_away_score": 86,
+      "actual_margin": 5,
+      "actual_total": 177,
+      "actual_winner": "Wofford Terriers",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920570",
+      "date": "2026-11-21T22:30Z",
+      "home_team": "East Carolina Pirates",
+      "away_team": "Southern Illinois Salukis",
+      "home_abbr": "ECU",
+      "away_abbr": "SIU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "2-3",
+      "home_location": "East Carolina",
+      "away_location": "Southern Illinois",
+      "home_rating_team": "East Carolina",
+      "away_rating_team": "Southern Illinois",
+      "home_adj_em": -0.91,
+      "away_adj_em": -4.47,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Elridge Blake Sports and Fitness Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 2.5,
+      "predicted_total": 147.0,
+      "home_projected_score": 74.8,
+      "away_projected_score": 72.2,
+      "home_win_prob": 59.1,
+      "away_win_prob": 40.9,
+      "confidence": 59.4,
+      "pick": "East Carolina Pirates",
+      "pick_abbr": "ECU",
+      "is_home_pick": true,
+      "projected_tempo": 70.8,
+      "factors": {
+        "efficiency_margin": 2.52,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 153.5,
+        "spread_holder": "East Carolina Pirates",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.1,
+      "model_vs_market": {
+        "spread_edge": 1.1,
+        "total_edge": -6.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 153.5,
+        "spread_holder": "Southern Illinois Salukis",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-21T16:15:15.460086-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 1.5,
+      "clv": -3.0,
+      "actual_home_score": 69,
+      "actual_away_score": 85,
+      "actual_margin": -16,
+      "actual_total": 154,
+      "actual_winner": "Southern Illinois Salukis",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401909517",
+      "date": "2026-11-21T23:00Z",
+      "home_team": "Georgetown Hoyas",
+      "away_team": "Coppin State Eagles",
+      "home_abbr": "GTWN",
+      "away_abbr": "COPP",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-0",
+      "away_record": "1-5",
+      "home_location": "Georgetown",
+      "away_location": "Coppin State",
+      "home_rating_team": "Georgetown",
+      "away_rating_team": "Coppin St.",
+      "home_adj_em": 15.22,
+      "away_adj_em": -18.82,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "McDonough Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 26.2,
+      "predicted_total": 146.6,
+      "home_projected_score": 86.4,
+      "away_projected_score": 60.2,
+      "home_win_prob": 99.1,
+      "away_win_prob": 0.9,
+      "confidence": 66.1,
+      "pick": "Georgetown Hoyas",
+      "pick_abbr": "GTWN",
+      "is_home_pick": true,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": 23.37,
+        "home_court": 2.86
+      },
+      "market": {
+        "spread": -31.5,
+        "over_under": 142.5,
+        "spread_holder": "Georgetown Hoyas",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 5.3,
+      "model_vs_market": {
+        "spread_edge": -5.3,
+        "total_edge": 4.0
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -31.5,
+        "over_under": 144.5,
+        "spread_holder": "Georgetown Hoyas",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-21T17:56:43.184302-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 31.5,
+      "clv": 0.0,
+      "actual_home_score": 84,
+      "actual_away_score": 60,
+      "actual_margin": 24,
+      "actual_total": 144,
+      "actual_winner": "Georgetown Hoyas",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401911023",
+      "date": "2026-11-21T23:00Z",
+      "home_team": "Massachusetts Minutemen",
+      "away_team": "Maine Black Bears",
+      "home_abbr": "MASS",
+      "away_abbr": "ME",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/311.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-2",
+      "away_record": "2-4",
+      "home_location": "Massachusetts",
+      "away_location": "Maine",
+      "home_rating_team": "Massachusetts",
+      "away_rating_team": "Maine",
+      "home_adj_em": -3.28,
+      "away_adj_em": -12.16,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Mullins Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 9.6,
+      "predicted_total": 137.8,
+      "home_projected_score": 73.7,
+      "away_projected_score": 64.1,
+      "home_win_prob": 80.9,
+      "away_win_prob": 19.1,
+      "confidence": 65.6,
+      "pick": "Massachusetts Minutemen",
+      "pick_abbr": "MASS",
+      "is_home_pick": true,
+      "projected_tempo": 69.9,
+      "factors": {
+        "efficiency_margin": 6.21,
+        "home_court": 3.39
+      },
+      "market": {
+        "spread": -12.5,
+        "over_under": 137.5,
+        "spread_holder": "Massachusetts Minutemen",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 2.9,
+      "model_vs_market": {
+        "spread_edge": -2.9,
+        "total_edge": 0.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -11.5,
+        "over_under": 139.5,
+        "spread_holder": "Massachusetts Minutemen",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-21T17:56:43.184302-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 12.5,
+      "clv": 1.0,
+      "actual_home_score": 76,
+      "actual_away_score": 44,
+      "actual_margin": 32,
+      "actual_total": 120,
+      "actual_winner": "Massachusetts Minutemen",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401925897",
+      "date": "2026-11-21T23:00Z",
+      "home_team": "Norfolk State Spartans",
+      "away_team": "UNC Wilmington Seahawks",
+      "home_abbr": "NORF",
+      "away_abbr": "UNCW",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-4",
+      "away_record": "4-1",
+      "home_location": "Norfolk State",
+      "away_location": "UNC Wilmington",
+      "home_rating_team": "Norfolk St.",
+      "away_rating_team": "UNC Wilmington",
+      "home_adj_em": -17.96,
+      "away_adj_em": 6.13,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Joseph G. Echols Hall",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "MEAC Network",
+      "predicted_spread": -12.6,
+      "predicted_total": 151.9,
+      "home_projected_score": 69.7,
+      "away_projected_score": 82.3,
+      "home_win_prob": 12.6,
+      "away_win_prob": 87.4,
+      "confidence": 53.7,
+      "pick": "UNC Wilmington Seahawks",
+      "pick_abbr": "UNCW",
+      "is_home_pick": false,
+      "projected_tempo": 68.3,
+      "factors": {
+        "efficiency_margin": -16.45,
+        "home_court": 3.87
+      },
+      "market": {
+        "spread": 13.5,
+        "over_under": 152.5,
+        "spread_holder": "UNC Wilmington Seahawks",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 0.9,
+      "model_vs_market": {
+        "spread_edge": -0.9,
+        "total_edge": -0.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 11.5,
+        "over_under": 149.5,
+        "spread_holder": "UNC Wilmington Seahawks",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-21T17:56:43.184302-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -13.5,
+      "clv": 2.0,
+      "actual_home_score": 80,
+      "actual_away_score": 89,
+      "actual_margin": -9,
+      "actual_total": 169,
+      "actual_winner": "UNC Wilmington Seahawks",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 736,
+      "n": 741,
       "model_mae": 10.01,
       "market_mae": 9.62,
-      "intercept": -0.78,
-      "model_weight": 0.133,
-      "market_weight": 0.896,
+      "intercept": -0.76,
+      "model_weight": 0.123,
+      "market_weight": 0.903,
       "ats_by_edge": {
         "0-2": {
-          "w": 138,
-          "l": 84,
-          "pct": 62.2
+          "w": 139,
+          "l": 85,
+          "pct": 62.1
         },
         "2-4": {
-          "w": 111,
-          "l": 98,
+          "w": 112,
+          "l": 99,
           "pct": 53.1
         },
         "4-7": {
-          "w": 76,
+          "w": 77,
           "l": 70,
-          "pct": 52.1
+          "pct": 52.4
         },
         "7+": {
           "w": 36,
@@ -101155,10 +101530,10 @@
       }
     },
     "clv": {
-      "n": 478,
+      "n": 483,
       "avg": 0.29,
       "beat_close_pct": 38.1,
-      "beat_or_matched_pct": 77.4
+      "beat_or_matched_pct": 77.2
     },
     "clv_by_confidence": {
       "high": {
@@ -101168,35 +101543,35 @@
         "beat_or_matched_pct": 82.4
       },
       "medium": {
-        "n": 444,
-        "avg": 0.3,
+        "n": 449,
+        "avg": 0.29,
         "beat_close_pct": 38.3,
-        "beat_or_matched_pct": 77.0
+        "beat_or_matched_pct": 76.8
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 738,
-    "ats_graded": 648,
+    "total_graded": 743,
+    "ats_graded": 653,
     "ats": {
-      "w": 361,
-      "l": 287,
+      "w": 364,
+      "l": 289,
       "p": 0,
       "pct": 55.7
     },
     "su": {
-      "correct": 574,
-      "total": 738,
+      "correct": 578,
+      "total": 743,
       "pct": 77.8
     },
     "ou": {
-      "over": 357,
-      "under": 379,
+      "over": 361,
+      "under": 380,
       "push": 0,
-      "model_correct": 378,
-      "model_gradeable": 736,
-      "model_pct": 51.4
+      "model_correct": 379,
+      "model_gradeable": 741,
+      "model_pct": 51.1
     },
     "by_confidence": {
       "high": {
@@ -101206,8 +101581,8 @@
         "pct": 48.0
       },
       "medium": {
-        "w": 337,
-        "l": 261,
+        "w": 340,
+        "l": 263,
         "p": 0,
         "pct": 56.4
       },
@@ -101219,42 +101594,42 @@
       }
     },
     "value_plays": {
-      "w": 154,
+      "w": 155,
       "l": 143,
       "p": 0,
-      "pct": 51.9
+      "pct": 52.0
     },
     "best_bets": {
-      "w": 91,
+      "w": 92,
       "l": 93,
       "p": 0,
-      "pct": 49.5
+      "pct": 49.7
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1444,
-        "model_mae": 10.44,
+        "n": 1449,
+        "model_mae": 10.43,
         "market_mae": 9.28,
         "intercept": -0.03,
-        "model_weight": -0.003,
+        "model_weight": -0.004,
         "market_weight": 0.981,
         "ats_by_edge": {
           "0-2": {
-            "w": 252,
-            "l": 206,
+            "w": 253,
+            "l": 207,
             "pct": 55.0
           },
           "2-4": {
-            "w": 206,
-            "l": 178,
+            "w": 207,
+            "l": 179,
             "pct": 53.6
           },
           "4-7": {
-            "w": 114,
+            "w": 115,
             "l": 104,
-            "pct": 52.3
+            "pct": 52.5
           },
           "7+": {
             "w": 97,
@@ -101264,10 +101639,10 @@
         }
       },
       "clv": {
-        "n": 478,
+        "n": 483,
         "avg": 0.29,
         "beat_close_pct": 38.1,
-        "beat_or_matched_pct": 77.4
+        "beat_or_matched_pct": 77.2
       },
       "clv_by_confidence": {
         "high": {
@@ -101277,35 +101652,35 @@
           "beat_or_matched_pct": 82.4
         },
         "medium": {
-          "n": 444,
-          "avg": 0.3,
+          "n": 449,
+          "avg": 0.29,
           "beat_close_pct": 38.3,
-          "beat_or_matched_pct": 77.0
+          "beat_or_matched_pct": 76.8
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1456,
-      "ats_graded": 1254,
+      "total_graded": 1461,
+      "ats_graded": 1259,
       "ats": {
-        "w": 669,
-        "l": 585,
+        "w": 672,
+        "l": 587,
         "p": 0,
-        "pct": 53.3
+        "pct": 53.4
       },
       "su": {
-        "correct": 1042,
-        "total": 1456,
+        "correct": 1046,
+        "total": 1461,
         "pct": 71.6
       },
       "ou": {
-        "over": 707,
-        "under": 737,
+        "over": 711,
+        "under": 738,
         "push": 0,
-        "model_correct": 735,
-        "model_gradeable": 1444,
-        "model_pct": 50.9
+        "model_correct": 736,
+        "model_gradeable": 1449,
+        "model_pct": 50.8
       },
       "by_confidence": {
         "high": {
@@ -101315,8 +101690,8 @@
           "pct": 48.6
         },
         "medium": {
-          "w": 504,
-          "l": 407,
+          "w": 507,
+          "l": 409,
           "p": 0,
           "pct": 55.3
         },
@@ -101328,18 +101703,18 @@
         }
       },
       "value_plays": {
-        "w": 299,
+        "w": 300,
         "l": 273,
         "p": 0,
-        "pct": 52.3
+        "pct": 52.4
       },
       "best_bets": {
-        "w": 128,
+        "w": 129,
         "l": 124,
         "p": 0,
-        "pct": 50.8
+        "pct": 51.0
       }
     }
   },
-  "generated_at": "2026-11-21T19:09:12.029371-05:00"
+  "generated_at": "2026-11-21T20:44:48.143962-05:00"
 }

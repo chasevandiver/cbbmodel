@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-21T19:09:12.170922-05:00",
+ "generated_at": "2026-11-21T20:44:48.271892-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-21",
@@ -2578,7 +2578,7 @@
    "game_id": "401925709",
    "game_id_source": "espn",
    "start_time": "2026-11-21T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Wofford Terriers",
     "abbr": "WOF",
@@ -2637,7 +2637,19 @@
     "side": "away",
     "cover_line": 5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 91,
+    "away_score": 86,
+    "margin_home": 5,
+    "total": 177,
+    "winner": "Wofford Terriers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -2650,7 +2662,7 @@
    "game_id": "401920570",
    "game_id_source": "espn",
    "start_time": "2026-11-21T22:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "East Carolina Pirates",
     "abbr": "ECU",
@@ -2709,7 +2721,19 @@
     "side": "home",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 69,
+    "away_score": 85,
+    "margin_home": -16,
+    "total": 154,
+    "winner": "Southern Illinois Salukis",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": -3.0
+   },
    "tags": [
     "tournament"
    ]
@@ -2724,7 +2748,7 @@
    "game_id": "401909517",
    "game_id_source": "espn",
    "start_time": "2026-11-21T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Georgetown Hoyas",
     "abbr": "GTWN",
@@ -2783,7 +2807,19 @@
     "side": "away",
     "cover_line": 31.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 60,
+    "margin_home": 24,
+    "total": 144,
+    "winner": "Georgetown Hoyas",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value"
@@ -2799,7 +2835,7 @@
    "game_id": "401911023",
    "game_id_source": "espn",
    "start_time": "2026-11-21T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Massachusetts Minutemen",
     "abbr": "MASS",
@@ -2858,7 +2894,19 @@
     "side": "away",
     "cover_line": 12.5
    },
-   "result": null,
+   "result": {
+    "home_score": 76,
+    "away_score": 44,
+    "margin_home": 32,
+    "total": 120,
+    "winner": "Massachusetts Minutemen",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -2871,7 +2919,7 @@
    "game_id": "401925897",
    "game_id_source": "espn",
    "start_time": "2026-11-21T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Norfolk State Spartans",
     "abbr": "NORF",
@@ -2930,7 +2978,19 @@
     "side": "home",
     "cover_line": -13.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 89,
+    "margin_home": -9,
+    "total": 169,
+    "winner": "UNC Wilmington Seahawks",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 2.0
+   },
    "tags": []
   },
   {
@@ -3866,7 +3926,7 @@
     "total": 130.5,
     "favorite": "Pacific Tigers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-21T19:08:57.310109-05:00"
+    "captured_at": "2026-11-21T20:44:33.531257-05:00"
    },
    "edge": {
     "spread": -0.1,
@@ -3938,7 +3998,7 @@
     "total": 149.5,
     "favorite": "Duke Blue Devils",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-21T19:08:57.310109-05:00"
+    "captured_at": "2026-11-21T20:44:33.531257-05:00"
    },
    "edge": {
     "spread": -6.3,
