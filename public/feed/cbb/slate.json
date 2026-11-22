@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-21T20:44:48.271892-05:00",
+ "generated_at": "2026-11-21T22:23:34.939698-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-21",
@@ -3003,7 +3003,7 @@
    "game_id": "401911310",
    "game_id_source": "espn",
    "start_time": "2026-11-22T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Vermont Catamounts",
     "abbr": "UVM",
@@ -3062,7 +3062,19 @@
     "side": "home",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 71,
+    "margin_home": 13,
+    "total": 155,
+    "winner": "Vermont Catamounts",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -3079,7 +3091,7 @@
    "game_id": "401911378",
    "game_id_source": "espn",
    "start_time": "2026-11-22T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Mercer Bears",
     "abbr": "MER",
@@ -3138,7 +3150,19 @@
     "side": "away",
     "cover_line": 8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 69,
+    "away_score": 64,
+    "margin_home": 5,
+    "total": 133,
+    "winner": "Mercer Bears",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -3151,7 +3175,7 @@
    "game_id": "401911394",
    "game_id_source": "espn",
    "start_time": "2026-11-22T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "VMI Keydets",
     "abbr": "VMI",
@@ -3210,7 +3234,19 @@
     "side": "away",
     "cover_line": 8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 71,
+    "away_score": 68,
+    "margin_home": 3,
+    "total": 139,
+    "winner": "VMI Keydets",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -3223,7 +3259,7 @@
    "game_id": "401917539",
    "game_id_source": "espn",
    "start_time": "2026-11-22T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Loyola Marymount Lions",
     "abbr": "LMU",
@@ -3282,7 +3318,19 @@
     "side": "away",
     "cover_line": 13.5
    },
-   "result": null,
+   "result": {
+    "home_score": 73,
+    "away_score": 80,
+    "margin_home": -7,
+    "total": 153,
+    "winner": "California Baptist Lancers",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -3300,7 +3348,7 @@
    "game_id": "401920125",
    "game_id_source": "espn",
    "start_time": "2026-11-22T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Cal Poly Mustangs",
     "abbr": "CP",
@@ -3359,7 +3407,19 @@
     "side": "home",
     "cover_line": 8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 89,
+    "away_score": 88,
+    "margin_home": 1,
+    "total": 177,
+    "winner": "Cal Poly Mustangs",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -3372,7 +3432,7 @@
    "game_id": "401920964",
    "game_id_source": "espn",
    "start_time": "2026-11-22T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Elon Phoenix",
     "abbr": "ELON",
@@ -3431,7 +3491,19 @@
     "side": "away",
     "cover_line": 12.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 61,
+    "margin_home": 23,
+    "total": 145,
+    "winner": "Elon Phoenix",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -3448,7 +3520,7 @@
    "game_id": "401920975",
    "game_id_source": "espn",
    "start_time": "2026-11-22T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Chattanooga Mocs",
     "abbr": "UTC",
@@ -3507,7 +3579,19 @@
     "side": "away",
     "cover_line": 8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 65,
+    "away_score": 73,
+    "margin_home": -8,
+    "total": 138,
+    "winner": "Radford Highlanders",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -3520,7 +3604,7 @@
    "game_id": "401921776",
    "game_id_source": "espn",
    "start_time": "2026-11-22T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Villanova Wildcats",
     "abbr": "VILL",
@@ -3579,7 +3663,19 @@
     "side": "home",
     "cover_line": -4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 73,
+    "margin_home": 6,
+    "total": 152,
+    "winner": "Villanova Wildcats",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -3596,7 +3692,7 @@
    "game_id": "401926217",
    "game_id_source": "espn",
    "start_time": "2026-11-22T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Tennessee Tech Golden Eagles",
     "abbr": "TNTC",
@@ -3655,7 +3751,19 @@
     "side": "away",
     "cover_line": 7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 97,
+    "away_score": 69,
+    "margin_home": 28,
+    "total": 166,
+    "winner": "Tennessee Tech Golden Eagles",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -3734,7 +3842,7 @@
    "game_id": "401928998",
    "game_id_source": "espn",
    "start_time": "2026-11-22T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Valparaiso Beacons",
     "abbr": "VAL",
@@ -3787,7 +3895,19 @@
     "side": "away",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 77,
+    "margin_home": -5,
+    "total": 149,
+    "winner": "Troy Trojans",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -3998,7 +4118,7 @@
     "total": 149.5,
     "favorite": "Duke Blue Devils",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-21T20:44:33.531257-05:00"
+    "captured_at": "2026-11-21T22:23:19.503240-05:00"
    },
    "edge": {
     "spread": -6.3,
