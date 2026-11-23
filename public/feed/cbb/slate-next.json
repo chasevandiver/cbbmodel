@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-23T03:32:52.738724-05:00",
+ "generated_at": "2026-11-23T05:59:23.900544-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-23",
@@ -333,7 +333,7 @@
    },
    "market": {
     "spread_home": 6.5,
-    "total": 145.5,
+    "total": 144.5,
     "favorite": "Charlotte 49ers",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -341,7 +341,7 @@
    "closing": null,
    "edge": {
     "spread": -2.2,
-    "total": 2.7,
+    "total": 3.7,
     "value_rating": 2.2,
     "is_best_bet": false
    },
@@ -877,7 +877,7 @@
     "home_score": 76.5,
     "away_score": 71.9,
     "home_win_prob": 66.0,
-    "confidence": 63.2,
+    "confidence": 59.2,
     "tempo": 68.3,
     "confidence_tier": "medium",
     "pick": {
@@ -887,22 +887,22 @@
     }
    },
    "market": {
-    "spread_home": -2.5,
-    "total": 142.5,
+    "spread_home": -3.5,
+    "total": 143.5,
     "favorite": "Belmont Bruins",
     "bookmaker": "betmgm",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 2.0,
-    "total": 5.9,
-    "value_rating": 2.0,
+    "spread": 1.0,
+    "total": 4.9,
+    "value_rating": 1.0,
     "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": 2.5
+    "cover_line": 3.5
    },
    "result": null,
    "tags": [
@@ -1285,9 +1285,9 @@
     "home_score": 74.3,
     "away_score": 79.9,
     "home_win_prob": 30.4,
-    "confidence": 71.5,
+    "confidence": 67.5,
     "tempo": 72.4,
-    "confidence_tier": "high",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Central Arkansas Bears",
      "abbr": "CARK",
@@ -1295,7 +1295,7 @@
     }
    },
    "market": {
-    "spread_home": 9.5,
+    "spread_home": 8.5,
     "total": 164.5,
     "favorite": "Central Arkansas Bears",
     "bookmaker": "betmgm",
@@ -1303,21 +1303,17 @@
    },
    "closing": null,
    "edge": {
-    "spread": 3.9,
+    "spread": 2.9,
     "total": -10.3,
-    "value_rating": 3.9,
-    "is_best_bet": true
+    "value_rating": 2.9,
+    "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": -9.5
+    "cover_line": -8.5
    },
    "result": null,
-   "tags": [
-    "best_bet",
-    "value",
-    "high_confidence"
-   ]
+   "tags": []
   },
   {
    "id": "cbb:401919761",
