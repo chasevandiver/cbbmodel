@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-22T19:38:18.582996-05:00",
+ "generated_at": "2026-11-22T21:02:56.941369-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-23",
@@ -199,7 +199,7 @@
    },
    "market": {
     "spread_home": -2.5,
-    "total": 146.5,
+    "total": 145.5,
     "favorite": "East Carolina Pirates",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -207,7 +207,7 @@
    "closing": null,
    "edge": {
     "spread": 1.5,
-    "total": 0.3,
+    "total": 1.3,
     "value_rating": 1.5,
     "is_best_bet": false
    },
@@ -322,7 +322,7 @@
     "home_score": 69.7,
     "away_score": 78.5,
     "home_win_prob": 21.4,
-    "confidence": 45.0,
+    "confidence": 59.9,
     "tempo": 67.5,
     "confidence_tier": "medium",
     "pick": {
@@ -331,17 +331,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 7.5,
+    "total": 145.5,
+    "favorite": "Charlotte 49ers",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -1.2,
+    "total": 2.7,
+    "value_rating": 1.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": -7.5
    },
    "result": null,
    "tags": [
@@ -865,7 +871,7 @@
     "home_score": 76.5,
     "away_score": 71.9,
     "home_win_prob": 66.0,
-    "confidence": 63.2,
+    "confidence": 59.2,
     "tempo": 68.3,
     "confidence_tier": "medium",
     "pick": {
@@ -875,22 +881,22 @@
     }
    },
    "market": {
-    "spread_home": -2.5,
-    "total": 141.5,
+    "spread_home": -3.5,
+    "total": 142.5,
     "favorite": "Belmont Bruins",
     "bookmaker": "betmgm",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 2.0,
-    "total": 6.9,
-    "value_rating": 2.0,
+    "spread": 1.0,
+    "total": 5.9,
+    "value_rating": 1.0,
     "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": 2.5
+    "cover_line": 3.5
    },
    "result": null,
    "tags": [
@@ -933,7 +939,7 @@
     "home_score": 67.1,
     "away_score": 74.5,
     "home_win_prob": 25.0,
-    "confidence": 58.7,
+    "confidence": 55.3,
     "tempo": 68.3,
     "confidence_tier": "medium",
     "pick": {
@@ -943,7 +949,7 @@
     }
    },
    "market": {
-    "spread_home": 6.5,
+    "spread_home": 7.5,
     "total": 137.5,
     "favorite": "Nevada Wolf Pack",
     "bookmaker": "fanduel",
@@ -951,14 +957,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -0.9,
+    "spread": 0.1,
     "total": 4.2,
-    "value_rating": 0.9,
+    "value_rating": 0.1,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": -6.5
+    "side": "none",
+    "cover_line": -7.5
    },
    "result": null,
    "tags": [
@@ -1069,7 +1075,7 @@
     "home_score": 74.2,
     "away_score": 60.3,
     "home_win_prob": 89.7,
-    "confidence": 40.0,
+    "confidence": 51.5,
     "tempo": 68.7,
     "confidence_tier": "medium",
     "pick": {
@@ -1078,17 +1084,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -13.5,
+    "total": 135.5,
+    "favorite": "Youngstown St Penguins",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 0.4,
+    "total": -1.0,
+    "value_rating": 0.4,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": null
+    "cover_line": 13.5
    },
    "result": null,
    "tags": []
@@ -1197,7 +1209,7 @@
     "home_score": 74.3,
     "away_score": 79.9,
     "home_win_prob": 30.4,
-    "confidence": 46.0,
+    "confidence": 67.5,
     "tempo": 72.4,
     "confidence_tier": "medium",
     "pick": {
@@ -1206,17 +1218,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 8.5,
+    "total": 163.5,
+    "favorite": "Central Arkansas Bears",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 2.9,
+    "total": -9.3,
+    "value_rating": 2.9,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": -8.5
    },
    "result": null,
    "tags": []
@@ -1257,7 +1275,7 @@
     "home_score": 74.8,
     "away_score": 64.8,
     "home_win_prob": 81.9,
-    "confidence": 41.0,
+    "confidence": 57.1,
     "tempo": 67.2,
     "confidence_tier": "medium",
     "pick": {
@@ -1266,17 +1284,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -8.5,
+    "total": 132.5,
+    "favorite": "Iona Gaels",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 1.5,
+    "total": 7.2,
+    "value_rating": 1.5,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": 8.5
    },
    "result": null,
    "tags": []
@@ -1383,7 +1407,7 @@
     "home_score": 74.6,
     "away_score": 75.6,
     "home_win_prob": 46.5,
-    "confidence": 45.0,
+    "confidence": 61.1,
     "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
@@ -1392,17 +1416,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 2.5,
+    "total": 149.5,
+    "favorite": "North Carolina A&T Aggies",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 1.5,
+    "total": 0.7,
+    "value_rating": 1.5,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": -2.5
    },
    "result": null,
    "tags": []
@@ -1443,29 +1473,38 @@
     "home_score": 78.6,
     "away_score": 62.6,
     "home_win_prob": 92.8,
-    "confidence": 36.0,
+    "confidence": 67.7,
     "tempo": 69.4,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Wichita State Shockers",
      "abbr": "WICH",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -21.5,
+    "total": 145.5,
+    "favorite": "WICH -21.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
-    "is_best_bet": false
+    "spread": -5.4,
+    "total": -4.3,
+    "value_rating": 5.4,
+    "is_best_bet": true
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 21.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "best_bet",
+    "value"
+   ]
   },
   {
    "id": "cbb:401909788",
@@ -1513,7 +1552,7 @@
     }
    },
    "market": {
-    "spread_home": -37.5,
+    "spread_home": -36.5,
     "total": 157.5,
     "favorite": "Kansas Jayhawks",
     "bookmaker": "fanduel",
@@ -1521,14 +1560,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -7.3,
+    "spread": -6.3,
     "total": -3.2,
-    "value_rating": 7.3,
+    "value_rating": 6.3,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 37.5
+    "cover_line": 36.5
    },
    "result": null,
    "tags": [
@@ -1639,29 +1678,37 @@
     "home_score": 100.2,
     "away_score": 67.1,
     "home_win_prob": 99.9,
-    "confidence": 36.0,
+    "confidence": 50.0,
     "tempo": 73.7,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "Illinois Fighting Illini",
      "abbr": "ILL",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -45.5,
+    "total": 178.5,
+    "favorite": "Illinois Fighting Illini",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -12.4,
+    "total": -11.3,
+    "value_rating": 12.4,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 45.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value"
+   ]
   },
   {
    "id": "cbb:401909536",
@@ -1833,29 +1880,39 @@
     "home_score": 80.5,
     "away_score": 66.9,
     "home_win_prob": 89.3,
-    "confidence": 41.0,
+    "confidence": 74.4,
     "tempo": 68.2,
-    "confidence_tier": "medium",
+    "confidence_tier": "high",
     "pick": {
      "team": "California Golden Bears",
      "abbr": "CAL",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -19.5,
+    "total": 148.5,
+    "favorite": "California Golden Bears",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
-    "is_best_bet": false
+    "spread": -5.9,
+    "total": -1.1,
+    "value_rating": 5.9,
+    "is_best_bet": true
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 19.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "best_bet",
+    "value",
+    "high_confidence"
+   ]
   },
   {
    "id": "cbb:401920721",
@@ -1970,7 +2027,7 @@
    },
    "market": {
     "spread_home": -17.5,
-    "total": 159.5,
+    "total": 158.5,
     "favorite": "Arizona Wildcats",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -1978,7 +2035,7 @@
    "closing": null,
    "edge": {
     "spread": -4.1,
-    "total": -7.7,
+    "total": -6.7,
     "value_rating": 4.1,
     "is_best_bet": true
    },

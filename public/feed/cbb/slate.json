@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-22T19:38:18.582996-05:00",
+ "generated_at": "2026-11-22T21:02:56.941369-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-22",
@@ -2183,7 +2183,7 @@
    "game_id": "401925013",
    "game_id_source": "espn",
    "start_time": "2026-11-22T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Lamar Cardinals",
     "abbr": "LAM",
@@ -2236,7 +2236,19 @@
     "side": "away",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 81,
+    "away_score": 85,
+    "margin_home": -4,
+    "total": 166,
+    "winner": "Rice Owls",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -2251,7 +2263,7 @@
    "game_id": "401921205",
    "game_id_source": "espn",
    "start_time": "2026-11-22T22:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Stephen F. Austin Lumberjacks",
     "abbr": "SFA",
@@ -2310,7 +2322,19 @@
     "side": "home",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 70,
+    "margin_home": 2,
+    "total": 142,
+    "winner": "Stephen F. Austin Lumberjacks",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": [
     "tournament"
    ]
@@ -2325,7 +2349,7 @@
    "game_id": "401921420",
    "game_id_source": "espn",
    "start_time": "2026-11-22T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Minnesota Golden Gophers",
     "abbr": "MINN",
@@ -2384,7 +2408,19 @@
     "side": "away",
     "cover_line": 11.5
    },
-   "result": null,
+   "result": {
+    "home_score": 77,
+    "away_score": 62,
+    "margin_home": 15,
+    "total": 139,
+    "winner": "Minnesota Golden Gophers",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -2401,7 +2437,7 @@
    "game_id": "401928999",
    "game_id_source": "espn",
    "start_time": "2026-11-22T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Valparaiso Beacons",
     "abbr": "VAL",
@@ -2454,7 +2490,19 @@
     "side": "away",
     "cover_line": 8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 89,
+    "away_score": 99,
+    "margin_home": -10,
+    "total": 188,
+    "winner": "Southern Miss Golden Eagles",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -2615,7 +2663,7 @@
    "game_id": "401920905",
    "game_id_source": "espn",
    "start_time": "2026-11-23T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UCLA Bruins",
     "abbr": "UCLA",
@@ -2674,7 +2722,19 @@
     "side": "away",
     "cover_line": 29.5
    },
-   "result": null,
+   "result": {
+    "home_score": 85,
+    "away_score": 48,
+    "margin_home": 37,
+    "total": 133,
+    "winner": "UCLA Bruins",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 1.0
+   },
    "tags": [
     "value"
    ]
@@ -2875,10 +2935,10 @@
    },
    "closing": {
     "spread_home": -1.5,
-    "total": 147.5,
+    "total": 148.5,
     "favorite": "UC San Diego Tritons",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-22T19:38:03.804579-05:00"
+    "captured_at": "2026-11-22T21:02:42.002053-05:00"
    },
    "edge": {
     "spread": -1.5,
