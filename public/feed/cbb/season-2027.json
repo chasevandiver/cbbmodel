@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-22T21:02:56.941369-05:00",
+ "generated_at": "2026-11-22T22:54:52.856828-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -66144,7 +66144,7 @@
    "game_id": "401917541",
    "game_id_source": "espn",
    "start_time": "2026-11-23T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Portland Pilots",
     "abbr": "PORT",
@@ -66203,7 +66203,19 @@
     "side": "away",
     "cover_line": 9.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 71,
+    "margin_home": 8,
+    "total": 150,
+    "winner": "Portland Pilots",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 2.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -66220,7 +66232,7 @@
    "game_id": "401919020",
    "game_id_source": "espn",
    "start_time": "2026-11-23T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UAB Blazers",
     "abbr": "UAB",
@@ -66273,7 +66285,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 64,
+    "away_score": 79,
+    "margin_home": -15,
+    "total": 143,
+    "winner": "Rhode Island Rams",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -66376,7 +66400,7 @@
    "game_id": "401921206",
    "game_id_source": "espn",
    "start_time": "2026-11-23T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Utah Valley Wolverines",
     "abbr": "UVU",
@@ -66429,7 +66453,19 @@
     "side": "home",
     "cover_line": 7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 78,
+    "away_score": 76,
+    "margin_home": 2,
+    "total": 154,
+    "winner": "Utah Valley Wolverines",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -66444,7 +66480,7 @@
    "game_id": "401926774",
    "game_id_source": "espn",
    "start_time": "2026-11-23T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "USC Trojans",
     "abbr": "USC",
@@ -66503,7 +66539,19 @@
     "side": "away",
     "cover_line": 33.5
    },
-   "result": null,
+   "result": {
+    "home_score": 82,
+    "away_score": 56,
+    "margin_home": 26,
+    "total": 138,
+    "winner": "USC Trojans",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": [
     "value"
    ]
