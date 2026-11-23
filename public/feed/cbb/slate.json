@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-22T22:54:52.856828-05:00",
+ "generated_at": "2026-11-23T03:08:59.186250-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-22",
@@ -2939,7 +2939,7 @@
    "game_id": "401917542",
    "game_id_source": "espn",
    "start_time": "2026-11-23T02:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UC San Diego Tritons",
     "abbr": "UCSD",
@@ -2998,7 +2998,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 90,
+    "away_score": 64,
+    "margin_home": 26,
+    "total": 154,
+    "winner": "UC San Diego Tritons",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": [
     "tournament"
    ]
@@ -3013,7 +3025,7 @@
    "game_id": "401911233",
    "game_id_source": "espn",
    "start_time": "2026-11-23T04:59Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Loyola Chicago Ramblers",
     "abbr": "LUC",
@@ -3066,7 +3078,19 @@
     "side": "away",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 63,
+    "away_score": 72,
+    "margin_home": -9,
+    "total": 135,
+    "winner": "San Jos\u00e9 State Spartans",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
