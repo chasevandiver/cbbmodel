@@ -104103,16 +104103,302 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401926795",
+      "date": "2026-11-22T21:30Z",
+      "home_team": "Liberty Flames",
+      "away_team": "Richmond Spiders",
+      "home_abbr": "LIB",
+      "away_abbr": "RICH",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "3-3",
+      "home_location": "Liberty",
+      "away_location": "Richmond",
+      "home_rating_team": "Liberty",
+      "away_rating_team": "Richmond",
+      "home_adj_em": 1.77,
+      "away_adj_em": 4.9,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Colonial Hall",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "CBSSN",
+      "predicted_spread": -2.1,
+      "predicted_total": 147.1,
+      "home_projected_score": 72.5,
+      "away_projected_score": 74.6,
+      "home_win_prob": 42.4,
+      "away_win_prob": 57.6,
+      "confidence": 69.5,
+      "pick": "Richmond Spiders",
+      "pick_abbr": "RICH",
+      "is_home_pick": false,
+      "projected_tempo": 67.4,
+      "factors": {
+        "efficiency_margin": -2.11,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 143.5,
+        "spread_holder": "LIB -1.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 3.6,
+      "model_vs_market": {
+        "spread_edge": 3.6,
+        "total_edge": 3.6
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": null,
+      "actual_home_score": 88,
+      "actual_away_score": 92,
+      "actual_margin": -4,
+      "actual_total": 180,
+      "actual_winner": "Richmond Spiders",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401909556",
+      "date": "2026-11-22T22:00Z",
+      "home_team": "Boston College Eagles",
+      "away_team": "NJIT Highlanders",
+      "home_abbr": "BC",
+      "away_abbr": "NJIT",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2885.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-0",
+      "away_record": "1-6",
+      "home_location": "Boston College",
+      "away_location": "NJIT",
+      "home_rating_team": "Boston College",
+      "away_rating_team": "NJIT",
+      "home_adj_em": 7.6,
+      "away_adj_em": -16.09,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Conte Forum",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACC Network",
+      "predicted_spread": 18.5,
+      "predicted_total": 139.7,
+      "home_projected_score": 79.1,
+      "away_projected_score": 60.6,
+      "home_win_prob": 95.4,
+      "away_win_prob": 4.6,
+      "confidence": 69.0,
+      "pick": "Boston College Eagles",
+      "pick_abbr": "BC",
+      "is_home_pick": true,
+      "projected_tempo": 65.9,
+      "factors": {
+        "efficiency_margin": 15.6,
+        "home_court": 2.89
+      },
+      "market": {
+        "spread": -24.5,
+        "over_under": 135.5,
+        "spread_holder": "Boston College Eagles",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 6.0,
+      "model_vs_market": {
+        "spread_edge": -6.0,
+        "total_edge": 4.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -23.5,
+        "over_under": 137.5,
+        "spread_holder": "Boston College Eagles",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 24.5,
+      "clv": 1.0,
+      "actual_home_score": 79,
+      "actual_away_score": 59,
+      "actual_margin": 20,
+      "actual_total": 138,
+      "actual_winner": "Boston College Eagles",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401920159",
+      "date": "2026-11-22T22:00Z",
+      "home_team": "Portland State Vikings",
+      "away_team": "Cal State Fullerton Titans",
+      "home_abbr": "PRST",
+      "away_abbr": "CSUF",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2239.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "2-2",
+      "home_location": "Portland State",
+      "away_location": "Cal State Fullerton",
+      "home_rating_team": "Portland St.",
+      "away_rating_team": "Cal St. Fullerton",
+      "home_adj_em": -3.04,
+      "away_adj_em": -4.14,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Viking Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 4.4,
+      "predicted_total": 153.0,
+      "home_projected_score": 78.7,
+      "away_projected_score": 74.3,
+      "home_win_prob": 65.5,
+      "away_win_prob": 34.5,
+      "confidence": 54.4,
+      "pick": "Portland State Vikings",
+      "pick_abbr": "PRST",
+      "is_home_pick": true,
+      "projected_tempo": 71.4,
+      "factors": {
+        "efficiency_margin": 0.79,
+        "home_court": 3.61
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 163.5,
+        "spread_holder": "PRST -4.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.1,
+      "model_vs_market": {
+        "spread_edge": -0.1,
+        "total_edge": -10.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 4.5,
+      "clv": null,
+      "actual_home_score": 75,
+      "actual_away_score": 92,
+      "actual_margin": -17,
+      "actual_total": 167,
+      "actual_winner": "Cal State Fullerton Titans",
+      "model_correct_winner": false,
+      "ats_result": null,
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401922293",
+      "date": "2026-11-22T22:00Z",
+      "home_team": "Samford Bulldogs",
+      "away_team": "UNC Asheville Bulldogs",
+      "home_abbr": "SAM",
+      "away_abbr": "UNCA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2427.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-2",
+      "away_record": "2-4",
+      "home_location": "Samford",
+      "away_location": "UNC Asheville",
+      "home_rating_team": "Samford",
+      "away_rating_team": "UNC Asheville",
+      "home_adj_em": -6.33,
+      "away_adj_em": -10.98,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Pete Hanna Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 7.1,
+      "predicted_total": 151.0,
+      "home_projected_score": 79.0,
+      "away_projected_score": 72.0,
+      "home_win_prob": 74.0,
+      "away_win_prob": 26.0,
+      "confidence": 63.7,
+      "pick": "Samford Bulldogs",
+      "pick_abbr": "SAM",
+      "is_home_pick": true,
+      "projected_tempo": 69.5,
+      "factors": {
+        "efficiency_margin": 3.22,
+        "home_court": 3.85
+      },
+      "market": {
+        "spread": -9.5,
+        "over_under": 156.5,
+        "spread_holder": "Samford Bulldogs",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 2.4,
+      "model_vs_market": {
+        "spread_edge": -2.4,
+        "total_edge": -5.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -10.5,
+        "over_under": 155.5,
+        "spread_holder": "Samford Bulldogs",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-22T16:21:45.343295-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 9.5,
+      "clv": -1.0,
+      "actual_home_score": 80,
+      "actual_away_score": 77,
+      "actual_margin": 3,
+      "actual_total": 157,
+      "actual_winner": "Samford Bulldogs",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 777,
-      "model_mae": 10.04,
+      "n": 781,
+      "model_mae": 10.02,
       "market_mae": 9.69,
-      "intercept": -0.64,
-      "model_weight": 0.126,
-      "market_weight": 0.89,
+      "intercept": -0.7,
+      "model_weight": 0.131,
+      "market_weight": 0.887,
       "ats_by_edge": {
         "0-2": {
           "w": 146,
@@ -104120,14 +104406,14 @@
           "pct": 60.1
         },
         "2-4": {
-          "w": 116,
+          "w": 118,
           "l": 100,
-          "pct": 53.7
+          "pct": 54.1
         },
         "4-7": {
-          "w": 83,
+          "w": 84,
           "l": 71,
-          "pct": 53.9
+          "pct": 54.2
         },
         "7+": {
           "w": 37,
@@ -104137,10 +104423,10 @@
       }
     },
     "clv": {
-      "n": 494,
+      "n": 496,
       "avg": 0.29,
       "beat_close_pct": 38.1,
-      "beat_or_matched_pct": 77.5
+      "beat_or_matched_pct": 77.4
     },
     "clv_by_confidence": {
       "high": {
@@ -104150,34 +104436,34 @@
         "beat_or_matched_pct": 84.2
       },
       "medium": {
-        "n": 456,
+        "n": 458,
         "avg": 0.29,
-        "beat_close_pct": 37.9,
-        "beat_or_matched_pct": 77.0
+        "beat_close_pct": 38.0,
+        "beat_or_matched_pct": 76.9
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 780,
-    "ats_graded": 685,
+    "total_graded": 784,
+    "ats_graded": 688,
     "ats": {
-      "w": 382,
+      "w": 385,
       "l": 303,
       "p": 0,
-      "pct": 55.8
+      "pct": 56.0
     },
     "su": {
-      "correct": 603,
-      "total": 780,
+      "correct": 606,
+      "total": 784,
       "pct": 77.3
     },
     "ou": {
-      "over": 382,
+      "over": 386,
       "under": 395,
       "push": 0,
-      "model_correct": 408,
-      "model_gradeable": 777,
+      "model_correct": 410,
+      "model_gradeable": 781,
       "model_pct": 52.5
     },
     "by_confidence": {
@@ -104188,10 +104474,10 @@
         "pct": 50.0
       },
       "medium": {
-        "w": 355,
+        "w": 358,
         "l": 276,
         "p": 0,
-        "pct": 56.3
+        "pct": 56.5
       },
       "low": {
         "w": 0,
@@ -104201,27 +104487,27 @@
       }
     },
     "value_plays": {
-      "w": 164,
+      "w": 166,
       "l": 145,
       "p": 0,
-      "pct": 53.1
+      "pct": 53.4
     },
     "best_bets": {
-      "w": 99,
+      "w": 100,
       "l": 94,
       "p": 0,
-      "pct": 51.3
+      "pct": 51.5
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1485,
-        "model_mae": 10.44,
+        "n": 1489,
+        "model_mae": 10.43,
         "market_mae": 9.33,
-        "intercept": 0.01,
-        "model_weight": -0.004,
-        "market_weight": 0.974,
+        "intercept": -0.01,
+        "model_weight": -0.003,
+        "market_weight": 0.973,
         "ats_by_edge": {
           "0-2": {
             "w": 260,
@@ -104229,14 +104515,14 @@
             "pct": 54.3
           },
           "2-4": {
-            "w": 211,
+            "w": 213,
             "l": 180,
-            "pct": 54.0
+            "pct": 54.2
           },
           "4-7": {
-            "w": 121,
+            "w": 122,
             "l": 105,
-            "pct": 53.5
+            "pct": 53.7
           },
           "7+": {
             "w": 98,
@@ -104246,10 +104532,10 @@
         }
       },
       "clv": {
-        "n": 494,
+        "n": 496,
         "avg": 0.29,
         "beat_close_pct": 38.1,
-        "beat_or_matched_pct": 77.5
+        "beat_or_matched_pct": 77.4
       },
       "clv_by_confidence": {
         "high": {
@@ -104259,34 +104545,34 @@
           "beat_or_matched_pct": 84.2
         },
         "medium": {
-          "n": 456,
+          "n": 458,
           "avg": 0.29,
-          "beat_close_pct": 37.9,
-          "beat_or_matched_pct": 77.0
+          "beat_close_pct": 38.0,
+          "beat_or_matched_pct": 76.9
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1498,
-      "ats_graded": 1291,
+      "total_graded": 1502,
+      "ats_graded": 1294,
       "ats": {
-        "w": 690,
+        "w": 693,
         "l": 601,
         "p": 0,
-        "pct": 53.4
+        "pct": 53.6
       },
       "su": {
-        "correct": 1071,
-        "total": 1498,
+        "correct": 1074,
+        "total": 1502,
         "pct": 71.5
       },
       "ou": {
-        "over": 732,
+        "over": 736,
         "under": 753,
         "push": 0,
-        "model_correct": 765,
-        "model_gradeable": 1485,
+        "model_correct": 767,
+        "model_gradeable": 1489,
         "model_pct": 51.5
       },
       "by_confidence": {
@@ -104297,10 +104583,10 @@
           "pct": 49.0
         },
         "medium": {
-          "w": 522,
+          "w": 525,
           "l": 422,
           "p": 0,
-          "pct": 55.3
+          "pct": 55.4
         },
         "low": {
           "w": 41,
@@ -104310,18 +104596,18 @@
         }
       },
       "value_plays": {
-        "w": 309,
+        "w": 311,
         "l": 275,
         "p": 0,
-        "pct": 52.9
+        "pct": 53.1
       },
       "best_bets": {
-        "w": 136,
+        "w": 137,
         "l": 125,
         "p": 0,
-        "pct": 52.1
+        "pct": 52.3
       }
     }
   },
-  "generated_at": "2026-11-22T18:47:24.830255-05:00"
+  "generated_at": "2026-11-22T19:38:18.451574-05:00"
 }

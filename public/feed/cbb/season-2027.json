@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-22T18:47:24.985719-05:00",
+ "generated_at": "2026-11-22T19:38:18.582996-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -65480,7 +65480,7 @@
    "game_id": "401926795",
    "game_id_source": "espn",
    "start_time": "2026-11-22T21:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Liberty Flames",
     "abbr": "LIB",
@@ -65533,7 +65533,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 88,
+    "away_score": 92,
+    "margin_home": -4,
+    "total": 180,
+    "winner": "Richmond Spiders",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -65550,7 +65562,7 @@
    "game_id": "401909556",
    "game_id_source": "espn",
    "start_time": "2026-11-22T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Boston College Eagles",
     "abbr": "BC",
@@ -65609,7 +65621,19 @@
     "side": "away",
     "cover_line": 24.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 59,
+    "margin_home": 20,
+    "total": 138,
+    "winner": "Boston College Eagles",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "value"
    ]
@@ -65624,7 +65648,7 @@
    "game_id": "401920159",
    "game_id_source": "espn",
    "start_time": "2026-11-22T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Portland State Vikings",
     "abbr": "PRST",
@@ -65677,7 +65701,19 @@
     "side": "none",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 75,
+    "away_score": 92,
+    "margin_home": -17,
+    "total": 167,
+    "winner": "Cal State Fullerton Titans",
+    "su_correct": false,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -65690,7 +65726,7 @@
    "game_id": "401922293",
    "game_id_source": "espn",
    "start_time": "2026-11-22T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Samford Bulldogs",
     "abbr": "SAM",
@@ -65749,7 +65785,19 @@
     "side": "away",
     "cover_line": 9.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 77,
+    "margin_home": 3,
+    "total": 157,
+    "winner": "Samford Bulldogs",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -66379,11 +66427,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": -32.5,
-    "total": 144.5,
+    "spread_home": -31.5,
+    "total": 145.5,
     "favorite": "USC Trojans",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-22T18:27:09.984137-05:00"
+    "captured_at": "2026-11-22T19:38:03.804579-05:00"
    },
    "edge": {
     "spread": -9.3,
@@ -66457,7 +66505,7 @@
     "total": 147.5,
     "favorite": "UC San Diego Tritons",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-22T18:27:09.984137-05:00"
+    "captured_at": "2026-11-22T19:38:03.804579-05:00"
    },
    "edge": {
     "spread": -1.5,

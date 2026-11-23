@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-22T18:47:24.985719-05:00",
+ "generated_at": "2026-11-22T19:38:18.582996-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-23",
@@ -61,7 +61,7 @@
    },
    "market": {
     "spread_home": -5.5,
-    "total": 141.5,
+    "total": 140.5,
     "favorite": "Davidson Wildcats",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -69,7 +69,7 @@
    "closing": null,
    "edge": {
     "spread": -3.3,
-    "total": 7.3,
+    "total": 8.3,
     "value_rating": 3.3,
     "is_best_bet": true
    },
@@ -267,7 +267,7 @@
    },
    "market": {
     "spread_home": -9.5,
-    "total": 159.5,
+    "total": 160.5,
     "favorite": "FIU -9.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -275,7 +275,7 @@
    "closing": null,
    "edge": {
     "spread": -0.7,
-    "total": -1.2,
+    "total": -2.2,
     "value_rating": 0.7,
     "is_best_bet": false
    },
@@ -452,7 +452,7 @@
     "home_score": 80.1,
     "away_score": 77.8,
     "home_win_prob": 58.4,
-    "confidence": 75.6,
+    "confidence": 71.6,
     "tempo": 71.4,
     "confidence_tier": "high",
     "pick": {
@@ -462,22 +462,22 @@
     }
    },
    "market": {
-    "spread_home": -7.5,
-    "total": 150.5,
+    "spread_home": -6.5,
+    "total": 152.5,
     "favorite": "Oregon St Beavers",
     "bookmaker": "draftkings",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -5.2,
-    "total": 7.3,
-    "value_rating": 5.2,
+    "spread": -4.2,
+    "total": 5.3,
+    "value_rating": 4.2,
     "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 7.5
+    "cover_line": 6.5
    },
    "result": null,
    "tags": [
@@ -593,9 +593,9 @@
     "home_score": 72.4,
     "away_score": 73.8,
     "home_win_prob": 44.8,
-    "confidence": 67.8,
+    "confidence": 71.8,
     "tempo": 69.4,
-    "confidence_tier": "medium",
+    "confidence_tier": "high",
     "pick": {
      "team": "Middle Tennessee Blue Raiders",
      "abbr": "MTSU",
@@ -603,25 +603,28 @@
     }
    },
    "market": {
-    "spread_home": -1.5,
-    "total": 150.5,
+    "spread_home": -2.5,
+    "total": 149.5,
     "favorite": "Southern Illinois Salukis",
     "bookmaker": "betmgm",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -2.9,
-    "total": -4.3,
-    "value_rating": 2.9,
-    "is_best_bet": false
+    "spread": -3.9,
+    "total": -3.3,
+    "value_rating": 3.9,
+    "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 1.5
+    "cover_line": 2.5
    },
    "result": null,
    "tags": [
+    "best_bet",
+    "value",
+    "high_confidence",
     "tournament"
    ]
   },
@@ -805,7 +808,7 @@
    },
    "market": {
     "spread_home": -1.5,
-    "total": 149.5,
+    "total": 148.5,
     "favorite": "Georgia St Panthers",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -813,7 +816,7 @@
    "closing": null,
    "edge": {
     "spread": -2.0,
-    "total": 4.6,
+    "total": 5.6,
     "value_rating": 2.0,
     "is_best_bet": false
    },
@@ -862,7 +865,7 @@
     "home_score": 76.5,
     "away_score": 71.9,
     "home_win_prob": 66.0,
-    "confidence": 59.2,
+    "confidence": 63.2,
     "tempo": 68.3,
     "confidence_tier": "medium",
     "pick": {
@@ -872,22 +875,22 @@
     }
    },
    "market": {
-    "spread_home": -3.5,
-    "total": 143.5,
+    "spread_home": -2.5,
+    "total": 141.5,
     "favorite": "Belmont Bruins",
     "bookmaker": "betmgm",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 1.0,
-    "total": 4.9,
-    "value_rating": 1.0,
+    "spread": 2.0,
+    "total": 6.9,
+    "value_rating": 2.0,
     "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": 3.5
+    "cover_line": 2.5
    },
    "result": null,
    "tags": [
@@ -1325,7 +1328,7 @@
    },
    "market": {
     "spread_home": -3.5,
-    "total": 164.5,
+    "total": 166.5,
     "favorite": "Northern Kentucky Norse",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1333,7 +1336,7 @@
    "closing": null,
    "edge": {
     "spread": 1.5,
-    "total": -12.5,
+    "total": -14.5,
     "value_rating": 1.5,
     "is_best_bet": false
    },
@@ -1696,7 +1699,7 @@
     "home_score": 74.4,
     "away_score": 74.3,
     "home_win_prob": 50.4,
-    "confidence": 59.6,
+    "confidence": 60.4,
     "tempo": 70.1,
     "confidence_tier": "medium",
     "pick": {
@@ -1706,22 +1709,22 @@
     }
    },
    "market": {
-    "spread_home": -1.5,
-    "total": 153.5,
-    "favorite": "Providence Friars",
+    "spread_home": 1.5,
+    "total": 154.5,
+    "favorite": "VCU Rams",
     "bookmaker": "draftkings",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -1.4,
-    "total": -4.8,
-    "value_rating": 1.4,
+    "spread": 1.6,
+    "total": -5.8,
+    "value_rating": 1.6,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": 1.5
+    "side": "home",
+    "cover_line": -1.5
    },
    "result": null,
    "tags": [
@@ -1956,7 +1959,7 @@
     "home_score": 82.6,
     "away_score": 69.2,
     "home_win_prob": 88.8,
-    "confidence": 62.6,
+    "confidence": 66.6,
     "tempo": 70.4,
     "confidence_tier": "medium",
     "pick": {
@@ -1966,22 +1969,22 @@
     }
    },
    "market": {
-    "spread_home": -16.5,
-    "total": 158.5,
+    "spread_home": -17.5,
+    "total": 159.5,
     "favorite": "Arizona Wildcats",
     "bookmaker": "draftkings",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -3.1,
-    "total": -6.7,
-    "value_rating": 3.1,
+    "spread": -4.1,
+    "total": -7.7,
+    "value_rating": 4.1,
     "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 16.5
+    "cover_line": 17.5
    },
    "result": null,
    "tags": [
