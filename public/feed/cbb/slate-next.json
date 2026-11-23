@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-23T03:08:59.186250-05:00",
+ "generated_at": "2026-11-23T03:32:52.738724-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-23",
@@ -61,7 +61,7 @@
    },
    "market": {
     "spread_home": -5.5,
-    "total": 140.5,
+    "total": 141.5,
     "favorite": "Davidson Wildcats",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -69,7 +69,7 @@
    "closing": null,
    "edge": {
     "spread": -3.3,
-    "total": 8.3,
+    "total": 7.3,
     "value_rating": 3.3,
     "is_best_bet": true
    },
@@ -120,7 +120,7 @@
     "home_score": 66.2,
     "away_score": 72.5,
     "home_win_prob": 28.5,
-    "confidence": 58.0,
+    "confidence": 62.0,
     "tempo": 66.5,
     "confidence_tier": "medium",
     "pick": {
@@ -130,7 +130,7 @@
     }
    },
    "market": {
-    "spread_home": 5.5,
+    "spread_home": 4.5,
     "total": 133.5,
     "favorite": "St. Bonaventure Bonnies",
     "bookmaker": "fanduel",
@@ -138,14 +138,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -0.7,
+    "spread": -1.7,
     "total": 5.2,
-    "value_rating": 0.7,
+    "value_rating": 1.7,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": -5.5
+    "cover_line": -4.5
    },
    "result": null,
    "tags": [
@@ -401,7 +401,7 @@
    },
    "market": {
     "spread_home": -1.5,
-    "total": 147.5,
+    "total": 148.5,
     "favorite": "Wright St Raiders",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -409,7 +409,7 @@
    "closing": null,
    "edge": {
     "spread": -1.9,
-    "total": -3.1,
+    "total": -4.1,
     "value_rating": 1.9,
     "is_best_bet": false
    },
@@ -610,7 +610,7 @@
    },
    "market": {
     "spread_home": -2.5,
-    "total": 148.5,
+    "total": 149.5,
     "favorite": "Southern Illinois Salukis",
     "bookmaker": "betmgm",
     "captured_at": null
@@ -618,7 +618,7 @@
    "closing": null,
    "edge": {
     "spread": -3.9,
-    "total": -2.3,
+    "total": -3.3,
     "value_rating": 3.9,
     "is_best_bet": true
    },
@@ -681,7 +681,7 @@
    },
    "market": {
     "spread_home": 4.5,
-    "total": 165.5,
+    "total": 166.5,
     "favorite": "W&M -4.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -689,7 +689,7 @@
    "closing": null,
    "edge": {
     "spread": -1.6,
-    "total": -2.6,
+    "total": -3.6,
     "value_rating": 1.6,
     "is_best_bet": false
    },
@@ -749,7 +749,7 @@
    },
    "market": {
     "spread_home": 7.5,
-    "total": 160.5,
+    "total": 162.5,
     "favorite": "Arkansas St Red Wolves",
     "bookmaker": "betmgm",
     "captured_at": null
@@ -757,7 +757,7 @@
    "closing": null,
    "edge": {
     "spread": 3.9,
-    "total": -6.3,
+    "total": -8.3,
     "value_rating": 3.9,
     "is_best_bet": true
    },
@@ -945,7 +945,7 @@
     "home_score": 67.1,
     "away_score": 74.5,
     "home_win_prob": 25.0,
-    "confidence": 58.7,
+    "confidence": 55.3,
     "tempo": 68.3,
     "confidence_tier": "medium",
     "pick": {
@@ -955,22 +955,22 @@
     }
    },
    "market": {
-    "spread_home": 6.5,
-    "total": 137.5,
+    "spread_home": 7.5,
+    "total": 139.5,
     "favorite": "Nevada Wolf Pack",
     "bookmaker": "fanduel",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -0.9,
-    "total": 4.2,
-    "value_rating": 0.9,
+    "spread": 0.1,
+    "total": 2.2,
+    "value_rating": 0.1,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": -6.5
+    "side": "none",
+    "cover_line": -7.5
    },
    "result": null,
    "tags": [
@@ -1083,7 +1083,7 @@
     "home_score": 68.0,
     "away_score": 75.1,
     "home_win_prob": 26.0,
-    "confidence": 45.0,
+    "confidence": 65.3,
     "tempo": 68.2,
     "confidence_tier": "medium",
     "pick": {
@@ -1092,17 +1092,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 4.5,
+    "total": 145.5,
+    "favorite": "TEM -4.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -2.6,
+    "total": -2.4,
+    "value_rating": 2.6,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": -4.5
    },
    "result": null,
    "tags": [
@@ -1360,7 +1366,7 @@
    },
    "market": {
     "spread_home": -9.5,
-    "total": 133.5,
+    "total": 135.5,
     "favorite": "Iona Gaels",
     "bookmaker": "betmgm",
     "captured_at": null
@@ -1368,7 +1374,7 @@
    "closing": null,
    "edge": {
     "spread": 0.5,
-    "total": 6.2,
+    "total": 4.2,
     "value_rating": 0.5,
     "is_best_bet": false
    },
@@ -1492,7 +1498,7 @@
    },
    "market": {
     "spread_home": 2.5,
-    "total": 150.5,
+    "total": 149.5,
     "favorite": "North Carolina A&T Aggies",
     "bookmaker": "betmgm",
     "captured_at": null
@@ -1500,7 +1506,7 @@
    "closing": null,
    "edge": {
     "spread": 1.5,
-    "total": -0.3,
+    "total": 0.7,
     "value_rating": 1.5,
     "is_best_bet": false
    },
@@ -1616,7 +1622,7 @@
     "home_score": 92.3,
     "away_score": 62.0,
     "home_win_prob": 99.7,
-    "confidence": 69.0,
+    "confidence": 66.1,
     "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
@@ -1626,7 +1632,7 @@
     }
    },
    "market": {
-    "spread_home": -36.5,
+    "spread_home": -35.5,
     "total": 157.5,
     "favorite": "Kansas Jayhawks",
     "bookmaker": "fanduel",
@@ -1634,17 +1640,18 @@
    },
    "closing": null,
    "edge": {
-    "spread": -6.3,
+    "spread": -5.3,
     "total": -3.2,
-    "value_rating": 6.3,
-    "is_best_bet": false
+    "value_rating": 5.3,
+    "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 36.5
+    "cover_line": 35.5
    },
    "result": null,
    "tags": [
+    "best_bet",
     "value"
    ]
   },
@@ -1684,7 +1691,7 @@
     "home_score": 83.2,
     "away_score": 65.7,
     "home_win_prob": 94.4,
-    "confidence": 57.0,
+    "confidence": 53.0,
     "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
@@ -1694,7 +1701,7 @@
     }
    },
    "market": {
-    "spread_home": -20.5,
+    "spread_home": -19.5,
     "total": 153.5,
     "favorite": "North Carolina Tar Heels",
     "bookmaker": "draftkings",
@@ -1702,19 +1709,17 @@
    },
    "closing": null,
    "edge": {
-    "spread": -3.0,
+    "spread": -2.0,
     "total": -4.7,
-    "value_rating": 3.0,
+    "value_rating": 2.0,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 20.5
+    "cover_line": 19.5
    },
    "result": null,
-   "tags": [
-    "value"
-   ]
+   "tags": []
   },
   {
    "id": "cbb:401913530",
@@ -1762,7 +1767,7 @@
     }
    },
    "market": {
-    "spread_home": -45.5,
+    "spread_home": -43.5,
     "total": 180.5,
     "favorite": "Illinois Fighting Illini",
     "bookmaker": "betmgm",
@@ -1770,18 +1775,86 @@
    },
    "closing": null,
    "edge": {
-    "spread": -12.4,
+    "spread": -10.4,
     "total": -13.3,
-    "value_rating": 12.4,
+    "value_rating": 10.4,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 45.5
+    "cover_line": 43.5
    },
    "result": null,
    "tags": [
     "value"
+   ]
+  },
+  {
+   "id": "cbb:401921208",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-23",
+   "game_id": "401921208",
+   "game_id_source": "espn",
+   "start_time": "2026-11-24T01:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Utah Valley Wolverines",
+    "abbr": "UVU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
+    "record": "5-0",
+    "rank": null
+   },
+   "away": {
+    "name": "Stephen F. Austin Lumberjacks",
+    "abbr": "SFA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "venue": "Elridge Blake Sports and Fitness Center",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -2.3,
+    "total": 149.3,
+    "home_score": 75.8,
+    "away_score": 73.5,
+    "home_win_prob": 58.4,
+    "confidence": 58.7,
+    "tempo": 69.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Utah Valley Wolverines",
+     "abbr": "UVU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 152.5,
+    "favorite": "UVU -3.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -1.2,
+    "total": -3.2,
+    "value_rating": 1.2,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 3.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
    ]
   },
   {
@@ -1853,6 +1926,68 @@
    ]
   },
   {
+   "id": "cbb:401921663",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-23",
+   "game_id": "401921663",
+   "game_id_source": "espn",
+   "start_time": "2026-11-24T02:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Seattle U Redhawks",
+    "abbr": "SEA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Loyola Chicago Ramblers",
+    "abbr": "LUC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2350.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "venue": "Acrisure Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 0.6,
+    "total": 142.7,
+    "home_score": 71.0,
+    "away_score": 71.6,
+    "home_win_prob": 47.8,
+    "confidence": 45.0,
+    "tempo": 69.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Loyola Chicago Ramblers",
+     "abbr": "LUC",
+     "side": "away"
+    }
+   },
+   "market": null,
+   "closing": null,
+   "edge": {
+    "spread": null,
+    "total": null,
+    "value_rating": null,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": null
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
    "id": "cbb:401926183",
    "sport": "cbb",
    "league": "NCAAM",
@@ -1888,7 +2023,7 @@
     "home_score": 83.5,
     "away_score": 72.2,
     "home_win_prob": 84.7,
-    "confidence": 51.9,
+    "confidence": 54.1,
     "tempo": 69.0,
     "confidence_tier": "medium",
     "pick": {
@@ -1898,22 +2033,22 @@
     }
    },
    "market": {
-    "spread_home": -11.5,
-    "total": 153.5,
+    "spread_home": -10.5,
+    "total": 155.5,
     "favorite": "Pepperdine Waves",
     "bookmaker": "fanduel",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -0.2,
-    "total": 2.2,
-    "value_rating": 0.2,
+    "spread": 0.8,
+    "total": 0.2,
+    "value_rating": 0.8,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": 11.5
+    "side": "home",
+    "cover_line": 10.5
    },
    "result": null,
    "tags": []
@@ -1965,7 +2100,7 @@
    },
    "market": {
     "spread_home": -19.5,
-    "total": 147.5,
+    "total": 144.5,
     "favorite": "California Golden Bears",
     "bookmaker": "betmgm",
     "captured_at": null
@@ -1973,7 +2108,7 @@
    "closing": null,
    "edge": {
     "spread": -5.9,
-    "total": -0.1,
+    "total": 2.9,
     "value_rating": 5.9,
     "is_best_bet": true
    },
@@ -2101,7 +2236,7 @@
    },
    "market": {
     "spread_home": -16.5,
-    "total": 158.5,
+    "total": 159.5,
     "favorite": "Arizona Wildcats",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -2109,7 +2244,7 @@
    "closing": null,
    "edge": {
     "spread": -3.1,
-    "total": -6.7,
+    "total": -7.7,
     "value_rating": 3.1,
     "is_best_bet": true
    },
@@ -2121,6 +2256,68 @@
    "tags": [
     "best_bet",
     "value",
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401921664",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-23",
+   "game_id": "401921664",
+   "game_id_source": "espn",
+   "start_time": "2026-11-24T04:59Z",
+   "status": "pending",
+   "home": {
+    "name": "UC San Diego Tritons",
+    "abbr": "UCSD",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/28.png",
+    "record": "3-2",
+    "rank": null
+   },
+   "away": {
+    "name": "San Jos\u00e9 State Spartans",
+    "abbr": "SJSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+    "record": "3-3",
+    "rank": null
+   },
+   "venue": "Acrisure Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -2.1,
+    "total": 157.9,
+    "home_score": 80.0,
+    "away_score": 77.9,
+    "home_win_prob": 57.7,
+    "confidence": 44.0,
+    "tempo": 69.0,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "UC San Diego Tritons",
+     "abbr": "UCSD",
+     "side": "home"
+    }
+   },
+   "market": null,
+   "closing": null,
+   "edge": {
+    "spread": null,
+    "total": null,
+    "value_rating": null,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": null
+   },
+   "result": null,
+   "tags": [
     "tournament"
    ]
   }
