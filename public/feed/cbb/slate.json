@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-23T17:35:08.314083-05:00",
+ "generated_at": "2026-11-23T18:49:16.384647-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-23",
@@ -649,14 +649,14 @@
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
-    "record": "3-3",
+    "record": "3-4",
     "rank": null
    },
    "away": {
     "name": "Middle Tennessee Blue Raiders",
     "abbr": "MTSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
-    "record": "5-2",
+    "record": "6-2",
     "rank": null
    },
    "venue": "Elridge Blake Sports and Fitness Center",
@@ -720,14 +720,14 @@
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/85.png",
-    "record": "4-2",
+    "record": "4-3",
     "rank": null
    },
    "away": {
     "name": "William & Mary Tribe",
     "abbr": "W&M",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2729.png",
-    "record": "5-2",
+    "record": "6-2",
     "rank": null
    },
    "venue": "Zidian Family Arena at Beeghly Center",
@@ -788,14 +788,14 @@
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
-    "record": "3-2",
+    "record": "4-2",
     "rank": null
    },
    "away": {
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
-    "record": "3-3",
+    "record": "3-4",
     "rank": null
    },
    "venue": "Ocean Bank Convocation Center",
@@ -850,14 +850,14 @@
     "name": "Georgia State Panthers",
     "abbr": "GAST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
-    "record": "2-4",
+    "record": "3-4",
     "rank": null
    },
    "away": {
     "name": "Tulane Green Wave",
     "abbr": "TULN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-    "record": "2-3",
+    "record": "2-4",
     "rank": null
    },
    "venue": "Suncoast Credit Union Arena",
@@ -918,14 +918,14 @@
     "name": "Belmont Bruins",
     "abbr": "BEL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2057.png",
-    "record": "4-1",
+    "record": "5-1",
     "rank": null
    },
    "away": {
     "name": "Yale Bulldogs",
     "abbr": "YALE",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
-    "record": "3-3",
+    "record": "3-4",
     "rank": null
    },
    "venue": "State Farm Field House",
@@ -986,14 +986,14 @@
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
-    "record": "3-2",
+    "record": "4-2",
     "rank": null
    },
    "away": {
     "name": "San Francisco Dons",
     "abbr": "SF",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2539.png",
-    "record": "4-1",
+    "record": "4-2",
     "rank": null
    },
    "venue": "Acrisure Arena",
