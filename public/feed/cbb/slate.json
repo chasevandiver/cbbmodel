@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-23T06:41:43.570138-05:00",
+ "generated_at": "2026-11-23T15:31:32.535319-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-23",
@@ -23,7 +23,7 @@
    "game_id": "401921700",
    "game_id_source": "espn",
    "start_time": "2026-11-23T16:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Davidson Wildcats",
     "abbr": "DAV",
@@ -76,7 +76,19 @@
     "side": "away",
     "cover_line": 5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 48,
+    "margin_home": 31,
+    "total": 127,
+    "winner": "Davidson Wildcats",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -93,7 +105,7 @@
    "game_id": "401927397",
    "game_id_source": "espn",
    "start_time": "2026-11-23T16:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "App State Mountaineers",
     "abbr": "APP",
@@ -146,7 +158,19 @@
     "side": "away",
     "cover_line": -4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 65,
+    "away_score": 71,
+    "margin_home": -6,
+    "total": 136,
+    "winner": "St. Bonaventure Bonnies",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -161,7 +185,7 @@
    "game_id": "401921209",
    "game_id_source": "espn",
    "start_time": "2026-11-23T17:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "East Carolina Pirates",
     "abbr": "ECU",
@@ -214,7 +238,19 @@
     "side": "home",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 76,
+    "away_score": 77,
+    "margin_home": -1,
+    "total": 153,
+    "winner": "Indiana State Sycamores",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -229,7 +265,7 @@
    "game_id": "401924266",
    "game_id_source": "espn",
    "start_time": "2026-11-23T18:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Florida International Panthers",
     "abbr": "FIU",
@@ -282,7 +318,19 @@
     "side": "away",
     "cover_line": 9.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 75,
+    "margin_home": 4,
+    "total": 154,
+    "winner": "Florida International Panthers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -295,7 +343,7 @@
    "game_id": "401921701",
    "game_id_source": "espn",
    "start_time": "2026-11-23T18:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Florida Gulf Coast Eagles",
     "abbr": "FGCU",
@@ -348,7 +396,19 @@
     "side": "away",
     "cover_line": -6.5
    },
-   "result": null,
+   "result": {
+    "home_score": 58,
+    "away_score": 71,
+    "margin_home": -13,
+    "total": 129,
+    "winner": "Charlotte 49ers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -363,7 +423,7 @@
    "game_id": "401928830",
    "game_id_source": "espn",
    "start_time": "2026-11-23T18:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Wright State Raiders",
     "abbr": "WRST",
@@ -416,7 +476,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 66,
+    "away_score": 64,
+    "margin_home": 2,
+    "total": 130,
+    "winner": "Wright State Raiders",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
