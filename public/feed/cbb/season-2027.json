@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-24T07:45:09.411206-05:00",
+ "generated_at": "2026-11-24T16:06:39.504270-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -69463,14 +69463,14 @@
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/179.png",
-    "record": "5-1",
+    "record": "6-1",
     "rank": null
    },
    "away": {
     "name": "Wright State Raiders",
     "abbr": "WRST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
-    "record": "6-0",
+    "record": "6-1",
     "rank": null
    },
    "venue": "State Farm Field House",
@@ -69537,14 +69537,14 @@
     "name": "New Mexico State Aggies",
     "abbr": "NMSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
-    "record": "1-5",
+    "record": "1-6",
     "rank": null
    },
    "away": {
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
-    "record": "3-1",
+    "record": "4-1",
     "rank": null
    },
    "venue": "The Reef",
@@ -69607,14 +69607,14 @@
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
-    "record": "3-3",
+    "record": "3-4",
     "rank": null
    },
    "away": {
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
-    "record": "1-4",
+    "record": "2-4",
     "rank": null
    },
    "venue": "Hard Rock Hotel Riviera Maya",
@@ -69675,14 +69675,14 @@
     "name": "Akron Zips",
     "abbr": "AKR",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
-    "record": "4-2",
+    "record": "5-2",
     "rank": null
    },
    "away": {
     "name": "Belmont Bruins",
     "abbr": "BEL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2057.png",
-    "record": "5-1",
+    "record": "5-2",
     "rank": null
    },
    "venue": "State Farm Field House",
@@ -69749,14 +69749,14 @@
     "name": "Florida International Panthers",
     "abbr": "FIU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
-    "record": "4-1",
+    "record": "5-1",
     "rank": null
    },
    "away": {
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
-    "record": "3-4",
+    "record": "3-5",
     "rank": null
    },
    "venue": "Ocean Bank Convocation Center",
@@ -69815,14 +69815,14 @@
     "name": "Pittsburgh Panthers",
     "abbr": "PITT",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
-    "record": "6-0",
+    "record": "7-0",
     "rank": null
    },
    "away": {
     "name": "Oklahoma Sooners",
     "abbr": "OU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-    "record": "4-1",
+    "record": "4-2",
     "rank": null
    },
    "venue": "Suncoast Credit Union Arena",
@@ -69880,56 +69880,50 @@
    "start_time": "2026-11-24T18:30Z",
    "status": "pending",
    "home": {
-    "name": "UIC Flames",
-    "abbr": "UIC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/82.png",
-    "record": "4-2",
-    "rank": null
-   },
-   "away": {
     "name": "Rice Owls",
     "abbr": "RICE",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
-    "record": "4-2",
+    "record": "5-2",
+    "rank": null
+   },
+   "away": {
+    "name": "UIC Flames",
+    "abbr": "UIC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/82.png",
+    "record": "4-3",
     "rank": null
    },
    "venue": "The Reef",
    "neutral_site": true,
    "conference_game": false,
-   "broadcast": "",
+   "broadcast": "Spiideo",
    "model": {
     "version": "4.1.0",
-    "spread_home": -6.0,
+    "spread_home": 6.0,
     "total": 146.7,
-    "home_score": 76.3,
-    "away_score": 70.3,
-    "home_win_prob": 70.8,
-    "confidence": 61.9,
+    "home_score": 70.3,
+    "away_score": 76.3,
+    "home_win_prob": 29.2,
+    "confidence": 46.0,
     "tempo": 68.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "UIC Flames",
      "abbr": "UIC",
-     "side": "home"
+     "side": "away"
     }
    },
-   "market": {
-    "spread_home": -7.5,
-    "total": 142.5,
-    "favorite": "UIC -7.5",
-    "bookmaker": "espn",
-    "captured_at": null
-   },
+   "market": null,
    "closing": null,
    "edge": {
-    "spread": -1.5,
-    "total": 4.2,
-    "value_rating": 1.5,
+    "spread": null,
+    "total": null,
+    "value_rating": null,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": 7.5
+    "side": "none",
+    "cover_line": null
    },
    "result": null,
    "tags": [
@@ -69948,17 +69942,17 @@
    "start_time": "2026-11-24T19:00Z",
    "status": "pending",
    "home": {
-    "name": "San Francisco Dons",
-    "abbr": "SF",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2539.png",
-    "record": "4-2",
-    "rank": null
-   },
-   "away": {
     "name": "Oregon State Beavers",
     "abbr": "ORST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
-    "record": "7-0",
+    "record": "8-0",
+    "rank": null
+   },
+   "away": {
+    "name": "San Francisco Dons",
+    "abbr": "SF",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2539.png",
+    "record": "4-3",
     "rank": null
    },
    "venue": "Acrisure Arena",
@@ -69967,43 +69961,31 @@
    "broadcast": "CBSSN",
    "model": {
     "version": "4.1.0",
-    "spread_home": 9.1,
+    "spread_home": -9.1,
     "total": 149.7,
-    "home_score": 70.3,
-    "away_score": 79.4,
-    "home_win_prob": 20.5,
-    "confidence": 57.8,
+    "home_score": 79.4,
+    "away_score": 70.3,
+    "home_win_prob": 79.5,
+    "confidence": 46.0,
     "tempo": 70.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Oregon State Beavers",
      "abbr": "ORST",
-     "side": "away"
+     "side": "home"
     }
    },
-   "market": {
-    "spread_home": 9.5,
-    "total": 150.5,
-    "favorite": "Oregon St Beavers",
-    "bookmaker": "fanduel",
-    "captured_at": null
-   },
-   "closing": {
-    "spread_home": 9.5,
-    "total": 150.5,
-    "favorite": "Oregon St Beavers",
-    "bookmaker": "fanduel",
-    "captured_at": "2026-11-24T07:45:08.799941-05:00"
-   },
+   "market": null,
+   "closing": null,
    "edge": {
-    "spread": 0.4,
-    "total": -0.8,
-    "value_rating": 0.4,
+    "spread": null,
+    "total": null,
+    "value_rating": null,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": -9.5
+    "cover_line": null
    },
    "result": null,
    "tags": [
@@ -70392,20 +70374,20 @@
    "slate_date": "2026-11-24",
    "game_id": "401924267",
    "game_id_source": "espn",
-   "start_time": "2026-11-24T20:30Z",
+   "start_time": "2026-11-24T20:45Z",
    "status": "pending",
    "home": {
-    "name": "Arkansas State Red Wolves",
-    "abbr": "ARST",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
-    "record": "4-2",
-    "rank": null
-   },
-   "away": {
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/299.png",
     "record": "1-4",
+    "rank": null
+   },
+   "away": {
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+    "record": "4-2",
     "rank": null
    },
    "venue": "Ocean Bank Convocation Center",
@@ -70414,37 +70396,37 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": -3.3,
+    "spread_home": 3.3,
     "total": 153.8,
-    "home_score": 78.6,
-    "away_score": 75.3,
-    "home_win_prob": 61.7,
-    "confidence": 59.9,
+    "home_score": 75.3,
+    "away_score": 78.6,
+    "home_win_prob": 38.3,
+    "confidence": 63.9,
     "tempo": 70.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Arkansas State Red Wolves",
      "abbr": "ARST",
-     "side": "home"
+     "side": "away"
     }
    },
    "market": {
-    "spread_home": -4.5,
-    "total": 158.5,
-    "favorite": "ARST -4.5",
-    "bookmaker": "espn",
+    "spread_home": 5.5,
+    "total": 172.5,
+    "favorite": "Arkansas St Red Wolves",
+    "bookmaker": "fanduel",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -1.2,
-    "total": -4.7,
-    "value_rating": 1.2,
+    "spread": 2.2,
+    "total": -18.7,
+    "value_rating": 2.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": 4.5
+    "side": "home",
+    "cover_line": -5.5
    },
    "result": null,
    "tags": [
@@ -70463,17 +70445,17 @@
    "start_time": "2026-11-24T21:00Z",
    "status": "pending",
    "home": {
-    "name": "New Haven Chargers",
-    "abbr": "NHVN",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
-    "record": "3-3",
-    "rank": null
-   },
-   "away": {
     "name": "Lindenwood Lions",
     "abbr": "LIN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
     "record": "2-4",
+    "rank": null
+   },
+   "away": {
+    "name": "New Haven Chargers",
+    "abbr": "NHVN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
+    "record": "3-3",
     "rank": null
    },
    "venue": "Stony Brook Arena",
@@ -70482,37 +70464,37 @@
    "broadcast": "FloSports",
    "model": {
     "version": "4.1.0",
-    "spread_home": 3.0,
+    "spread_home": -3.0,
     "total": 136.9,
-    "home_score": 67.0,
-    "away_score": 69.9,
-    "home_win_prob": 39.4,
+    "home_score": 69.9,
+    "away_score": 67.0,
+    "home_win_prob": 60.6,
     "confidence": 61.9,
     "tempo": 68.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Lindenwood Lions",
      "abbr": "LIN",
-     "side": "away"
+     "side": "home"
     }
    },
    "market": {
-    "spread_home": 1.5,
-    "total": 132.5,
-    "favorite": "LIN -1.5",
-    "bookmaker": "espn",
+    "spread_home": -1.5,
+    "total": 134.5,
+    "favorite": "Lindenwood Lions",
+    "bookmaker": "fanduel",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -1.5,
-    "total": 4.4,
+    "spread": 1.5,
+    "total": 2.4,
     "value_rating": 1.5,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": -1.5
+    "side": "home",
+    "cover_line": 1.5
    },
    "result": null,
    "tags": [
@@ -70531,17 +70513,17 @@
    "start_time": "2026-11-24T21:30Z",
    "status": "pending",
    "home": {
-    "name": "Illinois State Redbirds",
-    "abbr": "ILST",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png",
-    "record": "3-4",
-    "rank": null
-   },
-   "away": {
     "name": "Tulsa Golden Hurricane",
     "abbr": "TLSA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
     "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Illinois State Redbirds",
+    "abbr": "ILST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png",
+    "record": "3-4",
     "rank": null
    },
    "venue": "Acrisure Arena",
@@ -70550,37 +70532,37 @@
    "broadcast": "CBSSN",
    "model": {
     "version": "4.1.0",
-    "spread_home": 1.0,
+    "spread_home": -1.0,
     "total": 147.7,
-    "home_score": 73.3,
-    "away_score": 74.3,
-    "home_win_prob": 46.2,
+    "home_score": 74.3,
+    "away_score": 73.3,
+    "home_win_prob": 53.8,
     "confidence": 57.8,
     "tempo": 67.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Tulsa Golden Hurricane",
      "abbr": "TLSA",
-     "side": "away"
+     "side": "home"
     }
    },
    "market": {
-    "spread_home": 1.5,
-    "total": 142.5,
-    "favorite": "TLSA -1.5",
-    "bookmaker": "espn",
+    "spread_home": -1.5,
+    "total": 143.5,
+    "favorite": "Tulsa Golden Hurricane",
+    "bookmaker": "fanduel",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 0.5,
-    "total": 5.2,
+    "spread": -0.5,
+    "total": 4.2,
     "value_rating": 0.5,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": -1.5
+    "cover_line": 1.5
    },
    "result": null,
    "tags": [
@@ -70821,17 +70803,17 @@
    "start_time": "2026-11-24T22:30Z",
    "status": "pending",
    "home": {
-    "name": "Kent State Golden Flashes",
-    "abbr": "KENT",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
-    "record": "2-3",
-    "rank": null
-   },
-   "away": {
     "name": "Wyoming Cowboys",
     "abbr": "WYO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
     "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+    "record": "2-3",
     "rank": null
    },
    "venue": "Ocean Center",
@@ -70840,37 +70822,37 @@
    "broadcast": "FloSports",
    "model": {
     "version": "4.1.0",
-    "spread_home": 7.9,
+    "spread_home": -7.9,
     "total": 146.7,
-    "home_score": 69.4,
-    "away_score": 77.3,
-    "home_win_prob": 23.6,
-    "confidence": 57.3,
+    "home_score": 77.3,
+    "away_score": 69.4,
+    "home_win_prob": 76.4,
+    "confidence": 61.3,
     "tempo": 68.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Wyoming Cowboys",
      "abbr": "WYO",
-     "side": "away"
+     "side": "home"
     }
    },
    "market": {
-    "spread_home": 8.5,
-    "total": 145.5,
-    "favorite": "WYO -8.5",
-    "bookmaker": "espn",
+    "spread_home": -9.5,
+    "total": 143.5,
+    "favorite": "Wyoming Cowboys",
+    "bookmaker": "draftkings",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 0.6,
-    "total": 1.2,
-    "value_rating": 0.6,
+    "spread": -1.6,
+    "total": 3.2,
+    "value_rating": 1.6,
     "is_best_bet": false
    },
    "bet": {
-    "side": "home",
-    "cover_line": -8.5
+    "side": "away",
+    "cover_line": 9.5
    },
    "result": null,
    "tags": [
@@ -71413,7 +71395,7 @@
    "venue": "The Reef",
    "neutral_site": true,
    "conference_game": false,
-   "broadcast": "",
+   "broadcast": "Spiideo",
    "model": {
     "version": "4.1.0",
     "spread_home": -0.7,
@@ -72495,7 +72477,7 @@
    "venue": "Hill Field House",
    "neutral_site": false,
    "conference_game": false,
-   "broadcast": "",
+   "broadcast": "MEAC Network",
    "model": {
     "version": "4.1.0",
     "spread_home": -0.9,
@@ -72621,56 +72603,56 @@
    "start_time": "2026-11-25T00:00Z",
    "status": "pending",
    "home": {
-    "name": "Georgia Southern Eagles",
-    "abbr": "GASO",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
-    "record": "3-4",
-    "rank": null
-   },
-   "away": {
     "name": "Bellarmine Knights",
     "abbr": "BELL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/91.png",
     "record": "2-5",
     "rank": null
    },
+   "away": {
+    "name": "Georgia Southern Eagles",
+    "abbr": "GASO",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+    "record": "3-4",
+    "rank": null
+   },
    "venue": "Truist Arena",
    "neutral_site": true,
    "conference_game": false,
-   "broadcast": "",
+   "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": -3.0,
+    "spread_home": 3.0,
     "total": 151.1,
-    "home_score": 77.0,
-    "away_score": 74.0,
-    "home_win_prob": 60.7,
+    "home_score": 74.0,
+    "away_score": 77.0,
+    "home_win_prob": 39.3,
     "confidence": 59.0,
     "tempo": 68.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Georgia Southern Eagles",
      "abbr": "GASO",
-     "side": "home"
+     "side": "away"
     }
    },
    "market": {
-    "spread_home": -2.5,
-    "total": 153.5,
-    "favorite": "GASO -2.5",
-    "bookmaker": "espn",
+    "spread_home": 2.5,
+    "total": 152.5,
+    "favorite": "Georgia Southern Eagles",
+    "bookmaker": "fanduel",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 0.5,
-    "total": -2.4,
+    "spread": -0.5,
+    "total": -1.4,
     "value_rating": 0.5,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": 2.5
+    "cover_line": -2.5
    },
    "result": null,
    "tags": [
@@ -74240,7 +74222,7 @@
    "venue": "Hard Rock Hotel Riviera Maya",
    "neutral_site": true,
    "conference_game": false,
-   "broadcast": "FloHoops",
+   "broadcast": "FloSports",
    "model": {
     "version": "4.1.0",
     "spread_home": -0.0,
