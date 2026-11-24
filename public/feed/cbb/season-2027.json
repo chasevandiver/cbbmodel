@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-23T20:38:51.421577-05:00",
+ "generated_at": "2026-11-23T21:39:49.263658-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -67212,7 +67212,7 @@
    "game_id": "401921658",
    "game_id_source": "espn",
    "start_time": "2026-11-23T19:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Oregon State Beavers",
     "abbr": "ORST",
@@ -67265,7 +67265,19 @@
     "side": "away",
     "cover_line": 6.5
    },
-   "result": null,
+   "result": {
+    "home_score": 69,
+    "away_score": 66,
+    "margin_home": 3,
+    "total": 135,
+    "winner": "Oregon State Beavers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -67283,7 +67295,7 @@
    "game_id": "401918076",
    "game_id_source": "espn",
    "start_time": "2026-11-23T19:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Clemson Tigers",
     "abbr": "CLEM",
@@ -67336,7 +67348,19 @@
     "side": "home",
     "cover_line": -5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 62,
+    "away_score": 82,
+    "margin_home": -20,
+    "total": 144,
+    "winner": "Ole Miss Rebels",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -67353,7 +67377,7 @@
    "game_id": "401921207",
    "game_id_source": "espn",
    "start_time": "2026-11-23T20:20Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Southern Illinois Salukis",
     "abbr": "SIU",
@@ -67406,7 +67430,19 @@
     "side": "away",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 76,
+    "away_score": 77,
+    "margin_home": -1,
+    "total": 153,
+    "winner": "Middle Tennessee Blue Raiders",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -67424,7 +67460,7 @@
    "game_id": "401921177",
    "game_id_source": "espn",
    "start_time": "2026-11-23T20:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "IU Indianapolis Jaguars",
     "abbr": "IUIN",
@@ -67477,7 +67513,19 @@
     "side": "away",
     "cover_line": -4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 82,
+    "away_score": 87,
+    "margin_home": -5,
+    "total": 169,
+    "winner": "William & Mary Tribe",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -67492,7 +67540,7 @@
    "game_id": "401929445",
    "game_id_source": "espn",
    "start_time": "2026-11-23T20:45Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
@@ -67539,7 +67587,19 @@
     "side": "none",
     "cover_line": null
    },
-   "result": null,
+   "result": {
+    "home_score": 104,
+    "away_score": 102,
+    "margin_home": 2,
+    "total": 206,
+    "winner": "Arkansas State Red Wolves",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": null,
+    "ou_result": null,
+    "ou_correct": null,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -67554,7 +67614,7 @@
    "game_id": "401919006",
    "game_id_source": "espn",
    "start_time": "2026-11-23T21:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Georgia State Panthers",
     "abbr": "GAST",
@@ -67607,7 +67667,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 73,
+    "away_score": 63,
+    "margin_home": 10,
+    "total": 136,
+    "winner": "Georgia State Panthers",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -67622,7 +67694,7 @@
    "game_id": "401929286",
    "game_id_source": "espn",
    "start_time": "2026-11-23T21:15Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Belmont Bruins",
     "abbr": "BEL",
@@ -67675,7 +67747,19 @@
     "side": "home",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 68,
+    "away_score": 60,
+    "margin_home": 8,
+    "total": 128,
+    "winner": "Belmont Bruins",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -67690,7 +67774,7 @@
    "game_id": "401911457",
    "game_id_source": "espn",
    "start_time": "2026-11-23T21:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
@@ -67737,7 +67821,19 @@
     "side": "none",
     "cover_line": null
    },
-   "result": null,
+   "result": {
+    "home_score": 71,
+    "away_score": 62,
+    "margin_home": 9,
+    "total": 133,
+    "winner": "Nevada Wolf Pack",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": null,
+    "ou_result": null,
+    "ou_correct": null,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -67752,7 +67848,7 @@
    "game_id": "401921708",
    "game_id_source": "espn",
    "start_time": "2026-11-23T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "BYU Cougars",
     "abbr": "BYU",
@@ -67805,7 +67901,19 @@
     "side": "away",
     "cover_line": 12.5
    },
-   "result": null,
+   "result": {
+    "home_score": 83,
+    "away_score": 77,
+    "margin_home": 6,
+    "total": 160,
+    "winner": "BYU Cougars",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -67822,7 +67930,7 @@
    "game_id": "401921210",
    "game_id_source": "espn",
    "start_time": "2026-11-23T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UT Martin Skyhawks",
     "abbr": "UTM",
@@ -67875,7 +67983,19 @@
     "side": "away",
     "cover_line": -4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 90,
+    "away_score": 81,
+    "margin_home": 9,
+    "total": 171,
+    "winner": "UT Martin Skyhawks",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -67890,7 +68010,7 @@
    "game_id": "401920752",
    "game_id_source": "espn",
    "start_time": "2026-11-23T23:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Youngstown State Penguins",
     "abbr": "YSU",
@@ -67943,7 +68063,19 @@
     "side": "none",
     "cover_line": 14.5
    },
-   "result": null,
+   "result": {
+    "home_score": 69,
+    "away_score": 65,
+    "margin_home": 4,
+    "total": 134,
+    "winner": "Youngstown State Penguins",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -67956,7 +68088,7 @@
    "game_id": "401917543",
    "game_id_source": "espn",
    "start_time": "2026-11-24T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Illinois State Redbirds",
     "abbr": "ILST",
@@ -68003,7 +68135,19 @@
     "side": "none",
     "cover_line": null
    },
-   "result": null,
+   "result": {
+    "home_score": 99,
+    "away_score": 102,
+    "margin_home": -3,
+    "total": 201,
+    "winner": "Santa Clara Broncos",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": null,
+    "ou_result": null,
+    "ou_correct": null,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -68018,7 +68162,7 @@
    "game_id": "401917919",
    "game_id_source": "espn",
    "start_time": "2026-11-24T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "North Florida Ospreys",
     "abbr": "UNF",
@@ -68071,7 +68215,19 @@
     "side": "home",
     "cover_line": -8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 66,
+    "away_score": 80,
+    "margin_home": -14,
+    "total": 146,
+    "winner": "Central Arkansas Bears",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -68084,7 +68240,7 @@
    "game_id": "401919761",
    "game_id_source": "espn",
    "start_time": "2026-11-24T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Iona Gaels",
     "abbr": "IONA",
@@ -68137,7 +68293,19 @@
     "side": "none",
     "cover_line": 9.5
    },
-   "result": null,
+   "result": {
+    "home_score": 46,
+    "away_score": 49,
+    "margin_home": -3,
+    "total": 95,
+    "winner": "Fairleigh Dickinson Knights",
+    "su_correct": false,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -68150,7 +68318,7 @@
    "game_id": "401921029",
    "game_id_source": "espn",
    "start_time": "2026-11-24T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
@@ -68203,7 +68371,19 @@
     "side": "home",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 79,
+    "away_score": 84,
+    "margin_home": -5,
+    "total": 163,
+    "winner": "Georgia Southern Eagles",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -68216,7 +68396,7 @@
    "game_id": "401921157",
    "game_id_source": "espn",
    "start_time": "2026-11-24T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "South Carolina State Bulldogs",
     "abbr": "SCST",
@@ -68269,7 +68449,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 60,
+    "away_score": 62,
+    "margin_home": -2,
+    "total": 122,
+    "winner": "North Carolina A&T Aggies",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -68282,7 +68474,7 @@
    "game_id": "401919032",
    "game_id_source": "espn",
    "start_time": "2026-11-24T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Wichita State Shockers",
     "abbr": "WICH",
@@ -68335,7 +68527,19 @@
     "side": "away",
     "cover_line": 21.5
    },
-   "result": null,
+   "result": {
+    "home_score": 91,
+    "away_score": 73,
+    "margin_home": 18,
+    "total": 164,
+    "winner": "Wichita State Shockers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -68866,7 +69070,13 @@
     "bookmaker": "betmgm",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -17.5,
+    "total": 143.5,
+    "favorite": "California Golden Bears",
+    "bookmaker": "betmgm",
+    "captured_at": "2026-11-23T21:39:34.128418-05:00"
+   },
    "edge": {
     "spread": -6.0,
     "total": 2.7,
@@ -68936,7 +69146,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -7.5,
+    "total": 160.5,
+    "favorite": "UNLV Rebels",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-23T21:39:34.128418-05:00"
+   },
    "edge": {
     "spread": -0.5,
     "total": -2.5,
@@ -69002,7 +69218,13 @@
     "bookmaker": "draftkings",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -16.5,
+    "total": 158.5,
+    "favorite": "Arizona Wildcats",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-23T21:39:34.128418-05:00"
+   },
    "edge": {
     "spread": -3.1,
     "total": -7.8,
@@ -69072,7 +69294,13 @@
     "bookmaker": "fanduel",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": -2.5,
+    "total": 155.5,
+    "favorite": "UC San Diego Tritons",
+    "bookmaker": "fanduel",
+    "captured_at": "2026-11-23T21:39:34.128418-05:00"
+   },
    "edge": {
     "spread": -0.9,
     "total": 0.6,

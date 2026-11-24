@@ -58,7 +58,14 @@
         "total_edge": 2.7
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -17.5,
+        "over_under": 143.5,
+        "spread_holder": "California Golden Bears",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-23T21:39:34.128418-05:00"
+      }
     },
     {
       "game_id": "401921658",
@@ -760,7 +767,14 @@
         "total_edge": -7.8
       },
       "is_best_bet": true,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -16.5,
+        "over_under": 158.5,
+        "spread_holder": "Arizona Wildcats",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-23T21:39:34.128418-05:00"
+      }
     },
     {
       "game_id": "401921029",
@@ -1300,7 +1314,14 @@
         "total_edge": 0.6
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -2.5,
+        "over_under": 155.5,
+        "spread_holder": "UC San Diego Tritons",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-23T21:39:34.128418-05:00"
+      }
     },
     {
       "game_id": "401924266",
@@ -1408,7 +1429,14 @@
         "total_edge": -2.5
       },
       "is_best_bet": false,
-      "is_tournament_game": false
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -7.5,
+        "over_under": 160.5,
+        "spread_holder": "UNLV Rebels",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-23T21:39:34.128418-05:00"
+      }
     },
     {
       "game_id": "401919761",
