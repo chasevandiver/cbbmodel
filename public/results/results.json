@@ -107444,21 +107444,96 @@
       "ou_result": "O",
       "model_ou_call": "U",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401921664",
+      "date": "2026-11-24T04:59Z",
+      "home_team": "UC San Diego Tritons",
+      "away_team": "San Jos\u00e9 State Spartans",
+      "home_abbr": "UCSD",
+      "away_abbr": "SJSU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/28.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "3-3",
+      "home_location": "UC San Diego",
+      "away_location": "San Jos\u00e9 State",
+      "home_rating_team": "UC San Diego",
+      "away_rating_team": "San Jose St.",
+      "home_adj_em": -0.82,
+      "away_adj_em": -1.74,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Acrisure Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "",
+      "predicted_spread": 0.6,
+      "predicted_total": 157.1,
+      "home_projected_score": 78.9,
+      "away_projected_score": 78.2,
+      "home_win_prob": 52.3,
+      "away_win_prob": 47.7,
+      "confidence": 58.5,
+      "pick": "UC San Diego Tritons",
+      "pick_abbr": "UCSD",
+      "is_home_pick": true,
+      "projected_tempo": 69.1,
+      "factors": {
+        "efficiency_margin": 0.64,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 156.5,
+        "spread_holder": "UC San Diego Tritons",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 0.9,
+      "model_vs_market": {
+        "spread_edge": -0.9,
+        "total_edge": 0.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -2.5,
+        "over_under": 155.5,
+        "spread_holder": "UC San Diego Tritons",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-23T23:39:47.225827-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": -1.0,
+      "actual_home_score": 79,
+      "actual_away_score": 88,
+      "actual_margin": -9,
+      "actual_total": 167,
+      "actual_winner": "San Jos\u00e9 State Spartans",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 822,
+      "n": 823,
       "model_mae": 9.99,
       "market_mae": 9.66,
-      "intercept": -0.62,
-      "model_weight": 0.087,
-      "market_weight": 0.922,
+      "intercept": -0.65,
+      "model_weight": 0.089,
+      "market_weight": 0.921,
       "ats_by_edge": {
         "0-2": {
-          "w": 156,
+          "w": 157,
           "l": 105,
-          "pct": 59.8
+          "pct": 59.9
         },
         "2-4": {
           "w": 124,
@@ -107478,10 +107553,10 @@
       }
     },
     "clv": {
-      "n": 504,
-      "avg": 0.3,
-      "beat_close_pct": 38.5,
-      "beat_or_matched_pct": 77.4
+      "n": 505,
+      "avg": 0.29,
+      "beat_close_pct": 38.4,
+      "beat_or_matched_pct": 77.2
     },
     "clv_by_confidence": {
       "high": {
@@ -107491,35 +107566,35 @@
         "beat_or_matched_pct": 84.6
       },
       "medium": {
-        "n": 465,
+        "n": 466,
         "avg": 0.29,
-        "beat_close_pct": 38.3,
-        "beat_or_matched_pct": 76.8
+        "beat_close_pct": 38.2,
+        "beat_or_matched_pct": 76.6
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 828,
-    "ats_graded": 726,
+    "total_graded": 829,
+    "ats_graded": 727,
     "ats": {
-      "w": 405,
+      "w": 406,
       "l": 321,
       "p": 0,
       "pct": 55.8
     },
     "su": {
       "correct": 636,
-      "total": 828,
-      "pct": 76.8
+      "total": 829,
+      "pct": 76.7
     },
     "ou": {
-      "over": 402,
+      "over": 403,
       "under": 420,
       "push": 0,
-      "model_correct": 426,
-      "model_gradeable": 822,
-      "model_pct": 51.8
+      "model_correct": 427,
+      "model_gradeable": 823,
+      "model_pct": 51.9
     },
     "by_confidence": {
       "high": {
@@ -107529,10 +107604,10 @@
         "pct": 50.9
       },
       "medium": {
-        "w": 376,
+        "w": 377,
         "l": 293,
         "p": 0,
-        "pct": 56.2
+        "pct": 56.3
       },
       "low": {
         "w": 0,
@@ -107557,17 +107632,17 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1530,
+        "n": 1531,
         "model_mae": 10.4,
         "market_mae": 9.32,
-        "intercept": -0.01,
+        "intercept": -0.02,
         "model_weight": -0.006,
         "market_weight": 0.977,
         "ats_by_edge": {
           "0-2": {
-            "w": 270,
+            "w": 271,
             "l": 227,
-            "pct": 54.3
+            "pct": 54.4
           },
           "2-4": {
             "w": 219,
@@ -107587,10 +107662,10 @@
         }
       },
       "clv": {
-        "n": 504,
-        "avg": 0.3,
-        "beat_close_pct": 38.5,
-        "beat_or_matched_pct": 77.4
+        "n": 505,
+        "avg": 0.29,
+        "beat_close_pct": 38.4,
+        "beat_or_matched_pct": 77.2
       },
       "clv_by_confidence": {
         "high": {
@@ -107600,34 +107675,34 @@
           "beat_or_matched_pct": 84.6
         },
         "medium": {
-          "n": 465,
+          "n": 466,
           "avg": 0.29,
-          "beat_close_pct": 38.3,
-          "beat_or_matched_pct": 76.8
+          "beat_close_pct": 38.2,
+          "beat_or_matched_pct": 76.6
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1546,
-      "ats_graded": 1332,
+      "total_graded": 1547,
+      "ats_graded": 1333,
       "ats": {
-        "w": 713,
+        "w": 714,
         "l": 619,
         "p": 0,
-        "pct": 53.5
+        "pct": 53.6
       },
       "su": {
         "correct": 1104,
-        "total": 1546,
+        "total": 1547,
         "pct": 71.4
       },
       "ou": {
-        "over": 752,
+        "over": 753,
         "under": 778,
         "push": 0,
-        "model_correct": 783,
-        "model_gradeable": 1530,
+        "model_correct": 784,
+        "model_gradeable": 1531,
         "model_pct": 51.2
       },
       "by_confidence": {
@@ -107638,7 +107713,7 @@
           "pct": 49.2
         },
         "medium": {
-          "w": 543,
+          "w": 544,
           "l": 439,
           "p": 0,
           "pct": 55.3
@@ -107664,5 +107739,5 @@
       }
     }
   },
-  "generated_at": "2026-11-24T02:02:33.110488-05:00"
+  "generated_at": "2026-11-24T05:22:39.025536-05:00"
 }
