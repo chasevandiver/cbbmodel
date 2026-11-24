@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-24T17:21:11.399050-05:00",
+ "generated_at": "2026-11-24T17:59:26.492998-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-24",
@@ -646,14 +646,14 @@
     "name": "Maryland Terrapins",
     "abbr": "MD",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-    "record": "3-2",
+    "record": "3-3",
     "rank": null
    },
    "away": {
     "name": "Tennessee Volunteers",
     "abbr": "TENN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-    "record": "5-0",
+    "record": "6-0",
     "rank": 9
    },
    "venue": "Michelob ULTRA Arena",
@@ -720,14 +720,14 @@
     "name": "TCU Horned Frogs",
     "abbr": "TCU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
-    "record": "4-1",
+    "record": "5-1",
     "rank": null
    },
    "away": {
     "name": "Miami Hurricanes",
     "abbr": "MIA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-    "record": "5-1",
+    "record": "5-2",
     "rank": 17
    },
    "venue": "T-Mobile Arena",
@@ -945,14 +945,14 @@
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/299.png",
-    "record": "1-4",
+    "record": "1-5",
     "rank": null
    },
    "away": {
     "name": "Arkansas State Red Wolves",
     "abbr": "ARST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
-    "record": "4-2",
+    "record": "5-2",
     "rank": null
    },
    "venue": "Ocean Bank Convocation Center",
@@ -1013,14 +1013,14 @@
     "name": "Lindenwood Lions",
     "abbr": "LIN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
-    "record": "2-4",
+    "record": "2-5",
     "rank": null
    },
    "away": {
     "name": "New Haven Chargers",
     "abbr": "NHVN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
-    "record": "3-3",
+    "record": "4-3",
     "rank": null
    },
    "venue": "Stony Brook Arena",
@@ -1209,80 +1209,6 @@
    ]
   },
   {
-   "id": "cbb:401909495",
-   "sport": "cbb",
-   "league": "NCAAM",
-   "season": 2027,
-   "season_label": "2026-27",
-   "slate_date": "2026-11-24",
-   "game_id": "401909495",
-   "game_id_source": "espn",
-   "start_time": "2026-11-24T22:30Z",
-   "status": "pending",
-   "home": {
-    "name": "Michigan Wolverines",
-    "abbr": "MICH",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-    "record": "3-2",
-    "rank": null
-   },
-   "away": {
-    "name": "Creighton Bluejays",
-    "abbr": "CREI",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
-    "record": "4-1",
-    "rank": null
-   },
-   "venue": "T-Mobile Arena",
-   "neutral_site": true,
-   "conference_game": false,
-   "broadcast": "ESPN",
-   "model": {
-    "version": "4.1.0",
-    "spread_home": -4.6,
-    "total": 156.3,
-    "home_score": 80.5,
-    "away_score": 75.8,
-    "home_win_prob": 66.3,
-    "confidence": 62.4,
-    "tempo": 71.6,
-    "confidence_tier": "medium",
-    "pick": {
-     "team": "Michigan Wolverines",
-     "abbr": "MICH",
-     "side": "home"
-    }
-   },
-   "market": {
-    "spread_home": -6.5,
-    "total": 162.5,
-    "favorite": "Michigan Wolverines",
-    "bookmaker": "draftkings",
-    "captured_at": null
-   },
-   "closing": {
-    "spread_home": -6.5,
-    "total": 162.5,
-    "favorite": "Michigan Wolverines",
-    "bookmaker": "draftkings",
-    "captured_at": "2026-11-24T07:45:08.799941-05:00"
-   },
-   "edge": {
-    "spread": -1.9,
-    "total": -6.2,
-    "value_rating": 1.9,
-    "is_best_bet": false
-   },
-   "bet": {
-    "side": "away",
-    "cover_line": 6.5
-   },
-   "result": null,
-   "tags": [
-    "tournament"
-   ]
-  },
-  {
    "id": "cbb:401909775",
    "sport": "cbb",
    "league": "NCAAM",
@@ -1418,6 +1344,80 @@
    "bet": {
     "side": "away",
     "cover_line": 9.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401909495",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-24",
+   "game_id": "401909495",
+   "game_id_source": "espn",
+   "start_time": "2026-11-24T22:55Z",
+   "status": "pending",
+   "home": {
+    "name": "Michigan Wolverines",
+    "abbr": "MICH",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+    "record": "3-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Creighton Bluejays",
+    "abbr": "CREI",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
+    "record": "4-1",
+    "rank": null
+   },
+   "venue": "T-Mobile Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -4.6,
+    "total": 156.3,
+    "home_score": 80.5,
+    "away_score": 75.8,
+    "home_win_prob": 66.3,
+    "confidence": 62.4,
+    "tempo": 71.6,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Michigan Wolverines",
+     "abbr": "MICH",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "total": 162.5,
+    "favorite": "Michigan Wolverines",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": {
+    "spread_home": -6.5,
+    "total": 162.5,
+    "favorite": "Michigan Wolverines",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-24T07:45:08.799941-05:00"
+   },
+   "edge": {
+    "spread": -1.9,
+    "total": -6.2,
+    "value_rating": 1.9,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 6.5
    },
    "result": null,
    "tags": [
@@ -2303,17 +2303,17 @@
    "start_time": "2026-11-25T00:00Z",
    "status": "pending",
    "home": {
-    "name": "Santa Clara Broncos",
-    "abbr": "SCU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-    "record": "6-1",
-    "rank": null
-   },
-   "away": {
     "name": "Nevada Wolf Pack",
     "abbr": "NEV",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
     "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Santa Clara Broncos",
+    "abbr": "SCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
+    "record": "6-1",
     "rank": null
    },
    "venue": "Acrisure Arena",
@@ -2322,42 +2322,36 @@
    "broadcast": "CBSSN",
    "model": {
     "version": "4.1.0",
-    "spread_home": -1.3,
+    "spread_home": 1.3,
     "total": 153.3,
-    "home_score": 77.3,
-    "away_score": 76.0,
-    "home_win_prob": 54.8,
-    "confidence": 67.3,
+    "home_score": 76.0,
+    "away_score": 77.3,
+    "home_win_prob": 45.2,
+    "confidence": 56.7,
     "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
      "team": "Santa Clara Broncos",
      "abbr": "SCU",
-     "side": "home"
+     "side": "away"
     }
    },
    "market": {
     "spread_home": 1.5,
-    "total": 157.5,
-    "favorite": "Nevada Wolf Pack",
-    "bookmaker": "fanduel",
+    "total": 159.5,
+    "favorite": "SCU -1.5",
+    "bookmaker": "espn",
     "captured_at": null
    },
-   "closing": {
-    "spread_home": 1.5,
-    "total": 157.5,
-    "favorite": "Nevada Wolf Pack",
-    "bookmaker": "fanduel",
-    "captured_at": "2026-11-24T07:45:08.799941-05:00"
-   },
+   "closing": null,
    "edge": {
-    "spread": 2.8,
-    "total": -4.2,
-    "value_rating": 2.8,
+    "spread": 0.2,
+    "total": -6.2,
+    "value_rating": 0.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "home",
+    "side": "none",
     "cover_line": -1.5
    },
    "result": null,
@@ -3746,17 +3740,17 @@
    "start_time": "2026-11-25T00:30Z",
    "status": "pending",
    "home": {
-    "name": "Duquesne Dukes",
-    "abbr": "DUQ",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png",
-    "record": "5-1",
-    "rank": null
-   },
-   "away": {
     "name": "High Point Panthers",
     "abbr": "HPU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png",
     "record": "6-0",
+    "rank": null
+   },
+   "away": {
+    "name": "Duquesne Dukes",
+    "abbr": "DUQ",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png",
+    "record": "5-1",
     "rank": null
    },
    "venue": "Ocean Center",
@@ -3765,38 +3759,32 @@
    "broadcast": "FloSports",
    "model": {
     "version": "4.1.0",
-    "spread_home": 8.4,
+    "spread_home": -8.4,
     "total": 147.9,
-    "home_score": 69.8,
-    "away_score": 78.1,
-    "home_win_prob": 22.4,
-    "confidence": 64.6,
+    "home_score": 78.1,
+    "away_score": 69.8,
+    "home_win_prob": 77.6,
+    "confidence": 60.0,
     "tempo": 68.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "High Point Panthers",
      "abbr": "HPU",
-     "side": "away"
+     "side": "home"
     }
    },
    "market": {
     "spread_home": 10.5,
-    "total": 140.5,
-    "favorite": "High Point Panthers",
-    "bookmaker": "fanduel",
+    "total": 141.5,
+    "favorite": "HPU -10.5",
+    "bookmaker": "espn",
     "captured_at": null
    },
-   "closing": {
-    "spread_home": 10.5,
-    "total": 140.5,
-    "favorite": "High Point Panthers",
-    "bookmaker": "fanduel",
-    "captured_at": "2026-11-24T07:45:08.799941-05:00"
-   },
+   "closing": null,
    "edge": {
-    "spread": 2.1,
-    "total": 7.4,
-    "value_rating": 2.1,
+    "spread": 18.9,
+    "total": 6.4,
+    "value_rating": 18.9,
     "is_best_bet": false
    },
    "bet": {
@@ -3805,6 +3793,7 @@
    },
    "result": null,
    "tags": [
+    "value",
     "tournament"
    ]
   },
@@ -4771,16 +4760,16 @@
    "start_time": "2026-11-25T01:30Z",
    "status": "pending",
    "home": {
-    "name": "UTEP Miners",
-    "abbr": "UTEP",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+    "name": "Charleston Cougars",
+    "abbr": "COFC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
     "record": "4-1",
     "rank": null
    },
    "away": {
-    "name": "Charleston Cougars",
-    "abbr": "COFC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
+    "name": "UTEP Miners",
+    "abbr": "UTEP",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
     "record": "4-1",
     "rank": null
    },
@@ -4790,37 +4779,37 @@
    "broadcast": "FloSports",
    "model": {
     "version": "4.1.0",
-    "spread_home": -0.0,
+    "spread_home": 0.0,
     "total": 151.7,
-    "home_score": 75.9,
-    "away_score": 75.8,
-    "home_win_prob": 50.1,
+    "home_score": 75.8,
+    "away_score": 75.9,
+    "home_win_prob": 49.9,
     "confidence": 61.1,
     "tempo": 68.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "UTEP Miners",
      "abbr": "UTEP",
-     "side": "home"
+     "side": "away"
     }
    },
    "market": {
-    "spread_home": 1.5,
-    "total": 148.5,
-    "favorite": "COFC -1.5",
-    "bookmaker": "espn",
+    "spread_home": -1.5,
+    "total": 149.5,
+    "favorite": "Charleston Cougars",
+    "bookmaker": "draftkings",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 1.5,
-    "total": 3.2,
+    "spread": -1.5,
+    "total": 2.2,
     "value_rating": 1.5,
     "is_best_bet": false
    },
    "bet": {
-    "side": "home",
-    "cover_line": -1.5
+    "side": "away",
+    "cover_line": 1.5
    },
    "result": null,
    "tags": [
