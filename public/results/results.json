@@ -107219,16 +107219,166 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401918057",
+      "date": "2026-11-24T03:00Z",
+      "home_team": "California Golden Bears",
+      "away_team": "Alabama State Hornets",
+      "home_abbr": "CAL",
+      "away_abbr": "ALST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "2-4",
+      "home_location": "California",
+      "away_location": "Alabama State",
+      "home_rating_team": "California",
+      "away_rating_team": "Alabama St.",
+      "home_adj_em": 7.59,
+      "away_adj_em": -7.5,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Haas Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACCNX",
+      "predicted_spread": 13.5,
+      "predicted_total": 147.2,
+      "home_projected_score": 80.4,
+      "away_projected_score": 66.9,
+      "home_win_prob": 89.0,
+      "away_win_prob": 11.0,
+      "confidence": 75.0,
+      "pick": "California Golden Bears",
+      "pick_abbr": "CAL",
+      "is_home_pick": true,
+      "projected_tempo": 68.0,
+      "factors": {
+        "efficiency_margin": 10.25,
+        "home_court": 3.25
+      },
+      "market": {
+        "spread": -19.5,
+        "over_under": 144.5,
+        "spread_holder": "California Golden Bears",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 6.0,
+      "model_vs_market": {
+        "spread_edge": -6.0,
+        "total_edge": 2.7
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -17.5,
+        "over_under": 143.5,
+        "spread_holder": "California Golden Bears",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-23T21:39:34.128418-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 19.5,
+      "clv": 2.0,
+      "actual_home_score": 96,
+      "actual_away_score": 54,
+      "actual_margin": 42,
+      "actual_total": 150,
+      "actual_winner": "California Golden Bears",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401920721",
+      "date": "2026-11-24T03:00Z",
+      "home_team": "UNLV Rebels",
+      "away_team": "Eastern Washington Eagles",
+      "home_abbr": "UNLV",
+      "away_abbr": "EWU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "2-3",
+      "home_location": "UNLV",
+      "away_location": "Eastern Washington",
+      "home_rating_team": "UNLV",
+      "away_rating_team": "Eastern Washington",
+      "home_adj_em": 4.14,
+      "away_adj_em": -1.67,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Thomas & Mack Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "MW+",
+      "predicted_spread": 7.0,
+      "predicted_total": 157.0,
+      "home_projected_score": 82.0,
+      "away_projected_score": 75.0,
+      "home_win_prob": 73.9,
+      "away_win_prob": 26.1,
+      "confidence": 56.8,
+      "pick": "UNLV Rebels",
+      "pick_abbr": "UNLV",
+      "is_home_pick": true,
+      "projected_tempo": 70.5,
+      "factors": {
+        "efficiency_margin": 4.09,
+        "home_court": 2.95
+      },
+      "market": {
+        "spread": -7.5,
+        "over_under": 159.5,
+        "spread_holder": "UNLV Rebels",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 0.5,
+      "model_vs_market": {
+        "spread_edge": -0.5,
+        "total_edge": -2.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -7.5,
+        "over_under": 160.5,
+        "spread_holder": "UNLV Rebels",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-23T21:39:34.128418-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 7.5,
+      "clv": null,
+      "actual_home_score": 82,
+      "actual_away_score": 61,
+      "actual_margin": 21,
+      "actual_total": 143,
+      "actual_winner": "UNLV Rebels",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 819,
-      "model_mae": 9.98,
-      "market_mae": 9.64,
-      "intercept": -0.66,
-      "model_weight": 0.097,
-      "market_weight": 0.913,
+      "n": 821,
+      "model_mae": 10.0,
+      "market_mae": 9.66,
+      "intercept": -0.62,
+      "model_weight": 0.087,
+      "market_weight": 0.922,
       "ats_by_edge": {
         "0-2": {
           "w": 156,
@@ -107242,8 +107392,8 @@
         },
         "4-7": {
           "w": 87,
-          "l": 72,
-          "pct": 54.7
+          "l": 73,
+          "pct": 54.4
         },
         "7+": {
           "w": 38,
@@ -107253,17 +107403,17 @@
       }
     },
     "clv": {
-      "n": 502,
-      "avg": 0.29,
-      "beat_close_pct": 38.4,
+      "n": 503,
+      "avg": 0.3,
+      "beat_close_pct": 38.6,
       "beat_or_matched_pct": 77.5
     },
     "clv_by_confidence": {
       "high": {
-        "n": 38,
-        "avg": 0.29,
-        "beat_close_pct": 39.5,
-        "beat_or_matched_pct": 84.2
+        "n": 39,
+        "avg": 0.33,
+        "beat_close_pct": 41.0,
+        "beat_or_matched_pct": 84.6
       },
       "medium": {
         "n": 464,
@@ -107275,33 +107425,33 @@
         "n": 0
       }
     },
-    "total_graded": 825,
-    "ats_graded": 724,
+    "total_graded": 827,
+    "ats_graded": 725,
     "ats": {
       "w": 404,
-      "l": 320,
+      "l": 321,
       "p": 0,
-      "pct": 55.8
+      "pct": 55.7
     },
     "su": {
-      "correct": 633,
-      "total": 825,
-      "pct": 76.7
+      "correct": 635,
+      "total": 827,
+      "pct": 76.8
     },
     "ou": {
-      "over": 400,
-      "under": 419,
+      "over": 401,
+      "under": 420,
       "push": 0,
-      "model_correct": 424,
-      "model_gradeable": 819,
-      "model_pct": 51.8
+      "model_correct": 426,
+      "model_gradeable": 821,
+      "model_pct": 51.9
     },
     "by_confidence": {
       "high": {
         "w": 29,
-        "l": 27,
+        "l": 28,
         "p": 0,
-        "pct": 51.8
+        "pct": 50.9
       },
       "medium": {
         "w": 375,
@@ -107318,26 +107468,26 @@
     },
     "value_plays": {
       "w": 173,
-      "l": 151,
+      "l": 152,
       "p": 0,
-      "pct": 53.4
+      "pct": 53.2
     },
     "best_bets": {
       "w": 106,
-      "l": 98,
+      "l": 99,
       "p": 0,
-      "pct": 52.0
+      "pct": 51.7
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1527,
-        "model_mae": 10.4,
-        "market_mae": 9.31,
-        "intercept": -0.03,
-        "model_weight": -0.005,
-        "market_weight": 0.975,
+        "n": 1529,
+        "model_mae": 10.41,
+        "market_mae": 9.32,
+        "intercept": -0.01,
+        "model_weight": -0.006,
+        "market_weight": 0.977,
         "ats_by_edge": {
           "0-2": {
             "w": 270,
@@ -107351,8 +107501,8 @@
           },
           "4-7": {
             "w": 125,
-            "l": 106,
-            "pct": 54.1
+            "l": 107,
+            "pct": 53.9
           },
           "7+": {
             "w": 99,
@@ -107362,17 +107512,17 @@
         }
       },
       "clv": {
-        "n": 502,
-        "avg": 0.29,
-        "beat_close_pct": 38.4,
+        "n": 503,
+        "avg": 0.3,
+        "beat_close_pct": 38.6,
         "beat_or_matched_pct": 77.5
       },
       "clv_by_confidence": {
         "high": {
-          "n": 38,
-          "avg": 0.29,
-          "beat_close_pct": 39.5,
-          "beat_or_matched_pct": 84.2
+          "n": 39,
+          "avg": 0.33,
+          "beat_close_pct": 41.0,
+          "beat_or_matched_pct": 84.6
         },
         "medium": {
           "n": 464,
@@ -107384,33 +107534,33 @@
           "n": 0
         }
       },
-      "total_graded": 1543,
-      "ats_graded": 1330,
+      "total_graded": 1545,
+      "ats_graded": 1331,
       "ats": {
         "w": 712,
-        "l": 618,
+        "l": 619,
         "p": 0,
         "pct": 53.5
       },
       "su": {
-        "correct": 1101,
-        "total": 1543,
+        "correct": 1103,
+        "total": 1545,
         "pct": 71.4
       },
       "ou": {
-        "over": 750,
-        "under": 777,
+        "over": 751,
+        "under": 778,
         "push": 0,
-        "model_correct": 781,
-        "model_gradeable": 1527,
-        "model_pct": 51.1
+        "model_correct": 783,
+        "model_gradeable": 1529,
+        "model_pct": 51.2
       },
       "by_confidence": {
         "high": {
           "w": 129,
-          "l": 132,
+          "l": 133,
           "p": 0,
-          "pct": 49.4
+          "pct": 49.2
         },
         "medium": {
           "w": 542,
@@ -107427,17 +107577,17 @@
       },
       "value_plays": {
         "w": 318,
-        "l": 281,
+        "l": 282,
         "p": 0,
-        "pct": 53.1
+        "pct": 53.0
       },
       "best_bets": {
         "w": 143,
-        "l": 129,
+        "l": 130,
         "p": 0,
-        "pct": 52.6
+        "pct": 52.4
       }
     }
   },
-  "generated_at": "2026-11-23T23:40:02.582792-05:00"
+  "generated_at": "2026-11-24T00:39:53.011912-05:00"
 }

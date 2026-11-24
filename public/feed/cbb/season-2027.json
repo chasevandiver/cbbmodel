@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-23T23:40:02.692094-05:00",
+ "generated_at": "2026-11-24T00:39:53.171341-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -69112,7 +69112,7 @@
    "game_id": "401918057",
    "game_id_source": "espn",
    "start_time": "2026-11-24T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "California Golden Bears",
     "abbr": "CAL",
@@ -69171,7 +69171,19 @@
     "side": "away",
     "cover_line": 19.5
    },
-   "result": null,
+   "result": {
+    "home_score": 96,
+    "away_score": 54,
+    "margin_home": 42,
+    "total": 150,
+    "winner": "California Golden Bears",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 2.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -69188,7 +69200,7 @@
    "game_id": "401920721",
    "game_id_source": "espn",
    "start_time": "2026-11-24T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UNLV Rebels",
     "abbr": "UNLV",
@@ -69247,7 +69259,19 @@
     "side": "none",
     "cover_line": 7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 82,
+    "away_score": 61,
+    "margin_home": 21,
+    "total": 143,
+    "winner": "UNLV Rebels",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
