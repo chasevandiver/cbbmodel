@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T02:02:32.771625-05:00",
+  "generated_at": "2026-11-24T05:39:18.788887-05:00",
   "date": "20261124",
-  "total_games": 77,
+  "total_games": 78,
   "model_version": "4.1.0",
   "ratings_source": "barttorvik (cache 2026-11-23)",
   "ratings_season": 2027,
@@ -696,17 +696,71 @@
       },
       "market": {
         "spread": -4.5,
-        "over_under": 131.5,
+        "over_under": 132.5,
         "spread_holder": "Marist Red Foxes",
         "bookmaker": "draftkings"
       },
       "value_rating": 3.2,
       "model_vs_market": {
         "spread_edge": 3.2,
-        "total_edge": 2.1
+        "total_edge": 1.1
       },
       "is_best_bet": true,
       "is_tournament_game": false
+    },
+    {
+      "game_id": "401921712",
+      "date": "2026-11-25T03:30Z",
+      "home_team": "Colorado State Rams",
+      "away_team": "VCU Rams",
+      "home_abbr": "CSU",
+      "away_abbr": "VCU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "3-2",
+      "home_location": "Colorado State",
+      "away_location": "VCU",
+      "home_rating_team": "Colorado St.",
+      "away_rating_team": "VCU",
+      "home_adj_em": 7.33,
+      "away_adj_em": 14.73,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Lahaina Civic Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPNU",
+      "predicted_spread": -5.1,
+      "predicted_total": 149.1,
+      "home_projected_score": 72.0,
+      "away_projected_score": 77.1,
+      "home_win_prob": 32.2,
+      "away_win_prob": 67.8,
+      "confidence": 67.6,
+      "pick": "VCU Rams",
+      "pick_abbr": "VCU",
+      "is_home_pick": false,
+      "projected_tempo": 68.8,
+      "factors": {
+        "efficiency_margin": -5.09,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 8.5,
+        "over_under": 149.5,
+        "spread_holder": "VCU Rams",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 3.4,
+      "model_vs_market": {
+        "spread_edge": -3.4,
+        "total_edge": -0.4
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true
     },
     {
       "game_id": "401920358",
@@ -858,14 +912,14 @@
       },
       "market": {
         "spread": -15.5,
-        "over_under": 146.5,
+        "over_under": 145.5,
         "spread_holder": "Louisiana Tech Bulldogs",
         "bookmaker": "fanduel"
       },
       "value_rating": 3.9,
       "model_vs_market": {
         "spread_edge": -3.9,
-        "total_edge": -2.9
+        "total_edge": -1.9
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -1452,14 +1506,14 @@
       },
       "market": {
         "spread": -4.5,
-        "over_under": 155.5,
+        "over_under": 156.5,
         "spread_holder": "Washington St Cougars",
         "bookmaker": "draftkings"
       },
       "value_rating": 2.1,
       "model_vs_market": {
         "spread_edge": -2.1,
-        "total_edge": -3.3
+        "total_edge": -4.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1560,14 +1614,14 @@
       },
       "market": {
         "spread": -3.5,
-        "over_under": 138.5,
+        "over_under": 139.5,
         "spread_holder": "Loyola (MD) Greyhounds",
         "bookmaker": "betmgm"
       },
       "value_rating": 1.8,
       "model_vs_market": {
         "spread_edge": 1.8,
-        "total_edge": 5.1
+        "total_edge": 4.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1776,14 +1830,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 143.5,
+        "over_under": 144.5,
         "spread_holder": "UMKC Kangaroos",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.3,
       "model_vs_market": {
         "spread_edge": -1.3,
-        "total_edge": 7.1
+        "total_edge": 6.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1992,71 +2046,17 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 159.5,
+        "over_under": 160.5,
         "spread_holder": "BYU Cougars",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.8,
       "model_vs_market": {
         "spread_edge": 1.8,
-        "total_edge": -5.0
+        "total_edge": -6.0
       },
       "is_best_bet": false,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401923395",
-      "date": "2026-11-24T23:00Z",
-      "home_team": "VMI Keydets",
-      "away_team": "Southern Indiana Screaming Eagles",
-      "home_abbr": "VMI",
-      "away_abbr": "USI",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2678.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/88.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-3",
-      "away_record": "2-5",
-      "home_location": "VMI",
-      "away_location": "Southern Indiana",
-      "home_rating_team": "VMI",
-      "away_rating_team": "Southern Indiana",
-      "home_adj_em": -12.32,
-      "away_adj_em": -14.6,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Cameron Hall",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 4.5,
-      "predicted_total": 143.5,
-      "home_projected_score": 74.0,
-      "away_projected_score": 69.5,
-      "home_win_prob": 65.9,
-      "away_win_prob": 34.1,
-      "confidence": 60.9,
-      "pick": "VMI Keydets",
-      "pick_abbr": "VMI",
-      "is_home_pick": true,
-      "projected_tempo": 70.0,
-      "factors": {
-        "efficiency_margin": 1.6,
-        "home_court": 2.92
-      },
-      "market": {
-        "spread": -5.5,
-        "over_under": 144.5,
-        "spread_holder": "VMI Keydets",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 1.0,
-      "model_vs_market": {
-        "spread_edge": -1.0,
-        "total_edge": -1.0
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
     },
     {
       "game_id": "401911535",
@@ -2424,14 +2424,14 @@
       },
       "market": {
         "spread": 1.5,
-        "over_under": 153.5,
+        "over_under": 152.5,
         "spread_holder": "Clemson Tigers",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.6,
       "model_vs_market": {
         "spread_edge": 1.6,
-        "total_edge": 0.2
+        "total_edge": 1.2
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -2748,14 +2748,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 147.5,
+        "over_under": 146.5,
         "spread_holder": "St. Bonaventure Bonnies",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.0,
       "model_vs_market": {
         "spread_edge": -1.0,
-        "total_edge": 1.1
+        "total_edge": 2.1
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -2810,6 +2810,60 @@
       "model_vs_market": {
         "spread_edge": -1.0,
         "total_edge": 3.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
+      "game_id": "401921710",
+      "date": "2026-11-24T22:00Z",
+      "home_team": "Arizona Wildcats",
+      "away_team": "Providence Friars",
+      "home_abbr": "ARIZ",
+      "away_abbr": "PROV",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+      "home_rank": 8,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "5-1",
+      "home_location": "Arizona",
+      "away_location": "Providence",
+      "home_rating_team": "Arizona",
+      "away_rating_team": "Providence",
+      "home_adj_em": 26.46,
+      "away_adj_em": 14.7,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Lahaina Civic Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 8.4,
+      "predicted_total": 151.1,
+      "home_projected_score": 79.7,
+      "away_projected_score": 71.3,
+      "home_win_prob": 77.7,
+      "away_win_prob": 22.3,
+      "confidence": 58.6,
+      "pick": "Arizona Wildcats",
+      "pick_abbr": "ARIZ",
+      "is_home_pick": true,
+      "projected_tempo": 71.4,
+      "factors": {
+        "efficiency_margin": 8.4,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -7.5,
+        "over_under": 154.5,
+        "spread_holder": "Arizona Wildcats",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.9,
+      "model_vs_market": {
+        "spread_edge": 0.9,
+        "total_edge": -3.4
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -2964,14 +3018,14 @@
       },
       "market": {
         "spread": -31.5,
-        "over_under": 142.5,
+        "over_under": 144.5,
         "spread_holder": "Villanova Wildcats",
         "bookmaker": "fanduel"
       },
       "value_rating": 3.0,
       "model_vs_market": {
         "spread_edge": -3.0,
-        "total_edge": 2.5
+        "total_edge": 0.5
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -3126,14 +3180,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 147.5,
+        "over_under": 148.5,
         "spread_holder": "MORG -1.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.6,
       "model_vs_market": {
         "spread_edge": -0.6,
-        "total_edge": -1.6
+        "total_edge": -2.6
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -3299,6 +3353,60 @@
       },
       "is_best_bet": false,
       "is_tournament_game": true
+    },
+    {
+      "game_id": "401923395",
+      "date": "2026-11-24T23:00Z",
+      "home_team": "VMI Keydets",
+      "away_team": "Southern Indiana Screaming Eagles",
+      "home_abbr": "VMI",
+      "away_abbr": "USI",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2678.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/88.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-3",
+      "away_record": "2-5",
+      "home_location": "VMI",
+      "away_location": "Southern Indiana",
+      "home_rating_team": "VMI",
+      "away_rating_team": "Southern Indiana",
+      "home_adj_em": -12.32,
+      "away_adj_em": -14.6,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Cameron Hall",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 4.5,
+      "predicted_total": 143.5,
+      "home_projected_score": 74.0,
+      "away_projected_score": 69.5,
+      "home_win_prob": 65.9,
+      "away_win_prob": 34.1,
+      "confidence": 57.1,
+      "pick": "VMI Keydets",
+      "pick_abbr": "VMI",
+      "is_home_pick": true,
+      "projected_tempo": 70.0,
+      "factors": {
+        "efficiency_margin": 1.6,
+        "home_court": 2.92
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 143.5,
+        "spread_holder": "VMI Keydets",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.0,
+      "model_vs_market": {
+        "spread_edge": 0.0,
+        "total_edge": 0.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
     },
     {
       "game_id": "401916291",
@@ -3504,71 +3612,17 @@
       },
       "market": {
         "spread": -13.5,
-        "over_under": 153.5,
+        "over_under": 154.5,
         "spread_holder": "James Madison Dukes",
         "bookmaker": "betmgm"
       },
       "value_rating": 1.3,
       "model_vs_market": {
         "spread_edge": 1.3,
-        "total_edge": -3.7
+        "total_edge": -4.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
-    },
-    {
-      "game_id": "401921712",
-      "date": "2026-11-25T03:30Z",
-      "home_team": "Colorado State Rams",
-      "away_team": "VCU Rams",
-      "home_abbr": "CSU",
-      "away_abbr": "VCU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-2",
-      "away_record": "3-2",
-      "home_location": "Colorado State",
-      "away_location": "VCU",
-      "home_rating_team": "Colorado St.",
-      "away_rating_team": "VCU",
-      "home_adj_em": 7.33,
-      "away_adj_em": 14.73,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Lahaina Civic Center",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "ESPNU",
-      "predicted_spread": -5.1,
-      "predicted_total": 149.1,
-      "home_projected_score": 72.0,
-      "away_projected_score": 77.1,
-      "home_win_prob": 32.2,
-      "away_win_prob": 67.8,
-      "confidence": 55.6,
-      "pick": "VCU Rams",
-      "pick_abbr": "VCU",
-      "is_home_pick": false,
-      "projected_tempo": 68.8,
-      "factors": {
-        "efficiency_margin": -5.09,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": 5.5,
-        "over_under": 149.5,
-        "spread_holder": "VCU Rams",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 0.4,
-      "model_vs_market": {
-        "spread_edge": -0.4,
-        "total_edge": -0.4
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
     },
     {
       "game_id": "401921666",
@@ -4166,15 +4220,15 @@
     }
   ],
   "summary": {
-    "total_games": 77,
+    "total_games": 78,
     "high_confidence": 7,
-    "medium_confidence": 70,
+    "medium_confidence": 71,
     "low_confidence": 0,
-    "avg_confidence": 61.5,
-    "value_plays": 19,
-    "best_bets": 14,
-    "with_market_line": 77,
-    "tournament_games": 34
+    "avg_confidence": 61.6,
+    "value_plays": 20,
+    "best_bets": 15,
+    "with_market_line": 78,
+    "tournament_games": 35
   },
   "early": true
 }
