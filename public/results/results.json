@@ -106947,21 +106947,89 @@
       "ou_result": "O",
       "model_ou_call": "U",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401921208",
+      "date": "2026-11-24T01:00Z",
+      "home_team": "Utah Valley Wolverines",
+      "away_team": "Stephen F. Austin Lumberjacks",
+      "home_abbr": "UVU",
+      "away_abbr": "SFA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-0",
+      "away_record": "5-1",
+      "home_location": "Utah Valley",
+      "away_location": "Stephen F. Austin",
+      "home_rating_team": "Utah Valley",
+      "away_rating_team": "Stephen F. Austin",
+      "home_adj_em": 4.66,
+      "away_adj_em": 1.73,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Elridge Blake Sports and Fitness Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 2.0,
+      "predicted_total": 148.6,
+      "home_projected_score": 75.3,
+      "away_projected_score": 73.3,
+      "home_win_prob": 57.2,
+      "away_win_prob": 42.8,
+      "confidence": 61.0,
+      "pick": "Utah Valley Wolverines",
+      "pick_abbr": "UVU",
+      "is_home_pick": true,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": 2.01,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 152.5,
+        "spread_holder": "UVU -3.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 1.5,
+      "model_vs_market": {
+        "spread_edge": -1.5,
+        "total_edge": -3.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 3.5,
+      "clv": null,
+      "actual_home_score": 72,
+      "actual_away_score": 77,
+      "actual_margin": -5,
+      "actual_total": 149,
+      "actual_winner": "Stephen F. Austin Lumberjacks",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 815,
-      "model_mae": 9.98,
+      "n": 816,
+      "model_mae": 9.97,
       "market_mae": 9.64,
-      "intercept": -0.7,
-      "model_weight": 0.091,
-      "market_weight": 0.918,
+      "intercept": -0.72,
+      "model_weight": 0.094,
+      "market_weight": 0.917,
       "ats_by_edge": {
         "0-2": {
-          "w": 154,
+          "w": 155,
           "l": 103,
-          "pct": 59.9
+          "pct": 60.1
         },
         "2-4": {
           "w": 123,
@@ -107003,25 +107071,25 @@
         "n": 0
       }
     },
-    "total_graded": 821,
-    "ats_graded": 720,
+    "total_graded": 822,
+    "ats_graded": 721,
     "ats": {
-      "w": 402,
+      "w": 403,
       "l": 318,
       "p": 0,
-      "pct": 55.8
+      "pct": 55.9
     },
     "su": {
       "correct": 631,
-      "total": 821,
-      "pct": 76.9
+      "total": 822,
+      "pct": 76.8
     },
     "ou": {
       "over": 400,
-      "under": 415,
+      "under": 416,
       "push": 0,
-      "model_correct": 422,
-      "model_gradeable": 815,
+      "model_correct": 423,
+      "model_gradeable": 816,
       "model_pct": 51.8
     },
     "by_confidence": {
@@ -107032,7 +107100,7 @@
         "pct": 51.8
       },
       "medium": {
-        "w": 373,
+        "w": 374,
         "l": 291,
         "p": 0,
         "pct": 56.2
@@ -107060,17 +107128,17 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1523,
-        "model_mae": 10.4,
+        "n": 1524,
+        "model_mae": 10.39,
         "market_mae": 9.31,
-        "intercept": -0.04,
+        "intercept": -0.05,
         "model_weight": -0.006,
         "market_weight": 0.976,
         "ats_by_edge": {
           "0-2": {
-            "w": 268,
+            "w": 269,
             "l": 225,
-            "pct": 54.4
+            "pct": 54.5
           },
           "2-4": {
             "w": 218,
@@ -107112,26 +107180,26 @@
           "n": 0
         }
       },
-      "total_graded": 1539,
-      "ats_graded": 1326,
+      "total_graded": 1540,
+      "ats_graded": 1327,
       "ats": {
-        "w": 710,
+        "w": 711,
         "l": 616,
         "p": 0,
-        "pct": 53.5
+        "pct": 53.6
       },
       "su": {
         "correct": 1099,
-        "total": 1539,
+        "total": 1540,
         "pct": 71.4
       },
       "ou": {
         "over": 750,
-        "under": 773,
+        "under": 774,
         "push": 0,
-        "model_correct": 779,
-        "model_gradeable": 1523,
-        "model_pct": 51.1
+        "model_correct": 780,
+        "model_gradeable": 1524,
+        "model_pct": 51.2
       },
       "by_confidence": {
         "high": {
@@ -107141,7 +107209,7 @@
           "pct": 49.4
         },
         "medium": {
-          "w": 540,
+          "w": 541,
           "l": 437,
           "p": 0,
           "pct": 55.3
@@ -107167,5 +107235,5 @@
       }
     }
   },
-  "generated_at": "2026-11-23T22:54:47.784493-05:00"
+  "generated_at": "2026-11-23T23:04:40.492198-05:00"
 }
