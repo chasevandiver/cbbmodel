@@ -107015,21 +107015,225 @@
       "ou_result": "U",
       "model_ou_call": "U",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401909536",
+      "date": "2026-11-24T02:00Z",
+      "home_team": "Providence Friars",
+      "away_team": "VCU Rams",
+      "home_abbr": "PROV",
+      "away_abbr": "VCU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "3-1",
+      "home_location": "Providence",
+      "away_location": "VCU",
+      "home_rating_team": "Providence",
+      "away_rating_team": "VCU",
+      "home_adj_em": 14.7,
+      "away_adj_em": 14.73,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Lahaina Civic Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPNU",
+      "predicted_spread": -0.0,
+      "predicted_total": 148.6,
+      "home_projected_score": 74.3,
+      "away_projected_score": 74.3,
+      "home_win_prob": 49.9,
+      "away_win_prob": 50.1,
+      "confidence": 60.1,
+      "pick": "VCU Rams",
+      "pick_abbr": "VCU",
+      "is_home_pick": false,
+      "projected_tempo": 70.0,
+      "factors": {
+        "efficiency_margin": -0.02,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 154.5,
+        "spread_holder": "Providence Friars",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.5,
+      "model_vs_market": {
+        "spread_edge": 1.5,
+        "total_edge": -5.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": null,
+      "actual_home_score": 72,
+      "actual_away_score": 66,
+      "actual_margin": 6,
+      "actual_total": 138,
+      "actual_winner": "Providence Friars",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401921663",
+      "date": "2026-11-24T02:30Z",
+      "home_team": "Seattle U Redhawks",
+      "away_team": "Loyola Chicago Ramblers",
+      "home_abbr": "SEA",
+      "away_abbr": "LUC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2350.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "4-2",
+      "home_location": "Seattle U",
+      "away_location": "Loyola Chicago",
+      "home_rating_team": "Seattle",
+      "away_rating_team": "Loyola Chicago",
+      "home_adj_em": 4.19,
+      "away_adj_em": 3.18,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Acrisure Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "",
+      "predicted_spread": 0.7,
+      "predicted_total": 140.6,
+      "home_projected_score": 70.6,
+      "away_projected_score": 69.9,
+      "home_win_prob": 52.5,
+      "away_win_prob": 47.5,
+      "confidence": 59.2,
+      "pick": "Seattle U Redhawks",
+      "pick_abbr": "SEA",
+      "is_home_pick": true,
+      "projected_tempo": 69.4,
+      "factors": {
+        "efficiency_margin": 0.7,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 140.5,
+        "spread_holder": "SEA -1.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.8,
+      "model_vs_market": {
+        "spread_edge": -0.8,
+        "total_edge": 0.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": null,
+      "actual_home_score": 76,
+      "actual_away_score": 63,
+      "actual_margin": 13,
+      "actual_total": 139,
+      "actual_winner": "Seattle U Redhawks",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401926183",
+      "date": "2026-11-24T02:30Z",
+      "home_team": "Pepperdine Waves",
+      "away_team": "UNC Greensboro Spartans",
+      "home_abbr": "PEPP",
+      "away_abbr": "UNCG",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "4-2",
+      "home_location": "Pepperdine",
+      "away_location": "UNC Greensboro",
+      "home_rating_team": "Pepperdine",
+      "away_rating_team": "UNC Greensboro",
+      "home_adj_em": -0.36,
+      "away_adj_em": -12.39,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Firestone Fieldhouse",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 11.5,
+      "predicted_total": 155.7,
+      "home_projected_score": 83.6,
+      "away_projected_score": 72.1,
+      "home_win_prob": 85.2,
+      "away_win_prob": 14.8,
+      "confidence": 55.0,
+      "pick": "Pepperdine Waves",
+      "pick_abbr": "PEPP",
+      "is_home_pick": true,
+      "projected_tempo": 68.8,
+      "factors": {
+        "efficiency_margin": 8.28,
+        "home_court": 3.21
+      },
+      "market": {
+        "spread": -10.5,
+        "over_under": 155.5,
+        "spread_holder": "Pepperdine Waves",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": 1.0,
+        "total_edge": 0.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 10.5,
+      "clv": null,
+      "actual_home_score": 89,
+      "actual_away_score": 62,
+      "actual_margin": 27,
+      "actual_total": 151,
+      "actual_winner": "Pepperdine Waves",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 816,
-      "model_mae": 9.97,
+      "n": 819,
+      "model_mae": 9.98,
       "market_mae": 9.64,
-      "intercept": -0.72,
-      "model_weight": 0.094,
-      "market_weight": 0.917,
+      "intercept": -0.66,
+      "model_weight": 0.097,
+      "market_weight": 0.913,
       "ats_by_edge": {
         "0-2": {
-          "w": 155,
-          "l": 103,
-          "pct": 60.1
+          "w": 156,
+          "l": 105,
+          "pct": 59.8
         },
         "2-4": {
           "w": 123,
@@ -107071,25 +107275,25 @@
         "n": 0
       }
     },
-    "total_graded": 822,
-    "ats_graded": 721,
+    "total_graded": 825,
+    "ats_graded": 724,
     "ats": {
-      "w": 403,
-      "l": 318,
+      "w": 404,
+      "l": 320,
       "p": 0,
-      "pct": 55.9
+      "pct": 55.8
     },
     "su": {
-      "correct": 631,
-      "total": 822,
-      "pct": 76.8
+      "correct": 633,
+      "total": 825,
+      "pct": 76.7
     },
     "ou": {
       "over": 400,
-      "under": 416,
+      "under": 419,
       "push": 0,
-      "model_correct": 423,
-      "model_gradeable": 816,
+      "model_correct": 424,
+      "model_gradeable": 819,
       "model_pct": 51.8
     },
     "by_confidence": {
@@ -107100,10 +107304,10 @@
         "pct": 51.8
       },
       "medium": {
-        "w": 374,
-        "l": 291,
+        "w": 375,
+        "l": 293,
         "p": 0,
-        "pct": 56.2
+        "pct": 56.1
       },
       "low": {
         "w": 0,
@@ -107128,17 +107332,17 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1524,
-        "model_mae": 10.39,
+        "n": 1527,
+        "model_mae": 10.4,
         "market_mae": 9.31,
-        "intercept": -0.05,
-        "model_weight": -0.006,
-        "market_weight": 0.976,
+        "intercept": -0.03,
+        "model_weight": -0.005,
+        "market_weight": 0.975,
         "ats_by_edge": {
           "0-2": {
-            "w": 269,
-            "l": 225,
-            "pct": 54.5
+            "w": 270,
+            "l": 227,
+            "pct": 54.3
           },
           "2-4": {
             "w": 218,
@@ -107180,26 +107384,26 @@
           "n": 0
         }
       },
-      "total_graded": 1540,
-      "ats_graded": 1327,
+      "total_graded": 1543,
+      "ats_graded": 1330,
       "ats": {
-        "w": 711,
-        "l": 616,
+        "w": 712,
+        "l": 618,
         "p": 0,
-        "pct": 53.6
+        "pct": 53.5
       },
       "su": {
-        "correct": 1099,
-        "total": 1540,
+        "correct": 1101,
+        "total": 1543,
         "pct": 71.4
       },
       "ou": {
         "over": 750,
-        "under": 774,
+        "under": 777,
         "push": 0,
-        "model_correct": 780,
-        "model_gradeable": 1524,
-        "model_pct": 51.2
+        "model_correct": 781,
+        "model_gradeable": 1527,
+        "model_pct": 51.1
       },
       "by_confidence": {
         "high": {
@@ -107209,10 +107413,10 @@
           "pct": 49.4
         },
         "medium": {
-          "w": 541,
-          "l": 437,
+          "w": 542,
+          "l": 439,
           "p": 0,
-          "pct": 55.3
+          "pct": 55.2
         },
         "low": {
           "w": 41,
@@ -107235,5 +107439,5 @@
       }
     }
   },
-  "generated_at": "2026-11-23T23:04:40.492198-05:00"
+  "generated_at": "2026-11-23T23:40:02.582792-05:00"
 }

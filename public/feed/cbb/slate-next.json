@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-23T23:04:40.609210-05:00",
+ "generated_at": "2026-11-23T23:40:02.692094-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-24",
@@ -188,7 +188,7 @@
     "home_score": 74.3,
     "away_score": 72.3,
     "home_win_prob": 57.1,
-    "confidence": 57.1,
+    "confidence": 61.1,
     "tempo": 69.2,
     "confidence_tier": "medium",
     "pick": {
@@ -198,22 +198,22 @@
     }
    },
    "market": {
-    "spread_home": -2.5,
+    "spread_home": -3.5,
     "total": 145.5,
-    "favorite": "UNCO -2.5",
+    "favorite": "UNCO -3.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -0.5,
+    "spread": -1.5,
     "total": 1.2,
-    "value_rating": 0.5,
+    "value_rating": 1.5,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": 2.5
+    "side": "away",
+    "cover_line": 3.5
    },
    "result": null,
    "tags": [
@@ -256,7 +256,7 @@
     "home_score": 72.8,
     "away_score": 70.5,
     "home_win_prob": 58.1,
-    "confidence": 56.0,
+    "confidence": 60.0,
     "tempo": 68.1,
     "confidence_tier": "medium",
     "pick": {
@@ -266,7 +266,7 @@
     }
    },
    "market": {
-    "spread_home": -2.5,
+    "spread_home": -3.5,
     "total": 142.5,
     "favorite": "Akron Zips",
     "bookmaker": "draftkings",
@@ -274,14 +274,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -0.3,
+    "spread": -1.3,
     "total": 0.8,
-    "value_rating": 0.3,
+    "value_rating": 1.3,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": 2.5
+    "side": "away",
+    "cover_line": 3.5
    },
    "result": null,
    "tags": [
@@ -940,7 +940,7 @@
     "home_score": 77.9,
     "away_score": 74.3,
     "home_win_prob": 62.6,
-    "confidence": 61.8,
+    "confidence": 57.8,
     "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
@@ -950,22 +950,22 @@
     }
    },
    "market": {
-    "spread_home": -5.5,
+    "spread_home": -4.5,
     "total": 158.5,
-    "favorite": "ARST -5.5",
+    "favorite": "ARST -4.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -2.0,
+    "spread": -1.0,
     "total": -6.3,
-    "value_rating": 2.0,
+    "value_rating": 1.0,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 5.5
+    "cover_line": 4.5
    },
    "result": null,
    "tags": [
@@ -1144,7 +1144,7 @@
     "home_score": 80.3,
     "away_score": 75.6,
     "home_win_prob": 66.4,
-    "confidence": 58.4,
+    "confidence": 55.6,
     "tempo": 71.5,
     "confidence_tier": "medium",
     "pick": {
@@ -1154,22 +1154,22 @@
     }
    },
    "market": {
-    "spread_home": -5.5,
-    "total": 161.5,
+    "spread_home": -4.5,
+    "total": 162.5,
     "favorite": "Michigan Wolverines",
     "bookmaker": "draftkings",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -0.8,
-    "total": -5.6,
-    "value_rating": 0.8,
+    "spread": 0.2,
+    "total": -6.6,
+    "value_rating": 0.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": 5.5
+    "side": "none",
+    "cover_line": 4.5
    },
    "result": null,
    "tags": [
@@ -1223,7 +1223,7 @@
    },
    "market": {
     "spread_home": -7.5,
-    "total": 142.5,
+    "total": 141.5,
     "favorite": "Iowa State Cyclones",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -1231,7 +1231,7 @@
    "closing": null,
    "edge": {
     "spread": -2.9,
-    "total": 2.1,
+    "total": 3.1,
     "value_rating": 2.9,
     "is_best_bet": false
    },
@@ -1416,7 +1416,7 @@
     "home_score": 74.3,
     "away_score": 72.5,
     "home_win_prob": 56.6,
-    "confidence": 65.7,
+    "confidence": 61.7,
     "tempo": 69.9,
     "confidence_tier": "medium",
     "pick": {
@@ -1426,7 +1426,7 @@
     }
    },
    "market": {
-    "spread_home": -4.5,
+    "spread_home": -3.5,
     "total": 147.5,
     "favorite": "Kennesaw St Owls",
     "bookmaker": "draftkings",
@@ -1434,14 +1434,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -2.7,
+    "spread": -1.7,
     "total": -0.6,
-    "value_rating": 2.7,
+    "value_rating": 1.7,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 4.5
+    "cover_line": 3.5
    },
    "result": null,
    "tags": [
@@ -1495,7 +1495,7 @@
    },
    "market": {
     "spread_home": -1.5,
-    "total": 172.5,
+    "total": 173.5,
     "favorite": "Wofford Terriers",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -1503,7 +1503,7 @@
    "closing": null,
    "edge": {
     "spread": -2.3,
-    "total": -5.1,
+    "total": -6.1,
     "value_rating": 2.3,
     "is_best_bet": false
    },
@@ -1561,7 +1561,7 @@
    },
    "market": {
     "spread_home": -7.5,
-    "total": 159.5,
+    "total": 160.5,
     "favorite": "Florida Atlantic Owls",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -1569,7 +1569,7 @@
    "closing": null,
    "edge": {
     "spread": 2.6,
-    "total": -4.6,
+    "total": -5.6,
     "value_rating": 2.6,
     "is_best_bet": false
    },
@@ -2162,7 +2162,7 @@
     "spread_home": 1.5,
     "total": 155.5,
     "favorite": "Nevada Wolf Pack",
-    "bookmaker": "betmgm",
+    "bookmaker": "fanduel",
     "captured_at": null
    },
    "closing": null,
@@ -2228,7 +2228,7 @@
    },
    "market": {
     "spread_home": -25.5,
-    "total": 145.5,
+    "total": 146.5,
     "favorite": "Indiana Hoosiers",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -2236,7 +2236,7 @@
    "closing": null,
    "edge": {
     "spread": -2.7,
-    "total": 8.0,
+    "total": 7.0,
     "value_rating": 2.7,
     "is_best_bet": false
    },
@@ -2565,7 +2565,7 @@
    },
    "market": {
     "spread_home": -2.5,
-    "total": 156.5,
+    "total": 158.5,
     "favorite": "Siena Saints",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -2573,7 +2573,7 @@
    "closing": null,
    "edge": {
     "spread": -1.2,
-    "total": 1.5,
+    "total": -0.5,
     "value_rating": 1.2,
     "is_best_bet": false
    },
@@ -2620,7 +2620,7 @@
     "home_score": 84.9,
     "away_score": 60.5,
     "home_win_prob": 98.7,
-    "confidence": 49.4,
+    "confidence": 53.4,
     "tempo": 68.2,
     "confidence_tier": "medium",
     "pick": {
@@ -2630,7 +2630,7 @@
     }
    },
    "market": {
-    "spread_home": -25.5,
+    "spread_home": -26.5,
     "total": 145.5,
     "favorite": "Iowa Hawkeyes",
     "bookmaker": "fanduel",
@@ -2638,14 +2638,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.1,
+    "spread": -2.1,
     "total": -0.1,
-    "value_rating": 1.1,
+    "value_rating": 2.1,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 25.5
+    "cover_line": 26.5
    },
    "result": null,
    "tags": []
@@ -2752,7 +2752,7 @@
     "home_score": 76.6,
     "away_score": 57.3,
     "home_win_prob": 96.0,
-    "confidence": 46.9,
+    "confidence": 50.9,
     "tempo": 67.6,
     "confidence_tier": "medium",
     "pick": {
@@ -2762,7 +2762,7 @@
     }
    },
    "market": {
-    "spread_home": -19.5,
+    "spread_home": -20.5,
     "total": 128.5,
     "favorite": "Seton Hall Pirates",
     "bookmaker": "fanduel",
@@ -2770,14 +2770,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -0.2,
+    "spread": -1.2,
     "total": 5.4,
-    "value_rating": 0.2,
+    "value_rating": 1.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": 19.5
+    "side": "away",
+    "cover_line": 20.5
    },
    "result": null,
    "tags": []
@@ -2884,7 +2884,7 @@
     "home_score": 80.5,
     "away_score": 69.9,
     "home_win_prob": 83.3,
-    "confidence": 74.5,
+    "confidence": 70.5,
     "tempo": 68.5,
     "confidence_tier": "high",
     "pick": {
@@ -2894,7 +2894,7 @@
     }
    },
    "market": {
-    "spread_home": -16.5,
+    "spread_home": -15.5,
     "total": 149.5,
     "favorite": "Chattanooga Mocs",
     "bookmaker": "betmgm",
@@ -2902,14 +2902,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -5.9,
+    "spread": -4.9,
     "total": 0.9,
-    "value_rating": 5.9,
+    "value_rating": 4.9,
     "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 16.5
+    "cover_line": 15.5
    },
    "result": null,
    "tags": [
@@ -3088,7 +3088,7 @@
     "home_score": 86.8,
     "away_score": 58.2,
     "home_win_prob": 99.5,
-    "confidence": 53.9,
+    "confidence": 57.9,
     "tempo": 68.9,
     "confidence_tier": "medium",
     "pick": {
@@ -3098,25 +3098,27 @@
     }
    },
    "market": {
-    "spread_home": -30.5,
-    "total": 141.5,
+    "spread_home": -31.5,
+    "total": 142.5,
     "favorite": "Villanova Wildcats",
     "bookmaker": "fanduel",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -2.0,
-    "total": 3.5,
-    "value_rating": 2.0,
+    "spread": -3.0,
+    "total": 2.5,
+    "value_rating": 3.0,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 30.5
+    "cover_line": 31.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value"
+   ]
   },
   {
    "id": "cbb:401923271",
@@ -3355,7 +3357,7 @@
     "home_score": 84.5,
     "away_score": 71.7,
     "home_win_prob": 87.9,
-    "confidence": 65.6,
+    "confidence": 61.6,
     "tempo": 71.9,
     "confidence_tier": "medium",
     "pick": {
@@ -3365,7 +3367,7 @@
     }
    },
    "market": {
-    "spread_home": -16.5,
+    "spread_home": -15.5,
     "total": 163.5,
     "favorite": "Tennessee Tech Golden Eagles",
     "bookmaker": "draftkings",
@@ -3373,20 +3375,17 @@
    },
    "closing": null,
    "edge": {
-    "spread": -3.6,
+    "spread": -2.6,
     "total": -7.3,
-    "value_rating": 3.6,
-    "is_best_bet": true
+    "value_rating": 2.6,
+    "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 16.5
+    "cover_line": 15.5
    },
    "result": null,
-   "tags": [
-    "best_bet",
-    "value"
-   ]
+   "tags": []
   },
   {
    "id": "cbb:401917983",
@@ -3775,7 +3774,7 @@
    },
    "market": {
     "spread_home": -3.5,
-    "total": 153.5,
+    "total": 155.5,
     "favorite": "Air Force Falcons",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -3783,7 +3782,7 @@
    "closing": null,
    "edge": {
     "spread": 3.0,
-    "total": 1.4,
+    "total": -0.6,
     "value_rating": 3.0,
     "is_best_bet": false
    },
@@ -4047,7 +4046,7 @@
    },
    "market": {
     "spread_home": -6.5,
-    "total": 145.5,
+    "total": 143.5,
     "favorite": "Pennsylvania Quakers",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -4055,7 +4054,7 @@
    "closing": null,
    "edge": {
     "spread": 2.6,
-    "total": -0.6,
+    "total": 1.4,
     "value_rating": 2.6,
     "is_best_bet": false
    },
@@ -4113,7 +4112,7 @@
    },
    "market": {
     "spread_home": 1.5,
-    "total": 154.5,
+    "total": 153.5,
     "favorite": "Clemson Tigers",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -4121,7 +4120,7 @@
    "closing": null,
    "edge": {
     "spread": -1.6,
-    "total": -0.8,
+    "total": 0.2,
     "value_rating": 1.6,
     "is_best_bet": false
    },
@@ -4379,7 +4378,7 @@
    },
    "market": {
     "spread_home": -17.5,
-    "total": 143.5,
+    "total": 142.5,
     "favorite": "South Alabama Jaguars",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -4387,7 +4386,7 @@
    "closing": null,
    "edge": {
     "spread": -4.5,
-    "total": 3.5,
+    "total": 4.5,
     "value_rating": 4.5,
     "is_best_bet": true
    },
@@ -4448,7 +4447,7 @@
    },
    "market": {
     "spread_home": 1.5,
-    "total": 149.5,
+    "total": 148.5,
     "favorite": "COFC -1.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -4456,7 +4455,7 @@
    "closing": null,
    "edge": {
     "spread": 1.5,
-    "total": 1.9,
+    "total": 2.9,
     "value_rating": 1.5,
     "is_best_bet": false
    },
@@ -4516,7 +4515,7 @@
    },
    "market": {
     "spread_home": -27.5,
-    "total": 159.5,
+    "total": 157.5,
     "favorite": "Florida St Seminoles",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -4524,7 +4523,7 @@
    "closing": null,
    "edge": {
     "spread": -5.7,
-    "total": -6.3,
+    "total": -4.3,
     "value_rating": 5.7,
     "is_best_bet": true
    },
@@ -4643,7 +4642,7 @@
     "home_score": 84.0,
     "away_score": 65.8,
     "home_win_prob": 95.0,
-    "confidence": 50.4,
+    "confidence": 54.4,
     "tempo": 70.1,
     "confidence_tier": "medium",
     "pick": {
@@ -4653,7 +4652,7 @@
     }
    },
    "market": {
-    "spread_home": -19.5,
+    "spread_home": -20.5,
     "total": 164.5,
     "favorite": "Boise State Broncos",
     "bookmaker": "draftkings",
@@ -4661,14 +4660,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.4,
+    "spread": -2.4,
     "total": -14.7,
-    "value_rating": 1.4,
+    "value_rating": 2.4,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 19.5
+    "cover_line": 20.5
    },
    "result": null,
    "tags": []
@@ -4695,7 +4694,7 @@
     "name": "UNC Greensboro Spartans",
     "abbr": "UNCG",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
-    "record": "4-2",
+    "record": "4-3",
     "rank": null
    },
    "venue": "The Thunderdome",
@@ -4977,9 +4976,9 @@
     "home_score": 80.8,
     "away_score": 75.5,
     "home_win_prob": 68.6,
-    "confidence": 66.6,
+    "confidence": 70.6,
     "tempo": 70.4,
-    "confidence_tier": "medium",
+    "confidence_tier": "high",
     "pick": {
      "team": "St. John's Red Storm",
      "abbr": "SJU",
@@ -4987,7 +4986,7 @@
     }
    },
    "market": {
-    "spread_home": -8.5,
+    "spread_home": -9.5,
     "total": 155.5,
     "favorite": "St. John's Red Storm",
     "bookmaker": "draftkings",
@@ -4995,19 +4994,20 @@
    },
    "closing": null,
    "edge": {
-    "spread": -3.2,
+    "spread": -4.2,
     "total": 0.8,
-    "value_rating": 3.2,
+    "value_rating": 4.2,
     "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 8.5
+    "cover_line": 9.5
    },
    "result": null,
    "tags": [
     "best_bet",
     "value",
+    "high_confidence",
     "tournament"
    ]
   },
