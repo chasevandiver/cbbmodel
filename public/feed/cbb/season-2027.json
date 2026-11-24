@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-23T21:39:49.263658-05:00",
+ "generated_at": "2026-11-23T22:54:47.940630-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -68555,7 +68555,7 @@
    "game_id": "401909788",
    "game_id_source": "espn",
    "start_time": "2026-11-24T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Kansas Jayhawks",
     "abbr": "KU",
@@ -68608,7 +68608,19 @@
     "side": "away",
     "cover_line": 35.5
    },
-   "result": null,
+   "result": {
+    "home_score": 84,
+    "away_score": 67,
+    "margin_home": 17,
+    "total": 151,
+    "winner": "Kansas Jayhawks",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -68624,7 +68636,7 @@
    "game_id": "401913102",
    "game_id_source": "espn",
    "start_time": "2026-11-24T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "North Carolina Tar Heels",
     "abbr": "UNC",
@@ -68677,7 +68689,19 @@
     "side": "away",
     "cover_line": 19.5
    },
-   "result": null,
+   "result": {
+    "home_score": 85,
+    "away_score": 45,
+    "margin_home": 40,
+    "total": 130,
+    "winner": "North Carolina Tar Heels",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -68690,7 +68714,7 @@
    "game_id": "401913530",
    "game_id_source": "espn",
    "start_time": "2026-11-24T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Illinois Fighting Illini",
     "abbr": "ILL",
@@ -68743,7 +68767,19 @@
     "side": "away",
     "cover_line": 43.5
    },
-   "result": null,
+   "result": {
+    "home_score": 133,
+    "away_score": 83,
+    "margin_home": 50,
+    "total": 216,
+    "winner": "Illinois Fighting Illini",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "value"
    ]
@@ -69223,7 +69259,7 @@
     "total": 158.5,
     "favorite": "Arizona Wildcats",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-23T21:39:34.128418-05:00"
+    "captured_at": "2026-11-23T22:54:32.412325-05:00"
    },
    "edge": {
     "spread": -3.1,
@@ -69299,7 +69335,7 @@
     "total": 155.5,
     "favorite": "UC San Diego Tritons",
     "bookmaker": "fanduel",
-    "captured_at": "2026-11-23T21:39:34.128418-05:00"
+    "captured_at": "2026-11-23T22:54:32.412325-05:00"
    },
    "edge": {
     "spread": -0.9,

@@ -106743,16 +106743,220 @@
       "ou_result": "O",
       "model_ou_call": "U",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401909788",
+      "date": "2026-11-24T01:00Z",
+      "home_team": "Kansas Jayhawks",
+      "away_team": "Denver Pioneers",
+      "home_abbr": "KU",
+      "away_abbr": "DEN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2172.png",
+      "home_rank": 12,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "1-4",
+      "home_location": "Kansas",
+      "away_location": "Denver",
+      "home_rating_team": "Kansas",
+      "away_rating_team": "Denver",
+      "home_adj_em": 28.4,
+      "away_adj_em": -7.59,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Allen Fieldhouse",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 29.8,
+      "predicted_total": 154.1,
+      "home_projected_score": 92.0,
+      "away_projected_score": 62.2,
+      "home_win_prob": 99.7,
+      "away_win_prob": 0.3,
+      "confidence": 67.8,
+      "pick": "Kansas Jayhawks",
+      "pick_abbr": "KU",
+      "is_home_pick": true,
+      "projected_tempo": 70.5,
+      "factors": {
+        "efficiency_margin": 25.37,
+        "home_court": 4.43
+      },
+      "market": {
+        "spread": -35.5,
+        "over_under": 157.5,
+        "spread_holder": "Kansas Jayhawks",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 5.7,
+      "model_vs_market": {
+        "spread_edge": -5.7,
+        "total_edge": -3.4
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 35.5,
+      "clv": null,
+      "actual_home_score": 84,
+      "actual_away_score": 67,
+      "actual_margin": 17,
+      "actual_total": 151,
+      "actual_winner": "Kansas Jayhawks",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401913102",
+      "date": "2026-11-24T01:00Z",
+      "home_team": "North Carolina Tar Heels",
+      "away_team": "Monmouth Hawks",
+      "home_abbr": "UNC",
+      "away_abbr": "MONM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "1-4",
+      "home_location": "North Carolina",
+      "away_location": "Monmouth",
+      "home_rating_team": "North Carolina",
+      "away_rating_team": "Monmouth",
+      "home_adj_em": 15.48,
+      "away_adj_em": -3.44,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Dean E. Smith Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACC Network",
+      "predicted_spread": 17.4,
+      "predicted_total": 148.7,
+      "home_projected_score": 83.1,
+      "away_projected_score": 65.6,
+      "home_win_prob": 94.4,
+      "away_win_prob": 5.6,
+      "confidence": 53.2,
+      "pick": "North Carolina Tar Heels",
+      "pick_abbr": "UNC",
+      "is_home_pick": true,
+      "projected_tempo": 70.6,
+      "factors": {
+        "efficiency_margin": 13.35,
+        "home_court": 4.09
+      },
+      "market": {
+        "spread": -19.5,
+        "over_under": 153.5,
+        "spread_holder": "North Carolina Tar Heels",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.1,
+      "model_vs_market": {
+        "spread_edge": -2.1,
+        "total_edge": -4.8
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 19.5,
+      "clv": null,
+      "actual_home_score": 85,
+      "actual_away_score": 45,
+      "actual_margin": 40,
+      "actual_total": 130,
+      "actual_winner": "North Carolina Tar Heels",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401913530",
+      "date": "2026-11-24T01:00Z",
+      "home_team": "Illinois Fighting Illini",
+      "away_team": "Winthrop Eagles",
+      "home_abbr": "ILL",
+      "away_abbr": "WIN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2737.png",
+      "home_rank": 4,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "0-6",
+      "home_location": "Illinois",
+      "away_location": "Winthrop",
+      "home_rating_team": "Illinois",
+      "away_rating_team": "Winthrop",
+      "home_adj_em": 29.68,
+      "away_adj_em": -9.89,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "State Farm Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "BTN",
+      "predicted_spread": 33.0,
+      "predicted_total": 167.0,
+      "home_projected_score": 100.0,
+      "away_projected_score": 67.0,
+      "home_win_prob": 99.9,
+      "away_win_prob": 0.1,
+      "confidence": 50.0,
+      "pick": "Illinois Fighting Illini",
+      "pick_abbr": "ILL",
+      "is_home_pick": true,
+      "projected_tempo": 73.5,
+      "factors": {
+        "efficiency_margin": 29.09,
+        "home_court": 3.91
+      },
+      "market": {
+        "spread": -43.5,
+        "over_under": 180.5,
+        "spread_holder": "Illinois Fighting Illini",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 10.5,
+      "model_vs_market": {
+        "spread_edge": -10.5,
+        "total_edge": -13.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 43.5,
+      "clv": null,
+      "actual_home_score": 133,
+      "actual_away_score": 83,
+      "actual_margin": 50,
+      "actual_total": 216,
+      "actual_winner": "Illinois Fighting Illini",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 812,
-      "model_mae": 9.95,
-      "market_mae": 9.62,
-      "intercept": -0.72,
-      "model_weight": 0.093,
-      "market_weight": 0.917,
+      "n": 815,
+      "model_mae": 9.98,
+      "market_mae": 9.64,
+      "intercept": -0.7,
+      "model_weight": 0.091,
+      "market_weight": 0.918,
       "ats_by_edge": {
         "0-2": {
           "w": 154,
@@ -106761,18 +106965,18 @@
         },
         "2-4": {
           "w": 123,
-          "l": 106,
-          "pct": 53.7
+          "l": 107,
+          "pct": 53.5
         },
         "4-7": {
-          "w": 86,
+          "w": 87,
           "l": 72,
-          "pct": 54.4
+          "pct": 54.7
         },
         "7+": {
           "w": 38,
-          "l": 35,
-          "pct": 52.1
+          "l": 36,
+          "pct": 51.4
         }
       }
     },
@@ -106799,26 +107003,26 @@
         "n": 0
       }
     },
-    "total_graded": 818,
-    "ats_graded": 717,
+    "total_graded": 821,
+    "ats_graded": 720,
     "ats": {
-      "w": 401,
-      "l": 316,
+      "w": 402,
+      "l": 318,
       "p": 0,
-      "pct": 55.9
+      "pct": 55.8
     },
     "su": {
-      "correct": 628,
-      "total": 818,
-      "pct": 76.8
+      "correct": 631,
+      "total": 821,
+      "pct": 76.9
     },
     "ou": {
-      "over": 399,
-      "under": 413,
+      "over": 400,
+      "under": 415,
       "push": 0,
-      "model_correct": 420,
-      "model_gradeable": 812,
-      "model_pct": 51.7
+      "model_correct": 422,
+      "model_gradeable": 815,
+      "model_pct": 51.8
     },
     "by_confidence": {
       "high": {
@@ -106828,10 +107032,10 @@
         "pct": 51.8
       },
       "medium": {
-        "w": 372,
-        "l": 289,
+        "w": 373,
+        "l": 291,
         "p": 0,
-        "pct": 56.3
+        "pct": 56.2
       },
       "low": {
         "w": 0,
@@ -106841,25 +107045,25 @@
       }
     },
     "value_plays": {
-      "w": 172,
-      "l": 150,
+      "w": 173,
+      "l": 151,
       "p": 0,
       "pct": 53.4
     },
     "best_bets": {
-      "w": 105,
+      "w": 106,
       "l": 98,
       "p": 0,
-      "pct": 51.7
+      "pct": 52.0
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1520,
-        "model_mae": 10.38,
-        "market_mae": 9.3,
-        "intercept": -0.05,
+        "n": 1523,
+        "model_mae": 10.4,
+        "market_mae": 9.31,
+        "intercept": -0.04,
         "model_weight": -0.006,
         "market_weight": 0.976,
         "ats_by_edge": {
@@ -106870,18 +107074,18 @@
           },
           "2-4": {
             "w": 218,
-            "l": 186,
-            "pct": 54.0
+            "l": 187,
+            "pct": 53.8
           },
           "4-7": {
-            "w": 124,
+            "w": 125,
             "l": 106,
-            "pct": 53.9
+            "pct": 54.1
           },
           "7+": {
             "w": 99,
-            "l": 97,
-            "pct": 50.5
+            "l": 98,
+            "pct": 50.3
           }
         }
       },
@@ -106908,25 +107112,25 @@
           "n": 0
         }
       },
-      "total_graded": 1536,
-      "ats_graded": 1323,
+      "total_graded": 1539,
+      "ats_graded": 1326,
       "ats": {
-        "w": 709,
-        "l": 614,
+        "w": 710,
+        "l": 616,
         "p": 0,
-        "pct": 53.6
+        "pct": 53.5
       },
       "su": {
-        "correct": 1096,
-        "total": 1536,
+        "correct": 1099,
+        "total": 1539,
         "pct": 71.4
       },
       "ou": {
-        "over": 749,
-        "under": 771,
+        "over": 750,
+        "under": 773,
         "push": 0,
-        "model_correct": 777,
-        "model_gradeable": 1520,
+        "model_correct": 779,
+        "model_gradeable": 1523,
         "model_pct": 51.1
       },
       "by_confidence": {
@@ -106937,8 +107141,8 @@
           "pct": 49.4
         },
         "medium": {
-          "w": 539,
-          "l": 435,
+          "w": 540,
+          "l": 437,
           "p": 0,
           "pct": 55.3
         },
@@ -106950,18 +107154,18 @@
         }
       },
       "value_plays": {
-        "w": 317,
-        "l": 280,
+        "w": 318,
+        "l": 281,
         "p": 0,
         "pct": 53.1
       },
       "best_bets": {
-        "w": 142,
+        "w": 143,
         "l": 129,
         "p": 0,
-        "pct": 52.4
+        "pct": 52.6
       }
     }
   },
-  "generated_at": "2026-11-23T21:39:49.151803-05:00"
+  "generated_at": "2026-11-23T22:54:47.784493-05:00"
 }
