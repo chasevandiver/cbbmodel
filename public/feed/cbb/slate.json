@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-24T00:39:53.171341-05:00",
+ "generated_at": "2026-11-24T02:02:33.261863-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-23",
@@ -2575,7 +2575,7 @@
    "game_id": "401909743",
    "game_id_source": "espn",
    "start_time": "2026-11-24T04:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Arizona Wildcats",
     "abbr": "ARIZ",
@@ -2634,7 +2634,19 @@
     "side": "away",
     "cover_line": 16.5
    },
-   "result": null,
+   "result": {
+    "home_score": 96,
+    "away_score": 83,
+    "margin_home": 13,
+    "total": 179,
+    "winner": "Arizona Wildcats",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": [
     "best_bet",
     "value",

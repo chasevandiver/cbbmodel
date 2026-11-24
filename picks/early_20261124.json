@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T00:39:52.593338-05:00",
+  "generated_at": "2026-11-24T02:02:32.771625-05:00",
   "date": "20261124",
-  "total_games": 76,
+  "total_games": 77,
   "model_version": "4.1.0",
   "ratings_source": "barttorvik (cache 2026-11-23)",
   "ratings_season": 2027,
@@ -59,6 +59,60 @@
       },
       "is_best_bet": true,
       "is_tournament_game": true
+    },
+    {
+      "game_id": "401929421",
+      "date": "2026-11-25T01:00Z",
+      "home_team": "South Alabama Jaguars",
+      "away_team": "Florida A&M Rattlers",
+      "home_abbr": "USA",
+      "away_abbr": "FAMU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-4",
+      "away_record": "0-6",
+      "home_location": "South Alabama",
+      "away_location": "Florida A&M",
+      "home_rating_team": "South Alabama",
+      "away_rating_team": "Florida A&M",
+      "home_adj_em": -4.31,
+      "away_adj_em": -18.73,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Mitchell Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 13.0,
+      "predicted_total": 147.0,
+      "home_projected_score": 80.0,
+      "away_projected_score": 67.0,
+      "home_win_prob": 88.2,
+      "away_win_prob": 11.8,
+      "confidence": 72.9,
+      "pick": "South Alabama Jaguars",
+      "pick_abbr": "USA",
+      "is_home_pick": true,
+      "projected_tempo": 67.5,
+      "factors": {
+        "efficiency_margin": 9.74,
+        "home_court": 3.28
+      },
+      "market": {
+        "spread": -18.5,
+        "over_under": 142.5,
+        "spread_holder": "South Alabama Jaguars",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 5.5,
+      "model_vs_market": {
+        "spread_edge": -5.5,
+        "total_edge": 4.5
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
     },
     {
       "game_id": "401915943",
@@ -264,14 +318,14 @@
       },
       "market": {
         "spread": -35.5,
-        "over_under": 157.5,
+        "over_under": 156.5,
         "spread_holder": "Florida Gators",
         "bookmaker": "draftkings"
       },
       "value_rating": 6.1,
       "model_vs_market": {
         "spread_edge": -6.1,
-        "total_edge": -3.0
+        "total_edge": -2.0
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -437,60 +491,6 @@
       },
       "is_best_bet": true,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401929421",
-      "date": "2026-11-25T01:00Z",
-      "home_team": "South Alabama Jaguars",
-      "away_team": "Florida A&M Rattlers",
-      "home_abbr": "USA",
-      "away_abbr": "FAMU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-4",
-      "away_record": "0-6",
-      "home_location": "South Alabama",
-      "away_location": "Florida A&M",
-      "home_rating_team": "South Alabama",
-      "away_rating_team": "Florida A&M",
-      "home_adj_em": -4.31,
-      "away_adj_em": -18.73,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Mitchell Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 13.0,
-      "predicted_total": 147.0,
-      "home_projected_score": 80.0,
-      "away_projected_score": 67.0,
-      "home_win_prob": 88.2,
-      "away_win_prob": 11.8,
-      "confidence": 68.9,
-      "pick": "South Alabama Jaguars",
-      "pick_abbr": "USA",
-      "is_home_pick": true,
-      "projected_tempo": 67.5,
-      "factors": {
-        "efficiency_margin": 9.74,
-        "home_court": 3.28
-      },
-      "market": {
-        "spread": -17.5,
-        "over_under": 142.5,
-        "spread_holder": "South Alabama Jaguars",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 4.5,
-      "model_vs_market": {
-        "spread_edge": -4.5,
-        "total_edge": 4.5
-      },
-      "is_best_bet": true,
-      "is_tournament_game": false
     },
     {
       "game_id": "401909800",
@@ -696,14 +696,14 @@
       },
       "market": {
         "spread": -4.5,
-        "over_under": 130.5,
+        "over_under": 131.5,
         "spread_holder": "Marist Red Foxes",
         "bookmaker": "draftkings"
       },
       "value_rating": 3.2,
       "model_vs_market": {
         "spread_edge": 3.2,
-        "total_edge": 3.1
+        "total_edge": 2.1
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -750,14 +750,14 @@
       },
       "market": {
         "spread": -5.5,
-        "over_under": 135.5,
+        "over_under": 136.5,
         "spread_holder": "HARV -5.5",
         "bookmaker": "espn"
       },
       "value_rating": 2.6,
       "model_vs_market": {
         "spread_edge": 2.6,
-        "total_edge": 6.3
+        "total_edge": 5.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -804,14 +804,14 @@
       },
       "market": {
         "spread": 2.5,
-        "over_under": 150.5,
+        "over_under": 151.5,
         "spread_holder": "Houston Christian Huskies",
         "bookmaker": "fanduel"
       },
       "value_rating": 3.0,
       "model_vs_market": {
         "spread_edge": 3.0,
-        "total_edge": -0.7
+        "total_edge": -1.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -912,14 +912,14 @@
       },
       "market": {
         "spread": 1.5,
-        "over_under": 156.5,
+        "over_under": 157.5,
         "spread_holder": "Nevada Wolf Pack",
         "bookmaker": "fanduel"
       },
       "value_rating": 2.9,
       "model_vs_market": {
         "spread_edge": 2.9,
-        "total_edge": -5.9
+        "total_edge": -6.9
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1290,14 +1290,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 172.5,
+        "over_under": 173.5,
         "spread_holder": "Wofford Terriers",
         "bookmaker": "draftkings"
       },
       "value_rating": 2.3,
       "model_vs_market": {
         "spread_edge": 2.3,
-        "total_edge": -5.1
+        "total_edge": -6.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1560,14 +1560,14 @@
       },
       "market": {
         "spread": -3.5,
-        "over_under": 140.5,
+        "over_under": 138.5,
         "spread_holder": "Loyola (MD) Greyhounds",
         "bookmaker": "betmgm"
       },
       "value_rating": 1.8,
       "model_vs_market": {
         "spread_edge": 1.8,
-        "total_edge": 3.1
+        "total_edge": 5.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1776,14 +1776,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 142.5,
+        "over_under": 143.5,
         "spread_holder": "UMKC Kangaroos",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.3,
       "model_vs_market": {
         "spread_edge": -1.3,
-        "total_edge": 8.1
+        "total_edge": 7.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1992,14 +1992,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 160.5,
+        "over_under": 159.5,
         "spread_holder": "BYU Cougars",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.8,
       "model_vs_market": {
         "spread_edge": 1.8,
-        "total_edge": -6.0
+        "total_edge": -5.0
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -2653,60 +2653,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401911379",
-      "date": "2026-11-25T00:00Z",
-      "home_team": "James Madison Dukes",
-      "away_team": "Charleston Southern Buccaneers",
-      "home_abbr": "JMU",
-      "away_abbr": "CHSO",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-2",
-      "away_record": "2-4",
-      "home_location": "James Madison",
-      "away_location": "Charleston Southern",
-      "home_rating_team": "James Madison",
-      "away_rating_team": "Charleston Southern",
-      "home_adj_em": 2.69,
-      "away_adj_em": -13.2,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Atlantic Union Bank Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 14.8,
-      "predicted_total": 149.8,
-      "home_projected_score": 82.3,
-      "away_projected_score": 67.5,
-      "home_win_prob": 91.0,
-      "away_win_prob": 9.0,
-      "confidence": 60.0,
-      "pick": "James Madison Dukes",
-      "pick_abbr": "JMU",
-      "is_home_pick": true,
-      "projected_tempo": 70.0,
-      "factors": {
-        "efficiency_margin": 11.13,
-        "home_court": 3.63
-      },
-      "market": {
-        "spread": -12.5,
-        "over_under": 151.5,
-        "spread_holder": "James Madison Dukes",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 2.3,
-      "model_vs_market": {
-        "spread_edge": 2.3,
-        "total_edge": -1.7
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401929285",
       "date": "2026-11-24T20:00Z",
       "home_team": "Yale Bulldogs",
@@ -3072,14 +3018,14 @@
       },
       "market": {
         "spread": 3.5,
-        "over_under": 153.5,
+        "over_under": 152.5,
         "spread_holder": "Texas Tech Red Raiders",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.0,
       "model_vs_market": {
         "spread_edge": -1.0,
-        "total_edge": -1.3
+        "total_edge": -0.3
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -3504,14 +3450,122 @@
       },
       "market": {
         "spread": -2.5,
-        "over_under": 142.5,
+        "over_under": 143.5,
         "spread_holder": "Akron Zips",
         "bookmaker": "draftkings"
       },
       "value_rating": 0.3,
       "model_vs_market": {
         "spread_edge": -0.3,
-        "total_edge": 0.8
+        "total_edge": -0.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
+      "game_id": "401911379",
+      "date": "2026-11-25T00:00Z",
+      "home_team": "James Madison Dukes",
+      "away_team": "Charleston Southern Buccaneers",
+      "home_abbr": "JMU",
+      "away_abbr": "CHSO",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "2-4",
+      "home_location": "James Madison",
+      "away_location": "Charleston Southern",
+      "home_rating_team": "James Madison",
+      "away_rating_team": "Charleston Southern",
+      "home_adj_em": 2.69,
+      "away_adj_em": -13.2,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Atlantic Union Bank Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 14.8,
+      "predicted_total": 149.8,
+      "home_projected_score": 82.3,
+      "away_projected_score": 67.5,
+      "home_win_prob": 91.0,
+      "away_win_prob": 9.0,
+      "confidence": 56.0,
+      "pick": "James Madison Dukes",
+      "pick_abbr": "JMU",
+      "is_home_pick": true,
+      "projected_tempo": 70.0,
+      "factors": {
+        "efficiency_margin": 11.13,
+        "home_court": 3.63
+      },
+      "market": {
+        "spread": -13.5,
+        "over_under": 153.5,
+        "spread_holder": "James Madison Dukes",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 1.3,
+      "model_vs_market": {
+        "spread_edge": 1.3,
+        "total_edge": -3.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401921712",
+      "date": "2026-11-25T03:30Z",
+      "home_team": "Colorado State Rams",
+      "away_team": "VCU Rams",
+      "home_abbr": "CSU",
+      "away_abbr": "VCU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "3-2",
+      "home_location": "Colorado State",
+      "away_location": "VCU",
+      "home_rating_team": "Colorado St.",
+      "away_rating_team": "VCU",
+      "home_adj_em": 7.33,
+      "away_adj_em": 14.73,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Lahaina Civic Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPNU",
+      "predicted_spread": -5.1,
+      "predicted_total": 149.1,
+      "home_projected_score": 72.0,
+      "away_projected_score": 77.1,
+      "home_win_prob": 32.2,
+      "away_win_prob": 67.8,
+      "confidence": 55.6,
+      "pick": "VCU Rams",
+      "pick_abbr": "VCU",
+      "is_home_pick": false,
+      "projected_tempo": 68.8,
+      "factors": {
+        "efficiency_margin": -5.09,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 5.5,
+        "over_under": 149.5,
+        "spread_holder": "VCU Rams",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.4,
+      "model_vs_market": {
+        "spread_edge": -0.4,
+        "total_edge": -0.4
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -3666,14 +3720,14 @@
       },
       "market": {
         "spread": 1.5,
-        "over_under": 165.5,
+        "over_under": 166.5,
         "spread_holder": "GCU -1.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.2,
       "model_vs_market": {
         "spread_edge": 0.2,
-        "total_edge": -8.9
+        "total_edge": -9.9
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -3720,14 +3774,14 @@
       },
       "market": {
         "spread": -8.5,
-        "over_under": 166.5,
+        "over_under": 167.5,
         "spread_holder": "FIU -8.5",
         "bookmaker": "espn"
       },
       "value_rating": 0.2,
       "model_vs_market": {
         "spread_edge": 0.2,
-        "total_edge": -6.5
+        "total_edge": -7.5
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -3936,14 +3990,14 @@
       },
       "market": {
         "spread": -10.5,
-        "over_under": 153.5,
+        "over_under": 154.5,
         "spread_holder": "Cornell Big Red",
         "bookmaker": "fanduel"
       },
       "value_rating": 0.2,
       "model_vs_market": {
         "spread_edge": 0.2,
-        "total_edge": -6.2
+        "total_edge": -7.2
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -4112,15 +4166,15 @@
     }
   ],
   "summary": {
-    "total_games": 76,
-    "high_confidence": 6,
+    "total_games": 77,
+    "high_confidence": 7,
     "medium_confidence": 70,
     "low_confidence": 0,
-    "avg_confidence": 61.6,
+    "avg_confidence": 61.5,
     "value_plays": 19,
     "best_bets": 14,
-    "with_market_line": 76,
-    "tournament_games": 33
+    "with_market_line": 77,
+    "tournament_games": 34
   },
   "early": true
 }

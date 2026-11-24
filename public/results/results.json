@@ -107369,12 +107369,87 @@
       "ou_result": "U",
       "model_ou_call": "U",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401909743",
+      "date": "2026-11-24T04:30Z",
+      "home_team": "Arizona Wildcats",
+      "away_team": "Colorado State Rams",
+      "home_abbr": "ARIZ",
+      "away_abbr": "CSU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+      "home_rank": 8,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "4-1",
+      "home_location": "Arizona",
+      "away_location": "Colorado State",
+      "home_rating_team": "Arizona",
+      "away_rating_team": "Colorado St.",
+      "home_adj_em": 26.46,
+      "away_adj_em": 7.33,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Lahaina Civic Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 13.4,
+      "predicted_total": 151.7,
+      "home_projected_score": 82.5,
+      "away_projected_score": 69.1,
+      "home_win_prob": 88.9,
+      "away_win_prob": 11.1,
+      "confidence": 62.3,
+      "pick": "Arizona Wildcats",
+      "pick_abbr": "ARIZ",
+      "is_home_pick": true,
+      "projected_tempo": 70.2,
+      "factors": {
+        "efficiency_margin": 13.43,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -16.5,
+        "over_under": 159.5,
+        "spread_holder": "Arizona Wildcats",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 3.1,
+      "model_vs_market": {
+        "spread_edge": -3.1,
+        "total_edge": -7.8
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -17.5,
+        "over_under": 158.5,
+        "spread_holder": "Arizona Wildcats",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-23T23:39:47.225827-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 16.5,
+      "clv": -1.0,
+      "actual_home_score": 96,
+      "actual_away_score": 83,
+      "actual_margin": 13,
+      "actual_total": 179,
+      "actual_winner": "Arizona Wildcats",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 821,
-      "model_mae": 10.0,
+      "n": 822,
+      "model_mae": 9.99,
       "market_mae": 9.66,
       "intercept": -0.62,
       "model_weight": 0.087,
@@ -107386,9 +107461,9 @@
           "pct": 59.8
         },
         "2-4": {
-          "w": 123,
+          "w": 124,
           "l": 107,
-          "pct": 53.5
+          "pct": 53.7
         },
         "4-7": {
           "w": 87,
@@ -107403,10 +107478,10 @@
       }
     },
     "clv": {
-      "n": 503,
+      "n": 504,
       "avg": 0.3,
-      "beat_close_pct": 38.6,
-      "beat_or_matched_pct": 77.5
+      "beat_close_pct": 38.5,
+      "beat_or_matched_pct": 77.4
     },
     "clv_by_confidence": {
       "high": {
@@ -107416,35 +107491,35 @@
         "beat_or_matched_pct": 84.6
       },
       "medium": {
-        "n": 464,
-        "avg": 0.3,
-        "beat_close_pct": 38.4,
-        "beat_or_matched_pct": 76.9
+        "n": 465,
+        "avg": 0.29,
+        "beat_close_pct": 38.3,
+        "beat_or_matched_pct": 76.8
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 827,
-    "ats_graded": 725,
+    "total_graded": 828,
+    "ats_graded": 726,
     "ats": {
-      "w": 404,
+      "w": 405,
       "l": 321,
       "p": 0,
-      "pct": 55.7
+      "pct": 55.8
     },
     "su": {
-      "correct": 635,
-      "total": 827,
+      "correct": 636,
+      "total": 828,
       "pct": 76.8
     },
     "ou": {
-      "over": 401,
+      "over": 402,
       "under": 420,
       "push": 0,
       "model_correct": 426,
-      "model_gradeable": 821,
-      "model_pct": 51.9
+      "model_gradeable": 822,
+      "model_pct": 51.8
     },
     "by_confidence": {
       "high": {
@@ -107454,10 +107529,10 @@
         "pct": 50.9
       },
       "medium": {
-        "w": 375,
+        "w": 376,
         "l": 293,
         "p": 0,
-        "pct": 56.1
+        "pct": 56.2
       },
       "low": {
         "w": 0,
@@ -107467,23 +107542,23 @@
       }
     },
     "value_plays": {
-      "w": 173,
+      "w": 174,
       "l": 152,
       "p": 0,
-      "pct": 53.2
+      "pct": 53.4
     },
     "best_bets": {
-      "w": 106,
+      "w": 107,
       "l": 99,
       "p": 0,
-      "pct": 51.7
+      "pct": 51.9
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1529,
-        "model_mae": 10.41,
+        "n": 1530,
+        "model_mae": 10.4,
         "market_mae": 9.32,
         "intercept": -0.01,
         "model_weight": -0.006,
@@ -107495,9 +107570,9 @@
             "pct": 54.3
           },
           "2-4": {
-            "w": 218,
+            "w": 219,
             "l": 187,
-            "pct": 53.8
+            "pct": 53.9
           },
           "4-7": {
             "w": 125,
@@ -107512,10 +107587,10 @@
         }
       },
       "clv": {
-        "n": 503,
+        "n": 504,
         "avg": 0.3,
-        "beat_close_pct": 38.6,
-        "beat_or_matched_pct": 77.5
+        "beat_close_pct": 38.5,
+        "beat_or_matched_pct": 77.4
       },
       "clv_by_confidence": {
         "high": {
@@ -107525,34 +107600,34 @@
           "beat_or_matched_pct": 84.6
         },
         "medium": {
-          "n": 464,
-          "avg": 0.3,
-          "beat_close_pct": 38.4,
-          "beat_or_matched_pct": 76.9
+          "n": 465,
+          "avg": 0.29,
+          "beat_close_pct": 38.3,
+          "beat_or_matched_pct": 76.8
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1545,
-      "ats_graded": 1331,
+      "total_graded": 1546,
+      "ats_graded": 1332,
       "ats": {
-        "w": 712,
+        "w": 713,
         "l": 619,
         "p": 0,
         "pct": 53.5
       },
       "su": {
-        "correct": 1103,
-        "total": 1545,
+        "correct": 1104,
+        "total": 1546,
         "pct": 71.4
       },
       "ou": {
-        "over": 751,
+        "over": 752,
         "under": 778,
         "push": 0,
         "model_correct": 783,
-        "model_gradeable": 1529,
+        "model_gradeable": 1530,
         "model_pct": 51.2
       },
       "by_confidence": {
@@ -107563,10 +107638,10 @@
           "pct": 49.2
         },
         "medium": {
-          "w": 542,
+          "w": 543,
           "l": 439,
           "p": 0,
-          "pct": 55.2
+          "pct": 55.3
         },
         "low": {
           "w": 41,
@@ -107576,18 +107651,18 @@
         }
       },
       "value_plays": {
-        "w": 318,
+        "w": 319,
         "l": 282,
         "p": 0,
-        "pct": 53.0
+        "pct": 53.1
       },
       "best_bets": {
-        "w": 143,
+        "w": 144,
         "l": 130,
         "p": 0,
-        "pct": 52.4
+        "pct": 52.6
       }
     }
   },
-  "generated_at": "2026-11-24T00:39:53.011912-05:00"
+  "generated_at": "2026-11-24T02:02:33.110488-05:00"
 }
