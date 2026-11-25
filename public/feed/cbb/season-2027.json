@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-25T06:41:53.962185-05:00",
+ "generated_at": "2026-11-25T15:27:46.282609-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -76010,14 +76010,14 @@
     "name": "Belmont Bruins",
     "abbr": "BEL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2057.png",
-    "record": "5-2",
+    "record": "5-3",
     "rank": null
    },
    "away": {
     "name": "St. Bonaventure Bonnies",
     "abbr": "SBU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/179.png",
-    "record": "6-1",
+    "record": "7-1",
     "rank": null
    },
    "venue": "State Farm Field House",
@@ -76078,14 +76078,14 @@
     "name": "Charlotte 49ers",
     "abbr": "CLT",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
-    "record": "4-2",
+    "record": "5-2",
     "rank": null
    },
    "away": {
     "name": "Northern Iowa Panthers",
     "abbr": "UNI",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
-    "record": "3-4",
+    "record": "3-5",
     "rank": null
    },
    "venue": "Suncoast Credit Union Arena",
@@ -76146,14 +76146,14 @@
     "name": "Ohio Bobcats",
     "abbr": "OHIO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
-    "record": "4-1",
+    "record": "4-2",
     "rank": null
    },
    "away": {
     "name": "Rice Owls",
     "abbr": "RICE",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
-    "record": "5-2",
+    "record": "6-2",
     "rank": null
    },
    "venue": "The Reef",
@@ -76229,7 +76229,7 @@
    "venue": "Imperial Arena",
    "neutral_site": true,
    "conference_game": false,
-   "broadcast": "ESPN",
+   "broadcast": "ESPN2",
    "model": {
     "version": "4.1.0",
     "spread_home": 5.5,
@@ -76284,14 +76284,14 @@
     "name": "Detroit Mercy Titans",
     "abbr": "DETM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png",
-    "record": "0-6",
+    "record": "0-7",
     "rank": null
    },
    "away": {
     "name": "Northern Colorado Bears",
     "abbr": "UNCO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
-    "record": "3-4",
+    "record": "4-4",
     "rank": null
    },
    "venue": "Hard Rock Hotel Riviera Maya",
@@ -76346,20 +76346,20 @@
    "slate_date": "2026-11-25",
    "game_id": "401928831",
    "game_id_source": "espn",
-   "start_time": "2026-11-25T17:30Z",
+   "start_time": "2026-11-25T17:31Z",
    "status": "pending",
    "home": {
     "name": "Wright State Raiders",
     "abbr": "WRST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
-    "record": "6-1",
+    "record": "6-2",
     "rank": null
    },
    "away": {
     "name": "Yale Bulldogs",
     "abbr": "YALE",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
-    "record": "4-4",
+    "record": "5-4",
     "rank": null
    },
    "venue": "State Farm Field House",
@@ -76420,14 +76420,14 @@
     "name": "Miami (OH) RedHawks",
     "abbr": "M-OH",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
-    "record": "5-0",
+    "record": "6-0",
     "rank": null
    },
    "away": {
     "name": "Eastern Kentucky Colonels",
     "abbr": "EKU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png",
-    "record": "5-2",
+    "record": "5-3",
     "rank": null
    },
    "venue": "Millett Hall",
@@ -76486,14 +76486,14 @@
     "name": "Long Beach State Beach",
     "abbr": "LBSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/299.png",
-    "record": "1-5",
+    "record": "2-5",
     "rank": null
    },
    "away": {
     "name": "Southern Utah Thunderbirds",
     "abbr": "SUU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
-    "record": "3-5",
+    "record": "3-6",
     "rank": null
    },
    "venue": "Ocean Bank Convocation Center",
@@ -76554,14 +76554,14 @@
     "name": "Stony Brook Seawolves",
     "abbr": "STBK",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
-    "record": "3-2",
+    "record": "4-2",
     "rank": null
    },
    "away": {
     "name": "Lindenwood Lions",
     "abbr": "LIN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
-    "record": "2-5",
+    "record": "2-6",
     "rank": null
    },
    "venue": "Stony Brook Arena",
@@ -76620,14 +76620,14 @@
     "name": "Davidson Wildcats",
     "abbr": "DAV",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png",
-    "record": "4-2",
+    "record": "5-2",
     "rank": null
    },
    "away": {
     "name": "Tulane Green Wave",
     "abbr": "TULN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-    "record": "2-4",
+    "record": "2-5",
     "rank": null
    },
    "venue": "Suncoast Credit Union Arena",
@@ -76817,18 +76817,18 @@
    "start_time": "2026-11-25T19:00Z",
    "status": "pending",
    "home": {
-    "name": "LSU Tigers",
-    "abbr": "LSU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-    "record": "6-0",
-    "rank": 20
-   },
-   "away": {
     "name": "Arizona State Sun Devils",
     "abbr": "ASU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
     "record": "5-0",
     "rank": null
+   },
+   "away": {
+    "name": "LSU Tigers",
+    "abbr": "LSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+    "record": "6-0",
+    "rank": 20
    },
    "venue": "Acrisure Arena",
    "neutral_site": true,
@@ -76836,37 +76836,31 @@
    "broadcast": "CBSSN",
    "model": {
     "version": "4.1.0",
-    "spread_home": -5.3,
+    "spread_home": 5.3,
     "total": 152.1,
-    "home_score": 78.7,
-    "away_score": 73.4,
-    "home_win_prob": 68.6,
-    "confidence": 58.4,
+    "home_score": 73.4,
+    "away_score": 78.7,
+    "home_win_prob": 31.4,
+    "confidence": 45.0,
     "tempo": 68.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "LSU Tigers",
      "abbr": "LSU",
-     "side": "home"
+     "side": "away"
     }
    },
-   "market": {
-    "spread_home": -4.5,
-    "total": 146.5,
-    "favorite": "LSU -4.5",
-    "bookmaker": "espn",
-    "captured_at": null
-   },
+   "market": null,
    "closing": null,
    "edge": {
-    "spread": 0.8,
-    "total": 5.6,
-    "value_rating": 0.8,
+    "spread": null,
+    "total": null,
+    "value_rating": null,
     "is_best_bet": false
    },
    "bet": {
-    "side": "home",
-    "cover_line": 4.5
+    "side": "none",
+    "cover_line": null
    },
    "result": null,
    "tags": [
@@ -78403,7 +78397,7 @@
     "home_score": 76.6,
     "away_score": 78.2,
     "home_win_prob": 44.2,
-    "confidence": 46.0,
+    "confidence": 68.4,
     "tempo": 72.3,
     "confidence_tier": "medium",
     "pick": {
@@ -78412,20 +78406,28 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -1.5,
+    "total": 160.5,
+    "favorite": "Charleston Cougars",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
-    "is_best_bet": false
+    "spread": -3.1,
+    "total": -5.7,
+    "value_rating": 3.1,
+    "is_best_bet": true
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 1.5
    },
    "result": null,
    "tags": [
+    "best_bet",
+    "value",
     "tournament"
    ]
   },
@@ -79338,7 +79340,7 @@
     "home_score": 70.1,
     "away_score": 69.0,
     "home_win_prob": 53.8,
-    "confidence": 46.0,
+    "confidence": 57.8,
     "tempo": 67.0,
     "confidence_tier": "medium",
     "pick": {
@@ -79347,17 +79349,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -1.5,
+    "total": 131.5,
+    "favorite": "UTEP Miners",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -0.5,
+    "total": 7.6,
+    "value_rating": 0.5,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": null
+    "cover_line": 1.5
    },
    "result": null,
    "tags": [
@@ -79534,7 +79542,7 @@
     "home_score": 71.6,
     "away_score": 79.4,
     "home_win_prob": 24.1,
-    "confidence": 45.0,
+    "confidence": 62.0,
     "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
@@ -79543,17 +79551,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 9.5,
+    "total": 154.5,
+    "favorite": "GCU -9.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 1.8,
+    "total": -3.5,
+    "value_rating": 1.8,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": -9.5
    },
    "result": null,
    "tags": [
@@ -79732,7 +79746,7 @@
     "home_score": 78.0,
     "away_score": 73.0,
     "home_win_prob": 67.4,
-    "confidence": 46.0,
+    "confidence": 57.9,
     "tempo": 69.3,
     "confidence_tier": "medium",
     "pick": {
@@ -79741,17 +79755,23 @@
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -4.5,
+    "total": 152.5,
+    "favorite": "Saint Louis Billikens",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 0.5,
+    "total": -1.5,
+    "value_rating": 0.5,
     "is_best_bet": false
    },
    "bet": {
     "side": "none",
-    "cover_line": null
+    "cover_line": 4.5
    },
    "result": null,
    "tags": [
