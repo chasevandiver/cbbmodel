@@ -109769,6 +109769,149 @@
       "ou_model_correct": true
     },
     {
+      "game_id": "401911379",
+      "date": "2026-11-25T00:00Z",
+      "home_team": "James Madison Dukes",
+      "away_team": "Charleston Southern Buccaneers",
+      "home_abbr": "JMU",
+      "away_abbr": "CHSO",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "2-4",
+      "home_location": "James Madison",
+      "away_location": "Charleston Southern",
+      "home_rating_team": "James Madison",
+      "away_rating_team": "Charleston Southern",
+      "home_adj_em": 2.68,
+      "away_adj_em": -13.2,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Atlantic Union Bank Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 14.8,
+      "predicted_total": 150.2,
+      "home_projected_score": 82.5,
+      "away_projected_score": 67.7,
+      "home_win_prob": 91.0,
+      "away_win_prob": 9.0,
+      "confidence": 56.0,
+      "pick": "James Madison Dukes",
+      "pick_abbr": "JMU",
+      "is_home_pick": true,
+      "projected_tempo": 70.1,
+      "factors": {
+        "efficiency_margin": 11.13,
+        "home_court": 3.63
+      },
+      "market": {
+        "spread": -13.5,
+        "over_under": 154.5,
+        "spread_holder": "James Madison Dukes",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 1.3,
+      "model_vs_market": {
+        "spread_edge": 1.3,
+        "total_edge": -4.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -13.5,
+        "over_under": 154.5,
+        "spread_holder": "James Madison Dukes",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-24T07:45:08.799941-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 13.5,
+      "clv": 0.0,
+      "actual_home_score": 82,
+      "actual_away_score": 58,
+      "actual_margin": 24,
+      "actual_total": 140,
+      "actual_winner": "James Madison Dukes",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401911458",
+      "date": "2026-11-25T00:00Z",
+      "home_team": "Nevada Wolf Pack",
+      "away_team": "Santa Clara Broncos",
+      "home_abbr": "NEV",
+      "away_abbr": "SCU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "6-1",
+      "home_location": "Nevada",
+      "away_location": "Santa Clara",
+      "home_rating_team": "Nevada",
+      "away_rating_team": "Santa Clara",
+      "home_adj_em": 9.25,
+      "away_adj_em": 11.12,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Acrisure Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "CBSSN",
+      "predicted_spread": -1.3,
+      "predicted_total": 153.3,
+      "home_projected_score": 76.0,
+      "away_projected_score": 77.3,
+      "home_win_prob": 45.2,
+      "away_win_prob": 54.8,
+      "confidence": 56.7,
+      "pick": "Santa Clara Broncos",
+      "pick_abbr": "SCU",
+      "is_home_pick": false,
+      "projected_tempo": 71.0,
+      "factors": {
+        "efficiency_margin": -1.33,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 159.5,
+        "spread_holder": "SCU -1.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.2,
+      "model_vs_market": {
+        "spread_edge": -0.2,
+        "total_edge": -6.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": -1.5,
+      "clv": null,
+      "actual_home_score": 85,
+      "actual_away_score": 66,
+      "actual_margin": 19,
+      "actual_total": 151,
+      "actual_winner": "Nevada Wolf Pack",
+      "model_correct_winner": false,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
       "game_id": "401916291",
       "date": "2026-11-25T00:00Z",
       "home_team": "Indiana Hoosiers",
@@ -109842,6 +109985,156 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401916319",
+      "date": "2026-11-25T00:00Z",
+      "home_team": "Ohio State Buckeyes",
+      "away_team": "Vanderbilt Commodores",
+      "home_abbr": "OSU",
+      "away_abbr": "VAN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+      "home_rank": 99,
+      "away_rank": 14,
+      "home_record": "4-2",
+      "away_record": "6-0",
+      "home_location": "Ohio State",
+      "away_location": "Vanderbilt",
+      "home_rating_team": "Ohio St.",
+      "away_rating_team": "Vanderbilt",
+      "home_adj_em": 19.36,
+      "away_adj_em": 23.31,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Schottenstein Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "Peacock",
+      "predicted_spread": 1.1,
+      "predicted_total": 152.7,
+      "home_projected_score": 76.9,
+      "away_projected_score": 75.8,
+      "home_win_prob": 53.9,
+      "away_win_prob": 46.1,
+      "confidence": 70.3,
+      "pick": "Ohio State Buckeyes",
+      "pick_abbr": "OSU",
+      "is_home_pick": true,
+      "projected_tempo": 69.1,
+      "factors": {
+        "efficiency_margin": -2.73,
+        "home_court": 3.81
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 157.5,
+        "spread_holder": "Vanderbilt Commodores",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 3.6,
+      "model_vs_market": {
+        "spread_edge": 3.6,
+        "total_edge": -4.8
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 2.5,
+        "over_under": 157.5,
+        "spread_holder": "Vanderbilt Commodores",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-24T07:45:08.799941-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -2.5,
+      "clv": 0.0,
+      "actual_home_score": 66,
+      "actual_away_score": 72,
+      "actual_margin": -6,
+      "actual_total": 138,
+      "actual_winner": "Vanderbilt Commodores",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401918996",
+      "date": "2026-11-25T00:00Z",
+      "home_team": "South Florida Bulls",
+      "away_team": "Stetson Hatters",
+      "home_abbr": "USF",
+      "away_abbr": "STET",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "1-5",
+      "home_location": "South Florida",
+      "away_location": "Stetson",
+      "home_rating_team": "South Florida",
+      "away_rating_team": "Stetson",
+      "home_adj_em": 7.44,
+      "away_adj_em": -9.16,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Yuengling Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 14.7,
+      "predicted_total": 153.5,
+      "home_projected_score": 84.1,
+      "away_projected_score": 69.4,
+      "home_win_prob": 91.0,
+      "away_win_prob": 9.0,
+      "confidence": 66.1,
+      "pick": "South Florida Bulls",
+      "pick_abbr": "USF",
+      "is_home_pick": true,
+      "projected_tempo": 69.4,
+      "factors": {
+        "efficiency_margin": 11.52,
+        "home_court": 3.2
+      },
+      "market": {
+        "spread": -18.5,
+        "over_under": 152.5,
+        "spread_holder": "South Florida Bulls",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 3.8,
+      "model_vs_market": {
+        "spread_edge": -3.8,
+        "total_edge": 1.0
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -18.5,
+        "over_under": 152.5,
+        "spread_holder": "South Florida Bulls",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-24T07:45:08.799941-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 18.5,
+      "clv": 0.0,
+      "actual_home_score": 100,
+      "actual_away_score": 67,
+      "actual_margin": 33,
+      "actual_total": 167,
+      "actual_winner": "South Florida Bulls",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     },
     {
       "game_id": "401920309",
@@ -110284,6 +110577,74 @@
       "ats_result": "L",
       "ou_result": "U",
       "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920923",
+      "date": "2026-11-25T00:00Z",
+      "home_team": "Morgan State Bears",
+      "away_team": "Mount St. Mary's Mountaineers",
+      "home_abbr": "MORG",
+      "away_abbr": "MSM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/116.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-3",
+      "away_record": "1-4",
+      "home_location": "Morgan State",
+      "away_location": "Mount St. Mary's",
+      "home_rating_team": "Morgan St.",
+      "away_rating_team": "Mount St. Mary's",
+      "home_adj_em": -18.24,
+      "away_adj_em": -14.37,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Hill Field House",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "MEAC Network",
+      "predicted_spread": 0.9,
+      "predicted_total": 146.2,
+      "home_projected_score": 73.5,
+      "away_projected_score": 72.6,
+      "home_win_prob": 53.2,
+      "away_win_prob": 46.8,
+      "confidence": 57.5,
+      "pick": "Morgan State Bears",
+      "pick_abbr": "MORG",
+      "is_home_pick": true,
+      "projected_tempo": 70.3,
+      "factors": {
+        "efficiency_margin": -2.72,
+        "home_court": 3.6
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 148.5,
+        "spread_holder": "MORG -1.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.6,
+      "model_vs_market": {
+        "spread_edge": -0.6,
+        "total_edge": -2.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": null,
+      "actual_home_score": 74,
+      "actual_away_score": 75,
+      "actual_margin": -1,
+      "actual_total": 149,
+      "actual_winner": "Mount St. Mary's Mountaineers",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
       "ou_model_correct": false
     },
     {
@@ -110803,31 +111164,324 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401917904",
+      "date": "2026-11-25T00:30Z",
+      "home_team": "Tennessee Tech Golden Eagles",
+      "away_team": "West Georgia Wolves",
+      "home_abbr": "TNTC",
+      "away_abbr": "WGA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-2",
+      "away_record": "2-4",
+      "home_location": "Tennessee Tech",
+      "away_location": "West Georgia",
+      "home_rating_team": "Tennessee Tech",
+      "away_rating_team": "West Georgia",
+      "home_adj_em": -0.37,
+      "away_adj_em": -13.72,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Hooper Eblen Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 13.0,
+      "predicted_total": 156.6,
+      "home_projected_score": 84.8,
+      "away_projected_score": 71.8,
+      "home_win_prob": 88.1,
+      "away_win_prob": 11.9,
+      "confidence": 61.0,
+      "pick": "Tennessee Tech Golden Eagles",
+      "pick_abbr": "TNTC",
+      "is_home_pick": true,
+      "projected_tempo": 72.0,
+      "factors": {
+        "efficiency_margin": 9.61,
+        "home_court": 3.38
+      },
+      "market": {
+        "spread": -15.5,
+        "over_under": 163.5,
+        "spread_holder": "Tennessee Tech Golden Eagles",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.5,
+      "model_vs_market": {
+        "spread_edge": -2.5,
+        "total_edge": -6.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -14.5,
+        "over_under": 163.5,
+        "spread_holder": "Tennessee Tech Golden Eagles",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 15.5,
+      "clv": 1.0,
+      "actual_home_score": 124,
+      "actual_away_score": 85,
+      "actual_margin": 39,
+      "actual_total": 209,
+      "actual_winner": "Tennessee Tech Golden Eagles",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401917983",
+      "date": "2026-11-25T00:30Z",
+      "home_team": "UL Monroe Warhawks",
+      "away_team": "Houston Christian Huskies",
+      "home_abbr": "ULM",
+      "away_abbr": "HCU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "2-6",
+      "away_record": "4-1",
+      "home_location": "UL Monroe",
+      "away_location": "Houston Christian",
+      "home_rating_team": "Louisiana Monroe",
+      "away_rating_team": "Houston Christian",
+      "home_adj_em": -12.3,
+      "away_adj_em": -8.33,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "b1Bank Fant Coliseum",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 0.4,
+      "predicted_total": 150.3,
+      "home_projected_score": 75.3,
+      "away_projected_score": 74.9,
+      "home_win_prob": 51.5,
+      "away_win_prob": 48.5,
+      "confidence": 66.6,
+      "pick": "UL Monroe Warhawks",
+      "pick_abbr": "ULM",
+      "is_home_pick": true,
+      "projected_tempo": 69.7,
+      "factors": {
+        "efficiency_margin": -2.77,
+        "home_court": 3.18
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 151.5,
+        "spread_holder": "Houston Christian Huskies",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 2.9,
+      "model_vs_market": {
+        "spread_edge": 2.9,
+        "total_edge": -1.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 149.5,
+        "spread_holder": "Houston Christian Huskies",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -2.5,
+      "clv": 1.0,
+      "actual_home_score": 58,
+      "actual_away_score": 84,
+      "actual_margin": -26,
+      "actual_total": 142,
+      "actual_winner": "Houston Christian Huskies",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401925687",
+      "date": "2026-11-25T00:30Z",
+      "home_team": "Louisiana Tech Bulldogs",
+      "away_team": "Alcorn State Braves",
+      "home_abbr": "LT",
+      "away_abbr": "ALCN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "0-6",
+      "home_location": "Louisiana Tech",
+      "away_location": "Alcorn State",
+      "home_rating_team": "Louisiana Tech",
+      "away_rating_team": "Alcorn St.",
+      "home_adj_em": -7.41,
+      "away_adj_em": -19.17,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Thomas Assembly Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 11.5,
+      "predicted_total": 144.0,
+      "home_projected_score": 77.7,
+      "away_projected_score": 66.3,
+      "home_win_prob": 85.2,
+      "away_win_prob": 14.8,
+      "confidence": 67.1,
+      "pick": "Louisiana Tech Bulldogs",
+      "pick_abbr": "LT",
+      "is_home_pick": true,
+      "projected_tempo": 69.3,
+      "factors": {
+        "efficiency_margin": 8.15,
+        "home_court": 3.33
+      },
+      "market": {
+        "spread": -15.5,
+        "over_under": 145.5,
+        "spread_holder": "Louisiana Tech Bulldogs",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 4.0,
+      "model_vs_market": {
+        "spread_edge": -4.0,
+        "total_edge": -1.5
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -15.5,
+        "over_under": 144.5,
+        "spread_holder": "Louisiana Tech Bulldogs",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 15.5,
+      "clv": 0.0,
+      "actual_home_score": 83,
+      "actual_away_score": 41,
+      "actual_margin": 42,
+      "actual_total": 124,
+      "actual_winner": "Louisiana Tech Bulldogs",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401926154",
+      "date": "2026-11-25T00:30Z",
+      "home_team": "Southeast Missouri State Redhawks",
+      "away_team": "Purdue Fort Wayne Mastodons",
+      "home_abbr": "SEMO",
+      "away_abbr": "PFW",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2870.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "4-2",
+      "home_location": "Southeast Missouri State",
+      "away_location": "Purdue Fort Wayne",
+      "home_rating_team": "Southeast Missouri St.",
+      "away_rating_team": "Purdue Fort Wayne",
+      "home_adj_em": -8.55,
+      "away_adj_em": -8.57,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Show Me Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 3.1,
+      "predicted_total": 151.8,
+      "home_projected_score": 77.5,
+      "away_projected_score": 74.3,
+      "home_win_prob": 61.2,
+      "away_win_prob": 38.8,
+      "confidence": 57.4,
+      "pick": "Southeast Missouri State Redhawks",
+      "pick_abbr": "SEMO",
+      "is_home_pick": true,
+      "projected_tempo": 70.3,
+      "factors": {
+        "efficiency_margin": 0.02,
+        "home_court": 3.12
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 149.5,
+        "spread_holder": "SEMO -3.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.4,
+      "model_vs_market": {
+        "spread_edge": -0.4,
+        "total_edge": 2.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 3.5,
+      "clv": null,
+      "actual_home_score": 75,
+      "actual_away_score": 80,
+      "actual_margin": -5,
+      "actual_total": 155,
+      "actual_winner": "Purdue Fort Wayne Mastodons",
+      "model_correct_winner": false,
+      "ats_result": null,
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 866,
-      "model_mae": 10.07,
-      "market_mae": 9.74,
-      "intercept": -0.56,
-      "model_weight": 0.07,
-      "market_weight": 0.931,
+      "n": 875,
+      "model_mae": 10.13,
+      "market_mae": 9.79,
+      "intercept": -0.52,
+      "model_weight": 0.058,
+      "market_weight": 0.944,
       "ats_by_edge": {
         "0-2": {
-          "w": 163,
+          "w": 165,
           "l": 116,
-          "pct": 58.4
+          "pct": 58.7
         },
         "2-4": {
           "w": 130,
-          "l": 115,
-          "pct": 53.1
+          "l": 119,
+          "pct": 52.2
         },
         "4-7": {
           "w": 89,
-          "l": 75,
-          "pct": 54.3
+          "l": 76,
+          "pct": 53.9
         },
         "7+": {
           "w": 38,
@@ -110837,61 +111491,61 @@
       }
     },
     "clv": {
-      "n": 532,
+      "n": 538,
       "avg": 0.28,
-      "beat_close_pct": 36.5,
-      "beat_or_matched_pct": 78.4
+      "beat_close_pct": 36.4,
+      "beat_or_matched_pct": 78.6
     },
     "clv_by_confidence": {
       "high": {
-        "n": 43,
+        "n": 44,
         "avg": 0.3,
-        "beat_close_pct": 37.2,
-        "beat_or_matched_pct": 86.0
+        "beat_close_pct": 36.4,
+        "beat_or_matched_pct": 86.4
       },
       "medium": {
-        "n": 489,
+        "n": 494,
         "avg": 0.28,
         "beat_close_pct": 36.4,
-        "beat_or_matched_pct": 77.7
+        "beat_or_matched_pct": 77.9
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 874,
-    "ats_graded": 762,
+    "total_graded": 883,
+    "ats_graded": 769,
     "ats": {
-      "w": 420,
-      "l": 342,
+      "w": 422,
+      "l": 347,
       "p": 0,
-      "pct": 55.1
+      "pct": 54.9
     },
     "su": {
-      "correct": 661,
-      "total": 874,
-      "pct": 75.6
+      "correct": 665,
+      "total": 883,
+      "pct": 75.3
     },
     "ou": {
-      "over": 419,
-      "under": 447,
+      "over": 423,
+      "under": 452,
       "push": 0,
-      "model_correct": 444,
-      "model_gradeable": 866,
-      "model_pct": 51.3
+      "model_correct": 451,
+      "model_gradeable": 875,
+      "model_pct": 51.5
     },
     "by_confidence": {
       "high": {
         "w": 31,
-        "l": 30,
+        "l": 31,
         "p": 0,
-        "pct": 50.8
+        "pct": 50.0
       },
       "medium": {
-        "w": 389,
-        "l": 312,
+        "w": 391,
+        "l": 316,
         "p": 0,
-        "pct": 55.5
+        "pct": 55.3
       },
       "low": {
         "w": 0,
@@ -110902,41 +111556,41 @@
     },
     "value_plays": {
       "w": 178,
-      "l": 154,
+      "l": 157,
       "p": 0,
-      "pct": 53.6
+      "pct": 53.1
     },
     "best_bets": {
       "w": 109,
-      "l": 101,
+      "l": 104,
       "p": 0,
-      "pct": 51.9
+      "pct": 51.2
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1574,
-        "model_mae": 10.43,
-        "market_mae": 9.37,
-        "intercept": -0.0,
-        "model_weight": -0.007,
-        "market_weight": 0.976,
+        "n": 1583,
+        "model_mae": 10.47,
+        "market_mae": 9.4,
+        "intercept": 0.01,
+        "model_weight": -0.008,
+        "market_weight": 0.98,
         "ats_by_edge": {
           "0-2": {
-            "w": 277,
+            "w": 279,
             "l": 238,
-            "pct": 53.8
+            "pct": 54.0
           },
           "2-4": {
             "w": 225,
-            "l": 195,
-            "pct": 53.6
+            "l": 199,
+            "pct": 53.1
           },
           "4-7": {
             "w": 127,
-            "l": 109,
-            "pct": 53.8
+            "l": 110,
+            "pct": 53.6
           },
           "7+": {
             "w": 99,
@@ -110946,61 +111600,61 @@
         }
       },
       "clv": {
-        "n": 532,
+        "n": 538,
         "avg": 0.28,
-        "beat_close_pct": 36.5,
-        "beat_or_matched_pct": 78.4
+        "beat_close_pct": 36.4,
+        "beat_or_matched_pct": 78.6
       },
       "clv_by_confidence": {
         "high": {
-          "n": 43,
+          "n": 44,
           "avg": 0.3,
-          "beat_close_pct": 37.2,
-          "beat_or_matched_pct": 86.0
+          "beat_close_pct": 36.4,
+          "beat_or_matched_pct": 86.4
         },
         "medium": {
-          "n": 489,
+          "n": 494,
           "avg": 0.28,
           "beat_close_pct": 36.4,
-          "beat_or_matched_pct": 77.7
+          "beat_or_matched_pct": 77.9
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1592,
-      "ats_graded": 1368,
+      "total_graded": 1601,
+      "ats_graded": 1375,
       "ats": {
-        "w": 728,
-        "l": 640,
+        "w": 730,
+        "l": 645,
         "p": 0,
-        "pct": 53.2
+        "pct": 53.1
       },
       "su": {
-        "correct": 1129,
-        "total": 1592,
-        "pct": 70.9
+        "correct": 1133,
+        "total": 1601,
+        "pct": 70.8
       },
       "ou": {
-        "over": 769,
-        "under": 805,
+        "over": 773,
+        "under": 810,
         "push": 0,
-        "model_correct": 801,
-        "model_gradeable": 1574,
-        "model_pct": 50.9
+        "model_correct": 808,
+        "model_gradeable": 1583,
+        "model_pct": 51.0
       },
       "by_confidence": {
         "high": {
           "w": 131,
-          "l": 135,
+          "l": 136,
           "p": 0,
-          "pct": 49.2
+          "pct": 49.1
         },
         "medium": {
-          "w": 556,
-          "l": 458,
+          "w": 558,
+          "l": 462,
           "p": 0,
-          "pct": 54.8
+          "pct": 54.7
         },
         "low": {
           "w": 41,
@@ -111011,17 +111665,17 @@
       },
       "value_plays": {
         "w": 323,
-        "l": 284,
+        "l": 287,
         "p": 0,
-        "pct": 53.2
+        "pct": 53.0
       },
       "best_bets": {
         "w": 146,
-        "l": 132,
+        "l": 135,
         "p": 0,
-        "pct": 52.5
+        "pct": 52.0
       }
     }
   },
-  "generated_at": "2026-11-24T21:06:22.169260-05:00"
+  "generated_at": "2026-11-24T21:45:30.316659-05:00"
 }
