@@ -111457,31 +111457,706 @@
       "ou_result": "O",
       "model_ou_call": "O",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401911026",
+      "date": "2026-11-25T01:00Z",
+      "home_team": "Notre Dame Fighting Irish",
+      "away_team": "Central Michigan Chippewas",
+      "home_abbr": "ND",
+      "away_abbr": "CMU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "6-1",
+      "away_record": "4-2",
+      "home_location": "Notre Dame",
+      "away_location": "Central Michigan",
+      "home_rating_team": "Notre Dame",
+      "away_rating_team": "Central Michigan",
+      "home_adj_em": 14.84,
+      "away_adj_em": -5.73,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Purcell Pavilion",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACCNX",
+      "predicted_spread": 17.3,
+      "predicted_total": 155.2,
+      "home_projected_score": 86.2,
+      "away_projected_score": 68.9,
+      "home_win_prob": 94.2,
+      "away_win_prob": 5.8,
+      "confidence": 62.8,
+      "pick": "Notre Dame Fighting Irish",
+      "pick_abbr": "ND",
+      "is_home_pick": true,
+      "projected_tempo": 69.2,
+      "factors": {
+        "efficiency_margin": 14.23,
+        "home_court": 3.08
+      },
+      "market": {
+        "spread": -21.5,
+        "over_under": 152.5,
+        "spread_holder": "Notre Dame Fighting Irish",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 4.2,
+      "model_vs_market": {
+        "spread_edge": -4.2,
+        "total_edge": 2.7
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -20.5,
+        "over_under": 152.5,
+        "spread_holder": "Notre Dame Fighting Irish",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 21.5,
+      "clv": 1.0,
+      "actual_home_score": 88,
+      "actual_away_score": 70,
+      "actual_margin": 18,
+      "actual_total": 158,
+      "actual_winner": "Notre Dame Fighting Irish",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401911338",
+      "date": "2026-11-25T01:00Z",
+      "home_team": "Air Force Falcons",
+      "away_team": "Army Black Knights",
+      "home_abbr": "AF",
+      "away_abbr": "ARMY",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "2-4",
+      "home_location": "Air Force",
+      "away_location": "Army",
+      "home_rating_team": "Air Force",
+      "away_rating_team": "Army",
+      "home_adj_em": -10.81,
+      "away_adj_em": -19.95,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "UTSA Convocation Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 6.5,
+      "predicted_total": 155.6,
+      "home_projected_score": 81.0,
+      "away_projected_score": 74.5,
+      "home_win_prob": 72.3,
+      "away_win_prob": 27.7,
+      "confidence": 68.0,
+      "pick": "Air Force Falcons",
+      "pick_abbr": "AF",
+      "is_home_pick": true,
+      "projected_tempo": 71.2,
+      "factors": {
+        "efficiency_margin": 6.51,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 155.5,
+        "spread_holder": "Air Force Falcons",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 3.0,
+      "model_vs_market": {
+        "spread_edge": 3.0,
+        "total_edge": 0.1
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -3.5,
+        "over_under": 155.5,
+        "spread_holder": "Air Force Falcons",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 3.5,
+      "clv": 0.0,
+      "actual_home_score": 88,
+      "actual_away_score": 79,
+      "actual_margin": 9,
+      "actual_total": 167,
+      "actual_winner": "Air Force Falcons",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401920709",
+      "date": "2026-11-25T01:00Z",
+      "home_team": "Auburn Tigers",
+      "away_team": "Lipscomb Bisons",
+      "home_abbr": "AUB",
+      "away_abbr": "LIP",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "4-4",
+      "home_location": "Auburn",
+      "away_location": "Lipscomb",
+      "home_rating_team": "Auburn",
+      "away_rating_team": "Lipscomb",
+      "home_adj_em": 17.09,
+      "away_adj_em": -5.65,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Neville Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "SECN+",
+      "predicted_spread": 19.9,
+      "predicted_total": 153.5,
+      "home_projected_score": 86.7,
+      "away_projected_score": 66.8,
+      "home_win_prob": 96.5,
+      "away_win_prob": 3.5,
+      "confidence": 64.4,
+      "pick": "Auburn Tigers",
+      "pick_abbr": "AUB",
+      "is_home_pick": true,
+      "projected_tempo": 70.3,
+      "factors": {
+        "efficiency_margin": 15.99,
+        "home_court": 3.91
+      },
+      "market": {
+        "spread": -24.5,
+        "over_under": 157.5,
+        "spread_holder": "Auburn Tigers",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 4.6,
+      "model_vs_market": {
+        "spread_edge": -4.6,
+        "total_edge": -4.0
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -24.5,
+        "over_under": 158.5,
+        "spread_holder": "Auburn Tigers",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 24.5,
+      "clv": 0.0,
+      "actual_home_score": 101,
+      "actual_away_score": 66,
+      "actual_margin": 35,
+      "actual_total": 167,
+      "actual_winner": "Auburn Tigers",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401921008",
+      "date": "2026-11-25T01:00Z",
+      "home_team": "Kansas City Roos",
+      "away_team": "Green Bay Phoenix",
+      "home_abbr": "KC",
+      "away_abbr": "GB",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/140.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-4",
+      "away_record": "3-4",
+      "home_location": "Kansas City",
+      "away_location": "Green Bay",
+      "home_rating_team": "UMKC",
+      "away_rating_team": "Green Bay",
+      "home_adj_em": -8.28,
+      "away_adj_em": -3.83,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Swinney Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "Summit League Network",
+      "predicted_spread": 0.3,
+      "predicted_total": 151.3,
+      "home_projected_score": 75.8,
+      "away_projected_score": 75.5,
+      "home_win_prob": 51.2,
+      "away_win_prob": 48.8,
+      "confidence": 61.7,
+      "pick": "Kansas City Roos",
+      "pick_abbr": "KC",
+      "is_home_pick": true,
+      "projected_tempo": 67.9,
+      "factors": {
+        "efficiency_margin": -3.02,
+        "home_court": 3.35
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 144.5,
+        "spread_holder": "UMKC Kangaroos",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.2,
+      "model_vs_market": {
+        "spread_edge": -1.2,
+        "total_edge": 6.8
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 145.5,
+        "spread_holder": "UMKC Kangaroos",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 1.5,
+      "clv": 0.0,
+      "actual_home_score": 72,
+      "actual_away_score": 77,
+      "actual_margin": -5,
+      "actual_total": 149,
+      "actual_winner": "Green Bay Phoenix",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401921184",
+      "date": "2026-11-25T01:00Z",
+      "home_team": "Pennsylvania Quakers",
+      "away_team": "Drexel Dragons",
+      "home_abbr": "PENN",
+      "away_abbr": "DREX",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-3",
+      "away_record": "3-2",
+      "home_location": "Pennsylvania",
+      "away_location": "Drexel",
+      "home_rating_team": "Penn",
+      "away_rating_team": "Drexel",
+      "home_adj_em": 2.84,
+      "away_adj_em": -5.71,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "The Palestra",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 9.1,
+      "predicted_total": 145.2,
+      "home_projected_score": 77.1,
+      "away_projected_score": 68.0,
+      "home_win_prob": 79.6,
+      "away_win_prob": 20.4,
+      "confidence": 65.4,
+      "pick": "Pennsylvania Quakers",
+      "pick_abbr": "PENN",
+      "is_home_pick": true,
+      "projected_tempo": 69.3,
+      "factors": {
+        "efficiency_margin": 5.92,
+        "home_court": 3.17
+      },
+      "market": {
+        "spread": -6.5,
+        "over_under": 143.5,
+        "spread_holder": "Pennsylvania Quakers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.6,
+      "model_vs_market": {
+        "spread_edge": 2.6,
+        "total_edge": 1.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -6.5,
+        "over_under": 142.5,
+        "spread_holder": "Pennsylvania Quakers",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 6.5,
+      "clv": 0.0,
+      "actual_home_score": 89,
+      "actual_away_score": 74,
+      "actual_margin": 15,
+      "actual_total": 163,
+      "actual_winner": "Pennsylvania Quakers",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401921711",
+      "date": "2026-11-25T01:00Z",
+      "home_team": "Washington Huskies",
+      "away_team": "Clemson Tigers",
+      "home_abbr": "WASH",
+      "away_abbr": "CLEM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "4-2",
+      "home_location": "Washington",
+      "away_location": "Clemson",
+      "home_rating_team": "Washington",
+      "away_rating_team": "Clemson",
+      "home_adj_em": 9.91,
+      "away_adj_em": 11.79,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Lahaina Civic Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPNU",
+      "predicted_spread": -1.3,
+      "predicted_total": 153.7,
+      "home_projected_score": 76.2,
+      "away_projected_score": 77.5,
+      "home_win_prob": 45.4,
+      "away_win_prob": 54.6,
+      "confidence": 55.9,
+      "pick": "Clemson Tigers",
+      "pick_abbr": "CLEM",
+      "is_home_pick": false,
+      "projected_tempo": 67.6,
+      "factors": {
+        "efficiency_margin": -1.27,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 152.5,
+        "spread_holder": "Clemson Tigers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.2,
+      "model_vs_market": {
+        "spread_edge": -0.2,
+        "total_edge": 1.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 150.5,
+        "spread_holder": "Clemson Tigers",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": -1.5,
+      "clv": null,
+      "actual_home_score": 64,
+      "actual_away_score": 63,
+      "actual_margin": 1,
+      "actual_total": 127,
+      "actual_winner": "Washington Huskies",
+      "model_correct_winner": false,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401925642",
+      "date": "2026-11-25T01:00Z",
+      "home_team": "North Alabama Lions",
+      "away_team": "Alabama A&M Bulldogs",
+      "home_abbr": "UNA",
+      "away_abbr": "AAMU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2010.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "4-2",
+      "home_location": "North Alabama",
+      "away_location": "Alabama A&M",
+      "home_rating_team": "North Alabama",
+      "away_rating_team": "Alabama A&M",
+      "home_adj_em": -12.08,
+      "away_adj_em": -9.12,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "CB&S Bank Arena at Flowers Hall",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 1.5,
+      "predicted_total": 147.4,
+      "home_projected_score": 74.4,
+      "away_projected_score": 72.9,
+      "home_win_prob": 55.4,
+      "away_win_prob": 44.6,
+      "confidence": 60.1,
+      "pick": "North Alabama Lions",
+      "pick_abbr": "UNA",
+      "is_home_pick": true,
+      "projected_tempo": 68.0,
+      "factors": {
+        "efficiency_margin": -2.02,
+        "home_court": 3.5
+      },
+      "market": {
+        "spread": -2.5,
+        "over_under": 142.5,
+        "spread_holder": "North Alabama Lions",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": -1.0,
+        "total_edge": 4.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -3.5,
+        "over_under": 142.5,
+        "spread_holder": "North Alabama Lions",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 2.5,
+      "clv": -1.0,
+      "actual_home_score": 77,
+      "actual_away_score": 74,
+      "actual_margin": 3,
+      "actual_total": 151,
+      "actual_winner": "North Alabama Lions",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401929359",
+      "date": "2026-11-25T01:00Z",
+      "home_team": "UT Arlington Mavericks",
+      "away_team": "Oral Roberts Golden Eagles",
+      "home_abbr": "UTA",
+      "away_abbr": "ORU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/250.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "6-1",
+      "away_record": "3-3",
+      "home_location": "UT Arlington",
+      "away_location": "Oral Roberts",
+      "home_rating_team": "UT Arlington",
+      "away_rating_team": "Oral Roberts",
+      "home_adj_em": -2.92,
+      "away_adj_em": -6.24,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "College Park Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 5.6,
+      "predicted_total": 148.4,
+      "home_projected_score": 77.0,
+      "away_projected_score": 71.4,
+      "home_win_prob": 69.5,
+      "away_win_prob": 30.5,
+      "confidence": 60.5,
+      "pick": "UT Arlington Mavericks",
+      "pick_abbr": "UTA",
+      "is_home_pick": true,
+      "projected_tempo": 70.0,
+      "factors": {
+        "efficiency_margin": 2.32,
+        "home_court": 3.29
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 148.5,
+        "spread_holder": "UT-Arlington Mavericks",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.1,
+      "model_vs_market": {
+        "spread_edge": 1.1,
+        "total_edge": -0.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -4.5,
+        "over_under": 150.5,
+        "spread_holder": "UT-Arlington Mavericks",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 4.5,
+      "clv": 0.0,
+      "actual_home_score": 80,
+      "actual_away_score": 84,
+      "actual_margin": -4,
+      "actual_total": 164,
+      "actual_winner": "Oral Roberts Golden Eagles",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401929421",
+      "date": "2026-11-25T01:00Z",
+      "home_team": "South Alabama Jaguars",
+      "away_team": "Florida A&M Rattlers",
+      "home_abbr": "USA",
+      "away_abbr": "FAMU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-4",
+      "away_record": "0-6",
+      "home_location": "South Alabama",
+      "away_location": "Florida A&M",
+      "home_rating_team": "South Alabama",
+      "away_rating_team": "Florida A&M",
+      "home_adj_em": -4.32,
+      "away_adj_em": -18.78,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Mitchell Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 13.0,
+      "predicted_total": 147.3,
+      "home_projected_score": 80.2,
+      "away_projected_score": 67.1,
+      "home_win_prob": 88.2,
+      "away_win_prob": 11.8,
+      "confidence": 72.8,
+      "pick": "South Alabama Jaguars",
+      "pick_abbr": "USA",
+      "is_home_pick": true,
+      "projected_tempo": 67.6,
+      "factors": {
+        "efficiency_margin": 9.77,
+        "home_court": 3.28
+      },
+      "market": {
+        "spread": -18.5,
+        "over_under": 142.5,
+        "spread_holder": "South Alabama Jaguars",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 5.5,
+      "model_vs_market": {
+        "spread_edge": -5.5,
+        "total_edge": 4.8
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -17.5,
+        "over_under": 141.5,
+        "spread_holder": "South Alabama Jaguars",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-24T19:11:24.076363-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 18.5,
+      "clv": 1.0,
+      "actual_home_score": 74,
+      "actual_away_score": 49,
+      "actual_margin": 25,
+      "actual_total": 123,
+      "actual_winner": "South Alabama Jaguars",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 875,
-      "model_mae": 10.13,
-      "market_mae": 9.79,
-      "intercept": -0.52,
-      "model_weight": 0.058,
-      "market_weight": 0.944,
+      "n": 884,
+      "model_mae": 10.09,
+      "market_mae": 9.75,
+      "intercept": -0.51,
+      "model_weight": 0.062,
+      "market_weight": 0.942,
       "ats_by_edge": {
         "0-2": {
-          "w": 165,
-          "l": 116,
-          "pct": 58.7
+          "w": 166,
+          "l": 118,
+          "pct": 58.5
         },
         "2-4": {
-          "w": 130,
+          "w": 132,
           "l": 119,
-          "pct": 52.2
+          "pct": 52.6
         },
         "4-7": {
-          "w": 89,
-          "l": 76,
-          "pct": 53.9
+          "w": 90,
+          "l": 78,
+          "pct": 53.6
         },
         "7+": {
           "w": 38,
@@ -111491,59 +112166,59 @@
       }
     },
     "clv": {
-      "n": 538,
+      "n": 546,
       "avg": 0.28,
-      "beat_close_pct": 36.4,
-      "beat_or_matched_pct": 78.6
+      "beat_close_pct": 36.3,
+      "beat_or_matched_pct": 78.8
     },
     "clv_by_confidence": {
       "high": {
-        "n": 44,
-        "avg": 0.3,
-        "beat_close_pct": 36.4,
-        "beat_or_matched_pct": 86.4
+        "n": 45,
+        "avg": 0.31,
+        "beat_close_pct": 37.8,
+        "beat_or_matched_pct": 86.7
       },
       "medium": {
-        "n": 494,
-        "avg": 0.28,
-        "beat_close_pct": 36.4,
-        "beat_or_matched_pct": 77.9
+        "n": 501,
+        "avg": 0.27,
+        "beat_close_pct": 36.1,
+        "beat_or_matched_pct": 78.0
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 883,
-    "ats_graded": 769,
+    "total_graded": 892,
+    "ats_graded": 777,
     "ats": {
-      "w": 422,
-      "l": 347,
+      "w": 426,
+      "l": 351,
       "p": 0,
-      "pct": 54.9
+      "pct": 54.8
     },
     "su": {
-      "correct": 665,
-      "total": 883,
-      "pct": 75.3
+      "correct": 671,
+      "total": 892,
+      "pct": 75.2
     },
     "ou": {
-      "over": 423,
-      "under": 452,
+      "over": 430,
+      "under": 454,
       "push": 0,
-      "model_correct": 451,
-      "model_gradeable": 875,
-      "model_pct": 51.5
+      "model_correct": 456,
+      "model_gradeable": 884,
+      "model_pct": 51.6
     },
     "by_confidence": {
       "high": {
         "w": 31,
-        "l": 31,
+        "l": 32,
         "p": 0,
-        "pct": 50.0
+        "pct": 49.2
       },
       "medium": {
-        "w": 391,
-        "l": 316,
+        "w": 395,
+        "l": 319,
         "p": 0,
         "pct": 55.3
       },
@@ -111555,14 +112230,14 @@
       }
     },
     "value_plays": {
-      "w": 178,
-      "l": 157,
+      "w": 180,
+      "l": 159,
       "p": 0,
       "pct": 53.1
     },
     "best_bets": {
-      "w": 109,
-      "l": 104,
+      "w": 111,
+      "l": 106,
       "p": 0,
       "pct": 51.2
     },
@@ -111570,27 +112245,27 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1583,
-        "model_mae": 10.47,
-        "market_mae": 9.4,
+        "n": 1592,
+        "model_mae": 10.44,
+        "market_mae": 9.38,
         "intercept": 0.01,
         "model_weight": -0.008,
-        "market_weight": 0.98,
+        "market_weight": 0.981,
         "ats_by_edge": {
           "0-2": {
-            "w": 279,
-            "l": 238,
-            "pct": 54.0
+            "w": 280,
+            "l": 240,
+            "pct": 53.8
           },
           "2-4": {
-            "w": 225,
+            "w": 227,
             "l": 199,
-            "pct": 53.1
+            "pct": 53.3
           },
           "4-7": {
-            "w": 127,
-            "l": 110,
-            "pct": 53.6
+            "w": 128,
+            "l": 112,
+            "pct": 53.3
           },
           "7+": {
             "w": 99,
@@ -111600,59 +112275,59 @@
         }
       },
       "clv": {
-        "n": 538,
+        "n": 546,
         "avg": 0.28,
-        "beat_close_pct": 36.4,
-        "beat_or_matched_pct": 78.6
+        "beat_close_pct": 36.3,
+        "beat_or_matched_pct": 78.8
       },
       "clv_by_confidence": {
         "high": {
-          "n": 44,
-          "avg": 0.3,
-          "beat_close_pct": 36.4,
-          "beat_or_matched_pct": 86.4
+          "n": 45,
+          "avg": 0.31,
+          "beat_close_pct": 37.8,
+          "beat_or_matched_pct": 86.7
         },
         "medium": {
-          "n": 494,
-          "avg": 0.28,
-          "beat_close_pct": 36.4,
-          "beat_or_matched_pct": 77.9
+          "n": 501,
+          "avg": 0.27,
+          "beat_close_pct": 36.1,
+          "beat_or_matched_pct": 78.0
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1601,
-      "ats_graded": 1375,
+      "total_graded": 1610,
+      "ats_graded": 1383,
       "ats": {
-        "w": 730,
-        "l": 645,
+        "w": 734,
+        "l": 649,
         "p": 0,
         "pct": 53.1
       },
       "su": {
-        "correct": 1133,
-        "total": 1601,
-        "pct": 70.8
+        "correct": 1139,
+        "total": 1610,
+        "pct": 70.7
       },
       "ou": {
-        "over": 773,
-        "under": 810,
+        "over": 780,
+        "under": 812,
         "push": 0,
-        "model_correct": 808,
-        "model_gradeable": 1583,
-        "model_pct": 51.0
+        "model_correct": 813,
+        "model_gradeable": 1592,
+        "model_pct": 51.1
       },
       "by_confidence": {
         "high": {
           "w": 131,
-          "l": 136,
+          "l": 137,
           "p": 0,
-          "pct": 49.1
+          "pct": 48.9
         },
         "medium": {
-          "w": 558,
-          "l": 462,
+          "w": 562,
+          "l": 465,
           "p": 0,
           "pct": 54.7
         },
@@ -111664,18 +112339,18 @@
         }
       },
       "value_plays": {
-        "w": 323,
-        "l": 287,
+        "w": 325,
+        "l": 289,
         "p": 0,
-        "pct": 53.0
+        "pct": 52.9
       },
       "best_bets": {
-        "w": 146,
-        "l": 135,
+        "w": 148,
+        "l": 137,
         "p": 0,
-        "pct": 52.0
+        "pct": 51.9
       }
     }
   },
-  "generated_at": "2026-11-24T21:45:30.316659-05:00"
+  "generated_at": "2026-11-24T22:26:08.287023-05:00"
 }

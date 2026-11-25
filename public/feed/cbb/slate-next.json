@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-24T21:45:30.415706-05:00",
+ "generated_at": "2026-11-24T22:26:08.446324-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-25",
@@ -61,7 +61,7 @@
    },
    "market": {
     "spread_home": 3.5,
-    "total": 137.5,
+    "total": 138.5,
     "favorite": "St. Bonaventure Bonnies",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -69,7 +69,7 @@
    "closing": null,
    "edge": {
     "spread": 1.4,
-    "total": 8.1,
+    "total": 7.1,
     "value_rating": 1.4,
     "is_best_bet": false
    },
@@ -118,7 +118,7 @@
     "home_score": 78.1,
     "away_score": 72.3,
     "home_win_prob": 70.1,
-    "confidence": 62.8,
+    "confidence": 58.8,
     "tempo": 68.6,
     "confidence_tier": "medium",
     "pick": {
@@ -128,7 +128,7 @@
     }
    },
    "market": {
-    "spread_home": -7.5,
+    "spread_home": -6.5,
     "total": 144.5,
     "favorite": "Charlotte 49ers",
     "bookmaker": "draftkings",
@@ -136,14 +136,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.7,
+    "spread": -0.7,
     "total": 5.9,
-    "value_rating": 1.7,
+    "value_rating": 0.7,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 7.5
+    "cover_line": 6.5
    },
    "result": null,
    "tags": [
@@ -256,7 +256,7 @@
     "home_score": 73.6,
     "away_score": 78.7,
     "home_win_prob": 32.0,
-    "confidence": 57.4,
+    "confidence": 58.6,
     "tempo": 69.7,
     "confidence_tier": "medium",
     "pick": {
@@ -266,7 +266,7 @@
     }
    },
    "market": {
-    "spread_home": 5.5,
+    "spread_home": 4.5,
     "total": 153.5,
     "favorite": "Virginia Cavaliers",
     "bookmaker": "draftkings",
@@ -274,14 +274,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.4,
+    "spread": -0.6,
     "total": -1.2,
-    "value_rating": 0.4,
+    "value_rating": 0.6,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": -5.5
+    "side": "away",
+    "cover_line": -4.5
    },
    "result": null,
    "tags": [
@@ -531,7 +531,7 @@
    },
    "market": {
     "spread_home": -1.5,
-    "total": 150.5,
+    "total": 149.5,
     "favorite": "Long Beach St 49ers",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -539,7 +539,7 @@
    "closing": null,
    "edge": {
     "spread": -1.2,
-    "total": 3.9,
+    "total": 4.9,
     "value_rating": 1.2,
     "is_best_bet": false
    },
@@ -588,7 +588,7 @@
     "home_score": 77.0,
     "away_score": 69.5,
     "home_win_prob": 75.2,
-    "confidence": 63.0,
+    "confidence": 67.0,
     "tempo": 69.3,
     "confidence_tier": "medium",
     "pick": {
@@ -598,7 +598,7 @@
     }
    },
    "market": {
-    "spread_home": -9.5,
+    "spread_home": -10.5,
     "total": 144.5,
     "favorite": "Stony Brook Seawolves",
     "bookmaker": "draftkings",
@@ -606,17 +606,20 @@
    },
    "closing": null,
    "edge": {
-    "spread": -2.0,
+    "spread": -3.0,
     "total": 2.1,
-    "value_rating": 2.0,
-    "is_best_bet": false
+    "value_rating": 3.0,
+    "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 9.5
+    "cover_line": 10.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "best_bet",
+    "value"
+   ]
   },
   {
    "id": "cbb:401919007",
@@ -654,7 +657,7 @@
     "home_score": 75.9,
     "away_score": 69.2,
     "home_win_prob": 72.8,
-    "confidence": 59.3,
+    "confidence": 63.3,
     "tempo": 67.7,
     "confidence_tier": "medium",
     "pick": {
@@ -664,22 +667,22 @@
     }
    },
    "market": {
-    "spread_home": -7.5,
-    "total": 138.5,
+    "spread_home": -8.5,
+    "total": 136.5,
     "favorite": "Davidson Wildcats",
     "bookmaker": "draftkings",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -0.8,
-    "total": 6.5,
-    "value_rating": 0.8,
+    "spread": -1.8,
+    "total": 8.5,
+    "value_rating": 1.8,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 7.5
+    "cover_line": 8.5
    },
    "result": null,
    "tags": [
@@ -733,7 +736,7 @@
    },
    "market": {
     "spread_home": -7.5,
-    "total": 142.5,
+    "total": 141.5,
     "favorite": "South Dakota St Jackrabbits",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -741,7 +744,7 @@
    "closing": null,
    "edge": {
     "spread": 0.3,
-    "total": 1.4,
+    "total": 2.4,
     "value_rating": 0.3,
     "is_best_bet": false
    },
@@ -865,7 +868,7 @@
    },
    "market": {
     "spread_home": -4.5,
-    "total": 148.5,
+    "total": 146.5,
     "favorite": "LSU -4.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -873,7 +876,7 @@
    "closing": null,
    "edge": {
     "spread": -0.6,
-    "total": 2.2,
+    "total": 4.2,
     "value_rating": 0.6,
     "is_best_bet": false
    },
@@ -933,7 +936,7 @@
    },
    "market": {
     "spread_home": -15.5,
-    "total": 124.5,
+    "total": 125.5,
     "favorite": "Columbia Lions",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -941,7 +944,7 @@
    "closing": null,
    "edge": {
     "spread": -2.1,
-    "total": 7.2,
+    "total": 6.2,
     "value_rating": 2.1,
     "is_best_bet": false
    },
@@ -999,7 +1002,7 @@
    },
    "market": {
     "spread_home": -19.5,
-    "total": 158.5,
+    "total": 156.5,
     "favorite": "South Dakota Coyotes",
     "bookmaker": "betmgm",
     "captured_at": null
@@ -1007,7 +1010,7 @@
    "closing": null,
    "edge": {
     "spread": -5.0,
-    "total": -3.0,
+    "total": -1.0,
     "value_rating": 5.0,
     "is_best_bet": true
    },
@@ -1126,7 +1129,7 @@
     "home_score": 79.1,
     "away_score": 73.9,
     "home_win_prob": 68.3,
-    "confidence": 58.0,
+    "confidence": 56.0,
     "tempo": 71.0,
     "confidence_tier": "medium",
     "pick": {
@@ -1136,7 +1139,7 @@
     }
    },
    "market": {
-    "spread_home": -4.5,
+    "spread_home": -5.5,
     "total": 156.5,
     "favorite": "Arizona Wildcats",
     "bookmaker": "draftkings",
@@ -1144,14 +1147,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.7,
+    "spread": -0.3,
     "total": -3.5,
-    "value_rating": 0.7,
+    "value_rating": 0.3,
     "is_best_bet": false
    },
    "bet": {
-    "side": "home",
-    "cover_line": 4.5
+    "side": "none",
+    "cover_line": 5.5
    },
    "result": null,
    "tags": [
@@ -1324,7 +1327,7 @@
     "home_score": 64.0,
     "away_score": 69.2,
     "home_win_prob": 31.7,
-    "confidence": 57.1,
+    "confidence": 61.1,
     "tempo": 64.9,
     "confidence_tier": "medium",
     "pick": {
@@ -1334,7 +1337,7 @@
     }
    },
    "market": {
-    "spread_home": 5.5,
+    "spread_home": 6.5,
     "total": 132.5,
     "favorite": "Akron Zips",
     "bookmaker": "draftkings",
@@ -1342,14 +1345,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.3,
+    "spread": 1.3,
     "total": 0.7,
-    "value_rating": 0.3,
+    "value_rating": 1.3,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": -5.5
+    "side": "home",
+    "cover_line": -6.5
    },
    "result": null,
    "tags": [
@@ -1461,29 +1464,38 @@
     "home_score": 78.9,
     "away_score": 70.6,
     "home_win_prob": 77.4,
-    "confidence": 46.0,
+    "confidence": 80.0,
     "tempo": 71.3,
-    "confidence_tier": "medium",
+    "confidence_tier": "high",
     "pick": {
      "team": "Marshall Thundering Herd",
      "abbr": "MRSH",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -15.5,
+    "total": 151.5,
+    "favorite": "MRSH -15.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -7.2,
+    "total": -2.0,
+    "value_rating": 7.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 15.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value",
+    "high_confidence"
+   ]
   },
   {
    "id": "cbb:401921703",
@@ -1657,7 +1669,7 @@
     "home_score": 77.1,
     "away_score": 70.1,
     "home_win_prob": 73.9,
-    "confidence": 69.1,
+    "confidence": 65.1,
     "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
@@ -1667,28 +1679,25 @@
     }
    },
    "market": {
-    "spread_home": -3.5,
-    "total": 155.5,
+    "spread_home": -4.5,
+    "total": 154.5,
     "favorite": "New Orleans Privateers",
     "bookmaker": "betmgm",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 3.5,
-    "total": -8.3,
-    "value_rating": 3.5,
-    "is_best_bet": true
+    "spread": 2.5,
+    "total": -7.3,
+    "value_rating": 2.5,
+    "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": 3.5
+    "cover_line": 4.5
    },
    "result": null,
-   "tags": [
-    "best_bet",
-    "value"
-   ]
+   "tags": []
   },
   {
    "id": "cbb:401921670",
@@ -1737,7 +1746,7 @@
    },
    "market": {
     "spread_home": -11.5,
-    "total": 150.5,
+    "total": 149.5,
     "favorite": "USC Trojans",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1745,7 +1754,7 @@
    "closing": null,
    "edge": {
     "spread": -3.6,
-    "total": -2.7,
+    "total": -1.7,
     "value_rating": 3.6,
     "is_best_bet": true
    },
@@ -1877,7 +1886,7 @@
    },
    "market": {
     "spread_home": -11.5,
-    "total": 147.5,
+    "total": 148.5,
     "favorite": "Dartmouth Big Green",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -1885,7 +1894,7 @@
    "closing": null,
    "edge": {
     "spread": -3.9,
-    "total": -2.4,
+    "total": -3.4,
     "value_rating": 3.9,
     "is_best_bet": true
    },
@@ -1922,7 +1931,7 @@
     "name": "Alcorn State Braves",
     "abbr": "ALCN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
-    "record": "0-6",
+    "record": "0-7",
     "rank": null
    },
    "venue": "Thomas Assembly Center",
@@ -2139,7 +2148,7 @@
     "home_score": 73.8,
     "away_score": 78.3,
     "home_win_prob": 34.2,
-    "confidence": 59.8,
+    "confidence": 56.2,
     "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
@@ -2149,22 +2158,22 @@
     }
    },
    "market": {
-    "spread_home": 3.5,
-    "total": 155.5,
+    "spread_home": 4.5,
+    "total": 154.5,
     "favorite": "BYU Cougars",
     "bookmaker": "draftkings",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -1.0,
-    "total": -3.3,
-    "value_rating": 1.0,
+    "spread": 0.0,
+    "total": -2.3,
+    "value_rating": 0.0,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": -3.5
+    "side": "none",
+    "cover_line": -4.5
    },
    "result": null,
    "tags": [
@@ -2345,7 +2354,7 @@
     "home_score": 78.8,
     "away_score": 80.3,
     "home_win_prob": 44.4,
-    "confidence": 45.0,
+    "confidence": 58.8,
     "tempo": 73.9,
     "confidence_tier": "medium",
     "pick": {
@@ -2354,17 +2363,23 @@
      "side": "away"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": 2.5,
+    "total": 167.5,
+    "favorite": "CSUN -2.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": 1.0,
+    "total": -8.4,
+    "value_rating": 1.0,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "home",
+    "cover_line": -2.5
    },
    "result": null,
    "tags": []
@@ -2687,7 +2702,7 @@
    },
    "market": {
     "spread_home": -4.5,
-    "total": 166.5,
+    "total": 168.5,
     "favorite": "USU -4.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -2695,7 +2710,7 @@
    "closing": null,
    "edge": {
     "spread": -3.5,
-    "total": -7.3,
+    "total": -9.3,
     "value_rating": 3.5,
     "is_best_bet": true
    },
@@ -2812,7 +2827,7 @@
     "home_score": 81.9,
     "away_score": 76.2,
     "home_win_prob": 69.8,
-    "confidence": 63.2,
+    "confidence": 59.2,
     "tempo": 67.7,
     "confidence_tier": "medium",
     "pick": {
@@ -2822,7 +2837,7 @@
     }
    },
    "market": {
-    "spread_home": -7.5,
+    "spread_home": -6.5,
     "total": 157.5,
     "favorite": "UNC Wilmington Seahawks",
     "bookmaker": "betmgm",
@@ -2830,14 +2845,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.8,
+    "spread": -0.8,
     "total": 0.5,
-    "value_rating": 1.8,
+    "value_rating": 0.8,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 7.5
+    "cover_line": 6.5
    },
    "result": null,
    "tags": []
@@ -2889,7 +2904,7 @@
    },
    "market": {
     "spread_home": 4.5,
-    "total": 138.5,
+    "total": 139.5,
     "favorite": "Northern Illinois Huskies",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -2897,7 +2912,7 @@
    "closing": null,
    "edge": {
     "spread": 3.9,
-    "total": 8.5,
+    "total": 7.5,
     "value_rating": 3.9,
     "is_best_bet": true
    },
@@ -2959,7 +2974,7 @@
    },
    "market": {
     "spread_home": -6.5,
-    "total": 151.5,
+    "total": 149.5,
     "favorite": "Northern Kentucky Norse",
     "bookmaker": "betmgm",
     "captured_at": null
@@ -2967,7 +2982,7 @@
    "closing": null,
    "edge": {
     "spread": 0.1,
-    "total": 1.2,
+    "total": 3.2,
     "value_rating": 0.1,
     "is_best_bet": false
    },
@@ -3091,7 +3106,7 @@
    },
    "market": {
     "spread_home": -4.5,
-    "total": 150.5,
+    "total": 149.5,
     "favorite": "Mississippi St Bulldogs",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -3099,7 +3114,7 @@
    "closing": null,
    "edge": {
     "spread": -1.5,
-    "total": -1.7,
+    "total": -0.7,
     "value_rating": 1.5,
     "is_best_bet": false
    },
@@ -3159,7 +3174,7 @@
    },
    "market": {
     "spread_home": -6.5,
-    "total": 148.5,
+    "total": 147.5,
     "favorite": "UC Davis Aggies",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -3167,7 +3182,7 @@
    "closing": null,
    "edge": {
     "spread": -0.2,
-    "total": -5.0,
+    "total": -4.0,
     "value_rating": 0.2,
     "is_best_bet": false
    },
@@ -3227,7 +3242,7 @@
    },
    "market": {
     "spread_home": -10.5,
-    "total": 161.5,
+    "total": 160.5,
     "favorite": "PEPP -10.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -3235,7 +3250,7 @@
    "closing": null,
    "edge": {
     "spread": 0.4,
-    "total": -0.7,
+    "total": 0.3,
     "value_rating": 0.4,
     "is_best_bet": false
    },
@@ -3293,7 +3308,7 @@
    },
    "market": {
     "spread_home": -7.5,
-    "total": 152.5,
+    "total": 151.5,
     "favorite": "Loyola Marymount Lions",
     "bookmaker": "betmgm",
     "captured_at": null
@@ -3301,7 +3316,7 @@
    "closing": null,
    "edge": {
     "spread": -0.4,
-    "total": 1.1,
+    "total": 2.1,
     "value_rating": 0.4,
     "is_best_bet": false
    },
@@ -3348,29 +3363,37 @@
     "home_score": 84.5,
     "away_score": 58.8,
     "home_win_prob": 99.0,
-    "confidence": 35.0,
+    "confidence": 49.0,
     "tempo": 69.5,
-    "confidence_tier": "low",
+    "confidence_tier": "medium",
     "pick": {
      "team": "New Mexico Lobos",
      "abbr": "UNM",
      "side": "home"
     }
    },
-   "market": null,
+   "market": {
+    "spread_home": -36.5,
+    "total": 150.5,
+    "favorite": "UNM -36.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
    "closing": null,
    "edge": {
-    "spread": null,
-    "total": null,
-    "value_rating": null,
+    "spread": -10.8,
+    "total": -7.3,
+    "value_rating": 10.8,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
-    "cover_line": null
+    "side": "away",
+    "cover_line": 36.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value"
+   ]
   },
   {
    "id": "cbb:401917544",

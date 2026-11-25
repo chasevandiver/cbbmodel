@@ -243,11 +243,11 @@
       "is_best_bet": true,
       "is_tournament_game": true,
       "closing_line": {
-        "spread": -10.5,
-        "over_under": 156.5,
+        "spread": -11.5,
+        "over_under": 157.5,
         "spread_holder": "St. John's Red Storm",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-24T21:06:07.386762-05:00"
+        "captured_at": "2026-11-24T22:25:53.479546-05:00"
       }
     },
     {
@@ -427,10 +427,10 @@
       "is_tournament_game": true,
       "closing_line": {
         "spread": 6.5,
-        "over_under": 149.5,
+        "over_under": 148.5,
         "spread_holder": "VCU Rams",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-24T21:06:07.386762-05:00"
+        "captured_at": "2026-11-24T22:25:53.479546-05:00"
       }
     },
     {
