@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T04:29:50.505044-05:00",
+  "generated_at": "2026-11-25T06:32:13.398374-05:00",
   "date": "20261125",
   "total_games": 58,
   "model_version": "4.1.0",
@@ -804,14 +804,14 @@
       },
       "market": {
         "spread": -27.5,
-        "over_under": 148.5,
+        "over_under": 149.5,
         "spread_holder": "Syracuse Orange",
         "bookmaker": "fanduel"
       },
       "value_rating": 5.0,
       "model_vs_market": {
         "spread_edge": -5.0,
-        "total_edge": 1.1
+        "total_edge": 0.1
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -858,14 +858,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 140.5,
+        "over_under": 141.5,
         "spread_holder": "NJIT Highlanders",
         "bookmaker": "betmgm"
       },
       "value_rating": 2.4,
       "model_vs_market": {
         "spread_edge": 2.4,
-        "total_edge": 2.1
+        "total_edge": 1.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -979,6 +979,60 @@
       "is_tournament_game": true
     },
     {
+      "game_id": "401911028",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "Wisconsin Badgers",
+      "away_team": "Northeastern Huskies",
+      "home_abbr": "WIS",
+      "away_abbr": "NE",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "2-4",
+      "home_location": "Wisconsin",
+      "away_location": "Northeastern",
+      "home_rating_team": "Wisconsin",
+      "away_rating_team": "Northeastern",
+      "home_adj_em": 11.9,
+      "away_adj_em": -5.83,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Kohl Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "BTN",
+      "predicted_spread": 15.8,
+      "predicted_total": 154.7,
+      "home_projected_score": 85.2,
+      "away_projected_score": 69.4,
+      "home_win_prob": 92.5,
+      "away_win_prob": 7.5,
+      "confidence": 64.8,
+      "pick": "Wisconsin Badgers",
+      "pick_abbr": "WIS",
+      "is_home_pick": true,
+      "projected_tempo": 70.1,
+      "factors": {
+        "efficiency_margin": 12.43,
+        "home_court": 3.37
+      },
+      "market": {
+        "spread": -20.5,
+        "over_under": 156.5,
+        "spread_holder": "Wisconsin Badgers",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 4.7,
+      "model_vs_market": {
+        "spread_edge": -4.7,
+        "total_edge": -1.8
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401920809",
       "date": "2026-11-25T19:30Z",
       "home_team": "Xavier Musketeers",
@@ -1031,60 +1085,6 @@
       },
       "is_best_bet": false,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401922285",
-      "date": "2026-11-26T00:00Z",
-      "home_team": "The Citadel Bulldogs",
-      "away_team": "South Carolina Upstate Spartans",
-      "home_abbr": "CIT",
-      "away_abbr": "UPST",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2643.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-2",
-      "away_record": "1-6",
-      "home_location": "The Citadel",
-      "away_location": "South Carolina Upstate",
-      "home_rating_team": "The Citadel",
-      "away_rating_team": "USC Upstate",
-      "home_adj_em": -16.51,
-      "away_adj_em": -19.67,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "McAlister Field House",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 5.4,
-      "predicted_total": 143.7,
-      "home_projected_score": 74.6,
-      "away_projected_score": 69.1,
-      "home_win_prob": 68.9,
-      "away_win_prob": 31.1,
-      "confidence": 63.7,
-      "pick": "The Citadel Bulldogs",
-      "pick_abbr": "CIT",
-      "is_home_pick": true,
-      "projected_tempo": 67.7,
-      "factors": {
-        "efficiency_margin": 2.14,
-        "home_court": 3.29
-      },
-      "market": {
-        "spread": -3.5,
-        "over_under": 137.5,
-        "spread_holder": "The Citadel Bulldogs",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 1.9,
-      "model_vs_market": {
-        "spread_edge": 1.9,
-        "total_edge": 6.2
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
     },
     {
       "game_id": "401924737",
@@ -1182,14 +1182,14 @@
       },
       "market": {
         "spread": -8.5,
-        "over_under": 136.5,
+        "over_under": 137.5,
         "spread_holder": "Davidson Wildcats",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.8,
       "model_vs_market": {
         "spread_edge": -1.8,
-        "total_edge": 8.5
+        "total_edge": 7.5
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1357,58 +1357,58 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401911028",
-      "date": "2026-11-26T00:00Z",
-      "home_team": "Wisconsin Badgers",
-      "away_team": "Northeastern Huskies",
-      "home_abbr": "WIS",
-      "away_abbr": "NE",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
+      "game_id": "401925688",
+      "date": "2026-11-25T22:00Z",
+      "home_team": "Texas State Bobcats",
+      "away_team": "Alcorn State Braves",
+      "home_abbr": "TXST",
+      "away_abbr": "ALCN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "4-2",
-      "away_record": "2-4",
-      "home_location": "Wisconsin",
-      "away_location": "Northeastern",
-      "home_rating_team": "Wisconsin",
-      "away_rating_team": "Northeastern",
-      "home_adj_em": 11.9,
-      "away_adj_em": -5.83,
+      "home_record": "7-0",
+      "away_record": "0-7",
+      "home_location": "Texas State",
+      "away_location": "Alcorn State",
+      "home_rating_team": "Texas St.",
+      "away_rating_team": "Alcorn St.",
+      "home_adj_em": 9.72,
+      "away_adj_em": -19.17,
       "home_rest_days": null,
       "away_rest_days": null,
-      "venue": "Kohl Center",
-      "neutral_site": false,
+      "venue": "Thomas Assembly Center",
+      "neutral_site": true,
       "conference_game": false,
-      "broadcast": "BTN",
-      "predicted_spread": 15.8,
-      "predicted_total": 154.7,
-      "home_projected_score": 85.2,
-      "away_projected_score": 69.4,
-      "home_win_prob": 92.5,
-      "away_win_prob": 7.5,
-      "confidence": 60.8,
-      "pick": "Wisconsin Badgers",
-      "pick_abbr": "WIS",
+      "broadcast": "",
+      "predicted_spread": 20.0,
+      "predicted_total": 151.3,
+      "home_projected_score": 85.6,
+      "away_projected_score": 65.7,
+      "home_win_prob": 96.5,
+      "away_win_prob": 3.5,
+      "confidence": 60.2,
+      "pick": "Texas State Bobcats",
+      "pick_abbr": "TXST",
       "is_home_pick": true,
-      "projected_tempo": 70.1,
+      "projected_tempo": 69.1,
       "factors": {
-        "efficiency_margin": 12.43,
-        "home_court": 3.37
+        "efficiency_margin": 19.96,
+        "home_court": 0.0
       },
       "market": {
-        "spread": -19.5,
-        "over_under": 157.5,
-        "spread_holder": "Wisconsin Badgers",
+        "spread": -23.5,
+        "over_under": 148.5,
+        "spread_holder": "Texas State Bobcats",
         "bookmaker": "fanduel"
       },
-      "value_rating": 3.7,
+      "value_rating": 3.5,
       "model_vs_market": {
-        "spread_edge": -3.7,
-        "total_edge": -2.8
+        "spread_edge": -3.5,
+        "total_edge": 2.8
       },
       "is_best_bet": true,
-      "is_tournament_game": false
+      "is_tournament_game": true
     },
     {
       "game_id": "401922253",
@@ -1506,14 +1506,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 149.5,
+        "over_under": 150.5,
         "spread_holder": "Long Beach St 49ers",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.2,
       "model_vs_market": {
         "spread_edge": -1.2,
-        "total_edge": 4.9
+        "total_edge": 3.9
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1571,6 +1571,60 @@
       },
       "is_best_bet": false,
       "is_tournament_game": true
+    },
+    {
+      "game_id": "401922285",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "The Citadel Bulldogs",
+      "away_team": "South Carolina Upstate Spartans",
+      "home_abbr": "CIT",
+      "away_abbr": "UPST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2643.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "1-6",
+      "home_location": "The Citadel",
+      "away_location": "South Carolina Upstate",
+      "home_rating_team": "The Citadel",
+      "away_rating_team": "USC Upstate",
+      "home_adj_em": -16.51,
+      "away_adj_em": -19.67,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "McAlister Field House",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 5.4,
+      "predicted_total": 143.7,
+      "home_projected_score": 74.6,
+      "away_projected_score": 69.1,
+      "home_win_prob": 68.9,
+      "away_win_prob": 31.1,
+      "confidence": 59.7,
+      "pick": "The Citadel Bulldogs",
+      "pick_abbr": "CIT",
+      "is_home_pick": true,
+      "projected_tempo": 67.7,
+      "factors": {
+        "efficiency_margin": 2.14,
+        "home_court": 3.29
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 137.5,
+        "spread_holder": "The Citadel Bulldogs",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 0.9,
+      "model_vs_market": {
+        "spread_edge": 0.9,
+        "total_edge": 6.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
     },
     {
       "game_id": "401920847",
@@ -2221,60 +2275,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401920076",
-      "date": "2026-11-26T00:00Z",
-      "home_team": "George Mason Patriots",
-      "away_team": "Longwood Lancers",
-      "home_abbr": "GMU",
-      "away_abbr": "LONG",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "5-1",
-      "away_record": "4-3",
-      "home_location": "George Mason",
-      "away_location": "Longwood",
-      "home_rating_team": "George Mason",
-      "away_rating_team": "Longwood",
-      "home_adj_em": 9.74,
-      "away_adj_em": -6.09,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "EagleBank Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 14.9,
-      "predicted_total": 145.2,
-      "home_projected_score": 80.1,
-      "away_projected_score": 65.1,
-      "home_win_prob": 91.3,
-      "away_win_prob": 8.7,
-      "confidence": 56.7,
-      "pick": "George Mason Patriots",
-      "pick_abbr": "GMU",
-      "is_home_pick": true,
-      "projected_tempo": 68.7,
-      "factors": {
-        "efficiency_margin": 10.87,
-        "home_court": 4.05
-      },
-      "market": {
-        "spread": -13.5,
-        "over_under": 144.5,
-        "spread_holder": "George Mason Patriots",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 1.4,
-      "model_vs_market": {
-        "spread_edge": 1.4,
-        "total_edge": 0.7
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401917544",
       "date": "2026-11-26T03:30Z",
       "home_team": "Jacksonville State Gamecocks",
@@ -2324,60 +2324,6 @@
       "model_vs_market": {
         "spread_edge": 0.2,
         "total_edge": 6.9
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
-    },
-    {
-      "game_id": "401925688",
-      "date": "2026-11-25T22:00Z",
-      "home_team": "Texas State Bobcats",
-      "away_team": "Alcorn State Braves",
-      "home_abbr": "TXST",
-      "away_abbr": "ALCN",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "7-0",
-      "away_record": "0-7",
-      "home_location": "Texas State",
-      "away_location": "Alcorn State",
-      "home_rating_team": "Texas St.",
-      "away_rating_team": "Alcorn St.",
-      "home_adj_em": 9.72,
-      "away_adj_em": -19.17,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Thomas Assembly Center",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "",
-      "predicted_spread": 20.0,
-      "predicted_total": 151.3,
-      "home_projected_score": 85.6,
-      "away_projected_score": 65.7,
-      "home_win_prob": 96.5,
-      "away_win_prob": 3.5,
-      "confidence": 56.2,
-      "pick": "Texas State Bobcats",
-      "pick_abbr": "TXST",
-      "is_home_pick": true,
-      "projected_tempo": 69.1,
-      "factors": {
-        "efficiency_margin": 19.96,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": -22.5,
-        "over_under": 148.5,
-        "spread_holder": "Texas State Bobcats",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 2.5,
-      "model_vs_market": {
-        "spread_edge": -2.5,
-        "total_edge": 2.8
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -2594,6 +2540,60 @@
       "model_vs_market": {
         "spread_edge": -1.1,
         "total_edge": 6.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401920076",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "George Mason Patriots",
+      "away_team": "Longwood Lancers",
+      "home_abbr": "GMU",
+      "away_abbr": "LONG",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "4-3",
+      "home_location": "George Mason",
+      "away_location": "Longwood",
+      "home_rating_team": "George Mason",
+      "away_rating_team": "Longwood",
+      "home_adj_em": 9.74,
+      "away_adj_em": -6.09,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "EagleBank Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 14.9,
+      "predicted_total": 145.2,
+      "home_projected_score": 80.1,
+      "away_projected_score": 65.1,
+      "home_win_prob": 91.3,
+      "away_win_prob": 8.7,
+      "confidence": 53.3,
+      "pick": "George Mason Patriots",
+      "pick_abbr": "GMU",
+      "is_home_pick": true,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": 10.87,
+        "home_court": 4.05
+      },
+      "market": {
+        "spread": -15.5,
+        "over_under": 144.5,
+        "spread_holder": "George Mason Patriots",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 0.6,
+      "model_vs_market": {
+        "spread_edge": -0.6,
+        "total_edge": 0.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -3145,8 +3145,8 @@
     "medium_confidence": 53,
     "low_confidence": 0,
     "avg_confidence": 60.2,
-    "value_plays": 18,
-    "best_bets": 13,
+    "value_plays": 19,
+    "best_bets": 14,
     "with_market_line": 54,
     "tournament_games": 30
   },

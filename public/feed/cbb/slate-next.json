@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-25T04:29:50.738644-05:00",
+ "generated_at": "2026-11-25T06:32:13.543200-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-25",
@@ -537,7 +537,7 @@
    },
    "market": {
     "spread_home": -1.5,
-    "total": 149.5,
+    "total": 150.5,
     "favorite": "Long Beach St 49ers",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -545,7 +545,7 @@
    "closing": null,
    "edge": {
     "spread": -1.2,
-    "total": 4.9,
+    "total": 3.9,
     "value_rating": 1.2,
     "is_best_bet": false
    },
@@ -674,7 +674,7 @@
    },
    "market": {
     "spread_home": -8.5,
-    "total": 136.5,
+    "total": 137.5,
     "favorite": "Davidson Wildcats",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -682,7 +682,7 @@
    "closing": null,
    "edge": {
     "spread": -1.8,
-    "total": 8.5,
+    "total": 7.5,
     "value_rating": 1.8,
     "is_best_bet": false
    },
@@ -808,7 +808,7 @@
    },
    "market": {
     "spread_home": -1.5,
-    "total": 140.5,
+    "total": 141.5,
     "favorite": "NJIT Highlanders",
     "bookmaker": "betmgm",
     "captured_at": null
@@ -816,7 +816,7 @@
    "closing": null,
    "edge": {
     "spread": 2.4,
-    "total": 2.1,
+    "total": 1.1,
     "value_rating": 2.4,
     "is_best_bet": false
    },
@@ -1959,7 +1959,7 @@
     "home_score": 85.6,
     "away_score": 65.7,
     "home_win_prob": 96.5,
-    "confidence": 56.2,
+    "confidence": 60.2,
     "tempo": 69.1,
     "confidence_tier": "medium",
     "pick": {
@@ -1969,7 +1969,7 @@
     }
    },
    "market": {
-    "spread_home": -22.5,
+    "spread_home": -23.5,
     "total": 148.5,
     "favorite": "Texas State Bobcats",
     "bookmaker": "fanduel",
@@ -1977,17 +1977,19 @@
    },
    "closing": null,
    "edge": {
-    "spread": -2.5,
+    "spread": -3.5,
     "total": 2.8,
-    "value_rating": 2.5,
-    "is_best_bet": false
+    "value_rating": 3.5,
+    "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 22.5
+    "cover_line": 23.5
    },
    "result": null,
    "tags": [
+    "best_bet",
+    "value",
     "tournament"
    ]
   },
@@ -2241,7 +2243,7 @@
    },
    "market": {
     "spread_home": -27.5,
-    "total": 148.5,
+    "total": 149.5,
     "favorite": "Syracuse Orange",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -2249,7 +2251,7 @@
    "closing": null,
    "edge": {
     "spread": -5.0,
-    "total": 1.1,
+    "total": 0.1,
     "value_rating": 5.0,
     "is_best_bet": true
    },
@@ -2632,7 +2634,7 @@
     "home_score": 85.2,
     "away_score": 69.4,
     "home_win_prob": 92.5,
-    "confidence": 60.8,
+    "confidence": 64.8,
     "tempo": 70.1,
     "confidence_tier": "medium",
     "pick": {
@@ -2642,22 +2644,22 @@
     }
    },
    "market": {
-    "spread_home": -19.5,
-    "total": 157.5,
+    "spread_home": -20.5,
+    "total": 156.5,
     "favorite": "Wisconsin Badgers",
     "bookmaker": "fanduel",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -3.7,
-    "total": -2.8,
-    "value_rating": 3.7,
+    "spread": -4.7,
+    "total": -1.8,
+    "value_rating": 4.7,
     "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 19.5
+    "cover_line": 20.5
    },
    "result": null,
    "tags": [
@@ -2837,7 +2839,7 @@
     "home_score": 80.1,
     "away_score": 65.1,
     "home_win_prob": 91.3,
-    "confidence": 56.7,
+    "confidence": 53.3,
     "tempo": 68.7,
     "confidence_tier": "medium",
     "pick": {
@@ -2847,7 +2849,7 @@
     }
    },
    "market": {
-    "spread_home": -13.5,
+    "spread_home": -15.5,
     "total": 144.5,
     "favorite": "George Mason Patriots",
     "bookmaker": "fanduel",
@@ -2855,14 +2857,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 1.4,
+    "spread": -0.6,
     "total": 0.7,
-    "value_rating": 1.4,
+    "value_rating": 0.6,
     "is_best_bet": false
    },
    "bet": {
-    "side": "home",
-    "cover_line": 13.5
+    "side": "away",
+    "cover_line": 15.5
    },
    "result": null,
    "tags": []
@@ -3105,7 +3107,7 @@
     "home_score": 74.6,
     "away_score": 69.1,
     "home_win_prob": 68.9,
-    "confidence": 63.7,
+    "confidence": 59.7,
     "tempo": 67.7,
     "confidence_tier": "medium",
     "pick": {
@@ -3115,7 +3117,7 @@
     }
    },
    "market": {
-    "spread_home": -3.5,
+    "spread_home": -4.5,
     "total": 137.5,
     "favorite": "The Citadel Bulldogs",
     "bookmaker": "betmgm",
@@ -3123,14 +3125,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": 1.9,
+    "spread": 0.9,
     "total": 6.2,
-    "value_rating": 1.9,
+    "value_rating": 0.9,
     "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": 3.5
+    "cover_line": 4.5
    },
    "result": null,
    "tags": []
