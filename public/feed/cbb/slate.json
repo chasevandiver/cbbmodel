@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-25T16:37:52.016712-05:00",
+ "generated_at": "2026-11-25T17:27:45.836015-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-25",
@@ -838,14 +838,14 @@
     "name": "Arizona State Sun Devils",
     "abbr": "ASU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
-    "record": "5-0",
+    "record": "5-1",
     "rank": null
    },
    "away": {
     "name": "LSU Tigers",
     "abbr": "LSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-    "record": "6-0",
+    "record": "7-0",
     "rank": 20
    },
    "venue": "Acrisure Arena",
@@ -1035,14 +1035,14 @@
     "name": "Arizona Wildcats",
     "abbr": "ARIZ",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-    "record": "6-1",
+    "record": "7-1",
     "rank": 8
    },
    "away": {
     "name": "Ole Miss Rebels",
     "abbr": "MISS",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-    "record": "6-0",
+    "record": "6-1",
     "rank": null
    },
    "venue": "Lahaina Civic Center",
@@ -1103,14 +1103,14 @@
     "name": "Oklahoma State Cowboys",
     "abbr": "OKST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
-    "record": "4-2",
+    "record": "5-2",
     "rank": null
    },
    "away": {
     "name": "Jackson State Tigers",
     "abbr": "JKST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
-    "record": "2-4",
+    "record": "2-5",
     "rank": null
    },
    "venue": "Gallagher-Iba Arena",
@@ -1172,14 +1172,14 @@
     "name": "North Dakota Fighting Hawks",
     "abbr": "UND",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
-    "record": "4-3",
+    "record": "4-4",
     "rank": null
    },
    "away": {
     "name": "SE Louisiana Lions",
     "abbr": "SELA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
-    "record": "2-4",
+    "record": "3-4",
     "rank": null
    },
    "venue": "Hard Rock Hotel Riviera Maya",
@@ -1240,14 +1240,14 @@
     "name": "App State Mountaineers",
     "abbr": "APP",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
-    "record": "4-3",
+    "record": "5-3",
     "rank": null
    },
    "away": {
     "name": "Akron Zips",
     "abbr": "AKR",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
-    "record": "5-2",
+    "record": "5-3",
     "rank": null
    },
    "venue": "State Farm Field House",
@@ -1700,142 +1700,6 @@
    ]
   },
   {
-   "id": "cbb:401921670",
-   "sport": "cbb",
-   "league": "NCAAM",
-   "season": 2027,
-   "season_label": "2026-27",
-   "slate_date": "2026-11-25",
-   "game_id": "401921670",
-   "game_id_source": "espn",
-   "start_time": "2026-11-25T21:45Z",
-   "status": "pending",
-   "home": {
-    "name": "USC Trojans",
-    "abbr": "USC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-    "record": "6-0",
-    "rank": 18
-   },
-   "away": {
-    "name": "South Carolina Gamecocks",
-    "abbr": "SC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-    "record": "5-0",
-    "rank": null
-   },
-   "venue": "Acrisure Arena",
-   "neutral_site": true,
-   "conference_game": false,
-   "broadcast": "CBSSN",
-   "model": {
-    "version": "4.1.0",
-    "spread_home": -8.9,
-    "total": 148.7,
-    "home_score": 78.8,
-    "away_score": 69.9,
-    "home_win_prob": 79.0,
-    "confidence": 61.4,
-    "tempo": 68.9,
-    "confidence_tier": "medium",
-    "pick": {
-     "team": "USC Trojans",
-     "abbr": "USC",
-     "side": "home"
-    }
-   },
-   "market": {
-    "spread_home": -10.5,
-    "total": 148.5,
-    "favorite": "USC Trojans",
-    "bookmaker": "fanduel",
-    "captured_at": null
-   },
-   "closing": null,
-   "edge": {
-    "spread": -1.6,
-    "total": 0.2,
-    "value_rating": 1.6,
-    "is_best_bet": false
-   },
-   "bet": {
-    "side": "away",
-    "cover_line": 10.5
-   },
-   "result": null,
-   "tags": [
-    "tournament"
-   ]
-  },
-  {
-   "id": "cbb:401917182",
-   "sport": "cbb",
-   "league": "NCAAM",
-   "season": 2027,
-   "season_label": "2026-27",
-   "slate_date": "2026-11-25",
-   "game_id": "401917182",
-   "game_id_source": "espn",
-   "start_time": "2026-11-25T22:00Z",
-   "status": "pending",
-   "home": {
-    "name": "Penn State Nittany Lions",
-    "abbr": "PSU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
-    "record": "5-1",
-    "rank": null
-   },
-   "away": {
-    "name": "Memphis Tigers",
-    "abbr": "MEM",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
-    "record": "4-1",
-    "rank": 24
-   },
-   "venue": "Imperial Arena",
-   "neutral_site": true,
-   "conference_game": false,
-   "broadcast": "ESPNU",
-   "model": {
-    "version": "4.1.0",
-    "spread_home": 2.7,
-    "total": 167.6,
-    "home_score": 82.4,
-    "away_score": 85.2,
-    "home_win_prob": 40.2,
-    "confidence": 62.0,
-    "tempo": 71.2,
-    "confidence_tier": "medium",
-    "pick": {
-     "team": "Memphis Tigers",
-     "abbr": "MEM",
-     "side": "away"
-    }
-   },
-   "market": {
-    "spread_home": 4.5,
-    "total": 163.5,
-    "favorite": "Memphis Tigers",
-    "bookmaker": "draftkings",
-    "captured_at": null
-   },
-   "closing": null,
-   "edge": {
-    "spread": 1.8,
-    "total": 4.1,
-    "value_rating": 1.8,
-    "is_best_bet": false
-   },
-   "bet": {
-    "side": "home",
-    "cover_line": -4.5
-   },
-   "result": null,
-   "tags": [
-    "tournament"
-   ]
-  },
-  {
    "id": "cbb:401920237",
    "sport": "cbb",
    "league": "NCAAM",
@@ -2105,6 +1969,74 @@
    "tags": [
     "value",
     "high_confidence"
+   ]
+  },
+  {
+   "id": "cbb:401921670",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921670",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T22:17Z",
+   "status": "pending",
+   "home": {
+    "name": "USC Trojans",
+    "abbr": "USC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+    "record": "6-0",
+    "rank": 18
+   },
+   "away": {
+    "name": "South Carolina Gamecocks",
+    "abbr": "SC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+    "record": "5-0",
+    "rank": null
+   },
+   "venue": "Acrisure Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "CBSSN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -8.9,
+    "total": 148.7,
+    "home_score": 78.8,
+    "away_score": 69.9,
+    "home_win_prob": 79.0,
+    "confidence": 61.4,
+    "tempo": 68.9,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "USC Trojans",
+     "abbr": "USC",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -10.5,
+    "total": 148.5,
+    "favorite": "USC Trojans",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -1.6,
+    "total": 0.2,
+    "value_rating": 1.6,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 10.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
    ]
   },
   {
@@ -2516,6 +2448,74 @@
    "tags": [
     "best_bet",
     "value"
+   ]
+  },
+  {
+   "id": "cbb:401917182",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401917182",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T23:35Z",
+   "status": "pending",
+   "home": {
+    "name": "Penn State Nittany Lions",
+    "abbr": "PSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Memphis Tigers",
+    "abbr": "MEM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+    "record": "4-1",
+    "rank": 24
+   },
+   "venue": "Imperial Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN2",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 2.7,
+    "total": 167.6,
+    "home_score": 82.4,
+    "away_score": 85.2,
+    "home_win_prob": 40.2,
+    "confidence": 62.0,
+    "tempo": 71.2,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Memphis Tigers",
+     "abbr": "MEM",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 4.5,
+    "total": 163.5,
+    "favorite": "Memphis Tigers",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 1.8,
+    "total": 4.1,
+    "value_rating": 1.8,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": -4.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
    ]
   },
   {
@@ -3148,7 +3148,7 @@
    "venue": "Imperial Arena",
    "neutral_site": true,
    "conference_game": false,
-   "broadcast": "ESPN2",
+   "broadcast": "ESPNU",
    "model": {
     "version": "4.1.0",
     "spread_home": -3.7,
