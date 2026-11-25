@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-25T06:32:13.543200-05:00",
+ "generated_at": "2026-11-25T06:41:53.962185-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -75992,6 +75992,3903 @@
    "tags": [
     "best_bet",
     "value",
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401927399",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401927399",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T15:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Belmont Bruins",
+    "abbr": "BEL",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2057.png",
+    "record": "5-2",
+    "rank": null
+   },
+   "away": {
+    "name": "St. Bonaventure Bonnies",
+    "abbr": "SBU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/179.png",
+    "record": "6-1",
+    "rank": null
+   },
+   "venue": "State Farm Field House",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN2",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 4.4,
+    "total": 145.4,
+    "home_score": 70.5,
+    "away_score": 74.9,
+    "home_win_prob": 34.4,
+    "confidence": 57.3,
+    "tempo": 67.0,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "St. Bonaventure Bonnies",
+     "abbr": "SBU",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 4.5,
+    "total": 137.5,
+    "favorite": "St. Bonaventure Bonnies",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.1,
+    "total": 7.9,
+    "value_rating": 0.1,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": -4.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401921702",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921702",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T16:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Charlotte 49ers",
+    "abbr": "CLT",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Northern Iowa Panthers",
+    "abbr": "UNI",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
+    "record": "3-4",
+    "rank": null
+   },
+   "venue": "Suncoast Credit Union Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "PTB Live",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -6.9,
+    "total": 152.4,
+    "home_score": 79.7,
+    "away_score": 72.8,
+    "home_win_prob": 73.5,
+    "confidence": 58.3,
+    "tempo": 68.5,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Charlotte 49ers",
+     "abbr": "CLT",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -7.5,
+    "total": 144.5,
+    "favorite": "Charlotte 49ers",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -0.6,
+    "total": 7.9,
+    "value_rating": 0.6,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 7.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401928845",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401928845",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T16:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+    "record": "4-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Rice Owls",
+    "abbr": "RICE",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+    "record": "5-2",
+    "rank": null
+   },
+   "venue": "The Reef",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "Spiideo",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -1.2,
+    "total": 155.1,
+    "home_score": 78.1,
+    "away_score": 76.9,
+    "home_win_prob": 54.4,
+    "confidence": 68.1,
+    "tempo": 70.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Ohio Bobcats",
+     "abbr": "OHIO",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 155.5,
+    "favorite": "Ohio Bobcats",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -3.3,
+    "total": -0.4,
+    "value_rating": 3.3,
+    "is_best_bet": true
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 4.5
+   },
+   "result": null,
+   "tags": [
+    "best_bet",
+    "value",
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401920428",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920428",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T17:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Marquette Golden Eagles",
+    "abbr": "MARQ",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Virginia Cavaliers",
+    "abbr": "UVA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+    "record": "7-0",
+    "rank": 2
+   },
+   "venue": "Imperial Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 5.5,
+    "total": 152.4,
+    "home_score": 73.4,
+    "away_score": 78.9,
+    "home_win_prob": 30.7,
+    "confidence": 56.1,
+    "tempo": 69.7,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Virginia Cavaliers",
+     "abbr": "UVA",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 5.5,
+    "total": 153.5,
+    "favorite": "Virginia Cavaliers",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.0,
+    "total": -1.1,
+    "value_rating": 0.0,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": -5.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401920547",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920547",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T17:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Detroit Mercy Titans",
+    "abbr": "DETM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png",
+    "record": "0-6",
+    "rank": null
+   },
+   "away": {
+    "name": "Northern Colorado Bears",
+    "abbr": "UNCO",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
+    "record": "3-4",
+    "rank": null
+   },
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "FloSports",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 3.1,
+    "total": 148.5,
+    "home_score": 72.7,
+    "away_score": 75.8,
+    "home_win_prob": 39.0,
+    "confidence": 65.7,
+    "tempo": 70.2,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Northern Colorado Bears",
+     "abbr": "UNCO",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 5.5,
+    "total": 147.5,
+    "favorite": "UNCO -5.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 2.4,
+    "total": 1.0,
+    "value_rating": 2.4,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": -5.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401928831",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401928831",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T17:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Wright State Raiders",
+    "abbr": "WRST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2750.png",
+    "record": "6-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Yale Bulldogs",
+    "abbr": "YALE",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
+    "record": "4-4",
+    "rank": null
+   },
+   "venue": "State Farm Field House",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN2",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -8.2,
+    "total": 144.1,
+    "home_score": 76.1,
+    "away_score": 67.9,
+    "home_win_prob": 77.2,
+    "confidence": 63.9,
+    "tempo": 66.6,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Wright State Raiders",
+     "abbr": "WRST",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "total": 137.5,
+    "favorite": "Wright St Raiders",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 1.7,
+    "total": 6.6,
+    "value_rating": 1.7,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": 6.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401911029",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401911029",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T18:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+    "record": "5-0",
+    "rank": null
+   },
+   "away": {
+    "name": "Eastern Kentucky Colonels",
+    "abbr": "EKU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png",
+    "record": "5-2",
+    "rank": null
+   },
+   "venue": "Millett Hall",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -15.0,
+    "total": 152.4,
+    "home_score": 83.7,
+    "away_score": 68.7,
+    "home_win_prob": 91.4,
+    "confidence": 47.1,
+    "tempo": 69.8,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Miami (OH) RedHawks",
+     "abbr": "M-OH",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -14.5,
+    "total": 158.5,
+    "favorite": "Miami (OH) RedHawks",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.5,
+    "total": -6.1,
+    "value_rating": 0.5,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": 14.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401924268",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401924268",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T18:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Long Beach State Beach",
+    "abbr": "LBSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/299.png",
+    "record": "1-5",
+    "rank": null
+   },
+   "away": {
+    "name": "Southern Utah Thunderbirds",
+    "abbr": "SUU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
+    "record": "3-5",
+    "rank": null
+   },
+   "venue": "Ocean Bank Convocation Center",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 0.2,
+    "total": 155.4,
+    "home_score": 77.6,
+    "away_score": 77.8,
+    "home_win_prob": 49.4,
+    "confidence": 62.6,
+    "tempo": 69.9,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Southern Utah Thunderbirds",
+     "abbr": "SUU",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 150.5,
+    "favorite": "Long Beach St 49ers",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -1.7,
+    "total": 4.9,
+    "value_rating": 1.7,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 1.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401926835",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401926835",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T18:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Stony Brook Seawolves",
+    "abbr": "STBK",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
+    "record": "3-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Lindenwood Lions",
+    "abbr": "LIN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
+    "record": "2-5",
+    "rank": null
+   },
+   "venue": "Stony Brook Arena",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "FloSports",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -8.2,
+    "total": 145.2,
+    "home_score": 76.7,
+    "away_score": 68.5,
+    "home_win_prob": 77.2,
+    "confidence": 64.1,
+    "tempo": 69.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Stony Brook Seawolves",
+     "abbr": "STBK",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -10.5,
+    "total": 143.5,
+    "favorite": "Stony Brook Seawolves",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -2.3,
+    "total": 1.7,
+    "value_rating": 2.3,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 10.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401919007",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401919007",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T18:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Davidson Wildcats",
+    "abbr": "DAV",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Tulane Green Wave",
+    "abbr": "TULN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+    "record": "2-4",
+    "rank": null
+   },
+   "venue": "Suncoast Credit Union Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "PTB Live",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -7.1,
+    "total": 144.6,
+    "home_score": 75.9,
+    "away_score": 68.8,
+    "home_win_prob": 74.1,
+    "confidence": 61.6,
+    "tempo": 67.7,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Davidson Wildcats",
+     "abbr": "DAV",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -8.5,
+    "total": 137.5,
+    "favorite": "Davidson Wildcats",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -1.4,
+    "total": 7.1,
+    "value_rating": 1.4,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 8.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401917967",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401917967",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T19:00Z",
+   "status": "pending",
+   "home": {
+    "name": "South Dakota State Jackrabbits",
+    "abbr": "SDST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Abilene Christian Wildcats",
+    "abbr": "ACU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
+    "record": "3-3",
+    "rank": null
+   },
+   "venue": "First Bank & Trust Arena",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "Summit League Network",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -9.3,
+    "total": 145.5,
+    "home_score": 77.4,
+    "away_score": 68.1,
+    "home_win_prob": 80.1,
+    "confidence": 63.2,
+    "tempo": 68.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "South Dakota State Jackrabbits",
+     "abbr": "SDST",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -7.5,
+    "total": 141.5,
+    "favorite": "South Dakota St Jackrabbits",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 1.8,
+    "total": 4.0,
+    "value_rating": 1.8,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": 7.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401920868",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920868",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T19:00Z",
+   "status": "pending",
+   "home": {
+    "name": "NJIT Highlanders",
+    "abbr": "NJIT",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2885.png",
+    "record": "1-7",
+    "rank": null
+   },
+   "away": {
+    "name": "Manhattan Jaspers",
+    "abbr": "MAN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2363.png",
+    "record": "1-5",
+    "rank": null
+   },
+   "venue": "Joel & Diane Bloom Wellness and Events Center",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -3.5,
+    "total": 142.0,
+    "home_score": 72.7,
+    "away_score": 69.2,
+    "home_win_prob": 62.5,
+    "confidence": 64.0,
+    "tempo": 68.9,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "NJIT Highlanders",
+     "abbr": "NJIT",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 141.5,
+    "favorite": "NJIT Highlanders",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 2.0,
+    "total": 0.5,
+    "value_rating": 2.0,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": 1.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401921669",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921669",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T19:00Z",
+   "status": "pending",
+   "home": {
+    "name": "LSU Tigers",
+    "abbr": "LSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+    "record": "6-0",
+    "rank": 20
+   },
+   "away": {
+    "name": "Arizona State Sun Devils",
+    "abbr": "ASU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+    "record": "5-0",
+    "rank": null
+   },
+   "venue": "Acrisure Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "CBSSN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -5.3,
+    "total": 152.1,
+    "home_score": 78.7,
+    "away_score": 73.4,
+    "home_win_prob": 68.6,
+    "confidence": 58.4,
+    "tempo": 68.5,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "LSU Tigers",
+     "abbr": "LSU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 146.5,
+    "favorite": "LSU -4.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.8,
+    "total": 5.6,
+    "value_rating": 0.8,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": 4.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401924705",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401924705",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T19:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Columbia Lions",
+    "abbr": "COLU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Saint Peter's Peacocks",
+    "abbr": "SPU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2612.png",
+    "record": "0-6",
+    "rank": null
+   },
+   "venue": "Levien Gymnasium",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -14.8,
+    "total": 130.1,
+    "home_score": 72.5,
+    "away_score": 57.6,
+    "home_win_prob": 91.1,
+    "confidence": 52.4,
+    "tempo": 66.2,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Columbia Lions",
+     "abbr": "COLU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -14.5,
+    "total": 125.5,
+    "favorite": "Columbia Lions",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.3,
+    "total": 4.6,
+    "value_rating": 0.3,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": 14.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401929406",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401929406",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T19:00Z",
+   "status": "pending",
+   "home": {
+    "name": "South Dakota Coyotes",
+    "abbr": "SDAK",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
+    "record": "3-5",
+    "rank": null
+   },
+   "away": {
+    "name": "Arkansas-Pine Bluff Golden Lions",
+    "abbr": "UAPB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
+    "record": "0-6",
+    "rank": null
+   },
+   "venue": "Sanford Coyote Sports Center",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "Summit League Network",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -14.9,
+    "total": 156.7,
+    "home_score": 85.8,
+    "away_score": 70.9,
+    "home_win_prob": 91.2,
+    "confidence": 75.0,
+    "tempo": 72.5,
+    "confidence_tier": "high",
+    "pick": {
+     "team": "South Dakota Coyotes",
+     "abbr": "SDAK",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -21.5,
+    "total": 155.5,
+    "favorite": "South Dakota Coyotes",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -6.6,
+    "total": 1.2,
+    "value_rating": 6.6,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 21.5
+   },
+   "result": null,
+   "tags": [
+    "value",
+    "high_confidence"
+   ]
+  },
+  {
+   "id": "cbb:401920809",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920809",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T19:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Xavier Musketeers",
+    "abbr": "XAV",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2752.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Texas A&M Aggies",
+    "abbr": "TA&M",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+    "record": "6-0",
+    "rank": null
+   },
+   "venue": "Imperial Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN2",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 4.1,
+    "total": 159.0,
+    "home_score": 77.5,
+    "away_score": 81.6,
+    "home_win_prob": 35.6,
+    "confidence": 61.7,
+    "tempo": 73.7,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Texas A&M Aggies",
+     "abbr": "TA&M",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 5.5,
+    "total": 169.5,
+    "favorite": "Texas A&M Aggies",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 1.4,
+    "total": -10.5,
+    "value_rating": 1.4,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": -5.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401921715",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921715",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T19:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Arizona Wildcats",
+    "abbr": "ARIZ",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+    "record": "6-1",
+    "rank": 8
+   },
+   "away": {
+    "name": "Ole Miss Rebels",
+    "abbr": "MISS",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+    "record": "6-0",
+    "rank": null
+   },
+   "venue": "Lahaina Civic Center",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -4.1,
+    "total": 151.3,
+    "home_score": 77.7,
+    "away_score": 73.6,
+    "home_win_prob": 64.4,
+    "confidence": 61.7,
+    "tempo": 71.1,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Arizona Wildcats",
+     "abbr": "ARIZ",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -5.5,
+    "total": 154.5,
+    "favorite": "Arizona Wildcats",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -1.4,
+    "total": -3.2,
+    "value_rating": 1.4,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 5.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401919042",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401919042",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T20:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Oklahoma State Cowboys",
+    "abbr": "OKST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Jackson State Tigers",
+    "abbr": "JKST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
+    "record": "2-4",
+    "rank": null
+   },
+   "venue": "Gallagher-Iba Arena",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -24.8,
+    "total": 158.1,
+    "home_score": 91.4,
+    "away_score": 66.6,
+    "home_win_prob": 98.8,
+    "confidence": 70.0,
+    "tempo": 71.6,
+    "confidence_tier": "high",
+    "pick": {
+     "team": "Oklahoma State Cowboys",
+     "abbr": "OKST",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -34.5,
+    "total": 160.5,
+    "favorite": "Oklahoma St Cowboys",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -9.7,
+    "total": -2.4,
+    "value_rating": 9.7,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 34.5
+   },
+   "result": null,
+   "tags": [
+    "value",
+    "high_confidence"
+   ]
+  },
+  {
+   "id": "cbb:401920548",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920548",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T20:00Z",
+   "status": "pending",
+   "home": {
+    "name": "North Dakota Fighting Hawks",
+    "abbr": "UND",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+    "record": "4-3",
+    "rank": null
+   },
+   "away": {
+    "name": "SE Louisiana Lions",
+    "abbr": "SELA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
+    "record": "2-4",
+    "rank": null
+   },
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "FloHoops",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 0.1,
+    "total": 150.7,
+    "home_score": 75.3,
+    "away_score": 75.4,
+    "home_win_prob": 49.8,
+    "confidence": 61.7,
+    "tempo": 68.6,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "SE Louisiana Lions",
+     "abbr": "SELA",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 1.5,
+    "total": 145.5,
+    "favorite": "SE Louisiana Lions",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 1.4,
+    "total": 5.2,
+    "value_rating": 1.4,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": -1.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401928836",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401928836",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T20:00Z",
+   "status": "pending",
+   "home": {
+    "name": "App State Mountaineers",
+    "abbr": "APP",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+    "record": "4-3",
+    "rank": null
+   },
+   "away": {
+    "name": "Akron Zips",
+    "abbr": "AKR",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+    "record": "5-2",
+    "rank": null
+   },
+   "venue": "State Farm Field House",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPNU",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 5.3,
+    "total": 131.5,
+    "home_score": 63.1,
+    "away_score": 68.4,
+    "home_win_prob": 31.4,
+    "confidence": 61.6,
+    "tempo": 64.6,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Akron Zips",
+     "abbr": "AKR",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 6.5,
+    "total": 132.5,
+    "favorite": "Akron Zips",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 1.2,
+    "total": -1.0,
+    "value_rating": 1.2,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": -6.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401928359",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401928359",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T20:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Florida International Panthers",
+    "abbr": "FIU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+    "record": "5-2",
+    "rank": null
+   },
+   "venue": "Ocean Bank Convocation Center",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -3.8,
+    "total": 161.2,
+    "home_score": 82.5,
+    "away_score": 78.7,
+    "home_win_prob": 63.6,
+    "confidence": 65.3,
+    "tempo": 73.7,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Florida International Panthers",
+     "abbr": "FIU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 173.5,
+    "favorite": "FIU -1.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 2.3,
+    "total": -12.3,
+    "value_rating": 2.3,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": 1.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401920858",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920858",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T21:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Marshall Thundering Herd",
+    "abbr": "MRSH",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+    "record": "2-4",
+    "rank": null
+   },
+   "away": {
+    "name": "Prairie View A&M Panthers",
+    "abbr": "PV",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
+    "record": "2-4",
+    "rank": null
+   },
+   "venue": "Cam Henderson Center",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -9.7,
+    "total": 149.2,
+    "home_score": 79.4,
+    "away_score": 69.7,
+    "home_win_prob": 81.1,
+    "confidence": 79.3,
+    "tempo": 71.2,
+    "confidence_tier": "high",
+    "pick": {
+     "team": "Marshall Thundering Herd",
+     "abbr": "MRSH",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -15.5,
+    "total": 151.5,
+    "favorite": "MRSH -15.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -5.8,
+    "total": -2.3,
+    "value_rating": 5.8,
+    "is_best_bet": true
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 15.5
+   },
+   "result": null,
+   "tags": [
+    "best_bet",
+    "value",
+    "high_confidence"
+   ]
+  },
+  {
+   "id": "cbb:401921703",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921703",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T21:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Florida Gulf Coast Eagles",
+    "abbr": "FGCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/526.png",
+    "record": "2-5",
+    "rank": null
+   },
+   "away": {
+    "name": "Georgia State Panthers",
+    "abbr": "GAST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+    "record": "3-4",
+    "rank": null
+   },
+   "venue": "Suncoast Credit Union Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "PTB Live",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 3.5,
+    "total": 149.2,
+    "home_score": 72.8,
+    "away_score": 76.4,
+    "home_win_prob": 37.4,
+    "confidence": 57.2,
+    "tempo": 66.8,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Georgia State Panthers",
+     "abbr": "GAST",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 3.5,
+    "total": 145.5,
+    "favorite": "Georgia St Panthers",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.0,
+    "total": 3.7,
+    "value_rating": 0.0,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": -3.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401924737",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401924737",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T21:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Liberty Flames",
+    "abbr": "LIB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Princeton Tigers",
+    "abbr": "PRIN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/163.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "venue": "Trask Coliseum",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -2.0,
+    "total": 143.4,
+    "home_score": 72.7,
+    "away_score": 70.7,
+    "home_win_prob": 57.2,
+    "confidence": 62.0,
+    "tempo": 65.7,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Liberty Flames",
+     "abbr": "LIB",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 135.5,
+    "favorite": "Liberty Flames",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -1.5,
+    "total": 7.9,
+    "value_rating": 1.5,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 3.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401925050",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401925050",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T21:00Z",
+   "status": "pending",
+   "home": {
+    "name": "LSU New Orleans Privateers",
+    "abbr": "NOLA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2443.png",
+    "record": "3-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Grambling Tigers",
+    "abbr": "GRAM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
+    "record": "2-3",
+    "rank": null
+   },
+   "venue": "Lakefront Arena",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -5.3,
+    "total": 146.4,
+    "home_score": 75.8,
+    "away_score": 70.5,
+    "home_win_prob": 68.5,
+    "confidence": 62.2,
+    "tempo": 70.7,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "LSU New Orleans Privateers",
+     "abbr": "NOLA",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 151.5,
+    "favorite": "New Orleans Privateers",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 1.8,
+    "total": -5.1,
+    "value_rating": 1.8,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": 3.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401921670",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921670",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T21:30Z",
+   "status": "pending",
+   "home": {
+    "name": "USC Trojans",
+    "abbr": "USC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+    "record": "6-0",
+    "rank": 18
+   },
+   "away": {
+    "name": "South Carolina Gamecocks",
+    "abbr": "SC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+    "record": "5-0",
+    "rank": null
+   },
+   "venue": "Acrisure Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "CBSSN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -8.9,
+    "total": 148.3,
+    "home_score": 78.6,
+    "away_score": 69.7,
+    "home_win_prob": 79.1,
+    "confidence": 61.4,
+    "tempo": 68.9,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "USC Trojans",
+     "abbr": "USC",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -10.5,
+    "total": 148.5,
+    "favorite": "USC Trojans",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -1.6,
+    "total": -0.2,
+    "value_rating": 1.6,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 10.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401917182",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401917182",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T22:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Penn State Nittany Lions",
+    "abbr": "PSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Memphis Tigers",
+    "abbr": "MEM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+    "record": "4-1",
+    "rank": 24
+   },
+   "venue": "Imperial Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPNU",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 2.7,
+    "total": 167.5,
+    "home_score": 82.4,
+    "away_score": 85.1,
+    "home_win_prob": 40.2,
+    "confidence": 62.0,
+    "tempo": 71.2,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Memphis Tigers",
+     "abbr": "MEM",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 4.5,
+    "total": 163.5,
+    "favorite": "Memphis Tigers",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 1.8,
+    "total": 4.0,
+    "value_rating": 1.8,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": -4.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401920237",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920237",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T22:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Dartmouth Big Green",
+    "abbr": "DART",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Holy Cross Crusaders",
+    "abbr": "HC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/107.png",
+    "record": "0-6",
+    "rank": null
+   },
+   "venue": "Leede Arena",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -8.3,
+    "total": 145.8,
+    "home_score": 77.0,
+    "away_score": 68.8,
+    "home_win_prob": 77.3,
+    "confidence": 69.0,
+    "tempo": 69.7,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Dartmouth Big Green",
+     "abbr": "DART",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -11.5,
+    "total": 148.5,
+    "favorite": "Dartmouth Big Green",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -3.2,
+    "total": -2.7,
+    "value_rating": 3.2,
+    "is_best_bet": true
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 11.5
+   },
+   "result": null,
+   "tags": [
+    "best_bet",
+    "value"
+   ]
+  },
+  {
+   "id": "cbb:401925688",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401925688",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T22:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Texas State Bobcats",
+    "abbr": "TXST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+    "record": "7-0",
+    "rank": null
+   },
+   "away": {
+    "name": "Alcorn State Braves",
+    "abbr": "ALCN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
+    "record": "0-7",
+    "rank": null
+   },
+   "venue": "Thomas Assembly Center",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -24.5,
+    "total": 149.9,
+    "home_score": 87.2,
+    "away_score": 62.7,
+    "home_win_prob": 98.7,
+    "confidence": 50.9,
+    "tempo": 69.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Texas State Bobcats",
+     "abbr": "TXST",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -23.5,
+    "total": 148.5,
+    "favorite": "Texas State Bobcats",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 1.0,
+    "total": 1.4,
+    "value_rating": 1.0,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": 23.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401925917",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401925917",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T22:00Z",
+   "status": "pending",
+   "home": {
+    "name": "UC Riverside Highlanders",
+    "abbr": "UCR",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/27.png",
+    "record": "3-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Portland State Vikings",
+    "abbr": "PRST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
+    "record": "3-4",
+    "rank": null
+   },
+   "venue": "SRC Arena",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -1.7,
+    "total": 150.0,
+    "home_score": 75.9,
+    "away_score": 74.1,
+    "home_win_prob": 56.3,
+    "confidence": 58.0,
+    "tempo": 70.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "UC Riverside Highlanders",
+     "abbr": "UCR",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -2.5,
+    "total": 152.5,
+    "favorite": "UC Riverside Highlanders",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -0.8,
+    "total": -2.5,
+    "value_rating": 0.8,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 2.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401926065",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401926065",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T22:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Nebraska Cornhuskers",
+    "abbr": "NEB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+    "record": "6-0",
+    "rank": 21
+   },
+   "away": {
+    "name": "Southern Jaguars",
+    "abbr": "SOU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
+    "record": "1-5",
+    "rank": null
+   },
+   "venue": "Pinnacle Bank Arena",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "BTN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -28.9,
+    "total": 146.1,
+    "home_score": 87.5,
+    "away_score": 58.6,
+    "home_win_prob": 99.6,
+    "confidence": 70.0,
+    "tempo": 70.2,
+    "confidence_tier": "high",
+    "pick": {
+     "team": "Nebraska Cornhuskers",
+     "abbr": "NEB",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -35.5,
+    "total": 149.5,
+    "favorite": "Nebraska Cornhuskers",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -6.6,
+    "total": -3.4,
+    "value_rating": 6.6,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 35.5
+   },
+   "result": null,
+   "tags": [
+    "value",
+    "high_confidence"
+   ]
+  },
+  {
+   "id": "cbb:401921716",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921716",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T22:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Providence Friars",
+    "abbr": "PROV",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+    "record": "5-2",
+    "rank": null
+   },
+   "away": {
+    "name": "BYU Cougars",
+    "abbr": "BYU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+    "record": "6-1",
+    "rank": 19
+   },
+   "venue": "Lahaina Civic Center",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN2",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 5.1,
+    "total": 149.8,
+    "home_score": 72.3,
+    "away_score": 77.5,
+    "home_win_prob": 32.1,
+    "confidence": 63.5,
+    "tempo": 70.8,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "BYU Cougars",
+     "abbr": "BYU",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 3.5,
+    "total": 154.5,
+    "favorite": "BYU Cougars",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -1.6,
+    "total": -4.7,
+    "value_rating": 1.6,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": -3.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401909720",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401909720",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T23:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Syracuse Orange",
+    "abbr": "SYR",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "UAlbany Great Danes",
+    "abbr": "UALB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
+    "record": "4-4",
+    "rank": null
+   },
+   "venue": "JMA Wireless Dome",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ACCNX",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -22.7,
+    "total": 151.4,
+    "home_score": 87.0,
+    "away_score": 64.4,
+    "home_win_prob": 98.0,
+    "confidence": 61.4,
+    "tempo": 69.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Syracuse Orange",
+     "abbr": "SYR",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -26.5,
+    "total": 149.5,
+    "favorite": "Syracuse Orange",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -3.8,
+    "total": 1.9,
+    "value_rating": 3.8,
+    "is_best_bet": true
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 26.5
+   },
+   "result": null,
+   "tags": [
+    "best_bet",
+    "value"
+   ]
+  },
+  {
+   "id": "cbb:401911241",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401911241",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T23:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Richmond Spiders",
+    "abbr": "RICH",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
+    "record": "4-3",
+    "rank": null
+   },
+   "away": {
+    "name": "Bethune-Cookman Wildcats",
+    "abbr": "BCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2065.png",
+    "record": "1-5",
+    "rank": null
+   },
+   "venue": "Robins Center",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -8.1,
+    "total": 151.2,
+    "home_score": 79.7,
+    "away_score": 71.5,
+    "home_win_prob": 77.0,
+    "confidence": 69.5,
+    "tempo": 69.6,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Richmond Spiders",
+     "abbr": "RICH",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -11.5,
+    "total": 148.5,
+    "favorite": "Richmond Spiders",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -3.4,
+    "total": 2.7,
+    "value_rating": 3.4,
+    "is_best_bet": true
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 11.5
+   },
+   "result": null,
+   "tags": [
+    "best_bet",
+    "value"
+   ]
+  },
+  {
+   "id": "cbb:401920299",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920299",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T23:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Weber State Wildcats",
+    "abbr": "WEB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png",
+    "record": "2-4",
+    "rank": null
+   },
+   "away": {
+    "name": "Cal State Northridge Matadors",
+    "abbr": "CSUN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png",
+    "record": "1-4",
+    "rank": null
+   },
+   "venue": "Dee Events Center",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 0.4,
+    "total": 160.6,
+    "home_score": 80.1,
+    "away_score": 80.5,
+    "home_win_prob": 48.7,
+    "confidence": 63.6,
+    "tempo": 73.7,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Cal State Northridge Matadors",
+     "abbr": "CSUN",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 2.5,
+    "total": 167.5,
+    "favorite": "CSUN -2.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 2.1,
+    "total": -6.9,
+    "value_rating": 2.1,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": -2.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401920549",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920549",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T23:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Charleston Cougars",
+    "abbr": "COFC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Kennesaw State Owls",
+    "abbr": "KENN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+    "record": "5-2",
+    "rank": null
+   },
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "FloHoops",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 1.6,
+    "total": 154.8,
+    "home_score": 76.6,
+    "away_score": 78.2,
+    "home_win_prob": 44.2,
+    "confidence": 46.0,
+    "tempo": 72.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Kennesaw State Owls",
+     "abbr": "KENN",
+     "side": "away"
+    }
+   },
+   "market": null,
+   "closing": null,
+   "edge": {
+    "spread": null,
+    "total": null,
+    "value_rating": null,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": null
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401922253",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401922253",
+   "game_id_source": "espn",
+   "start_time": "2026-11-25T23:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Northwestern State Demons",
+    "abbr": "NWST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
+    "record": "1-5",
+    "rank": null
+   },
+   "away": {
+    "name": "West Florida Argonauts",
+    "abbr": "UWF",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2697.png",
+    "record": "3-4",
+    "rank": null
+   },
+   "venue": "Prather Coliseum",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -4.6,
+    "total": 144.5,
+    "home_score": 74.5,
+    "away_score": 69.9,
+    "home_win_prob": 66.2,
+    "confidence": 68.3,
+    "tempo": 67.9,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Northwestern State Demons",
+     "abbr": "NWST",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -1.5,
+    "total": 139.5,
+    "favorite": "Northwestern St Demons",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 3.1,
+    "total": 5.0,
+    "value_rating": 3.1,
+    "is_best_bet": true
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": 1.5
+   },
+   "result": null,
+   "tags": [
+    "best_bet",
+    "value"
+   ]
+  },
+  {
+   "id": "cbb:401909568",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401909568",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T00:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Duke Blue Devils",
+    "abbr": "DUKE",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+    "record": "4-2",
+    "rank": 16
+   },
+   "away": {
+    "name": "UConn Huskies",
+    "abbr": "CONN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+    "record": "4-1",
+    "rank": 10
+   },
+   "venue": "T-Mobile Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "Prime Video",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 0.2,
+    "total": 148.1,
+    "home_score": 74.0,
+    "away_score": 74.1,
+    "home_win_prob": 49.5,
+    "confidence": 64.4,
+    "tempo": 69.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "UConn Huskies",
+     "abbr": "CONN",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 2.5,
+    "total": 146.5,
+    "favorite": "CONN -2.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 2.3,
+    "total": 1.6,
+    "value_rating": 2.3,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": -2.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401911028",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401911028",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T00:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Wisconsin Badgers",
+    "abbr": "WIS",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Northeastern Huskies",
+    "abbr": "NE",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
+    "record": "2-4",
+    "rank": null
+   },
+   "venue": "Kohl Center",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "BTN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -14.6,
+    "total": 155.4,
+    "home_score": 85.0,
+    "away_score": 70.4,
+    "home_win_prob": 90.8,
+    "confidence": 74.7,
+    "tempo": 70.0,
+    "confidence_tier": "high",
+    "pick": {
+     "team": "Wisconsin Badgers",
+     "abbr": "WIS",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -20.5,
+    "total": 156.5,
+    "favorite": "Wisconsin Badgers",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -5.9,
+    "total": -1.1,
+    "value_rating": 5.9,
+    "is_best_bet": true
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 20.5
+   },
+   "result": null,
+   "tags": [
+    "best_bet",
+    "value",
+    "high_confidence"
+   ]
+  },
+  {
+   "id": "cbb:401918960",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401918960",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T00:00Z",
+   "status": "pending",
+   "home": {
+    "name": "NC State Wolfpack",
+    "abbr": "NCSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Norfolk State Spartans",
+    "abbr": "NORF",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+    "record": "2-5",
+    "rank": null
+   },
+   "venue": "Lenovo Center",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ACCNX",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -30.0,
+    "total": 156.7,
+    "home_score": 93.3,
+    "away_score": 63.3,
+    "home_win_prob": 99.7,
+    "confidence": 55.9,
+    "tempo": 68.2,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "NC State Wolfpack",
+     "abbr": "NCSU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -27.5,
+    "total": 149.5,
+    "favorite": "NC State Wolfpack",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 2.5,
+    "total": 7.2,
+    "value_rating": 2.5,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": 27.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401918971",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401918971",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T00:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Utah State Aggies",
+    "abbr": "USU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+    "record": "5-0",
+    "rank": null
+   },
+   "away": {
+    "name": "SMU Mustangs",
+    "abbr": "SMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+    "record": "6-0",
+    "rank": null
+   },
+   "venue": "Acrisure Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "CBSSN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -1.7,
+    "total": 161.0,
+    "home_score": 81.3,
+    "away_score": 79.6,
+    "home_win_prob": 56.1,
+    "confidence": 66.2,
+    "tempo": 71.1,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Utah State Aggies",
+     "abbr": "USU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 167.5,
+    "favorite": "USU -4.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -2.8,
+    "total": -6.5,
+    "value_rating": 2.8,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 4.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401920076",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920076",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T00:00Z",
+   "status": "pending",
+   "home": {
+    "name": "George Mason Patriots",
+    "abbr": "GMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Longwood Lancers",
+    "abbr": "LONG",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png",
+    "record": "4-3",
+    "rank": null
+   },
+   "venue": "EagleBank Arena",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -14.9,
+    "total": 145.0,
+    "home_score": 79.9,
+    "away_score": 65.0,
+    "home_win_prob": 91.2,
+    "confidence": 53.4,
+    "tempo": 68.7,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "George Mason Patriots",
+     "abbr": "GMU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -15.5,
+    "total": 144.5,
+    "favorite": "George Mason Patriots",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -0.6,
+    "total": 0.5,
+    "value_rating": 0.6,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 15.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401920847",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920847",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T00:00Z",
+   "status": "pending",
+   "home": {
+    "name": "UNC Wilmington Seahawks",
+    "abbr": "UNCW",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "St. Thomas Tommies",
+    "abbr": "STMN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
+    "record": "5-3",
+    "rank": null
+   },
+   "venue": "Trask Coliseum",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "FloSports",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -5.2,
+    "total": 161.2,
+    "home_score": 83.2,
+    "away_score": 78.0,
+    "home_win_prob": 68.3,
+    "confidence": 61.1,
+    "tempo": 67.8,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "UNC Wilmington Seahawks",
+     "abbr": "UNCW",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "total": 156.5,
+    "favorite": "UNC Wilmington Seahawks",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -1.3,
+    "total": 4.7,
+    "value_rating": 1.3,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 6.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401920916",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920916",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T00:00Z",
+   "status": "pending",
+   "home": {
+    "name": "SIU Edwardsville Cougars",
+    "abbr": "SIUE",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2565.png",
+    "record": "3-4",
+    "rank": null
+   },
+   "away": {
+    "name": "Northern Illinois Huskies",
+    "abbr": "NIU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+    "record": "4-3",
+    "rank": null
+   },
+   "venue": "First Community Arena",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 1.9,
+    "total": 149.1,
+    "home_score": 73.6,
+    "away_score": 75.5,
+    "home_win_prob": 43.1,
+    "confidence": 67.4,
+    "tempo": 66.0,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Northern Illinois Huskies",
+     "abbr": "NIU",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 4.5,
+    "total": 138.5,
+    "favorite": "Northern Illinois Huskies",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 2.6,
+    "total": 10.6,
+    "value_rating": 2.6,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": -4.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401921108",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921108",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T00:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Northern Kentucky Norse",
+    "abbr": "NKU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
+    "record": "3-4",
+    "rank": null
+   },
+   "away": {
+    "name": "Bellarmine Knights",
+    "abbr": "BELL",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/91.png",
+    "record": "3-5",
+    "rank": null
+   },
+   "venue": "Truist Arena",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -4.4,
+    "total": 153.0,
+    "home_score": 78.7,
+    "away_score": 74.3,
+    "home_win_prob": 65.5,
+    "confidence": 65.5,
+    "tempo": 68.4,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Northern Kentucky Norse",
+     "abbr": "NKU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "total": 148.5,
+    "favorite": "Northern Kentucky Norse",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -2.1,
+    "total": 4.5,
+    "value_rating": 2.1,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 6.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401922285",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401922285",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T00:00Z",
+   "status": "pending",
+   "home": {
+    "name": "The Citadel Bulldogs",
+    "abbr": "CIT",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2643.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "South Carolina Upstate Spartans",
+    "abbr": "UPST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
+    "record": "1-6",
+    "rank": null
+   },
+   "venue": "McAlister Field House",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -5.9,
+    "total": 144.4,
+    "home_score": 75.2,
+    "away_score": 69.3,
+    "home_win_prob": 70.5,
+    "confidence": 61.7,
+    "tempo": 67.6,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "The Citadel Bulldogs",
+     "abbr": "CIT",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 137.5,
+    "favorite": "The Citadel Bulldogs",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 1.4,
+    "total": 6.9,
+    "value_rating": 1.4,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "home",
+    "cover_line": 4.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401929287",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401929287",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T00:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Mississippi State Bulldogs",
+    "abbr": "MSST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Wake Forest Demon Deacons",
+    "abbr": "WAKE",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "venue": "Imperial Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN2",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -3.6,
+    "total": 149.1,
+    "home_score": 76.4,
+    "away_score": 72.7,
+    "home_win_prob": 63.0,
+    "confidence": 59.5,
+    "tempo": 69.1,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Mississippi State Bulldogs",
+     "abbr": "MSST",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -4.5,
+    "total": 150.5,
+    "favorite": "Mississippi St Bulldogs",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -0.9,
+    "total": -1.4,
+    "value_rating": 0.9,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 4.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401911522",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401911522",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T01:00Z",
+   "status": "pending",
+   "home": {
+    "name": "UC Davis Aggies",
+    "abbr": "UCD",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
+    "record": "3-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Omaha Mavericks",
+    "abbr": "OMA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
+    "record": "3-3",
+    "rank": null
+   },
+   "venue": "Resorts World Event Center",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "FloSports",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -6.9,
+    "total": 143.1,
+    "home_score": 75.0,
+    "away_score": 68.1,
+    "home_win_prob": 73.3,
+    "confidence": 56.4,
+    "tempo": 70.0,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "UC Davis Aggies",
+     "abbr": "UCD",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -6.5,
+    "total": 147.5,
+    "favorite": "UC Davis Aggies",
+    "bookmaker": "fanduel",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.4,
+    "total": -4.4,
+    "value_rating": 0.4,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": 6.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401920138",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920138",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T01:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Pepperdine Waves",
+    "abbr": "PEPP",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
+    "record": "4-3",
+    "rank": null
+   },
+   "away": {
+    "name": "Cal State Bakersfield Roadrunners",
+    "abbr": "CSUB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2934.png",
+    "record": "4-1",
+    "rank": null
+   },
+   "venue": "Firestone Fieldhouse",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -10.6,
+    "total": 163.6,
+    "home_score": 87.1,
+    "away_score": 76.5,
+    "home_win_prob": 83.2,
+    "confidence": 50.3,
+    "tempo": 69.9,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Pepperdine Waves",
+     "abbr": "PEPP",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -10.5,
+    "total": 160.5,
+    "favorite": "PEPP -10.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.1,
+    "total": 3.1,
+    "value_rating": 0.1,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": 10.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401920550",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401920550",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T01:30Z",
+   "status": "pending",
+   "home": {
+    "name": "UTEP Miners",
+    "abbr": "UTEP",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "away": {
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "venue": "Hard Rock Hotel Riviera Maya",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "FloHoops",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -1.0,
+    "total": 139.1,
+    "home_score": 70.1,
+    "away_score": 69.0,
+    "home_win_prob": 53.8,
+    "confidence": 46.0,
+    "tempo": 67.0,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "UTEP Miners",
+     "abbr": "UTEP",
+     "side": "home"
+    }
+   },
+   "market": null,
+   "closing": null,
+   "edge": {
+    "spread": null,
+    "total": null,
+    "value_rating": null,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": null
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401917545",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401917545",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T02:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Loyola Marymount Lions",
+    "abbr": "LMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
+    "record": "4-3",
+    "rank": null
+   },
+   "away": {
+    "name": "Eastern Washington Eagles",
+    "abbr": "EWU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
+    "record": "2-4",
+    "rank": null
+   },
+   "venue": "Gersten Pavilion",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "ESPN+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -7.0,
+    "total": 153.8,
+    "home_score": 80.4,
+    "away_score": 73.4,
+    "home_win_prob": 73.7,
+    "confidence": 58.1,
+    "tempo": 69.5,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Loyola Marymount Lions",
+     "abbr": "LMU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -7.5,
+    "total": 152.5,
+    "favorite": "Loyola Marymount Lions",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -0.5,
+    "total": 1.3,
+    "value_rating": 0.5,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": 7.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401924897",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401924897",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T02:00Z",
+   "status": "pending",
+   "home": {
+    "name": "New Mexico Lobos",
+    "abbr": "UNM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+    "record": "3-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Mississippi Valley State Delta Devils",
+    "abbr": "MVSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2400.png",
+    "record": "0-5",
+    "rank": null
+   },
+   "venue": "The Pit",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "MW+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -25.2,
+    "total": 143.9,
+    "home_score": 84.5,
+    "away_score": 59.4,
+    "home_win_prob": 98.9,
+    "confidence": 49.0,
+    "tempo": 69.6,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "New Mexico Lobos",
+     "abbr": "UNM",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -36.5,
+    "total": 152.5,
+    "favorite": "UNM -36.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -11.3,
+    "total": -8.6,
+    "value_rating": 11.3,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 36.5
+   },
+   "result": null,
+   "tags": [
+    "value"
+   ]
+  },
+  {
+   "id": "cbb:401921671",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921671",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T02:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Colorado Buffaloes",
+    "abbr": "COLO",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+    "record": "3-3",
+    "rank": null
+   },
+   "away": {
+    "name": "Grand Canyon Lopes",
+    "abbr": "GCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
+    "record": "5-0",
+    "rank": null
+   },
+   "venue": "Acrisure Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "CBSSN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 7.7,
+    "total": 151.0,
+    "home_score": 71.6,
+    "away_score": 79.4,
+    "home_win_prob": 24.1,
+    "confidence": 45.0,
+    "tempo": 71.1,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Grand Canyon Lopes",
+     "abbr": "GCU",
+     "side": "away"
+    }
+   },
+   "market": null,
+   "closing": null,
+   "edge": {
+    "spread": null,
+    "total": null,
+    "value_rating": null,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": null
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401921713",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921713",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T03:00Z",
+   "status": "pending",
+   "home": {
+    "name": "VCU Rams",
+    "abbr": "VCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Washington Huskies",
+    "abbr": "WASH",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "venue": "Lahaina Civic Center",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN2",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -2.4,
+    "total": 150.9,
+    "home_score": 76.7,
+    "away_score": 74.2,
+    "home_win_prob": 58.8,
+    "confidence": 60.2,
+    "tempo": 67.8,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "VCU Rams",
+     "abbr": "VCU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -3.5,
+    "total": 147.5,
+    "favorite": "VCU Rams",
+    "bookmaker": "draftkings",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -1.1,
+    "total": 3.4,
+    "value_rating": 1.1,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": 3.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401917544",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401917544",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T03:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Jacksonville State Gamecocks",
+    "abbr": "JXST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+    "record": "3-3",
+    "rank": null
+   },
+   "away": {
+    "name": "Pacific Tigers",
+    "abbr": "PAC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
+    "record": "5-1",
+    "rank": null
+   },
+   "venue": "Resorts World Event Center",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "FloSports",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 5.5,
+    "total": 139.9,
+    "home_score": 67.2,
+    "away_score": 72.7,
+    "home_win_prob": 31.0,
+    "confidence": 56.1,
+    "tempo": 66.7,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Pacific Tigers",
+     "abbr": "PAC",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 5.5,
+    "total": 133.5,
+    "favorite": "PAC -5.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.0,
+    "total": 6.4,
+    "value_rating": 0.0,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": -5.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401921672",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921672",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T04:59Z",
+   "status": "pending",
+   "home": {
+    "name": "Saint Louis Billikens",
+    "abbr": "SLU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png",
+    "record": "3-3",
+    "rank": null
+   },
+   "away": {
+    "name": "Stanford Cardinal",
+    "abbr": "STAN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+    "record": "5-2",
+    "rank": null
+   },
+   "venue": "Acrisure Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "CBSSN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -5.0,
+    "total": 151.0,
+    "home_score": 78.0,
+    "away_score": 73.0,
+    "home_win_prob": 67.4,
+    "confidence": 46.0,
+    "tempo": 69.3,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Saint Louis Billikens",
+     "abbr": "SLU",
+     "side": "home"
+    }
+   },
+   "market": null,
+   "closing": null,
+   "edge": {
+    "spread": null,
+    "total": null,
+    "value_rating": null,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": null
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401929005",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401929005",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T04:59Z",
+   "status": "pending",
+   "home": {
+    "name": "Hawai'i Rainbow Warriors",
+    "abbr": "HAW",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+    "record": "3-2",
+    "rank": null
+   },
+   "away": {
+    "name": "Incarnate Word Cardinals",
+    "abbr": "UIW",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png",
+    "record": "1-5",
+    "rank": null
+   },
+   "venue": "Stan Sheriff Center",
+   "neutral_site": false,
+   "conference_game": false,
+   "broadcast": "MW+",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -16.6,
+    "total": 140.0,
+    "home_score": 78.3,
+    "away_score": 61.7,
+    "home_win_prob": 93.5,
+    "confidence": 45.5,
+    "tempo": 69.1,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Hawai'i Rainbow Warriors",
+     "abbr": "HAW",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -16.5,
+    "total": 138.5,
+    "favorite": "Hawai'i Rainbow Warriors",
+    "bookmaker": "betmgm",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.1,
+    "total": 1.5,
+    "value_rating": 0.1,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": 16.5
+   },
+   "result": null,
+   "tags": []
+  },
+  {
+   "id": "cbb:401921714",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-25",
+   "game_id": "401921714",
+   "game_id_source": "espn",
+   "start_time": "2026-11-26T05:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Colorado State Rams",
+    "abbr": "CSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+    "record": "4-3",
+    "rank": null
+   },
+   "away": {
+    "name": "Clemson Tigers",
+    "abbr": "CLEM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+    "record": "4-3",
+    "rank": null
+   },
+   "venue": "Lahaina Civic Center",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN2",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 2.0,
+    "total": 152.9,
+    "home_score": 75.5,
+    "away_score": 77.5,
+    "home_win_prob": 42.8,
+    "confidence": 59.0,
+    "tempo": 67.9,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Clemson Tigers",
+     "abbr": "CLEM",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 2.5,
+    "total": 153.5,
+    "favorite": "CLEM -2.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": 0.5,
+    "total": -0.6,
+    "value_rating": 0.5,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": -2.5
+   },
+   "result": null,
+   "tags": [
     "tournament"
    ]
   }
