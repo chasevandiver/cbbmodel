@@ -112800,21 +112800,164 @@
       "ou_result": "U",
       "model_ou_call": "U",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401911253",
+      "date": "2026-11-25T02:30Z",
+      "home_team": "Saint Louis Billikens",
+      "away_team": "Grand Canyon Lopes",
+      "home_abbr": "SLU",
+      "away_abbr": "GCU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "4-0",
+      "home_location": "Saint Louis",
+      "away_location": "Grand Canyon",
+      "home_rating_team": "Saint Louis",
+      "away_rating_team": "Grand Canyon",
+      "home_adj_em": 14.05,
+      "away_adj_em": 16.53,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Acrisure Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "CBSSN",
+      "predicted_spread": -1.8,
+      "predicted_total": 157.1,
+      "home_projected_score": 77.7,
+      "away_projected_score": 79.4,
+      "home_win_prob": 43.6,
+      "away_win_prob": 56.4,
+      "confidence": 55.1,
+      "pick": "Grand Canyon Lopes",
+      "pick_abbr": "GCU",
+      "is_home_pick": false,
+      "projected_tempo": 71.6,
+      "factors": {
+        "efficiency_margin": -1.78,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 166.5,
+        "spread_holder": "GCU -1.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.3,
+      "model_vs_market": {
+        "spread_edge": 0.3,
+        "total_edge": -9.4
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": -1.5,
+      "clv": null,
+      "actual_home_score": 91,
+      "actual_away_score": 88,
+      "actual_margin": 3,
+      "actual_total": 179,
+      "actual_winner": "Saint Louis Billikens",
+      "model_correct_winner": false,
+      "ats_result": null,
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401906762",
+      "date": "2026-11-25T03:00Z",
+      "home_team": "Alabama Crimson Tide",
+      "away_team": "Baylor Bears",
+      "home_abbr": "ALA",
+      "away_abbr": "BAY",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+      "home_rank": 15,
+      "away_rank": 99,
+      "home_record": "5-0",
+      "away_record": "4-1",
+      "home_location": "Alabama",
+      "away_location": "Baylor",
+      "home_rating_team": "Alabama",
+      "away_rating_team": "Baylor",
+      "home_adj_em": 21.7,
+      "away_adj_em": 18.77,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "T-Mobile Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 2.1,
+      "predicted_total": 165.3,
+      "home_projected_score": 83.7,
+      "away_projected_score": 81.6,
+      "home_win_prob": 57.7,
+      "away_win_prob": 42.3,
+      "confidence": 57.5,
+      "pick": "Alabama Crimson Tide",
+      "pick_abbr": "ALA",
+      "is_home_pick": true,
+      "projected_tempo": 72.8,
+      "factors": {
+        "efficiency_margin": 2.13,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 175.5,
+        "spread_holder": "Alabama Crimson Tide",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.6,
+      "model_vs_market": {
+        "spread_edge": 0.6,
+        "total_edge": -10.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 174.5,
+        "spread_holder": "Alabama Crimson Tide",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-24T21:06:07.386762-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 1.5,
+      "clv": 0.0,
+      "actual_home_score": 63,
+      "actual_away_score": 68,
+      "actual_margin": -5,
+      "actual_total": 131,
+      "actual_winner": "Baylor Bears",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 893,
-      "model_mae": 10.07,
-      "market_mae": 9.75,
+      "n": 895,
+      "model_mae": 10.06,
+      "market_mae": 9.74,
       "intercept": -0.48,
-      "model_weight": 0.115,
-      "market_weight": 0.895,
+      "model_weight": 0.114,
+      "market_weight": 0.897,
       "ats_by_edge": {
         "0-2": {
           "w": 168,
-          "l": 118,
-          "pct": 58.7
+          "l": 119,
+          "pct": 58.5
         },
         "2-4": {
           "w": 133,
@@ -112834,10 +112977,10 @@
       }
     },
     "clv": {
-      "n": 552,
+      "n": 553,
       "avg": 0.28,
-      "beat_close_pct": 36.4,
-      "beat_or_matched_pct": 78.6
+      "beat_close_pct": 36.3,
+      "beat_or_matched_pct": 78.7
     },
     "clv_by_confidence": {
       "high": {
@@ -112847,34 +112990,34 @@
         "beat_or_matched_pct": 87.0
       },
       "medium": {
-        "n": 506,
+        "n": 507,
         "avg": 0.27,
-        "beat_close_pct": 36.2,
+        "beat_close_pct": 36.1,
         "beat_or_matched_pct": 77.9
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 901,
-    "ats_graded": 784,
+    "total_graded": 903,
+    "ats_graded": 785,
     "ats": {
       "w": 431,
-      "l": 353,
+      "l": 354,
       "p": 0,
-      "pct": 55.0
+      "pct": 54.9
     },
     "su": {
       "correct": 679,
-      "total": 901,
-      "pct": 75.4
+      "total": 903,
+      "pct": 75.2
     },
     "ou": {
-      "over": 434,
-      "under": 459,
+      "over": 435,
+      "under": 460,
       "push": 0,
-      "model_correct": 462,
-      "model_gradeable": 893,
+      "model_correct": 463,
+      "model_gradeable": 895,
       "model_pct": 51.7
     },
     "by_confidence": {
@@ -112886,9 +113029,9 @@
       },
       "medium": {
         "w": 399,
-        "l": 321,
+        "l": 322,
         "p": 0,
-        "pct": 55.4
+        "pct": 55.3
       },
       "low": {
         "w": 0,
@@ -112913,8 +113056,8 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1601,
-        "model_mae": 10.43,
+        "n": 1603,
+        "model_mae": 10.42,
         "market_mae": 9.38,
         "intercept": 0.04,
         "model_weight": -0.003,
@@ -112922,8 +113065,8 @@
         "ats_by_edge": {
           "0-2": {
             "w": 282,
-            "l": 240,
-            "pct": 54.0
+            "l": 241,
+            "pct": 53.9
           },
           "2-4": {
             "w": 228,
@@ -112943,10 +113086,10 @@
         }
       },
       "clv": {
-        "n": 552,
+        "n": 553,
         "avg": 0.28,
-        "beat_close_pct": 36.4,
-        "beat_or_matched_pct": 78.6
+        "beat_close_pct": 36.3,
+        "beat_or_matched_pct": 78.7
       },
       "clv_by_confidence": {
         "high": {
@@ -112956,34 +113099,34 @@
           "beat_or_matched_pct": 87.0
         },
         "medium": {
-          "n": 506,
+          "n": 507,
           "avg": 0.27,
-          "beat_close_pct": 36.2,
+          "beat_close_pct": 36.1,
           "beat_or_matched_pct": 77.9
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1619,
-      "ats_graded": 1390,
+      "total_graded": 1621,
+      "ats_graded": 1391,
       "ats": {
         "w": 739,
-        "l": 651,
+        "l": 652,
         "p": 0,
-        "pct": 53.2
+        "pct": 53.1
       },
       "su": {
         "correct": 1147,
-        "total": 1619,
+        "total": 1621,
         "pct": 70.8
       },
       "ou": {
-        "over": 784,
-        "under": 817,
+        "over": 785,
+        "under": 818,
         "push": 0,
-        "model_correct": 819,
-        "model_gradeable": 1601,
+        "model_correct": 820,
+        "model_gradeable": 1603,
         "model_pct": 51.2
       },
       "by_confidence": {
@@ -112995,9 +113138,9 @@
         },
         "medium": {
           "w": 566,
-          "l": 467,
+          "l": 468,
           "p": 0,
-          "pct": 54.8
+          "pct": 54.7
         },
         "low": {
           "w": 41,
@@ -113020,5 +113163,5 @@
       }
     }
   },
-  "generated_at": "2026-11-24T23:39:10.503351-05:00"
+  "generated_at": "2026-11-25T00:37:23.960072-05:00"
 }

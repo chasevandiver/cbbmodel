@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T23:39:10.244579-05:00",
+  "generated_at": "2026-11-25T00:37:23.671610-05:00",
   "date": "20261125",
   "total_games": 54,
   "model_version": "4.1.0",
@@ -112,6 +112,60 @@
         "total_edge": 0.0
       },
       "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401920916",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "SIU Edwardsville Cougars",
+      "away_team": "Northern Illinois Huskies",
+      "home_abbr": "SIUE",
+      "away_abbr": "NIU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2565.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-4",
+      "away_record": "4-3",
+      "home_location": "SIU Edwardsville",
+      "away_location": "Northern Illinois",
+      "home_rating_team": "SIU Edwardsville",
+      "away_rating_team": "Northern Illinois",
+      "home_adj_em": -10.22,
+      "away_adj_em": -4.27,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "First Community Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -0.6,
+      "predicted_total": 147.0,
+      "home_projected_score": 73.2,
+      "away_projected_score": 73.8,
+      "home_win_prob": 48.0,
+      "away_win_prob": 52.0,
+      "confidence": 72.8,
+      "pick": "Northern Illinois Huskies",
+      "pick_abbr": "NIU",
+      "is_home_pick": false,
+      "projected_tempo": 65.9,
+      "factors": {
+        "efficiency_margin": -3.92,
+        "home_court": 3.36
+      },
+      "market": {
+        "spread": 4.5,
+        "over_under": 138.5,
+        "spread_holder": "Northern Illinois Huskies",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 3.9,
+      "model_vs_market": {
+        "spread_edge": -3.9,
+        "total_edge": 8.5
+      },
+      "is_best_bet": true,
       "is_tournament_game": false
     },
     {
@@ -318,71 +372,17 @@
       },
       "market": {
         "spread": -4.5,
-        "over_under": 168.5,
+        "over_under": 167.5,
         "spread_holder": "USU -4.5",
         "bookmaker": "espn"
       },
       "value_rating": 3.5,
       "model_vs_market": {
         "spread_edge": -3.5,
-        "total_edge": -9.3
+        "total_edge": -8.3
       },
       "is_best_bet": true,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401920916",
-      "date": "2026-11-26T00:00Z",
-      "home_team": "SIU Edwardsville Cougars",
-      "away_team": "Northern Illinois Huskies",
-      "home_abbr": "SIUE",
-      "away_abbr": "NIU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2565.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-4",
-      "away_record": "4-3",
-      "home_location": "SIU Edwardsville",
-      "away_location": "Northern Illinois",
-      "home_rating_team": "SIU Edwardsville",
-      "away_rating_team": "Northern Illinois",
-      "home_adj_em": -10.22,
-      "away_adj_em": -4.27,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "First Community Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": -0.6,
-      "predicted_total": 147.0,
-      "home_projected_score": 73.2,
-      "away_projected_score": 73.8,
-      "home_win_prob": 48.0,
-      "away_win_prob": 52.0,
-      "confidence": 68.8,
-      "pick": "Northern Illinois Huskies",
-      "pick_abbr": "NIU",
-      "is_home_pick": false,
-      "projected_tempo": 65.9,
-      "factors": {
-        "efficiency_margin": -3.92,
-        "home_court": 3.36
-      },
-      "market": {
-        "spread": 3.5,
-        "over_under": 139.5,
-        "spread_holder": "Northern Illinois Huskies",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 2.9,
-      "model_vs_market": {
-        "spread_edge": -2.9,
-        "total_edge": 7.5
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
     },
     {
       "game_id": "401909568",
@@ -925,60 +925,6 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401911028",
-      "date": "2026-11-26T00:00Z",
-      "home_team": "Wisconsin Badgers",
-      "away_team": "Northeastern Huskies",
-      "home_abbr": "WIS",
-      "away_abbr": "NE",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-2",
-      "away_record": "2-4",
-      "home_location": "Wisconsin",
-      "away_location": "Northeastern",
-      "home_rating_team": "Wisconsin",
-      "away_rating_team": "Northeastern",
-      "home_adj_em": 11.9,
-      "away_adj_em": -5.83,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Kohl Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "BTN",
-      "predicted_spread": 15.8,
-      "predicted_total": 154.7,
-      "home_projected_score": 85.2,
-      "away_projected_score": 69.4,
-      "home_win_prob": 92.5,
-      "away_win_prob": 7.5,
-      "confidence": 64.8,
-      "pick": "Wisconsin Badgers",
-      "pick_abbr": "WIS",
-      "is_home_pick": true,
-      "projected_tempo": 70.1,
-      "factors": {
-        "efficiency_margin": 12.43,
-        "home_court": 3.37
-      },
-      "market": {
-        "spread": -20.5,
-        "over_under": 157.5,
-        "spread_holder": "Wisconsin Badgers",
-        "bookmaker": "fanduel"
-      },
-      "value_rating": 4.7,
-      "model_vs_market": {
-        "spread_edge": -4.7,
-        "total_edge": -2.8
-      },
-      "is_best_bet": true,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401920809",
       "date": "2026-11-25T19:30Z",
       "home_team": "Xavier Musketeers",
@@ -1020,14 +966,14 @@
       },
       "market": {
         "spread": 5.5,
-        "over_under": 168.5,
+        "over_under": 167.5,
         "spread_holder": "Texas A&M Aggies",
         "bookmaker": "draftkings"
       },
       "value_rating": 2.2,
       "model_vs_market": {
         "spread_edge": -2.2,
-        "total_edge": -8.7
+        "total_edge": -7.7
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1411,6 +1357,60 @@
       "is_tournament_game": true
     },
     {
+      "game_id": "401911028",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "Wisconsin Badgers",
+      "away_team": "Northeastern Huskies",
+      "home_abbr": "WIS",
+      "away_abbr": "NE",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "2-4",
+      "home_location": "Wisconsin",
+      "away_location": "Northeastern",
+      "home_rating_team": "Wisconsin",
+      "away_rating_team": "Northeastern",
+      "home_adj_em": 11.9,
+      "away_adj_em": -5.83,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Kohl Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "BTN",
+      "predicted_spread": 15.8,
+      "predicted_total": 154.7,
+      "home_projected_score": 85.2,
+      "away_projected_score": 69.4,
+      "home_win_prob": 92.5,
+      "away_win_prob": 7.5,
+      "confidence": 60.8,
+      "pick": "Wisconsin Badgers",
+      "pick_abbr": "WIS",
+      "is_home_pick": true,
+      "projected_tempo": 70.1,
+      "factors": {
+        "efficiency_margin": 12.43,
+        "home_court": 3.37
+      },
+      "market": {
+        "spread": -19.5,
+        "over_under": 157.5,
+        "spread_holder": "Wisconsin Badgers",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 3.7,
+      "model_vs_market": {
+        "spread_edge": -3.7,
+        "total_edge": -2.8
+      },
+      "is_best_bet": true,
+      "is_tournament_game": false
+    },
+    {
       "game_id": "401922253",
       "date": "2026-11-25T23:00Z",
       "home_team": "Northwestern State Demons",
@@ -1514,6 +1514,60 @@
       "model_vs_market": {
         "spread_edge": -1.2,
         "total_edge": 4.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
+      "game_id": "401921716",
+      "date": "2026-11-25T22:30Z",
+      "home_team": "Providence Friars",
+      "away_team": "BYU Cougars",
+      "home_abbr": "PROV",
+      "away_abbr": "BYU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+      "home_rank": 99,
+      "away_rank": 19,
+      "home_record": "5-2",
+      "away_record": "6-1",
+      "home_location": "Providence",
+      "away_location": "BYU",
+      "home_rating_team": "Providence",
+      "away_rating_team": "BYU",
+      "home_adj_em": 15.02,
+      "away_adj_em": 21.33,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Lahaina Civic Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": -4.5,
+      "predicted_total": 152.2,
+      "home_projected_score": 73.8,
+      "away_projected_score": 78.3,
+      "home_win_prob": 34.2,
+      "away_win_prob": 65.8,
+      "confidence": 59.8,
+      "pick": "BYU Cougars",
+      "pick_abbr": "BYU",
+      "is_home_pick": false,
+      "projected_tempo": 70.7,
+      "factors": {
+        "efficiency_margin": -4.46,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 3.5,
+        "over_under": 154.5,
+        "spread_holder": "BYU Cougars",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": 1.0,
+        "total_edge": -2.3
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -2221,60 +2275,6 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401921716",
-      "date": "2026-11-25T22:30Z",
-      "home_team": "Providence Friars",
-      "away_team": "BYU Cougars",
-      "home_abbr": "PROV",
-      "away_abbr": "BYU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-      "home_rank": 99,
-      "away_rank": 19,
-      "home_record": "5-2",
-      "away_record": "6-1",
-      "home_location": "Providence",
-      "away_location": "BYU",
-      "home_rating_team": "Providence",
-      "away_rating_team": "BYU",
-      "home_adj_em": 15.02,
-      "away_adj_em": 21.33,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Lahaina Civic Center",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "ESPN2",
-      "predicted_spread": -4.5,
-      "predicted_total": 152.2,
-      "home_projected_score": 73.8,
-      "away_projected_score": 78.3,
-      "home_win_prob": 34.2,
-      "away_win_prob": 65.8,
-      "confidence": 56.2,
-      "pick": "BYU Cougars",
-      "pick_abbr": "BYU",
-      "is_home_pick": false,
-      "projected_tempo": 70.7,
-      "factors": {
-        "efficiency_margin": -4.46,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": 4.5,
-        "over_under": 154.5,
-        "spread_holder": "BYU Cougars",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 0.0,
-      "model_vs_market": {
-        "spread_edge": -0.0,
-        "total_edge": -2.3
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
-    },
-    {
       "game_id": "401921715",
       "date": "2026-11-25T19:30Z",
       "home_team": "Arizona Wildcats",
@@ -2748,14 +2748,68 @@
       },
       "market": {
         "spread": -36.5,
-        "over_under": 151.5,
+        "over_under": 152.5,
         "spread_holder": "UNM -36.5",
         "bookmaker": "espn"
       },
       "value_rating": 10.8,
       "model_vs_market": {
         "spread_edge": -10.8,
-        "total_edge": -8.3
+        "total_edge": -9.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401929005",
+      "date": "2026-11-26T04:59Z",
+      "home_team": "Hawai'i Rainbow Warriors",
+      "away_team": "Incarnate Word Cardinals",
+      "home_abbr": "HAW",
+      "away_abbr": "UIW",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "1-5",
+      "home_location": "Hawai'i",
+      "away_location": "Incarnate Word",
+      "home_rating_team": "Hawaii",
+      "away_rating_team": "Incarnate Word",
+      "home_adj_em": 0.19,
+      "away_adj_em": -18.48,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Stan Sheriff Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "MW+",
+      "predicted_spread": 16.5,
+      "predicted_total": 141.6,
+      "home_projected_score": 79.0,
+      "away_projected_score": 62.5,
+      "home_win_prob": 93.3,
+      "away_win_prob": 6.7,
+      "confidence": 49.0,
+      "pick": "Hawai'i Rainbow Warriors",
+      "pick_abbr": "HAW",
+      "is_home_pick": true,
+      "projected_tempo": 69.2,
+      "factors": {
+        "efficiency_margin": 12.91,
+        "home_court": 3.6
+      },
+      "market": {
+        "spread": -17.5,
+        "over_under": 138.5,
+        "spread_holder": "Hawai'i Rainbow Warriors",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 1.0,
+      "model_vs_market": {
+        "spread_edge": -1.0,
+        "total_edge": 3.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2867,70 +2921,16 @@
       },
       "is_best_bet": false,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401929005",
-      "date": "2026-11-26T04:59Z",
-      "home_team": "Hawai'i Rainbow Warriors",
-      "away_team": "Incarnate Word Cardinals",
-      "home_abbr": "HAW",
-      "away_abbr": "UIW",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-2",
-      "away_record": "1-5",
-      "home_location": "Hawai'i",
-      "away_location": "Incarnate Word",
-      "home_rating_team": "Hawaii",
-      "away_rating_team": "Incarnate Word",
-      "home_adj_em": 0.19,
-      "away_adj_em": -18.48,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Stan Sheriff Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "MW+",
-      "predicted_spread": 16.5,
-      "predicted_total": 141.6,
-      "home_projected_score": 79.0,
-      "away_projected_score": 62.5,
-      "home_win_prob": 93.3,
-      "away_win_prob": 6.7,
-      "confidence": 45.0,
-      "pick": "Hawai'i Rainbow Warriors",
-      "pick_abbr": "HAW",
-      "is_home_pick": true,
-      "projected_tempo": 69.2,
-      "factors": {
-        "efficiency_margin": 12.91,
-        "home_court": 3.6
-      },
-      "market": {
-        "spread": -16.5,
-        "over_under": 140.5,
-        "spread_holder": "Hawai'i Rainbow Warriors",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 0.0,
-      "model_vs_market": {
-        "spread_edge": 0.0,
-        "total_edge": 1.1
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
     }
   ],
   "summary": {
     "total_games": 54,
-    "high_confidence": 4,
-    "medium_confidence": 50,
+    "high_confidence": 5,
+    "medium_confidence": 49,
     "low_confidence": 0,
-    "avg_confidence": 60.6,
-    "value_plays": 16,
-    "best_bets": 11,
+    "avg_confidence": 60.8,
+    "value_plays": 17,
+    "best_bets": 12,
     "with_market_line": 52,
     "tournament_games": 26
   },
