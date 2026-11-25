@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T22:26:08.034015-05:00",
+  "generated_at": "2026-11-24T23:39:10.244579-05:00",
   "date": "20261125",
-  "total_games": 52,
+  "total_games": 54,
   "model_version": "4.1.0",
   "ratings_source": "barttorvik (cache 2026-11-24)",
   "ratings_season": 2027,
@@ -61,57 +61,57 @@
       "is_tournament_game": false
     },
     {
-      "game_id": "401920916",
-      "date": "2026-11-26T00:00Z",
-      "home_team": "SIU Edwardsville Cougars",
-      "away_team": "Northern Illinois Huskies",
-      "home_abbr": "SIUE",
-      "away_abbr": "NIU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2565.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+      "game_id": "401929406",
+      "date": "2026-11-25T19:00Z",
+      "home_team": "South Dakota Coyotes",
+      "away_team": "Arkansas-Pine Bluff Golden Lions",
+      "home_abbr": "SDAK",
+      "away_abbr": "UAPB",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "3-4",
-      "away_record": "4-3",
-      "home_location": "SIU Edwardsville",
-      "away_location": "Northern Illinois",
-      "home_rating_team": "SIU Edwardsville",
-      "away_rating_team": "Northern Illinois",
-      "home_adj_em": -10.22,
-      "away_adj_em": -4.27,
+      "home_record": "3-5",
+      "away_record": "0-6",
+      "home_location": "South Dakota",
+      "away_location": "Arkansas-Pine Bluff",
+      "home_rating_team": "South Dakota",
+      "away_rating_team": "Arkansas Pine Bluff",
+      "home_adj_em": -12.34,
+      "away_adj_em": -26.9,
       "home_rest_days": null,
       "away_rest_days": null,
-      "venue": "First Community Arena",
+      "venue": "Sanford Coyote Sports Center",
       "neutral_site": false,
       "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": -0.6,
-      "predicted_total": 147.0,
-      "home_projected_score": 73.2,
-      "away_projected_score": 73.8,
-      "home_win_prob": 48.0,
-      "away_win_prob": 52.0,
-      "confidence": 72.8,
-      "pick": "Northern Illinois Huskies",
-      "pick_abbr": "NIU",
-      "is_home_pick": false,
-      "projected_tempo": 65.9,
+      "broadcast": "Summit League Network",
+      "predicted_spread": 14.5,
+      "predicted_total": 155.5,
+      "home_projected_score": 85.0,
+      "away_projected_score": 70.5,
+      "home_win_prob": 90.6,
+      "away_win_prob": 9.4,
+      "confidence": 75.0,
+      "pick": "South Dakota Coyotes",
+      "pick_abbr": "SDAK",
+      "is_home_pick": true,
+      "projected_tempo": 72.4,
       "factors": {
-        "efficiency_margin": -3.92,
-        "home_court": 3.36
+        "efficiency_margin": 10.55,
+        "home_court": 3.96
       },
       "market": {
-        "spread": 4.5,
-        "over_under": 139.5,
-        "spread_holder": "Northern Illinois Huskies",
-        "bookmaker": "draftkings"
+        "spread": -21.5,
+        "over_under": 155.5,
+        "spread_holder": "South Dakota Coyotes",
+        "bookmaker": "betmgm"
       },
-      "value_rating": 3.9,
+      "value_rating": 7.0,
       "model_vs_market": {
-        "spread_edge": -3.9,
-        "total_edge": 7.5
+        "spread_edge": -7.0,
+        "total_edge": 0.0
       },
-      "is_best_bet": true,
+      "is_best_bet": false,
       "is_tournament_game": false
     },
     {
@@ -164,60 +164,6 @@
       "model_vs_market": {
         "spread_edge": -3.9,
         "total_edge": -3.4
-      },
-      "is_best_bet": true,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401929406",
-      "date": "2026-11-25T19:00Z",
-      "home_team": "South Dakota Coyotes",
-      "away_team": "Arkansas-Pine Bluff Golden Lions",
-      "home_abbr": "SDAK",
-      "away_abbr": "UAPB",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-5",
-      "away_record": "0-6",
-      "home_location": "South Dakota",
-      "away_location": "Arkansas-Pine Bluff",
-      "home_rating_team": "South Dakota",
-      "away_rating_team": "Arkansas Pine Bluff",
-      "home_adj_em": -12.34,
-      "away_adj_em": -26.9,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Sanford Coyote Sports Center",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "Summit League Network",
-      "predicted_spread": 14.5,
-      "predicted_total": 155.5,
-      "home_projected_score": 85.0,
-      "away_projected_score": 70.5,
-      "home_win_prob": 90.6,
-      "away_win_prob": 9.4,
-      "confidence": 71.0,
-      "pick": "South Dakota Coyotes",
-      "pick_abbr": "SDAK",
-      "is_home_pick": true,
-      "projected_tempo": 72.4,
-      "factors": {
-        "efficiency_margin": 10.55,
-        "home_court": 3.96
-      },
-      "market": {
-        "spread": -19.5,
-        "over_under": 156.5,
-        "spread_holder": "South Dakota Coyotes",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 5.0,
-      "model_vs_market": {
-        "spread_edge": -5.0,
-        "total_edge": -1.0
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -318,14 +264,14 @@
       },
       "market": {
         "spread": -11.5,
-        "over_under": 149.5,
+        "over_under": 148.5,
         "spread_holder": "USC Trojans",
         "bookmaker": "fanduel"
       },
       "value_rating": 3.6,
       "model_vs_market": {
         "spread_edge": -3.6,
-        "total_edge": -1.7
+        "total_edge": -0.7
       },
       "is_best_bet": true,
       "is_tournament_game": true
@@ -385,57 +331,57 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401911028",
+      "game_id": "401920916",
       "date": "2026-11-26T00:00Z",
-      "home_team": "Wisconsin Badgers",
-      "away_team": "Northeastern Huskies",
-      "home_abbr": "WIS",
-      "away_abbr": "NE",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
+      "home_team": "SIU Edwardsville Cougars",
+      "away_team": "Northern Illinois Huskies",
+      "home_abbr": "SIUE",
+      "away_abbr": "NIU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2565.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "4-2",
-      "away_record": "2-4",
-      "home_location": "Wisconsin",
-      "away_location": "Northeastern",
-      "home_rating_team": "Wisconsin",
-      "away_rating_team": "Northeastern",
-      "home_adj_em": 11.9,
-      "away_adj_em": -5.83,
+      "home_record": "3-4",
+      "away_record": "4-3",
+      "home_location": "SIU Edwardsville",
+      "away_location": "Northern Illinois",
+      "home_rating_team": "SIU Edwardsville",
+      "away_rating_team": "Northern Illinois",
+      "home_adj_em": -10.22,
+      "away_adj_em": -4.27,
       "home_rest_days": null,
       "away_rest_days": null,
-      "venue": "Kohl Center",
+      "venue": "First Community Arena",
       "neutral_site": false,
       "conference_game": false,
-      "broadcast": "BTN",
-      "predicted_spread": 15.8,
-      "predicted_total": 154.7,
-      "home_projected_score": 85.2,
-      "away_projected_score": 69.4,
-      "home_win_prob": 92.5,
-      "away_win_prob": 7.5,
+      "broadcast": "ESPN+",
+      "predicted_spread": -0.6,
+      "predicted_total": 147.0,
+      "home_projected_score": 73.2,
+      "away_projected_score": 73.8,
+      "home_win_prob": 48.0,
+      "away_win_prob": 52.0,
       "confidence": 68.8,
-      "pick": "Wisconsin Badgers",
-      "pick_abbr": "WIS",
-      "is_home_pick": true,
-      "projected_tempo": 70.1,
+      "pick": "Northern Illinois Huskies",
+      "pick_abbr": "NIU",
+      "is_home_pick": false,
+      "projected_tempo": 65.9,
       "factors": {
-        "efficiency_margin": 12.43,
-        "home_court": 3.37
+        "efficiency_margin": -3.92,
+        "home_court": 3.36
       },
       "market": {
-        "spread": -21.5,
-        "over_under": 157.5,
-        "spread_holder": "Wisconsin Badgers",
-        "bookmaker": "fanduel"
+        "spread": 3.5,
+        "over_under": 139.5,
+        "spread_holder": "Northern Illinois Huskies",
+        "bookmaker": "draftkings"
       },
-      "value_rating": 5.7,
+      "value_rating": 2.9,
       "model_vs_market": {
-        "spread_edge": -5.7,
-        "total_edge": -2.8
+        "spread_edge": -2.9,
+        "total_edge": 7.5
       },
-      "is_best_bet": true,
+      "is_best_bet": false,
       "is_tournament_game": false
     },
     {
@@ -480,14 +426,14 @@
       },
       "market": {
         "spread": 2.5,
-        "over_under": 150.5,
+        "over_under": 147.5,
         "spread_holder": "CONN -2.5",
         "bookmaker": "espn"
       },
       "value_rating": 3.3,
       "model_vs_market": {
         "spread_edge": 3.3,
-        "total_edge": -2.9
+        "total_edge": 0.1
       },
       "is_best_bet": true,
       "is_tournament_game": true
@@ -588,14 +534,14 @@
       },
       "market": {
         "spread": -11.5,
-        "over_under": 150.5,
+        "over_under": 148.5,
         "spread_holder": "Richmond Spiders",
         "bookmaker": "betmgm"
       },
       "value_rating": 3.0,
       "model_vs_market": {
         "spread_edge": -3.0,
-        "total_edge": -0.0
+        "total_edge": 2.0
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -642,14 +588,14 @@
       },
       "market": {
         "spread": 4.5,
-        "over_under": 165.5,
+        "over_under": 163.5,
         "spread_holder": "Memphis Tigers",
         "bookmaker": "draftkings"
       },
       "value_rating": 3.0,
       "model_vs_market": {
         "spread_edge": -3.0,
-        "total_edge": -0.7
+        "total_edge": 1.3
       },
       "is_best_bet": true,
       "is_tournament_game": true
@@ -696,14 +642,14 @@
       },
       "market": {
         "spread": -10.5,
-        "over_under": 144.5,
+        "over_under": 143.5,
         "spread_holder": "Stony Brook Seawolves",
         "bookmaker": "draftkings"
       },
       "value_rating": 3.0,
       "model_vs_market": {
         "spread_edge": -3.0,
-        "total_edge": 2.1
+        "total_edge": 3.1
       },
       "is_best_bet": true,
       "is_tournament_game": false
@@ -871,6 +817,60 @@
       "is_tournament_game": false
     },
     {
+      "game_id": "401920547",
+      "date": "2026-11-25T17:30Z",
+      "home_team": "Detroit Mercy Titans",
+      "away_team": "Northern Colorado Bears",
+      "home_abbr": "DETM",
+      "away_abbr": "UNCO",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "0-6",
+      "away_record": "3-4",
+      "home_location": "Detroit Mercy",
+      "away_location": "Northern Colorado",
+      "home_rating_team": "Detroit Mercy",
+      "away_rating_team": "Northern Colorado",
+      "home_adj_em": -11.83,
+      "away_adj_em": -7.66,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Hard Rock Hotel Riviera Maya",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FloSports",
+      "predicted_spread": -2.9,
+      "predicted_total": 151.8,
+      "home_projected_score": 74.4,
+      "away_projected_score": 77.3,
+      "home_win_prob": 39.5,
+      "away_win_prob": 60.5,
+      "confidence": 65.3,
+      "pick": "Northern Colorado Bears",
+      "pick_abbr": "UNCO",
+      "is_home_pick": false,
+      "projected_tempo": 70.2,
+      "factors": {
+        "efficiency_margin": -2.92,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 5.5,
+        "over_under": 147.5,
+        "spread_holder": "UNCO -5.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 2.6,
+      "model_vs_market": {
+        "spread_edge": -2.6,
+        "total_edge": 4.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
       "game_id": "401925050",
       "date": "2026-11-25T21:00Z",
       "home_team": "LSU New Orleans Privateers",
@@ -912,16 +912,70 @@
       },
       "market": {
         "spread": -4.5,
-        "over_under": 154.5,
+        "over_under": 152.5,
         "spread_holder": "New Orleans Privateers",
         "bookmaker": "betmgm"
       },
       "value_rating": 2.5,
       "model_vs_market": {
         "spread_edge": 2.5,
-        "total_edge": -7.3
+        "total_edge": -5.3
       },
       "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401911028",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "Wisconsin Badgers",
+      "away_team": "Northeastern Huskies",
+      "home_abbr": "WIS",
+      "away_abbr": "NE",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/111.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "2-4",
+      "home_location": "Wisconsin",
+      "away_location": "Northeastern",
+      "home_rating_team": "Wisconsin",
+      "away_rating_team": "Northeastern",
+      "home_adj_em": 11.9,
+      "away_adj_em": -5.83,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Kohl Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "BTN",
+      "predicted_spread": 15.8,
+      "predicted_total": 154.7,
+      "home_projected_score": 85.2,
+      "away_projected_score": 69.4,
+      "home_win_prob": 92.5,
+      "away_win_prob": 7.5,
+      "confidence": 64.8,
+      "pick": "Wisconsin Badgers",
+      "pick_abbr": "WIS",
+      "is_home_pick": true,
+      "projected_tempo": 70.1,
+      "factors": {
+        "efficiency_margin": 12.43,
+        "home_court": 3.37
+      },
+      "market": {
+        "spread": -20.5,
+        "over_under": 157.5,
+        "spread_holder": "Wisconsin Badgers",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 4.7,
+      "model_vs_market": {
+        "spread_edge": -4.7,
+        "total_edge": -2.8
+      },
+      "is_best_bet": true,
       "is_tournament_game": false
     },
     {
@@ -966,14 +1020,122 @@
       },
       "market": {
         "spread": 5.5,
-        "over_under": 169.5,
+        "over_under": 168.5,
         "spread_holder": "Texas A&M Aggies",
         "bookmaker": "draftkings"
       },
       "value_rating": 2.2,
       "model_vs_market": {
         "spread_edge": -2.2,
-        "total_edge": -9.7
+        "total_edge": -8.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
+      "game_id": "401922285",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "The Citadel Bulldogs",
+      "away_team": "South Carolina Upstate Spartans",
+      "home_abbr": "CIT",
+      "away_abbr": "UPST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2643.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "1-6",
+      "home_location": "The Citadel",
+      "away_location": "South Carolina Upstate",
+      "home_rating_team": "The Citadel",
+      "away_rating_team": "USC Upstate",
+      "home_adj_em": -16.51,
+      "away_adj_em": -19.67,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "McAlister Field House",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 5.4,
+      "predicted_total": 143.7,
+      "home_projected_score": 74.6,
+      "away_projected_score": 69.1,
+      "home_win_prob": 68.9,
+      "away_win_prob": 31.1,
+      "confidence": 63.7,
+      "pick": "The Citadel Bulldogs",
+      "pick_abbr": "CIT",
+      "is_home_pick": true,
+      "projected_tempo": 67.7,
+      "factors": {
+        "efficiency_margin": 2.14,
+        "home_court": 3.29
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 137.5,
+        "spread_holder": "The Citadel Bulldogs",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 1.9,
+      "model_vs_market": {
+        "spread_edge": 1.9,
+        "total_edge": 6.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401924737",
+      "date": "2026-11-25T21:00Z",
+      "home_team": "Liberty Flames",
+      "away_team": "Princeton Tigers",
+      "home_abbr": "LIB",
+      "away_abbr": "PRIN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/163.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "4-2",
+      "home_location": "Liberty",
+      "away_location": "Princeton",
+      "home_rating_team": "Liberty",
+      "away_rating_team": "Princeton",
+      "home_adj_em": 1.7,
+      "away_adj_em": -0.81,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Trask Coliseum",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "",
+      "predicted_spread": 1.7,
+      "predicted_total": 142.9,
+      "home_projected_score": 72.3,
+      "away_projected_score": 70.6,
+      "home_win_prob": 56.0,
+      "away_win_prob": 44.0,
+      "confidence": 63.4,
+      "pick": "Liberty Flames",
+      "pick_abbr": "LIB",
+      "is_home_pick": true,
+      "projected_tempo": 65.7,
+      "factors": {
+        "efficiency_margin": 1.65,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 135.5,
+        "spread_holder": "Liberty Flames",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.8,
+      "model_vs_market": {
+        "spread_edge": -1.8,
+        "total_edge": 7.4
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1033,6 +1195,60 @@
       "is_tournament_game": true
     },
     {
+      "game_id": "401921702",
+      "date": "2026-11-25T16:00Z",
+      "home_team": "Charlotte 49ers",
+      "away_team": "Northern Iowa Panthers",
+      "home_abbr": "CLT",
+      "away_abbr": "UNI",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "3-4",
+      "home_location": "Charlotte",
+      "away_location": "Northern Iowa",
+      "home_rating_team": "Charlotte",
+      "away_rating_team": "Northern Iowa",
+      "home_adj_em": 7.35,
+      "away_adj_em": -1.1,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Suncoast Credit Union Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "PTB Live",
+      "predicted_spread": 5.8,
+      "predicted_total": 150.4,
+      "home_projected_score": 78.1,
+      "away_projected_score": 72.3,
+      "home_win_prob": 70.1,
+      "away_win_prob": 29.9,
+      "confidence": 62.8,
+      "pick": "Charlotte 49ers",
+      "pick_abbr": "CLT",
+      "is_home_pick": true,
+      "projected_tempo": 68.6,
+      "factors": {
+        "efficiency_margin": 5.8,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -7.5,
+        "over_under": 144.5,
+        "spread_holder": "Charlotte 49ers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.7,
+      "model_vs_market": {
+        "spread_edge": -1.7,
+        "total_edge": 5.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
       "game_id": "401929287",
       "date": "2026-11-26T00:30Z",
       "home_team": "Mississippi State Bulldogs",
@@ -1074,14 +1290,14 @@
       },
       "market": {
         "spread": -4.5,
-        "over_under": 149.5,
+        "over_under": 150.5,
         "spread_holder": "Mississippi St Bulldogs",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.5,
       "model_vs_market": {
         "spread_edge": -1.5,
-        "total_edge": -0.7
+        "total_edge": -1.7
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1139,60 +1355,6 @@
       },
       "is_best_bet": false,
       "is_tournament_game": true
-    },
-    {
-      "game_id": "401925917",
-      "date": "2026-11-25T22:00Z",
-      "home_team": "UC Riverside Highlanders",
-      "away_team": "Portland State Vikings",
-      "home_abbr": "UCR",
-      "away_abbr": "PRST",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/27.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-2",
-      "away_record": "3-4",
-      "home_location": "UC Riverside",
-      "away_location": "Portland State",
-      "home_rating_team": "UC Riverside",
-      "away_rating_team": "Portland St.",
-      "home_adj_em": -6.4,
-      "away_adj_em": -4.24,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "SRC Arena",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 1.9,
-      "predicted_total": 151.1,
-      "home_projected_score": 76.5,
-      "away_projected_score": 74.6,
-      "home_win_prob": 56.7,
-      "away_win_prob": 43.3,
-      "confidence": 61.5,
-      "pick": "UC Riverside Highlanders",
-      "pick_abbr": "UCR",
-      "is_home_pick": true,
-      "projected_tempo": 70.3,
-      "factors": {
-        "efficiency_margin": -1.52,
-        "home_court": 3.39
-      },
-      "market": {
-        "spread": -3.5,
-        "over_under": 152.5,
-        "spread_holder": "UC Riverside Highlanders",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 1.6,
-      "model_vs_market": {
-        "spread_edge": -1.6,
-        "total_edge": -1.4
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
     },
     {
       "game_id": "401928836",
@@ -1290,14 +1452,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 141.5,
+        "over_under": 139.5,
         "spread_holder": "Northwestern St Demons",
         "bookmaker": "betmgm"
       },
       "value_rating": 1.0,
       "model_vs_market": {
         "spread_edge": 1.0,
-        "total_edge": 2.0
+        "total_edge": 4.0
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1357,168 +1519,6 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401922285",
-      "date": "2026-11-26T00:00Z",
-      "home_team": "The Citadel Bulldogs",
-      "away_team": "South Carolina Upstate Spartans",
-      "home_abbr": "CIT",
-      "away_abbr": "UPST",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2643.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-2",
-      "away_record": "1-6",
-      "home_location": "The Citadel",
-      "away_location": "South Carolina Upstate",
-      "home_rating_team": "The Citadel",
-      "away_rating_team": "USC Upstate",
-      "home_adj_em": -16.51,
-      "away_adj_em": -19.67,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "McAlister Field House",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 5.4,
-      "predicted_total": 143.7,
-      "home_projected_score": 74.6,
-      "away_projected_score": 69.1,
-      "home_win_prob": 68.9,
-      "away_win_prob": 31.1,
-      "confidence": 59.7,
-      "pick": "The Citadel Bulldogs",
-      "pick_abbr": "CIT",
-      "is_home_pick": true,
-      "projected_tempo": 67.7,
-      "factors": {
-        "efficiency_margin": 2.14,
-        "home_court": 3.29
-      },
-      "market": {
-        "spread": -4.5,
-        "over_under": 139.5,
-        "spread_holder": "The Citadel Bulldogs",
-        "bookmaker": "betmgm"
-      },
-      "value_rating": 0.9,
-      "model_vs_market": {
-        "spread_edge": 0.9,
-        "total_edge": 4.2
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
-      "game_id": "401924737",
-      "date": "2026-11-25T21:00Z",
-      "home_team": "Liberty Flames",
-      "away_team": "Princeton Tigers",
-      "home_abbr": "LIB",
-      "away_abbr": "PRIN",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/163.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-2",
-      "away_record": "4-2",
-      "home_location": "Liberty",
-      "away_location": "Princeton",
-      "home_rating_team": "Liberty",
-      "away_rating_team": "Princeton",
-      "home_adj_em": 1.7,
-      "away_adj_em": -0.81,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Trask Coliseum",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "",
-      "predicted_spread": 1.7,
-      "predicted_total": 142.9,
-      "home_projected_score": 72.3,
-      "away_projected_score": 70.6,
-      "home_win_prob": 56.0,
-      "away_win_prob": 44.0,
-      "confidence": 59.4,
-      "pick": "Liberty Flames",
-      "pick_abbr": "LIB",
-      "is_home_pick": true,
-      "projected_tempo": 65.7,
-      "factors": {
-        "efficiency_margin": 1.65,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": -2.5,
-        "over_under": 135.5,
-        "spread_holder": "Liberty Flames",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 0.8,
-      "model_vs_market": {
-        "spread_edge": -0.8,
-        "total_edge": 7.4
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
-    },
-    {
-      "game_id": "401924705",
-      "date": "2026-11-25T19:00Z",
-      "home_team": "Columbia Lions",
-      "away_team": "Saint Peter's Peacocks",
-      "home_abbr": "COLU",
-      "away_abbr": "SPU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2612.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "5-1",
-      "away_record": "0-6",
-      "home_location": "Columbia",
-      "away_location": "Saint Peter's",
-      "home_rating_team": "Columbia",
-      "away_rating_team": "Saint Peter's",
-      "home_adj_em": 0.17,
-      "away_adj_em": -15.36,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Levien Gymnasium",
-      "neutral_site": false,
-      "conference_game": false,
-      "broadcast": "ESPN+",
-      "predicted_spread": 13.4,
-      "predicted_total": 131.7,
-      "home_projected_score": 72.6,
-      "away_projected_score": 59.1,
-      "home_win_prob": 88.9,
-      "away_win_prob": 11.1,
-      "confidence": 59.3,
-      "pick": "Columbia Lions",
-      "pick_abbr": "COLU",
-      "is_home_pick": true,
-      "projected_tempo": 66.3,
-      "factors": {
-        "efficiency_margin": 10.3,
-        "home_court": 3.12
-      },
-      "market": {
-        "spread": -15.5,
-        "over_under": 125.5,
-        "spread_holder": "Columbia Lions",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 2.1,
-      "model_vs_market": {
-        "spread_edge": -2.1,
-        "total_edge": 6.2
-      },
-      "is_best_bet": false,
-      "is_tournament_game": false
-    },
-    {
       "game_id": "401920847",
       "date": "2026-11-26T00:00Z",
       "home_team": "UNC Wilmington Seahawks",
@@ -1571,60 +1571,6 @@
       },
       "is_best_bet": false,
       "is_tournament_game": false
-    },
-    {
-      "game_id": "401921702",
-      "date": "2026-11-25T16:00Z",
-      "home_team": "Charlotte 49ers",
-      "away_team": "Northern Iowa Panthers",
-      "home_abbr": "CLT",
-      "away_abbr": "UNI",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "4-2",
-      "away_record": "3-4",
-      "home_location": "Charlotte",
-      "away_location": "Northern Iowa",
-      "home_rating_team": "Charlotte",
-      "away_rating_team": "Northern Iowa",
-      "home_adj_em": 7.35,
-      "away_adj_em": -1.1,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Suncoast Credit Union Arena",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "PTB Live",
-      "predicted_spread": 5.8,
-      "predicted_total": 150.4,
-      "home_projected_score": 78.1,
-      "away_projected_score": 72.3,
-      "home_win_prob": 70.1,
-      "away_win_prob": 29.9,
-      "confidence": 58.8,
-      "pick": "Charlotte 49ers",
-      "pick_abbr": "CLT",
-      "is_home_pick": true,
-      "projected_tempo": 68.6,
-      "factors": {
-        "efficiency_margin": 5.8,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": -6.5,
-        "over_under": 144.5,
-        "spread_holder": "Charlotte 49ers",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 0.7,
-      "model_vs_market": {
-        "spread_edge": -0.7,
-        "total_edge": 5.9
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
     },
     {
       "game_id": "401920299",
@@ -1722,68 +1668,14 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 136.5,
+        "over_under": 137.5,
         "spread_holder": "Wright St Raiders",
         "bookmaker": "draftkings"
       },
       "value_rating": 0.7,
       "model_vs_market": {
         "spread_edge": 0.7,
-        "total_edge": 10.7
-      },
-      "is_best_bet": false,
-      "is_tournament_game": true
-    },
-    {
-      "game_id": "401920428",
-      "date": "2026-11-25T17:00Z",
-      "home_team": "Marquette Golden Eagles",
-      "away_team": "Virginia Cavaliers",
-      "home_abbr": "MARQ",
-      "away_abbr": "UVA",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-      "home_rank": 99,
-      "away_rank": 2,
-      "home_record": "4-2",
-      "away_record": "7-0",
-      "home_location": "Marquette",
-      "away_location": "Virginia",
-      "home_rating_team": "Marquette",
-      "away_rating_team": "Virginia",
-      "home_adj_em": 19.63,
-      "away_adj_em": 27.0,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Imperial Arena",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "ESPN",
-      "predicted_spread": -5.1,
-      "predicted_total": 152.3,
-      "home_projected_score": 73.6,
-      "away_projected_score": 78.7,
-      "home_win_prob": 32.0,
-      "away_win_prob": 68.0,
-      "confidence": 58.6,
-      "pick": "Virginia Cavaliers",
-      "pick_abbr": "UVA",
-      "is_home_pick": false,
-      "projected_tempo": 69.7,
-      "factors": {
-        "efficiency_margin": -5.14,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": 4.5,
-        "over_under": 153.5,
-        "spread_holder": "Virginia Cavaliers",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 0.6,
-      "model_vs_market": {
-        "spread_edge": 0.6,
-        "total_edge": -1.2
+        "total_edge": 9.7
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1830,14 +1722,14 @@
       },
       "market": {
         "spread": 3.5,
-        "over_under": 146.5,
+        "over_under": 145.5,
         "spread_holder": "Georgia St Panthers",
         "bookmaker": "fanduel"
       },
       "value_rating": 0.4,
       "model_vs_market": {
         "spread_edge": -0.4,
-        "total_edge": 1.4
+        "total_edge": 2.4
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1884,14 +1776,68 @@
       },
       "market": {
         "spread": -7.5,
-        "over_under": 151.5,
+        "over_under": 152.5,
         "spread_holder": "Loyola Marymount Lions",
         "bookmaker": "betmgm"
       },
       "value_rating": 0.4,
       "model_vs_market": {
         "spread_edge": -0.4,
-        "total_edge": 2.1
+        "total_edge": 1.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
+    },
+    {
+      "game_id": "401925917",
+      "date": "2026-11-25T22:00Z",
+      "home_team": "UC Riverside Highlanders",
+      "away_team": "Portland State Vikings",
+      "home_abbr": "UCR",
+      "away_abbr": "PRST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/27.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "3-4",
+      "home_location": "UC Riverside",
+      "away_location": "Portland State",
+      "home_rating_team": "UC Riverside",
+      "away_rating_team": "Portland St.",
+      "home_adj_em": -6.4,
+      "away_adj_em": -4.24,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "SRC Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 1.9,
+      "predicted_total": 151.1,
+      "home_projected_score": 76.5,
+      "away_projected_score": 74.6,
+      "home_win_prob": 56.7,
+      "away_win_prob": 43.3,
+      "confidence": 57.5,
+      "pick": "UC Riverside Highlanders",
+      "pick_abbr": "UCR",
+      "is_home_pick": true,
+      "projected_tempo": 70.3,
+      "factors": {
+        "efficiency_margin": -1.52,
+        "home_court": 3.39
+      },
+      "market": {
+        "spread": -2.5,
+        "over_under": 152.5,
+        "spread_holder": "UC Riverside Highlanders",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.6,
+      "model_vs_market": {
+        "spread_edge": -0.6,
+        "total_edge": -1.4
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -1938,17 +1884,71 @@
       },
       "market": {
         "spread": -6.5,
-        "over_under": 149.5,
+        "over_under": 148.5,
         "spread_holder": "Northern Kentucky Norse",
         "bookmaker": "betmgm"
       },
       "value_rating": 0.1,
       "model_vs_market": {
         "spread_edge": 0.1,
-        "total_edge": 3.2
+        "total_edge": 4.2
       },
       "is_best_bet": false,
       "is_tournament_game": false
+    },
+    {
+      "game_id": "401920428",
+      "date": "2026-11-25T17:00Z",
+      "home_team": "Marquette Golden Eagles",
+      "away_team": "Virginia Cavaliers",
+      "home_abbr": "MARQ",
+      "away_abbr": "UVA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+      "home_rank": 99,
+      "away_rank": 2,
+      "home_record": "4-2",
+      "away_record": "7-0",
+      "home_location": "Marquette",
+      "away_location": "Virginia",
+      "home_rating_team": "Marquette",
+      "away_rating_team": "Virginia",
+      "home_adj_em": 19.63,
+      "away_adj_em": 27.0,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Imperial Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": -5.1,
+      "predicted_total": 152.3,
+      "home_projected_score": 73.6,
+      "away_projected_score": 78.7,
+      "home_win_prob": 32.0,
+      "away_win_prob": 68.0,
+      "confidence": 57.4,
+      "pick": "Virginia Cavaliers",
+      "pick_abbr": "UVA",
+      "is_home_pick": false,
+      "projected_tempo": 69.7,
+      "factors": {
+        "efficiency_margin": -5.14,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 5.5,
+        "over_under": 153.5,
+        "spread_holder": "Virginia Cavaliers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.4,
+      "model_vs_market": {
+        "spread_edge": -0.4,
+        "total_edge": -1.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
     },
     {
       "game_id": "401921669",
@@ -2316,14 +2316,68 @@
       },
       "market": {
         "spread": -5.5,
-        "over_under": 156.5,
+        "over_under": 155.5,
         "spread_holder": "Arizona Wildcats",
         "bookmaker": "draftkings"
       },
       "value_rating": 0.3,
       "model_vs_market": {
         "spread_edge": -0.3,
-        "total_edge": -3.5
+        "total_edge": -2.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true
+    },
+    {
+      "game_id": "401920548",
+      "date": "2026-11-25T20:00Z",
+      "home_team": "North Dakota Fighting Hawks",
+      "away_team": "SE Louisiana Lions",
+      "home_abbr": "UND",
+      "away_abbr": "SELA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-3",
+      "away_record": "2-4",
+      "home_location": "North Dakota",
+      "away_location": "SE Louisiana",
+      "home_rating_team": "North Dakota",
+      "away_rating_team": "Southeastern Louisiana",
+      "home_adj_em": -12.2,
+      "away_adj_em": -10.39,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Hard Rock Hotel Riviera Maya",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FloHoops",
+      "predicted_spread": -1.2,
+      "predicted_total": 150.9,
+      "home_projected_score": 74.8,
+      "away_projected_score": 76.1,
+      "home_win_prob": 45.5,
+      "away_win_prob": 54.5,
+      "confidence": 56.0,
+      "pick": "SE Louisiana Lions",
+      "pick_abbr": "SELA",
+      "is_home_pick": false,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": -1.24,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 145.5,
+        "spread_holder": "SE Louisiana Lions",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.3,
+      "model_vs_market": {
+        "spread_edge": -0.3,
+        "total_edge": 5.4
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -2381,6 +2435,60 @@
       },
       "is_best_bet": false,
       "is_tournament_game": true
+    },
+    {
+      "game_id": "401924705",
+      "date": "2026-11-25T19:00Z",
+      "home_team": "Columbia Lions",
+      "away_team": "Saint Peter's Peacocks",
+      "home_abbr": "COLU",
+      "away_abbr": "SPU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2612.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "0-6",
+      "home_location": "Columbia",
+      "away_location": "Saint Peter's",
+      "home_rating_team": "Columbia",
+      "away_rating_team": "Saint Peter's",
+      "home_adj_em": 0.17,
+      "away_adj_em": -15.36,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Levien Gymnasium",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 13.4,
+      "predicted_total": 131.7,
+      "home_projected_score": 72.6,
+      "away_projected_score": 59.1,
+      "home_win_prob": 88.9,
+      "away_win_prob": 11.1,
+      "confidence": 55.3,
+      "pick": "Columbia Lions",
+      "pick_abbr": "COLU",
+      "is_home_pick": true,
+      "projected_tempo": 66.3,
+      "factors": {
+        "efficiency_margin": 10.3,
+        "home_court": 3.12
+      },
+      "market": {
+        "spread": -14.5,
+        "over_under": 125.5,
+        "spread_holder": "Columbia Lions",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.1,
+      "model_vs_market": {
+        "spread_edge": -1.1,
+        "total_edge": 6.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false
     },
     {
       "game_id": "401918960",
@@ -2531,15 +2639,15 @@
         "home_court": 3.59
       },
       "market": {
-        "spread": -35.5,
-        "over_under": 161.5,
+        "spread": -34.5,
+        "over_under": 160.5,
         "spread_holder": "Oklahoma St Cowboys",
         "bookmaker": "betmgm"
       },
-      "value_rating": 11.6,
+      "value_rating": 10.6,
       "model_vs_market": {
-        "spread_edge": -11.6,
-        "total_edge": -3.8
+        "spread_edge": -10.6,
+        "total_edge": -2.8
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2586,14 +2694,14 @@
       },
       "market": {
         "spread": -14.5,
-        "over_under": 159.5,
+        "over_under": 158.5,
         "spread_holder": "Miami (OH) RedHawks",
         "bookmaker": "draftkings"
       },
       "value_rating": 1.1,
       "model_vs_market": {
         "spread_edge": 1.1,
-        "total_edge": -6.7
+        "total_edge": -5.7
       },
       "is_best_bet": false,
       "is_tournament_game": false
@@ -2640,56 +2748,56 @@
       },
       "market": {
         "spread": -36.5,
-        "over_under": 150.5,
+        "over_under": 151.5,
         "spread_holder": "UNM -36.5",
         "bookmaker": "espn"
       },
       "value_rating": 10.8,
       "model_vs_market": {
         "spread_edge": -10.8,
-        "total_edge": -7.3
+        "total_edge": -8.3
       },
       "is_best_bet": false,
       "is_tournament_game": false
     },
     {
-      "game_id": "401920547",
-      "date": "2026-11-25T17:30Z",
-      "home_team": "Detroit Mercy Titans",
-      "away_team": "Northern Colorado Bears",
-      "home_abbr": "DETM",
-      "away_abbr": "UNCO",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2174.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
+      "game_id": "401920549",
+      "date": "2026-11-25T23:00Z",
+      "home_team": "Charleston Cougars",
+      "away_team": "Kennesaw State Owls",
+      "home_abbr": "COFC",
+      "away_abbr": "KENN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "0-6",
-      "away_record": "3-4",
-      "home_location": "Detroit Mercy",
-      "away_location": "Northern Colorado",
-      "home_rating_team": "Detroit Mercy",
-      "away_rating_team": "Northern Colorado",
-      "home_adj_em": -11.83,
-      "away_adj_em": -7.66,
+      "home_record": "4-2",
+      "away_record": "5-2",
+      "home_location": "Charleston",
+      "away_location": "Kennesaw State",
+      "home_rating_team": "Charleston",
+      "away_rating_team": "Kennesaw St.",
+      "home_adj_em": 1.06,
+      "away_adj_em": 2.58,
       "home_rest_days": null,
       "away_rest_days": null,
       "venue": "Hard Rock Hotel Riviera Maya",
       "neutral_site": true,
       "conference_game": false,
-      "broadcast": "FloSports",
-      "predicted_spread": -2.9,
-      "predicted_total": 151.8,
-      "home_projected_score": 74.4,
-      "away_projected_score": 77.3,
-      "home_win_prob": 39.5,
-      "away_win_prob": 60.5,
+      "broadcast": "FloHoops",
+      "predicted_spread": -1.1,
+      "predicted_total": 157.5,
+      "home_projected_score": 78.2,
+      "away_projected_score": 79.3,
+      "home_win_prob": 46.0,
+      "away_win_prob": 54.0,
       "confidence": 45.0,
-      "pick": "Northern Colorado Bears",
-      "pick_abbr": "UNCO",
+      "pick": "Kennesaw State Owls",
+      "pick_abbr": "KENN",
       "is_home_pick": false,
-      "projected_tempo": 70.2,
+      "projected_tempo": 72.0,
       "factors": {
-        "efficiency_margin": -2.92,
+        "efficiency_margin": -1.09,
         "home_court": 0.0
       },
       "market": {
@@ -2707,43 +2815,43 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401920548",
-      "date": "2026-11-25T20:00Z",
-      "home_team": "North Dakota Fighting Hawks",
-      "away_team": "SE Louisiana Lions",
-      "home_abbr": "UND",
-      "away_abbr": "SELA",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
+      "game_id": "401920550",
+      "date": "2026-11-26T01:30Z",
+      "home_team": "UTEP Miners",
+      "away_team": "Eastern Michigan Eagles",
+      "home_abbr": "UTEP",
+      "away_abbr": "EMU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
       "home_rank": 99,
       "away_rank": 99,
-      "home_record": "4-3",
-      "away_record": "2-4",
-      "home_location": "North Dakota",
-      "away_location": "SE Louisiana",
-      "home_rating_team": "North Dakota",
-      "away_rating_team": "Southeastern Louisiana",
-      "home_adj_em": -12.2,
-      "away_adj_em": -10.39,
+      "home_record": "5-1",
+      "away_record": "5-1",
+      "home_location": "UTEP",
+      "away_location": "Eastern Michigan",
+      "home_rating_team": "UTEP",
+      "away_rating_team": "Eastern Michigan",
+      "home_adj_em": 1.09,
+      "away_adj_em": 0.01,
       "home_rest_days": null,
       "away_rest_days": null,
       "venue": "Hard Rock Hotel Riviera Maya",
       "neutral_site": true,
       "conference_game": false,
       "broadcast": "FloHoops",
-      "predicted_spread": -1.2,
-      "predicted_total": 150.9,
-      "home_projected_score": 74.8,
-      "away_projected_score": 76.1,
-      "home_win_prob": 45.5,
-      "away_win_prob": 54.5,
+      "predicted_spread": 0.7,
+      "predicted_total": 141.7,
+      "home_projected_score": 71.2,
+      "away_projected_score": 70.5,
+      "home_win_prob": 52.6,
+      "away_win_prob": 47.4,
       "confidence": 45.0,
-      "pick": "SE Louisiana Lions",
-      "pick_abbr": "SELA",
-      "is_home_pick": false,
-      "projected_tempo": 68.7,
+      "pick": "UTEP Miners",
+      "pick_abbr": "UTEP",
+      "is_home_pick": true,
+      "projected_tempo": 66.9,
       "factors": {
-        "efficiency_margin": -1.24,
+        "efficiency_margin": 0.72,
         "home_court": 0.0
       },
       "market": {
@@ -2802,29 +2910,29 @@
       },
       "market": {
         "spread": -16.5,
-        "over_under": 142.5,
+        "over_under": 140.5,
         "spread_holder": "Hawai'i Rainbow Warriors",
         "bookmaker": "betmgm"
       },
       "value_rating": 0.0,
       "model_vs_market": {
         "spread_edge": 0.0,
-        "total_edge": -0.9
+        "total_edge": 1.1
       },
       "is_best_bet": false,
       "is_tournament_game": false
     }
   ],
   "summary": {
-    "total_games": 52,
-    "high_confidence": 5,
-    "medium_confidence": 47,
+    "total_games": 54,
+    "high_confidence": 4,
+    "medium_confidence": 50,
     "low_confidence": 0,
     "avg_confidence": 60.6,
-    "value_plays": 17,
-    "best_bets": 13,
-    "with_market_line": 50,
-    "tournament_games": 24
+    "value_plays": 16,
+    "best_bets": 11,
+    "with_market_line": 52,
+    "tournament_games": 26
   },
   "early": true
 }
