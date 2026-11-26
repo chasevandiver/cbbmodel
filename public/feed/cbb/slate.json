@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-25T20:43:15.153686-05:00",
+ "generated_at": "2026-11-25T20:56:08.444288-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-25",
@@ -3034,7 +3034,7 @@
    "game_id": "401911028",
    "game_id_source": "espn",
    "start_time": "2026-11-26T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Wisconsin Badgers",
     "abbr": "WIS",
@@ -3093,7 +3093,19 @@
     "side": "away",
     "cover_line": 20.5
    },
-   "result": null,
+   "result": {
+    "home_score": 91,
+    "away_score": 54,
+    "margin_home": 37,
+    "total": 145,
+    "winner": "Wisconsin Badgers",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "best_bet",
     "value",
