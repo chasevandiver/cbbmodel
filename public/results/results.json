@@ -115972,6 +115972,74 @@
       "ou_model_correct": false
     },
     {
+      "game_id": "401918971",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "Utah State Aggies",
+      "away_team": "SMU Mustangs",
+      "home_abbr": "USU",
+      "away_abbr": "SMU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-0",
+      "away_record": "6-0",
+      "home_location": "Utah State",
+      "away_location": "SMU",
+      "home_rating_team": "Utah St.",
+      "away_rating_team": "SMU",
+      "home_adj_em": 18.53,
+      "away_adj_em": 16.13,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Acrisure Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "CBSSN",
+      "predicted_spread": 1.7,
+      "predicted_total": 161.1,
+      "home_projected_score": 81.4,
+      "away_projected_score": 79.7,
+      "home_win_prob": 56.2,
+      "away_win_prob": 43.8,
+      "confidence": 66.2,
+      "pick": "Utah State Aggies",
+      "pick_abbr": "USU",
+      "is_home_pick": true,
+      "projected_tempo": 71.1,
+      "factors": {
+        "efficiency_margin": 1.71,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 167.5,
+        "spread_holder": "USU -4.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 2.8,
+      "model_vs_market": {
+        "spread_edge": -2.8,
+        "total_edge": -6.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 4.5,
+      "clv": null,
+      "actual_home_score": 93,
+      "actual_away_score": 59,
+      "actual_margin": 34,
+      "actual_total": 152,
+      "actual_winner": "Utah State Aggies",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
       "game_id": "401920076",
       "date": "2026-11-26T00:00Z",
       "home_team": "George Mason Patriots",
@@ -116345,16 +116413,302 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401911522",
+      "date": "2026-11-26T01:00Z",
+      "home_team": "UC Davis Aggies",
+      "away_team": "Omaha Mavericks",
+      "home_abbr": "UCD",
+      "away_abbr": "OMA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "3-3",
+      "home_location": "UC Davis",
+      "away_location": "Omaha",
+      "home_rating_team": "UC Davis",
+      "away_rating_team": "Nebraska Omaha",
+      "home_adj_em": -4.52,
+      "away_adj_em": -14.24,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Resorts World Event Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FloSports",
+      "predicted_spread": 6.8,
+      "predicted_total": 143.4,
+      "home_projected_score": 75.1,
+      "away_projected_score": 68.3,
+      "home_win_prob": 73.2,
+      "away_win_prob": 26.8,
+      "confidence": 56.4,
+      "pick": "UC Davis Aggies",
+      "pick_abbr": "UCD",
+      "is_home_pick": true,
+      "projected_tempo": 70.0,
+      "factors": {
+        "efficiency_margin": 6.81,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -6.5,
+        "over_under": 147.5,
+        "spread_holder": "UC Davis Aggies",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 0.4,
+      "model_vs_market": {
+        "spread_edge": 0.4,
+        "total_edge": -4.4
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -4.5,
+        "over_under": 146.5,
+        "spread_holder": "UC Davis Aggies",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 6.5,
+      "clv": null,
+      "actual_home_score": 80,
+      "actual_away_score": 78,
+      "actual_margin": 2,
+      "actual_total": 158,
+      "actual_winner": "UC Davis Aggies",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920138",
+      "date": "2026-11-26T01:00Z",
+      "home_team": "Pepperdine Waves",
+      "away_team": "Cal State Bakersfield Roadrunners",
+      "home_abbr": "PEPP",
+      "away_abbr": "CSUB",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2934.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-3",
+      "away_record": "4-1",
+      "home_location": "Pepperdine",
+      "away_location": "Cal State Bakersfield",
+      "home_rating_team": "Pepperdine",
+      "away_rating_team": "Cal St. Bakersfield",
+      "home_adj_em": 1.12,
+      "away_adj_em": -9.43,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Firestone Fieldhouse",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 10.6,
+      "predicted_total": 163.7,
+      "home_projected_score": 87.1,
+      "away_projected_score": 76.5,
+      "home_win_prob": 83.2,
+      "away_win_prob": 16.8,
+      "confidence": 50.3,
+      "pick": "Pepperdine Waves",
+      "pick_abbr": "PEPP",
+      "is_home_pick": true,
+      "projected_tempo": 69.8,
+      "factors": {
+        "efficiency_margin": 7.36,
+        "home_court": 3.21
+      },
+      "market": {
+        "spread": -10.5,
+        "over_under": 160.5,
+        "spread_holder": "PEPP -10.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.1,
+      "model_vs_market": {
+        "spread_edge": 0.1,
+        "total_edge": 3.1
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 10.5,
+      "clv": null,
+      "actual_home_score": 70,
+      "actual_away_score": 68,
+      "actual_margin": 2,
+      "actual_total": 138,
+      "actual_winner": "Pepperdine Waves",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920550",
+      "date": "2026-11-26T01:30Z",
+      "home_team": "UTEP Miners",
+      "away_team": "Eastern Michigan Eagles",
+      "home_abbr": "UTEP",
+      "away_abbr": "EMU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "5-1",
+      "home_location": "UTEP",
+      "away_location": "Eastern Michigan",
+      "home_rating_team": "UTEP",
+      "away_rating_team": "Eastern Michigan",
+      "home_adj_em": 2.23,
+      "away_adj_em": 0.52,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Hard Rock Hotel Riviera Maya",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FloHoops",
+      "predicted_spread": 1.1,
+      "predicted_total": 138.9,
+      "home_projected_score": 70.0,
+      "away_projected_score": 68.9,
+      "home_win_prob": 54.1,
+      "away_win_prob": 45.9,
+      "confidence": 57.8,
+      "pick": "UTEP Miners",
+      "pick_abbr": "UTEP",
+      "is_home_pick": true,
+      "projected_tempo": 67.0,
+      "factors": {
+        "efficiency_margin": 1.14,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 131.5,
+        "spread_holder": "UTEP Miners",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.5,
+      "model_vs_market": {
+        "spread_edge": -0.5,
+        "total_edge": 7.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -1.5,
+        "over_under": 129.5,
+        "spread_holder": "UTEP Miners",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-25T20:42:59.880050-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 1.5,
+      "clv": null,
+      "actual_home_score": 72,
+      "actual_away_score": 54,
+      "actual_margin": 18,
+      "actual_total": 126,
+      "actual_winner": "UTEP Miners",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401924897",
+      "date": "2026-11-26T02:00Z",
+      "home_team": "New Mexico Lobos",
+      "away_team": "Mississippi Valley State Delta Devils",
+      "home_abbr": "UNM",
+      "away_abbr": "MVSU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2400.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "0-5",
+      "home_location": "New Mexico",
+      "away_location": "Mississippi Valley State",
+      "home_rating_team": "New Mexico",
+      "away_rating_team": "Mississippi Valley St.",
+      "home_adj_em": 11.77,
+      "away_adj_em": -18.87,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "The Pit",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "MW+",
+      "predicted_spread": 25.2,
+      "predicted_total": 143.9,
+      "home_projected_score": 84.6,
+      "away_projected_score": 59.4,
+      "home_win_prob": 98.9,
+      "away_win_prob": 1.1,
+      "confidence": 49.0,
+      "pick": "New Mexico Lobos",
+      "pick_abbr": "UNM",
+      "is_home_pick": true,
+      "projected_tempo": 69.5,
+      "factors": {
+        "efficiency_margin": 21.31,
+        "home_court": 3.88
+      },
+      "market": {
+        "spread": -36.5,
+        "over_under": 152.5,
+        "spread_holder": "UNM -36.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 11.3,
+      "model_vs_market": {
+        "spread_edge": -11.3,
+        "total_edge": -8.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 36.5,
+      "clv": null,
+      "actual_home_score": 100,
+      "actual_away_score": 77,
+      "actual_margin": 23,
+      "actual_total": 177,
+      "actual_winner": "New Mexico Lobos",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 943,
-      "model_mae": 9.97,
-      "market_mae": 9.67,
-      "intercept": -0.58,
-      "model_weight": 0.142,
-      "market_weight": 0.88,
+      "n": 948,
+      "model_mae": 9.99,
+      "market_mae": 9.7,
+      "intercept": -0.51,
+      "model_weight": 0.133,
+      "market_weight": 0.883,
       "ats_by_edge": {
         "0-2": {
           "w": 181,
@@ -116363,8 +116717,8 @@
         },
         "2-4": {
           "w": 142,
-          "l": 126,
-          "pct": 53.0
+          "l": 127,
+          "pct": 52.8
         },
         "4-7": {
           "w": 93,
@@ -116372,9 +116726,9 @@
           "pct": 53.1
         },
         "7+": {
-          "w": 40,
+          "w": 41,
           "l": 37,
-          "pct": 51.9
+          "pct": 52.6
         }
       }
     },
@@ -116401,26 +116755,26 @@
         "n": 0
       }
     },
-    "total_graded": 952,
-    "ats_graded": 827,
+    "total_graded": 957,
+    "ats_graded": 829,
     "ats": {
-      "w": 456,
-      "l": 371,
+      "w": 457,
+      "l": 372,
       "p": 0,
       "pct": 55.1
     },
     "su": {
-      "correct": 714,
-      "total": 952,
-      "pct": 75.0
+      "correct": 719,
+      "total": 957,
+      "pct": 75.1
     },
     "ou": {
-      "over": 459,
-      "under": 484,
+      "over": 461,
+      "under": 487,
       "push": 0,
-      "model_correct": 486,
-      "model_gradeable": 943,
-      "model_pct": 51.5
+      "model_correct": 487,
+      "model_gradeable": 948,
+      "model_pct": 51.4
     },
     "by_confidence": {
       "high": {
@@ -116430,8 +116784,8 @@
         "pct": 49.3
       },
       "medium": {
-        "w": 421,
-        "l": 335,
+        "w": 422,
+        "l": 336,
         "p": 0,
         "pct": 55.7
       },
@@ -116443,10 +116797,10 @@
       }
     },
     "value_plays": {
-      "w": 190,
+      "w": 191,
       "l": 167,
       "p": 0,
-      "pct": 53.2
+      "pct": 53.4
     },
     "best_bets": {
       "w": 118,
@@ -116458,12 +116812,12 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1651,
-        "model_mae": 10.36,
-        "market_mae": 9.35,
-        "intercept": -0.02,
-        "model_weight": 0.0,
-        "market_weight": 0.976,
+        "n": 1656,
+        "model_mae": 10.37,
+        "market_mae": 9.37,
+        "intercept": 0.01,
+        "model_weight": -0.001,
+        "market_weight": 0.974,
         "ats_by_edge": {
           "0-2": {
             "w": 295,
@@ -116472,8 +116826,8 @@
           },
           "2-4": {
             "w": 237,
-            "l": 206,
-            "pct": 53.5
+            "l": 207,
+            "pct": 53.4
           },
           "4-7": {
             "w": 131,
@@ -116481,9 +116835,9 @@
             "pct": 53.0
           },
           "7+": {
-            "w": 101,
+            "w": 102,
             "l": 99,
-            "pct": 50.5
+            "pct": 50.7
           }
         }
       },
@@ -116510,26 +116864,26 @@
           "n": 0
         }
       },
-      "total_graded": 1670,
-      "ats_graded": 1433,
+      "total_graded": 1675,
+      "ats_graded": 1435,
       "ats": {
-        "w": 764,
-        "l": 669,
+        "w": 765,
+        "l": 670,
         "p": 0,
         "pct": 53.3
       },
       "su": {
-        "correct": 1182,
-        "total": 1670,
-        "pct": 70.8
+        "correct": 1187,
+        "total": 1675,
+        "pct": 70.9
       },
       "ou": {
-        "over": 809,
-        "under": 842,
+        "over": 811,
+        "under": 845,
         "push": 0,
-        "model_correct": 843,
-        "model_gradeable": 1651,
-        "model_pct": 51.1
+        "model_correct": 844,
+        "model_gradeable": 1656,
+        "model_pct": 51.0
       },
       "by_confidence": {
         "high": {
@@ -116539,8 +116893,8 @@
           "pct": 48.9
         },
         "medium": {
-          "w": 588,
-          "l": 481,
+          "w": 589,
+          "l": 482,
           "p": 0,
           "pct": 55.0
         },
@@ -116552,10 +116906,10 @@
         }
       },
       "value_plays": {
-        "w": 335,
+        "w": 336,
         "l": 297,
         "p": 0,
-        "pct": 53.0
+        "pct": 53.1
       },
       "best_bets": {
         "w": 155,
@@ -116565,5 +116919,5 @@
       }
     }
   },
-  "generated_at": "2026-11-25T21:42:29.005197-05:00"
+  "generated_at": "2026-11-25T22:50:08.492674-05:00"
 }

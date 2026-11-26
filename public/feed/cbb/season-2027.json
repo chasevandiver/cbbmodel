@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-25T21:42:29.156097-05:00",
+ "generated_at": "2026-11-25T22:50:08.620803-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -79212,7 +79212,7 @@
    "game_id": "401918971",
    "game_id_source": "espn",
    "start_time": "2026-11-26T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Utah State Aggies",
     "abbr": "USU",
@@ -79265,7 +79265,19 @@
     "side": "away",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 93,
+    "away_score": 59,
+    "margin_home": 34,
+    "total": 152,
+    "winner": "Utah State Aggies",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -79774,7 +79786,7 @@
    "game_id": "401911522",
    "game_id_source": "espn",
    "start_time": "2026-11-26T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UC Davis Aggies",
     "abbr": "UCD",
@@ -79833,7 +79845,19 @@
     "side": "none",
     "cover_line": 6.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 78,
+    "margin_home": 2,
+    "total": 158,
+    "winner": "UC Davis Aggies",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -79848,7 +79872,7 @@
    "game_id": "401920138",
    "game_id_source": "espn",
    "start_time": "2026-11-26T01:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Pepperdine Waves",
     "abbr": "PEPP",
@@ -79901,7 +79925,19 @@
     "side": "none",
     "cover_line": 10.5
    },
-   "result": null,
+   "result": {
+    "home_score": 70,
+    "away_score": 68,
+    "margin_home": 2,
+    "total": 138,
+    "winner": "Pepperdine Waves",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -79914,7 +79950,7 @@
    "game_id": "401920550",
    "game_id_source": "espn",
    "start_time": "2026-11-26T01:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UTEP Miners",
     "abbr": "UTEP",
@@ -79973,7 +80009,19 @@
     "side": "none",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 54,
+    "margin_home": 18,
+    "total": 126,
+    "winner": "UTEP Miners",
+    "su_correct": true,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -80060,7 +80108,7 @@
    "game_id": "401924897",
    "game_id_source": "espn",
    "start_time": "2026-11-26T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "New Mexico Lobos",
     "abbr": "UNM",
@@ -80113,7 +80161,19 @@
     "side": "away",
     "cover_line": 36.5
    },
-   "result": null,
+   "result": {
+    "home_score": 100,
+    "away_score": 77,
+    "margin_home": 23,
+    "total": 177,
+    "winner": "New Mexico Lobos",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "value"
    ]
@@ -80317,7 +80377,7 @@
     "total": 132.5,
     "favorite": "Pacific Tigers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-25T21:42:13.595566-05:00"
+    "captured_at": "2026-11-25T22:50:07.956430-05:00"
    },
    "edge": {
     "spread": 0.0,
