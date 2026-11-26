@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-26T04:08:05.575681-05:00",
+ "generated_at": "2026-11-26T06:14:08.431483-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-26",
@@ -61,7 +61,7 @@
    },
    "market": {
     "spread_home": -1.5,
-    "total": 155.5,
+    "total": 154.5,
     "favorite": "Cincinnati Bearcats",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -69,7 +69,7 @@
    "closing": null,
    "edge": {
     "spread": -0.4,
-    "total": -0.2,
+    "total": 0.8,
     "value_rating": 0.4,
     "is_best_bet": false
    },
@@ -129,7 +129,7 @@
    },
    "market": {
     "spread_home": -4.5,
-    "total": 142.5,
+    "total": 141.5,
     "favorite": "Purdue Boilermakers",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -137,7 +137,7 @@
    "closing": null,
    "edge": {
     "spread": 1.8,
-    "total": 6.1,
+    "total": 7.1,
     "value_rating": 1.8,
     "is_best_bet": false
    },
@@ -529,7 +529,7 @@
     "home_score": 69.0,
     "away_score": 68.4,
     "home_win_prob": 52.4,
-    "confidence": 62.4,
+    "confidence": 66.4,
     "tempo": 68.6,
     "confidence_tier": "medium",
     "pick": {
@@ -539,7 +539,7 @@
     }
    },
    "market": {
-    "spread_home": -2.5,
+    "spread_home": -3.5,
     "total": 139.5,
     "favorite": "Iowa State Cyclones",
     "bookmaker": "draftkings",
@@ -547,14 +547,14 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.9,
+    "spread": -2.9,
     "total": -2.1,
-    "value_rating": 1.9,
+    "value_rating": 2.9,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 2.5
+    "cover_line": 3.5
    },
    "result": null,
    "tags": [
@@ -608,7 +608,7 @@
    },
    "market": {
     "spread_home": 2.5,
-    "total": 159.5,
+    "total": 158.5,
     "favorite": "Miami Hurricanes",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -616,7 +616,7 @@
    "closing": null,
    "edge": {
     "spread": 1.2,
-    "total": -2.2,
+    "total": -1.2,
     "value_rating": 1.2,
     "is_best_bet": false
    },
@@ -744,7 +744,7 @@
    },
    "market": {
     "spread_home": -5.5,
-    "total": 150.5,
+    "total": 149.5,
     "favorite": "Michigan St Spartans",
     "bookmaker": "fanduel",
     "captured_at": null
@@ -752,7 +752,7 @@
    "closing": null,
    "edge": {
     "spread": -1.2,
-    "total": 0.1,
+    "total": 1.1,
     "value_rating": 1.2,
     "is_best_bet": false
    },
