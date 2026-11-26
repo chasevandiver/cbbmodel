@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-26T15:06:56.154616-05:00",
+ "generated_at": "2026-11-26T16:26:26.200757-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -80921,14 +80921,14 @@
     "name": "San Diego State Aztecs",
     "abbr": "SDSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
-    "record": "5-1",
+    "record": "6-1",
     "rank": null
    },
    "away": {
     "name": "Maryland Terrapins",
     "abbr": "MD",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-    "record": "3-3",
+    "record": "3-4",
     "rank": null
    },
    "venue": "Michelob ULTRA Arena",
@@ -80983,14 +80983,14 @@
     "name": "UCF Knights",
     "abbr": "UCF",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
-    "record": "4-2",
+    "record": "4-3",
     "rank": null
    },
    "away": {
     "name": "Boston College Eagles",
     "abbr": "BC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-    "record": "6-0",
+    "record": "7-0",
     "rank": null
    },
    "venue": "State Farm Field House",
@@ -81051,14 +81051,14 @@
     "name": "South Carolina Gamecocks",
     "abbr": "SC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-    "record": "5-1",
+    "record": "6-1",
     "rank": null
    },
    "away": {
     "name": "Arizona State Sun Devils",
     "abbr": "ASU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
-    "record": "5-1",
+    "record": "5-2",
     "rank": null
    },
    "venue": "Acrisure Arena",
@@ -81316,18 +81316,18 @@
    "start_time": "2026-11-26T21:30Z",
    "status": "pending",
    "home": {
-    "name": "USC Trojans",
-    "abbr": "USC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-    "record": "7-0",
-    "rank": 18
-   },
-   "away": {
     "name": "Utah State Aggies",
     "abbr": "USU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
     "record": "6-0",
     "rank": null
+   },
+   "away": {
+    "name": "USC Trojans",
+    "abbr": "USC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+    "record": "7-0",
+    "rank": 18
    },
    "venue": "Acrisure Arena",
    "neutral_site": true,
@@ -81335,37 +81335,37 @@
    "broadcast": "CBSSN",
    "model": {
     "version": "4.1.0",
-    "spread_home": 0.4,
+    "spread_home": -0.4,
     "total": 156.7,
-    "home_score": 78.2,
-    "away_score": 78.6,
-    "home_win_prob": 48.4,
-    "confidence": 67.7,
+    "home_score": 78.6,
+    "away_score": 78.2,
+    "home_win_prob": 51.6,
+    "confidence": 63.7,
     "tempo": 70.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Utah State Aggies",
      "abbr": "USU",
-     "side": "away"
+     "side": "home"
     }
    },
    "market": {
-    "spread_home": -2.5,
-    "total": 164.5,
-    "favorite": "USC Trojans",
-    "bookmaker": "fanduel",
+    "spread_home": 1.5,
+    "total": 156.5,
+    "favorite": "USC -1.5",
+    "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -2.9,
-    "total": -7.8,
-    "value_rating": 2.9,
+    "spread": 1.9,
+    "total": 0.2,
+    "value_rating": 1.9,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": 2.5
+    "side": "home",
+    "cover_line": -1.5
    },
    "result": null,
    "tags": [
