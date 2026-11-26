@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-26T17:16:21.819237-05:00",
+ "generated_at": "2026-11-26T17:57:44.691932-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -81251,14 +81251,14 @@
     "name": "Michigan Wolverines",
     "abbr": "MICH",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-    "record": "3-3",
+    "record": "3-4",
     "rank": null
    },
    "away": {
     "name": "Miami Hurricanes",
     "abbr": "MIA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-    "record": "5-2",
+    "record": "6-2",
     "rank": 17
    },
    "venue": "T-Mobile Arena",
@@ -81452,18 +81452,18 @@
    "start_time": "2026-11-26T22:00Z",
    "status": "pending",
    "home": {
-    "name": "UCLA Bruins",
-    "abbr": "UCLA",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-    "record": "6-0",
-    "rank": 6
-   },
-   "away": {
     "name": "Saint Mary's Gaels",
     "abbr": "SMC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
     "record": "6-1",
     "rank": null
+   },
+   "away": {
+    "name": "UCLA Bruins",
+    "abbr": "UCLA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+    "record": "6-0",
+    "rank": 6
    },
    "venue": "Jenny Craig Pavilion",
    "neutral_site": true,
@@ -81471,37 +81471,31 @@
    "broadcast": "FS1",
    "model": {
     "version": "4.1.0",
-    "spread_home": -5.4,
+    "spread_home": 5.4,
     "total": 156.7,
-    "home_score": 81.0,
-    "away_score": 75.6,
-    "home_win_prob": 68.7,
-    "confidence": 64.6,
+    "home_score": 75.6,
+    "away_score": 81.0,
+    "home_win_prob": 31.3,
+    "confidence": 46.0,
     "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "UCLA Bruins",
      "abbr": "UCLA",
-     "side": "home"
+     "side": "away"
     }
    },
-   "market": {
-    "spread_home": -7.5,
-    "total": 153.5,
-    "favorite": "UCLA Bruins",
-    "bookmaker": "fanduel",
-    "captured_at": null
-   },
+   "market": null,
    "closing": null,
    "edge": {
-    "spread": -2.1,
-    "total": 3.2,
-    "value_rating": 2.1,
+    "spread": null,
+    "total": null,
+    "value_rating": null,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": 7.5
+    "side": "none",
+    "cover_line": null
    },
    "result": null,
    "tags": [
