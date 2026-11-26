@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-25T18:50:24.408793-05:00",
+ "generated_at": "2026-11-25T20:43:15.153686-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-25",
@@ -2009,7 +2009,7 @@
    "game_id": "401920237",
    "game_id_source": "espn",
    "start_time": "2026-11-25T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Dartmouth Big Green",
     "abbr": "DART",
@@ -2062,7 +2062,19 @@
     "side": "away",
     "cover_line": 11.5
    },
-   "result": null,
+   "result": {
+    "home_score": 65,
+    "away_score": 67,
+    "margin_home": -2,
+    "total": 132,
+    "winner": "Holy Cross Crusaders",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -2078,7 +2090,7 @@
    "game_id": "401925688",
    "game_id_source": "espn",
    "start_time": "2026-11-25T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Texas State Bobcats",
     "abbr": "TXST",
@@ -2131,7 +2143,19 @@
     "side": "home",
     "cover_line": 23.5
    },
-   "result": null,
+   "result": {
+    "home_score": 97,
+    "away_score": 70,
+    "margin_home": 27,
+    "total": 167,
+    "winner": "Texas State Bobcats",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -2146,7 +2170,7 @@
    "game_id": "401925917",
    "game_id_source": "espn",
    "start_time": "2026-11-25T22:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UC Riverside Highlanders",
     "abbr": "UCR",
@@ -2199,7 +2223,19 @@
     "side": "away",
     "cover_line": 2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 65,
+    "away_score": 72,
+    "margin_home": -7,
+    "total": 137,
+    "winner": "Portland State Vikings",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -2293,7 +2329,7 @@
    "game_id": "401921670",
    "game_id_source": "espn",
    "start_time": "2026-11-25T22:17Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "USC Trojans",
     "abbr": "USC",
@@ -2346,7 +2382,19 @@
     "side": "away",
     "cover_line": 10.5
    },
-   "result": null,
+   "result": {
+    "home_score": 71,
+    "away_score": 69,
+    "margin_home": 2,
+    "total": 140,
+    "winner": "USC Trojans",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -2361,7 +2409,7 @@
    "game_id": "401921716",
    "game_id_source": "espn",
    "start_time": "2026-11-25T22:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Providence Friars",
     "abbr": "PROV",
@@ -2414,7 +2462,19 @@
     "side": "away",
     "cover_line": -3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 82,
+    "away_score": 85,
+    "margin_home": -3,
+    "total": 167,
+    "winner": "BYU Cougars",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -2429,7 +2489,7 @@
    "game_id": "401909720",
    "game_id_source": "espn",
    "start_time": "2026-11-25T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Syracuse Orange",
     "abbr": "SYR",
@@ -2482,7 +2542,19 @@
     "side": "away",
     "cover_line": 26.5
    },
-   "result": null,
+   "result": {
+    "home_score": 74,
+    "away_score": 53,
+    "margin_home": 21,
+    "total": 127,
+    "winner": "Syracuse Orange",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -2498,7 +2570,7 @@
    "game_id": "401911241",
    "game_id_source": "espn",
    "start_time": "2026-11-25T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Richmond Spiders",
     "abbr": "RICH",
@@ -2551,7 +2623,19 @@
     "side": "away",
     "cover_line": 11.5
    },
-   "result": null,
+   "result": {
+    "home_score": 86,
+    "away_score": 79,
+    "margin_home": 7,
+    "total": 165,
+    "winner": "Richmond Spiders",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -2567,7 +2651,7 @@
    "game_id": "401920299",
    "game_id_source": "espn",
    "start_time": "2026-11-25T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Weber State Wildcats",
     "abbr": "WEB",
@@ -2620,7 +2704,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 67,
+    "away_score": 89,
+    "margin_home": -22,
+    "total": 156,
+    "winner": "Cal State Northridge Matadors",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -2633,7 +2729,7 @@
    "game_id": "401920549",
    "game_id_source": "espn",
    "start_time": "2026-11-25T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Charleston Cougars",
     "abbr": "COFC",
@@ -2686,7 +2782,19 @@
     "side": "away",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 91,
+    "away_score": 77,
+    "margin_home": 14,
+    "total": 168,
+    "winner": "Charleston Cougars",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -2703,7 +2811,7 @@
    "game_id": "401922253",
    "game_id_source": "espn",
    "start_time": "2026-11-25T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Northwestern State Demons",
     "abbr": "NWST",
@@ -2756,7 +2864,19 @@
     "side": "home",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 71,
+    "away_score": 57,
+    "margin_home": 14,
+    "total": 128,
+    "winner": "Northwestern State Demons",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
@@ -3537,7 +3657,7 @@
     "total": 148.5,
     "favorite": "Mississippi St Bulldogs",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-25T18:50:09.600579-05:00"
+    "captured_at": "2026-11-25T20:42:59.880050-05:00"
    },
    "edge": {
     "spread": -0.8,
@@ -3748,10 +3868,10 @@
    },
    "closing": {
     "spread_home": -1.5,
-    "total": 131.5,
+    "total": 129.5,
     "favorite": "UTEP Miners",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-25T18:50:09.600579-05:00"
+    "captured_at": "2026-11-25T20:42:59.880050-05:00"
    },
    "edge": {
     "spread": -0.4,
@@ -3822,10 +3942,10 @@
    },
    "closing": {
     "spread_home": -7.5,
-    "total": 151.5,
+    "total": 152.5,
     "favorite": "Loyola Marymount Lions",
     "bookmaker": "betmgm",
-    "captured_at": "2026-11-25T18:50:09.600579-05:00"
+    "captured_at": "2026-11-25T20:42:59.880050-05:00"
    },
    "edge": {
     "spread": -0.6,
@@ -4029,11 +4149,11 @@
     "captured_at": null
    },
    "closing": {
-    "spread_home": -3.5,
-    "total": 144.5,
+    "spread_home": -4.5,
+    "total": 143.5,
     "favorite": "VCU Rams",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-25T18:50:09.600579-05:00"
+    "captured_at": "2026-11-25T20:42:59.880050-05:00"
    },
    "edge": {
     "spread": -1.1,
@@ -4102,7 +4222,13 @@
     "bookmaker": "espn",
     "captured_at": null
    },
-   "closing": null,
+   "closing": {
+    "spread_home": 3.5,
+    "total": 132.5,
+    "favorite": "Pacific Tigers",
+    "bookmaker": "draftkings",
+    "captured_at": "2026-11-25T20:42:59.880050-05:00"
+   },
    "edge": {
     "spread": 0.0,
     "total": 6.6,

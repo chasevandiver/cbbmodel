@@ -2046,11 +2046,11 @@
       "is_best_bet": false,
       "is_tournament_game": true,
       "closing_line": {
-        "spread": -3.5,
-        "over_under": 144.5,
+        "spread": -4.5,
+        "over_under": 143.5,
         "spread_holder": "VCU Rams",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+        "captured_at": "2026-11-25T20:42:59.880050-05:00"
       }
     },
     {
@@ -2111,7 +2111,7 @@
         "over_under": 148.5,
         "spread_holder": "Mississippi St Bulldogs",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+        "captured_at": "2026-11-25T20:42:59.880050-05:00"
       }
     },
     {
@@ -2277,10 +2277,10 @@
       "is_tournament_game": false,
       "closing_line": {
         "spread": -7.5,
-        "over_under": 151.5,
+        "over_under": 152.5,
         "spread_holder": "Loyola Marymount Lions",
         "bookmaker": "betmgm",
-        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+        "captured_at": "2026-11-25T20:42:59.880050-05:00"
       }
     },
     {
@@ -2453,10 +2453,10 @@
       "is_tournament_game": true,
       "closing_line": {
         "spread": -1.5,
-        "over_under": 131.5,
+        "over_under": 129.5,
         "spread_holder": "UTEP Miners",
         "bookmaker": "draftkings",
-        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+        "captured_at": "2026-11-25T20:42:59.880050-05:00"
       }
     },
     {
@@ -2680,7 +2680,14 @@
         "total_edge": 6.4
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 3.5,
+        "over_under": 132.5,
+        "spread_holder": "Pacific Tigers",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-25T20:42:59.880050-05:00"
+      }
     },
     {
       "game_id": "401920428",
