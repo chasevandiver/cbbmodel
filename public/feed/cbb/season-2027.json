@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-25T20:56:08.444288-05:00",
+ "generated_at": "2026-11-25T21:42:29.156097-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -78874,7 +78874,7 @@
    "game_id": "401917182",
    "game_id_source": "espn",
    "start_time": "2026-11-25T23:35Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Penn State Nittany Lions",
     "abbr": "PSU",
@@ -78933,7 +78933,19 @@
     "side": "home",
     "cover_line": -4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 70,
+    "away_score": 83,
+    "margin_home": -13,
+    "total": 153,
+    "winner": "Memphis Tigers",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": [
     "tournament"
    ]
@@ -78948,7 +78960,7 @@
    "game_id": "401909568",
    "game_id_source": "espn",
    "start_time": "2026-11-26T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Duke Blue Devils",
     "abbr": "DUKE",
@@ -79001,7 +79013,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 63,
+    "away_score": 77,
+    "margin_home": -14,
+    "total": 140,
+    "winner": "UConn Huskies",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -79104,7 +79128,7 @@
    "game_id": "401918960",
    "game_id_source": "espn",
    "start_time": "2026-11-26T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "NC State Wolfpack",
     "abbr": "NCSU",
@@ -79163,7 +79187,19 @@
     "side": "home",
     "cover_line": 27.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 49,
+    "margin_home": 31,
+    "total": 129,
+    "winner": "NC State Wolfpack",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -79244,7 +79280,7 @@
    "game_id": "401920076",
    "game_id_source": "espn",
    "start_time": "2026-11-26T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "George Mason Patriots",
     "abbr": "GMU",
@@ -79303,7 +79339,19 @@
     "side": "away",
     "cover_line": 15.5
    },
-   "result": null,
+   "result": {
+    "home_score": 93,
+    "away_score": 58,
+    "margin_home": 35,
+    "total": 151,
+    "winner": "George Mason Patriots",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -79316,7 +79364,7 @@
    "game_id": "401920847",
    "game_id_source": "espn",
    "start_time": "2026-11-26T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UNC Wilmington Seahawks",
     "abbr": "UNCW",
@@ -79375,7 +79423,19 @@
     "side": "away",
     "cover_line": 6.5
    },
-   "result": null,
+   "result": {
+    "home_score": 86,
+    "away_score": 77,
+    "margin_home": 9,
+    "total": 163,
+    "winner": "UNC Wilmington Seahawks",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": []
   },
   {
@@ -79388,7 +79448,7 @@
    "game_id": "401920916",
    "game_id_source": "espn",
    "start_time": "2026-11-26T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "SIU Edwardsville Cougars",
     "abbr": "SIUE",
@@ -79447,7 +79507,19 @@
     "side": "home",
     "cover_line": -4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 65,
+    "away_score": 68,
+    "margin_home": -3,
+    "total": 133,
+    "winner": "Northern Illinois Huskies",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 2.0
+   },
    "tags": []
   },
   {
@@ -79460,7 +79532,7 @@
    "game_id": "401921108",
    "game_id_source": "espn",
    "start_time": "2026-11-26T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Northern Kentucky Norse",
     "abbr": "NKU",
@@ -79519,7 +79591,19 @@
     "side": "away",
     "cover_line": 6.5
    },
-   "result": null,
+   "result": {
+    "home_score": 52,
+    "away_score": 66,
+    "margin_home": -14,
+    "total": 118,
+    "winner": "Bellarmine Knights",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -79532,7 +79616,7 @@
    "game_id": "401922285",
    "game_id_source": "espn",
    "start_time": "2026-11-26T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "The Citadel Bulldogs",
     "abbr": "CIT",
@@ -79591,7 +79675,19 @@
     "side": "home",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 54,
+    "margin_home": 18,
+    "total": 126,
+    "winner": "The Citadel Bulldogs",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": []
   },
   {
@@ -80147,7 +80243,7 @@
     "total": 143.5,
     "favorite": "VCU Rams",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-25T20:42:59.880050-05:00"
+    "captured_at": "2026-11-25T21:42:13.595566-05:00"
    },
    "edge": {
     "spread": -1.1,
@@ -80221,7 +80317,7 @@
     "total": 132.5,
     "favorite": "Pacific Tigers",
     "bookmaker": "draftkings",
-    "captured_at": "2026-11-25T20:42:59.880050-05:00"
+    "captured_at": "2026-11-25T21:42:13.595566-05:00"
    },
    "edge": {
     "spread": 0.0,

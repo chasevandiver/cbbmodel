@@ -115679,6 +115679,149 @@
       "ou_model_correct": false
     },
     {
+      "game_id": "401917182",
+      "date": "2026-11-25T23:35Z",
+      "home_team": "Penn State Nittany Lions",
+      "away_team": "Memphis Tigers",
+      "home_abbr": "PSU",
+      "away_abbr": "MEM",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+      "home_rank": 99,
+      "away_rank": 24,
+      "home_record": "5-1",
+      "away_record": "4-1",
+      "home_location": "Penn State",
+      "away_location": "Memphis",
+      "home_rating_team": "Penn St.",
+      "away_rating_team": "Memphis",
+      "home_adj_em": 8.2,
+      "away_adj_em": 12.03,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Imperial Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": -2.7,
+      "predicted_total": 167.6,
+      "home_projected_score": 82.4,
+      "away_projected_score": 85.2,
+      "home_win_prob": 40.2,
+      "away_win_prob": 59.8,
+      "confidence": 62.0,
+      "pick": "Memphis Tigers",
+      "pick_abbr": "MEM",
+      "is_home_pick": false,
+      "projected_tempo": 71.2,
+      "factors": {
+        "efficiency_margin": -2.73,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 4.5,
+        "over_under": 163.5,
+        "spread_holder": "Memphis Tigers",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 1.8,
+      "model_vs_market": {
+        "spread_edge": -1.8,
+        "total_edge": 4.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 4.5,
+        "over_under": 162.5,
+        "spread_holder": "Memphis Tigers",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -4.5,
+      "clv": 0.0,
+      "actual_home_score": 70,
+      "actual_away_score": 83,
+      "actual_margin": -13,
+      "actual_total": 153,
+      "actual_winner": "Memphis Tigers",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401909568",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "Duke Blue Devils",
+      "away_team": "UConn Huskies",
+      "home_abbr": "DUKE",
+      "away_abbr": "CONN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+      "home_rank": 16,
+      "away_rank": 10,
+      "home_record": "4-2",
+      "away_record": "4-1",
+      "home_location": "Duke",
+      "away_location": "UConn",
+      "home_rating_team": "Duke",
+      "away_rating_team": "Connecticut",
+      "home_adj_em": 25.77,
+      "away_adj_em": 25.97,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "T-Mobile Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "Prime Video",
+      "predicted_spread": -0.1,
+      "predicted_total": 148.2,
+      "home_projected_score": 74.0,
+      "away_projected_score": 74.2,
+      "home_win_prob": 49.5,
+      "away_win_prob": 50.5,
+      "confidence": 64.4,
+      "pick": "UConn Huskies",
+      "pick_abbr": "CONN",
+      "is_home_pick": false,
+      "projected_tempo": 69.3,
+      "factors": {
+        "efficiency_margin": -0.14,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 146.5,
+        "spread_holder": "CONN -2.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 2.3,
+      "model_vs_market": {
+        "spread_edge": -2.3,
+        "total_edge": 1.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -2.5,
+      "clv": null,
+      "actual_home_score": 63,
+      "actual_away_score": 77,
+      "actual_margin": -14,
+      "actual_total": 140,
+      "actual_winner": "UConn Huskies",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
       "game_id": "401911028",
       "date": "2026-11-26T00:00Z",
       "home_team": "Wisconsin Badgers",
@@ -115752,26 +115895,476 @@
       "ou_result": "U",
       "model_ou_call": "U",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401918960",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "NC State Wolfpack",
+      "away_team": "Norfolk State Spartans",
+      "home_abbr": "NCSU",
+      "away_abbr": "NORF",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "2-5",
+      "home_location": "NC State",
+      "away_location": "Norfolk State",
+      "home_rating_team": "N.C. State",
+      "away_rating_team": "Norfolk St.",
+      "home_adj_em": 19.82,
+      "away_adj_em": -18.65,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Lenovo Center",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ACCNX",
+      "predicted_spread": 30.0,
+      "predicted_total": 156.7,
+      "home_projected_score": 93.3,
+      "away_projected_score": 63.4,
+      "home_win_prob": 99.7,
+      "away_win_prob": 0.3,
+      "confidence": 55.9,
+      "pick": "NC State Wolfpack",
+      "pick_abbr": "NCSU",
+      "is_home_pick": true,
+      "projected_tempo": 68.1,
+      "factors": {
+        "efficiency_margin": 26.22,
+        "home_court": 3.74
+      },
+      "market": {
+        "spread": -27.5,
+        "over_under": 149.5,
+        "spread_holder": "NC State Wolfpack",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 2.5,
+      "model_vs_market": {
+        "spread_edge": 2.5,
+        "total_edge": 7.2
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -27.5,
+        "over_under": 150.5,
+        "spread_holder": "NC State Wolfpack",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 27.5,
+      "clv": 0.0,
+      "actual_home_score": 80,
+      "actual_away_score": 49,
+      "actual_margin": 31,
+      "actual_total": 129,
+      "actual_winner": "NC State Wolfpack",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920076",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "George Mason Patriots",
+      "away_team": "Longwood Lancers",
+      "home_abbr": "GMU",
+      "away_abbr": "LONG",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2244.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "4-3",
+      "home_location": "George Mason",
+      "away_location": "Longwood",
+      "home_rating_team": "George Mason",
+      "away_rating_team": "Longwood",
+      "home_adj_em": 9.88,
+      "away_adj_em": -5.9,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "EagleBank Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 14.9,
+      "predicted_total": 145.0,
+      "home_projected_score": 80.0,
+      "away_projected_score": 65.1,
+      "home_win_prob": 91.2,
+      "away_win_prob": 8.8,
+      "confidence": 53.4,
+      "pick": "George Mason Patriots",
+      "pick_abbr": "GMU",
+      "is_home_pick": true,
+      "projected_tempo": 68.7,
+      "factors": {
+        "efficiency_margin": 10.84,
+        "home_court": 4.05
+      },
+      "market": {
+        "spread": -15.5,
+        "over_under": 144.5,
+        "spread_holder": "George Mason Patriots",
+        "bookmaker": "fanduel"
+      },
+      "value_rating": 0.6,
+      "model_vs_market": {
+        "spread_edge": -0.6,
+        "total_edge": 0.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -16.5,
+        "over_under": 147.5,
+        "spread_holder": "George Mason Patriots",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 15.5,
+      "clv": -1.0,
+      "actual_home_score": 93,
+      "actual_away_score": 58,
+      "actual_margin": 35,
+      "actual_total": 151,
+      "actual_winner": "George Mason Patriots",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401920847",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "UNC Wilmington Seahawks",
+      "away_team": "St. Thomas Tommies",
+      "home_abbr": "UNCW",
+      "away_abbr": "STMN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/350.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "5-3",
+      "home_location": "UNC Wilmington",
+      "away_location": "St. Thomas",
+      "home_rating_team": "UNC Wilmington",
+      "away_rating_team": "St. Thomas",
+      "home_adj_em": 4.91,
+      "away_adj_em": 1.97,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Trask Coliseum",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "FloSports",
+      "predicted_spread": 5.2,
+      "predicted_total": 161.3,
+      "home_projected_score": 83.3,
+      "away_projected_score": 78.0,
+      "home_win_prob": 68.3,
+      "away_win_prob": 31.7,
+      "confidence": 61.1,
+      "pick": "UNC Wilmington Seahawks",
+      "pick_abbr": "UNCW",
+      "is_home_pick": true,
+      "projected_tempo": 67.8,
+      "factors": {
+        "efficiency_margin": 2.0,
+        "home_court": 3.24
+      },
+      "market": {
+        "spread": -6.5,
+        "over_under": 156.5,
+        "spread_holder": "UNC Wilmington Seahawks",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 1.3,
+      "model_vs_market": {
+        "spread_edge": -1.3,
+        "total_edge": 4.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -5.5,
+        "over_under": 155.5,
+        "spread_holder": "UNC Wilmington Seahawks",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 6.5,
+      "clv": 1.0,
+      "actual_home_score": 86,
+      "actual_away_score": 77,
+      "actual_margin": 9,
+      "actual_total": 163,
+      "actual_winner": "UNC Wilmington Seahawks",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401920916",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "SIU Edwardsville Cougars",
+      "away_team": "Northern Illinois Huskies",
+      "home_abbr": "SIUE",
+      "away_abbr": "NIU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2565.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-4",
+      "away_record": "4-3",
+      "home_location": "SIU Edwardsville",
+      "away_location": "Northern Illinois",
+      "home_rating_team": "SIU Edwardsville",
+      "away_rating_team": "Northern Illinois",
+      "home_adj_em": -11.4,
+      "away_adj_em": -3.44,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "First Community Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": -1.9,
+      "predicted_total": 149.6,
+      "home_projected_score": 73.8,
+      "away_projected_score": 75.7,
+      "home_win_prob": 43.1,
+      "away_win_prob": 56.9,
+      "confidence": 67.4,
+      "pick": "Northern Illinois Huskies",
+      "pick_abbr": "NIU",
+      "is_home_pick": false,
+      "projected_tempo": 66.1,
+      "factors": {
+        "efficiency_margin": -5.26,
+        "home_court": 3.36
+      },
+      "market": {
+        "spread": 4.5,
+        "over_under": 138.5,
+        "spread_holder": "Northern Illinois Huskies",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.6,
+      "model_vs_market": {
+        "spread_edge": -2.6,
+        "total_edge": 10.6
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": 2.5,
+        "over_under": 137.5,
+        "spread_holder": "Northern Illinois Huskies",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -4.5,
+      "clv": 2.0,
+      "actual_home_score": 65,
+      "actual_away_score": 68,
+      "actual_margin": -3,
+      "actual_total": 133,
+      "actual_winner": "Northern Illinois Huskies",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401921108",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "Northern Kentucky Norse",
+      "away_team": "Bellarmine Knights",
+      "home_abbr": "NKU",
+      "away_abbr": "BELL",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/91.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-4",
+      "away_record": "3-5",
+      "home_location": "Northern Kentucky",
+      "away_location": "Bellarmine",
+      "home_rating_team": "Northern Kentucky",
+      "away_rating_team": "Bellarmine",
+      "home_adj_em": -8.13,
+      "away_adj_em": -9.46,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Truist Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 4.5,
+      "predicted_total": 153.3,
+      "home_projected_score": 78.9,
+      "away_projected_score": 74.4,
+      "home_win_prob": 65.9,
+      "away_win_prob": 34.1,
+      "confidence": 65.5,
+      "pick": "Northern Kentucky Norse",
+      "pick_abbr": "NKU",
+      "is_home_pick": true,
+      "projected_tempo": 68.4,
+      "factors": {
+        "efficiency_margin": 0.91,
+        "home_court": 3.61
+      },
+      "market": {
+        "spread": -6.5,
+        "over_under": 148.5,
+        "spread_holder": "Northern Kentucky Norse",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 2.1,
+      "model_vs_market": {
+        "spread_edge": -2.1,
+        "total_edge": 4.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -6.5,
+        "over_under": 147.5,
+        "spread_holder": "Northern Kentucky Norse",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+      },
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 6.5,
+      "clv": 0.0,
+      "actual_home_score": 52,
+      "actual_away_score": 66,
+      "actual_margin": -14,
+      "actual_total": 118,
+      "actual_winner": "Bellarmine Knights",
+      "model_correct_winner": false,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401922285",
+      "date": "2026-11-26T00:00Z",
+      "home_team": "The Citadel Bulldogs",
+      "away_team": "South Carolina Upstate Spartans",
+      "home_abbr": "CIT",
+      "away_abbr": "UPST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2643.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2908.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "1-6",
+      "home_location": "The Citadel",
+      "away_location": "South Carolina Upstate",
+      "home_rating_team": "The Citadel",
+      "away_rating_team": "USC Upstate",
+      "home_adj_em": -16.26,
+      "away_adj_em": -20.17,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "McAlister Field House",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN+",
+      "predicted_spread": 5.9,
+      "predicted_total": 144.6,
+      "home_projected_score": 75.2,
+      "away_projected_score": 69.3,
+      "home_win_prob": 70.5,
+      "away_win_prob": 29.5,
+      "confidence": 61.7,
+      "pick": "The Citadel Bulldogs",
+      "pick_abbr": "CIT",
+      "is_home_pick": true,
+      "projected_tempo": 67.6,
+      "factors": {
+        "efficiency_margin": 2.65,
+        "home_court": 3.29
+      },
+      "market": {
+        "spread": -4.5,
+        "over_under": 137.5,
+        "spread_holder": "The Citadel Bulldogs",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 1.4,
+      "model_vs_market": {
+        "spread_edge": 1.4,
+        "total_edge": 6.9
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "closing_line": {
+        "spread": -3.5,
+        "over_under": 138.5,
+        "spread_holder": "The Citadel Bulldogs",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-25T18:50:09.600579-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 4.5,
+      "clv": -1.0,
+      "actual_home_score": 72,
+      "actual_away_score": 54,
+      "actual_margin": 18,
+      "actual_total": 126,
+      "actual_winner": "The Citadel Bulldogs",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 935,
+      "n": 943,
       "model_mae": 9.97,
       "market_mae": 9.67,
-      "intercept": -0.55,
-      "model_weight": 0.126,
-      "market_weight": 0.89,
+      "intercept": -0.58,
+      "model_weight": 0.142,
+      "market_weight": 0.88,
       "ats_by_edge": {
         "0-2": {
-          "w": 180,
-          "l": 123,
-          "pct": 59.4
+          "w": 181,
+          "l": 126,
+          "pct": 59.0
         },
         "2-4": {
-          "w": 139,
-          "l": 125,
-          "pct": 52.7
+          "w": 142,
+          "l": 126,
+          "pct": 53.0
         },
         "4-7": {
           "w": 93,
@@ -115786,10 +116379,10 @@
       }
     },
     "clv": {
-      "n": 556,
+      "n": 563,
       "avg": 0.28,
-      "beat_close_pct": 36.5,
-      "beat_or_matched_pct": 78.6
+      "beat_close_pct": 36.4,
+      "beat_or_matched_pct": 78.5
     },
     "clv_by_confidence": {
       "high": {
@@ -115799,35 +116392,35 @@
         "beat_or_matched_pct": 85.7
       },
       "medium": {
-        "n": 507,
+        "n": 514,
         "avg": 0.27,
-        "beat_close_pct": 36.1,
-        "beat_or_matched_pct": 77.9
+        "beat_close_pct": 36.0,
+        "beat_or_matched_pct": 77.8
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 944,
-    "ats_graded": 819,
+    "total_graded": 952,
+    "ats_graded": 827,
     "ats": {
-      "w": 452,
-      "l": 367,
+      "w": 456,
+      "l": 371,
       "p": 0,
-      "pct": 55.2
+      "pct": 55.1
     },
     "su": {
-      "correct": 707,
-      "total": 944,
-      "pct": 74.9
+      "correct": 714,
+      "total": 952,
+      "pct": 75.0
     },
     "ou": {
-      "over": 457,
-      "under": 478,
+      "over": 459,
+      "under": 484,
       "push": 0,
-      "model_correct": 484,
-      "model_gradeable": 935,
-      "model_pct": 51.8
+      "model_correct": 486,
+      "model_gradeable": 943,
+      "model_pct": 51.5
     },
     "by_confidence": {
       "high": {
@@ -115837,8 +116430,8 @@
         "pct": 49.3
       },
       "medium": {
-        "w": 417,
-        "l": 331,
+        "w": 421,
+        "l": 335,
         "p": 0,
         "pct": 55.7
       },
@@ -115865,22 +116458,22 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1643,
+        "n": 1651,
         "model_mae": 10.36,
         "market_mae": 9.35,
-        "intercept": -0.01,
-        "model_weight": -0.001,
+        "intercept": -0.02,
+        "model_weight": 0.0,
         "market_weight": 0.976,
         "ats_by_edge": {
           "0-2": {
-            "w": 294,
-            "l": 245,
-            "pct": 54.5
+            "w": 295,
+            "l": 248,
+            "pct": 54.3
           },
           "2-4": {
-            "w": 234,
-            "l": 205,
-            "pct": 53.3
+            "w": 237,
+            "l": 206,
+            "pct": 53.5
           },
           "4-7": {
             "w": 131,
@@ -115895,10 +116488,10 @@
         }
       },
       "clv": {
-        "n": 556,
+        "n": 563,
         "avg": 0.28,
-        "beat_close_pct": 36.5,
-        "beat_or_matched_pct": 78.6
+        "beat_close_pct": 36.4,
+        "beat_or_matched_pct": 78.5
       },
       "clv_by_confidence": {
         "high": {
@@ -115908,35 +116501,35 @@
           "beat_or_matched_pct": 85.7
         },
         "medium": {
-          "n": 507,
+          "n": 514,
           "avg": 0.27,
-          "beat_close_pct": 36.1,
-          "beat_or_matched_pct": 77.9
+          "beat_close_pct": 36.0,
+          "beat_or_matched_pct": 77.8
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1662,
-      "ats_graded": 1425,
+      "total_graded": 1670,
+      "ats_graded": 1433,
       "ats": {
-        "w": 760,
-        "l": 665,
+        "w": 764,
+        "l": 669,
         "p": 0,
         "pct": 53.3
       },
       "su": {
-        "correct": 1175,
-        "total": 1662,
-        "pct": 70.7
+        "correct": 1182,
+        "total": 1670,
+        "pct": 70.8
       },
       "ou": {
-        "over": 807,
-        "under": 836,
+        "over": 809,
+        "under": 842,
         "push": 0,
-        "model_correct": 841,
-        "model_gradeable": 1643,
-        "model_pct": 51.2
+        "model_correct": 843,
+        "model_gradeable": 1651,
+        "model_pct": 51.1
       },
       "by_confidence": {
         "high": {
@@ -115946,8 +116539,8 @@
           "pct": 48.9
         },
         "medium": {
-          "w": 584,
-          "l": 477,
+          "w": 588,
+          "l": 481,
           "p": 0,
           "pct": 55.0
         },
@@ -115972,5 +116565,5 @@
       }
     }
   },
-  "generated_at": "2026-11-25T20:56:08.287781-05:00"
+  "generated_at": "2026-11-25T21:42:29.005197-05:00"
 }

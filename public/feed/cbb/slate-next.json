@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-25T20:56:08.444288-05:00",
+ "generated_at": "2026-11-25T21:42:29.156097-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-26",
@@ -469,7 +469,7 @@
    },
    "market": {
     "spread_home": -8.5,
-    "total": 155.5,
+    "total": 154.5,
     "favorite": "Texas Longhorns",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -477,7 +477,7 @@
    "closing": null,
    "edge": {
     "spread": -3.2,
-    "total": 2.8,
+    "total": 3.8,
     "value_rating": 3.2,
     "is_best_bet": true
    },
@@ -939,7 +939,7 @@
     "home_score": 70.2,
     "away_score": 71.8,
     "home_win_prob": 44.3,
-    "confidence": 68.3,
+    "confidence": 56.3,
     "tempo": 68.7,
     "confidence_tier": "medium",
     "pick": {
@@ -949,27 +949,25 @@
     }
    },
    "market": {
-    "spread_home": -1.5,
+    "spread_home": 1.5,
     "total": 139.5,
-    "favorite": "Pittsburgh Panthers",
+    "favorite": "DePaul Blue Demons",
     "bookmaker": "betmgm",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -3.1,
+    "spread": -0.1,
     "total": 2.5,
-    "value_rating": 3.1,
-    "is_best_bet": true
+    "value_rating": 0.1,
+    "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": 1.5
+    "side": "none",
+    "cover_line": -1.5
    },
    "result": null,
    "tags": [
-    "best_bet",
-    "value",
     "tournament"
    ]
   },
@@ -1156,7 +1154,7 @@
    },
    "market": {
     "spread_home": -2.5,
-    "total": 158.5,
+    "total": 159.5,
     "favorite": "SJU -2.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -1164,7 +1162,7 @@
    "closing": null,
    "edge": {
     "spread": 0.7,
-    "total": -2.7,
+    "total": -3.7,
     "value_rating": 0.7,
     "is_best_bet": false
    },
@@ -1425,7 +1423,7 @@
    },
    "market": {
     "spread_home": -4.5,
-    "total": 159.5,
+    "total": 158.5,
     "favorite": "Gonzaga Bulldogs",
     "bookmaker": "draftkings",
     "captured_at": null
@@ -1433,7 +1431,7 @@
    "closing": null,
    "edge": {
     "spread": -0.1,
-    "total": -1.9,
+    "total": -0.9,
     "value_rating": 0.1,
     "is_best_bet": false
    },
