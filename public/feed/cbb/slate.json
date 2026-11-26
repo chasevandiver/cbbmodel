@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-25T22:50:08.620803-05:00",
+ "generated_at": "2026-11-26T00:20:56.837635-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-25",
@@ -3730,7 +3730,7 @@
    "game_id": "401929287",
    "game_id_source": "espn",
    "start_time": "2026-11-26T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Mississippi State Bulldogs",
     "abbr": "MSST",
@@ -3789,7 +3789,19 @@
     "side": "away",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 71,
+    "away_score": 78,
+    "margin_home": -7,
+    "total": 149,
+    "winner": "Wake Forest Demon Deacons",
+    "su_correct": false,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": 1.0
+   },
    "tags": [
     "tournament"
    ]
@@ -4054,7 +4066,7 @@
    "game_id": "401917545",
    "game_id_source": "espn",
    "start_time": "2026-11-26T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Loyola Marymount Lions",
     "abbr": "LMU",
@@ -4113,7 +4125,19 @@
     "side": "away",
     "cover_line": 7.5
    },
-   "result": null,
+   "result": {
+    "home_score": 81,
+    "away_score": 72,
+    "margin_home": 9,
+    "total": 153,
+    "winner": "Loyola Marymount Lions",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": 0.0
+   },
    "tags": []
   },
   {
@@ -4274,7 +4298,7 @@
    "game_id": "401921713",
    "game_id_source": "espn",
    "start_time": "2026-11-26T03:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "VCU Rams",
     "abbr": "VCU",
@@ -4333,7 +4357,19 @@
     "side": "away",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 80,
+    "away_score": 78,
+    "margin_home": 2,
+    "total": 158,
+    "winner": "VCU Rams",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "O",
+    "ou_correct": true,
+    "clv": -1.0
+   },
    "tags": [
     "tournament"
    ]
