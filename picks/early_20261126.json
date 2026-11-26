@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T00:20:56.432298-05:00",
+  "generated_at": "2026-11-26T04:08:05.364310-05:00",
   "date": "20261126",
   "total_games": 21,
   "model_version": "4.1.0",
@@ -115,114 +115,6 @@
       "is_tournament_game": true
     },
     {
-      "game_id": "401917546",
-      "date": "2026-11-27T03:30Z",
-      "home_team": "Omaha Mavericks",
-      "away_team": "Pacific Tigers",
-      "home_abbr": "OMA",
-      "away_abbr": "PAC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
-      "home_rank": 99,
-      "away_rank": 99,
-      "home_record": "3-4",
-      "away_record": "5-1",
-      "home_location": "Omaha",
-      "away_location": "Pacific",
-      "home_rating_team": "Nebraska Omaha",
-      "away_rating_team": "Pacific",
-      "home_adj_em": -14.24,
-      "away_adj_em": 4.25,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Resorts World Event Center",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "FloSports",
-      "predicted_spread": -12.6,
-      "predicted_total": 140.3,
-      "home_projected_score": 63.8,
-      "away_projected_score": 76.4,
-      "home_win_prob": 12.6,
-      "away_win_prob": 87.4,
-      "confidence": 71.4,
-      "pick": "Pacific Tigers",
-      "pick_abbr": "PAC",
-      "is_home_pick": false,
-      "projected_tempo": 68.2,
-      "factors": {
-        "efficiency_margin": -12.61,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": 7.5,
-        "over_under": 139.5,
-        "spread_holder": "PAC -7.5",
-        "bookmaker": "espn"
-      },
-      "value_rating": 5.1,
-      "model_vs_market": {
-        "spread_edge": 5.1,
-        "total_edge": 0.8
-      },
-      "is_best_bet": true,
-      "is_tournament_game": true
-    },
-    {
-      "game_id": "401920531",
-      "date": "2026-11-27T04:30Z",
-      "home_team": "Oregon Ducks",
-      "away_team": "Texas Tech Red Raiders",
-      "home_abbr": "ORE",
-      "away_abbr": "TTU",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-      "home_rank": 99,
-      "away_rank": 5,
-      "home_record": "3-2",
-      "away_record": "5-1",
-      "home_location": "Oregon",
-      "away_location": "Texas Tech",
-      "home_rating_team": "Oregon",
-      "away_rating_team": "Texas Tech",
-      "home_adj_em": 15.23,
-      "away_adj_em": 24.95,
-      "home_rest_days": null,
-      "away_rest_days": null,
-      "venue": "Michelob ULTRA Arena",
-      "neutral_site": true,
-      "conference_game": false,
-      "broadcast": "ESPN2",
-      "predicted_spread": -6.6,
-      "predicted_total": 152.0,
-      "home_projected_score": 72.7,
-      "away_projected_score": 79.3,
-      "home_win_prob": 27.3,
-      "away_win_prob": 72.7,
-      "confidence": 70.4,
-      "pick": "Texas Tech Red Raiders",
-      "pick_abbr": "TTU",
-      "is_home_pick": false,
-      "projected_tempo": 68.3,
-      "factors": {
-        "efficiency_margin": -6.64,
-        "home_court": 0.0
-      },
-      "market": {
-        "spread": 10.5,
-        "over_under": 148.5,
-        "spread_holder": "Texas Tech Red Raiders",
-        "bookmaker": "draftkings"
-      },
-      "value_rating": 3.9,
-      "model_vs_market": {
-        "spread_edge": -3.9,
-        "total_edge": 3.5
-      },
-      "is_best_bet": true,
-      "is_tournament_game": true
-    },
-    {
       "game_id": "401906869",
       "date": "2026-11-26T19:30Z",
       "home_team": "Texas Longhorns",
@@ -264,16 +156,124 @@
       },
       "market": {
         "spread": -8.5,
-        "over_under": 153.5,
+        "over_under": 154.5,
         "spread_holder": "Texas Longhorns",
         "bookmaker": "draftkings"
       },
       "value_rating": 3.2,
       "model_vs_market": {
         "spread_edge": -3.2,
-        "total_edge": 4.8
+        "total_edge": 3.8
       },
       "is_best_bet": true,
+      "is_tournament_game": true
+    },
+    {
+      "game_id": "401917546",
+      "date": "2026-11-27T03:30Z",
+      "home_team": "Omaha Mavericks",
+      "away_team": "Pacific Tigers",
+      "home_abbr": "OMA",
+      "away_abbr": "PAC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-4",
+      "away_record": "5-2",
+      "home_location": "Omaha",
+      "away_location": "Pacific",
+      "home_rating_team": "Nebraska Omaha",
+      "away_rating_team": "Pacific",
+      "home_adj_em": -14.24,
+      "away_adj_em": 4.25,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Resorts World Event Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FloSports",
+      "predicted_spread": -12.6,
+      "predicted_total": 140.3,
+      "home_projected_score": 63.8,
+      "away_projected_score": 76.4,
+      "home_win_prob": 12.6,
+      "away_win_prob": 87.4,
+      "confidence": 67.4,
+      "pick": "Pacific Tigers",
+      "pick_abbr": "PAC",
+      "is_home_pick": false,
+      "projected_tempo": 68.2,
+      "factors": {
+        "efficiency_margin": -12.61,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 8.5,
+        "over_under": 139.5,
+        "spread_holder": "PAC -8.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 4.1,
+      "model_vs_market": {
+        "spread_edge": 4.1,
+        "total_edge": 0.8
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true
+    },
+    {
+      "game_id": "401920531",
+      "date": "2026-11-27T04:30Z",
+      "home_team": "Oregon Ducks",
+      "away_team": "Texas Tech Red Raiders",
+      "home_abbr": "ORE",
+      "away_abbr": "TTU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+      "home_rank": 99,
+      "away_rank": 5,
+      "home_record": "3-2",
+      "away_record": "5-1",
+      "home_location": "Oregon",
+      "away_location": "Texas Tech",
+      "home_rating_team": "Oregon",
+      "away_rating_team": "Texas Tech",
+      "home_adj_em": 15.23,
+      "away_adj_em": 24.95,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": -6.6,
+      "predicted_total": 152.0,
+      "home_projected_score": 72.7,
+      "away_projected_score": 79.3,
+      "home_win_prob": 27.3,
+      "away_win_prob": 72.7,
+      "confidence": 66.4,
+      "pick": "Texas Tech Red Raiders",
+      "pick_abbr": "TTU",
+      "is_home_pick": false,
+      "projected_tempo": 68.3,
+      "factors": {
+        "efficiency_margin": -6.64,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 9.5,
+        "over_under": 149.5,
+        "spread_holder": "Texas Tech Red Raiders",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 2.9,
+      "model_vs_market": {
+        "spread_edge": -2.9,
+        "total_edge": 2.5
+      },
+      "is_best_bet": false,
       "is_tournament_game": true
     },
     {
@@ -666,7 +666,7 @@
       "home_rank": 99,
       "away_rank": 99,
       "home_record": "4-2",
-      "away_record": "3-3",
+      "away_record": "4-3",
       "home_location": "UC Davis",
       "away_location": "Jacksonville State",
       "home_rating_team": "UC Davis",
@@ -696,14 +696,14 @@
       },
       "market": {
         "spread": 1.5,
-        "over_under": 139.5,
+        "over_under": 140.5,
         "spread_holder": "Jacksonville St Gamecocks",
         "bookmaker": "betmgm"
       },
       "value_rating": 1.1,
       "model_vs_market": {
         "spread_edge": -1.1,
-        "total_edge": 3.8
+        "total_edge": 2.8
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -804,14 +804,14 @@
       },
       "market": {
         "spread": -1.5,
-        "over_under": 155.5,
+        "over_under": 154.5,
         "spread_holder": "Creighton Bluejays",
         "bookmaker": "draftkings"
       },
       "value_rating": 0.7,
       "model_vs_market": {
         "spread_edge": 0.7,
-        "total_edge": -2.2
+        "total_edge": -1.2
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -858,14 +858,14 @@
       },
       "market": {
         "spread": -3.5,
-        "over_under": 156.5,
+        "over_under": 155.5,
         "spread_holder": "Gonzaga Bulldogs",
         "bookmaker": "draftkings"
       },
       "value_rating": 0.9,
       "model_vs_market": {
         "spread_edge": 0.9,
-        "total_edge": 1.1
+        "total_edge": 2.1
       },
       "is_best_bet": false,
       "is_tournament_game": true
@@ -1143,12 +1143,12 @@
   ],
   "summary": {
     "total_games": 21,
-    "high_confidence": 4,
-    "medium_confidence": 17,
+    "high_confidence": 2,
+    "medium_confidence": 19,
     "low_confidence": 0,
-    "avg_confidence": 62.9,
-    "value_plays": 5,
-    "best_bets": 5,
+    "avg_confidence": 62.5,
+    "value_plays": 4,
+    "best_bets": 4,
     "with_market_line": 21,
     "tournament_games": 20
   },
