@@ -7,7 +7,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-26T21:41:44.430796-05:00",
+ "generated_at": "2026-11-26T22:51:25.541889-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "files": {
@@ -26,8 +26,8 @@
    "label": "2026-27",
    "file": "season-2027.json",
    "records": 990,
-   "final": 979,
-   "pending": 7,
+   "final": 981,
+   "pending": 5,
    "no_result": 4
   },
   {
@@ -43,10 +43,10 @@
  "slate": {
   "date": "2026-11-26",
   "total_games": 21,
-  "pending": 7
+  "pending": 5
  },
  "summary": {
-  "total_graded": 979,
+  "total_graded": 981,
   "ats_graded": 841,
   "ats": {
    "w": 464,
@@ -55,17 +55,17 @@
    "pct": 55.2
   },
   "su": {
-   "correct": 730,
-   "total": 979,
-   "pct": 74.6
+   "correct": 731,
+   "total": 981,
+   "pct": 74.5
   },
   "ou": {
-   "over": 470,
-   "under": 497,
+   "over": 471,
+   "under": 498,
    "push": 0,
    "model_correct": 500,
-   "model_gradeable": 967,
-   "model_pct": 51.7
+   "model_gradeable": 969,
+   "model_pct": 51.6
   },
   "by_confidence": {
    "high": {
@@ -106,12 +106,12 @@
    "beat_or_matched_pct": 78.4
   },
   "calibration": {
-   "n": 967,
-   "model_mae": 9.96,
+   "n": 969,
+   "model_mae": 9.95,
    "market_mae": 9.67,
-   "intercept": -0.54,
+   "intercept": -0.57,
    "model_weight": 0.107,
-   "market_weight": 0.902,
+   "market_weight": 0.903,
    "ats_by_edge": {
     "0-2": {
      "w": 187,
@@ -137,7 +137,7 @@
   }
  },
  "all_time": {
-  "total_graded": 1697,
+  "total_graded": 1699,
   "ats_graded": 1447,
   "ats": {
    "w": 772,
@@ -146,17 +146,17 @@
    "pct": 53.4
   },
   "su": {
-   "correct": 1198,
-   "total": 1697,
+   "correct": 1199,
+   "total": 1699,
    "pct": 70.6
   },
   "ou": {
-   "over": 820,
-   "under": 855,
+   "over": 821,
+   "under": 856,
    "push": 0,
    "model_correct": 857,
-   "model_gradeable": 1675,
-   "model_pct": 51.2
+   "model_gradeable": 1677,
+   "model_pct": 51.1
   },
   "by_confidence": {
    "high": {
@@ -197,10 +197,10 @@
    "beat_or_matched_pct": 78.4
   },
   "calibration": {
-   "n": 1675,
-   "model_mae": 10.35,
+   "n": 1677,
+   "model_mae": 10.34,
    "market_mae": 9.36,
-   "intercept": -0.02,
+   "intercept": -0.03,
    "model_weight": -0.003,
    "market_weight": 0.975,
    "ats_by_edge": {
