@@ -7,7 +7,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-27T04:01:48.707653-05:00",
+ "generated_at": "2026-11-27T04:23:58.795733-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "files": {
@@ -17,8 +17,8 @@
  },
  "next": {
   "date": "2026-11-27",
-  "total_games": 45,
-  "with_line": 43
+  "total_games": 49,
+  "with_line": 47
  },
  "seasons": [
   {
