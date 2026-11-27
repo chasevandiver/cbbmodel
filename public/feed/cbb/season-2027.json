@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-26T20:36:35.497475-05:00",
+ "generated_at": "2026-11-26T21:41:44.430796-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -81736,7 +81736,7 @@
    "game_id": "401909506",
    "game_id_source": "espn",
    "start_time": "2026-11-27T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Pittsburgh Panthers",
     "abbr": "PITT",
@@ -81795,7 +81795,19 @@
     "side": "none",
     "cover_line": -1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 71,
+    "away_score": 64,
+    "margin_home": 7,
+    "total": 135,
+    "winner": "Pittsburgh Panthers",
+    "su_correct": false,
+    "ats": null,
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]

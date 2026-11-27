@@ -118169,15 +118169,90 @@
       "ou_result": "O",
       "model_ou_call": "U",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401909506",
+      "date": "2026-11-27T00:00Z",
+      "home_team": "Pittsburgh Panthers",
+      "away_team": "DePaul Blue Demons",
+      "home_abbr": "PITT",
+      "away_abbr": "DEP",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "7-0",
+      "away_record": "6-0",
+      "home_location": "Pittsburgh",
+      "away_location": "DePaul",
+      "home_rating_team": "Pittsburgh",
+      "away_rating_team": "DePaul",
+      "home_adj_em": 14.85,
+      "away_adj_em": 17.23,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Suncoast Credit Union Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FS1",
+      "predicted_spread": -1.6,
+      "predicted_total": 142.2,
+      "home_projected_score": 70.3,
+      "away_projected_score": 71.9,
+      "home_win_prob": 44.1,
+      "away_win_prob": 55.9,
+      "confidence": 56.5,
+      "pick": "DePaul Blue Demons",
+      "pick_abbr": "DEP",
+      "is_home_pick": false,
+      "projected_tempo": 68.6,
+      "factors": {
+        "efficiency_margin": -1.63,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 138.5,
+        "spread_holder": "DePaul Blue Demons",
+        "bookmaker": "betmgm"
+      },
+      "value_rating": 0.1,
+      "model_vs_market": {
+        "spread_edge": 0.1,
+        "total_edge": 3.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 138.5,
+        "spread_holder": "DePaul Blue Demons",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-26T19:08:19.132809-05:00"
+      },
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": -1.5,
+      "clv": null,
+      "actual_home_score": 71,
+      "actual_away_score": 64,
+      "actual_margin": 7,
+      "actual_total": 135,
+      "actual_winner": "Pittsburgh Panthers",
+      "model_correct_winner": false,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 966,
+      "n": 967,
       "model_mae": 9.96,
       "market_mae": 9.67,
-      "intercept": -0.56,
-      "model_weight": 0.108,
+      "intercept": -0.54,
+      "model_weight": 0.107,
       "market_weight": 0.902,
       "ats_by_edge": {
         "0-2": {
@@ -118225,7 +118300,7 @@
         "n": 0
       }
     },
-    "total_graded": 978,
+    "total_graded": 979,
     "ats_graded": 841,
     "ats": {
       "w": 464,
@@ -118235,16 +118310,16 @@
     },
     "su": {
       "correct": 730,
-      "total": 978,
+      "total": 979,
       "pct": 74.6
     },
     "ou": {
       "over": 470,
-      "under": 496,
+      "under": 497,
       "push": 0,
       "model_correct": 500,
-      "model_gradeable": 966,
-      "model_pct": 51.8
+      "model_gradeable": 967,
+      "model_pct": 51.7
     },
     "by_confidence": {
       "high": {
@@ -118282,7 +118357,7 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1674,
+        "n": 1675,
         "model_mae": 10.35,
         "market_mae": 9.36,
         "intercept": -0.02,
@@ -118334,7 +118409,7 @@
           "n": 0
         }
       },
-      "total_graded": 1696,
+      "total_graded": 1697,
       "ats_graded": 1447,
       "ats": {
         "w": 772,
@@ -118344,15 +118419,15 @@
       },
       "su": {
         "correct": 1198,
-        "total": 1696,
+        "total": 1697,
         "pct": 70.6
       },
       "ou": {
         "over": 820,
-        "under": 854,
+        "under": 855,
         "push": 0,
         "model_correct": 857,
-        "model_gradeable": 1674,
+        "model_gradeable": 1675,
         "model_pct": 51.2
       },
       "by_confidence": {
@@ -118389,5 +118464,5 @@
       }
     }
   },
-  "generated_at": "2026-11-26T20:36:35.320473-05:00"
+  "generated_at": "2026-11-26T21:41:44.311290-05:00"
 }

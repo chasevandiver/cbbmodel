@@ -7,7 +7,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-26T20:36:35.497475-05:00",
+ "generated_at": "2026-11-26T21:41:44.430796-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "files": {
@@ -18,7 +18,7 @@
  "next": {
   "date": "2026-11-27",
   "total_games": 41,
-  "with_line": 36
+  "with_line": 41
  },
  "seasons": [
   {
@@ -26,8 +26,8 @@
    "label": "2026-27",
    "file": "season-2027.json",
    "records": 990,
-   "final": 978,
-   "pending": 8,
+   "final": 979,
+   "pending": 7,
    "no_result": 4
   },
   {
@@ -43,10 +43,10 @@
  "slate": {
   "date": "2026-11-26",
   "total_games": 21,
-  "pending": 8
+  "pending": 7
  },
  "summary": {
-  "total_graded": 978,
+  "total_graded": 979,
   "ats_graded": 841,
   "ats": {
    "w": 464,
@@ -56,16 +56,16 @@
   },
   "su": {
    "correct": 730,
-   "total": 978,
+   "total": 979,
    "pct": 74.6
   },
   "ou": {
    "over": 470,
-   "under": 496,
+   "under": 497,
    "push": 0,
    "model_correct": 500,
-   "model_gradeable": 966,
-   "model_pct": 51.8
+   "model_gradeable": 967,
+   "model_pct": 51.7
   },
   "by_confidence": {
    "high": {
@@ -106,11 +106,11 @@
    "beat_or_matched_pct": 78.4
   },
   "calibration": {
-   "n": 966,
+   "n": 967,
    "model_mae": 9.96,
    "market_mae": 9.67,
-   "intercept": -0.56,
-   "model_weight": 0.108,
+   "intercept": -0.54,
+   "model_weight": 0.107,
    "market_weight": 0.902,
    "ats_by_edge": {
     "0-2": {
@@ -137,7 +137,7 @@
   }
  },
  "all_time": {
-  "total_graded": 1696,
+  "total_graded": 1697,
   "ats_graded": 1447,
   "ats": {
    "w": 772,
@@ -147,15 +147,15 @@
   },
   "su": {
    "correct": 1198,
-   "total": 1696,
+   "total": 1697,
    "pct": 70.6
   },
   "ou": {
    "over": 820,
-   "under": 854,
+   "under": 855,
    "push": 0,
    "model_correct": 857,
-   "model_gradeable": 1674,
+   "model_gradeable": 1675,
    "model_pct": 51.2
   },
   "by_confidence": {
@@ -197,7 +197,7 @@
    "beat_or_matched_pct": 78.4
   },
   "calibration": {
-   "n": 1674,
+   "n": 1675,
    "model_mae": 10.35,
    "market_mae": 9.36,
    "intercept": -0.02,
