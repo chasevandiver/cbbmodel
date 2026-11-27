@@ -7,22 +7,27 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-27T17:40:24.958975-05:00",
+ "generated_at": "2026-11-27T18:47:48.578977-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "files": {
   "slate": "slate.json",
-  "season": "season-2027.json"
+  "season": "season-2027.json",
+  "next": "slate-next.json"
  },
- "next": null,
+ "next": {
+  "date": "2026-11-28",
+  "total_games": 62,
+  "with_line": 41
+ },
  "seasons": [
   {
    "season": 2027,
    "label": "2026-27",
    "file": "season-2027.json",
    "records": 1039,
-   "final": 986,
-   "pending": 49,
+   "final": 1008,
+   "pending": 27,
    "no_result": 4
   },
   {
@@ -38,40 +43,40 @@
  "slate": {
   "date": "2026-11-27",
   "total_games": 49,
-  "pending": 49
+  "pending": 27
  },
  "summary": {
-  "total_graded": 986,
-  "ats_graded": 846,
+  "total_graded": 1008,
+  "ats_graded": 859,
   "ats": {
-   "w": 468,
-   "l": 378,
+   "w": 475,
+   "l": 384,
    "p": 0,
    "pct": 55.3
   },
   "su": {
-   "correct": 735,
-   "total": 986,
-   "pct": 74.5
+   "correct": 754,
+   "total": 1008,
+   "pct": 74.8
   },
   "ou": {
-   "over": 473,
-   "under": 501,
+   "over": 480,
+   "under": 510,
    "push": 0,
-   "model_correct": 500,
-   "model_gradeable": 974,
-   "model_pct": 51.3
+   "model_correct": 507,
+   "model_gradeable": 990,
+   "model_pct": 51.2
   },
   "by_confidence": {
    "high": {
-    "w": 36,
-    "l": 36,
+    "w": 38,
+    "l": 38,
     "p": 0,
     "pct": 50.0
    },
    "medium": {
-    "w": 432,
-    "l": 342,
+    "w": 437,
+    "l": 346,
     "p": 0,
     "pct": 55.8
    },
@@ -83,14 +88,14 @@
    }
   },
   "value_plays": {
-   "w": 193,
-   "l": 168,
+   "w": 195,
+   "l": 170,
    "p": 0,
-   "pct": 53.5
+   "pct": 53.4
   },
   "best_bets": {
-   "w": 119,
-   "l": 113,
+   "w": 120,
+   "l": 114,
    "p": 0,
    "pct": 51.3
   },
@@ -101,22 +106,22 @@
    "beat_or_matched_pct": 78.2
   },
   "calibration": {
-   "n": 974,
-   "model_mae": 9.92,
-   "market_mae": 9.64,
-   "intercept": -0.54,
-   "model_weight": 0.108,
-   "market_weight": 0.901,
+   "n": 990,
+   "model_mae": 9.95,
+   "market_mae": 9.67,
+   "intercept": -0.57,
+   "model_weight": 0.118,
+   "market_weight": 0.896,
    "ats_by_edge": {
     "0-2": {
-     "w": 188,
-     "l": 131,
-     "pct": 58.9
+     "w": 192,
+     "l": 133,
+     "pct": 59.1
     },
     "2-4": {
-     "w": 145,
-     "l": 128,
-     "pct": 53.1
+     "w": 147,
+     "l": 131,
+     "pct": 52.9
     },
     "4-7": {
      "w": 94,
@@ -124,45 +129,45 @@
      "pct": 53.4
     },
     "7+": {
-     "w": 41,
-     "l": 37,
-     "pct": 52.6
+     "w": 42,
+     "l": 38,
+     "pct": 52.5
     }
    }
   }
  },
  "all_time": {
-  "total_graded": 1704,
-  "ats_graded": 1452,
+  "total_graded": 1726,
+  "ats_graded": 1465,
   "ats": {
-   "w": 776,
-   "l": 676,
+   "w": 783,
+   "l": 682,
    "p": 0,
    "pct": 53.4
   },
   "su": {
-   "correct": 1203,
-   "total": 1704,
-   "pct": 70.6
+   "correct": 1222,
+   "total": 1726,
+   "pct": 70.8
   },
   "ou": {
-   "over": 823,
-   "under": 859,
+   "over": 830,
+   "under": 868,
    "push": 0,
-   "model_correct": 857,
-   "model_gradeable": 1682,
-   "model_pct": 51.0
+   "model_correct": 864,
+   "model_gradeable": 1698,
+   "model_pct": 50.9
   },
   "by_confidence": {
    "high": {
-    "w": 136,
-    "l": 141,
+    "w": 138,
+    "l": 143,
     "p": 0,
     "pct": 49.1
    },
    "medium": {
-    "w": 599,
-    "l": 488,
+    "w": 604,
+    "l": 492,
     "p": 0,
     "pct": 55.1
    },
@@ -174,14 +179,14 @@
    }
   },
   "value_plays": {
-   "w": 338,
-   "l": 298,
+   "w": 340,
+   "l": 300,
    "p": 0,
    "pct": 53.1
   },
   "best_bets": {
-   "w": 156,
-   "l": 144,
+   "w": 157,
+   "l": 145,
    "p": 0,
    "pct": 52.0
   },
@@ -192,22 +197,22 @@
    "beat_or_matched_pct": 78.2
   },
   "calibration": {
-   "n": 1682,
-   "model_mae": 10.32,
-   "market_mae": 9.34,
-   "intercept": -0.02,
-   "model_weight": -0.003,
-   "market_weight": 0.974,
+   "n": 1698,
+   "model_mae": 10.34,
+   "market_mae": 9.36,
+   "intercept": -0.04,
+   "model_weight": -0.002,
+   "market_weight": 0.976,
    "ats_by_edge": {
     "0-2": {
-     "w": 302,
-     "l": 253,
-     "pct": 54.4
+     "w": 306,
+     "l": 255,
+     "pct": 54.5
     },
     "2-4": {
-     "w": 240,
-     "l": 208,
-     "pct": 53.6
+     "w": 242,
+     "l": 211,
+     "pct": 53.4
     },
     "4-7": {
      "w": 132,
@@ -215,8 +220,8 @@
      "pct": 53.2
     },
     "7+": {
-     "w": 102,
-     "l": 99,
+     "w": 103,
+     "l": 100,
      "pct": 50.7
     }
    }
