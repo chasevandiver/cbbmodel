@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-27T00:16:45.968619-05:00",
+ "generated_at": "2026-11-27T04:01:48.707653-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -82236,7 +82236,7 @@
    "game_id": "401920531",
    "game_id_source": "espn",
    "start_time": "2026-11-27T04:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Oregon Ducks",
     "abbr": "ORE",
@@ -82295,7 +82295,19 @@
     "side": "home",
     "cover_line": -9.5
    },
-   "result": null,
+   "result": {
+    "home_score": 59,
+    "away_score": 62,
+    "margin_home": -3,
+    "total": 121,
+    "winner": "Texas Tech Red Raiders",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": [
     "best_bet",
     "value",
@@ -82312,7 +82324,7 @@
    "game_id": "401920540",
    "game_id_source": "espn",
    "start_time": "2026-11-27T04:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Gonzaga Bulldogs",
     "abbr": "GONZ",
@@ -82371,7 +82383,19 @@
     "side": "home",
     "cover_line": 3.5
    },
-   "result": null,
+   "result": {
+    "home_score": 72,
+    "away_score": 64,
+    "margin_home": 8,
+    "total": 136,
+    "winner": "Gonzaga Bulldogs",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": -1.0
+   },
    "tags": [
     "tournament"
    ]

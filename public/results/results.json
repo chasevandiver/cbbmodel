@@ -118598,26 +118598,176 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401920531",
+      "date": "2026-11-27T04:30Z",
+      "home_team": "Oregon Ducks",
+      "away_team": "Texas Tech Red Raiders",
+      "home_abbr": "ORE",
+      "away_abbr": "TTU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+      "home_rank": 99,
+      "away_rank": 5,
+      "home_record": "3-2",
+      "away_record": "5-1",
+      "home_location": "Oregon",
+      "away_location": "Texas Tech",
+      "home_rating_team": "Oregon",
+      "away_rating_team": "Texas Tech",
+      "home_adj_em": 15.35,
+      "away_adj_em": 24.83,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": -6.5,
+      "predicted_total": 152.0,
+      "home_projected_score": 72.8,
+      "away_projected_score": 79.2,
+      "home_win_prob": 27.8,
+      "away_win_prob": 72.2,
+      "confidence": 67.1,
+      "pick": "Texas Tech Red Raiders",
+      "pick_abbr": "TTU",
+      "is_home_pick": false,
+      "projected_tempo": 68.3,
+      "factors": {
+        "efficiency_margin": -6.47,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 9.5,
+        "over_under": 149.5,
+        "spread_holder": "Texas Tech Red Raiders",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 3.0,
+      "model_vs_market": {
+        "spread_edge": -3.0,
+        "total_edge": 2.5
+      },
+      "is_best_bet": true,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 10.5,
+        "over_under": 148.5,
+        "spread_holder": "Texas Tech Red Raiders",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-26T20:36:20.455992-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -9.5,
+      "clv": -1.0,
+      "actual_home_score": 59,
+      "actual_away_score": 62,
+      "actual_margin": -3,
+      "actual_total": 121,
+      "actual_winner": "Texas Tech Red Raiders",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920540",
+      "date": "2026-11-27T04:30Z",
+      "home_team": "Gonzaga Bulldogs",
+      "away_team": "Baylor Bears",
+      "home_abbr": "GONZ",
+      "away_abbr": "BAY",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+      "home_rank": 22,
+      "away_rank": 99,
+      "home_record": "4-1",
+      "away_record": "5-1",
+      "home_location": "Gonzaga",
+      "away_location": "Baylor",
+      "home_rating_team": "Gonzaga",
+      "away_rating_team": "Baylor",
+      "home_adj_em": 27.49,
+      "away_adj_em": 21.28,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "T-Mobile Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": 4.3,
+      "predicted_total": 157.8,
+      "home_projected_score": 81.1,
+      "away_projected_score": 76.7,
+      "home_win_prob": 65.4,
+      "away_win_prob": 34.6,
+      "confidence": 58.4,
+      "pick": "Gonzaga Bulldogs",
+      "pick_abbr": "GONZ",
+      "is_home_pick": true,
+      "projected_tempo": 70.0,
+      "factors": {
+        "efficiency_margin": 4.35,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 155.5,
+        "spread_holder": "Gonzaga Bulldogs",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.8,
+      "model_vs_market": {
+        "spread_edge": 0.8,
+        "total_edge": 2.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -2.5,
+        "over_under": 153.5,
+        "spread_holder": "Gonzaga Bulldogs",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-26T20:36:20.455992-05:00"
+      },
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 3.5,
+      "clv": -1.0,
+      "actual_home_score": 72,
+      "actual_away_score": 64,
+      "actual_margin": 8,
+      "actual_total": 136,
+      "actual_winner": "Gonzaga Bulldogs",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 972,
-      "model_mae": 9.93,
-      "market_mae": 9.65,
-      "intercept": -0.56,
-      "model_weight": 0.107,
-      "market_weight": 0.903,
+      "n": 974,
+      "model_mae": 9.92,
+      "market_mae": 9.64,
+      "intercept": -0.54,
+      "model_weight": 0.108,
+      "market_weight": 0.901,
       "ats_by_edge": {
         "0-2": {
-          "w": 187,
+          "w": 188,
           "l": 131,
-          "pct": 58.8
+          "pct": 58.9
         },
         "2-4": {
-          "w": 144,
+          "w": 145,
           "l": 128,
-          "pct": 52.9
+          "pct": 53.1
         },
         "4-7": {
           "w": 94,
@@ -118632,10 +118782,10 @@
       }
     },
     "clv": {
-      "n": 566,
+      "n": 568,
       "avg": 0.27,
-      "beat_close_pct": 36.4,
-      "beat_or_matched_pct": 78.4
+      "beat_close_pct": 36.3,
+      "beat_or_matched_pct": 78.2
     },
     "clv_by_confidence": {
       "high": {
@@ -118645,35 +118795,35 @@
         "beat_or_matched_pct": 85.7
       },
       "medium": {
-        "n": 517,
-        "avg": 0.27,
-        "beat_close_pct": 36.0,
-        "beat_or_matched_pct": 77.8
+        "n": 519,
+        "avg": 0.26,
+        "beat_close_pct": 35.8,
+        "beat_or_matched_pct": 77.5
       },
       "low": {
         "n": 0
       }
     },
-    "total_graded": 984,
-    "ats_graded": 844,
+    "total_graded": 986,
+    "ats_graded": 846,
     "ats": {
-      "w": 466,
+      "w": 468,
       "l": 378,
       "p": 0,
-      "pct": 55.2
+      "pct": 55.3
     },
     "su": {
-      "correct": 733,
-      "total": 984,
+      "correct": 735,
+      "total": 986,
       "pct": 74.5
     },
     "ou": {
       "over": 473,
-      "under": 499,
+      "under": 501,
       "push": 0,
       "model_correct": 500,
-      "model_gradeable": 972,
-      "model_pct": 51.4
+      "model_gradeable": 974,
+      "model_pct": 51.3
     },
     "by_confidence": {
       "high": {
@@ -118683,10 +118833,10 @@
         "pct": 50.0
       },
       "medium": {
-        "w": 430,
+        "w": 432,
         "l": 342,
         "p": 0,
-        "pct": 55.7
+        "pct": 55.8
       },
       "low": {
         "w": 0,
@@ -118696,37 +118846,37 @@
       }
     },
     "value_plays": {
-      "w": 192,
+      "w": 193,
       "l": 168,
       "p": 0,
-      "pct": 53.3
+      "pct": 53.5
     },
     "best_bets": {
-      "w": 118,
+      "w": 119,
       "l": 113,
       "p": 0,
-      "pct": 51.1
+      "pct": 51.3
     },
     "season": 2027,
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1680,
-        "model_mae": 10.33,
+        "n": 1682,
+        "model_mae": 10.32,
         "market_mae": 9.34,
-        "intercept": -0.03,
+        "intercept": -0.02,
         "model_weight": -0.003,
-        "market_weight": 0.975,
+        "market_weight": 0.974,
         "ats_by_edge": {
           "0-2": {
-            "w": 301,
+            "w": 302,
             "l": 253,
-            "pct": 54.3
+            "pct": 54.4
           },
           "2-4": {
-            "w": 239,
+            "w": 240,
             "l": 208,
-            "pct": 53.5
+            "pct": 53.6
           },
           "4-7": {
             "w": 132,
@@ -118741,10 +118891,10 @@
         }
       },
       "clv": {
-        "n": 566,
+        "n": 568,
         "avg": 0.27,
-        "beat_close_pct": 36.4,
-        "beat_or_matched_pct": 78.4
+        "beat_close_pct": 36.3,
+        "beat_or_matched_pct": 78.2
       },
       "clv_by_confidence": {
         "high": {
@@ -118754,34 +118904,34 @@
           "beat_or_matched_pct": 85.7
         },
         "medium": {
-          "n": 517,
-          "avg": 0.27,
-          "beat_close_pct": 36.0,
-          "beat_or_matched_pct": 77.8
+          "n": 519,
+          "avg": 0.26,
+          "beat_close_pct": 35.8,
+          "beat_or_matched_pct": 77.5
         },
         "low": {
           "n": 0
         }
       },
-      "total_graded": 1702,
-      "ats_graded": 1450,
+      "total_graded": 1704,
+      "ats_graded": 1452,
       "ats": {
-        "w": 774,
+        "w": 776,
         "l": 676,
         "p": 0,
         "pct": 53.4
       },
       "su": {
-        "correct": 1201,
-        "total": 1702,
+        "correct": 1203,
+        "total": 1704,
         "pct": 70.6
       },
       "ou": {
         "over": 823,
-        "under": 857,
+        "under": 859,
         "push": 0,
         "model_correct": 857,
-        "model_gradeable": 1680,
+        "model_gradeable": 1682,
         "model_pct": 51.0
       },
       "by_confidence": {
@@ -118792,10 +118942,10 @@
           "pct": 49.1
         },
         "medium": {
-          "w": 597,
+          "w": 599,
           "l": 488,
           "p": 0,
-          "pct": 55.0
+          "pct": 55.1
         },
         "low": {
           "w": 41,
@@ -118805,18 +118955,18 @@
         }
       },
       "value_plays": {
-        "w": 337,
+        "w": 338,
         "l": 298,
         "p": 0,
         "pct": 53.1
       },
       "best_bets": {
-        "w": 155,
+        "w": 156,
         "l": 144,
         "p": 0,
-        "pct": 51.8
+        "pct": 52.0
       }
     }
   },
-  "generated_at": "2026-11-27T00:16:45.796986-05:00"
+  "generated_at": "2026-11-27T04:01:48.584412-05:00"
 }
