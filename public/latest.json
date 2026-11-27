@@ -166,7 +166,14 @@
         "total_edge": 2.5
       },
       "is_best_bet": true,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 10.5,
+        "over_under": 148.5,
+        "spread_holder": "Texas Tech Red Raiders",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-26T19:08:19.132809-05:00"
+      }
     },
     {
       "game_id": "401920529",
@@ -652,7 +659,14 @@
         "total_edge": 2.3
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -3.5,
+        "over_under": 153.5,
+        "spread_holder": "Gonzaga Bulldogs",
+        "bookmaker": "draftkings",
+        "captured_at": "2026-11-26T19:08:19.132809-05:00"
+      }
     },
     {
       "game_id": "401918972",
@@ -706,7 +720,14 @@
         "total_edge": -5.1
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": -6.5,
+        "over_under": 155.5,
+        "spread_holder": "LSU Tigers",
+        "bookmaker": "fanduel",
+        "captured_at": "2026-11-26T19:08:19.132809-05:00"
+      }
     },
     {
       "game_id": "401929281",
@@ -868,7 +889,14 @@
         "total_edge": 4.9
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 3.5,
+        "over_under": 137.5,
+        "spread_holder": "Jacksonville St Gamecocks",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-26T19:08:19.132809-05:00"
+      }
     },
     {
       "game_id": "401912231",
@@ -976,7 +1004,14 @@
         "total_edge": 3.7
       },
       "is_best_bet": false,
-      "is_tournament_game": true
+      "is_tournament_game": true,
+      "closing_line": {
+        "spread": 1.5,
+        "over_under": 138.5,
+        "spread_holder": "DePaul Blue Demons",
+        "bookmaker": "betmgm",
+        "captured_at": "2026-11-26T19:08:19.132809-05:00"
+      }
     },
     {
       "game_id": "401917547",
