@@ -118033,21 +118033,157 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401917547",
+      "date": "2026-11-26T22:00Z",
+      "home_team": "Saint Mary's Gaels",
+      "away_team": "UCLA Bruins",
+      "home_abbr": "SMC",
+      "away_abbr": "UCLA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+      "home_rank": 99,
+      "away_rank": 6,
+      "home_record": "6-1",
+      "away_record": "6-0",
+      "home_location": "Saint Mary's",
+      "away_location": "UCLA",
+      "home_rating_team": "Saint Mary's",
+      "away_rating_team": "UCLA",
+      "home_adj_em": 16.14,
+      "away_adj_em": 23.82,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Jenny Craig Pavilion",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FS1",
+      "predicted_spread": -5.4,
+      "predicted_total": 156.7,
+      "home_projected_score": 75.6,
+      "away_projected_score": 81.0,
+      "home_win_prob": 31.3,
+      "away_win_prob": 68.7,
+      "confidence": 46.0,
+      "pick": "UCLA Bruins",
+      "pick_abbr": "UCLA",
+      "is_home_pick": false,
+      "projected_tempo": 69.8,
+      "factors": {
+        "efficiency_margin": -5.36,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": null,
+        "over_under": null,
+        "spread_holder": null,
+        "bookmaker": null
+      },
+      "value_rating": null,
+      "model_vs_market": {
+        "spread_edge": null,
+        "total_edge": null
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": null,
+      "clv": null,
+      "actual_home_score": 85,
+      "actual_away_score": 70,
+      "actual_margin": 15,
+      "actual_total": 155,
+      "actual_winner": "Saint Mary's Gaels",
+      "model_correct_winner": false,
+      "ats_result": null,
+      "ou_result": null,
+      "model_ou_call": null,
+      "ou_model_correct": null
+    },
+    {
+      "game_id": "401920538",
+      "date": "2026-11-26T23:00Z",
+      "home_team": "Creighton Bluejays",
+      "away_team": "TCU Horned Frogs",
+      "home_abbr": "CREI",
+      "away_abbr": "TCU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "5-1",
+      "home_location": "Creighton",
+      "away_location": "TCU",
+      "home_rating_team": "Creighton",
+      "away_rating_team": "TCU",
+      "home_adj_em": 18.96,
+      "away_adj_em": 15.57,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "T-Mobile Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": 2.4,
+      "predicted_total": 153.2,
+      "home_projected_score": 77.8,
+      "away_projected_score": 75.4,
+      "home_win_prob": 58.5,
+      "away_win_prob": 41.5,
+      "confidence": 59.5,
+      "pick": "Creighton Bluejays",
+      "pick_abbr": "CREI",
+      "is_home_pick": true,
+      "projected_tempo": 69.7,
+      "factors": {
+        "efficiency_margin": 2.37,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 154.5,
+        "spread_holder": "Creighton Bluejays",
+        "bookmaker": "draftkings"
+      },
+      "value_rating": 0.9,
+      "model_vs_market": {
+        "spread_edge": 0.9,
+        "total_edge": -1.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 1.5,
+      "clv": null,
+      "actual_home_score": 95,
+      "actual_away_score": 87,
+      "actual_margin": 8,
+      "actual_total": 182,
+      "actual_winner": "Creighton Bluejays",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 965,
+      "n": 966,
       "model_mae": 9.96,
-      "market_mae": 9.68,
-      "intercept": -0.57,
+      "market_mae": 9.67,
+      "intercept": -0.56,
       "model_weight": 0.108,
-      "market_weight": 0.903,
+      "market_weight": 0.902,
       "ats_by_edge": {
         "0-2": {
-          "w": 186,
+          "w": 187,
           "l": 130,
-          "pct": 58.9
+          "pct": 59.0
         },
         "2-4": {
           "w": 143,
@@ -118089,25 +118225,25 @@
         "n": 0
       }
     },
-    "total_graded": 976,
-    "ats_graded": 840,
+    "total_graded": 978,
+    "ats_graded": 841,
     "ats": {
-      "w": 463,
+      "w": 464,
       "l": 377,
       "p": 0,
-      "pct": 55.1
+      "pct": 55.2
     },
     "su": {
-      "correct": 729,
-      "total": 976,
-      "pct": 74.7
+      "correct": 730,
+      "total": 978,
+      "pct": 74.6
     },
     "ou": {
-      "over": 469,
+      "over": 470,
       "under": 496,
       "push": 0,
       "model_correct": 500,
-      "model_gradeable": 965,
+      "model_gradeable": 966,
       "model_pct": 51.8
     },
     "by_confidence": {
@@ -118118,7 +118254,7 @@
         "pct": 49.3
       },
       "medium": {
-        "w": 428,
+        "w": 429,
         "l": 341,
         "p": 0,
         "pct": 55.7
@@ -118146,17 +118282,17 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1673,
+        "n": 1674,
         "model_mae": 10.35,
         "market_mae": 9.36,
-        "intercept": -0.03,
+        "intercept": -0.02,
         "model_weight": -0.003,
         "market_weight": 0.975,
         "ats_by_edge": {
           "0-2": {
-            "w": 300,
+            "w": 301,
             "l": 252,
-            "pct": 54.3
+            "pct": 54.4
           },
           "2-4": {
             "w": 238,
@@ -118198,25 +118334,25 @@
           "n": 0
         }
       },
-      "total_graded": 1694,
-      "ats_graded": 1446,
+      "total_graded": 1696,
+      "ats_graded": 1447,
       "ats": {
-        "w": 771,
+        "w": 772,
         "l": 675,
         "p": 0,
-        "pct": 53.3
+        "pct": 53.4
       },
       "su": {
-        "correct": 1197,
-        "total": 1694,
-        "pct": 70.7
+        "correct": 1198,
+        "total": 1696,
+        "pct": 70.6
       },
       "ou": {
-        "over": 819,
+        "over": 820,
         "under": 854,
         "push": 0,
         "model_correct": 857,
-        "model_gradeable": 1673,
+        "model_gradeable": 1674,
         "model_pct": 51.2
       },
       "by_confidence": {
@@ -118227,7 +118363,7 @@
           "pct": 48.9
         },
         "medium": {
-          "w": 595,
+          "w": 596,
           "l": 487,
           "p": 0,
           "pct": 55.0
@@ -118253,5 +118389,5 @@
       }
     }
   },
-  "generated_at": "2026-11-26T19:08:34.371608-05:00"
+  "generated_at": "2026-11-26T20:36:35.320473-05:00"
 }
