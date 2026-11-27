@@ -118394,31 +118394,235 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401920530",
+      "date": "2026-11-27T02:00Z",
+      "home_team": "St. John's Red Storm",
+      "away_team": "Louisville Cardinals",
+      "home_abbr": "SJU",
+      "away_abbr": "LOU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+      "home_rank": 13,
+      "away_rank": 25,
+      "home_record": "6-0",
+      "away_record": "4-1",
+      "home_location": "St. John's",
+      "away_location": "Louisville",
+      "home_rating_team": "St. John's",
+      "away_rating_team": "Louisville",
+      "home_adj_em": 25.75,
+      "away_adj_em": 21.27,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 3.2,
+      "predicted_total": 156.2,
+      "home_projected_score": 79.7,
+      "away_projected_score": 76.5,
+      "home_win_prob": 61.4,
+      "away_win_prob": 38.6,
+      "confidence": 61.8,
+      "pick": "St. John's Red Storm",
+      "pick_abbr": "SJU",
+      "is_home_pick": true,
+      "projected_tempo": 71.2,
+      "factors": {
+        "efficiency_margin": 3.19,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -1.5,
+        "over_under": 161.5,
+        "spread_holder": "SJU -1.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 1.7,
+      "model_vs_market": {
+        "spread_edge": 1.7,
+        "total_edge": -5.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": 1.5,
+      "clv": null,
+      "actual_home_score": 90,
+      "actual_away_score": 93,
+      "actual_margin": -3,
+      "actual_total": 183,
+      "actual_winner": "Louisville Cardinals",
+      "model_correct_winner": false,
+      "ats_result": "L",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920539",
+      "date": "2026-11-27T02:00Z",
+      "home_team": "Kansas State Wildcats",
+      "away_team": "Alabama Crimson Tide",
+      "home_abbr": "KSU",
+      "away_abbr": "ALA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+      "home_rank": 99,
+      "away_rank": 15,
+      "home_record": "3-3",
+      "away_record": "5-1",
+      "home_location": "Kansas State",
+      "away_location": "Alabama",
+      "home_rating_team": "Kansas St.",
+      "away_rating_team": "Alabama",
+      "home_adj_em": 7.79,
+      "away_adj_em": 20.81,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "T-Mobile Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPNU",
+      "predicted_spread": -9.5,
+      "predicted_total": 161.0,
+      "home_projected_score": 75.7,
+      "away_projected_score": 85.2,
+      "home_win_prob": 19.5,
+      "away_win_prob": 80.5,
+      "confidence": 80.0,
+      "pick": "Alabama Crimson Tide",
+      "pick_abbr": "ALA",
+      "is_home_pick": false,
+      "projected_tempo": 72.7,
+      "factors": {
+        "efficiency_margin": -9.47,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 15.5,
+        "over_under": 169.5,
+        "spread_holder": "ALA -15.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 6.0,
+      "model_vs_market": {
+        "spread_edge": -6.0,
+        "total_edge": -8.5
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -15.5,
+      "clv": null,
+      "actual_home_score": 91,
+      "actual_away_score": 104,
+      "actual_margin": -13,
+      "actual_total": 195,
+      "actual_winner": "Alabama Crimson Tide",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401917546",
+      "date": "2026-11-27T03:30Z",
+      "home_team": "Omaha Mavericks",
+      "away_team": "Pacific Tigers",
+      "home_abbr": "OMA",
+      "away_abbr": "PAC",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-4",
+      "away_record": "5-2",
+      "home_location": "Omaha",
+      "away_location": "Pacific",
+      "home_rating_team": "Nebraska Omaha",
+      "away_rating_team": "Pacific",
+      "home_adj_em": -13.27,
+      "away_adj_em": 2.57,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Resorts World Event Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FloSports",
+      "predicted_spread": -10.7,
+      "predicted_total": 142.5,
+      "home_projected_score": 65.9,
+      "away_projected_score": 76.6,
+      "home_win_prob": 16.5,
+      "away_win_prob": 83.5,
+      "confidence": 60.9,
+      "pick": "Pacific Tigers",
+      "pick_abbr": "PAC",
+      "is_home_pick": false,
+      "projected_tempo": 67.8,
+      "factors": {
+        "efficiency_margin": -10.74,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 8.5,
+        "over_under": 139.5,
+        "spread_holder": "PAC -8.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 2.2,
+      "model_vs_market": {
+        "spread_edge": 2.2,
+        "total_edge": 3.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": -8.5,
+      "clv": null,
+      "actual_home_score": 62,
+      "actual_away_score": 71,
+      "actual_margin": -9,
+      "actual_total": 133,
+      "actual_winner": "Pacific Tigers",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
     }
   ],
   "summary": {
     "calibration": {
-      "n": 969,
-      "model_mae": 9.95,
-      "market_mae": 9.67,
-      "intercept": -0.57,
+      "n": 972,
+      "model_mae": 9.93,
+      "market_mae": 9.65,
+      "intercept": -0.56,
       "model_weight": 0.107,
       "market_weight": 0.903,
       "ats_by_edge": {
         "0-2": {
           "w": 187,
-          "l": 130,
-          "pct": 59.0
+          "l": 131,
+          "pct": 58.8
         },
         "2-4": {
-          "w": 143,
+          "w": 144,
           "l": 128,
-          "pct": 52.8
+          "pct": 52.9
         },
         "4-7": {
-          "w": 93,
+          "w": 94,
           "l": 82,
-          "pct": 53.1
+          "pct": 53.4
         },
         "7+": {
           "w": 41,
@@ -118450,37 +118654,37 @@
         "n": 0
       }
     },
-    "total_graded": 981,
-    "ats_graded": 841,
+    "total_graded": 984,
+    "ats_graded": 844,
     "ats": {
-      "w": 464,
-      "l": 377,
+      "w": 466,
+      "l": 378,
       "p": 0,
       "pct": 55.2
     },
     "su": {
-      "correct": 731,
-      "total": 981,
+      "correct": 733,
+      "total": 984,
       "pct": 74.5
     },
     "ou": {
-      "over": 471,
-      "under": 498,
+      "over": 473,
+      "under": 499,
       "push": 0,
       "model_correct": 500,
-      "model_gradeable": 969,
-      "model_pct": 51.6
+      "model_gradeable": 972,
+      "model_pct": 51.4
     },
     "by_confidence": {
       "high": {
-        "w": 35,
+        "w": 36,
         "l": 36,
         "p": 0,
-        "pct": 49.3
+        "pct": 50.0
       },
       "medium": {
-        "w": 429,
-        "l": 341,
+        "w": 430,
+        "l": 342,
         "p": 0,
         "pct": 55.7
       },
@@ -118492,10 +118696,10 @@
       }
     },
     "value_plays": {
-      "w": 191,
+      "w": 192,
       "l": 168,
       "p": 0,
-      "pct": 53.2
+      "pct": 53.3
     },
     "best_bets": {
       "w": 118,
@@ -118507,27 +118711,27 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1677,
-        "model_mae": 10.34,
-        "market_mae": 9.36,
+        "n": 1680,
+        "model_mae": 10.33,
+        "market_mae": 9.34,
         "intercept": -0.03,
         "model_weight": -0.003,
         "market_weight": 0.975,
         "ats_by_edge": {
           "0-2": {
             "w": 301,
-            "l": 252,
-            "pct": 54.4
+            "l": 253,
+            "pct": 54.3
           },
           "2-4": {
-            "w": 238,
+            "w": 239,
             "l": 208,
-            "pct": 53.4
+            "pct": 53.5
           },
           "4-7": {
-            "w": 131,
+            "w": 132,
             "l": 116,
-            "pct": 53.0
+            "pct": 53.2
           },
           "7+": {
             "w": 102,
@@ -118559,37 +118763,37 @@
           "n": 0
         }
       },
-      "total_graded": 1699,
-      "ats_graded": 1447,
+      "total_graded": 1702,
+      "ats_graded": 1450,
       "ats": {
-        "w": 772,
-        "l": 675,
+        "w": 774,
+        "l": 676,
         "p": 0,
         "pct": 53.4
       },
       "su": {
-        "correct": 1199,
-        "total": 1699,
+        "correct": 1201,
+        "total": 1702,
         "pct": 70.6
       },
       "ou": {
-        "over": 821,
-        "under": 856,
+        "over": 823,
+        "under": 857,
         "push": 0,
         "model_correct": 857,
-        "model_gradeable": 1677,
-        "model_pct": 51.1
+        "model_gradeable": 1680,
+        "model_pct": 51.0
       },
       "by_confidence": {
         "high": {
-          "w": 135,
+          "w": 136,
           "l": 141,
           "p": 0,
-          "pct": 48.9
+          "pct": 49.1
         },
         "medium": {
-          "w": 596,
-          "l": 487,
+          "w": 597,
+          "l": 488,
           "p": 0,
           "pct": 55.0
         },
@@ -118601,10 +118805,10 @@
         }
       },
       "value_plays": {
-        "w": 336,
+        "w": 337,
         "l": 298,
         "p": 0,
-        "pct": 53.0
+        "pct": 53.1
       },
       "best_bets": {
         "w": 155,
@@ -118614,5 +118818,5 @@
       }
     }
   },
-  "generated_at": "2026-11-26T22:51:25.430095-05:00"
+  "generated_at": "2026-11-27T00:16:45.796986-05:00"
 }

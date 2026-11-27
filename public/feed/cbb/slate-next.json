@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-26T22:51:25.541889-05:00",
+ "generated_at": "2026-11-27T00:16:45.968619-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-27",
@@ -144,6 +144,74 @@
    "bet": {
     "side": "home",
     "cover_line": -1.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "cbb:401920533",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-27",
+   "game_id": "401920533",
+   "game_id_source": "espn",
+   "start_time": "2026-11-27T18:00Z",
+   "status": "pending",
+   "home": {
+    "name": "St. John's Red Storm",
+    "abbr": "SJU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+    "record": "6-1",
+    "rank": 13
+   },
+   "away": {
+    "name": "Iowa State Cyclones",
+    "abbr": "ISU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+    "record": "4-2",
+    "rank": null
+   },
+   "venue": "Michelob ULTRA Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN2",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": -2.3,
+    "total": 147.2,
+    "home_score": 74.8,
+    "away_score": 72.5,
+    "home_win_prob": 58.3,
+    "confidence": 55.8,
+    "tempo": 70.8,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "St. John's Red Storm",
+     "abbr": "SJU",
+     "side": "home"
+    }
+   },
+   "market": {
+    "spread_home": -2.5,
+    "total": 151.5,
+    "favorite": "SJU -2.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -0.2,
+    "total": -4.3,
+    "value_rating": 0.2,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": 2.5
    },
    "result": null,
    "tags": [
@@ -809,7 +877,7 @@
    },
    "market": {
     "spread_home": -8.5,
-    "total": 151.5,
+    "total": 152.5,
     "favorite": "UNCW -8.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -817,7 +885,7 @@
    "closing": null,
    "edge": {
     "spread": -1.6,
-    "total": 0.3,
+    "total": -0.7,
     "value_rating": 1.6,
     "is_best_bet": false
    },
@@ -1331,7 +1399,7 @@
     "home_score": 69.0,
     "away_score": 75.9,
     "home_win_prob": 26.6,
-    "confidence": 66.5,
+    "confidence": 62.5,
     "tempo": 65.8,
     "confidence_tier": "medium",
     "pick": {
@@ -1341,22 +1409,22 @@
     }
    },
    "market": {
-    "spread_home": 9.5,
-    "total": 141.5,
-    "favorite": "CIN -9.5",
+    "spread_home": 8.5,
+    "total": 140.5,
+    "favorite": "CIN -8.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 2.6,
-    "total": 3.4,
-    "value_rating": 2.6,
+    "spread": 1.6,
+    "total": 4.4,
+    "value_rating": 1.6,
     "is_best_bet": false
    },
    "bet": {
     "side": "home",
-    "cover_line": -9.5
+    "cover_line": -8.5
    },
    "result": null,
    "tags": [
@@ -1632,6 +1700,74 @@
    ]
   },
   {
+   "id": "cbb:401920541",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-27",
+   "game_id": "401920541",
+   "game_id_source": "espn",
+   "start_time": "2026-11-27T22:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Kansas State Wildcats",
+    "abbr": "KSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+    "record": "3-4",
+    "rank": null
+   },
+   "away": {
+    "name": "Michigan Wolverines",
+    "abbr": "MICH",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+    "record": "3-4",
+    "rank": null
+   },
+   "venue": "T-Mobile Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 8.1,
+    "total": 157.3,
+    "home_score": 74.6,
+    "away_score": 82.7,
+    "home_win_prob": 23.0,
+    "confidence": 58.5,
+    "tempo": 72.4,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Michigan Wolverines",
+     "abbr": "MICH",
+     "side": "away"
+    }
+   },
+   "market": {
+    "spread_home": 7.5,
+    "total": 163.5,
+    "favorite": "MICH -7.5",
+    "bookmaker": "espn",
+    "captured_at": null
+   },
+   "closing": null,
+   "edge": {
+    "spread": -0.6,
+    "total": -6.2,
+    "value_rating": 0.6,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "away",
+    "cover_line": -7.5
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
    "id": "cbb:401927366",
    "sport": "cbb",
    "league": "NCAAM",
@@ -1678,7 +1814,7 @@
    },
    "market": {
     "spread_home": -5.5,
-    "total": 157.5,
+    "total": 156.5,
     "favorite": "BOIS -5.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -1686,7 +1822,7 @@
    "closing": null,
    "edge": {
     "spread": 0.8,
-    "total": -4.0,
+    "total": -3.0,
     "value_rating": 0.8,
     "is_best_bet": false
    },
@@ -2210,7 +2346,7 @@
     "home_score": 92.2,
     "away_score": 60.6,
     "home_win_prob": 99.8,
-    "confidence": 69.4,
+    "confidence": 65.4,
     "tempo": 67.9,
     "confidence_tier": "medium",
     "pick": {
@@ -2220,22 +2356,22 @@
     }
    },
    "market": {
-    "spread_home": -37.5,
+    "spread_home": -36.5,
     "total": 146.5,
-    "favorite": "HOU -37.5",
+    "favorite": "HOU -36.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -5.9,
+    "spread": -4.9,
     "total": 6.3,
-    "value_rating": 5.9,
+    "value_rating": 4.9,
     "is_best_bet": true
    },
    "bet": {
     "side": "away",
-    "cover_line": 37.5
+    "cover_line": 36.5
    },
    "result": null,
    "tags": [
@@ -2333,7 +2469,7 @@
     "name": "Pacific Tigers",
     "abbr": "PAC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
-    "record": "5-2",
+    "record": "6-2",
     "rank": null
    },
    "venue": "Resorts World Event Center",
@@ -2347,7 +2483,7 @@
     "home_score": 67.8,
     "away_score": 73.1,
     "home_win_prob": 31.7,
-    "confidence": 59.0,
+    "confidence": 57.0,
     "tempo": 68.8,
     "confidence_tier": "medium",
     "pick": {
@@ -2357,22 +2493,22 @@
     }
    },
    "market": {
-    "spread_home": 4.5,
+    "spread_home": 5.5,
     "total": 138.5,
-    "favorite": "PAC -4.5",
+    "favorite": "PAC -5.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -0.8,
+    "spread": 0.2,
     "total": 2.4,
-    "value_rating": 0.8,
+    "value_rating": 0.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": -4.5
+    "side": "none",
+    "cover_line": -5.5
    },
    "result": null,
    "tags": [
@@ -2558,7 +2694,7 @@
    },
    "market": {
     "spread_home": -6.5,
-    "total": 144.5,
+    "total": 143.5,
     "favorite": "UNT -6.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -2566,7 +2702,7 @@
    "closing": null,
    "edge": {
     "spread": -1.2,
-    "total": 1.5,
+    "total": 2.5,
     "value_rating": 1.2,
     "is_best_bet": false
    },
@@ -2626,7 +2762,7 @@
    },
    "market": {
     "spread_home": -3.5,
-    "total": 141.5,
+    "total": 142.5,
     "favorite": "ORU -3.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -2634,7 +2770,7 @@
    "closing": null,
    "edge": {
     "spread": 1.0,
-    "total": 5.1,
+    "total": 4.1,
     "value_rating": 1.0,
     "is_best_bet": false
    },
@@ -2644,6 +2780,68 @@
    },
    "result": null,
    "tags": []
+  },
+  {
+   "id": "cbb:401920543",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-27",
+   "game_id": "401920543",
+   "game_id_source": "espn",
+   "start_time": "2026-11-28T01:30Z",
+   "status": "pending",
+   "home": {
+    "name": "Alabama Crimson Tide",
+    "abbr": "ALA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+    "record": "6-1",
+    "rank": 15
+   },
+   "away": {
+    "name": "Miami Hurricanes",
+    "abbr": "MIA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+    "record": "6-2",
+    "rank": 17
+   },
+   "venue": "T-Mobile Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPNU",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 0.1,
+    "total": 161.0,
+    "home_score": 80.5,
+    "away_score": 80.5,
+    "home_win_prob": 49.7,
+    "confidence": 46.0,
+    "tempo": 72.9,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Miami Hurricanes",
+     "abbr": "MIA",
+     "side": "away"
+    }
+   },
+   "market": null,
+   "closing": null,
+   "edge": {
+    "spread": null,
+    "total": null,
+    "value_rating": null,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": null
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
   },
   {
    "id": "cbb:401919033",
@@ -2712,6 +2910,68 @@
    "tags": []
   },
   {
+   "id": "cbb:401920534",
+   "sport": "cbb",
+   "league": "NCAAM",
+   "season": 2027,
+   "season_label": "2026-27",
+   "slate_date": "2026-11-27",
+   "game_id": "401920534",
+   "game_id_source": "espn",
+   "start_time": "2026-11-28T02:00Z",
+   "status": "pending",
+   "home": {
+    "name": "Louisville Cardinals",
+    "abbr": "LOU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+    "record": "5-1",
+    "rank": 25
+   },
+   "away": {
+    "name": "Tennessee Volunteers",
+    "abbr": "TENN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+    "record": "7-0",
+    "rank": 9
+   },
+   "venue": "Michelob ULTRA Arena",
+   "neutral_site": true,
+   "conference_game": false,
+   "broadcast": "ESPN",
+   "model": {
+    "version": "4.1.0",
+    "spread_home": 0.1,
+    "total": 146.3,
+    "home_score": 73.1,
+    "away_score": 73.2,
+    "home_win_prob": 49.6,
+    "confidence": 45.0,
+    "tempo": 68.9,
+    "confidence_tier": "medium",
+    "pick": {
+     "team": "Tennessee Volunteers",
+     "abbr": "TENN",
+     "side": "away"
+    }
+   },
+   "market": null,
+   "closing": null,
+   "edge": {
+    "spread": null,
+    "total": null,
+    "value_rating": null,
+    "is_best_bet": false
+   },
+   "bet": {
+    "side": "none",
+    "cover_line": null
+   },
+   "result": null,
+   "tags": [
+    "tournament"
+   ]
+  },
+  {
    "id": "cbb:401926783",
    "sport": "cbb",
    "league": "NCAAM",
@@ -2726,7 +2986,7 @@
     "name": "Omaha Mavericks",
     "abbr": "OMA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
-    "record": "3-4",
+    "record": "3-5",
     "rank": null
    },
    "away": {
@@ -2758,7 +3018,7 @@
    },
    "market": {
     "spread_home": 5.5,
-    "total": 145.5,
+    "total": 144.5,
     "favorite": "JXST -5.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -2766,7 +3026,7 @@
    "closing": null,
    "edge": {
     "spread": -1.7,
-    "total": 1.3,
+    "total": 2.3,
     "value_rating": 1.7,
     "is_best_bet": false
    },

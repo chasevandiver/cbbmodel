@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-26T22:51:25.541889-05:00",
+ "generated_at": "2026-11-27T00:16:45.968619-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "records": [
@@ -81994,7 +81994,7 @@
    "game_id": "401920530",
    "game_id_source": "espn",
    "start_time": "2026-11-27T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "St. John's Red Storm",
     "abbr": "SJU",
@@ -82047,7 +82047,19 @@
     "side": "home",
     "cover_line": 1.5
    },
-   "result": null,
+   "result": {
+    "home_score": 90,
+    "away_score": 93,
+    "margin_home": -3,
+    "total": 183,
+    "winner": "Louisville Cardinals",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -82062,7 +82074,7 @@
    "game_id": "401920539",
    "game_id_source": "espn",
    "start_time": "2026-11-27T02:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Kansas State Wildcats",
     "abbr": "KSU",
@@ -82115,7 +82127,19 @@
     "side": "home",
     "cover_line": -15.5
    },
-   "result": null,
+   "result": {
+    "home_score": 91,
+    "away_score": 104,
+    "margin_home": -13,
+    "total": 195,
+    "winner": "Alabama Crimson Tide",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "value",
     "high_confidence",
@@ -82132,7 +82156,7 @@
    "game_id": "401917546",
    "game_id_source": "espn",
    "start_time": "2026-11-27T03:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Omaha Mavericks",
     "abbr": "OMA",
@@ -82185,7 +82209,19 @@
     "side": "away",
     "cover_line": -8.5
    },
-   "result": null,
+   "result": {
+    "home_score": 62,
+    "away_score": 71,
+    "margin_home": -9,
+    "total": 133,
+    "winner": "Pacific Tigers",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
