@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-27T04:23:58.795733-05:00",
+ "generated_at": "2026-11-27T06:07:50.971838-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-27",
@@ -45,13 +45,13 @@
    "broadcast": "ESPN2",
    "model": {
     "version": "4.1.0",
-    "spread_home": 7.3,
-    "total": 156.0,
-    "home_score": 74.4,
-    "away_score": 81.6,
-    "home_win_prob": 25.4,
-    "confidence": 57.9,
-    "tempo": 71.9,
+    "spread_home": 7.2,
+    "total": 155.4,
+    "home_score": 74.1,
+    "away_score": 81.3,
+    "home_win_prob": 25.5,
+    "confidence": 58.0,
+    "tempo": 71.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Virginia Cavaliers",
@@ -68,9 +68,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.2,
-    "total": -0.5,
-    "value_rating": 0.2,
+    "spread": 0.3,
+    "total": -1.1,
+    "value_rating": 0.3,
     "is_best_bet": false
    },
    "bet": {
@@ -113,13 +113,13 @@
    "broadcast": "",
    "model": {
     "version": "4.1.0",
-    "spread_home": -0.6,
-    "total": 152.6,
-    "home_score": 76.6,
-    "away_score": 76.0,
-    "home_win_prob": 52.3,
-    "confidence": 65.5,
-    "tempo": 66.0,
+    "spread_home": -0.3,
+    "total": 152.2,
+    "home_score": 76.3,
+    "away_score": 75.9,
+    "home_win_prob": 51.3,
+    "confidence": 64.4,
+    "tempo": 65.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "St. Thomas Tommies",
@@ -136,9 +136,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": 2.1,
-    "total": 6.1,
-    "value_rating": 2.1,
+    "spread": 1.8,
+    "total": 5.7,
+    "value_rating": 1.8,
     "is_best_bet": false
    },
    "bet": {
@@ -181,12 +181,12 @@
    "broadcast": "ESPN2",
    "model": {
     "version": "4.1.0",
-    "spread_home": 2.6,
-    "total": 149.9,
-    "home_score": 73.6,
-    "away_score": 76.3,
-    "home_win_prob": 40.5,
-    "confidence": 63.4,
+    "spread_home": 2.3,
+    "total": 147.2,
+    "home_score": 72.5,
+    "away_score": 74.8,
+    "home_win_prob": 41.7,
+    "confidence": 63.8,
     "tempo": 70.8,
     "confidence_tier": "medium",
     "pick": {
@@ -204,9 +204,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": 1.9,
-    "total": -0.6,
-    "value_rating": 1.9,
+    "spread": 2.2,
+    "total": -3.3,
+    "value_rating": 2.2,
     "is_best_bet": false
    },
    "bet": {
@@ -250,12 +250,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -0.9,
-    "total": 141.4,
-    "home_score": 71.2,
-    "away_score": 70.2,
-    "home_win_prob": 53.3,
-    "confidence": 61.3,
-    "tempo": 68.2,
+    "total": 141.1,
+    "home_score": 71.0,
+    "away_score": 70.1,
+    "home_win_prob": 53.1,
+    "confidence": 61.6,
+    "tempo": 68.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "UMass Lowell River Hawks",
@@ -273,7 +273,7 @@
    "closing": null,
    "edge": {
     "spread": -1.6,
-    "total": 1.9,
+    "total": 1.6,
     "value_rating": 1.6,
     "is_best_bet": false
    },
@@ -318,12 +318,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 3.0,
-    "total": 142.9,
-    "home_score": 70.0,
-    "away_score": 72.9,
+    "total": 142.5,
+    "home_score": 69.8,
+    "away_score": 72.8,
     "home_win_prob": 39.3,
-    "confidence": 56.9,
-    "tempo": 64.6,
+    "confidence": 57.0,
+    "tempo": 64.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Vermont Catamounts",
@@ -341,7 +341,7 @@
    "closing": null,
    "edge": {
     "spread": -0.5,
-    "total": 13.4,
+    "total": 13.0,
     "value_rating": 0.5,
     "is_best_bet": false
    },
@@ -386,12 +386,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -1.1,
-    "total": 158.6,
-    "home_score": 79.9,
-    "away_score": 78.8,
-    "home_win_prob": 54.0,
-    "confidence": 61.6,
-    "tempo": 69.7,
+    "total": 158.4,
+    "home_score": 79.8,
+    "away_score": 78.7,
+    "home_win_prob": 54.1,
+    "confidence": 61.5,
+    "tempo": 69.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Memphis Tigers",
@@ -409,7 +409,7 @@
    "closing": null,
    "edge": {
     "spread": -1.4,
-    "total": 4.1,
+    "total": 3.9,
     "value_rating": 1.4,
     "is_best_bet": false
    },
@@ -454,9 +454,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 0.2,
-    "total": 139.0,
-    "home_score": 69.4,
-    "away_score": 69.6,
+    "total": 138.7,
+    "home_score": 69.3,
+    "away_score": 69.5,
     "home_win_prob": 49.3,
     "confidence": 62.2,
     "tempo": 69.3,
@@ -477,7 +477,7 @@
    "closing": null,
    "edge": {
     "spread": 1.3,
-    "total": -0.5,
+    "total": -0.8,
     "value_rating": 1.3,
     "is_best_bet": false
    },
@@ -522,9 +522,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -5.8,
-    "total": 135.6,
-    "home_score": 70.7,
-    "away_score": 64.9,
+    "total": 135.3,
+    "home_score": 70.5,
+    "away_score": 64.8,
     "home_win_prob": 70.1,
     "confidence": 61.2,
     "tempo": 67.8,
@@ -545,7 +545,7 @@
    "closing": null,
    "edge": {
     "spread": 1.3,
-    "total": -0.9,
+    "total": -1.2,
     "value_rating": 1.3,
     "is_best_bet": false
    },
@@ -588,9 +588,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -29.8,
-    "total": 147.7,
-    "home_score": 88.8,
-    "away_score": 58.9,
+    "total": 147.4,
+    "home_score": 88.6,
+    "away_score": 58.8,
     "home_win_prob": 99.7,
     "confidence": 71.0,
     "tempo": 70.6,
@@ -611,7 +611,7 @@
    "closing": null,
    "edge": {
     "spread": -7.7,
-    "total": -3.8,
+    "total": -4.1,
     "value_rating": 7.7,
     "is_best_bet": false
    },
@@ -657,11 +657,11 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -1.2,
-    "total": 150.0,
-    "home_score": 75.6,
-    "away_score": 74.4,
-    "home_win_prob": 54.5,
-    "confidence": 66.9,
+    "total": 149.6,
+    "home_score": 75.4,
+    "away_score": 74.2,
+    "home_win_prob": 54.3,
+    "confidence": 66.8,
     "tempo": 67.1,
     "confidence_tier": "medium",
     "pick": {
@@ -680,7 +680,7 @@
    "closing": null,
    "edge": {
     "spread": 2.7,
-    "total": 5.5,
+    "total": 5.1,
     "value_rating": 2.7,
     "is_best_bet": false
    },
@@ -724,14 +724,14 @@
    "broadcast": "Fox",
    "model": {
     "version": "4.1.0",
-    "spread_home": -4.8,
-    "total": 156.9,
-    "home_score": 80.8,
-    "away_score": 76.0,
-    "home_win_prob": 66.8,
-    "confidence": 71.9,
-    "tempo": 68.9,
-    "confidence_tier": "high",
+    "spread_home": -6.2,
+    "total": 155.3,
+    "home_score": 80.7,
+    "away_score": 74.6,
+    "home_win_prob": 71.2,
+    "confidence": 65.3,
+    "tempo": 68.8,
+    "confidence_tier": "medium",
     "pick": {
      "team": "UCLA Bruins",
      "abbr": "UCLA",
@@ -747,10 +747,10 @@
    },
    "closing": null,
    "edge": {
-    "spread": -3.7,
-    "total": 3.4,
-    "value_rating": 3.7,
-    "is_best_bet": true
+    "spread": -2.3,
+    "total": 1.8,
+    "value_rating": 2.3,
+    "is_best_bet": false
    },
    "bet": {
     "side": "away",
@@ -758,9 +758,6 @@
    },
    "result": null,
    "tags": [
-    "best_bet",
-    "value",
-    "high_confidence",
     "tournament"
    ]
   },
@@ -795,13 +792,13 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": -15.7,
-    "total": 152.7,
-    "home_score": 84.2,
-    "away_score": 68.5,
-    "home_win_prob": 92.3,
-    "confidence": 58.2,
-    "tempo": 68.6,
+    "spread_home": -15.6,
+    "total": 152.4,
+    "home_score": 84.0,
+    "away_score": 68.4,
+    "home_win_prob": 92.2,
+    "confidence": 58.5,
+    "tempo": 68.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Butler Bulldogs",
@@ -818,9 +815,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": -2.8,
-    "total": 1.2,
-    "value_rating": 2.8,
+    "spread": -2.9,
+    "total": 0.9,
+    "value_rating": 2.9,
     "is_best_bet": false
    },
    "bet": {
@@ -861,13 +858,13 @@
    "broadcast": "ESPN2",
    "model": {
     "version": "4.1.0",
-    "spread_home": -3.5,
+    "spread_home": -4.0,
     "total": 152.6,
-    "home_score": 78.1,
-    "away_score": 74.6,
-    "home_win_prob": 62.4,
-    "confidence": 61.1,
-    "tempo": 69.6,
+    "home_score": 78.3,
+    "away_score": 74.3,
+    "home_win_prob": 64.1,
+    "confidence": 58.1,
+    "tempo": 69.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Baylor Bears",
@@ -884,13 +881,13 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.0,
+    "spread": -0.5,
     "total": -1.9,
-    "value_rating": 1.0,
+    "value_rating": 0.5,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
+    "side": "none",
     "cover_line": 4.5
    },
    "result": null,
@@ -931,12 +928,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -6.9,
-    "total": 152.2,
-    "home_score": 79.6,
-    "away_score": 72.7,
-    "home_win_prob": 73.5,
-    "confidence": 63.4,
-    "tempo": 67.8,
+    "total": 151.8,
+    "home_score": 79.3,
+    "away_score": 72.5,
+    "home_win_prob": 73.4,
+    "confidence": 63.5,
+    "tempo": 67.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "UNC Wilmington Seahawks",
@@ -946,7 +943,7 @@
    },
    "market": {
     "spread_home": -8.5,
-    "total": 152.5,
+    "total": 151.5,
     "favorite": "UNCW -8.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -954,7 +951,7 @@
    "closing": null,
    "edge": {
     "spread": -1.6,
-    "total": -0.3,
+    "total": 0.3,
     "value_rating": 1.6,
     "is_best_bet": false
    },
@@ -996,13 +993,13 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": 6.6,
-    "total": 140.4,
-    "home_score": 66.9,
-    "away_score": 73.5,
-    "home_win_prob": 27.5,
-    "confidence": 65.3,
-    "tempo": 67.4,
+    "spread_home": 6.8,
+    "total": 139.9,
+    "home_score": 66.6,
+    "away_score": 73.4,
+    "home_win_prob": 27.0,
+    "confidence": 66.0,
+    "tempo": 67.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas State Bobcats",
@@ -1019,9 +1016,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": -2.1,
-    "total": 1.9,
-    "value_rating": 2.1,
+    "spread": -2.3,
+    "total": 1.4,
+    "value_rating": 2.3,
     "is_best_bet": false
    },
    "bet": {
@@ -1062,18 +1059,18 @@
    "broadcast": "ESPNU",
    "model": {
     "version": "4.1.0",
-    "spread_home": 0.3,
-    "total": 155.6,
-    "home_score": 77.6,
-    "away_score": 77.9,
-    "home_win_prob": 49.0,
-    "confidence": 46.0,
-    "tempo": 68.5,
+    "spread_home": -0.0,
+    "total": 158.0,
+    "home_score": 79.0,
+    "away_score": 79.0,
+    "home_win_prob": 50.1,
+    "confidence": 45.0,
+    "tempo": 68.9,
     "confidence_tier": "medium",
     "pick": {
-     "team": "Oregon Ducks",
-     "abbr": "ORE",
-     "side": "away"
+     "team": "Maryland Terrapins",
+     "abbr": "MD",
+     "side": "home"
     }
    },
    "market": null,
@@ -1126,12 +1123,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -5.5,
-    "total": 139.9,
-    "home_score": 72.7,
-    "away_score": 67.2,
+    "total": 139.7,
+    "home_score": 72.6,
+    "away_score": 67.1,
     "home_win_prob": 69.0,
-    "confidence": 62.8,
-    "tempo": 67.4,
+    "confidence": 62.9,
+    "tempo": 67.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Hofstra Pride",
@@ -1149,7 +1146,7 @@
    "closing": null,
    "edge": {
     "spread": 2.0,
-    "total": -0.6,
+    "total": -0.8,
     "value_rating": 2.0,
     "is_best_bet": false
    },
@@ -1191,12 +1188,12 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": 9.2,
-    "total": 148.4,
-    "home_score": 69.6,
-    "away_score": 78.8,
+    "spread_home": 9.1,
+    "total": 147.9,
+    "home_score": 69.4,
+    "away_score": 78.5,
     "home_win_prob": 20.3,
-    "confidence": 58.4,
+    "confidence": 58.5,
     "tempo": 68.6,
     "confidence_tier": "medium",
     "pick": {
@@ -1214,9 +1211,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.3,
-    "total": 0.9,
-    "value_rating": 0.3,
+    "spread": 0.4,
+    "total": 0.4,
+    "value_rating": 0.4,
     "is_best_bet": false
    },
    "bet": {
@@ -1260,12 +1257,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -21.0,
-    "total": 146.3,
-    "home_score": 83.7,
-    "away_score": 62.7,
+    "total": 146.0,
+    "home_score": 83.5,
+    "away_score": 62.5,
     "home_win_prob": 97.2,
-    "confidence": 49.1,
-    "tempo": 71.2,
+    "confidence": 49.2,
+    "tempo": 71.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "George Washington Revolutionaries",
@@ -1283,7 +1280,7 @@
    "closing": null,
    "edge": {
     "spread": -0.5,
-    "total": -6.2,
+    "total": -6.5,
     "value_rating": 0.5,
     "is_best_bet": false
    },
@@ -1325,13 +1322,13 @@
    "broadcast": "ESPN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": -7.5,
-    "total": 148.3,
-    "home_score": 77.9,
-    "away_score": 70.4,
+    "spread_home": -7.6,
+    "total": 147.9,
+    "home_score": 77.7,
+    "away_score": 70.2,
     "home_win_prob": 75.4,
-    "confidence": 56.2,
-    "tempo": 68.6,
+    "confidence": 56.3,
+    "tempo": 68.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "American University Eagles",
@@ -1348,9 +1345,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.0,
-    "total": 2.8,
-    "value_rating": 0.0,
+    "spread": 0.1,
+    "total": 2.4,
+    "value_rating": 0.1,
     "is_best_bet": false
    },
    "bet": {
@@ -1391,13 +1388,13 @@
    "broadcast": "SECN+",
    "model": {
     "version": "4.1.0",
-    "spread_home": -39.8,
-    "total": 152.7,
-    "home_score": 96.2,
-    "away_score": 56.5,
+    "spread_home": -39.5,
+    "total": 152.2,
+    "home_score": 95.8,
+    "away_score": 56.3,
     "home_win_prob": 100.0,
     "confidence": 71.0,
-    "tempo": 71.1,
+    "tempo": 70.9,
     "confidence_tier": "high",
     "pick": {
      "team": "Missouri Tigers",
@@ -1414,9 +1411,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": -8.7,
-    "total": -2.8,
-    "value_rating": 8.7,
+    "spread": -9.0,
+    "total": -3.3,
+    "value_rating": 9.0,
     "is_best_bet": false
    },
    "bet": {
@@ -1461,11 +1458,11 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -5.0,
-    "total": 143.9,
-    "home_score": 74.5,
-    "away_score": 69.4,
-    "home_win_prob": 67.7,
-    "confidence": 57.2,
+    "total": 143.6,
+    "home_score": 74.3,
+    "away_score": 69.3,
+    "home_win_prob": 67.5,
+    "confidence": 56.9,
     "tempo": 68.5,
     "confidence_tier": "medium",
     "pick": {
@@ -1484,7 +1481,7 @@
    "closing": null,
    "edge": {
     "spread": 0.5,
-    "total": 2.4,
+    "total": 2.1,
     "value_rating": 0.5,
     "is_best_bet": false
    },
@@ -1526,13 +1523,13 @@
    "broadcast": "ACC Network",
    "model": {
     "version": "4.1.0",
-    "spread_home": 6.8,
-    "total": 145.8,
-    "home_score": 69.5,
-    "away_score": 76.3,
-    "home_win_prob": 26.8,
-    "confidence": 63.7,
-    "tempo": 65.9,
+    "spread_home": 6.9,
+    "total": 144.9,
+    "home_score": 69.0,
+    "away_score": 75.9,
+    "home_win_prob": 26.6,
+    "confidence": 62.5,
+    "tempo": 65.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Cincinnati Bearcats",
@@ -1549,9 +1546,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": 1.7,
-    "total": 5.3,
-    "value_rating": 1.7,
+    "spread": 1.6,
+    "total": 4.4,
+    "value_rating": 1.6,
     "is_best_bet": false
    },
    "bet": {
@@ -1595,11 +1592,11 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -13.2,
-    "total": 154.4,
-    "home_score": 83.8,
-    "away_score": 70.6,
-    "home_win_prob": 88.6,
-    "confidence": 54.9,
+    "total": 154.1,
+    "home_score": 83.6,
+    "away_score": 70.4,
+    "home_win_prob": 88.4,
+    "confidence": 54.7,
     "tempo": 70.9,
     "confidence_tier": "medium",
     "pick": {
@@ -1618,7 +1615,7 @@
    "closing": null,
    "edge": {
     "spread": 0.7,
-    "total": -5.1,
+    "total": -5.4,
     "value_rating": 0.7,
     "is_best_bet": false
    },
@@ -1661,9 +1658,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -16.5,
-    "total": 154.2,
-    "home_score": 85.4,
-    "away_score": 68.9,
+    "total": 153.8,
+    "home_score": 85.2,
+    "away_score": 68.7,
     "home_win_prob": 93.3,
     "confidence": 55.0,
     "tempo": 67.7,
@@ -1684,7 +1681,7 @@
    "closing": null,
    "edge": {
     "spread": -2.0,
-    "total": 9.7,
+    "total": 9.3,
     "value_rating": 2.0,
     "is_best_bet": false
    },
@@ -1726,13 +1723,13 @@
    "broadcast": "SEC Network",
    "model": {
     "version": "4.1.0",
-    "spread_home": -1.2,
-    "total": 151.4,
-    "home_score": 76.3,
-    "away_score": 75.1,
-    "home_win_prob": 54.3,
-    "confidence": 58.2,
-    "tempo": 71.8,
+    "spread_home": -1.1,
+    "total": 151.2,
+    "home_score": 76.2,
+    "away_score": 75.0,
+    "home_win_prob": 54.1,
+    "confidence": 58.5,
+    "tempo": 71.7,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas A&M Aggies",
@@ -1749,9 +1746,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": -0.3,
-    "total": -6.1,
-    "value_rating": 0.3,
+    "spread": -0.4,
+    "total": -6.3,
+    "value_rating": 0.4,
     "is_best_bet": false
    },
    "bet": {
@@ -1794,14 +1791,14 @@
    "broadcast": "Fox",
    "model": {
     "version": "4.1.0",
-    "spread_home": 3.2,
-    "total": 161.3,
-    "home_score": 79.0,
-    "away_score": 82.2,
-    "home_win_prob": 38.7,
-    "confidence": 74.3,
-    "tempo": 70.4,
-    "confidence_tier": "high",
+    "spread_home": 4.6,
+    "total": 159.7,
+    "home_score": 77.6,
+    "away_score": 82.1,
+    "home_win_prob": 33.9,
+    "confidence": 67.7,
+    "tempo": 70.5,
+    "confidence_tier": "medium",
     "pick": {
      "team": "Texas Longhorns",
      "abbr": "TEX",
@@ -1810,17 +1807,17 @@
    },
    "market": {
     "spread_home": 7.5,
-    "total": 158.5,
+    "total": 159.5,
     "favorite": "TEX -7.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": 4.3,
-    "total": 2.8,
-    "value_rating": 4.3,
-    "is_best_bet": true
+    "spread": 2.9,
+    "total": 0.2,
+    "value_rating": 2.9,
+    "is_best_bet": false
    },
    "bet": {
     "side": "home",
@@ -1828,9 +1825,6 @@
    },
    "result": null,
    "tags": [
-    "best_bet",
-    "value",
-    "high_confidence",
     "tournament"
    ]
   },
@@ -1865,13 +1859,13 @@
    "broadcast": "ESPNU",
    "model": {
     "version": "4.1.0",
-    "spread_home": 7.0,
-    "total": 159.1,
-    "home_score": 76.0,
-    "away_score": 83.1,
-    "home_win_prob": 26.1,
-    "confidence": 58.9,
-    "tempo": 72.9,
+    "spread_home": 8.1,
+    "total": 157.3,
+    "home_score": 74.6,
+    "away_score": 82.7,
+    "home_win_prob": 23.0,
+    "confidence": 58.5,
+    "tempo": 72.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "Michigan Wolverines",
@@ -1888,13 +1882,13 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.5,
-    "total": -4.4,
-    "value_rating": 0.5,
+    "spread": -0.6,
+    "total": -6.2,
+    "value_rating": 0.6,
     "is_best_bet": false
    },
    "bet": {
-    "side": "none",
+    "side": "away",
     "cover_line": -7.5
    },
    "result": null,
@@ -1934,12 +1928,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -6.3,
-    "total": 153.9,
-    "home_score": 80.1,
-    "away_score": 73.8,
-    "home_win_prob": 71.7,
+    "total": 153.5,
+    "home_score": 79.9,
+    "away_score": 73.6,
+    "home_win_prob": 71.8,
     "confidence": 59.3,
-    "tempo": 70.3,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Boise State Broncos",
@@ -1957,7 +1951,7 @@
    "closing": null,
    "edge": {
     "spread": 0.8,
-    "total": -2.6,
+    "total": -3.0,
     "value_rating": 0.8,
     "is_best_bet": false
    },
@@ -2001,13 +1995,13 @@
    "broadcast": "BTN",
    "model": {
     "version": "4.1.0",
-    "spread_home": -19.6,
-    "total": 161.4,
-    "home_score": 90.5,
-    "away_score": 70.9,
+    "spread_home": -19.5,
+    "total": 160.8,
+    "home_score": 90.2,
+    "away_score": 70.7,
     "home_win_prob": 96.2,
-    "confidence": 57.7,
-    "tempo": 68.7,
+    "confidence": 57.9,
+    "tempo": 68.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Indiana Hoosiers",
@@ -2024,9 +2018,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": -2.9,
-    "total": 8.9,
-    "value_rating": 2.9,
+    "spread": -3.0,
+    "total": 8.3,
+    "value_rating": 3.0,
     "is_best_bet": false
    },
    "bet": {
@@ -2034,7 +2028,9 @@
     "cover_line": 22.5
    },
    "result": null,
-   "tags": []
+   "tags": [
+    "value"
+   ]
   },
   {
    "id": "cbb:401913531",
@@ -2068,12 +2064,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -20.2,
-    "total": 164.1,
-    "home_score": 92.2,
-    "away_score": 71.9,
+    "total": 163.4,
+    "home_score": 91.8,
+    "away_score": 71.6,
     "home_win_prob": 96.7,
     "confidence": 71.0,
-    "tempo": 73.4,
+    "tempo": 73.2,
     "confidence_tier": "high",
     "pick": {
      "team": "Illinois Fighting Illini",
@@ -2091,7 +2087,7 @@
    "closing": null,
    "edge": {
     "spread": -7.3,
-    "total": -12.4,
+    "total": -13.1,
     "value_rating": 7.3,
     "is_best_bet": false
    },
@@ -2137,12 +2133,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -6.4,
-    "total": 144.2,
-    "home_score": 75.3,
-    "away_score": 68.9,
-    "home_win_prob": 71.9,
+    "total": 143.8,
+    "home_score": 75.1,
+    "away_score": 68.7,
+    "home_win_prob": 72.0,
     "confidence": 64.6,
-    "tempo": 69.3,
+    "tempo": 69.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Pennsylvania Quakers",
@@ -2160,7 +2156,7 @@
    "closing": null,
    "edge": {
     "spread": 1.9,
-    "total": -1.3,
+    "total": -1.7,
     "value_rating": 1.9,
     "is_best_bet": false
    },
@@ -2203,12 +2199,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -12.0,
-    "total": 141.1,
-    "home_score": 76.5,
-    "away_score": 64.6,
-    "home_win_prob": 86.1,
-    "confidence": 56.8,
-    "tempo": 68.5,
+    "total": 140.8,
+    "home_score": 76.4,
+    "away_score": 64.4,
+    "home_win_prob": 86.3,
+    "confidence": 57.1,
+    "tempo": 68.4,
     "confidence_tier": "medium",
     "pick": {
      "team": "East Tennessee State Buccaneers",
@@ -2226,7 +2222,7 @@
    "closing": null,
    "edge": {
     "spread": 1.5,
-    "total": -0.4,
+    "total": -0.7,
     "value_rating": 1.5,
     "is_best_bet": false
    },
@@ -2269,12 +2265,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": 0.7,
-    "total": 148.6,
-    "home_score": 74.0,
-    "away_score": 74.7,
-    "home_win_prob": 47.5,
-    "confidence": 63.2,
-    "tempo": 69.6,
+    "total": 148.2,
+    "home_score": 73.8,
+    "away_score": 74.4,
+    "home_win_prob": 47.6,
+    "confidence": 63.4,
+    "tempo": 69.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "West Virginia Mountaineers",
@@ -2292,7 +2288,7 @@
    "closing": null,
    "edge": {
     "spread": 1.8,
-    "total": 0.1,
+    "total": -0.3,
     "value_rating": 1.8,
     "is_best_bet": false
    },
@@ -2337,12 +2333,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -11.4,
-    "total": 150.8,
-    "home_score": 81.1,
-    "away_score": 69.7,
-    "home_win_prob": 85.0,
-    "confidence": 63.4,
-    "tempo": 67.7,
+    "total": 150.5,
+    "home_score": 81.0,
+    "away_score": 69.5,
+    "home_win_prob": 85.1,
+    "confidence": 63.2,
+    "tempo": 67.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "UC Santa Barbara Gauchos",
@@ -2352,7 +2348,7 @@
    },
    "market": {
     "spread_home": -14.5,
-    "total": 143.5,
+    "total": 145.5,
     "favorite": "UCSB -14.5",
     "bookmaker": "espn",
     "captured_at": null
@@ -2360,7 +2356,7 @@
    "closing": null,
    "edge": {
     "spread": -3.1,
-    "total": 7.3,
+    "total": 5.0,
     "value_rating": 3.1,
     "is_best_bet": true
    },
@@ -2406,12 +2402,12 @@
    "broadcast": "ESPN2",
    "model": {
     "version": "4.1.0",
-    "spread_home": -5.3,
-    "total": 164.6,
-    "home_score": 84.9,
-    "away_score": 79.6,
-    "home_win_prob": 68.5,
-    "confidence": 57.8,
+    "spread_home": -5.0,
+    "total": 163.9,
+    "home_score": 84.4,
+    "away_score": 79.5,
+    "home_win_prob": 67.4,
+    "confidence": 58.1,
     "tempo": 70.7,
     "confidence_tier": "medium",
     "pick": {
@@ -2429,9 +2425,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": -0.2,
-    "total": 0.1,
-    "value_rating": 0.2,
+    "spread": -0.5,
+    "total": -0.6,
+    "value_rating": 0.5,
     "is_best_bet": false
    },
    "bet": {
@@ -2474,12 +2470,12 @@
    "broadcast": "CBSSN",
    "model": {
     "version": "4.1.0",
-    "spread_home": -31.8,
-    "total": 153.1,
-    "home_score": 92.5,
+    "spread_home": -31.6,
+    "total": 152.8,
+    "home_score": 92.2,
     "away_score": 60.6,
     "home_win_prob": 99.8,
-    "confidence": 64.7,
+    "confidence": 65.4,
     "tempo": 67.9,
     "confidence_tier": "medium",
     "pick": {
@@ -2497,9 +2493,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": -4.7,
-    "total": 6.6,
-    "value_rating": 4.7,
+    "spread": -4.9,
+    "total": 6.3,
+    "value_rating": 4.9,
     "is_best_bet": true
    },
    "bet": {
@@ -2543,12 +2539,12 @@
    "broadcast": "SEC Network",
    "model": {
     "version": "4.1.0",
-    "spread_home": -5.1,
-    "total": 156.3,
-    "home_score": 80.7,
-    "away_score": 75.6,
-    "home_win_prob": 68.0,
-    "confidence": 62.5,
+    "spread_home": -5.2,
+    "total": 155.9,
+    "home_score": 80.6,
+    "away_score": 75.3,
+    "home_win_prob": 68.3,
+    "confidence": 62.0,
     "tempo": 69.8,
     "confidence_tier": "medium",
     "pick": {
@@ -2566,9 +2562,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.4,
-    "total": -0.2,
-    "value_rating": 1.4,
+    "spread": -1.3,
+    "total": -0.6,
+    "value_rating": 1.3,
     "is_best_bet": false
    },
    "bet": {
@@ -2611,13 +2607,13 @@
    "broadcast": "FloSports",
    "model": {
     "version": "4.1.0",
-    "spread_home": 4.9,
-    "total": 140.5,
+    "spread_home": 5.3,
+    "total": 140.9,
     "home_score": 67.8,
-    "away_score": 72.7,
-    "home_win_prob": 32.9,
-    "confidence": 59.5,
-    "tempo": 68.4,
+    "away_score": 73.1,
+    "home_win_prob": 31.7,
+    "confidence": 57.0,
+    "tempo": 68.8,
     "confidence_tier": "medium",
     "pick": {
      "team": "Pacific Tigers",
@@ -2634,13 +2630,13 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.6,
-    "total": 2.0,
-    "value_rating": 0.6,
+    "spread": 0.2,
+    "total": 2.4,
+    "value_rating": 0.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "home",
+    "side": "none",
     "cover_line": -5.5
    },
    "result": null,
@@ -2680,12 +2676,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -13.8,
-    "total": 152.1,
-    "home_score": 83.0,
-    "away_score": 69.2,
+    "total": 151.7,
+    "home_score": 82.8,
+    "away_score": 69.0,
     "home_win_prob": 89.5,
     "confidence": 57.2,
-    "tempo": 67.7,
+    "tempo": 67.6,
     "confidence_tier": "medium",
     "pick": {
      "team": "Northwestern Wildcats",
@@ -2703,7 +2699,7 @@
    "closing": null,
    "edge": {
     "spread": 1.3,
-    "total": 4.6,
+    "total": 4.2,
     "value_rating": 1.3,
     "is_best_bet": false
    },
@@ -2746,12 +2742,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -9.5,
-    "total": 151.7,
-    "home_score": 80.6,
-    "away_score": 71.1,
-    "home_win_prob": 80.5,
-    "confidence": 65.1,
-    "tempo": 68.2,
+    "total": 151.3,
+    "home_score": 80.4,
+    "away_score": 70.9,
+    "home_win_prob": 80.6,
+    "confidence": 61.1,
+    "tempo": 68.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Washington State Cougars",
@@ -2760,22 +2756,22 @@
     }
    },
    "market": {
-    "spread_home": -11.5,
+    "spread_home": -10.5,
     "total": 148.5,
-    "favorite": "WSU -11.5",
+    "favorite": "WSU -10.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -2.0,
-    "total": 3.2,
-    "value_rating": 2.0,
+    "spread": -1.0,
+    "total": 2.8,
+    "value_rating": 1.0,
     "is_best_bet": false
    },
    "bet": {
     "side": "away",
-    "cover_line": 11.5
+    "cover_line": 10.5
    },
    "result": null,
    "tags": []
@@ -2811,13 +2807,13 @@
    "broadcast": "YouTube",
    "model": {
     "version": "4.1.0",
-    "spread_home": -5.1,
-    "total": 146.4,
-    "home_score": 75.7,
-    "away_score": 70.6,
-    "home_win_prob": 68.0,
-    "confidence": 60.4,
-    "tempo": 67.4,
+    "spread_home": -5.3,
+    "total": 146.0,
+    "home_score": 75.6,
+    "away_score": 70.3,
+    "home_win_prob": 68.5,
+    "confidence": 55.8,
+    "tempo": 67.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "North Texas Mean Green",
@@ -2826,22 +2822,22 @@
     }
    },
    "market": {
-    "spread_home": -6.5,
+    "spread_home": -5.5,
     "total": 142.5,
-    "favorite": "UNT -6.5",
+    "favorite": "UNT -5.5",
     "bookmaker": "espn",
     "captured_at": null
    },
    "closing": null,
    "edge": {
-    "spread": -1.4,
-    "total": 3.9,
-    "value_rating": 1.4,
+    "spread": -0.2,
+    "total": 3.5,
+    "value_rating": 0.2,
     "is_best_bet": false
    },
    "bet": {
-    "side": "away",
-    "cover_line": 6.5
+    "side": "none",
+    "cover_line": 5.5
    },
    "result": null,
    "tags": [
@@ -2880,9 +2876,9 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -4.5,
-    "total": 146.9,
-    "home_score": 75.7,
-    "away_score": 71.2,
+    "total": 146.6,
+    "home_score": 75.5,
+    "away_score": 71.0,
     "home_win_prob": 65.8,
     "confidence": 58.9,
     "tempo": 68.3,
@@ -2903,7 +2899,7 @@
    "closing": null,
    "edge": {
     "spread": 1.0,
-    "total": 4.4,
+    "total": 4.1,
     "value_rating": 1.0,
     "is_best_bet": false
    },
@@ -2945,13 +2941,13 @@
    "broadcast": "ESPNU",
    "model": {
     "version": "4.1.0",
-    "spread_home": 1.6,
-    "total": 163.5,
-    "home_score": 81.0,
-    "away_score": 82.5,
-    "home_win_prob": 44.3,
-    "confidence": 60.7,
-    "tempo": 73.4,
+    "spread_home": 0.1,
+    "total": 161.0,
+    "home_score": 80.5,
+    "away_score": 80.5,
+    "home_win_prob": 49.7,
+    "confidence": 65.7,
+    "tempo": 72.9,
     "confidence_tier": "medium",
     "pick": {
      "team": "Miami Hurricanes",
@@ -2968,9 +2964,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.9,
-    "total": -7.0,
-    "value_rating": 0.9,
+    "spread": 2.4,
+    "total": -9.5,
+    "value_rating": 2.4,
     "is_best_bet": false
    },
    "bet": {
@@ -3014,12 +3010,12 @@
    "model": {
     "version": "4.1.0",
     "spread_home": -3.6,
-    "total": 156.8,
-    "home_score": 80.2,
-    "away_score": 76.6,
-    "home_win_prob": 62.8,
-    "confidence": 56.4,
-    "tempo": 69.4,
+    "total": 156.3,
+    "home_score": 80.0,
+    "away_score": 76.4,
+    "home_win_prob": 62.7,
+    "confidence": 56.3,
+    "tempo": 69.3,
     "confidence_tier": "medium",
     "pick": {
      "team": "Kentucky Wildcats",
@@ -3037,7 +3033,7 @@
    "closing": null,
    "edge": {
     "spread": 0.1,
-    "total": 0.3,
+    "total": -0.2,
     "value_rating": 0.1,
     "is_best_bet": false
    },
@@ -3079,18 +3075,18 @@
    "broadcast": "ESPN",
    "model": {
     "version": "4.1.0",
-    "spread_home": -0.2,
-    "total": 149.7,
-    "home_score": 75.0,
-    "away_score": 74.8,
-    "home_win_prob": 50.8,
-    "confidence": 62.8,
+    "spread_home": 0.1,
+    "total": 146.3,
+    "home_score": 73.1,
+    "away_score": 73.2,
+    "home_win_prob": 49.6,
+    "confidence": 60.5,
     "tempo": 68.9,
     "confidence_tier": "medium",
     "pick": {
-     "team": "Louisville Cardinals",
-     "abbr": "LOU",
-     "side": "home"
+     "team": "Tennessee Volunteers",
+     "abbr": "TENN",
+     "side": "away"
     }
    },
    "market": {
@@ -3102,9 +3098,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": 1.7,
-    "total": 0.2,
-    "value_rating": 1.7,
+    "spread": 1.4,
+    "total": -3.2,
+    "value_rating": 1.4,
     "is_best_bet": false
    },
    "bet": {
@@ -3147,13 +3143,13 @@
    "broadcast": "FloSports",
    "model": {
     "version": "4.1.0",
-    "spread_home": 6.8,
-    "total": 146.2,
-    "home_score": 69.7,
-    "away_score": 76.5,
-    "home_win_prob": 26.7,
-    "confidence": 63.4,
-    "tempo": 66.6,
+    "spread_home": 7.2,
+    "total": 146.8,
+    "home_score": 69.8,
+    "away_score": 77.0,
+    "home_win_prob": 25.7,
+    "confidence": 63.8,
+    "tempo": 67.1,
     "confidence_tier": "medium",
     "pick": {
      "team": "Jacksonville State Gamecocks",
@@ -3170,9 +3166,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": -1.3,
-    "total": 1.7,
-    "value_rating": 1.3,
+    "spread": -1.7,
+    "total": 2.3,
+    "value_rating": 1.7,
     "is_best_bet": false
    },
    "bet": {
@@ -3215,13 +3211,13 @@
    "broadcast": "ESPN",
    "model": {
     "version": "4.1.0",
-    "spread_home": -5.9,
-    "total": 158.7,
-    "home_score": 82.3,
-    "away_score": 76.4,
-    "home_win_prob": 70.3,
-    "confidence": 57.5,
-    "tempo": 70.4,
+    "spread_home": -6.0,
+    "total": 158.4,
+    "home_score": 82.2,
+    "away_score": 76.2,
+    "home_win_prob": 70.7,
+    "confidence": 57.0,
+    "tempo": 70.2,
     "confidence_tier": "medium",
     "pick": {
      "team": "Gonzaga Bulldogs",
@@ -3238,9 +3234,9 @@
    },
    "closing": null,
    "edge": {
-    "spread": 0.4,
-    "total": -2.8,
-    "value_rating": 0.4,
+    "spread": 0.5,
+    "total": -3.1,
+    "value_rating": 0.5,
     "is_best_bet": false
    },
    "bet": {
@@ -3283,13 +3279,13 @@
    "broadcast": "ESPN2",
    "model": {
     "version": "4.1.0",
-    "spread_home": 6.2,
-    "total": 144.6,
-    "home_score": 69.2,
-    "away_score": 75.4,
-    "home_win_prob": 28.6,
-    "confidence": 47.0,
-    "tempo": 68.2,
+    "spread_home": 6.5,
+    "total": 146.7,
+    "home_score": 70.1,
+    "away_score": 76.6,
+    "home_win_prob": 27.7,
+    "confidence": 46.0,
+    "tempo": 68.5,
     "confidence_tier": "medium",
     "pick": {
      "team": "Texas Tech Red Raiders",
