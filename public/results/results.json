@@ -121876,26 +121876,230 @@
       "ou_result": "U",
       "model_ou_call": "U",
       "ou_model_correct": true
+    },
+    {
+      "game_id": "401926783",
+      "date": "2026-11-28T03:30Z",
+      "home_team": "Omaha Mavericks",
+      "away_team": "Jacksonville State Gamecocks",
+      "home_abbr": "OMA",
+      "away_abbr": "JXST",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-5",
+      "away_record": "4-4",
+      "home_location": "Omaha",
+      "away_location": "Jacksonville State",
+      "home_rating_team": "Nebraska Omaha",
+      "away_rating_team": "Jacksonville St.",
+      "home_adj_em": -13.3,
+      "away_adj_em": -3.02,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Resorts World Event Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "FloSports",
+      "predicted_spread": -6.8,
+      "predicted_total": 146.1,
+      "home_projected_score": 69.6,
+      "away_projected_score": 76.5,
+      "home_win_prob": 26.7,
+      "away_win_prob": 73.3,
+      "confidence": 63.4,
+      "pick": "Jacksonville State Gamecocks",
+      "pick_abbr": "JXST",
+      "is_home_pick": false,
+      "projected_tempo": 66.5,
+      "factors": {
+        "efficiency_margin": -6.84,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 5.5,
+        "over_under": 144.5,
+        "spread_holder": "JXST -5.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 1.3,
+      "model_vs_market": {
+        "spread_edge": 1.3,
+        "total_edge": 1.7
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": -5.5,
+      "clv": null,
+      "actual_home_score": 69,
+      "actual_away_score": 78,
+      "actual_margin": -9,
+      "actual_total": 147,
+      "actual_winner": "Jacksonville State Gamecocks",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401920544",
+      "date": "2026-11-28T04:00Z",
+      "home_team": "Gonzaga Bulldogs",
+      "away_team": "Creighton Bluejays",
+      "home_abbr": "GONZ",
+      "away_abbr": "CREI",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
+      "home_rank": 22,
+      "away_rank": 99,
+      "home_record": "5-1",
+      "away_record": "6-1",
+      "home_location": "Gonzaga",
+      "away_location": "Creighton",
+      "home_rating_team": "Gonzaga",
+      "away_rating_team": "Creighton",
+      "home_adj_em": 27.59,
+      "away_adj_em": 19.25,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "T-Mobile Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": 5.9,
+      "predicted_total": 158.6,
+      "home_projected_score": 82.2,
+      "away_projected_score": 76.4,
+      "home_win_prob": 70.3,
+      "away_win_prob": 29.7,
+      "confidence": 57.5,
+      "pick": "Gonzaga Bulldogs",
+      "pick_abbr": "GONZ",
+      "is_home_pick": true,
+      "projected_tempo": 70.4,
+      "factors": {
+        "efficiency_margin": 5.86,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -5.5,
+        "over_under": 161.5,
+        "spread_holder": "GONZ -5.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.4,
+      "model_vs_market": {
+        "spread_edge": 0.4,
+        "total_edge": -2.8
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 5.5,
+      "clv": null,
+      "actual_home_score": 89,
+      "actual_away_score": 97,
+      "actual_margin": -8,
+      "actual_total": 186,
+      "actual_winner": "Creighton Bluejays",
+      "model_correct_winner": false,
+      "ats_result": null,
+      "ou_result": "O",
+      "model_ou_call": "U",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920535",
+      "date": "2026-11-28T04:30Z",
+      "home_team": "Texas Tech Red Raiders",
+      "away_team": "San Diego State Aztecs",
+      "home_abbr": "TTU",
+      "away_abbr": "SDSU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+      "home_rank": 5,
+      "away_rank": 99,
+      "home_record": "6-1",
+      "away_record": "6-1",
+      "home_location": "Texas Tech",
+      "away_location": "San Diego State",
+      "home_rating_team": "Texas Tech",
+      "away_rating_team": "San Diego St.",
+      "home_adj_em": 24.58,
+      "away_adj_em": 15.46,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 6.2,
+      "predicted_total": 144.5,
+      "home_projected_score": 75.3,
+      "away_projected_score": 69.1,
+      "home_win_prob": 71.4,
+      "away_win_prob": 28.6,
+      "confidence": 66.1,
+      "pick": "Texas Tech Red Raiders",
+      "pick_abbr": "TTU",
+      "is_home_pick": true,
+      "projected_tempo": 68.1,
+      "factors": {
+        "efficiency_margin": 6.22,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -8.5,
+        "over_under": 142.5,
+        "spread_holder": "TTU -8.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 2.3,
+      "model_vs_market": {
+        "spread_edge": -2.3,
+        "total_edge": 2.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "away",
+      "cover_line": 8.5,
+      "clv": null,
+      "actual_home_score": 78,
+      "actual_away_score": 75,
+      "actual_margin": 3,
+      "actual_total": 153,
+      "actual_winner": "Texas Tech Red Raiders",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 1014,
-      "model_mae": 9.97,
-      "market_mae": 9.7,
-      "intercept": -0.63,
+      "n": 1017,
+      "model_mae": 9.96,
+      "market_mae": 9.69,
+      "intercept": -0.65,
       "model_weight": 0.11,
-      "market_weight": 0.906,
+      "market_weight": 0.907,
       "ats_by_edge": {
         "0-2": {
-          "w": 198,
+          "w": 199,
           "l": 139,
-          "pct": 58.8
+          "pct": 58.9
         },
         "2-4": {
-          "w": 148,
+          "w": 149,
           "l": 133,
-          "pct": 52.7
+          "pct": 52.8
         },
         "4-7": {
           "w": 96,
@@ -121932,25 +122136,25 @@
         "n": 0
       }
     },
-    "total_graded": 1032,
-    "ats_graded": 877,
+    "total_graded": 1035,
+    "ats_graded": 879,
     "ats": {
-      "w": 484,
+      "w": 486,
       "l": 393,
       "p": 0,
-      "pct": 55.2
+      "pct": 55.3
     },
     "su": {
-      "correct": 773,
-      "total": 1032,
+      "correct": 775,
+      "total": 1035,
       "pct": 74.9
     },
     "ou": {
-      "over": 486,
+      "over": 489,
       "under": 528,
       "push": 0,
-      "model_correct": 516,
-      "model_gradeable": 1014,
+      "model_correct": 518,
+      "model_gradeable": 1017,
       "model_pct": 50.9
     },
     "by_confidence": {
@@ -121961,10 +122165,10 @@
         "pct": 50.0
       },
       "medium": {
-        "w": 445,
+        "w": 447,
         "l": 354,
         "p": 0,
-        "pct": 55.7
+        "pct": 55.8
       },
       "low": {
         "w": 0,
@@ -121989,22 +122193,22 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1722,
+        "n": 1725,
         "model_mae": 10.34,
-        "market_mae": 9.38,
-        "intercept": -0.08,
+        "market_mae": 9.37,
+        "intercept": -0.09,
         "model_weight": -0.002,
-        "market_weight": 0.979,
+        "market_weight": 0.98,
         "ats_by_edge": {
           "0-2": {
-            "w": 312,
+            "w": 313,
             "l": 261,
             "pct": 54.5
           },
           "2-4": {
-            "w": 243,
+            "w": 244,
             "l": 213,
-            "pct": 53.3
+            "pct": 53.4
           },
           "4-7": {
             "w": 134,
@@ -122041,25 +122245,25 @@
           "n": 0
         }
       },
-      "total_graded": 1750,
-      "ats_graded": 1483,
+      "total_graded": 1753,
+      "ats_graded": 1485,
       "ats": {
-        "w": 792,
+        "w": 794,
         "l": 691,
         "p": 0,
-        "pct": 53.4
+        "pct": 53.5
       },
       "su": {
-        "correct": 1241,
-        "total": 1750,
+        "correct": 1243,
+        "total": 1753,
         "pct": 70.9
       },
       "ou": {
-        "over": 836,
+        "over": 839,
         "under": 886,
         "push": 0,
-        "model_correct": 873,
-        "model_gradeable": 1722,
+        "model_correct": 875,
+        "model_gradeable": 1725,
         "model_pct": 50.7
       },
       "by_confidence": {
@@ -122070,10 +122274,10 @@
           "pct": 49.1
         },
         "medium": {
-          "w": 612,
+          "w": 614,
           "l": 500,
           "p": 0,
-          "pct": 55.0
+          "pct": 55.1
         },
         "low": {
           "w": 41,
@@ -122096,5 +122300,5 @@
       }
     }
   },
-  "generated_at": "2026-11-27T23:53:59.629673-05:00"
+  "generated_at": "2026-11-28T03:23:48.677132-05:00"
 }
