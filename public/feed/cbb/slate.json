@@ -8,7 +8,7 @@
   "name": "courtside-edge",
   "version": "4.1.0"
  },
- "generated_at": "2026-11-27T20:17:03.413492-05:00",
+ "generated_at": "2026-11-27T21:32:15.687850-05:00",
  "season": 2027,
  "season_label": "2026-27",
  "slate_date": "2026-11-27",
@@ -2459,7 +2459,7 @@
    "game_id": "401921185",
    "game_id_source": "espn",
    "start_time": "2026-11-27T23:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Pennsylvania Quakers",
     "abbr": "PENN",
@@ -2512,7 +2512,19 @@
     "side": "home",
     "cover_line": 4.5
    },
-   "result": null,
+   "result": {
+    "home_score": 61,
+    "away_score": 72,
+    "margin_home": -11,
+    "total": 133,
+    "winner": "Towson Tigers",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -2525,7 +2537,7 @@
    "game_id": "401911380",
    "game_id_source": "espn",
    "start_time": "2026-11-28T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "East Tennessee State Buccaneers",
     "abbr": "ETSU",
@@ -2578,7 +2590,19 @@
     "side": "home",
     "cover_line": 10.5
    },
-   "result": null,
+   "result": {
+    "home_score": 67,
+    "away_score": 76,
+    "margin_home": -9,
+    "total": 143,
+    "winner": "Charleston Southern Buccaneers",
+    "su_correct": false,
+    "ats": "L",
+    "ou_call": "U",
+    "ou_result": "O",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": []
   },
   {
@@ -2591,7 +2615,7 @@
    "game_id": "401912711",
    "game_id_source": "espn",
    "start_time": "2026-11-28T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "North Carolina Tar Heels",
     "abbr": "UNC",
@@ -2644,7 +2668,19 @@
     "side": "home",
     "cover_line": -2.5
    },
-   "result": null,
+   "result": {
+    "home_score": 59,
+    "away_score": 72,
+    "margin_home": -13,
+    "total": 131,
+    "winner": "West Virginia Mountaineers",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -2659,7 +2695,7 @@
    "game_id": "401926756",
    "game_id_source": "espn",
    "start_time": "2026-11-28T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "UC Santa Barbara Gauchos",
     "abbr": "UCSB",
@@ -2712,7 +2748,19 @@
     "side": "away",
     "cover_line": 14.5
    },
-   "result": null,
+   "result": {
+    "home_score": 75,
+    "away_score": 43,
+    "margin_home": 32,
+    "total": 118,
+    "winner": "UC Santa Barbara Gauchos",
+    "su_correct": true,
+    "ats": "L",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value",
@@ -2729,7 +2777,7 @@
    "game_id": "401929284",
    "game_id_source": "espn",
    "start_time": "2026-11-28T00:00Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Georgia Bulldogs",
     "abbr": "UGA",
@@ -2782,7 +2830,19 @@
     "side": "none",
     "cover_line": 5.5
    },
-   "result": null,
+   "result": {
+    "home_score": 76,
+    "away_score": 88,
+    "margin_home": -12,
+    "total": 164,
+    "winner": "UCF Knights",
+    "su_correct": false,
+    "ats": null,
+    "ou_call": "U",
+    "ou_result": "U",
+    "ou_correct": true,
+    "clv": null
+   },
    "tags": [
     "tournament"
    ]
@@ -2797,7 +2857,7 @@
    "game_id": "401925703",
    "game_id_source": "espn",
    "start_time": "2026-11-28T00:30Z",
-   "status": "pending",
+   "status": "final",
    "home": {
     "name": "Houston Cougars",
     "abbr": "HOU",
@@ -2850,7 +2910,19 @@
     "side": "away",
     "cover_line": 36.5
    },
-   "result": null,
+   "result": {
+    "home_score": 77,
+    "away_score": 46,
+    "margin_home": 31,
+    "total": 123,
+    "winner": "Houston Cougars",
+    "su_correct": true,
+    "ats": "W",
+    "ou_call": "O",
+    "ou_result": "U",
+    "ou_correct": false,
+    "clv": null
+   },
    "tags": [
     "best_bet",
     "value"
