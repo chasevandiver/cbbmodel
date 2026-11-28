@@ -121538,6 +121538,74 @@
       "ou_model_correct": false
     },
     {
+      "game_id": "401925829",
+      "date": "2026-11-28T01:00Z",
+      "home_team": "North Texas Mean Green",
+      "away_team": "North Dakota State Bison",
+      "home_abbr": "UNT",
+      "away_abbr": "NDSU",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "3-2",
+      "away_record": "3-5",
+      "home_location": "North Texas",
+      "away_location": "North Dakota State",
+      "home_rating_team": "North Texas",
+      "away_rating_team": "North Dakota St.",
+      "home_adj_em": 2.94,
+      "away_adj_em": -4.68,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Mountain America Center",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "YouTube",
+      "predicted_spread": 5.1,
+      "predicted_total": 146.3,
+      "home_projected_score": 75.7,
+      "away_projected_score": 70.6,
+      "home_win_prob": 68.0,
+      "away_win_prob": 32.0,
+      "confidence": 56.5,
+      "pick": "North Texas Mean Green",
+      "pick_abbr": "UNT",
+      "is_home_pick": true,
+      "projected_tempo": 67.4,
+      "factors": {
+        "efficiency_margin": 5.13,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": -5.5,
+        "over_under": 142.5,
+        "spread_holder": "UNT -5.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.4,
+      "model_vs_market": {
+        "spread_edge": -0.4,
+        "total_edge": 3.8
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 5.5,
+      "clv": null,
+      "actual_home_score": 75,
+      "actual_away_score": 73,
+      "actual_margin": 2,
+      "actual_total": 148,
+      "actual_winner": "North Texas Mean Green",
+      "model_correct_winner": true,
+      "ats_result": null,
+      "ou_result": "O",
+      "model_ou_call": "O",
+      "ou_model_correct": true
+    },
+    {
       "game_id": "401928624",
       "date": "2026-11-28T01:00Z",
       "home_team": "Oral Roberts Golden Eagles",
@@ -121604,20 +121672,224 @@
       "ou_result": "U",
       "model_ou_call": "O",
       "ou_model_correct": false
+    },
+    {
+      "game_id": "401920543",
+      "date": "2026-11-28T01:30Z",
+      "home_team": "Alabama Crimson Tide",
+      "away_team": "Miami Hurricanes",
+      "home_abbr": "ALA",
+      "away_abbr": "MIA",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+      "home_rank": 15,
+      "away_rank": 17,
+      "home_record": "6-1",
+      "away_record": "6-2",
+      "home_location": "Alabama",
+      "away_location": "Miami",
+      "home_rating_team": "Alabama",
+      "away_rating_team": "Miami FL",
+      "home_adj_em": 21.01,
+      "away_adj_em": 23.17,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "T-Mobile Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPNU",
+      "predicted_spread": -1.6,
+      "predicted_total": 163.4,
+      "home_projected_score": 80.9,
+      "away_projected_score": 82.5,
+      "home_win_prob": 44.3,
+      "away_win_prob": 55.7,
+      "confidence": 60.7,
+      "pick": "Miami Hurricanes",
+      "pick_abbr": "MIA",
+      "is_home_pick": false,
+      "projected_tempo": 73.4,
+      "factors": {
+        "efficiency_margin": -1.58,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 2.5,
+        "over_under": 170.5,
+        "spread_holder": "MIA -2.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.9,
+      "model_vs_market": {
+        "spread_edge": -0.9,
+        "total_edge": -7.0
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -2.5,
+      "clv": null,
+      "actual_home_score": 81,
+      "actual_away_score": 87,
+      "actual_margin": -6,
+      "actual_total": 168,
+      "actual_winner": "Miami Hurricanes",
+      "model_correct_winner": true,
+      "ats_result": "L",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
+    },
+    {
+      "game_id": "401919033",
+      "date": "2026-11-28T02:00Z",
+      "home_team": "Kentucky Wildcats",
+      "away_team": "Wichita State Shockers",
+      "home_abbr": "UK",
+      "away_abbr": "WICH",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2724.png",
+      "home_rank": 99,
+      "away_rank": 99,
+      "home_record": "4-2",
+      "away_record": "6-1",
+      "home_location": "Kentucky",
+      "away_location": "Wichita State",
+      "home_rating_team": "Kentucky",
+      "away_rating_team": "Wichita St.",
+      "home_adj_em": 13.22,
+      "away_adj_em": 14.39,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Rupp Arena",
+      "neutral_site": false,
+      "conference_game": false,
+      "broadcast": "ESPN2",
+      "predicted_spread": 3.6,
+      "predicted_total": 156.7,
+      "home_projected_score": 80.2,
+      "away_projected_score": 76.5,
+      "home_win_prob": 62.9,
+      "away_win_prob": 37.1,
+      "confidence": 56.4,
+      "pick": "Kentucky Wildcats",
+      "pick_abbr": "UK",
+      "is_home_pick": true,
+      "projected_tempo": 69.3,
+      "factors": {
+        "efficiency_margin": -0.81,
+        "home_court": 4.42
+      },
+      "market": {
+        "spread": -3.5,
+        "over_under": 156.5,
+        "spread_holder": "UK -3.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 0.1,
+      "model_vs_market": {
+        "spread_edge": 0.1,
+        "total_edge": 0.3
+      },
+      "is_best_bet": false,
+      "is_tournament_game": false,
+      "graded": true,
+      "bet_side": "none",
+      "cover_line": 3.5,
+      "clv": null,
+      "actual_home_score": 71,
+      "actual_away_score": 73,
+      "actual_margin": -2,
+      "actual_total": 144,
+      "actual_winner": "Wichita State Shockers",
+      "model_correct_winner": false,
+      "ats_result": null,
+      "ou_result": "U",
+      "model_ou_call": "O",
+      "ou_model_correct": false
+    },
+    {
+      "game_id": "401920534",
+      "date": "2026-11-28T02:00Z",
+      "home_team": "Louisville Cardinals",
+      "away_team": "Tennessee Volunteers",
+      "home_abbr": "LOU",
+      "away_abbr": "TENN",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+      "home_rank": 25,
+      "away_rank": 9,
+      "home_record": "5-1",
+      "away_record": "7-0",
+      "home_location": "Louisville",
+      "away_location": "Tennessee",
+      "home_rating_team": "Louisville",
+      "away_rating_team": "Tennessee",
+      "home_adj_em": 23.26,
+      "away_adj_em": 22.96,
+      "home_rest_days": null,
+      "away_rest_days": null,
+      "venue": "Michelob ULTRA Arena",
+      "neutral_site": true,
+      "conference_game": false,
+      "broadcast": "ESPN",
+      "predicted_spread": 0.2,
+      "predicted_total": 149.6,
+      "home_projected_score": 74.9,
+      "away_projected_score": 74.7,
+      "home_win_prob": 50.7,
+      "away_win_prob": 49.3,
+      "confidence": 62.8,
+      "pick": "Louisville Cardinals",
+      "pick_abbr": "LOU",
+      "is_home_pick": true,
+      "projected_tempo": 68.8,
+      "factors": {
+        "efficiency_margin": 0.21,
+        "home_court": 0.0
+      },
+      "market": {
+        "spread": 1.5,
+        "over_under": 150.5,
+        "spread_holder": "TENN -1.5",
+        "bookmaker": "espn"
+      },
+      "value_rating": 1.7,
+      "model_vs_market": {
+        "spread_edge": 1.7,
+        "total_edge": -0.8
+      },
+      "is_best_bet": false,
+      "is_tournament_game": true,
+      "graded": true,
+      "bet_side": "home",
+      "cover_line": -1.5,
+      "clv": null,
+      "actual_home_score": 84,
+      "actual_away_score": 64,
+      "actual_margin": 20,
+      "actual_total": 148,
+      "actual_winner": "Louisville Cardinals",
+      "model_correct_winner": true,
+      "ats_result": "W",
+      "ou_result": "U",
+      "model_ou_call": "U",
+      "ou_model_correct": true
     }
   ],
   "summary": {
     "calibration": {
-      "n": 1010,
+      "n": 1014,
       "model_mae": 9.97,
       "market_mae": 9.7,
-      "intercept": -0.65,
-      "model_weight": 0.107,
-      "market_weight": 0.909,
+      "intercept": -0.63,
+      "model_weight": 0.11,
+      "market_weight": 0.906,
       "ats_by_edge": {
         "0-2": {
-          "w": 197,
-          "l": 138,
+          "w": 198,
+          "l": 139,
           "pct": 58.8
         },
         "2-4": {
@@ -121660,26 +121932,26 @@
         "n": 0
       }
     },
-    "total_graded": 1028,
-    "ats_graded": 875,
+    "total_graded": 1032,
+    "ats_graded": 877,
     "ats": {
-      "w": 483,
-      "l": 392,
+      "w": 484,
+      "l": 393,
       "p": 0,
       "pct": 55.2
     },
     "su": {
-      "correct": 770,
-      "total": 1028,
+      "correct": 773,
+      "total": 1032,
       "pct": 74.9
     },
     "ou": {
-      "over": 485,
-      "under": 525,
+      "over": 486,
+      "under": 528,
       "push": 0,
-      "model_correct": 513,
-      "model_gradeable": 1010,
-      "model_pct": 50.8
+      "model_correct": 516,
+      "model_gradeable": 1014,
+      "model_pct": 50.9
     },
     "by_confidence": {
       "high": {
@@ -121689,8 +121961,8 @@
         "pct": 50.0
       },
       "medium": {
-        "w": 444,
-        "l": 353,
+        "w": 445,
+        "l": 354,
         "p": 0,
         "pct": 55.7
       },
@@ -121717,16 +121989,16 @@
     "season_label": "2026-27",
     "all_time": {
       "calibration": {
-        "n": 1718,
-        "model_mae": 10.35,
+        "n": 1722,
+        "model_mae": 10.34,
         "market_mae": 9.38,
-        "intercept": -0.09,
+        "intercept": -0.08,
         "model_weight": -0.002,
-        "market_weight": 0.98,
+        "market_weight": 0.979,
         "ats_by_edge": {
           "0-2": {
-            "w": 311,
-            "l": 260,
+            "w": 312,
+            "l": 261,
             "pct": 54.5
           },
           "2-4": {
@@ -121769,26 +122041,26 @@
           "n": 0
         }
       },
-      "total_graded": 1746,
-      "ats_graded": 1481,
+      "total_graded": 1750,
+      "ats_graded": 1483,
       "ats": {
-        "w": 791,
-        "l": 690,
+        "w": 792,
+        "l": 691,
         "p": 0,
         "pct": 53.4
       },
       "su": {
-        "correct": 1238,
-        "total": 1746,
+        "correct": 1241,
+        "total": 1750,
         "pct": 70.9
       },
       "ou": {
-        "over": 835,
-        "under": 883,
+        "over": 836,
+        "under": 886,
         "push": 0,
-        "model_correct": 870,
-        "model_gradeable": 1718,
-        "model_pct": 50.6
+        "model_correct": 873,
+        "model_gradeable": 1722,
+        "model_pct": 50.7
       },
       "by_confidence": {
         "high": {
@@ -121798,8 +122070,8 @@
           "pct": 49.1
         },
         "medium": {
-          "w": 611,
-          "l": 499,
+          "w": 612,
+          "l": 500,
           "p": 0,
           "pct": 55.0
         },
@@ -121824,5 +122096,5 @@
       }
     }
   },
-  "generated_at": "2026-11-27T22:37:45.985907-05:00"
+  "generated_at": "2026-11-27T23:53:59.629673-05:00"
 }
